@@ -1,4 +1,4 @@
-{
+﻿{
     "version": 1,
     "updated_at": "2026-01-11",
     "games": [
@@ -16,8 +16,8 @@
           "value": "https://game.shelter.net.cn/manosaba/"
         },
         "assets": {
-          "cover": "/game/background/Still_001_001.png",
-          "icon": "/icons/icon-512.png"
+          "cover": "/game/background/Still_001_001.webp",
+          "icon": "/icons/icon-512.webp"
         },
         "tags": ["webgal", "visual-novel", "magic", "demo"],
         "author": "东山燃灯"

@@ -1,7 +1,7 @@
 Game_name:1.2;
 Game_key:0f87dstRg;
-Title_img:Still_001_001.png;
+Title_img:Still_001_001.webp;
 Title_bgm:s_Title.mp3;
-Game_Logo:Still_002_001(1).png;
+Game_Logo:Still_002_001(1).webp;
 Enable_Appreciation:true;
 Default_Language:zh_CN;
