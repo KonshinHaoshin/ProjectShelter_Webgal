@@ -1,0 +1,6 @@
+Game_name:无人区;
+Game_key:0f87dstRg;
+Title_img:Z/Z1/Z100.webp;
+Title_bgm:BGM01.mp3;
+Game_Logo:;
+Show_panic:true;

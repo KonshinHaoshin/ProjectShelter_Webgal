@@ -1,0 +1,14 @@
+setVar:SKK=丰川祥子;
+setVar:AN=千早爱音;
+setVar:YN=祐天寺若麦;
+setVar:TK=椎名立希;
+setVar:UK=三角初华;
+setVar:MH=三角初音;
+setVar:MN=纯田真奈;
+setVar:UMR=八幡海铃;
+setVar:SY=长崎素世;
+setVar:MTM=若叶睦;
+setVar:MTS=Mortis;
+setVar:TMR=高松灯;
+setVar:RN=要乐奈;
+choose:第一章:mjknmz_1.txt

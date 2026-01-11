@@ -21,7 +21,28 @@
         },
         "tags": ["webgal", "visual-novel", "magic", "demo"],
         "author": "东山燃灯"
+      },
+      {
+        "id":"MJKNMZ",
+        "name": "MJKNMZ",
+        "display_name": "无人区",
+        "engine": "webgal",
+        "engine_version": "mygo",
+        "description": "对宁浩《无人区》的拙劣模仿。本作对剧情有大量改动，不用担心与《无人区》原作之间的交叉剧透。角色行为与观点不代表作者立场",
+        "release_date": "2026-01-11",
+        "status": "completed",
+        "entry": {
+          "type": "url",
+          "value": "https://game.shelter.net.cn/MJKNMZ/"
+        },
+        "assets": {
+          "cover": "/game/background/wurenqu.webp",
+          "icon": "/icons/icon-512.webp"
+        },
+        "tags": ["webgal", "visual-novel", "mygo", "demo"],
+        "author": "十九万两千一百九十七"
       }
     ]
   }
   
+

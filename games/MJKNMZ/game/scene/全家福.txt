@@ -1,0 +1,15 @@
+
+changeBg:Z/Z2/Z208.webp -next;
+changeFigure:nyamu/bandit_nyamu/model.json -id=nyamu -transform={"position":{"x":-600,"y":-200},"scale":{"x":0.8,"y":0.8}} -next -motion=nyamu_smile01 -expression=rana_smile02;
+changeFigure:anon/lawyer/model.json -id=taki -transform={"position":{"x":-220,"y":-300},"scale":{"x":0.8,"y":0.8}} -next -motion=taki_angry01 -expression=taki_serious01;
+changeFigure:sakiko/exile/model.json -id=sakiko -transform={"position":{"x":200,"y":-380},"scale":{"x":0.8,"y":0.8}} -next -motion=sakiko_sad01 -expression=sakiko_sad01;
+changeFigure:umiri/hunter/model.json -id=umiri -transform={"position":{"x":600,"y":-300},"scale":{"x":0.8,"y":0.8}} -next -motion=umiri_serious01 -expression=umiri_angry01;
+changeFigure:taki/sheriff/model.json -id=anon -transform={"position":{"x":1000,"y":-200},"scale":{"x":0.8,"y":0.8}} -next -motion=anon_angry01 -expression=taki_serious01;
+changeFigure:mutsumi/gangster/model.json -id=mutsumi -transform={"position":{"x":200,"y":300},"scale":{"x":0.7,"y":0.7}} -next -motion=mutsumi_nnf_right01 -expression=mutsumi_surprised01;
+changeFigure:tomori/casual/model.json -id=tomori -transform={"position":{"x":900,"y":300},"scale":{"x":0.7,"y":0.7}} -next -motion=tomori_surprised01 -expression=tomori_surprised01;
+changeFigure:soyo/boss/model.json -id=soyo -transform={"position":{"x":400,"y":100},"scale":{"x":0.8,"y":0.8}} -next -motion=mutsumi_nnf05 -expression=anon_angry03;
+changeFigure:uika/outlaw/model.json -id=uika -transform={"position":{"x":-300,"y":140},"scale":{"x":0.8,"y":0.8}} -next -motion=uika_nf01 -expression=umiri_smile01;
+changeFigure:mana/outlaw/model.json -id=mana -transform={"position":{"x":-700,"y":180},"scale":{"x":0.8,"y":0.8}} -next -motion=anon_angry04 -expression=mana_angry01;
+changeFigure:rana/smuggler/model.json -id=rana -transform={"position":{"x":1200,"y":180},"scale":{"x":0.8,"y":0.8}} -next -motion=anon_smile03 -expression=rana_smile02;
+setTransform:{"position":{"x":500,"y":-200},"scale":{"x":0.8,"y":0.8}} -target=fig-left -duration=600 -next;
+setTransform:{"position":{"x":200,"y":-200},"scale":{"x":0.8,"y":0.8}} -target=fig-right -duration=600 -next;

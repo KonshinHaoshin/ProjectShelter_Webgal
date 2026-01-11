@@ -1,0 +1,158 @@
+.TextBox_main {
+z-index: 3;
+position: absolute;
+right: 320px;
+left: 320px;
+min-height: 310px;
+max-height: 310px;
+background-blend-mode: darken;
+border-radius: 40px 40px 40px 40px;
+bottom: 80px;
+font-weight: 700;
+color: #fff;
+padding: 15px 50px 10px 75px;
+box-sizing: border-box;
+display: flex;
+flex-flow: column;
+align-items: flex-start;
+letter-spacing: 0.2em;
+transition: left 0.33s;
+box-shadow: 0px 0px 15px #5f5c5b80;
+}
+
+.TextBox_main_miniavatarOff {
+left: 300px;
+}
+
+.TextBox_Background {
+z-index: 2;
+background: linear-gradient(rgba(245,247,250,.95) 0%,rgba(255,255,255,.87) 100%);
+}
+
+.TextBox_textElement_start {
+position: relative;
+animation: TextDelayShow 1000ms ease-out forwards;
+opacity: 0;
+}
+
+.outer {
+position: absolute;
+white-space: nowrap;
+left: 0;
+top: 20px;
+background: rgb(36, 36, 36);
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+z-index: 1;
+
+}
+
+.inner {
+white-space: nowrap;
+position: absolute;
+left: 0;
+top: 0;
+-webkit-text-stroke: 0px rgb(255, 255, 255);
+z-index: 1;
+}
+
+.zhanwei {
+color: transparent;
+white-space: nowrap;
+}
+
+.TextBox_textElement_Settled {
+position: relative;
+opacity: 1;
+}
+
+.TextBox_showName {
+font-size: 55%;
+padding: 40px 4em;
+position: absolute;
+left: 0px;
+top: -80px;
+height: 100px;
+line-height: 68px;
+border-radius: 50px 0px 0px 50px;
+z-index: 2;
+border: 0px solid rgba(255, 255, 255, 0);
+}
+
+.TextBox_ShowName_Background {
+z-index: 2;
+background: rgb(255, 59, 114);
+border: 3px solid rgba(255, 255, 255, 1);
+box-shadow: 0px 0px 0px #64646480;
+}
+
+.miniAvatarContainer {
+position: absolute;
+height: 450px;
+width: 450px;
+bottom: 0;
+left: -250px;
+border-radius: 0 0 0 0;
+overflow: hidden;
+}
+
+.miniAvatarImg {
+max-height: 100%;
+max-width: 100%;
+position: absolute;
+bottom: 0;
+filter: drop-shadow(15px 0 3px rgba(0, 0, 0, 0.5));
+}
+
+.nameContainer {
+position: absolute;
+left: 2em;
+top: 0em;
+}
+
+.outerName {
+position: absolute;
+font-family: 汉仪正圆;
+font-size: 95%;
+left: -3em;
+top: -25px;
+background: rgb(255, 255, 255);
+background-clip: text;
+-webkit-background-clip: text;
+color: rgb(255, 255, 255);
+z-index: 3;
+}
+
+.innerName {
+position: absolute;
+left: 0;
+top: 0;
+z-index: 1;
+color: transparent;
+}
+
+.text {
+line-height: 1.9em;
+overflow: hidden;
+font-family: "汉仪正圆", serif;
+}
+
+@keyframes showSoftly {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes TextDelayShow {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

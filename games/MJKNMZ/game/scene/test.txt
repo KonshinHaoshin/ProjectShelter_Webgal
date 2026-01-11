@@ -1,0 +1,5 @@
+
+changeBg:Z/Z11/_Z1100.png -next;
+changeFigure:anon/lawyerC/model.json -id=anon -next -motion=anon_surprised01 -expression=anon_surprised01 -transform={"position":{"x":754.574,"y":-200.000 },"scale":{"x":0.800,"y":0.800 },"rotation":0.000 };
+changeFigure:sakiko/exileC/model.json -id=sakiko -next -motion=sakiko_smile03 -expression=sakiko_smile01 -transform={"position":{"x":1185.378,"y":-200.000 },"scale":{"x":0.800,"y":0.800 },"rotation":0.000 };
+playEffect:SE_Tense.mp3 -volume=100;
