@@ -1,0 +1,27 @@
+{
+    "version": 1,
+    "updated_at": "2026-01-11",
+    "games": [
+      {
+        "id": "manosaba-1.2",
+        "name": "Mano Saba",
+        "display_name": "魔裁 WebGAL 1.2 演示",
+        "engine": "webgal",
+        "engine_version": "1.2",
+        "description": "基于 WebGAL 引擎 1.2 的魔法裁判题材视觉小说演示版本。",
+        "release_date": "2026-01-10",
+        "status": "demo",
+        "entry": {
+          "type": "url",
+          "value": "https://game.shelter.net.cn/manosaba/"
+        },
+        "assets": {
+          "cover": "/game/background/Still_001_001.png",
+          "icon": "/icons/icon-512.png"
+        },
+        "tags": ["webgal", "visual-novel", "magic", "demo"],
+        "author": "东山燃灯"
+      }
+    ]
+  }
+  
