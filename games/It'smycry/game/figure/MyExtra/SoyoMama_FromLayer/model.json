@@ -1,0 +1,246 @@
+{
+    "version": "Sample 1.0.0",
+    "layout": {
+        "center_x": 0,
+        "center_y": 0,
+        "width": 2
+    },
+    "hit_areas_custom": {
+        "head_x": [
+            -0.25,
+            1
+        ],
+        "head_y": [
+            0.25,
+            0.2
+        ],
+        "body_x": [
+            -0.3,
+            0.2
+        ],
+        "body_y": [
+            0.3,
+            -1.9
+        ]
+    },
+    "model": "live2d/chara/layer_event187.moc",
+    "physics": "live2d/chara/layer_event187.physics.json",
+    "textures": [
+        "live2d/chara/texture_00.png",
+        "live2d/chara/texture_01.png"
+    ],
+    "motions": {
+        "angry01": [
+            {
+                "file": "live2d/chara/angry01.mtn"
+            }
+        ],
+        "cry01": [
+            {
+                "file": "live2d/chara/cry01.mtn"
+            }
+        ],
+        "gacha01": [
+            {
+                "file": "live2d/chara/gacha01.mtn"
+            }
+        ],
+        "idle01": [
+            {
+                "file": "live2d/chara/idle01.mtn"
+            }
+        ],
+        "kime01": [
+            {
+                "file": "live2d/chara/kime01.mtn"
+            }
+        ],
+        "kime01_ingameV2": [
+            {
+                "file": "live2d/chara/kime01_ingameV2.mtn"
+            }
+        ],
+        "mitrore01": [
+            {
+                "file": "live2d/chara/mitrore01.mtn"
+            }
+        ],
+        "nf01": [
+            {
+                "file": "live2d/chara/nf01.mtn"
+            }
+        ],
+        "nf02": [
+            {
+                "file": "live2d/chara/nf02.mtn"
+            }
+        ],
+        "nf03": [
+            {
+                "file": "live2d/chara/nf03.mtn"
+            }
+        ],
+        "nf04": [
+            {
+                "file": "live2d/chara/nf04.mtn"
+            }
+        ],
+        "nf05": [
+            {
+                "file": "live2d/chara/nf05.mtn"
+            }
+        ],
+        "nf_left01": [
+            {
+                "file": "live2d/chara/nf_left01.mtn"
+            }
+        ],
+        "nf_right01": [
+            {
+                "file": "live2d/chara/nf_right01.mtn"
+            }
+        ],
+        "nnf01": [
+            {
+                "file": "live2d/chara/nnf01.mtn"
+            }
+        ],
+        "nnf02": [
+            {
+                "file": "live2d/chara/nnf02.mtn"
+            }
+        ],
+        "nnf03": [
+            {
+                "file": "live2d/chara/nnf03.mtn"
+            }
+        ],
+        "nnf04": [
+            {
+                "file": "live2d/chara/nnf04.mtn"
+            }
+        ],
+        "nnf05": [
+            {
+                "file": "live2d/chara/nnf05.mtn"
+            }
+        ],
+        "nnf_left01": [
+            {
+                "file": "live2d/chara/nnf_left01.mtn"
+            }
+        ],
+        "nnf_right01": [
+            {
+                "file": "live2d/chara/nnf_right01.mtn"
+            }
+        ],
+        "sad01": [
+            {
+                "file": "live2d/chara/sad01.mtn"
+            }
+        ],
+        "serious01": [
+            {
+                "file": "live2d/chara/serious01.mtn"
+            }
+        ],
+        "shame01": [
+            {
+                "file": "live2d/chara/shame01.mtn"
+            }
+        ],
+        "sing01": [
+            {
+                "file": "live2d/chara/sing01.mtn"
+            }
+        ],
+        "smile01": [
+            {
+                "file": "live2d/chara/smile01.mtn"
+            }
+        ],
+        "smile02": [
+            {
+                "file": "live2d/chara/smile02.mtn"
+            }
+        ],
+        "smile03": [
+            {
+                "file": "live2d/chara/smile03.mtn"
+            }
+        ],
+        "surprised01": [
+            {
+                "file": "live2d/chara/surprised01.mtn"
+            }
+        ],
+        "smile_soyo02": [
+            {
+                "file": "live2d/chara/smile_soyo02.mtn"
+            }
+        ]
+    },
+    "expressions": [
+        {
+            "name": "angry01",
+            "file": "live2d/chara/angry01.exp.json"
+        },
+        {
+            "name": "cry01",
+            "file": "live2d/chara/cry01.exp.json"
+        },
+        {
+            "name": "default",
+            "file": "live2d/chara/default.exp.json"
+        },
+        {
+            "name": "idle01",
+            "file": "live2d/chara/idle01.exp.json"
+        },
+        {
+            "name": "kime01",
+            "file": "live2d/chara/kime01.exp.json"
+        },
+        {
+            "name": "sad01",
+            "file": "live2d/chara/sad01.exp.json"
+        },
+        {
+            "name": "serious01",
+            "file": "live2d/chara/serious01.exp.json"
+        },
+        {
+            "name": "smile01",
+            "file": "live2d/chara/smile01.exp.json"
+        },
+        {
+            "name": "smile02",
+            "file": "live2d/chara/smile02.exp.json"
+        },
+        {
+            "name": "smile03",
+            "file": "live2d/chara/smile03.exp.json"
+        },
+        {
+            "name": "smile04",
+            "file": "live2d/chara/smile04.exp.json"
+        },
+        {
+            "name": "surprised01",
+            "file": "live2d/chara/surprised01.exp.json"
+        },
+        {
+            "name": "smile_soyo02",
+            "file": "live2d/chara/smile_soyo02.exp.json"
+        },
+        {
+            "name": "serious02_sakiko",
+            "file": "live2d/chara/serious02_sakiko.exp.json"
+        },
+        {
+            "name": "surprised02_sakiko",
+            "file": "live2d/chara/surprised02_sakiko.exp.json"
+        }
+    ]
+}

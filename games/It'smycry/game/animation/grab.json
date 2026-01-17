@@ -1,0 +1,25 @@
+[
+  {
+    "duration": 0
+  },
+  {
+    "position":{"x":-100,"y":-50},"scale":{"x":1.2,"y":1.2},"alpha":1,
+    "duration": 100
+  },
+  {
+    "position":{"x":100,"y":50},"scale":{"x":1.15,"y":1.15},"alpha":1,
+    "duration": 100
+  },
+  {
+    "position":{"x":-150,"y":-75},"scale":{"x":1.25,"y":1.25},"alpha":1,
+    "duration": 100
+  },
+  {
+    "position":{"x":0,"y":0},"scale":{"x":1,"y":1},
+    "duration": 500
+  },
+  {
+    "position":{"x":-25,"y":-12},"scale":{"x":1.05,"y":1.05},
+    "duration": 100
+  }
+]

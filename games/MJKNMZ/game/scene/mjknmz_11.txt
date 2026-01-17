@@ -1,4 +1,3 @@
-changeBg:Z/Disclaimer.webp;
 :;
 :;
 changeBg:Z/Blackout.webp -next;

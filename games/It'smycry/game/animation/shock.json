@@ -1,0 +1,21 @@
+[
+  {
+    "alpha":1,
+    "duration": 0
+  },
+  {
+    "alpha":4,
+    "scale":{"x":2.4, "y":2.4},
+    "duration": 50
+  },
+  {
+    "alpha":0.7,
+    "scale":{"x":2.4, "y":2.4},
+    "duration": 50
+  },
+  {
+    "alpha":0,
+    "scale":{"x":5, "y":5},
+    "duration": 1000
+  }
+]

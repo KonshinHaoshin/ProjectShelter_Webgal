@@ -1,0 +1,18 @@
+[
+  {
+    "position":{"x":500,"y":1000},"scale":{"x":0.8,"y":0.8},
+    "duration": 0
+  },
+  {
+    "position":{"x":500,"y":1000},"scale":{"x":0.8,"y":0.8},
+    "duration": 100
+  },
+  {
+    "position":{"x":500,"y":150},"scale":{"x":0.8,"y":0.8},
+    "duration": 100
+  },
+  {
+    "position":{"x":500,"y":200},"scale":{"x":0.8,"y":0.8},
+    "duration": 300
+  }
+]

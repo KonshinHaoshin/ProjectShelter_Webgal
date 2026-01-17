@@ -1,0 +1,8 @@
+Game_name:长期溯事;
+Game_key:1eaadab4e5777d2;
+Title_img:danzhu_1.png;
+Title_bgm:s_Title.mp3;
+Game_Logo:;
+Textbox_theme:imss;
+Package_name:;
+Description:;

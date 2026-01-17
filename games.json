@@ -41,6 +41,26 @@
         },
         "tags": ["webgal", "visual-novel", "mygo", "demo"],
         "author": "十九万两千一百九十七"
+      },
+      {
+        "id":"It'smycry",
+        "name": "It'smycry",
+        "display_name": "It's my cry",
+        "engine": "webgal",
+        "engine_version": "mygo",
+        "description": "一个关于假如素世能够回到过去的故事",
+        "release_date": "2026-01-17",
+        "status": "completed",
+        "entry": {
+          "type": "url",
+          "value": "https://game.shelter.net.cn/It'smycry/"
+        },
+        "assets": {
+          "cover": "/game/background/danzhu_1.png",
+          "icon": "/icons/icon-512.webp"
+        },
+        "tags": ["webgal", "visual-novel", "mygo", "demo"],
+        "author": "马喽马"
       }
     ]
   }

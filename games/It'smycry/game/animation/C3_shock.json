@@ -1,0 +1,46 @@
+[
+  {
+    "position":{
+      "y":2000
+    },
+    "scale":{
+      "x":1.6,
+      "y":1.6
+    },
+    "alpha":1,
+    "duration": 0
+  },  
+  {
+    "position": {
+      "y": 1400
+    },
+    "scale": {
+      "x": 1.2,
+      "y": 1.2
+    },
+    "alpha": 1,
+    "duration": 200
+  },
+  {
+    "position": {
+      "y": 1200
+    },
+    "scale": {
+      "x": 1.2,
+      "y": 1.2
+    },
+    "alpha": 1,
+    "duration": 100
+  },
+  {
+    "position": {
+      "y": 1150
+    },
+    "scale": {
+      "x": 1.2,
+      "y": 1.2
+    },
+    "alpha": 1,
+    "duration": 50
+  }
+]

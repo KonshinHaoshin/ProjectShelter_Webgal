@@ -1,0 +1,46 @@
+[
+  {
+    "position":{"x":1200,"y":0},
+    "duration": 0
+  },
+  {
+    "position":{"x":1200,"y":0}, "scale":{"x":1.2,"y":1.2},
+    "duration": 200
+  },
+  {
+    "position":{"x":1200,"y":0},"scale":{"x":1.2,"y":1.2},
+    "duration": 763
+  },
+
+  {
+    "position":{"x":1600,"y":0},"scale":{"x":1.4,"y":1.4},
+    "duration": 200
+  },
+  {
+    "position":{"x":1600,"y":0},"scale":{"x":1.4,"y":1.4},
+    "duration": 750
+  },
+
+  {
+    "position":{"x":1400,"y":0},"scale":{"x":1.6,"y":1.6},
+    "duration": 200
+  },
+  {
+    "position":{"x":1400,"y":0},"scale":{"x":1.6,"y":1.6},
+    "duration": 750
+  },
+
+  {
+    "position":{"x":1800,"y":0},"scale":{"x":1.8,"y":1.8},
+    "duration": 200
+  },
+  {
+    "position":{"x":1800,"y":0},"scale":{"x":1.8,"y":1.8},
+    "duration": 300
+  },
+  
+  {
+    "position":{"x":1600,"y":-600},"scale":{"x":2,"y":2},"alpha":0,
+    "duration": 300
+  }
+]

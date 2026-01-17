@@ -167,7 +167,7 @@ playEffect:SE_Paper.mp3 -volume=30;
 :嘴上虽然在抱怨，但是两人还是乖乖地从钱夹里数出了十张[福泽谕吉](万元钞)，递给了{SY}。;
 :毕竟能在这片无人区里给她们这些响马提供车辆维修与销赃服务的也就她一家了，表面上的客气还是要维持的。;
 changeFigure: -left -next;
-changeBg:Z/ZCUK.webp-next;
+changeBg:Z/ZCUK.webp -next;
 setTransform:{"position":{"x":-200,"y":-200},"scale":{"x":0.8,"y":0.8}} -target=fig-center -duration=250 -next;
 :随后，两人坐上了被维修一新的SUV。;
 changeFigure:uika/outlaw/model.json -next -motion=anon_smile02 -expression=taki_smile01;
