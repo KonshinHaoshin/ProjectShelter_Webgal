@@ -17,7 +17,8 @@ changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -next -motion
 changeFigure: -next;
 :但在旁人眼中，她就表现得有些容易魂不守舍、时不时还发出傻乎乎的笑声——至少高松灯看到的是这么一回事。 -fontSize=default;
 changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -right -transform={"position":{"y":-100},"scale":{"x":0.9,"y":0.9}} -next;
-changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -left -transform={"position":{"x":-50,"y":-100},"scale":{"x":0.9,"y":0.9}} -next -motion=thinking01 -expression=kime01;changeBg:bg00204.webp  -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -left -transform={"position":{"x":-50,"y":-100},"scale":{"x":0.9,"y":0.9}} -next -motion=thinking01 -expression=kime01;
+changeBg:bg00204.webp  -next;
 灯:真的……没事？ -fontSize=default;
 changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -left -next -motion=bye01 -expression=smile04;
 爱音:没事啦没事啦，抱歉哦，让Tomorin担心了。 -fontSize=default;
