@@ -1,0 +1,67 @@
+changeBg:none -next;
+changeFigure:1st_paint.webp -id=bg14 -transform={"position":{"x":40,"y":0},"scale":{"x":2.6,"y":2.6},"blur":5} -next;
+bgm:20. 広がる不安.mp3;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya14 -transform={"position":{"x":0,"y":-50},"scale":{"x":1.1,"y":1.1}} -next -motion=serious02_anon -expression=smile02;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk14 -transform={"position":{"x":900,"y":0},"scale":{"x":1.02,"y":1.02}} -next -motion=K_nf_left01 -expression=K_worry01;
+:——只能帮人帮到底、送佛送到西了。
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -left -id=nya14 -next -motion=smile04_anon -expression=default;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk14 -next -motion=nf_right01 -expression=surprised01;
+setTransform:{"position":{"x":1100,"y":-50},"scale":{"x":1.1,"y":1.1}} -target=nya14 -duration=0 -next;
+setTransform:{"position":{"x":500},"scale":{"x":1.02,"y":1.02}} -target=uk14 -duration=0 -next;
+setTransform:{"position":{"x":-100},"scale":{"x":2.55,"y":2.55}} -target=bg14 -duration=0 -next;
+若麦:我说初子，既然今天这么巧，不如初子就陪我四处逛逛嘛~
+setTransform:{"scale":{"x":2.4,"y":2.4}} -target=bg14 -duration=0 -next;
+setTransform: -target=nya14 -duration=0 -next;
+setTransform: -target=uk14 -duration=0 -next;
+changeFigure:1st_paintout.webp -id=sp0 -transform={"position":{"x":800,"y":-1050},"scale":{"x":-2.2,"y":2.2},"blur":4} -next;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=sp1 -transform={"position":{"x":640,"y":-540},"scale":{"x":1.06,"y":1.06}} -next -motion=smile01 -expression=default;
+changeFigure:uika_back_hat_bright.webp -id=sp2 -transform={"position":{"x":75,"y":-180},"scale":{"x":-0.75,"y":0.75}} -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=sp3 -transform={"position":{"x":100,"y":0},"scale":{"x":1.6,"y":1.6},"blur":10} -next -motion=zb_nnf_left01 -expression=shame01;
+changeFigure:341_mashiro/model.json -id=sp4 -transform={"position":{"x":-690,"y":0},"scale":{"x":1.6,"y":1.6},"blur":10} -next -motion=zb_nf_left01 -expression=smile01;
+:巧妙地引导话题、诱导三角初华将视线集中在自己身上——从而，避开刚刚从零食店里出来的丰川祥子和粉发少女。
+setTransform:{"position":{"x":800,"y":-1050},"scale":{"x":-2.2,"y":2.2},"alpha":0,"blur":4} -target=sp0 -duration=0 -next;
+setTransform:{"position":{"x":640,"y":-540},"scale":{"x":1.06,"y":1.06},"alpha":0} -target=sp1 -duration=0 -next;
+setTransform:{"position":{"x":75,"y":-180},"scale":{"x":-0.75,"y":0.75},"alpha":0} -target=sp2 -duration=0 -next;
+setTransform:{"position":{"x":40,"y":25},"scale":{"x":1.6,"y":1.6},"alpha":0,"blur":15} -target=sp3 -duration=0 -next;
+setTransform:{"position":{"x":-730,"y":25},"scale":{"x":1.6,"y":1.6},"alpha":0,"blur":15} -target=sp4 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -left -id=nya14 -next -motion=nnf_left01 -expression=smile02;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk14 -next -motion=nnf_right01 -expression=thinking01_sk;
+初华:嗯？可以是可以——
+changeFigure:none -id=sp0 -next;
+changeFigure:none -id=sp1 -next -motion=smile01 -expression=default;
+changeFigure:none -id=sp2 -next;
+changeFigure:none -id=sp3 -next -motion=zb_nnf_left01 -expression=shame01;
+changeFigure:none -id=sp4 -next -motion=zb_nf_left01 -expression=smile01;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -left -id=nya14 -next -motion=smile01 -expression=turn_L_Boby;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk14 -next -motion=nf_right01_sk -expression=smile01_sk;
+若麦:那，就让喵梦亲我来带路吧~？
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -left -id=nya14 -next -motion=nnf_left01 -expression=smile02;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk14 -next -motion=K_nnf_right01 -expression=smile01_sk;
+:犹如在舞台上精准走位的演者一般，祐天寺若麦顺利地让三角初华彻底背对零食店的方向、以一己之力阻止了最麻烦的情况发生。
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -left -id=nya14 -next -motion=nnf_left01 -expression=thinking03_anon;
+:墨镜掩盖了她的视线走向，让她能毫无顾虑地观察粉蓝二人组的动向、直到确认她们走向商店街的另一个方向才松一口气。
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -left -id=nya14 -next -motion=nf01 -expression=serious01;
+setTransform:{"position":{"x":0,"y":-50},"scale":{"x":1.1,"y":1.1}} -target=nya14 -duration=0 -next;
+setTransform:{"position":{"x":500},"scale":{"x":1.02,"y":1.02},"alpha":0} -target=uk14 -duration=0 -next;
+setTransform:{"position":{"x":-100},"scale":{"x":2.55,"y":2.55},"alpha":0} -target=bg14 -duration=0 -next;
+:——呼。|伟大的鼓手小姐觉得，自己为了Ave Mujica实在是付出太多了。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -left -id=nya14 -next -motion=nnf04 -expression=smile02;
+:真希望将来能因此而获得更多数字上的奖励呢……|说的是工资，不是BPM。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -left -id=nya14 -next -motion=smile01 -expression=smile01;
+setTransform:{"position":{"x":1570,"y":-50},"scale":{"x":1.1,"y":1.1}} -target=nya14 -duration=1300 -next;
+:——然而，祐天寺若麦不知道的是——
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk14 -next -motion=nf01 -expression=turn_L_Body_Down;
+setTransform:{"position":{"x":500},"scale":{"x":1.02,"y":1.02},"alpha":1} -target=uk14 -duration=0 -next;
+setTransform:{"position":{"x":-100},"scale":{"x":2.55,"y":2.55},"alpha":1} -target=bg14 -duration=0 -next;
+初华:……。                          -notend -fontSize=default;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk14 -motion=nnf_right01 -expression=K_worry01;
+setTransform:{"position":{"x":1500},"scale":{"x":1.04,"y":1.04},"alpha":0} -target=uk14 -duration=0 -next;
+:在她松了口气的瞬间，那双隐藏在鸭舌帽檐下的紫瞳也不动声色地看向了【原本被祐天寺若麦用身体挡住的画作】。
+changeFigure:none -id=bg14 -next;
+changeBg:none -next;
+intro:少女的嘴唇微微张开、但又很快地闭上。|——就像是，她什么都没看到过一样。 -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(242, 255, 122, 1) -animation=fadeIn -delayTime=1500 -hold;
+bgm:none -enter=950;
+:…………………………
+changeFigure: -id=nya14 -next;
+changeFigure: -id=uk14 -next;
+changeScene:3_01/cute.txt

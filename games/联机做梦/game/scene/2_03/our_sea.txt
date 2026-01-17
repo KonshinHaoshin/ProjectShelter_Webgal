@@ -1,0 +1,113 @@
+changeBg:sea2.webp -next;
+changeFigure:darker_blue.webp -id=dd_blue -transform={"scale":{"x":2},"alpha":0} -next;
+无边无际、深不见底的海洋，相拥着的少女不断下沉、下沉……
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an1 -transform={"position":{"x":300,"y":200},"scale":{"x":0.8,"y":0.8},"rotation":0} -next -motion=nnf04 -expression=surprised01;
+【“——我要退出——”】
+隐约之间，千早爱音好像听到了模糊不清的一些声音，像是有什么人在说话。
+changeFigure:none -id=an1 -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an2 -transform={"position":{"x":170,"y":320},"scale":{"x":0.8,"y":0.8},"rotation":-0.1} -next -motion=nnf04 -expression=thinking01;
+setTransform:{"scale":{"x":2},"alpha":0.25} -target=dd_blue -duration=0 -next;
+【“——命运——”】
+杂乱无章。
+changeFigure: -id=an2 -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an3 -transform={"position":{"x":-280,"y":530},"scale":{"x":0.8,"y":0.8},"rotation":-0.32} -next -motion=angry01 -expression=sad01;
+setTransform:{"scale":{"x":2},"alpha":0.35} -target=dd_blue -duration=0 -next;
+【“——这种话——觉悟——”】
+令人窒息。
+changeFigure:none -id=an3 -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an4 -transform={"position":{"x":-500,"y":1150},"scale":{"x":0.8,"y":0.8},"rotation":-0.6} -next -motion=sigh02 -expression=serious01;
+setTransform:{"scale":{"x":2},"alpha":0.5} -target=dd_blue -duration=0 -next;
+【“——从今天起——丰川家——”】
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an4 -next -expression=sigh01;
+……是的，窒息。
+changeBg:dark_blue.webp -next -transform={"alpha":0.1};
+changeFigure:选择立绘文件 -id=dd_blue -transform={"scale":{"x":2},"alpha":0.7} -next;
+bgm: -enter=1200;
+changeFigure:none -id=an4 -next;
+爱音:咕……！？changeBg:sea2.webp  -next;
+setTransform:{"alpha":1} -target=bg-main -duration=0 -next;
+setTransform:{"scale":{"x":2},"alpha":0.75} -target=dd_blue -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -transform={"position":{"x":-100},"scale":{"x":1.05,"y":1.05},"blur":1} -next -motion=smile06 -expression=smile06;
+:气泡涌动，爱音被窒息的感觉扼住了喉间——但在她彻底缺氧之前，丰川祥子只是温柔地、平静地，吻上了她的唇间。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -next -motion=shame01 -expression=surprised01;
+setTransform:{"scale":{"x":1,"y":1}} -target=fig-center -duration=0 -next;
+爱音:……！
+changeBg: -next;
+changeFigure:none -next;
+:噗呲—— -fontSize=default;
+changeBg:none -next;
+changeFigure:00028-2300699953.webp -id=sea_b -transform={"position":{"y":-700},"scale":{"x":2,"y":2}} -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -id=sea_c -transform={"scale":{"x":0.6,"y":0.6}} -next -motion=nf04 -expression=surprised01;
+changeFigure:sea_front.webp -id=sea_f -transform={"position":{"y":-700},"scale":{"x":2,"y":2},"alpha":1} -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -right -id=sea_g -transform={"scale":{"x":0.9,"y":0.9}} -next -motion=sigh02 -expression=serious02;
+bgm:you are here.mp3 -volume=60 -enter=2400;
+高高仰起的脑袋终于呼吸到了新鲜的空气，千早爱音将脑袋探出水面，却发现刚刚还跟自己拥吻的蓝发少女已经不见踪影——仔细一看，对方居然已经到了岸上。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -id=sea_c -next -motion=nnf04 -expression=default;
+爱音:噗哈……咳……祥祥……
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -right -id=sea_g -next -motion=smile03 -expression=L_Boby;
+setTransform:{"scale":{"x":1.1,"y":1.1},"alpha":0} -target=sea_g -duration=1300 -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -id=sea_c -next -expression=thinking02;
+祥子:过来，爱音。
+爱音:……？
+changeFigure:选择立绘文件 -id=sea_b -next;
+changeFigure:选择立绘文件 -left -id=sea_c -next;
+changeFigure:选择立绘文件 -id=sea_f -next;
+changeFigure: -id=sea_g -next;
+:雨还在下。
+changeBg:rain/00028-2300699953.webp -next -transform={"position":{"y":-700},"scale":{"x":1.1,"y":1.1}};
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -next -motion=nf_right01 -expression=thinking02;
+:爱音有些狼狈地游上岸，鞋子和袜子不知道掉到了哪里去，她只能赤足地踩在了沙滩上——这里是一座孤岛。
+changeFigure:none -right -next;
+changeBg:SakiKo_Home_Out_Night_solo.webp -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1,"y":1}} -target=bg-main -duration=0 -next;
+pixiPerform:rain;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -transform={"position":{"x":-50,"y":200},"scale":{"x":0.73,"y":0.73}} -next -motion=smile03 -expression=thinking02;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -right -transform={"position":{"y":200},"scale":{"x":0.73,"y":0.73}} -next -motion=kime01 -expression=serious02;
+:没有花草树木，也没有其他人。小小的孤岛像是没有栅栏的囚笼，将二人囚禁于此。|岛屿的中央，是一座突兀的人造建筑物、看上去像是年份已久的破旧一户建。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -next -motion=thinking03 -expression=thinking02;
+:一户建的外墙加装了楼梯，看样子是把一栋房子拆分成了不同的单位出租……这样的房子，在一些偏远而落后的旧城区会比较常见，对于爱音来说却相当陌生。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -right -next -motion=sigh01 -expression=serious02;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -next -expression=serious02;
+:——她绝对没亲眼见过这样的房子。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -next -expression=R_body_down;
+:不如说，现在站在她眼前的丰川祥子也变得十分陌生。从刚刚开始，这场梦境就非常的奇怪——雨水将视野切割成一块一块的、也让面前的蓝发少女变得有些模糊不清。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -right -next -motion=smile03 -expression=L_Boby;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -next -motion=nf_right01 -expression=surprised01;
+祥子:爱音，我有话想要跟你说。
+:丰川祥子的脸上仍旧挂着笑容，但爱音却无法从中窥见到哪怕一丝笑意。
+changeFigure:none -right -next;
+pixiInit;
+changeBg: -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -next -motion=nnf01 -expression=surprised01;
+:——不对劲。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -next -motion=thinking03 -expression=R_boby;
+:这个梦，很不对劲。
+changeFigure:none -left -next;
+:千早爱音是个聪明的女孩子，某种【可能性】在她的脑海里一闪而过——但她来不及捕捉那道转瞬即逝的光芒，就被祥子握住了手：changeBg:SakiKo_Home_Out_Night_solo.webp  -next;
+changeFigure:sakiko_也坏掉了/model.json -next -motion=zb_smile03 -expression=cry02;
+祥子:我想让你看到我的秘密。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -next -motion=surprised01 -expression=surprised01;
+爱音:……哎？
+changeFigure:sakiko_也坏掉了/model.json -transform={"position":{"y":100},"scale":{"x":0.95,"y":0.95}} -next -motion=smile06 -expression=cry03;
+祥子:来吧，让我们进屋再说。
+:——进屋？
+setTransform:{"position":{"x":-550,"y":-50},"scale":{"x":1,"y":1},"blur":25} -target=fig-center -duration=0 -next;
+setTransform:{"position":{"y":-110},"scale":{"x":1.3,"y":1.3}} -target=bg-main -duration=0 -next;
+:爱音看向了眼前的门扉、看向了眼前的建筑物——这座房子，是什么？
+changeBg:none -next;
+changeFigure:none -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an -next -motion=serious02 -expression=surprised01;
+:——是祥子的、【秘密】？
+:脑子里，有什么东西炸开了。
+changeBg:none -next;
+changeFigure: -id=an -next;
+:灰色的双瞳微微一缩，在蓝发的少女主动伸手握住门把的瞬间——
+changeBg:none -next;
+setTransform:{"position":{"y":-100},"scale":{"x":1,"y":1}} -target=bg-main -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an -transform={"position":{"x":150}} -next -motion=angry03 -expression=serious01;
+爱音:等一下！祥祥！ -fontSize=default;
+changeBg:none -next;
+changeFigure: -id=an -next;
+:——千早爱音，用力抓住了丰川祥子的手腕。
+:……………………………………
+changeScene:2_03/our_fear.txt -fontSize=default;

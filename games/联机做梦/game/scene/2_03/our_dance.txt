@@ -1,0 +1,168 @@
+pixiPerform:rain;
+bgm:04.moon_3.mp3 -volume=80;
+changeBg:bg00821.webp -next -transform={"position":{"y":-100},"alpha":1};
+changeFigure:white.webp -id=white -transform={"scale":{"x":2},"alpha":0} -next;
+changeFigure:pics/tmpjigqcoed.webp -id=lines -transform={"scale":{"x":2,"y":2},"alpha":0} -next;
+changeFigure:light_blue.webp -id=light_blue -transform={"scale":{"x":2},"alpha":0} -next;
+changeFigure:dark_blue.webp -id=d_blue -transform={"scale":{"x":2},"alpha":0.15} -next;
+changeFigure:grey.webp -id=grey -transform={"scale":{"x":2},"alpha":0} -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -transform={"position":{"x":90,"y":50},"scale":{"x":0.79,"y":0.79}} -next -motion=nf02 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -transform={"scale":{"x":0.83,"y":0.83}} -next -motion=wink01 -expression=smile02;
+:——今天的梦境，一直在下雨。
+changeBg:bg00254.webp -next -transform={"position":{"y":-100}};
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=nf05 -expression=thinking01;
+setTransform:{"position":{"x":-79,"y":0},"scale":{"x":0.83,"y":0.83}} -target=fig-center -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -next -motion=nnf_left01 -expression=thinking02;
+setTransform:{"position":{"y":10},"scale":{"x":0.79,"y":0.79}} -target=fig-right -duration=0 -next;
+:四裂分溅的雨点杂乱而无序，爱音并不喜欢这样的天气，但梦中的祥子却一副无所谓的样子、甚至连撑起雨伞的打算都没有，拉着她径直走出校门。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -next -motion=thinking03 -expression=thinking03;
+爱音:祥祥？
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=nf03 -expression=smile05;
+祥子:嘘，跟我来就好。
+changeBg: -next;
+changeFigure:none -next;
+pixiInit;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -next -motion=nf01 -expression=thinking01;
+:——好奇怪。
+changeBg:bg01064.webp -next;
+pixiPerform:rain;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -transform={"position":{"y":100},"scale":{"x":0.73,"y":0.73}} -next -motion=nnf04 -expression=L_Boby;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -transform={"position":{"x":400,"y":100},"scale":{"x":0.73,"y":0.73}} -next -motion=sad02 -expression=L_Boby_Down;
+changeFigure:none -right -next;
+:雨水落在了二人身上，天空看不清是白天还是黑夜，似是黎明、又像是有漫天的繁星藏在云隙之间。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -next -motion=smile04 -expression=smile03;
+setTransform:{"position":{"x":-1300,"y":-70},"scale":{"x":1,"y":1},"alpha":0} -target=fig-left -duration=1500 -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -next -motion=thinking01 -expression=serious02;
+setTransform:{"position":{"x":-900,"y":0},"scale":{"x":0.9,"y":0.9},"alpha":0} -target=fig-center -duration=1900 -next;
+:街上没有别人，只有粉与蓝的两道身影穿梭于密集的点与线之间。黑白素描下仅有的两抹色彩，一前一后地朝着某处前进着、前进着…… -fontSize=default;
+changeBg:rain/00002-903701697.webp -next -transform={"blur":10};
+changeFigure:none -left -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -transform={"position":{"x":-500},"scale":{"x":0.8,"y":0.8}} -next -motion=nf_right01 -expression=smile06;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -transform={"position":{"x":150},"scale":{"x":0.8,"y":0.8}} -next -motion=nnf_left01 -expression=smile03;
+setTransform:{"scale":{"x":2},"alpha":0.2} -target=white -duration=0 -next;
+setTransform:{"scale":{"x":2},"alpha":0.2} -target=light_blue -duration=0 -next;
+setTransform:{"scale":{"x":2},"alpha":0.2} -target=d_blue -duration=0 -next;
+:一开始是行走，但很快，走在前面的蓝发少女突然加快了脚步。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=kime01 -expression=smile02;
+setTransform:{"position":{"x":-250},"scale":{"x":0.8,"y":0.8}} -target=fig-center -duration=1500 -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -next -expression=surprised01;
+祥子:爱音。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -next -motion=nf04 -expression=surprised01;
+爱音:哎？
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=smile03;
+setTransform:{"position":{"x":100},"scale":{"x":0.8,"y":0.8}} -target=fig-center -duration=0 -next;
+:少女伸出了手，抓住了对方的小臂：
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=smile04 -expression=default;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -next -motion=nnf01 -expression=surprised01;
+祥子:——来跳舞吧。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -next -motion=nf03 -expression=smile03;
+爱音:跳舞……？诶，但我不会——
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=smile06 -expression=smile06;
+祥子:没关系。
+changeBg:none -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+setTransform:{"scale":{"x":2},"alpha":0} -target=white -duration=0 -next;
+setTransform:{"scale":{"x":2},"alpha":0} -target=light_blue -duration=0 -next;
+setTransform:{"scale":{"x":2},"alpha":0} -target=d_blue -duration=0 -next;
+pixiInit;
+:直到梦境结束之前，这里都是独属于二人的舞台。
+changeBg:rain/tmpjigqcoed.webp -next -transform={"blur":35};
+setTransform:{"scale":{"x":2},"alpha":0.1} -target=white -duration=0 -next;
+setTransform:{"scale":{"x":2},"alpha":0.35} -target=light_blue -duration=0 -next;
+setTransform:{"scale":{"x":2},"alpha":0.15} -target=d_blue -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -transform={"position":{"x":100},"scale":{"x":0.95,"y":0.95}} -next -motion=smile04 -expression=surprised01;
+:嗒、嗒、嗒。|——少女瞪大眼睛，踩着笨拙的步伐、任由地上的积水四溅。 -fontSize=default;
+changeFigure:none -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -transform={"scale":{"x":0.95,"y":0.95}} -next -motion=zb_smile03 -expression=smile02;
+:嗒、嗒、嗒。|——少女微笑着握住对方的手，引领着她在雨中转起一圈又一圈的圆舞。 -fontSize=default;
+changeBg:none -next;
+setTransform:{"scale":{"x":2},"alpha":0} -target=white -duration=0 -next;
+setTransform:{"scale":{"x":2},"alpha":0} -target=light_blue -duration=0 -next;
+setTransform:{"scale":{"x":2},"alpha":0} -target=d_blue -duration=0 -next;
+changeFigure: -id=sk -next;
+:雨势没有任何停歇的迹象，与其说是浪漫，不如说是混乱。
+setTransform:{"scale":{"x":2},"alpha":0.1} -target=light_blue -duration=0 -next;
+changeFigure:pics/00002-903701697_2.webp -id=depth -transform={"scale":{"x":2,"y":2},"alpha":0} -next;
+changeFigure:pics/00002-903701697.webp -id=rain -transform={"scale":{"x":2,"y":2},"alpha":0.25,"blur":45} -next;
+:十字路口、信号灯、阴暗的天空与冰冷的灰色高楼。
+setTransform:{"scale":{"x":2,"y":2},"alpha":1,"blur":25} -target=depth -duration=0 -next;
+setTransform:{"scale":{"x":2},"alpha":0} -target=light_blue -duration=0 -next;
+setTransform:{"scale":{"x":2,"y":2},"alpha":0,"blur":25} -target=rain -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -transform={"position":{"x":-100,"y":-50}} -next -motion=zb_smile04 -expression=default;
+:视线能够捕捉到的信息越来越稀少、少女的眼中很快就只容得下少女。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -transform={"position":{"x":100,"y":-50}} -next -motion=shame01 -expression=L_Boby_Down;
+:嗒、嗒、嗒。
+changeFigure: -id=depth -next;
+changeFigure:none -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -transform={"position":{"x":-100,"y":-100}} -next -motion=zb_shame02 -expression=smile02;
+:就像是温暖而耀眼的太阳一样——少女如此想道。
+changeFigure: -id=sk -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -transform={"position":{"x":100,"y":-100}} -next -motion=nf_left01 -expression=shame02;
+:就像是皎洁而明亮的月亮一样——少女如此想道。
+changeFigure:none -next;
+:空虚的舞台没有观众，只有演者。彼此的心意，自然也无人察觉。
+changeBg:rain/00002-903701697_2.webp -next -transform={"blur":25};
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -transform={"scale":{"x":0.8,"y":0.8}} -next -motion=nnf_right01 -expression=smile02;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -transform={"position":{"x":200},"scale":{"x":0.8,"y":0.8}} -next -motion=nf_left01 -expression=smile02;
+:嗒、嗒、嗒。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -next -motion=shame02 -expression=R_Boby;
+setTransform:{"position":{"x":200,"y":0},"scale":{"x":0.8,"y":0.8},"alpha":1} -target=fig-left -duration=1100 -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -next -motion=kime02 -expression=shame01;
+setTransform:{"position":{"x":50},"scale":{"x":0.8,"y":0.8}} -target=fig-right -duration=1100 -next;
+:舞步逐渐变得熟练，僵硬的圆舞也越加流畅——二人的距离，亦在不断靠近。 -fontSize=default;
+changeBg:none -next;
+changeFigure:none -right -next;
+changeFigure:none -left -next;
+:视线已经再也无法挪开。 -fontSize=default;
+:沉溺于雨水的隙间、在名为梦境的非现实里对视，直至恍惚—— -fontSize=default -concat;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=sad01 -expression=smile05;
+:再待一小会儿吧。|——少女如是想道。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -next -motion=shame01 -expression=smile04;
+:一小会儿就好。|——少女如是想道。
+changeBg:rain/00002-903701697_2.webp -next;
+changeFigure:sakiko_也坏掉了/model.json -next -motion=serious01 -expression=serious02;
+:因为对方只是梦中的镜花水月；因为对方只是梦中的伪物——所以。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -next -expression=surprised01;
+爱音:……祥祥？
+:千早爱音突然瞪大了眼睛。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -transform={"position":{"x":-200,"y":100},"scale":{"x":0.73,"y":0.73}} -next -motion=smile01_rui -expression=smile03;
+bgm:none;
+:手被松开了。
+changeFigure:none -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -transform={"scale":{"x":0.9,"y":0.9}} -next -motion=nnf_left01 -expression=surprised01;
+bgm:25.yume.mp3 -enter=1100;
+爱音:等等，祥祥！
+changeBg:rain/chosen_one.webp -next -transform={"blur":5};
+changeFigure:none -right -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -transform={"position":{"y":-100},"scale":{"x":0.9,"y":0.9}} -next -motion=nnf02 -expression=smile03;
+changeFigure:none -right -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -id=an -transform={"position":{"x":1600},"scale":{"x":0.9,"y":0.9}} -next;
+祥子:不等你哦。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -id=an -next -motion=surprised01 -expression=default;
+setTransform:{"position":{"x":150,"y":-100},"scale":{"x":0.9,"y":0.9}} -target=an -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=angry01 -expression=sigh01;
+setTransform:{"position":{"y":-175},"scale":{"x":0.9,"y":0.9}} -target=fig-center -duration=1200 -next;
+:踏着轻快的脚步，蓝发的少女走上了人行天桥|爱音追了上去，却看到那本应不属于她的三日月将手搭在了护栏上、身体向前倾——
+setTransform:{"alpha":0} -target=bg-main -duration=400 -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -id=an -next -motion=angry01 -expression=surprised01;
+setTransform:{"position":{"x":-800,"y":2600},"scale":{"x":0.9,"y":0.9},"alpha":0,"rotation":-1.2} -target=an -duration=1100 -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=zb_nf_right01 -expression=smile04;
+setTransform:{"position":{"x":-800,"y":2700},"alpha":0,"rotation":-1.4} -target=fig-center -duration=1100 -next;
+爱音:……！祥祥，危险！
+changeFigure: -right -id=an -next;
+changeFigure:none -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=nnf_left01 -expression=smile02;
+:——爱音扑上去的瞬间，却看到名为丰川祥子的月光露出了狡黠的笑容。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=zb_cry01 -expression=smile03;
+祥子:笨蛋。
+changeFigure:none -id=sk -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -next -motion=angry01 -expression=surprised01;
+爱音:哎？
+changeFigure:none -next;
+:天旋地转。
+changeBg:rain/00028-2300699953.webp -next -transform={"position":{"y":100},"scale":{"x":1.1,"y":1.1}};
+:二人一同越过了那道禁忌的界线、身体被重力所牵扯，垂直向下——
+changeBg:none -next;
+:噗通。|——伴随着落水声，少女们沉入了水底。 -fontSize=default;
+changeScene:2_03/our_sea.txt -fontSize=default;

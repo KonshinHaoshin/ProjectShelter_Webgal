@@ -1,0 +1,92 @@
+changeBg:K0.webp -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an3 -transform={"position":{"x":200},"scale":{"x":0.73,"y":0.73}} -next -motion=nf_left01 -expression=thinking02;
+changeFigure:341_mashiro/model.json -left -id=sk3 -transform={"scale":{"x":0.73,"y":0.73}} -next -motion=odoodo01 -expression=default;
+bgm:18.old times.mp3 -volume=1900;
+:海鸥线、全名东京临海新交通临海线，通称与昵称为百合海鸥号（ゆりかもめ）——|尽管车窗外没有海鸥，但车厢里大抵是有百合的。 -fontSize=default;
+changeFigure:341_mashiro/model.json -left -id=sk3 -next -motion=sad02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an3 -next -motion=thinking01 -expression=smile03;
+祥子:……。
+changeFigure:341_mashiro/model.json -left -id=sk3 -next -motion=sad02 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an3 -next -motion=nnf03 -expression=smile03;
+爱音:……祥、 -fontSize=default -notend;
+changeFigure:341_mashiro/model.json -id=sk3 -next -motion=nf_left01 -expression=thinking02;
+咳，祥子，心情不好么？ -fontSize=default -concat;
+changeFigure:341_mashiro/model.json -id=sk3 -next -motion=nf04_kokoro -expression=thinking02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an3 -next -motion=nf_right01_mu;
+祥子:没有的事。
+changeBg:none -next;
+changeFigure:none -id=an3 -next;
+changeFigure:341_mashiro/model.json -id=sk3 -next -motion=odoodo01 -expression=default;
+:——祥子鼓起脸颊的样子，跟自己的话语多少有些自相矛盾。
+changeFigure:341_mashiro/model.json -id=sk3 -next -motion=nf_right01 -expression=smile03;
+:说实话，在遇到爱音的第一时间，祥子的第一反应甚至是想要转身就跑—— -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk3 -next -motion=nf01_mu -expression=smile05;
+:她有想过，要是自己能抢先一步登上列车，是不是还是可以比爱音更早地抵达约定的地点，继续上演她那“久等了等很久了吗没有我也是刚到”的公式。 -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk3 -next -motion=sigh02 -expression=smile03;
+:遗憾的是，她的对手是千早爱音，那个被称作羽丘第一追逐战高手的千早爱音。
+changeBg:station5.webp -next;
+changeFigure:none -id=sk3 -next -motion=nnf_right01 -expression=angry01;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -transform={"position":{"x":400},"scale":{"x":0.73,"y":0.73},"alpha":0.8} -next -motion=smile03 -expression=default;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh -transform={"position":{"x":1200},"scale":{"x":0.73,"y":0.73},"alpha":0.8} -next -motion=odoodo01 -expression=default;
+changeFigure:sakiko_small/model.json -id=sox -transform={"position":{"x":800,"y":230},"scale":{"x":0.73,"y":0.708},"alpha":0.8} -next -motion=angry01 -expression=default;
+:于是，公式没了，丰川祥子自然也没活了：现在的生闷气，与其说是在生爱音的气、不如说是她在懊恼自己的无能 -fontSize=default -notend;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh -next -motion=nf_left01_maya -expression=surprised02;
+setTransform:{"position":{"x":-1500},"scale":{"x":0.73,"y":0.73},"alpha":0.8} -target=jh -duration=2400 -next;
+changeFigure:none -id=sk -next;
+changeFigure:none -id=an -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -next -motion=nf01_rui -expression=smile03;
+setTransform:{"position":{"x":-2000},"scale":{"x":0.73,"y":0.73},"alpha":0.8} -target=ob -duration=2800 -next;
+setTransform:{"position":{"x":-1200},"scale":{"x":0.73,"y":0.708},"alpha":0.8} -target=sox -duration=0 -next;
+:。 -fontSize=default -concat;
+changeFigure: -id=ob -next;
+changeFigure: -id=jh -next;
+changeFigure:none -id=sox -next;changeBg:K0.webp  -next;
+changeFigure:341_mashiro/model.json -left -id=sk -transform={"scale":{"x":0.73,"y":0.73}} -next -motion=thinking01 -expression=surprised02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -transform={"position":{"x":200},"scale":{"x":0.73,"y":0.73}} -next -motion=nf_left01 -expression=Down_look;
+:……怎么办，现在该怎么办，自己该说些什么？
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nnf_right01;
+祥子:爱、爱音，为什 -fontSize=default -notend;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -expression=shame02;
+祥子:么来得那么早？ -fontSize=default -notend -concat;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -expression=smile01;
+祥子:  -fontSize=default -concat;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf_left01 -expression=smile04;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=smile03 -expression=smile05;
+爱音:哎，祥子不也来得很早么——  -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=angry04 -expression=thinking01;
+changeFigure:341_mashiro/model.json -id=sk -next -expression=suprised01_kokoro;
+|话说回来，为什么祥子看到我的第一反应是假装没看见啦！ -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=zb_nf_left01 -expression=thinking02;
+祥子:唔……
+:自知理亏的祥子只好红着脸、别过视线；
+changeFigure:341_mashiro/model.json -id=sk -next -motion=zb_odoodo01 -expression=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -expression=surprised01;
+祥子:……我想比你早到。 -fontSize=small;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=thinking01;
+changeFigure:341_mashiro/model.json -id=sk -next -expression=shame01;
+爱音:诶，为什么？ -fontSize=medium;
+changeFigure:341_mashiro/model.json -id=sk -next -expression=sigh01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -expression=shame02;
+祥子:……。
+changeBg:none -next;
+changeFigure:none -id=an -next;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=zb_serious02 -expression=bye01_anon;
+:——说不出口。
+changeFigure:none -id=sk -next;
+changeFigure:light_blue.webp -id=hbrlb -transform={"position":{"x":-100},"scale":{"y":2},"alpha":0.85,"rotation":-0.15} -next;
+changeFigure:341_mashiro/model.json -id=hbrsk -transform={"position":{"x":-900,"y":-250},"scale":{"x":1.25,"y":1.25}} -next -motion=zb_angry07 -expression=cry04;
+changeFigure:white.webp -id=hbrwL -transform={"position":{"x":-200},"scale":{"x":0.2,"y":2},"rotation":-0.15} -next;changeFigure:white.webp -id==hbrwR -transform={"position":{"x":-900},"scale":{"x":0.2,"y":2},"rotation":-0.15} -next;
+changeFigure:black.webp -id=hbrbL -transform={"position":{"x":400},"scale":{"y":2},"rotation":-0.15} -next;changeFigure:black.webp -id==hbrbR -transform={"position":{"x":-1500},"scale":{"y":2},"rotation":-0.15} -next;
+changeFigure:whiteball.webp -id=ball1 -transform={"position":{"x":-620,"y":-180},"scale":{"x":0.4,"y":0.4}} -next;changeFigure:whiteball.webp -id==ball2 -transform={"position":{"x":-1260,"y":-1600},"scale":{"x":0.4,"y":0.4}} -next;
+changeFigure:herb.webp -id=herb -transform={"position":{"x":-300,"y":-1400},"scale":{"x":0.8,"y":0.8}} -next;
+: -fontSize=default;
+changeFigure: -id=hbrlb -next;
+changeFigure: -id=hbrsk -next -motion=zb_angry07 -expression=cry04;
+changeFigure: -id=hbrwL -next;
+changeFigure: -id=hbrwR -next;
+changeFigure: -id=hbrbL -next;
+changeFigure: -id=hbrbR -next;
+changeFigure:none -id=ball1 -next;
+changeFigure: -id=ball2 -next;
+changeFigure: -id=herb -next;
+changeScene:railway2.txt

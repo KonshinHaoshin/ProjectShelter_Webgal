@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>庇护所 WebGAL 收录</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=1.1">
 </head>
 <body>
     <div class="layout">
@@ -50,9 +50,6 @@
 
         <footer class="layout-footer">
             <p>© 2025 庇护所计划. All rights reserved.</p>
-            <p style="margin-top: 0.5rem; font-size: 0.8rem; opacity: 0.8;">
-                <a href="https://beian.miit.gov.cn/" target="_blank" style="color: inherit; text-decoration: none;">蜀ICP备2025174048号-1</a>
-            </p>
         </footer>
 
         <nav id="bottom-nav" class="mobile-bottom-nav">
@@ -123,14 +120,26 @@
                     const card = document.createElement('div');
                     card.className = 'game-card';
                     card.onclick = () => window.location.href = gamePath;
+                    
+                    const tagsHtml = (game.tags || [])
+                        .filter(tag => tag && tag.trim() !== '')
+                        .map(tag => `<span class="tag">${tag}</span>`)
+                        .join(' ');
+
                     card.innerHTML = `
                         <div class="game-cover-container">
                             <img src="${coverUrl}" class="game-cover" onerror="this.src='https://via.placeholder.com/320x180?text=Cover'">
                         </div>
                         <div class="game-info">
                             <div class="game-title">${game.display_name}</div>
+                            <div class="game-tags">${tagsHtml}</div>
                             <div class="game-description">${game.description}</div>
-                            <div style="font-size: 0.8rem; color: var(--text-muted)">作者: ${game.author}</div>
+                            <div class="game-footer">
+                                <span class="game-author">
+                                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-right: 4px; vertical-align: middle;"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                                    ${game.author}
+                                </span>
+                            </div>
                         </div>
                     `;
                     gameListContainer.appendChild(card);

@@ -1,0 +1,236 @@
+changeBg:a台场/1st_street.jpg -next -transform={"position":{"x":200,"y":0},"scale":{"x":1.5,"y":1.5}};
+bgm:13.important_time.mp3 -enter=1000;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an7 -transform={"position":{"x":300},"scale":{"x":0.85,"y":0.85}} -next -motion=nf_left01_masking -expression=smile06_sk;
+changeFigure:341_mashiro/model.json -id=sk7 -transform={"position":{"x":-150},"scale":{"x":0.85,"y":0.85}} -next -motion=nf_left01 -expression=smile01_mu;
+:——说是随便逛逛，但一丁目商店街这个地方也确实是“随便逛逛”就能享受到不少的乐趣。
+changeFigure:none -id=an7 -next;
+changeFigure:none -id=sk7 -next;
+changeBg:a台场/1st_2/1st_box.jpg -next -transform={"position":{"x":80,"y":0},"scale":{"x":1.1,"y":1.1}};
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an1 -transform={"position":{"x":500,"y":-25},"scale":{"x":1.04,"y":1.04}} -next -motion=nnf_left01 -expression=smile01;
+changeFigure:341_mashiro/model.json -id=sk1 -transform={"position":{"x":0,"y":-25},"scale":{"x":1.04,"y":1.04}} -next -motion=nf_left01_maya -expression=thinking01;
+:原因无他，这条占据了整个大商场4/F的“商店街”，本质上是一个刻意模仿了昭和三十年代的风格、旅游的意义大于购物的这么一个地方。
+changeFigure:none -id=sk1 -next;
+changeFigure:none -id=an1 -next;
+changeBg: -next;
+changeFigure:manga/1st_street4hide.webp -id=bg2 -transform={"position":{"x":100,"y":200},"scale":{"x":2.7,"y":2.7}} -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -transform={"position":{"x":400,"y":-400},"scale":{"x":0.6,"y":0.6},"rotation":0.7} -next -motion=surprised01 -expression=smile01;
+changeFigure:341_mashiro/model.json -id=sk2 -transform={"position":{"x":400,"y":-100},"scale":{"x":0.6,"y":0.6},"rotation":0.7} -next -motion=nf04 -expression=thinking01;
+changeFigure:manga/1st_street4wall.webp -id=f2 -transform={"position":{"x":100,"y":200},"scale":{"x":2.7,"y":2.7}} -next;
+:尽管卖的东西都是些现代小零食以及台场的当地特产什么的，但光是刻意做旧磨花的街道、电线杆……| -fontSize=default;
+changeFigure:none -id=bg2 -next;
+changeFigure:none -id=an2 -next;
+changeFigure:none -id=sk2 -next;
+changeFigure:none -id=f2 -next;
+changeBg:a台场/1st_2/1st_car.jpg -next -transform={"position":{"x":2000},"scale":{"x":2.8,"y":2.8}};
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an3 -transform={"position":{"x":-700,"y":-50},"scale":{"x":0.95,"y":0.95}} -next -motion=smile01 -expression=default;
+changeFigure:341_mashiro/model.json -id=sk3 -transform={"position":{"x":-70,"y":-50},"scale":{"x":0.95,"y":0.95}} -next -motion=nf_right01_anon -expression=smile01;
+:还有停在路边的老爷车模型，都是在强调所谓的“怀旧气氛”、“旧日风情”。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an3 -next -motion=smile06_ako -expression=default;
+changeFigure:341_mashiro/model.json -id=sk3 -next -motion=nf_right01_kokoro -expression=smile06;
+setTransform:{"position":{"x":1200},"scale":{"x":2.6,"y":2.6}} -target=bg-main -duration=0 -next;
+setTransform:{"position":{"x":1100,"y":-50},"scale":{"x":0.88,"y":0.88}} -target=an3 -duration=0 -next;
+setTransform:{"position":{"x":100,"y":-50},"scale":{"x":0.88,"y":0.88}} -target=sk3 -duration=0 -next;
+:——不过，对于两个年轻的女孩子来说，这种“怀旧”本质上也是一种“新鲜”就是了。
+changeFigure:none -id=sk3 -next;
+changeFigure:none -id=an3 -next;
+changeBg:a台场/1st_2/1st_street2.jpg -next -transform={"position":{"x":0,"y":150},"scale":{"x":-1.6,"y":1.6}};
+changeFigure:manga/curtain1.webp -id=cur1 -transform={"position":{"y":100},"scale":{"x":2,"y":1.3},"alpha":0} -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -transform={"position":{"x":600,"y":120},"scale":{"x":0.8,"y":0.8}} -next -motion=nf02 -expression=smile01;
+changeFigure:341_mashiro/model.json -id=sk4 -transform={"position":{"x":200,"y":100},"scale":{"x":0.84,"y":0.84}} -next -motion=surprised01 -expression=thinking01R;
+爱音:祥祥快看，那边还有捞金鱼的摊位诶~
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=nf_right01_mu -expression=smile01;
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=nnf_right01 -expression=surprised01;
+祥子:……真的诶。
+setTransform:{"position":{"y":150},"scale":{"x":-1.6,"y":1.6},"alpha":0} -target=bg-main -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=nf_right01 -expression=smile01_sk;
+setTransform:{"position":{"x":600,"y":100},"scale":{"x":0.8,"y":0.8},"alpha":0} -target=an4 -duration=0 -next;
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=nf04_anon -expression=surprised01;
+:丰川祥子眨了眨眼睛：这种摊位，不应该只出现在一些祭典、庙会里面么？
+setTransform:{"position":{"x":-150,"y":150},"scale":{"x":-1.6,"y":1.6},"alpha":1} -target=bg-main -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=nf_right01_rui -expression=smile02_sk;
+setTransform:{"position":{"x":500,"y":110},"scale":{"x":0.82,"y":0.82},"alpha":1} -target=an4 -duration=0 -next;
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=surprised01_rui -expression=shame02;
+setTransform:{"position":{"x":0,"y":100},"scale":{"x":0.84,"y":0.84}} -target=sk4 -next -duration=0;
+爱音:我还以为只会在祭典之类的地方见到这类摊位呢~
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=nf04_kokoro -expression=smile04;
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=smile04_taki;
+祥子:……。
+setTransform:{"position":{"x":-150,"y":150},"scale":{"x":-1.6,"y":1.6},"alpha":0} -target=bg-main -duration=0 -next;
+setTransform:{"position":{"x":500,"y":110},"scale":{"x":0.82,"y":0.82},"alpha":0} -target=an4 -duration=0 -next;
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=smile01_anon;
+:跟爱音想到一块去的感觉，微妙地有些美滋滋——
+changeFigure:341_mashiro/model.json -id=sk4 -motion=zb_nf01 -expression=serious01;
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=zb_angry07 -expression=angry01;
+:祥子的嘴角微微上扬，然后立刻耸拉了下来：为了这种事情就沾沾自喜的自己，也太杂鱼了吧……！？
+setTransform:{"position":{"x":-150,"y":150},"scale":{"x":-1.6,"y":1.6},"alpha":1} -target=bg-main -duration=0 -next;
+setTransform:{"position":{"x":500,"y":110},"scale":{"x":0.82,"y":0.82},"alpha":1} -target=an4 -duration=0 -next;
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=nnf_right01 -expression=thinking01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=nnf_left01 -expression=smile01;
+祥子:……爱音，以前参加过祭典么？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=thinking03 -expression=surprised01;
+爱音:嗯？   -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=smile01_ako -expression=smile06_sk;
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=thinking02;
+爱音:啊啊，算是吧——不过也是小时候的事情了。 -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=thinking01_sk -expression=thinking02;
+changeFigure:341_mashiro/model.json -id=sk4 -next -expression=Down_look;
+祥子:跟家里人一块去的？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=nf01 -expression=smile06_sk;
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=odoodo01 -expression=sad02;
+爱音:不是哦，是跟那时候的朋友——
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=angry06;
+祥子:——女孩子？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=nnf05;
+changeFigure:341_mashiro/model.json -id=sk4 -next -expression=angry02;
+爱音:嗯，怎么了嘛——
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=smile03 -expression=smile03_sk;
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=angry01 -expression=sad03_taki;
+爱音:啊。
+setTransform:{"position":{"y":100},"scale":{"x":2,"y":1.3},"alpha":0.7} -target=cur1 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=nnf04_mu;
+:千早爱音，突然感觉到了一股无形而又有些熟悉的重力，好像有人在她背后念叨着“你去祭典了吗、跟我以外的女孩子……”之类的台词——
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=smile03_ako -expression=smile04;
+changeFigure:341_mashiro/model.json -id=sk4 -next -expression=shame01R;
+changeFigure:none -id=cur1 -next;
+爱音:……祥祥，不会是吃醋了吧？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=smile04;
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=zb_nnf01 -expression=sigh01;
+祥子:才没有。 -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=smile01_mu -expression=serious01;
+setTransform:{"position":{"x":0,"y":100},"scale":{"x":0.87,"y":0.87}} -target=sk4 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=smile06_sk -expression=turnL;
+setTransform:{"position":{"y":120},"scale":{"x":0.84,"y":0.84}} -target=an4 -duration=0 -next;
+setTransform:{"position":{"x":-150,"y":150},"scale":{"x":-1.5,"y":1.5},"alpha":1,"blur":7} -target=bg-main -duration=0 -next;
+:说是这么说，但祥子还是拉起了爱音的手、快步走向了那个摊位：
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=kime01 -expression=smirk;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=smile06_sk -expression=surprised01;
+祥子:来一决胜负吧，爱音。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=surprised01 -expression=surprised01;
+爱音:喔、喔？ -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=zb_nnf_right01 -expression=angry01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=nf03 -expression=smile04;
+|胜负心又突然燃起来了！？ -concat -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=zb_angry01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=smile02_sk;
+祥子:不许说“又”！
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=nf04_mu;
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=zb_kime01 -expression=sigh01;
+setTransform:{"position":{"x":-50,"y":125},"scale":{"x":0.9,"y":0.9},"alpha":0} -target=sk4 -duration=0 -next;
+爱音:好~好~
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=smile05_sk;
+setTransform:{"position":{"y":125},"scale":{"x":0.9,"y":0.9},"alpha":0} -target=an4 -duration=0 -next;
+setTransform:{"position":{"x":-150,"y":150},"scale":{"x":-1.5,"y":1.5},"alpha":0,"blur":25} -target=bg-main -duration=0 -next;
+:爱音有些憋不住嘴角的笑意，但还是顺从地跟了上去—— -fontSize=default;
+bgm:none -enter=1200;
+changeFigure:none -id=sk4 -next;
+changeFigure:none -id=an4 -next;
+: -fontSize=default;
+changeBg:a台场/1st_2/1st_playGoldfish.jpg -next -transform={"position":{"x":0,"y":0},"scale":{"x":1,"y":1},"alpha":1,"blur":20};
+;:;
+choose:十分钟后。:;
+setTransform:{"position":{"y":50},"scale":{"x":1.1,"y":1.1},"blur":10} -target=bg-main -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -transform={"position":{"x":600},"scale":{"x":0.85,"y":0.85}} -next -motion=surprised01_sk_MouthOpen -expression=thinking02;
+changeFigure:341_mashiro/model.json -id=sk5 -transform={"position":{"x":-1100},"scale":{"x":0.85,"y":0.85},"alpha":0} -next;
+爱音:……啊、啊咧咧……
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -expression=turn_Down_look;
+bgm:17.interesting.mp3;
+:千早爱音看着手里兜网的破洞，嘴巴微张、露出了那可爱的小虎牙：
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=nf01_ako -expression=smile03;
+爱音:有、有这么难么……？
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=smile04 -expression=smile02;
+setTransform:{"position":{"x":-100},"scale":{"x":0.85,"y":0.85},"alpha":1} -target=sk5 -duration=1300 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=nf_left01 -expression=surprised01;
+祥子:哼。
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=kime01_anon;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=surprised01_ako -expression=turnL;
+:而另一边厢，丰川祥子已经捞到了两条金鱼，而且仅仅花费了五百日元的入场费。 -fontSize=default;
+:——祥子，胜了！？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=smile03;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=kime01_aya;
+爱音:……祥祥，居然是隐藏的捞金鱼高手！？
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=angry06 -expression=smirk;
+祥子:怎么，让爱音失望了么？
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=serious02_rui;
+:祥子眯了眯眼，优雅地甩了甩自己的马尾辫：
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=smile02 -expression=smile02_taki;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=nf_left01_masking -expression=smile03;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=ob5 -transform={"position":{"x":-800},"scale":{"x":0.85,"y":0.85},"alpha":0} -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=jh5 -transform={"position":{"x":100,"y":1200},"scale":{"x":0.85,"y":0.85},"alpha":0} -next;
+祥子:还是说，爱音是以为……我会一直输给你呢？
+setTransform:{"position":{"y":50},"scale":{"x":1.1,"y":1.1},"alpha":0,"blur":10} -target=bg-main -duration=0 -next;
+setTransform:{"position":{"x":1600},"scale":{"x":0.85,"y":0.85},"alpha":0} -target=an5 -duration=0 -next;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=zb_shame01 -expression=L_Boby;
+setTransform:{"position":{"x":900},"scale":{"x":0.85,"y":0.85},"alpha":1} -target=sk5 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=ob5 -next -motion=serious02_rui -expression=smile03;
+setTransform:{"position":{"x":-400},"scale":{"x":0.85,"y":0.85},"alpha":0.7} -target=ob5 -next -duration=1200
+:……虽然在捞金鱼比赛里获胜感觉也没什么大不了的， -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=jh5 -next -motion=serious02_masking -expression=sigh01;
+setTransform:{"position":{"x":100,"y":0},"scale":{"x":0.85,"y":0.85},"alpha":0.7} -target=jh5 -duration=1200 -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=ob5 -next -motion=nod01_kaoru;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=zb_nf_left01 -expression=serious01_taki;
+:不如说会在意这种胜负的祥子显得有些过于孩子气…… -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=zb_surprised02 -expression=L_Boby;
+setTransform:{"position":{"x":800},"scale":{"x":0.85,"y":0.85}} -target=sk5 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=ob5 -next -motion=nf_left01_mu -expression=smile05;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=jh5 -next -motion=nf_right01 -expression=sad02;
+:但、但是，好歹这也算是赢了！对、对吧！？
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=nnf_left01 -expression=angry01;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=ob5 -next -motion=odoodo01_rui -expression=smile03;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=jh5 -next -motion=sigh02;
+:祥子在心中寻求着认可，但她的理性和感性只是用一种微妙的嫌弃眼神注视着她，嘴里嘀咕着“呜哇，这个人没救了啊”之类的话语……
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=sigh01_rui -expression=smile04;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=zb_angry07;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=ob5 -next -motion=nf_right01_an -expression=smile03;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=jh5 -next -motion=nf_left01_an -expression=smile03;
+setTransform:{"position":{"x":-100},"scale":{"x":0.85,"y":0.85}} -target=sk5 -duration=0 -next;
+setTransform:{"position":{"x":500},"scale":{"x":0.85,"y":0.85},"alpha":1} -target=an5 -duration=0 -next;
+setTransform:{"position":{"x":-1100,"y":0},"scale":{"x":0.85,"y":0.85},"alpha":0} -target=jh5 -duration=0 -next;
+setTransform:{"position":{"x":-1600},"scale":{"x":0.85,"y":0.85},"alpha":0} -target=ob5 -next -duration=0;
+setTransform:{"position":{"y":50},"scale":{"x":1.1,"y":1.1},"alpha":1,"blur":10} -target=bg-main -duration=0 -next;
+:啧，没用的家伙们！
+changeFigure:none -id=ob5 -next;
+changeFigure:none -id=jh5 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=kandou01;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=smile01 -expression=default;
+爱音:祥祥好厉害！
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=smile04;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=smile04 -expression=default;
+setTransform:{"position":{"x":500},"scale":{"x":0.85,"y":0.85},"alpha":0.4} -target=an5 -duration=0 -next;
+setTransform:{"position":{"y":50},"scale":{"x":1.1,"y":1.1},"alpha":0.2,"blur":30} -target=bg-main -duration=0 -next;
+:——你看，爱音就多懂事，知道夸夸我……
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=serious01_aya -expression=shame01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=nnf_left01 -expression=smile06_sk;
+:不对！
+setTransform:{"position":{"x":500},"scale":{"x":0.85,"y":0.85},"alpha":1} -target=an5 -duration=0 -next;
+setTransform:{"position":{"y":50},"scale":{"x":1.1,"y":1.1},"alpha":1,"blur":10} -target=bg-main -duration=0 -next;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=zb_angry03 -expression=thinking02_R;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -expression=smile04;
+祥子:……爱音，我说过了，别把我当小孩子来哄。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=thinking02_sk;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=nf_right01_soyo -expression=thinking02;
+:差点又中招了——祥子保持警惕，瞪了自己的恋人一眼、提前发出警告：
+changeFigure:341_mashiro/model.json -id=sk5 -next -expression=angry01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=surprised01_soyo -expression=smile03;
+祥子:还有，不许说土味情话。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=odoodo01_mu;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=zb_angry04 -expression=sad01;
+爱音:……由祥祥说出这句话，总觉得哪里不太对诶—— -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=bye01_ako -expression=smile03_sk;
+setTransform:{"position":{"x":-500},"scale":{"x":0.85,"y":0.85}} -target=an5 -duration=0 -next;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=zb_nf_left01 -expression=shame01;
+爱音:好、好啦好啦，我不说！我不说总行了吧！ -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk5 -next -expression=sad02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=nf_right01_mu -expression=smile03;
+:看到蓝色小章鱼的脸颊又开始臌胀，爱音连忙转移话题：
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=thinking03 -expression=default;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=sigh01 -expression=sad01_masking;
+bgm:none -enter=1100;
+爱音:不过，祥祥以前真的没有参加过祭典什么的嘛？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=sad03_kokoro -expression=turnR10;
+changeFigure:341_mashiro/model.json -id=sk5 -next -expression=sad01;
+祥子:……没有。
+changeBg:none -next;
+changeFigure:none -id=sk5 -next;
+changeFigure:none -id=an5 -next;
+changeScene:2_10/past.txt

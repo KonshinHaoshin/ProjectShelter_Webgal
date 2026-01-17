@@ -1,0 +1,131 @@
+——若叶睦，最近总觉得有哪里不太对劲。
+changeBg:classroom_moon.webp -next -transform={"position":{"x":400,"y":500},"scale":{"x":1.7,"y":1.7}};
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -left -transform={"position":{"y":100},"scale":{"x":0.8,"y":0.8}} -next -motion=nf_left01_mu -expression=default;
+bgm:08.doll.mp3;
+这份“不对劲”的源头是丰川祥子。 -fontSize=default;
+changeBg:AM_RecordingRoom.webp -next;
+changeFigure:none -left -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -next -motion=kime01 -expression=kime01;
+:若叶睦总觉得，最近的祥……虽然已经不像早些时候那样“快要坏掉”、但又有种说不上来的怪异。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_rip/model.json -right -transform={"position":{"x":300,"y":100},"scale":{"x":0.8,"y":0.8}} -next -motion=surprised01 -expression=smile02;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -transform={"position":{"y":100},"scale":{"x":0.8,"y":0.8}} -next -motion=nnf_left01 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -transform={"position":{"x":-300,"y":100},"scale":{"x":0.8,"y":0.8}} -next -motion=smile02 -expression=smile05;
+changeFigure:bg00550.webp -id=dark -transform={"scale":{"x":2},"alpha":0.4,"oldFilm":1} -next;
+【“这怎么看都像是进化了至少一段。”】
+changeFigure: -next;
+changeFigure:none -right -next;
+changeFigure:none -left -next;
+changeFigure: -id=dark -next;changeBg:classroom_moon.webp  -transform={"position":{"x":400,"y":500},"scale":{"x":1.7,"y":1.7}} -next;
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -left -transform={"position":{"y":100},"scale":{"x":0.8,"y":0.8}} -next -motion=sad02 -expression=default;
+若叶睦并不懂自家乐队的鼓手小姐所说的“进化”是什么意思，她只知道，名为丰川祥子的少女绝非所谓的“完人”——她并不完全、亦不完美。
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -left -next -motion=thinking01_mu -expression=sad01;
+或许在一些人……在一些若叶睦【认识】的人眼里，曾经的丰川祥子就是“完全之人”、是可以投以信仰的“神明”，但在【那件事】发生之后，一切都改变了。
+changeFigure:none -left -next;
+changeBg:sakiko_dead.webp -next -transform={"blur":15};
+changeFigure:bg00550.webp -id=dark -transform={"scale":{"x":2},"alpha":0.2} -next;
+【“——过去那个软弱的我已经死了。”changeBg:classroom_moon.webp g -transform={"position":{"x":400,"y":500},"scale":{"x":1.7,"y":1.7}} -next;
+changeFigure: -id=dark -next;
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -left -transform={"position":{"y":100},"scale":{"x":0.8,"y":0.8}} -next -motion=nf01_mu -expression=sad01;
+丰川祥子是脆弱的。
+但丰川祥子绝对不会停下脚步。
+changeFigure:none -left -next;
+changeBg:sakiko_runningaway.webp -next -transform={"position":{"x":0,"y":0},"scale":{"x":1,"y":1}};
+changeFigure:bg00550.webp -id=dark -transform={"scale":{"x":2},"alpha":0.25} -next;
+——丰川祥子，永远不会迷失。
+changeBg:none -next;
+changeFigure:none -id=dark -next;
+所以，在那个时候，若叶睦没有丝毫犹豫地答应了祥子的邀请：在那本不应该变得如此残酷的“二择难题”面前，睦选择了祥、选择了陪在那坚强而脆弱的少女身边，
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -left -transform={"position":{"y":100},"scale":{"x":0.8,"y":0.8}} -next -motion=nf_right01_mu -expression=smile04_mu;
+就像祥子最心爱的洋娃娃那样、陪伴着她直至世界的尽头。
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -left -next -expression=sad01;
+——然后，沉默着、跟祥一起凋零。 -fontSize=defaulchangeBg:classroom_moon.webp ng -transform={"position":{"x":400,"y":500},"scale":{"x":1.7,"y":1.7}} -next;
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -left -next -motion=thinking01_mu -expression=default_mu;
+本来应该是这样没错。
+changeFigure: -left -next;
+changeBg: -next;
+事情的发展本就不可能一帆风顺，
+changeBg:ave mujica.webp -next;
+changeFigure:bg00550.webp -transform={"scale":{"x":2},"alpha":0.3} -next;
+在丰川祥子带领着名为【Ave Mujica】的银河战舰启航之初，若叶睦就仿佛看到了这艘船重重地撞在名为残酷现实的冰山上、然后就这么原地沉没的光景——
+changeBg:none -next;
+changeFigure:none -next;
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -left -transform={"scale":{"x":0.8,"y":0.8}} -next -motion=smile03 -expression=default;
+当然，她不会将这种想法说出口，因为她说什么都是错的、最好的做法是什么也不说。
+changeFigure:none -left -next;
+然后……
+changeBg:114,514ï¼.webp -next -transform={"position":{"y":500},"scale":{"x":2,"y":2}};
+然后【Ave Mujica】就大获成功了。changeBg:AM_RecordingRoom.webp  -next;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_nocap_rip/model.json -left -transform={"scale":{"x":0.8,"y":0.8}} -next -motion=nnf_right01 -expression=smile02;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -transform={"scale":{"x":0.8,"y":0.8}} -next -motion=smile06 -expression=smile04;
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -right -transform={"position":{"x":200,"y":50},"scale":{"x":0.8,"y":0.8}} -next -motion=smile02 -expression=default;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_rip/model.json -right -id=nya -transform={"position":{"x":700,"y":50},"scale":{"x":0.8,"y":0.8}} -next -motion=smile01 -expression=smile01;
+并不是那种短暂的、昙花一现的成功，而是……比她照顾的那片小农田还要适合“可持续发展”这个词语的、怎么看怎么一帆风顺的成功。
+changeFigure:none -next;
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure: -right -id=nya -nechangeBg:classroom_moon.webp webp -transform={"position":{"x":400,"y":500},"scale":{"x":1.7,"y":1.7}} -next;
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -left -transform={"position":{"y":100},"scale":{"x":0.8,"y":0.8}} -next -motion=thinking01 -expression=thinking01;
+——为什么呢。
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -left -next -expression=thinking02;
+:快要坏掉的祥，突然好得不能再好：她什么事都亲力亲为、却又好像有着用不完的精力。
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -left -next -motion=nnf04_mu -expression=odoodo01;
+:睦知道祥子面对的困境，如果有人能在过着那种生活的情况下、还能将乐队扛在肩上一路向前狂奔，
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -left -next -expression=smile04_mu;
+:那么若叶睦真的要考虑一下开个小号在Ave Mujica的评论区底下留言一句“键盘手太拼命了”。
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -left -next -motion=thinking01_mu -expression=thinking02;
+——但祥子做到了changeBg:AM_RecordingRoom.webp g -next;
+changeFigure:none -left -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -transform={"scale":{"x":0.8,"y":0.8}} -next -motion=nnf_right01 -expression=smile02;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_nocap_rip/model.json -right -transform={"position":{"x":200},"scale":{"x":0.8,"y":0.8}} -next -motion=nnf_left01 -expression=smile01;
+甚至，除了对某位鼓手的要求还是很高以外，她也不再像以前那样、对任何人都板着一张脸。 -fontSize=default;
+changeBg:bg00486.webp -next;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_rip/model.json -left -transform={"position":{"x":-200},"scale":{"x":0.8,"y":0.8}} -next -motion=smile01 -expression=smile02;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -transform={"scale":{"x":0.8,"y":0.8}} -next -motion=nnf_right01 -expression=smile01;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -right -transform={"scale":{"x":0.8,"y":0.8}} -next -motion=odoodo01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -right -id=uiri -transform={"position":{"x":800},"scale":{"x":0.8,"y":0.8}} -next -motion=nnf_right01 -expression=smile04;
+:最近，她开始偶尔接受团建的邀请、不再抗拒与队友们拉近距离…… -fontSize=default;
+changeBg:bg00746.webp -next;
+changeFigure:none -next;
+changeFigure: -left -id=uiri -next;
+changeFigure:none -right -next;
+changeFigure:none -left -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -transform={"position":{"x":700,"y":100},"scale":{"x":0.7,"y":0.7}} -next -motion=nf05 -expression=smile03;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_rip/model.json -transform={"position":{"x":-200,"y":100},"scale":{"x":0.7,"y":0.7}} -next -motion=surprised01 -expression=surprised01;
+是的，若叶睦昨天甚至看到蓝发双马尾的少女偷偷向那位鼓手请教关于化妆品的知识，吓得鼓手小姐误以为自己又犯了什么大错、觉得这是某种新颖的拷changeBg:classroom_moon.webp .webp -transform={"position":{"x":400,"y":500},"scale":{"x":1.7,"y":1.7}} -next;
+changeFigure:none -next;
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -left -transform={"position":{"x":0,"y":100},"scale":{"x":0.8,"y":0.8}} -next -motion=smile01_mu -expression=default_mu;
+:太好了呢。|若叶睦下意识地笑了笑、 -notend;
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -left -next -expression=serious02;
+:但她的笑容转眼即逝。 -concat
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -left -next -motion=nf_left01_mu;
+……是啊，祥的脸上开始重新出现笑容，但那份笑容朝向的对象却又好像并非乐队里的任何一个人。
+自然，也不会是朝向她若叶睦。
+setTransform:{"position":{"x":-1250,"y":700},"scale":{"x":2,"y":2}} -target=bg-main -duration=1500 -next;
+changeFigure:none -left -next;
+事出反常必有妖。|课堂上，国文老师指着黑板上的汉字、解说着这句来自中国的谚语。
+睦觉得这句话用在这里再合适不过：她觉得队内的鼓手说得对，丰川祥子虽非“完人”，但现在的她好像那么个超人，怎么看怎么不对劲。
+changeBg: -next;
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -left -transform={"position":{"y":100},"scale":{"x":0.8,"y":0.8}} -next -motion=sigh02 -expression=default;
+……明明自己应该感到高兴才对。|浅绿发的少女垂下脑袋，在心中轻叹了口气。
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -left -next -motion=nf01_mu;
+……祥、在她不知道的地方“被修好了”。
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -left -next -motion=thinking01_mu -expression=default_mu;
+但比起“修好祥的人不是我”这样的小小烦恼，若叶睦更担心的是另一件事：
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -left -next -motion=thinking01_mu -expression=sigh01;
+真的，被修好了么？
+changeFigure:none -left -next;
+changeBg:bg00053.webp -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -right -transform={"position":{"y":-100}} -next -motion=smile01 -expression=default;
+——名为【丰川祥子】的存在，真的能那么容易就变回那道毫无瑕疵的皎洁月光么？
+changeBg:none -next;
+changeFigure: -right -next;
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -left -transform={"position":{"y":100},"scale":{"x":0.8,"y":0.8}} -next -motion=nf_left01 -expression=sad01;
+如果不能的话，那么现在的若叶睦所窥见到的、所谓“被修好的祥”……会不会、只是某种暴风雨来临前的平静而已呢？
+changeBg:rainy_day.webp -next;
+changeFigure:none -left -next;
+:睦突然又想起了那一天、想起了那一天的雨、想起了那一天浑身湿透地走进排练室的 -fontSize=default -notend;
+changeBg:888ccc.webp -next;
+:蓝发少女。 -fontSize=default -cochangeBg:classroom_moon.webp n.webp -next -transform={"position":{"x":-1250,"y":700},"scale":{"x":2,"y":2}};
+:——事出反常必有妖。
+:少女抬起头来，再次看向黑板、看向了黑板上的汉字。
+changeScene:2_03/soyorin.txt;

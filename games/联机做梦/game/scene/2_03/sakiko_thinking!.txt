@@ -1,0 +1,159 @@
+changeFigure:bathroom_back.webp -id=back -transform={"position":{"y":400},"scale":{"x":2.8,"y":1.7}} -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -right -transform={"position":{"x":200},"scale":{"x":0}} -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -left -transform={"position":{"x":-150},"alpha":0} -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1_round/model.json -id=sk -next -motion=nf03 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -transform={"alpha":0} -next -motion=nf01 -expression=thinking01;
+changeFigure:bathroom_front.webp -id=front -transform={"position":{"y":400},"scale":{"x":2.8,"y":1.7}} -next;
+changeFigure:grey.webp -id=glass -transform={"position":{"x":10},"scale":{"x":0.96,"y":0.92},"alpha":0.15} -next;
+祥子:……？
+changeFigure: -id=sk -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=nnf01;
+setTransform:{"scale":{"x":1}} -target=fig-center -duration=0 -next;
+:不对，不是长胖了——应该说是脸变圆了……也不对，正确的说法是，她脸上的【气质】没有先前那么锐利了。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=angry01 -expression=sad02;
+:祥子皱了皱眉，镜中的自己也跟着一起眉头微皱：她总觉得，那个过去软弱的自己好像真的复活了，而且变得比以前还要软糯不少，搞得她这张脸越看越圆。
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -left -next -motion=nf_right01 -expression=smile02;
+setTransform:{"position":{"x":-150},"scale":{"x":1},"alpha":0.8} -target=fig-left -duration=800 -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=zb_surprised02;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -right -next -motion=nf_left01 -expression=smile01;
+setTransform:{"position":{"x":200},"alpha":0.8} -target=fig-right -duration=50 -next;
+:啪啪啪啪——
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=shame02;
+:许久没有出场的理性和感性同时开始在她心中鼓掌，祝贺软糯的丰川祥子小姐打赢复活赛。但祥子却有些高兴不起来，她不太确定变成这样的自己是否“正确”。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -expression=thinking02;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -left -next -motion=thinking01 -expression=default;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -right -next -motion=nf_right01 -expression=smile04;
+:……或者说，什么才算是“正确”呢？
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=thinking01 -expression=L_Boby;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -left -next -motion=nnf_right01 -expression=thinking01;
+:她想要询问镜中的自己，但镜中的她自然不会给予任何回应、只会跟她一起露出 -fontSize=default -notend;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -expression=R_Boby;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -right -next -motion=nf_left01 -expression=thinking01;
+:困惑的表情。 -fontSize=default -concat;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -left -next -motion=smile06 -expression=smile05;
+setTransform:{"position":{"x":-50},"alpha":0.8} -target=fig-left -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -right -next -motion=nod01 -expression=smile02;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=nnf_left01 -expression=thinking01;
+理性:这个问题吧，你觉得是就是，不是就不是，是的话呢它有是的解法，不是的话呢它也有不是的解法
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -left -next -motion=serious01 -expression=serious02;
+丰川祥子，你现在要思考的不是这种无聊的定义问题，而是你接下来该怎么做。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=thinking01;
+:祥子不解，她接下来还能干嘛？该上学上学，该搞乐队搞乐队，该做梦做梦……
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -right -next -motion=smile03 -expression=smile05;
+setTransform:{"position":{"x":0},"alpha":0.8} -target=fig-right -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=zb_surprised02 -expression=surprised01;
+感性打断了她的不解，说是丰川祥子你在自己做的梦里丢人是否有些过分了
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -right -next -motion=sigh01 -expression=default;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -left -next -motion=nod01 -expression=sigh01;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=zb_odoodo01;
+感性:就不能赢那么一次么，一次就好。 ;
+:祥子沉默了。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=zb_shame01;
+:镜中的蓝发少女脸颊微红、视线飘忽不定，似乎就 -notend;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -left -next -motion=nf_right01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -expression=R_Boby;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -right -next -motion=nf_left01 -expression=smile03;
+:连直视自己倒影的勇气也已然失去。 -concat;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=nf01 -expression=sad02;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -left -next -motion=smile02;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -right -next -motion=sigh02 -expression=smile03;
+:逃避是可耻的，而且没用——人总要睡觉、她总会做梦，然后在梦里再输一次。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=thinking01;
+:丰川祥子不是一个会沉溺于温柔乡的人，也不是一个公私不分的笨蛋。但她不得不承认，梦中的千早爱音在某方面算是点醒了她、给她指示了一条道路。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -expression=thinking01;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -left -duration=500 -next -motion=nod01_q -expression=smile02;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -right -next -motion=kime01 -expression=smile01;
+学习、然后是练习。|对于未知的、自己不擅长的项目，本来就应该这么做，不是么？
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=zb_nf01 -expression=down_look;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -left -next -motion=nnf_right01 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -right -next -motion=nnf_left01 -expression=surprised02;
+但是，那只是梦而已……镜中的少女低下了头，似乎是有些不太理解自己为什么会那么在意梦中的输赢：如果反过来为了在梦里“取胜”而浪费现实的时间，这不是本末倒置了么？
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -left -next -motion=angry07 -expression=default;
+理性对此表达了反对意见：
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=zb_nnf_left01 -expression=sad02;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -right -next -motion=nod01 -expression=serious02;
+理性:菜就多练，世上没有不想输又不努力练习的道理。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=shame02 -expression=odoodo01;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -right -next -expression=surprised01;
+:祥子无法反驳这一点，但她还是不愿意将宝贵的时间花费在这种事情上。
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -right -next -motion=angry04 -expression=default;
+感性:什么叫“这种事情”，丰川祥子，你还是那个绝不认输的丰川祥子么！？
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=sigh02;
+祥子:唉…… ;
+changeBg:none -next;
+changeFigure:none -left -next;
+changeFigure:none -next;
+changeFigure:none -right -next;
+changeFigure: -id=back -next;
+changeFigure: -id=front -next;
+changeFigure: -id=glass -next;
+:胡思乱想也没个结果，只有脑内的一团乱麻还在持续进行着量子纠缠。
+changeBg:bathroom_back1.webp -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -left -transform={"position":{"x":-200},"alpha":0.8} -next -motion=angry06 -expression=smirk;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -right -transform={"position":{"x":150},"alpha":0.8} -next -motion=smile02 -expression=default;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next;
+理性:呃啊理性理性，丰川祥子，你才是最需要练习的那个（意味深）。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=zb_nnf_left01 -expression=angry01;
+祥子:这种事情自己一个人也压根没法练习不是么。
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -right -next -motion=nf01 -expression=smile02;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=zb_nnf_right01 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -left -next -motion=nod01 -expression=smile03;
+感性:呃啊感性感性，丰川祥子，想练习的话自己练不就好了，又没有规定一定要跟梦中的爱音一起才能练习（意味深）。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=zb_odoodo01 -expression=default;
+:祥子又沉默了，她想说【那种事情】自己一个人做是不一样的
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -expression=sad02;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -left -next -motion=nf_right01 -expression=thinking01;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -right -next -motion=nnf_left01 -expression=angry01;
+:如果不是在梦里的话，她根本不可能那么大胆——
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -right -next -motion=angry03;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -left -next -motion=smile05 -expression=default;
+changeFigure:pillow2.webp -id=pillow -transform={"position":{"x":-200,"y":-1200},"scale":{"x":0.45,"y":0.45},"alpha":0.4,"rotation":0.4} -next;
+:然而感性却训斥她不要讲这种天真的话了，至今为止丰川祥子你都在做什么，躺在床上当枕头公主么。;
+setTransform:{"position":{"x":-50,"y":-200},"scale":{"x":0.45,"y":0.45},"alpha":0.4,"rotation":-0.2} -target=pillow -duration=800 -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=zb_sad02 -expression=down_look;
+setTransform:{"position":{"y":150}} -target=fig-center -duration=800 -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -right -next -expression=smile02;
+:呃啊，枕头。 ;
+setTransform:{"position":{"x":0,"y":-400},"scale":{"x":0.45,"y":0.45},"alpha":0.4} -target=pillow -duration=400 -next;
+:祥子又想起了梦中的枕头， -fontSize=default -notend;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -expression=cry03;
+setTransform:{"position":{"x":100,"y":-200},"scale":{"x":0.45,"y":0.45},"alpha":0.4,"rotation":0.2} -target=pillow -duration=400 -next;
+:只觉得自己在被什么无形的回旋镖狠狠敲打、一下接一下的。 -fontSize=default -concat;
+setTransform:{"scale":{"x":0,"y":0},"alpha":0} -target=pillow -duration=0 -next;
+:最终，还是可靠的本能出言提醒：
+changeFigure:none -id=pillow -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -left -next -motion=surprised01 -expression=thinking01;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -expression=surprised01;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -right -next -expression=surprised02;
+本能:呃啊本能本能，我从来没感觉到做梦开心过。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=serious01;
+setTransform:{"position":{"y":0}} -target=fig-center -duration=0 -next;
+:祥子的理性、祥子的感性、以及祥子自己都大为不解：这是何意？
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -left -next -motion=nf_left01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=odoodo01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -right -next -motion=smile02 -expression=default;
+本能答曰：饿了，事已至此先吃早饭吧，吃完再说。
+changeBg: -next;
+changeFigure:none -left -next;
+changeFigure: -right -next;
+changeFigure: -next;
+——事实证明，本能是对的。
+changeBg:SakiKo_Home_Night_02.webp -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=smile04 -expression=default;
+不是饿不饿的问题，而是身体的本能正在发出警告：世界上或许存在着一些超自然的事情，但再怎么超自然也不会让一个高中生变成超人，除非她姓弦卷。
+changeFigure: -next;
+changeBg:none -next;
+:显然，丰川祥子姓丰川，她做不到从三楼跳下去毫发无伤还能耍一段杂技，
+changeBg:bg00905.webp -next -transform={"position":{"x":-380,"y":-200},"scale":{"x":1.3,"y":1.3}};
+changeFigure:none -left -transform={"position":{"x":-700},"alpha":0.4} -next -motion=nnf_left01 -expression=sigh01;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -transform={"position":{"x":1400,"y":0},"scale":{"x":1,"y":1}} -next;
+:所以她也不可能真的因为每天晚上都能做美梦而获得无穷无尽的精力——身体的本能用它自己的方式证明了这一点。
+changeFigure:none -left -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -transform={"position":{"x":900},"scale":{"x":0.9,"y":0.9}} -next -motion=nnf_left01 -expression=surprised01;
+setTransform:{"position":{"x":600,"y":0},"scale":{"x":1,"y":1}} -target=fig-right -duration=1400 -next;
+爱音:祥祥？ ;
+changeFigure:none -right -next;
+changeBg:none -next;
+:这一天，熟悉的钢琴声并没有响起。
+:……………………………………
+changeScene:2_03/anon.txt

@@ -1,0 +1,179 @@
+changeFigure:pink.webp -id=pink -transform={"scale":{"x":2},"alpha":0} -next;
+changeBg:K0.webp -next;
+changeFigure:341_mashiro/model.json -left -id=sk4 -transform={"scale":{"x":0.73,"y":0.73}} -next -motion=zb_sigh01 -expression=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -transform={"position":{"x":200},"scale":{"x":0.73,"y":0.73}} -next -motion=smile03 -expression=L_Boby_Down;
+:车窗外，江东区特有的高楼大厦不断掠过——祥子沉默了好一会儿，才开口说道：
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=shame02 -expression=shame01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -expression=surprised01;
+祥子:……因为，我不想让爱音等太久。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=nf01 -expression=smile03;
+changeFigure:341_mashiro/model.json -id=sk4 -next -expression=Down_look;
+爱音:不不不，就算是这样，提前一个小时也太早了啦——
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=thinking01 -expression=surprised01;
+:……不对。|祥子突然意识到了不对劲，心中的疑问脱口而出： -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=nnf_right01 -expression=thinking01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -expression=surprised01;
+祥子:——那为什么爱音也来得那么早？
+changeFigure:341_mashiro/model.json -id=sk4 -next -expression=smile04;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=shame01 -expression=default;
+爱音:——。
+:这次，轮到千早爱音红着脸别过视线。
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=angry06 -expression=smile04;
+setTransform:{"position":{"x":25},"scale":{"x":0.73,"y":0.73}} -target=sk4 -duration=0 -next;
+祥子:……爱音？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=zb_nnf03 -expression=smile03;
+爱音:咳……那、那是因为……嗯……
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=zb_nf01 -expression=Down_look;
+:前略，千早爱音是个实诚的好孩子。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=zb_nf_right01 -expression=shame02;
+:在蓝发少女的注视下，这位实际上并不怎么邪恶的粉发少女羞涩地用指尖把玩着发梢、语气非常不自然地回答道：
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=zb_surprised01 -expression=default;
+爱音:……我、我想比祥子早到……还能拍个照发给祥子……这样能显得游刃有余一些……
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=smile02 -expression=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=angry01 -expression=shame01;
+祥子:……噗。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=angry03_sk -expression=shame01;
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=smile06 -expression=smile02;
+爱音:咕，不许笑啦！网、网上的攻略都是这么说的……！
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=kandou01_anon -expression=smile04;
+setTransform:{"position":{"x":50},"scale":{"x":0.73,"y":0.73}} -target=sk4 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=nf_right01_mu -expression=shame02_sk;
+祥子:所以，爱音为了跟我约会、甚至还提前上网查了所谓的攻略~？
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=nf01 -expression=smirk;
+:天晴了，雨停了，丰川祥子觉得自己又行了——这个人就是这样，一旦感觉自己掌握了主导权，就会展露出极其强势而自信的一面。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=nod01_nanami -expression=shame01_sk;
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=angry01_rui -expression=smile06;
+爱音:……嗯、嗯……
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=angry06 -expression=smirk;
+setTransform:{"position":{"x":75},"scale":{"x":0.73,"y":0.73}} -target=sk4 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=shame01 -expression=smile03;
+祥子:明明只是【朋友】之间的小小约会？
+intro:——恋人的关系，只在梦中成立。 -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(194, 252, 255, 1) -animation=fadeIn -delayTime=1500 -hold;
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=smile01 -expression=smile04;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=angry05_sk -expression=shame02;
+:这是丰川祥子和千早爱音的约法三章，尽管今天的约会真正的含义为何、二人都心照不宣，但至少嘴上还是要这么宣称一下的。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=zb_angry01;
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=surprised01_mu -expression=shame01;
+爱音:……因为，是跟祥子的第一次正式约会嘛。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -expression=thinking01;
+:小心思被戳穿的粉发少女，干脆自暴自弃地说道：
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=sigh02 -expression=shame01;
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=zb_smile06 -expression=shame01;
+setTransform:{"position":{"x":100},"scale":{"x":0.73,"y":0.73}} -target=sk4 -duration=0 -next;
+爱音:就算只是【朋友】，我也想让这场约会……能在祥子心里留下深刻又美好的印象…… -fontSize=medium;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=zb_nnf_left01 -expression=sad02;
+changeFigure:341_mashiro/model.json -id=sk4 -next -expression=surprised01;
+咕，话说回来，祥子还没回答我刚刚的问题—— -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk4 -next -expression=shame02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -expression=shame02;
+bgm: -enter=0;
+啊。 -fontSize=default -concat;changeBg:K0.webp  -next -transform={"scale":{"x":2.2,"y":2.2},"blur":15};
+setTransform:{"position":{"x":100},"scale":{"x":1.8,"y":1.8},"blur":15} -target=bg-main -duration=10 -next;
+setTransform:{"scale":{"x":2},"alpha":0.03} -target=pink -duration=10 -next;
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=zb_nf_right01_soyo -expression=shame02;
+setTransform:{"scale":{"x":1,"y":1}} -target=sk4 -duration=10 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=nf_left01_sk -expression=shame02_sk;
+setTransform:{"position":{"x":50},"scale":{"x":1,"y":1}} -target=an4 -duration=10 -next;
+bgm:24.lonely_girl.mp3 -enter=1400;
+:——回过神来时，二人的距离已经失控了。
+setTransform:{"position":{"x":-100},"scale":{"x":3,"y":3},"blur":25} -target=bg-main -duration=0 -next;
+changeFigure:none -id=sk4 -next;
+changeFigure:none -id=an4 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -transform={"position":{"y":-75},"scale":{"x":1.1,"y":1.1}} -next -motion=zb_surprised01 -expression=shame01;
+:是因为太久没有在梦中相会了么？还是说，是因为脱离了学校、离开了“同学”这一身份的掣肘，二人对彼此的认知变 -fontSize=default -notend;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf_left01 -expression=shame02;
+:得模糊化了呢？ -fontSize=default -concat;
+changeFigure:none -id=an -next;
+setTransform:{"position":{"x":150,"y":-50},"scale":{"x":3,"y":3},"blur":25} -target=bg-main -duration=0 -next;
+changeFigure:341_mashiro/model.json -id=sk -transform={"position":{"x":-300,"y":-75},"scale":{"x":1.1,"y":1.1}} -next -motion=shame01 -expression=shame01;
+changeFigure: -id=sk4 -next;
+changeFigure: -id=an4 -next;
+:梦与现实之间的界线又一次崩溃， -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nnf_right01_mu -expression=shame02;
+:直到爱音有那么一丢丢恼羞成怒地转头看向祥子时，她才发现自己跟对方的距离已经近到超越了“朋友”这一概念应有的标准、鼻尖都要碰在一起了—— -fontSize=default;
+changeFigure:none -id=sk -next;
+setTransform:{"position":{"x":-75,"y":-1500},"scale":{"x":3,"y":3},"blur":25} -target=bg-main -duration=400 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -transform={"position":{"x":-600,"y":-2800},"scale":{"x":2,"y":2}} -next -motion=nf_left01;
+changeFigure:341_mashiro/model.json -id=sk5 -transform={"position":{"x":-2300,"y":-2800},"scale":{"x":2,"y":2}} -next -motion=nf_right01_masking -expression=default;
+:自然而然地，二人的指尖也轻轻触碰着彼此，随后理所当然地交 -fontSize=default -notend;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=nf04_anon;
+setTransform:{"position":{"x":-2200,"y":-2800},"scale":{"x":2,"y":2}} -target=sk5 -duration=1400 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=nf_left01 -expression=L_Boby_Down;
+setTransform:{"position":{"x":-650,"y":-2800},"scale":{"x":2,"y":2}} -target=an5 -duration=1400 -next;
+:缠、相扣。 -fontSize=default -concat;
+changeBg: -next;
+changeFigure:none -id=sk5 -next;
+changeFigure:none -id=an5 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -transform={"position":{"x":350},"scale":{"x":0.9,"y":0.9}} -next -motion=odoodo01_sk -expression=shame02;
+:……就像是恋人一样。|粉发的少女如是想道。 -fontSize=default;
+changeFigure:none -id=an -next;
+changeFigure:341_mashiro/model.json -id=sk -transform={"position":{"x":-350},"scale":{"x":0.9,"y":0.9}} -next -motion=shame01_tmr -expression=shame01;
+:……这跟恋人根本没有任何区别呢。|蓝发的少女如是想道。;
+setTransform:{"scale":{"x":2},"alpha":0.06} -target=pink -duration=0 -nextchangeBg:K0.webp g -next -transform={"position":{"x":100},"scale":{"x":2,"y":2},"blur":10};
+changeFigure:none -id=sk -next;
+changeFigure:341_mashiro/model.json -id=sk4 -transform={"position":{"x":-500}} -next -motion=nf_right01 -expression=shame01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -transform={"scale":{"x":1,"y":1}} -next -motion=angry04 -expression=shame02;
+:吐息、呼吸、还有彼此的体香——这个距离下，能够捕捉到的、属于恋慕之人的信息实在是太多、太多了。
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=idle_in_kiss00 -expression=R_boby;
+setTransform:{"position":{"x":-475}} -target=sk4 -duration=1400 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=idle_in_kiss00 -expression=L_Boby_Down;
+setTransform:{"position":{"x":-25}} -target=an4 -duration=1400 -next;
+setTransform:{"scale":{"x":2},"alpha":0.14} -target=pink -duration=0 -next;
+:多到令人脑袋发晕、多到车厢的空调都无法抑制二人的升温、多到令人忍不住想要更加靠近彼此——
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=zb_surprised01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=surprised01 -expression=turnL;
+setTransform:{"scale":{"x":2},"alpha":0} -target=pink -duration=0 -next;
+:【台场海滨公园、到着】
+changeFigure:none -id=pink -next;
+两人:——！？
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=zb_surprised02 -expression=L_Boby;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=nf_right01 -expression=shame02;
+:列车到站播报的声音，将距离“哎我怎么在天上飞啊”就差一步的二人狠狠地砸回了现实。
+setTransform:{"scale":{"x":1,"y":1},"blur":0} -target=bg-main -duration=0 -next;
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=odoodo01 -expression=shame02;
+setTransform:{"position":{"x":-300},"scale":{"x":0.73,"y":0.73}} -target=sk4 -duration=0 -next;
+setTransform:{"position":{"x":400},"scale":{"x":0.73,"y":0.73}} -target=an4 -duration=0 -next;
+:松手、拉开距离、然后是极其默契的无言环顾四周……完了，车厢里还有别人。
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=nf05 -expression=smile03;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=surprised01 -expression=default;
+setTransform:{"position":{"x":200},"scale":{"x":0.73,"y":0.73}} -target=an4 -duration=0 -next;
+setTransform:{"position":{"x":-375},"scale":{"x":0.73,"y":0.73}} -target=sk4 -duration=0 -next;
+changeFigure:toleft.webp -id=toleft -transform={"position":{"x":-1800,"y":-1550},"scale":{"x":0.3,"y":0.3},"alpha":0.7} -next;
+祥子:……该、该下车了呢。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=handsleft -expression=surprised01;
+setTransform:{"position":{"x":200},"scale":{"x":0.73,"y":0.73}} -target=an4 -duration=0 -next;
+setTransform:{"position":{"x":-425},"scale":{"x":0.73,"y":0.73}} -target=sk4 -duration=0 -next;
+:祥子努力保持着最后的冷静，尽管她已经又一次冷静得快要吓死了。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=smile04 -expression=smile03;
+爱音:是、是呢！
+setTransform:{"position":{"x":-900,"y":-1550},"scale":{"x":0.3,"y":0.3},"alpha":0.7} -target=toleft -duration=0 -next;
+changeFigure:341_mashiro/model.json -id=sk4 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=shame01;
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=surprised01 -expression=R_boby;
+changeFigure:none -id=toleft -next;
+:爱音怎么看都不像是能保持冷静的样子，如果这是什么动画片的话，她的眼睛高低得加个圈圈眼可爱特效。
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=nf_right01_mu -expression=smile05;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=idle01 -expression=smile03;
+setTransform:{"position":{"x":150},"scale":{"x":0.73,"y":0.73}} -target=sk4 -duration=0 -next;
+setTransform:{"position":{"x":550},"scale":{"x":0.73,"y":0.73}} -target=an4 -duration=0 -next;
+:车门打开，粉发的少女动作僵硬、同手同脚地迈开脚步走出车厢； -fontSize=default;
+setTransform:{"position":{"x":650},"scale":{"x":0.73,"y":0.73}} -target=sk4 -duration=0 -next;
+setTransform:{"position":{"x":1050},"scale":{"x":0.73,"y":0.73}} -target=an4 -duration=0 -next;
+:|蓝发的少女拉着前者的衣角、跟在后头同样动作僵硬地离开了列车—— -fontSize=default -concat;
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=surprised02 -expression=shame02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=zb_surprised01 -expression=smile03;
+miniAvatar:JCconfused.webp;
+0v0:妈妈，刚刚的两个大姐姐在做什么，好奇怪喔——诶，妈妈，你怎么双手合十了？
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=nnf04;
+setTransform:{"position":{"x":2150},"scale":{"x":0.73,"y":0.73}} -target=sk4 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=nf05 -expression=shame02;
+setTransform:{"position":{"x":2550},"scale":{"x":0.73,"y":0.73}} -target=an4 -duration=0 -next;
+miniAvatar:none;
+:——临走前，她们好像还听到了车厢内一位小女孩的童言无忌，这让她们的脸蛋变得更红了，比月之森园艺部那块地里的小番茄还红。
+:南无三……（双手合十）
+changeFigure: -id=sk4 -next;
+changeFigure: -id=an4 -next;
+changeBg:none -next;
+bgm: -enter=1400;
+:………………………………
+changeScene:not_sox.txt

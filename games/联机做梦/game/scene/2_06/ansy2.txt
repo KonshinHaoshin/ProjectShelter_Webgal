@@ -1,0 +1,82 @@
+changeBg:ave mujica_stage4_brighter.webp -next -transform={"position":{"y":-2300},"scale":{"x":4.2,"y":4.2}};
+bgm:07.in and out.mp3 -enter=1000;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -transform={"position":{"x":-100,"y":400},"scale":{"x":0.73,"y":0.73}} -next -motion=nf04_sk -expression=thinking01;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -transform={"position":{"x":500,"y":400},"scale":{"x":0.73,"y":0.73}} -next -motion=nnf04 -expression=thinking01;
+:随着灯光的变化，舞台的帷幕也有了动静——报幕、灯光亮起、人偶们的舞台剧，这是爱音已经看了许多次的演出， -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -expression=smile03;
+:即便每次的剧本都不太一样，但整体的风格并没有什么改变，还是那么的黑暗、深邃、充满幻想的气息。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=smile01 -expression=thinking01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=odoodo01_sk -expression=sad02_sk;
+:然而，今天的千早爱音有点无心欣赏台上的演出。
+changeBg:none -next;
+changeFigure:none -id=sy -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -expression=sigh01;
+:……这不好。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf_right01_masking -expression=sad01;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -transform={"position":{"x":500,"y":200},"scale":{"x":0.73,"y":0.73},"alpha":0.7} -next -motion=angry04_anon -expression=sad01;
+:这样很对不起祥祥。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=smile03 -expression=default;
+changeFigure:none -id=sk -next;
+:但，自己也很对不起Soyorin。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=kime02;
+:……主观来说，她并不觉得自己的隐瞒有什么问题。
+changeFigure:none -id=an -next;
+changeFigure:bg00707.webp -id=bg -transform={"position":{"x":500},"scale":{"x":2,"y":2},"alpha":0.5} -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an_secret -transform={"position":{"x":-100,"y":400},"scale":{"x":0.73,"y":0.73}} -next -motion=nf01_soyo -expression=thinking01;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=sk_secret -transform={"position":{"x":900,"y":100},"scale":{"x":0.73,"y":0.73},"alpha":0.7} -next -motion=odoodo01 -expression=sad02;
+:对乐队的大家保密，是丰川祥子在分享了Ave Mujica这一“小小秘密”之后的合理要求，即便让爱音再选一次，她也依旧会选择隐瞒关于祥子这支新乐队的事情。
+changeFigure:none -id=bg -next;
+changeFigure:none -id=sk_secret -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an_secret -next -motion=thinking03 -expression=default;
+:而客观来说，她和长崎素世之间的关系也确实没有到畅所欲言、什么事都应该拿出来分享的程度。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an_secret -next -expression=smile03;
+:正如长崎素世刚刚所说的那样，于情于理，千早爱音其实都没有必要向她道歉。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an_secret -next -motion=nf01 -expression=kime02;
+setTransform:{"position":{"y":100},"scale":{"x":0.73,"y":0.73}} -target=an_secret -duration=0 -next;
+:……但是，跟情理无关的、属于千早爱音的那份【善良】，正在饱受煎熬。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an_secret -next -motion=nf_right01_rui -expression=kime02;
+:她知道丰川祥子对长崎素世来说是很重要的人，也知道丰川祥子当初组建的Crychic对长崎素世来说是一段不可能磨灭的美好记忆——因为高松灯也是这样的。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an_secret -next -motion=sigh01_rui -expression=Down_look;
+:但她也只是“知道”而已。
+:所以，善良的粉发少女会忍不住去想，自己的这份隐瞒，是否已经在不知不觉间……将|【丰川祥子】和【乐队的大家】、放在天秤上进行了一场无声无息的比较。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an_secret -next -motion=thinking02_sk;
+:——如果比起丰川祥子、自己更重视Tomorin她们的话，是不是就会选择偷偷将那位蓝发少女的去向告诉大家呢？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an_secret -next -motion=serious02 -expression=default_sk;
+:——而自己选择了帮祥祥隐瞒，是否又意味着在自己的心中，祥祥比Tomorin她们更重要呢？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an_secret -next -motion=nf01 -expression=serious01;
+:这种在旁人看来其实并没有什么必要的纠结，对爱音来说却是一份难以言喻的煎熬：她不喜欢这种“可能会伤到其中一方”的抉择，更不喜欢在不知不觉间已经进行了抉择的自己。
+changeBg:2024-07-26 072019.webp -next;
+changeFigure:none -id=an_secret -next;
+:……因为她也曾经被放在天秤上进行比较—— -fontSize=default;
+changeBg:2024-07-26 072052.webp -next;
+:被她重视的、珍视的同伴。 -fontSize=default -concat;
+changeBg:2024-07-26 071854.webp -next;
+:那种滋味并不好受，千早爱音对此非常清楚。
+changeBg:none -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -left -id=an -transform={"position":{"x":-100,"y":100},"scale":{"x":0.73,"y":0.73}} -next -motion=kime01_sk -expression=sigh02;
+:但千早爱音也清楚，在那段她没有参与的【过去】，往日的影子一直盘旋在众人的头顶：Tomorin、Rikki、Soyorin……还有……
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=smile03 -expression=smile04;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_rip/model.json -id=obb -transform={"position":{"x":700,"y":100},"scale":{"x":0.73,"y":0.73}} -next -motion=nnf_left01 -expression=smile06;
+:噔噔！
+changeFigure:none -id=an -next;
+changeFigure:none -id=obb -next;
+changeBg:ave mujica_stage4_brighter.webp -next -transform={"position":{"y":-2300},"scale":{"x":4.2,"y":4.2}};
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=ann -transform={"position":{"x":-100,"y":400},"scale":{"x":0.73,"y":0.73}} -next -motion=sigh01_rui -expression=smile03_sk;
+setTransform:{"position":{"x":-100,"y":400},"scale":{"x":0.73,"y":0.73},"alpha":1} -target=ann -duration=0 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -transform={"position":{"x":500,"y":400},"scale":{"x":0.73,"y":0.73}} -next -motion=angry02 -expression=serious03;
+:熟悉的钢琴声，将爱音的思绪拉回了现实。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=ann -next -expression=smile04_sk;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=thinking01 -expression=serious02;
+:从优雅到狂乱的琴声、犹如在沉默中爆发的吉他、稳健得不可思议的贝斯、好像有点太拼命了的鼓点，以及属于某位偶像、却又跟平时的她截然不同的歌声——
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=ann -next -motion=nf_right01_mu -expression=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf01;
+素世:……真厉害呢。
+changeBg:none -next;
+changeFigure:none -id=ann -next;
+changeFigure:none -id=sy -next;
+bgm:none -enter=1000;
+:——伴随着长崎素世无感情的感叹，Ave Mujica的演出，开始了。
+:……………………………
+:…………
+:……
+changeScene:2_06/one_step_of_uika.txt

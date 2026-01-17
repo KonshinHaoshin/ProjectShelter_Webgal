@@ -1,0 +1,72 @@
+;【爱祥】丰川祥子和千早爱音在约会，我怎么会做这样的…这不是梦！？·Part.4
+changeBg:bg00983.webp -next;
+changeFigure:bg/rooftop.jpg -id=rooftop -transform={"position":{"x":400,"y":420},"scale":{"x":2.3,"y":2.3},"alpha":0} -next;
+:丰川祥子原本并不讨厌夏天。
+changeFigure:341_mashiro/model.json -id=sk -transform={"position":{"y":0},"scale":{"x":0.73,"y":0.73}} -next -motion=nf01 -expression=default;
+:不如说，对她来说就没有什么“讨厌的季节”这类说法。 -fontSize=default;
+changeBg:rainy_day.webp -next -transform={"alpha":0.7,"blur":10};
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nf03_rui -expression=smile03;
+:硬要说的话，夏天的雨特别多，而她不太喜欢下雨天——这大概是她对夏天这一季节观感下降的最大理由。 -fontSize=default;
+changeBg:none -next;
+setTransform:{"position":{"x":400,"y":420},"scale":{"x":2.3,"y":2.3},"alpha":1} -target=rooftop -duration=0 -next;
+changeFigure:037_casual-2023_rip_wet_sun/model.json -id=an -transform={"position":{"x":600},"scale":{"x":0.73,"y":0.73},"alpha":1} -next -motion=nf01 -expression=smile03;
+changeFigure:341_mashiro_sun/model.json -id=sk -transform={"scale":{"x":0.73,"y":0.73}} -next -motion=nf05 -expression=smile05;
+爱音:……真的好热啊。
+changeFigure:037_casual-2023_rip_wet_sun/model.json -id=an -next -motion=nf01 -expression=smile03;
+changeFigure:341_mashiro_sun/model.json -id=sk -next -motion=nf05 -expression=smile05;
+祥子:……是呢。
+:而现在，她讨厌夏天的理由喜加一了。
+changeFigure:037_casual-2023_rip_wet_sun/model.json -id=an -next -motion=nf01 -expression=smile03;
+changeFigure:341_mashiro_sun/model.json -id=sk -next -motion=nf05 
+爱音:如果现在能换上泳衣冲进海里就好了——
+changeFigure:037_casual-2023_rip_wet_sun/model.json -id=an -next -motion=nf01 -expression=smile03;
+changeFigure:341_mashiro_sun/model.json -id=sk -next -motion=nf05 
+祥子:……爱音，这里可不是海滩哦？
+:虽说是海滨公园，但台场的游玩项目可不包括下海游泳。
+changeFigure:037_casual-2023_rip_wet_sun/model.json -id=an -next -motion=nf01 -expression=smile03;
+changeFigure:341_mashiro_sun/model.json -id=sk -next -motion=nf05 
+:祥子瞄了眼身边的恋人，欣赏着她苦着脸、一直用手给自己扇风的可爱模样——
+changeFigure:037_casual-2023_rip_wet_sun/model.json -id=an -next -motion=nf01 -expression=smile03;
+changeFigure:341_mashiro_sun/model.json -id=sk -next -motion=nf05 
+:她看着汗珠从粉发少女的额间划落到脸颊、又从脸颊一路往下落到喉间……琥珀金的双瞳定格在了千早爱音那被汗水浸湿了些许的胸前，眨了眨眼。
+changeFigure:037_casual-2023_rip_wet_sun/model.json -id=an -next -motion=nf01 -expression=smile03;
+changeFigure:341_mashiro_sun/model.json -id=sk -next -motion=nf05 
+:游泳、泳装——爱音的泳装。
+:祥子在脑内构筑着幻想中的画面：她感觉，自己好像又没有那么讨厌夏天了。
+爱音:……祥祥，在看哪里呢？
+祥子:在看爱音的衣服。
+爱音:哎？
+祥子:我在想，爱音的衣品意外地很好呢。
+爱音:“意外地”是什么意思啦，“意外地”——
+:好热。
+:海风吹拂，靠在观景台边上的二人同时眯起了眼睛。
+:……变得清爽了一些，但还是好热。
+爱音:话说回来，祥祥，我们是打算干什么的来着？
+祥子:……看海？
+:丰川祥子看向了金灿灿的海面：午后的阳光虽然没有先前那么毒辣，但其散发的温度也不容小觑。
+:不过，抛开这点不谈的话，这片海景确实令人心旷神怡。
+爱音:大海么——
+:千早爱音拖着慵懒的长音，视线却飘向了身边人：海风拂过蓝发少女的脸庞、撩起了她的发丝——青色的天空、令人目眩的阳炎，以及让人无法挪开视线的……【心爱之人】……
+爱音:……确实很好看呢~
+祥子:嗯？
+:注意到对方的视线，祥子也将目光转向了爱音——她是个聪明的女孩子，自然能想到刚刚那句“好看”指的是什么。
+祥子:……老土。
+爱音:哎，祥祥才没资格说我！
+祥子:爱音是喜欢对女孩子说情话的类型呢。
+爱音:才不是啦！那是祥祥才对吧！
+:噗嗤——丰川祥子被爱音那副有些着急的样子给逗乐了，忍不住笑出声来：
+祥子:我只是“会对喜欢的女孩子说情话”而已哦？
+爱音:……好土。
+祥子:但是爱音脸红了呢。
+爱音:那、那是因为天气太热了——还有，刚刚那句应该是那个什么《约会必备情话TOP10》里的第三位吧！
+祥子:……。
+:被戳穿的祥子，心虚地别过了视线——
+爱音:不许挪开视线——！
+祥子:唔……
+爱音:梦里的祥祥可不会躲开我的眼睛哦？
+祥子:……。
+:琥珀金色与灰银色，再次目光交汇。
+:——如梦似幻。
+:大脑处理信息的效率变得极其低下，某种朦胧而恍惚的情绪开始逐渐侵蚀二人的理智——就像是，身心都坠入了一个大大的蜜罐里一样。
+:好热。
+changeScene:2_10/hot_summer.txt

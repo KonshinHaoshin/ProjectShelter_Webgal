@@ -1,0 +1,179 @@
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -right -transform={"position":{"x":1550,"y":900},"scale":{"x":0.8,"y":0.8}} -next;
+与此同时，同一班级里，另一位少女也跟若叶睦一样、盯着这行字陷入沉思。
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -right -next -motion=thinking01 -expression=default;
+setTransform:{"position":{"x":-900,"y":-800},"scale":{"x":1.7,"y":1.7}} -target=bg-main -duration=1500 -next;
+setTransform:{"position":{"x":600,"y":100},"scale":{"x":0.8,"y":0.8}} -target=fig-right -duration=1500 -next;
+——长崎素世，最近总觉得有哪里不太对劲。
+changeBg:ring_rocording_room.webp -next;
+changeFigure:none -right -next;
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -transform={"position":{"x":150},"scale":{"x":0.8,"y":0.8}} -next -motion=nf_left01 -expression=niya01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -left -transform={"position":{"x":-200},"scale":{"x":0.8,"y":0.8}} -next -motion=kime01 -expression=default;
+changeFigure:mygo_avemujica_v6/taki/040_casual-2023_rip/model.json -right -transform={"position":{"x":400},"scale":{"x":0.8,"y":0.8}} -next -motion=nf_left01 -expression=smile01;
+这份“不对劲”的源头是千早爱音。长崎素世总觉得，她们乐队的这位节奏吉他手，最近有种说不上来的怪异感。
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -next -motion=serious02 -expression=smile02;
+setTransform:{"position":{"x":-200},"scale":{"x":0.8,"y":0.8}} -target=fig-center -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -left -next -motion=nf_left01 -expression=shame01;
+changeFigure:mygo_avemujica_v6/taki/040_casual-2023_rip/model.json -right -next -expression=smile03;
+首先是吉他的水平……好吧，虽然平时总是有些嫌弃某位粉毛笨蛋有些烦人，但即便是长崎素世也必须承认，最近的千早爱音在音乐这方面的表现极其优秀。
+她知道乍一看吊儿郎当的千早爱音本身也有刻苦练习的一面，
+changeBg:classroom_moon.webp -next -transform={"position":{"x":-900,"y":-800},"scale":{"x":1.7,"y":1.7}};
+changeFigure:none -left -next;
+changeFigure: -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -right -transform={"position":{"x":600,"y":100},"scale":{"x":0.8,"y":0.8}} -next -motion=thinking01 -expression=serious02;
+但再怎么刻苦、再怎么努力，能做到让队内鼓手也心服口服、甚至让某只野猫都两眼发光地说出“有趣的女……孩子”，这怎么看也不像是短时间内能做到的事情，
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -right -transform={"position":{"x":600,"y":100},"scale":{"x":0.8,"y":0.8}} -next -expression=smile03;
+除非爱音晚上睡觉做梦都在练吉他。
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -right -next -motion=nf_right01 -expression=bye02;
+……难道说，千早爱音其实是个天才？
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -right -next -expression=bye01;
+长崎素世眯了眯眼，这种可能性倒也不坏。乐队的整体水平提高，对于“组一辈子乐队”这件事来说应当是好事。
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -right -next -motion=ando01 -expression=thinking01;
+……问题是，这真的合理么？
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -right -next -expression=serious03;
+如果单纯只是演奏水平的提升，长崎素世根本不会如此在意。changeBg:ring_rocording_room.webp  -next -transform={"position":{"x":-400,"y":0},"scale":{"x":1.5,"y":1.5}};
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -transform={"position":{"x":-200},"scale":{"x":0.8,"y":0.8}} -next -motion=nf_right01 -expression=serious02;
+changeFigure:mygo_avemujica_v6/taki/040_school_summer-2023_rip/model.json -right -transform={"position":{"x":500,"y":300},"scale":{"x":0.8,"y":0.8}} -next -motion=thinking01 -expression=default;
+问题是，名为千早爱音的吉他手似乎在她不知道的地方偷偷学会了很多关于乐理的知识、甚至开始掌握作曲的技巧 -fontSize=default -notend;
+setTransform:{"position":{"x":1200},"scale":{"x":0.8,"y":0.8}} -target=fig-center -duration=1500 -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -next -motion=nf04 -expression=kime01;
+:—— -fontSize=default -concat;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -next -motion=thinking03 -expression=thinking02;
+changeFigure:mygo_avemujica_v6/taki/040_school_summer-2023_rip/model.json -right -next -motion=nf01 -expression=sigh01;
+她万万没想到，有朝一日能看到以往总会被训斥的这位吉他手，能反过来给陷入瓶颈的椎名立希提供突破性的灵感：
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -next -motion=nf05 -expression=smile02;
+setTransform:{"position":{"x":1200,"y":200},"scale":{"x":0.8,"y":0.8}} -target=fig-center -duration=0 -next;
+changeFigure:mygo_avemujica_v6/taki/040_school_summer-2023_rip/model.json -right -next -motion=nf_right01 -expression=surprised01;
+爱音:——Rikki，这一段的反拍、稍微像这样……嗯，像这样、这样、然后这样子改一改不就好了么？;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -next -expression=smile01;
+changeFigure:mygo_avemujica_v6/taki/040_school_summer-2023_rip/model.json -right -next -expression=angry01;
+立希:……哈？ ;
+changeFigure:mygo_avemujica_v6/taki/040_school_summer-2023_rip/model.json -right -next -motion=nf03 -expression=surprised01;
+:长崎素世忘不了那一天她所看到的、队内鼓手的表情变化：从习惯性脱口而出的质疑、到如同被雷劈中一般的惊讶、 -fontSize=default -notend;
+changeFigure:mygo_avemujica_v6/taki/040_school_summer-2023_rip/model.json -right -next -motion=thinking01 -expression=serious02;
+:再到一言不发的沉思 -fontSize=default -concat;
+changeFigure:mygo_avemujica_v6/taki/040_school_summer-2023_rip/model.json -right -next -motion=nod01_sk -expression=surprised01;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -next -motion=nf_left01 -expression=smile02;
+:……然后，是重重的点头：  -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -next -motion=nf02 -expression=surprised01;
+setTransform:{"position":{"x":1250,"y":150},"scale":{"x":0.8,"y":0.8}} -target=fig-center -duration=0 -next;
+changeFigure:mygo_avemujica_v6/taki/040_school_summer-2023_rip/model.json -right -next -motion=nf_right01;
+setTransform:{"position":{"y":0},"scale":{"x":0.8,"y":0.8}} -target=fig-right -duration=0 -next;
+立希:……你说得对，不，应该说，你这想法简直就是  -fontSize=default -notend;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -next -motion=nf_left01 -expression=kime01;
+天才啊。 -fontSize=default -concat;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -next -motion=kime01 -expression=default;
+setTransform:{"position":{"x":1250,"y":0},"scale":{"x":0.8,"y":0.8}} -target=fig-center -duration=900 -next;
+changeFigure:mygo_avemujica_v6/taki/040_school_summer-2023_rip/model.json -right -next -motion=nnf_left01 -expression=smile03;
+changeFigure:bg00550.webp -left -transform={"position":{"x":500},"scale":{"x":2},"alpha":0.4,"blur":0,"oldFilm":1} -next;
+:就像是做梦一样。
+changeFigure: -left -next;changeBg:classroom_moon.webp  -next -transform={"position":{"x":-900,"y":-800},"scale":{"x":1.7,"y":1.7}};
+changeFigure:none -next;
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -right -transform={"position":{"x":600,"y":100},"scale":{"x":0.8,"y":0.8}} -next -motion=smile03 -expression=kime01;
+:长崎素世突然感到有些恍惚：或许，这就是她一直以来所追求的、名为“乐队”……也名为“家”的关系性——
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -right -next -expression=default;
+:这种互相扶持、一起前进的感觉，正是她一直渴求着的温暖，不是么？
+changeBg: -next;
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -right -next -motion=nf_left01 -expression=thinking01;
+问题是，为什么呢。
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -right -next -motion=nf01;
+亚麻色长发的少女下意识地抓住了自己的手指，免得坏习惯复发。但她想不明白，自己为什么会在千早爱音身上看到……
+changeFigure:none -right -next;
+changeBg:bg00053.webp -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -next -motion=nf04 -expression=smile02;
+【“——乐队是命运共同体呢。”】
+changeBg: -next;
+changeFigure:none -next;
+……看到，【那个人】的身影。
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -right -transform={"position":{"x":600,"y":100},"scale":{"x":0.8,"y":0.8}} -next -motion=nf01 -expression=angry01;
+这很不妙。
+长崎素世有些厌恶会这样想的自己，她不愿意让千早爱音成为自己心中的某种“替代品”changeBg:ring_rocording_room.webp g -next -transform={"position":{"x":100,"y":600},"scale":{"x":1.2,"y":1.2}};
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -next -motion=smile01 -expression=smile02;
+changeFigure:none -right -next;
+但是，那种熟悉的、令人忍不住想要得到更多的温暖，却又吸引着她一次又一次地将目光投向那位粉发少女。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -next -expression=shame01;
+——然后，她注意到了问题所在。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -next -motion=shame01 -expression=r_body_down;
+最近的千早爱音，似乎有点神不守舍。 -fontSize=default;
+changeBg:none -nexchangeBg:ring_rocording_room.webp ng -next -transform={"position":{"x":0,"y":0},"scale":{"x":1,"y":1}};
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -transform={"position":{"x":-200},"scale":{"x":0.8,"y":0.8}} -next;
+changeFigure:mygo_avemujica_v6/taki/040_school_summer-2023_rip/model.json -right -transform={"position":{"x":850,"y":200},"scale":{"x":0.8,"y":0.8}} -next -motion=smile01 -expression=L_Boby;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -transform={"position":{"x":600},"scale":{"x":0.8,"y":0.8}} -next -motion=serious02 -expression=sing01;
+changeFigure:mygo_avemujica_v6/rana/038_school_summer-2023_rip/model.json -id=mew -transform={"scale":{"x":0.8,"y":0.8}} -next -motion=kime01 -expression=default;
+尽管排练和演出都没有什么问题、甚至可以说是发挥优秀得有些过分——但是，素世确实捕捉到了节奏吉他手那偶尔的走神、偶尔的发愣，
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -next -motion=shame02 -expression=kime01;
+setTransform:{"position":{"x":1500},"scale":{"x":2.2,"y":2.2}} -target=bg-main -duration=1000 -next;
+setTransform:{"position":{"x":1500,"y":-900},"scale":{"x":1.76,"y":1.76}} -target=fig-right -duration=1000 -next;
+setTransform:{"position":{"x":900,"y":-900},"scale":{"x":1.76,"y":1.76}} -target=fig-center -duration=1000 -next;
+setTransform:{"position":{"x":400,"y":-900},"scale":{"x":1.76,"y":1.76}} -target=mew -duration=1000 -next;
+setTransform:{"position":{"x":-500,"y":-800},"scale":{"x":1.76,"y":1.76}} -target=fig-left -duration=1000 -next;
+以及偶尔的……呃，虽然很可爱但果然还是有点蠢的傻笑。
+changeBg: -next;
+changeBg:RingDusk.webp -next;
+changeFigure:none -right -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -transform={"position":{"x":-400},"scale":{"x":0.8,"y":0.8}} -next -motion=bye01 -expression=smile02;
+changeFigure:mygo_avemujica_v6/taki/040_school_summer-2023_rip/model.json -id=mew -transform={"position":{"x":1100},"scale":{"x":0.8,"y":0.8}} -next -motion=nf_left01 -expression=bye02;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -left -transform={"position":{"x":800},"scale":{"x":0.8,"y":0.8}} -next -motion=nf_left01 -expression=bye01;
+她也注意到了，千早爱音和她们之间的距离感开始变得微妙起来。
+changeBg: -next;
+changeFigure:none -left -next;
+changeFigure: -next;
+changeFigure: -id=mew -next;
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -right -transform={"position":{"x":500,"y":100},"scale":{"x":0.8,"y":0.8}} -next -motion=serious02 -expression=default;
+:长崎素世自然清楚，不是所有人都会让乐队占据自己的全部人生、 -notend;
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -right -next -motion=nf_left01 -expression=serious03;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_rip/model.json -left -transform={"scale":{"x":0.8,"y":0.8},"alpha":0.2} -next -motion=kime01 -expression=kime01;
+:世上大抵也不会有什么奇奇怪怪的中二少女光是组个乐队就会说出把你接下来的人生交托于我这种夸张的台词。 -fontSize=default -concat;
+changeFigure: -left -next;
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -right -next -motion=nf05 -expression=sad02;
+:她有自己是个“沉重的女人”这种自知之明，也理解千早爱音这样的女孩子才称得上是“普通的女高中生”。
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -right -next -expression=smile03;
+普通的女高中生，不会将全身心都投放在乐队上面，这是理所当然的事情……嗯，没错，这是普通而理所当然的事情—— -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -right -next -motion=nf_right01 -expression=thinking01;
+素世:……。 ;
+:——即便如此，长崎素世还是感到了隐约的不安。
+changeBg:RingCafe.webp -next;
+changeFigure:mygo_avemujica_v6/taki/040_casual-2023_rip/model.json -right -transform={"position":{"x":400,"y":200},"scale":{"x":0.9,"y":0.9}} -next -motion=nf_left01 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -transform={"position":{"x":300,"y":200},"scale":{"x":0.9,"y":0.9}} -next -motion=nf_left01 -expression=default;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -transform={"position":{"x":-300},"scale":{"x":0.9,"y":0.9}} -next -motion=nf01 -expression=smile03;
+以往总是想要跟乐队的大家搞好关系的粉发少女，最近似乎有了更多“只属于她”的私人事情。
+changeBg: -next;
+changeFigure:none -next;
+changeFigure:none -left -next;
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -right -transform={"position":{"x":400,"y":100},"scale":{"x":0.8,"y":0.8}} -next -motion=thinking01 -expression=thinking01;
+邀请出门一起玩的时间变少了、组织团建的频率也降低了……
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -right -next -motion=sad01 -expression=thinking01;
+尽管只是一些微乎其微的、大概只有长崎素世这种人能察觉到的细节变化，但一点一滴的细节累积起来，也许会演变成不得了的事态也说不定。
+changeBg: 选择背景图片 -next;
+changeBg:darkerclassroom.webp -next;
+changeFigure:bg00550.webp -transform={"scale":{"x":2},"alpha":0.15} -next;
+changeFigure: -right -next;
+这并非暴风雨前的平静，而是在晴转多云的这个过程中、那正在悄然无声地凝聚成团的阴霾——
+changeBg: 选择背景图片 -next;changeBg:RingCafe.webp  -next;
+changeFigure:mygo_avemujica_v6/taki/040_casual-2023_rip/model.json -right -transform={"position":{"x":400,"y":200},"scale":{"x":0.9,"y":0.9}} -next -motion=pui01 -expression=default;
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -transform={"position":{"x":300,"y":200},"scale":{"x":0.9,"y":0.9},"alpha":1} -next -motion=nf_right01 -expression=smile02;
+有什么东西正在夺走千早爱音本应投放在乐队上的热情,但长崎素世捕捉不到那“什么东西”的尾巴。 -fontSize=default;
+changeBg:none -next;
+changeFigure:none -next;
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -right -transform={"position":{"x":500},"scale":{"x":0.8,"y":0.8}} -next -motion=nnf01 -expression=thinking01;
+:真糟糕 -fontSize=default;
+changeFigure:none -right -next;
+changeBg:saygoodbye.webp -next -transform={"blur":10};
+长崎素世在心中深深地叹了口气，她又想起了那个人，想起了那个带着某种她不能理解也无从知晓的秘密、毅然决然地离开乐队的蓝发少女。
+changeBg:bg00476.webp -next;
+setTransform:{"blur":0} -target=bg-main -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -next -motion=shame02 -expression=shame01;
+此时此刻，千早爱音的身上似乎也多了某种秘密——素世突然想起前阵子对方来找自己相谈的内容，但饶是这位月之森点子王，也不可能将二者联系在一起。
+changeBg:none -next;
+changeFigure:none -next;
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -right -transform={"position":{"x":400,"y":100},"scale":{"x":0.8,"y":0.8}} -next -motion=serious02 -expression=sad02;
+她只觉得自己这个人真的糟透了
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -right -next -motion=nf_right01;
+明明爱音有什么烦恼都会主动找自己商谈，但自己却无法像爱音那样将话说清楚、说明白changeBg:classroom_moon.webp g -next -transform={"position":{"x":-1250,"y":700},"scale":{"x":2,"y":2}};
+changeFigure:bg00550.webp -transform={"scale":{"x":2},"alpha":0.2} -next;
+changeFigure:none -right -next;
+除了坐在这里暗自揣摩、胡思乱想以外，自己到底还能做些什么呢？
+长崎素世怔怔地看着黑板上的字，跟若叶睦一起、陷入沉思。
+changeBg:none -next;
+changeFigure:none -next;
+………………………………………………
+changeScene:2_03/sakiko.txt

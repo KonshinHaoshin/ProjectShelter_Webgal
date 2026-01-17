@@ -1,0 +1,343 @@
+bgm:壊却の鳴鐘.mp3 -enter=800;
+changeBg:a台场/QQ图片20240815170753.jpg -next -transform={"position":{"x":-2000,"y":0},"scale":{"x":2.2,"y":2.2}};
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an7 -transform={"position":{"x":880,"y":-60},"scale":{"x":0.8,"y":0.8}} -next -motion=nf01_mu -expression=smile03;
+changeFigure:IMG_6639.webp -id=bg7 -transform={"position":{"x":-1800,"y":650},"scale":{"x":5.3,"y":5.3},"alpha":0,"rotation":0,"blur":1} -next;
+changeFigure:341_mashiro/model.json -id=sk72 -transform={"position":{"x":700,"y":-60},"scale":{"x":0.8,"y":0.8},"alpha":0} -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -transform={"position":{"x":800,"y":-30},"scale":{"x":0.78,"y":0.78},"alpha":0} -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh7 -transform={"position":{"x":-650},"scale":{"x":0.76,"y":0.76},"alpha":0} -next;
+changeFigure:sakiko_small/model.json -id=sox7 -transform={"position":{"x":-400,"y":220},"scale":{"x":0.78,"y":0.748},"alpha":0} -next;
+changeFigure:341_mashiro/model.json -id=sk7 -transform={"position":{"x":0,"y":-60},"scale":{"x":0.8,"y":0.8},"alpha":0} -next;
+:粉发的少女识趣地选择了退避，毕竟，如果是牵扯到Ave Mujica内部运营的内容，她这个“外人”还是不太方便旁听的—— -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an7 -next -motion=serious02_sk -expression=sad02;
+
+:不如说，这甚至不是什么能在这大商场里随便找个角落就商量的事情。
+setTransform:{"position":{"x":-1600,"y":0},"scale":{"x":2.2,"y":2.2},"alpha":0} -target=bg-main -duration=800 -next;
+setTransform:{"position":{"x":1180,"y":-60},"scale":{"x":0.8,"y":0.8},"alpha":0} -target=an7 -duration=800 -next;
+setTransform:{"position":{"x":-1500,"y":650},"scale":{"x":5.3,"y":5.3},"alpha":1,"rotation":0,"blur":1} -target=bg7 -duration=800 -next;
+setTransform:{"position":{"x":700,"y":-60},"scale":{"x":0.8,"y":0.8},"alpha":1} -target=sk7 -duration=800 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an7 -next -motion=nf01;
+changeFigure:341_mashiro/model.json -id=sk7 -next -motion=sigh01 -expression=default;
+setTransform:{"position":{"x":1200,"y":-30},"scale":{"x":0.78,"y":0.78},"alpha":0.7} -target=ob7 -duration=800 -next;
+setTransform:{"position":{"x":-150},"scale":{"x":0.76,"y":0.76},"alpha":0.7} -target=jh7 -duration=800 -next;
+setTransform:{"position":{"x":200,"y":220},"scale":{"x":0.78,"y":0.748},"alpha":0.7} -target=sox7 -duration=800 -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -motion=odoodo01_rui -expression=serious02;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh7 -next -motion=nnf_right01 -expression=odoodo01;
+changeFigure:sakiko_small/model.json -id=sox7 -next -motion=nf_right01_taki -expression=thinking01;
+:总之，先听听初华怎么说吧：丰川祥子来到了通往电梯间的拐角、做好了心理准备，接通了电话。
+changeBg: -next;
+changeFigure:none -id=an7 -next;
+changeFigure:341_mashiro/model.json -id=sk7 -next -motion=nf02_mu -expression=smile06;
+changeFigure:sakiko_small/model.json -id=sox7 -next -motion=nf01_anon -expression=thinking01;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh7 -next -motion=sad03_kokoro -expression=default;
+setTransform:{"position":{"x":280,"y":-30},"scale":{"x":0.79,"y":0.79},"alpha":0.7} -target=jh7 -duration=1100 -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -expression=sigh01;
+setTransform:{"position":{"x":100,"y":220},"scale":{"x":0.78,"y":0.7488},"alpha":0.7} -target=sox7 -duration=750 -next;
+changeFigure:anon_small.webp -id=sa71 -transform={"position":{"x":-60,"y":800},"scale":{"x":0.35,"y":0.35},"alpha":0} -next;changeFigure:anon_small.webp -id==sa72 -transform={"position":{"x":-360,"y":800},"scale":{"x":0.35,"y":0.35},"alpha":0} -next;
+祥子:——初华，怎么了么？
+changeFigure:sakiko_small/model.json -id=sox7 -next -motion=kime01_kokoro -expression=smile02;
+setTransform:{"position":{"x":0,"y":400},"scale":{"x":0.35,"y":0.35},"alpha":0.7,"rotation":0.18} -target=sa71 -duration=0 -next;
+setTransform:{"position":{"x":-460,"y":500},"scale":{"x":0.35,"y":0.35},"alpha":0.7,"rotation":-0.3} -target=sa72 -duration=0 -next;
+changeFigure:341_mashiro/model.json -id=sk7 -next -motion=smile06 -expression=smile06;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh7 -next -motion=smile03;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -motion=nf_left01 -expression=thinking01;
+changeFigure:inner7.webp -id=bg72 -transform={"position":{"x":-2100,"y":150},"scale":{"x":2,"y":2},"alpha":0} -next;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk7 -transform={"position":{"x":-800},"scale":{"x":0.8,"y":0.8},"alpha":0} -next;
+:语调平稳、同时也带着一丝本应早早死去的温柔——如果是两个月前的丰川祥子，大概打死也想不到自己还能发出这样的声音。
+
+setTransform:{"position":{"x":-1700,"y":150},"scale":{"x":2,"y":2},"blur":0} -target=bg72 -duration=500 -next;
+setTransform:{"position":{"x":-500},"scale":{"x":0.8,"y":0.8},"blur":0} -target=uk7 -duration=500 -next;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk7 -transform={"position":{"y":-60},"scale":{"x":0.8,"y":0.8}} -next -motion=K_smile01 -expression=smile03_sk;
+changeFigure:sakiko_small/model.json -id=sox7 -next -motion=nf_left01_kokoro -expression=surprised01;
+setTransform:{"position":{"x":600,"y":-30},"scale":{"x":0.78,"y":0.7488},"alpha":0.7,"rotation":0.3} -target=sox7 -duration=500 -next;
+setTransform:{"position":{"x":120,"y":500},"scale":{"x":0.35,"y":0.35},"alpha":0.7,"rotation":1} -target=sa71 -duration=500 -next;
+setTransform:{"position":{"x":400,"y":950},"scale":{"x":0.35,"y":0.35},"alpha":0.7,"rotation":0.3} -target=sa72 -duration=500 -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh7 -next -motion=nnf_left01_anon -expression=smile06;
+setTransform:{"position":{"x":380,"y":-30},"scale":{"x":0.79,"y":0.79},"alpha":0.7} -target=jh7 -duration=500 -next;
+changeFigure:341_mashiro/model.json -id=sk7 -next -motion=bye01 -expression=smile06;
+初华:[啊，祥子。](style-alltext=font-style:italic\; style=color:#2f2f2f\;)
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk7 -next -motion=K_nf04 -expression=smile05_sk;
+changeFigure:341_mashiro/model.json -id=sk7 -next -motion=kime01 -expression=smile06;
+changeFigure:sakiko_small/model.json -id=sox7 -next -motion=nf01_taki -expression=angry01_taki;
+setTransform:{"position":{"x":1500,"y":220},"scale":{"x":0.78,"y":0.7448},"alpha":0.7,"rotation":0} -target=sox7 -duration=1500 -next;
+setTransform:{"position":{"x":1300,"y":450},"scale":{"x":0.35,"y":0.35},"alpha":0.7,"rotation":0.6} -target=sa71 -duration=1500 -next;
+setTransform:{"position":{"x":1100,"y":490},"scale":{"x":0.35,"y":0.35},"alpha":0.7,"rotation":-0.5} -target=sa72 -duration=1500 -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh7 -next -motion=nod01_kaoru;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -motion=serious01_anon;
+:电话的另一端，三角初华的声音似乎有些模糊、就像是隔了一层看不见的滤网一样。不过，即便如此，祥子还是能听出对方语气中的欣喜……一如既往。
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk7 -next -motion=sad02_sk -expression=odoodo01_sk;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -motion=surprised01_mu -expression=thinking02;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh7 -next -motion=smile06 -expression=default;
+changeFigure:341_mashiro/model.json -id=sk7 -next;
+changeFigure:sakiko_small/model.json -id=sox7 -next -motion=nf04 -expression=smile06D;
+setTransform:{"position":{"x":1320,"y":480},"scale":{"x":0.35,"y":0.35},"alpha":0.7,"rotation":0.8} -target=sa71 -duration=0 -next;
+setTransform:{"position":{"x":1080,"y":450},"scale":{"x":0.35,"y":0.35},"alpha":0.7} -target=sa72 -duration=0 -next;
+初华:[抱歉，祥子现在还在忙么？](style-alltext=font-style:italic\; style=color:#2f2f2f\;)
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -motion=thinking03_anon;
+setTransform:{"position":{"x":1520,"y":500},"scale":{"x":0.35,"y":0.35},"alpha":0,"rotation":0.8} -target=sa71 -duration=1650 -next;
+setTransform:{"position":{"x":1360,"y":470},"scale":{"x":0.35,"y":0.35},"alpha":0,"rotation":-0.3} -target=sa72 -duration=1650 -next;
+setTransform:{"position":{"x":1700,"y":225},"scale":{"x":0.81,"y":0.7776},"alpha":0,"rotation":0} -target=sox7 -duration=1650 -next;
+changeFigure:sakiko_small/model.json -id=sox7 -next -motion=smile04;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh7 -next -motion=nnf_right01_anon -expression=surprised01;
+:嗯？
+changeFigure:341_mashiro/model.json -id=sk7 -next -motion=nf01;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh7 -next -motion=nf01_anon -expression=smile03;
+setTransform:{"position":{"x":1500,"y":0},"scale":{"x":0.81,"y":0.81},"alpha":0} -target=jh7 -duration=2300 -next;
+:微妙的违和感让理性皱了皱眉，但祥子只是诚实地回答道：
+changeFigure:341_mashiro/model.json -id=sk7 -next -motion=eeto01_aya -expression=smile03;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk7 -next -motion=mitore01 -expression=sad01_sk;
+祥子:没有哦。不过，我现在还在外面——
+setTransform:{"position":{"x":-1500,"y":650},"scale":{"x":5.3,"y":5.3},"alpha":0,"rotation":0,"blur":1} -target=bg7 -duration=400 -next;
+setTransform:{"position":{"x":-1700,"y":150},"scale":{"x":2,"y":2},"alpha":0,"blur":5} -target=bg72 -duration=400 -next;
+setTransform:{"position":{"x":-500},"scale":{"x":0.8,"y":0.8},"alpha":0,"blur":5} -target=uk7 -duration=400 -next;
+changeFigure:341_mashiro/model.json -id=sk7 -next -motion=sad02_mu -expression=odoodo01;
+;setTransform:{"position":{"x":1200,"y":-30},"scale":{"x":0.78,"y":0.78},"alpha":0.4} -target=ob7 -duration=800 -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -motion=nnf_left01_anon -expression=smile03;
+:——如果有什么重要的、要紧的事情，[现在](style=color:#edcccf)可能不是商量的好时机。 -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk7 -next -motion=nf01 -expression=odoodo01;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -motion=odoodo01;
+setTransform:{"position":{"x":1600,"y":200},"scale":{"x":0.45,"y":0.45},"alpha":0,"rotation":0.3} -target=sa71 -duration=0 -next;
+setTransform:{"position":{"x":1650},"scale":{"x":0.44,"y":0.44},"alpha":0,"rotation":0.18} -target=sa72 -duration=0 -next;
+:祥子把这句潜台词藏了起来，出于私心，她其实还是不太希望跟爱音的约会结尾被预料之外的正事所打扰。
+setTransform:{"position":{"x":1300,"y":-60},"scale":{"x":0.8,"y":0.8},"alpha":0.7} -target=ob7 -duration=800 -next;
+changeFigure:341_mashiro/model.json -id=sk7 -next -motion=sigh01_rui -expression=serious02;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -motion=nnf_left01 -expression=smile03;
+setTransform:{"position":{"x":1600,"y":200},"scale":{"x":0.45,"y":0.45},"alpha":0.7,"rotation":0.3} -target=sa71 -duration=0 -next;
+setTransform:{"position":{"x":1650},"scale":{"x":0.44,"y":0.44},"alpha":0.7,"rotation":0.18} -target=sa72 -duration=0 -next;
+:但身为Ave Mujica的领头人，如果真有什么要紧的正事需要她来处理，她也只能将这份私心暂时弃置了。
+setTransform:{"position":{"x":-1500,"y":650},"scale":{"x":5.3,"y":5.3},"alpha":1,"rotation":0,"blur":1} -target=bg7 -duration=400 -next;
+setTransform:{"position":{"x":-1700,"y":150},"scale":{"x":2,"y":2},"alpha":1,"blur":5} -target=bg72 -duration=400 -next;
+setTransform:{"position":{"x":-500},"scale":{"x":0.8,"y":0.8},"alpha":1,"blur":5} -target=uk7 -duration=400 -next;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk7 -next -motion=smile01 -expression=smile03_sk;
+changeFigure:341_mashiro/model.json -id=sk7 -next -motion=nf_left01_rui -expression=thinking01;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -motion=nnf03 -expression=thinking01;
+setTransform:{"position":{"x":200,"y":1200},"scale":{"x":0.56,"y":0.56},"alpha":0.7,"rotation":-5.1} -target=sa71 -duration=2450 -next;
+setTransform:{"position":{"x":150,"y":1300},"scale":{"x":0.55,"y":0.55},"alpha":0.7,"rotation":-4.9} -target=sa72 -duration=200 -next;
+初华:[还在外面？啊，是在逛街么？](style-alltext=font-style:italic\; style=color:#2f2f2f\;)
+setTransform:{"position":{"x":-1600,"y":650},"scale":{"x":5.3,"y":5.3},"alpha":0,"rotation":0,"blur":1} -target=bg7 -duration=400 -next;
+setTransform:{"position":{"x":-1700,"y":150},"scale":{"x":2,"y":2},"alpha":0,"blur":5} -target=bg72 -duration=400 -next;
+setTransform:{"position":{"x":-500},"scale":{"x":0.8,"y":0.8},"alpha":0,"blur":5} -target=uk7 -duration=400 -next;
+changeFigure:341_mashiro/model.json -id=sk7 -next -motion=kime01 -expression=smile06;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -expression=thinking01D;
+:……初华的语气似乎不算太紧张，这倒是让祥子松了口气。
+changeFigure:341_mashiro/model.json -id=sk7 -next -motion=nod01;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -motion=sigh02;
+理性:至少可以把比较危险的几种可能性排除了 -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -motion=thinking01_soyo -expression=thinking02D;
+changeFigure:341_mashiro/model.json -id=sk7 -next -expression=smile03;
+:在Ave Mujica踏向商业化道路的这场牌局之中，有着“偶像”这一层身份的三角初华是祥子手里最强、最重要的底牌……也是最危险的一张牌。 -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk7 -next -motion=sigh01 -expression=sad02;
+:双重的身份，双倍甚至双倍以上的压力……
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -motion=sad02_rui;
+changeFigure:341_mashiro/model.json -id=sk7 -next -motion=nf_left01;
+:以及，“偶像”这一身份的光芒背后所隐藏着的、属于成年人世界的各种规则与束缚，都让祥子在使用“三角初华”这一张牌时必须谨慎谨慎再谨慎。
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -motion=thinking01_anon -expression=thinking01;
+changeFigure:341_mashiro/model.json -id=sk7 -next -motion=nf_right01_soyo -expression=smile03;
+:好在，从初华现在的语气来判断的话，至少不会是“三角初华出了什么意外”、或者|“Sumimi那边与Ave Mujica产生了行程等方面的冲突和矛盾”什么的。 -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk7 -next -motion=thinking01 -expression=thinking01D;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -motion=thinking01 -expression=serious02;
+……既然如此，初华为什么要给自己打电话呢？
+setTransform:{"position":{"x":-1500,"y":650},"scale":{"x":5.3,"y":5.3},"alpha":1,"rotation":0,"blur":1} -target=bg7 -duration=400 -next;
+setTransform:{"position":{"x":-1700,"y":150},"scale":{"x":2,"y":2},"alpha":1,"blur":5} -target=bg72 -duration=400 -next;
+setTransform:{"position":{"x":-500},"scale":{"x":0.8,"y":0.8},"alpha":1,"blur":5} -target=uk7 -duration=400 -next;
+setTransform:{"position":{"x":1250,"y":-70},"scale":{"x":0.77,"y":0.77},"alpha":1,"rotation":0.08} -target=sk72 -duration=1200 -next;
+setTransform:{"position":{"x":1250,"y":-70},"scale":{"x":0.77,"y":0.77},"alpha":0,"rotation":0.08} -target=sk7 -duration=1200 -next;
+changeFigure:341_mashiro/model.json -id=sk7 -next -motion=nf_left01_aya -expression=smile05;
+changeFigure:341_mashiro/model.json -id=sk72 -next -motion=nf_left01_aya -expression=smile05;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -motion=nnf_left01_anon -expression=thinking02;
+setTransform:{"position":{"x":750,"y":-60},"scale":{"x":0.8,"y":0.8},"alpha":0.7} -target=ob7 -duration=1400 -next;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk7 -next -motion=nf01 -expression=sad01;
+祥子:算是在逛街吧——
+changeFigure:sakiko_small/model.json -id=sox7 -next -motion=nf04_anon -expression=smile02;
+setTransform:{"position":{"x":500,"y":500},"scale":{"x":1.1,"y":1.056},"alpha":0.7,"rotation":0} -target=sox7 -duration=1500 -next;
+changeFigure:none -id=sk7 -next;
+changeFigure:341_mashiro/model.json -id=sk72 -next -motion=smile06 -expression=L_Boby5;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -motion=thinking02 -expression=thinking02D;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk7 -next -motion=angry05_sk -expression=sad01;
+祥子:初华找我有什么事么？你今天不是有个外景广告要拍么？
+changeFigure:sakiko_small/model.json -id=sox7 -next -motion=smile01;
+setTransform:{"position":{"x":320,"y":510},"scale":{"x":1.12,"y":1.08},"alpha":0} -target=sox7 -duration=800 -next;
+changeFigure:341_mashiro/model.json -id=sk72 -next -motion=nf_left01_anon -expression=smile06;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk7 -next -motion=nf01 -expression=sigh02_sk;
+:蓝发的少女背靠在墙上，尽可能地放松着心态、主动抛出了另一个话题。
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -motion=nnf_left01 -expression=thinking02;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk7 -next -motion=surprised01 -expression=smile02_sk;
+setTransform:{"position":{"x":-500},"scale":{"x":0.8,"y":0.8},"alpha":1,"blur":10} -target=uk7 -duration=2400 -next;
+changeFigure:341_mashiro/model.json -id=sk72 -next -motion=smile05 -expression=L_Boby;
+初华:[……诶，好意外，祥子怎么知道的？](style-alltext=font-style:italic) -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -motion=nf01 -expression=serious02;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk7 -next -motion=smile02 -expression=odoodo01_sk;
+changeFigure:341_mashiro/model.json -id=sk72 -next -motion=nf01_anon -expression=smile06;
+祥子:噗，不是初华前几天自己说的么？
+changeFigure:341_mashiro/model.json -id=sk72 -next -motion=sigh01_chisato -expression=smile02;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -motion=nf03 -expression=thinking02R;
+:祥子笑了笑：她的这位好朋友，虽然平时总会给人一股可靠的感觉，但偶尔也会有点脱线的表现呢。
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk7 -next -motion=nf01 -expression=smile03;
+初华:[哈哈，也是呢——](style-alltext=font-style:italic\; style=color:#2f2f2f\;) ;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk7 -next -motion=angry01 -expression=turn_R_Body;
+setTransform:{"position":{"x":-1600,"y":150},"scale":{"x":2,"y":2},"alpha":1,"blur":10} -target=bg72 -duration=750 -next;
+setTransform:{"position":{"x":-340},"scale":{"x":0.8,"y":0.8},"alpha":1,"blur":10} -target=uk7 -duration=750 -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -motion=nf_left01_soyo -expression=surprised01;
+changeFigure:341_mashiro/model.json -id=sk72 -next -motion=surprised01_mu -expression=surprised01;
+初华:[我还以为，会是祥子的那个](style-alltext=font-style:italic\; style=color:#2f2f2f\;)[朋友](style-alltext=font-weight:900\; style=color:#c7afb1\;)[告诉祥子的呢。](style-alltext=font-style:italic\; style=color:#2f2f2f\;) -concat;
+changeFigure:341_mashiro/model.json -id=sk72 -next -motion=nnf03 -expression=thinking01;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -motion=thinking03_anon -expression=thinking02L;
+setTransform:{"position":{"x":520,"y":-60},"scale":{"x":0.8,"y":0.8},"alpha":0.7,"rotation":0} -target=ob7 -duration=1400 -next;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk7 -next -motion=smile02 -expression=odoodo01_sk;
+:——朋友？
+changeFigure:341_mashiro/model.json -id=sk72 -next -motion=thinking01;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -motion=thinking02;
+setTransform:{"position":{"x":350,"y":-60},"scale":{"x":0.8,"y":0.8},"alpha":0.7} -target=ob7 -duration=1400 -next;
+:丰川祥子眨了眨眼：她刚刚有提到过自己是在跟【别人】一起逛街么？
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk7 -next -motion=smile03 -expression=smile06_sk;
+changeFigure:341_mashiro/model.json -id=sk72 -next -motion=nf_left01_anon;
+;第二次右移
+setTransform:{"position":{"x":-1500,"y":150},"scale":{"x":2,"y":2},"alpha":1,"blur":10} -target=bg72 -duration=1200 -next;
+setTransform:{"position":{"x":-250},"scale":{"x":0.8,"y":0.8},"alpha":1,"blur":12} -target=uk7 -duration=1200 -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -motion=nf_left01_rui -expression=surprised01;
+初华:祥子是一个人在逛街么？ -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk72 -next -motion=eeto01_aya;
+setTransform:{"position":{"x":1200,"y":-40},"scale":{"x":0.77,"y":0.77},"alpha":1,"rotation":0} -target=sk72 -duration=800 -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -motion=nnf_right01_anon -expression=thinking02;
+bgm:none -enter=800;
+祥子:……？
+: -concat;
+setTransform:{"position":{"x":-1500,"y":650},"scale":{"x":5.3,"y":5.3},"alpha":0,"rotation":0,"blur":1} -target=bg7 -duration=400 -next;
+setTransform:{"position":{"x":-1500,"y":150},"scale":{"x":2,"y":2},"alpha":0,"blur":10} -target=bg72 -duration=400 -next;
+setTransform:{"position":{"x":-250},"scale":{"x":0.8,"y":0.8},"alpha":0,"blur":12} -target=uk7 -duration=400 -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -motion=serious02 -expression=thinking02R;
+changeFigure:341_mashiro/model.json -id=sk72 -next -motion=nf_left01_masking;
+bgm:16.reaching_out_hands.mp3;
+:——违和感。
+changeFigure:341_mashiro/model.json -id=sk72 -next -motion=thinking01 -expression=thinking01;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -motion=nf01_anon -expression=serious02;
+:理性眉头紧锁：从刚刚开始，跟初华的对话一直有一股淡淡的违和感。
+setTransform:{"position":{"x":-1500,"y":650},"scale":{"x":5.3,"y":5.3},"alpha":1,"rotation":0,"blur":1} -target=bg7 -duration=400 -next;
+setTransform:{"position":{"x":-1500,"y":150},"scale":{"x":2,"y":2},"alpha":1,"blur":10} -target=bg72 -duration=400 -next;
+setTransform:{"position":{"x":-250},"scale":{"x":0.8,"y":0.8},"alpha":1,"blur":12} -target=uk7 -duration=400 -next;
+changeFigure:341_mashiro/model.json -id=sk72 -next -motion=nnf01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk7 -next -motion=sad02_sk;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -motion=thinking01_anon -expression=thinking02L;
+祥子:……不是哦，我在跟我的—— -fontSize=default;
+;changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -motion=sad02_anon;
+changeFigure:341_mashiro/model.json -id=sk72 -next -motion=nnf_left01 -expression=shame01;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk7 -next -expression=angry07_sk;
+
+祥子:嗯，[朋友](style=color:#f5aaee)一起逛街。 -fontSize=default -concat;
+setTransform:{"position":{"x":-6500,"y":650},"scale":{"x":4,"y":4},"alpha":0,"blur":10} -target=bg72 -duration=1500 -next;
+setTransform:{"position":{"x":-5000,"y":-700},"scale":{"x":1.6,"y":1.6},"alpha":0,"blur":12} -target=uk7 -duration=1500 -next;
+setTransform:{"position":{"x":-1820,"y":-700},"scale":{"x":1.6,"y":1.6},"alpha":0.7,"blur":8} -target=ob7 -duration=1500 -next;
+setTransform:{"position":{"x":250,"y":-500},"scale":{"x":1.3,"y":1.3},"alpha":1,"rotation":0} -target=sk72 -duration=1500 -next;
+setTransform:{"position":{"x":-3500,"y":650},"scale":{"x":9,"y":9},"alpha":1,"rotation":0,"blur":5} -target=bg7 -duration=1500 -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -motion=sigh01 -expression=sigh01;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk7 -next -motion=angry01 -expression=turn_L_Body;
+changeFigure:341_mashiro/model.json -id=sk72 -next -expression=odoodo01;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -expression=thinking02D;
+:丰川祥子其实并不擅长说谎，尽管她擅长强装镇定，但熟悉她的人可以很轻易地从她的“肢体语言”判断出她此时此刻的发言是否违心——
+changeFigure:341_mashiro/model.json -id=sk72 -next -expression=thinking02D;
+setTransform:{"position":{"x":-6500,"y":550},"scale":{"x":4,"y":4},"alpha":0,"blur":10} -target=bg72 -duration=1500 -next;
+setTransform:{"position":{"x":-5000,"y":-1050},"scale":{"x":1.6,"y":1.6},"alpha":0,"blur":12} -target=uk7 -duration=1500 -next;
+setTransform:{"position":{"x":-1820,"y":-1050},"scale":{"x":1.6,"y":1.6},"alpha":0.7,"blur":8} -target=ob7 -duration=1500 -next;
+setTransform:{"position":{"x":250,"y":-750},"scale":{"x":1.3,"y":1.3},"alpha":1,"rotation":0} -target=sk72 -duration=1500 -next;
+setTransform:{"position":{"x":-3500,"y":500},"scale":{"x":9,"y":9},"alpha":1,"rotation":0,"blur":5} -target=bg7 -duration=1500 -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -motion=nf_left01_maya;
+:比如，看看她有没有紧紧抓住自己的手臂。
+setTransform:{"position":{"x":-3500,"y":500},"scale":{"x":9,"y":9},"alpha":0,"rotation":0,"blur":5} -target=bg7 -duration=0 -next;
+changeFigure:341_mashiro/model.json -id=sk72 -next -motion=smile03_anon -expression=smile05;
+setTransform:{"position":{"x":-1820,"y":-1050},"scale":{"x":1.6,"y":1.6},"alpha":0,"blur":8} -target=ob7 -duration=500 -next;
+:好在，现在的三角初华并不在她的面前。隔着手机通话这一层无形的障壁，初华肯定也听不出来祥子在提到“朋友”这个词的时候、那转瞬即逝的不自然——
+setTransform:{"position":{"x":-1500,"y":650},"scale":{"x":5.3,"y":5.3},"alpha":1,"rotation":0,"blur":1} -target=bg7 -duration=500 -next;
+setTransform:{"position":{"x":-1500,"y":150},"scale":{"x":2,"y":2},"alpha":1,"blur":10} -target=bg72 -duration=500 -next;
+setTransform:{"position":{"x":-250,"y":0},"scale":{"x":0.8,"y":0.8},"alpha":1,"blur":12} -target=uk7 -duration=500 -next;
+setTransform:{"position":{"x":350,"y":-60},"scale":{"x":0.8,"y":0.8},"alpha":0.7} -target=ob7 -duration=500 -next;
+setTransform:{"position":{"x":1200,"y":-40},"scale":{"x":0.77,"y":0.77},"alpha":1,"rotation":0} -target=sk72 -duration=500 -next;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk7 -next -motion=serious01 -expression=turn_Down_look;
+changeFigure:341_mashiro/model.json -id=sk72 -next -motion=odoodo01_mu -expression=smile05;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -motion=thinking01_mu -expression=thinking02D;
+:但是。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk7 -next -motion=sigh02_sk -expression=smile02;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -motion=thinking01 -expression=thinking01D;
+changeFigure:341_mashiro/model.json -id=sk72 -next -motion=nf04_anon -expression=shame02;
+初华:[这样啊，原来如此，在跟](style-alltext=font-style:italic\; style=color:#2f2f2f\;)[朋友](style-alltext=font-style:bold\; style=color:#a22f2f\;)[一起逛街呢。](style-alltext=font-style:italic\; style=color:#2f2f2f\;)
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk7 -next -expression=angry02_sk;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -motion=sad02_masking -expression=thinking01D;
+setTransform:{"position":{"x":-330,"y":400},"scale":{"x":0.825,"y":0.825},"alpha":0.7,"rotation":-0.3} -target=ob7 -duration=1500 -next;
+changeFigure:341_mashiro/model.json -id=sk72 -next -motion=nf_left01_anon -expression=smile06;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk7 -next -motion=cry01;
+:——同样地，丰川祥子也不可能隔着手机通话、捕捉到潜藏在三角初华话语中的那份 “异常”。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -motion=sigh02 -expression=thinking01D;
+setTransform:{"position":{"x":650,"y":-60},"scale":{"x":0.8,"y":0.8},"alpha":0.7,"rotation":0} -target=ob7 -duration=1200 -next;
+:她没能意识到，现在的一切，都只是“暴风雨前的平静”。
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk7 -next -motion=K_kime02 -expression=K_serious01;
+setTransform:{"position":{"x":-1450,"y":150},"scale":{"x":2,"y":2},"alpha":1,"blur":10} -target=bg72 -duration=500 -next;
+setTransform:{"position":{"x":-200,"y":0},"scale":{"x":0.8,"y":0.8},"alpha":1,"blur":12} -target=uk7 -duration=500 -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -motion=sigh02 -expression=surprised01;
+初华:[真好呢，我也想跟祥子一起逛街——](style-alltext=font-style:italic\; style=color:#2f2f2f\;) -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk72 -next -motion=eeto01_aya -expression=smile03;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk7 -next -motion=nnf_right01 -expression=K_angry01;
+祥子:初华的话，在街上会被粉丝认出来的吧？
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk7 -next -motion=K_serious01 -expression=smile05_sk;
+changeFigure:341_mashiro/model.json -id=sk72 -next -motion=thinking01_anon -expression=surprised01;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -motion=nf_right01_anon -expression=thinking02;
+;第三次
+setTransform:{"position":{"x":-1400,"y":150},"scale":{"x":2,"y":2},"alpha":1,"blur":10} -target=bg72 -duration=500 -next;
+setTransform:{"position":{"x":-160,"y":0},"scale":{"x":0.8,"y":0.8},"alpha":1,"blur":18} -target=uk7 -duration=500 -next;
+初华:[那又有什么关系呢，旁人的目光什么的、不是完全不需要在意么？](style-alltext=font-style:italic\; style=color:#2f2f2f\;) -fontSize=default;
+
+changeFigure:341_mashiro/model.json -id=sk72 -next -motion=thinking01;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -motion=sigh02_rui -expression=thinking02D;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk7 -next -motion=K_natural01 -expression=sad01_sk;
+祥子:……？
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -motion=thinking01_rui;
+:违和感，越来越重了。
+changeFigure:341_mashiro/model.json -id=sk72 -next -motion=smile06 -expression=default;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk7 -next -expression=smile05_sk;
+祥子:今天恐怕不行。 -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk72 -next -motion=nnf05 -expression=smile06;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk7 -next -motion=K_natural01 -expression=sigh01_sk;
+
+不过，如果初华哪天有空、不需要工作的话—— -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk7 -next -motion=nf04 -expression=angry01;
+setTransform:{"position":{"x":-100,"y":0},"scale":{"x":0.8,"y":0.8},"alpha":1,"blur":18} -target=uk7 -duration=1500 -next;
+setTransform:{"position":{"x":-1300,"y":150},"scale":{"x":2,"y":2},"alpha":1,"blur":10} -target=bg72 -duration=500 -next;
+;第四次
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -expression=surprised01;
+changeFigure:341_mashiro/model.json -id=sk72 -next -motion=surprised01 -expression=L_Boby;
+初华:[祥子，不知道我今天在哪里拍外景广告么？](style-alltext=font-style:italic\; style=color:#2f2f2f\;) -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk72 -next -motion=nf03_soyo -expression=smile03;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -motion=nnf_left01_anon -expression=thinking02;
+祥子:——诶？
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -motion=serious02 -expression=thinking02;
+setTransform:{"position":{"x":-100,"y":0},"scale":{"x":0.8,"y":0.8},"alpha":0,"blur":18} -target=uk7 -duration=500 -next;
+setTransform:{"position":{"x":650,"y":-60},"scale":{"x":0.8,"y":0.8},"alpha":0,"rotation":0} -target=ob7 -duration=0 -next;
+setTransform:{"position":{"x":-1300,"y":150},"scale":{"x":2,"y":2},"alpha":0,"blur":10} -target=bg72 -duration=500 -next;
+setTransform:{"position":{"x":-1500,"y":650},"scale":{"x":5.3,"y":5.3},"alpha":0,"rotation":0,"blur":1} -target=bg7 -duration=500 -next;
+changeFigure:341_mashiro/model.json -id=sk72 -next -expression=thinking02;
+:……什么意思？
+setTransform:{"position":{"x":-100,"y":0},"scale":{"x":0.8,"y":0.8},"alpha":1,"blur":18} -target=uk7 -duration=500 -next;
+setTransform:{"position":{"x":650,"y":-60},"scale":{"x":0.8,"y":0.8},"alpha":0.7,"rotation":0} -target=ob7 -duration=0 -next;
+setTransform:{"position":{"x":-1300,"y":150},"scale":{"x":2,"y":2},"alpha":1,"blur":10} -target=bg72 -duration=500 -next;
+setTransform:{"position":{"x":-1500,"y":650},"scale":{"x":5.3,"y":5.3},"alpha":1,"rotation":0,"blur":1} -target=bg7 -duration=500 -next;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk7 -next -motion=K_nnf01 -expression=smile02;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -motion=thinking03_anon -expression=thinking02R;
+changeFigure:341_mashiro/model.json -id=sk72 -next -expression=L_Boby;
+初华:[啊，也是呢，这个我倒是真的没有告诉祥子……抱歉抱歉——](style-alltext=font-style:italic\; style=color:#2f2f2f\;)
+changeFigure:341_mashiro/model.json -id=sk72 -next -motion=surprised01_soyo -expression=Down_look;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob7 -next -motion=surprised01 -expression=default;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk7 -next -motion=K_smile01 -expression=smile02;
+setTransform:{"position":{"x":200,"y":0},"scale":{"x":0.8,"y":0.8},"alpha":1,"blur":18} -target=uk7 -duration=500 -next;
+setTransform:{"position":{"x":2150,"y":-305},"scale":{"x":0.8,"y":0.8},"alpha":0.7,"rotation":0.8} -target=ob7 -duration=0 -next;
+setTransform:{"position":{"x":-1000,"y":150},"scale":{"x":2,"y":2},"alpha":1,"blur":10} -target=bg72 -duration=500 -next;
+bgm: -enter=0;
+初华:|[那么，下一个问题。](style-alltext=font-style:italic\; style=color:#2f2f2f\;) -concat;
+changeFigure:none -id=bg72 -next;
+changeFigure: -id=bg7 -next;
+changeFigure: -id=uk7 -next;
+changeFigure: -id=ob7 -next;
+changeFigure: -id=jh7 -next;
+changeFigure: -id=sk72 -next;
+changeFigure: -id=sk7 -next;
+changeFigure: -id=sox7 -next;
+changeFigure: -id=sa72 -next;
+changeFigure: -id=sa71 -next;
+changeBg:none -next;
+changeScene:3_02/why.txt

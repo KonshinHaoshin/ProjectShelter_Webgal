@@ -1,0 +1,141 @@
+bgm:Comptine.mp3;
+changeBg:a台场/inner9.webp -next -transform={"position":{"x":200,"y":200},"scale":{"x":1.6,"y":1.6}};
+;changeFigure:bg/inner13.webp -id=bg7 -transform={"scale":{"x":1.5,"y":1.5}} -next;
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -right -id=an7 -transform={"position":{"x":900},"scale":{"x":0.83,"y":0.83}} -next -motion=nf03_mu -expression=shame02;
+changeFigure:341_mashiro_sun_透肉/model.json -id=sk7 -transform={"position":{"x":740},"scale":{"x":0.83,"y":0.83}} -next -motion=nf04_kokoro -expression=shame02;
+;changeFigure:bg/inner13f.webp -id=bg7f -transform={"scale":{"x":1.5,"y":1.5}} -next;
+:商场的自动门打开，二人从观景露台回到了清爽的空调房——她们试着利用这份冷气让自己的大脑冷却下来，但她们的身体似乎有着自己的想法。
+changeFigure:341_mashiro_sun_透肉/model.json -id=sk7 -next -motion=nf_left01_maya -expression=smile04;
+setTransform:{"position":{"x":200,"y":200},"scale":{"x":1.6,"y":1.6},"alpha":0.7} -target=bg-main -duration=0 -next;
+setTransform:{"position":{"x":900},"scale":{"x":0.83,"y":0.83},"alpha":0} -target=an7 -duration=0 -next;
+setTransform:{"position":{"x":740},"scale":{"x":0.83,"y":0.83},"alpha":1} -target=sk7 -duration=0 -next;
+;setTransform:{"scale":{"x":1.5,"y":1.5},"alpha":0.7} -target=bg7 -duration=0 -next;
+;setTransform:{"scale":{"x":1.5,"y":1.5},"alpha":0.7} -target=bg7f -duration=0 -next;
+:——周围没有人。
+changeFigure:341_mashiro_sun_透肉/model.json -id=sk7 -next -motion=nf_right01_masking -expression=shame02;
+:琥珀金的双瞳瞄了一眼周围：这个通往观景台的侧门位置比较偏僻，周围并没有其他游客。
+changeFigure:341_mashiro_sun_透肉/model.json -id=sk7 -next -motion=smile04 -expression=smile02;
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an7 -next -motion=zb_serious01 -expression=smile03;
+setTransform:{"position":{"x":200,"y":200},"scale":{"x":1.6,"y":1.6},"alpha":1} -target=bg-main -duration=0 -next;
+setTransform:{"position":{"x":900},"scale":{"x":0.83,"y":0.83},"alpha":1} -target=an7 -duration=0 -next;
+setTransform:{"position":{"x":740},"scale":{"x":0.83,"y":0.83},"alpha":1} -target=sk7 -duration=0 -next;
+;setTransform:{"scale":{"x":1.5,"y":1.5},"alpha":1} -target=bg7 -duration=0 -next;
+;setTransform:{"scale":{"x":1.5,"y":1.5},"alpha":1} -target=bg7f -duration=0 -next;
+:很好。
+changeFigure:341_mashiro_sun_透肉/model.json -id=sk7 -transform={"position":{"x":140},"scale":{"x":0.83,"y":0.83},"alpha":1} -next -motion=nf_right01_aya -expression=shame02;
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an7 -next -motion=nf01_sk -expression=turn_Down_look;
+爱音:哎，得赶紧把汗擦一擦——
+setTransform:{"position":{"x":100,"y":200},"scale":{"x":1.6,"y":1.6},"alpha":1} -target=bg-main -duration=0 -next;
+setTransform:{"position":{"x":2300},"scale":{"x":0.83,"y":0.83},"alpha":1} -target=an7 -duration=900 -next;
+setTransform:{"position":{"x":2040},"scale":{"x":0.83,"y":0.83},"alpha":1} -target=sk7 -duration=900 -next;
+;setTransform:{"position":{"x":-100},"scale":{"x":1.5,"y":1.5},"alpha":1} -target=bg7 -duration=0 -next;
+;setTransform:{"position":{"x":-100},"scale":{"x":1.5,"y":1.5},"alpha":1} -target=bg7f -duration=0 -next;
+changeFigure:341_mashiro_sun_透肉/model.json -id=sk7 -next -motion=nf_right01_anon -expression=smile02;
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an7 -next -motion=zb_nnf_left01 -expression=surprised01;
+:咚。
+;changeBg:none -next;
+changeFigure:none -id=sk7 -next;
+changeFigure:none -id=an7 -next;
+;changeFigure:none -id=bg7 -next;
+;changeFigure:none -id=bg7f -next;
+changeBg:00096-2870517371.webp -next -transform={"position":{"x":0,"y":0},"scale":{"x":1}};
+:毫无防备的粉发少女，那刚刚拿出纸巾的右手手腕、被她的恋人轻而易举地钳制住，连带着她整个人一起被按在了墙面上。
+setTransform:{"position":{"y":0},"alpha":0.5} -target=bg-main -duration=0 -next;
+changeFigure:341_mashiro_sun_透肉/model.json -id=sk8 -transform={"position":{"x":-520,"y":-250},"scale":{"x":1.05,"y":1.05}} -next -motion=zb_angry06 -expression=smile04;
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an8 -transform={"position":{"x":180,"y":-250},"scale":{"x":1.05,"y":1.05}} -next -motion=zb_nnf01 -expression=smile02;
+爱音:——真是粗暴的壁咚呢。
+changeFigure:341_mashiro_sun_透肉/model.json -id=sk8 -next -motion=smile04 -expression=smile02;
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an8 -next -motion=sad02_kokoro -expression=shame02;
+setTransform:{"position":{"y":0},"alpha":0} -target=bg-main -duration=0 -next;
+setTransform:{"position":{"x":1100,"y":-150},"scale":{"x":1.07,"y":1.07},"alpha":0} -target=sk8 -duration=950 -next;
+setTransform:{"position":{"x":1700,"y":-150},"scale":{"x":1.07,"y":1.07},"alpha":0} -target=an8 -duration=950 -next;
+:没有抵抗，不如说压根没有任何抗拒的打算。
+changeFigure:none -id=sk8 -next;
+changeFigure:none -id=an8 -next;
+changeBg:a台场/inner8.jpg -next -transform={"position":{"x":0,"y":500},"scale":{"x":-1.1,"y":1.1},"rotation":0.05,"blur":15};
+changeFigure:037_casual-2023_rip_wet_sun/model.json -id=an9 -transform={"position":{"x":700,"y":-150},"scale":{"x":1.2,"y":1.2}} -next -motion=nf_left01_kokoro -expression=shame02;
+changeFigure:341_mashiro_sun/model.json -id=sk9 -transform={"position":{"y":-150},"scale":{"x":1.2,"y":1.2}} -next -motion=nf_right01_mu -expression=smile02;
+: -notend -fontSize=default;
+setTransform:{"position":{"x":900,"y":-150},"scale":{"x":1.2,"y":1.2}} -target=an9 -duration=1100 -next;
+setTransform:{"position":{"x":200,"y":-150},"scale":{"x":1.2,"y":1.2}} -target=sk9 -duration=1100 -next;
+:千早爱音似乎早就知道会发展成这样，放松着身体、任由丰川祥子将她推到自动售货机旁边的死角： -fontSize=default;
+changeFigure:037_casual-2023_rip_wet_sun/model.json -id=an9 -next -motion=kime01_sk -expression=smile04;
+changeFigure:341_mashiro_sun/model.json -id=sk9 -next -motion=nod01_maya -expression=smile04;
+爱音:……祥祥，现在可不是在梦境里哦？
+changeFigure:037_casual-2023_rip_wet_sun/model.json -id=an9 -next -motion=nf_left01_ako -expression=shame02;
+changeFigure:341_mashiro_sun/model.json -id=sk9 -next -motion=angry06 -expression=smile02;
+祥子:我知道。
+changeFigure:037_casual-2023_rip_wet_sun/model.json -id=an9 -next -motion=smile02_sk -expression=smile02;
+changeFigure:341_mashiro_sun/model.json -id=sk9 -next -motion=nf01 -expression=smile02;
+setTransform:{"position":{"x":800,"y":-150},"scale":{"x":1.2,"y":1.2}} -target=an9 -duration=700 -next;
+爱音:……不是约好了、恋人关系只能在梦中成立么~？
+changeFigure:037_casual-2023_rip_wet_sun/model.json -id=an9 -next -motion=smile04 -expression=shame02;
+changeFigure:341_mashiro_sun/model.json -id=sk9 -next -motion=nnf_right01_rui -expression=smirk;
+祥子:今天是约会日，那条契约不算数。
+changeFigure:037_casual-2023_rip_wet_sun/model.json -id=an9 -next -motion=odoodo01_sk -expression=shame02;
+changeFigure:341_mashiro_sun/model.json -id=sk9 -next -motion=nnf_right01 -expression=smile04;
+爱音:……那，说好的“不健全的事情全面禁止”呢~？
+changeFigure:037_casual-2023_rip_wet_sun/model.json -id=an9 -next -motion=chuni02_ako -expression=smile04;
+changeFigure:341_mashiro_sun/model.json -id=sk9 -next -motion=nf_right01_aya -expression=smile04;
+祥子:只是Kiss的话不算数。
+setTransform:{"position":{"x":-200,"y":700},"scale":{"x":-1.3,"y":1.3},"alpha":1,"rotation":0.05,"blur":17} -target=bg-main -duration=650 -next;
+changeFigure:037_casual-2023_rip_wet_sun/model.json -id=an10 -transform={"position":{"x":-125,"y":-350},"scale":{"x":1.5,"y":1.5}} -next -motion=shame02 -expression=smile04;
+changeFigure:341_mashiro_sun/model.json -id=sk10 -transform={"position":{"x":-1600,"y":-350},"scale":{"x":1.5,"y":1.5},"alpha":0} -next;
+changeFigure: -id=an9 -next;
+changeFigure: -id=sk9 -next;
+爱音:……明明是祥祥开始的契约关系，这样做真的好么~？
+setTransform:{"position":{"x":200,"y":700},"scale":{"x":-1.3,"y":1.3},"alpha":1,"rotation":0.05,"blur":17} -target=bg-main -duration=0 -next;
+setTransform:{"position":{"x":825,"y":-350},"scale":{"x":1.5,"y":1.5},"alpha":0} -target=an10 -duration=0 -next;
+setTransform:{"position":{"x":-1000,"y":-350},"scale":{"x":1.5,"y":1.5},"alpha":1} -target=sk10 -duration=0 -next;
+changeFigure:341_mashiro_sun/model.json -id=sk10 -next -motion=nf04 -expression=shame02;
+祥子:……。
+setTransform:{"position":{"x":200,"y":700},"scale":{"x":-1.3,"y":1.3},"alpha":0,"rotation":0.05,"blur":17} -target=bg-main -duration=0 -next;
+changeFigure:341_mashiro_sun/model.json -id=sk10 -next -motion=nf03 -expression=smile05;
+:是啊。|这是丰川祥子亲手写下的契约。 -fontSize=default;
+changeFigure:341_mashiro_sun/model.json -id=sk10 -next -motion=smile04 -expression=default;
+changeBg:none -next;
+:——所以。 -fontSize=default;
+changeFigure:none -id=sk10 -next;
+changeFigure:none -id=an10 -next;
+changeBg:a台场/inner8.jpg -next -transform={"position":{"x":0,"y":500},"scale":{"x":-1.1,"y":1.1},"rotation":0.05,"blur":15};
+changeFigure:037_casual-2023_rip_wet_sun/model.json -id=an9 -transform={"position":{"x":900,"y":-150},"scale":{"x":1.2,"y":1.2}} -next -motion=angry04 -expression=shame02;
+changeFigure:341_mashiro_sun/model.json -id=sk9 -transform={"position":{"x":200,"y":-150},"scale":{"x":1.2,"y":1.2}} -next -motion=zb_smile06 -expression=smile04;
+祥子:既然如此。
+setTransform:{"position":{"x":280,"y":-150},"scale":{"x":1.2,"y":1.2}} -target=sk9 -duration=1100 -next;
+changeFigure:341_mashiro_sun/model.json -id=sk9 -next -motion=zb_angry06;
+:少女轻轻捏住了恋人的下巴：
+changeFigure:037_casual-2023_rip_wet_sun/model.json -id=an9 -next -motion=idle_in_kiss01 -expression=turnL;
+changeFigure:341_mashiro_sun/model.json -id=sk9 -next -motion=smile01_aya -expression=R_boby;
+setTransform:{"position":{"x":1150,"y":-250},"scale":{"x":1.2,"y":1.2},"alpha":0,"rotation":0.13} -target=an9 -duration=1400 -next;
+setTransform:{"position":{"x":600,"y":-250},"scale":{"x":1.2,"y":1.2},"alpha":0,"rotation":0.1} -target=sk9 -duration=1400 -next;
+setTransform:{"position":{"x":0,"y":500},"scale":{"x":-1.1,"y":1.1},"alpha":0,"rotation":0.05,"blur":15} -target=bg-main -duration=1400 -next;
+祥子:……就由我来结束掉。
+changeBg:none -next;
+changeFigure:none -id=an9 -next;
+changeFigure:none -id=sk9 -next;
+changeFigure:manga2/11.webp -id=11 -transform={"position":{"x":-330,"y":-1480},"scale":{"x":1,"y":1}} -next;
+changeFigure:manga2/1.webp -id=1 -transform={"position":{"x":-330,"y":-1490},"scale":{"x":1,"y":1}} -next;
+changeFigure:manga2/33.webp -id=33 -transform={"position":{"x":-330,"y":-1480},"scale":{"x":1,"y":1},"alpha":0} -next;
+changeFigure:manga2/3.webp -id=3 -transform={"position":{"x":-330,"y":-1490},"scale":{"x":1,"y":1}} -next;
+changeFigure:manga/black.webp -id=bk1 -transform={"position":{"y":-750},"scale":{"x":2,"y":0.2},"alpha":1} -next;
+changeFigure:manga/black.webp -id=bk2 -transform={"position":{"y":-300},"scale":{"x":2,"y":0.2}} -next;
+:——被随意放置在长椅上的水袋里，两条金鱼绕着圈、随意地游动着。 -fontSize=default;
+setTransform:{"position":{"x":-330,"y":-1303},"scale":{"x":1,"y":1}} -target=1 -duration=1500 -next;
+setTransform:{"position":{"x":-330,"y":-1480},"scale":{"x":1,"y":1},"alpha":0.7} -target=11 -duration=1500 -next;
+setTransform:{"position":{"x":-330,"y":-1303},"scale":{"x":1,"y":1}} -target=3 -duration=1500 -next;
+setTransform:{"position":{"x":-330,"y":-1480},"scale":{"x":1,"y":1},"alpha":1} -target=33 -duration=1500 -next;
+:游动着、游动着……  -fontSize=default;
+setTransform:{"position":{"x":-330,"y":-1303},"scale":{"x":1,"y":1},"alpha":0} -target=1 -duration=800 -next;
+setTransform:{"position":{"x":-330,"y":-1480},"scale":{"x":1,"y":1},"alpha":0} -target=11 -duration=800 -next;
+setTransform:{"position":{"x":-330,"y":-1303},"scale":{"x":1,"y":1},"alpha":0} -target=3 -duration=800 -next;
+setTransform:{"position":{"x":-330,"y":-1480},"scale":{"x":1,"y":1},"alpha":0} -target=33 -duration=800 -next;
+;认真地做小黄油表现好了。滚动式也行吧
+bgm: -enter=2300;
+:…………………………………………
+changeFigure: -id=1 -next;
+changeFigure:none -id=11 -next;
+changeFigure:none -id=3 -next;
+changeFigure:none -id=33 -next;
+changeFigure:none -id=bk1 -next;
+changeFigure:none -id=bk2 -next;
+changeScene:3_01/anon_summer.txt

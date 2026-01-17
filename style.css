@@ -306,6 +306,57 @@ body {
     -webkit-box-orient: vertical;
     overflow: hidden;
     margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.game-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 8px 0;
+}
+
+.tag {
+    display: inline-block;
+    padding: 4px 12px;
+    background-color: #f0fdfa;
+    color: #0d9488;
+    border: 1px solid #ccfbf1;
+    border-radius: 9999px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1;
+    transition: all 0.2s;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.tag:hover {
+    background-color: #0d9488;
+    color: white;
+    border-color: #0d9488;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(13, 148, 136, 0.2);
+}
+
+.game-card:hover .tag {
+    border-color: #0d9488;
+}
+
+.game-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    padding-top: 0.75rem;
+    border-top: 1px solid #f0f0f0;
+}
+
+.game-author {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    display: flex;
+    align-items: center;
 }
 
 /* 移动端菜单按钮 */

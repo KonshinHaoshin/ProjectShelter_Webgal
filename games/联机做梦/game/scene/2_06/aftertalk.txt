@@ -1,0 +1,63 @@
+changeBg:bg01013.webp -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -next -motion=sigh02 -expression=smile02_sk;
+:没有千早爱音，少女们也会找到属于自己的路——这是好事。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -next -motion=nnf_right01 -expression=shame01;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -right -transform={"position":{"x":900},"alpha":0.7} -next -motion=zb_shame02 -expression=L_Boby;
+:并不是所有人都需要千早爱音，但总会有人需要千早爱音。|这样就好。
+changeFigure:none -right -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -next -motion=thinking02 -expression=default;
+爱音:那么，今晚要怎么跟祥祥说呢……
+:千早爱音仍旧觉得，什么事都藏着掖着只会憋出病来，信息差会导致误会、而误会又会引发更深一层的矛盾…… -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -next -motion=kime02;
+:总而言之，关于“长崎素世已经知道了Ave Mujica”的存在这件事，爱音觉得今晚一定要跟她的祥祥好好聊聊。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -next -motion=bye01 -expression=smile02;
+爱音:那么，晚安，祥祥。
+changeBg:none -next;
+changeFigure:none -next;
+:躺在属于自己的床上，千早爱音闭上了眼睛。
+bgm: -enter=1000;
+:…………
+:……
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -transform={"position":{"y":400},"scale":{"x":1,"y":1},"alpha":0} -next;
+:…
+changeBg:bg01012.webp -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=surprised01 -expression=surprised02_sk;
+setTransform:{"position":{"y":0},"scale":{"x":1,"y":1},"alpha":1} -target=an -duration=0 -next;
+bgm:36_piano_miss_concert.mp3;
+:……一夜无梦。
+changeBg:none -next;
+changeFigure:none -id=an -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -id=sk -transform={"position":{"x":-100,"y":400},"alpha":0} -next;
+:………………………………
+changeBg:SakiKo_Home_Sun_02.webp -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=serious01 -expression=thinking01;
+setTransform:{"position":{"y":300},"alpha":1} -target=sk -duration=0 -next;
+:丰川祥子睁开了眼睛。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -expression=Down_look;
+:清晨的阳光没有一丝温度，距离设定好的闹钟响起还有差不多十三分钟。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -expression=surprised02;
+setTransform:{"position":{"y":0}} -target=sk -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=cry03 -expression=surprised01;
+:她坐起身来，眼中先是迷茫、随后是难以置信的眼神——
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -expression=cry01;
+祥子:……为什么？
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=odoodo01;
+:——昨晚，她没有做梦。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -expression=sad02;
+:没有进入梦境，也没有见到千早爱音。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=nf04 -expression=cry01;
+:明明是那么的想要见到她；
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=angry01 -expression=cry01;
+:明明是那么的……【需要】见到她。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=thinking01_rui -expression=cry01;
+祥子:为什么……？
+changeBg:none -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -expression=sad01;
+:不祥的预感，开始萌芽。
+changeFigure:none -id=sk -next;
+:这一夜，丰川祥子和千早爱音成功禁欲了。
+:——以一种，她们极其不愿意看到的方式。
+:【千早爱音禁欲天数：0→1】|【丰川祥子禁欲天数：0→1】 -fontSize=default;
+bgm:none -enter=1000;
+: -fontSize=default;
+choose:祥子想和爱音SOX:2_07/start.txt;

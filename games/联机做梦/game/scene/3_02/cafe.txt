@@ -1,0 +1,279 @@
+bgm:基地の日常noon.mp3 -volume=70 -enter=1000;
+changeFigure:ring/ring_cafe.webp -id=bgbk -transform={"position":{"x":1250,"y":300},"scale":{"x":2,"y":2}} -next;
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=nya1 -transform={"position":{"x":1000,"y":750},"scale":{"x":0.8,"y":0.8},"rotation":0.08} -next;
+changeFigure:抹茶巴菲.webp -id=buff -transform={"position":{"x":-500,"y":600},"scale":{"x":0.25,"y":0.25},"alpha":0,"rotation":0.1} -next;
+changeFigure:凛凛子l2d/225_casualmodel.json -id=rrk -transform={"position":{"x":-250,"y":0},"scale":{"x":0.8,"y":0.8}} -next -motion=nnf_right01 -expression=smile01;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -transform={"position":{"x":700,"y":0},"scale":{"x":0.8,"y":0.8}} -next -motion=nf_left01 -expression=smile01;
+changeFigure:ring/ring_cafe_bar.webp -id=bgmd -transform={"position":{"x":1250,"y":300},"scale":{"x":2,"y":2}} -next;
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=nya2 -transform={"position":{"x":1300,"y":400},"scale":{"x":0.81,"y":0.81},"alpha":0} -next;
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -transform={"position":{"x":1900,"y":40},"scale":{"x":0.83,"y":0.83},"alpha":0} -next;
+changeFigure:ring/ring_cafe_tableandchairs.webp -id=bgft -transform={"position":{"x":1250,"y":300},"scale":{"x":2,"y":2}} -next;
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=nya3 -transform={"position":{"x":-100,"y":-50},"scale":{"x":0.92,"y":0.92},"alpha":0} -next;
+changeFigure:cats.webp -id=cats -transform={"position":{"y":-700},"scale":{"x":1.02,"y":1.02},"alpha":0} -next;
+: -notend -fontSize=default;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":0.8,"y":0.8}} -target=rrk -duration=1400 -next;
+凛凛子:啊，立希，到换班时间了哦？ -fontSize=default;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -motion=nf04 -expression=smile01L;
+changeFigure:凛凛子l2d/225_casualmodel.json -id=rrk -next -motion=smile01 -expression=turn_R_Body;
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=nya1 -next -motion=thinking01 -expression=default;
+setTransform:{"position":{"x":1000,"y":500},"scale":{"x":0.8,"y":0.8},"rotation":0.06} -target=nya1 -duration=1200 -next;
+立希:嗯，辛苦了。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=nya1 -next -motion=sigh01 -expression=smile02;
+setTransform:{"position":{"x":1200,"y":750},"scale":{"x":0.8,"y":0.8},"rotation":0.09} -target=nya1 -duration=1400 -next;
+:黑色长直发的店员放下了手中的玻璃杯，点了点头。
+changeFigure:凛凛子l2d/225_casualmodel.json -id=rrk -next -motion=nnf01 -expression=smile01;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -motion=smile03 -expression=turn_Down_look;
+setTransform:{"position":{"x":-500,"y":750},"scale":{"x":0.8,"y":0.8},"alpha":0,"rotation":0.09} -target=nya1 -duration=0 -next;
+凛凛子:不不不，辛苦的是你才对，你快去休息一下吧~ -fontSize=default;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":0.8,"y":0.8},"alpha":0} -target=rrk -duration=0 -next;
+setTransform:{"position":{"x":1250,"y":300},"scale":{"x":2,"y":2},"alpha":0} -target=bgbk -duration=0 -next;
+setTransform:{"position":{"x":1250,"y":300},"scale":{"x":2,"y":2},"alpha":0} -target=bgmd -duration=0 -next;
+setTransform:{"position":{"x":1250,"y":300},"scale":{"x":2,"y":2},"alpha":0} -target=bgft -duration=0 -next;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -motion=nf01 -expression=smile03;
+:周末下午的客流其实比想象中要少一些，椎名立希心想，这其实也没多辛苦 -fontSize=default;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -motion=smile04 -expression=default;
+:——她本来真的打算这么说的，但是…… -fontSize=default;
+changeFigure:凛凛子l2d/225_casualmodel.json -id=rrk -next -motion=smile02 -expression=turn_R_Body_Down10;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -motion=surprised01 -expression=turn_R_Body10;
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=nya2 -next -motion=niya01 -expression=turn_L_Body10;
+bgm:none -enter=500;
+setTransform:{"position":{"x":-260,"y":0},"scale":{"x":0.8,"y":0.8},"alpha":1} -target=rrk -duration=0 -next;
+setTransform:{"position":{"x":850,"y":300},"scale":{"x":2,"y":2},"alpha":1} -target=bgbk -duration=0 -next;
+setTransform:{"position":{"x":850,"y":300},"scale":{"x":2,"y":2},"alpha":1} -target=bgmd -duration=0 -next;
+setTransform:{"position":{"x":850,"y":300},"scale":{"x":2,"y":2},"alpha":1} -target=bgft -duration=0 -next;
+setTransform:{"position":{"x":400,"y":0},"scale":{"x":0.8,"y":0.8}} -target=tk -duration=0 -next;
+setTransform:{"position":{"x":1100,"y":40},"scale":{"x":0.81,"y":0.81},"alpha":1} -target=nya2 -duration=0 -next;
+乐奈:Rikki，陪我玩。 -fontSize=default;
+: -concat -fontSize=default;
+bgm:29.customer.mp3 -enter=1000;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -motion=angry02 -expression=smile03;
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=nya2 -next -motion=thinking01 -expression=turn_L_Body;
+changeFigure:凛凛子l2d/225_casualmodel.json -id=rrk -next -motion=kime01 -expression=ririko_smile02;
+立希:……为啥啊。
+setTransform:{"position":{"y":-730},"scale":{"x":1.02,"y":1.02},"alpha":1} -target=cats -duration=0 -next;
+:——今天的她被名为要乐奈的野猫折腾了半天，哪怕是原本能摸鱼的时间也变得异常辛苦。
+setTransform:{"position":{"y":-730},"scale":{"x":1.02,"y":1.02},"alpha":0} -target=cats -duration=0 -next;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -motion=angry01 -expression=sigh02;
+setTransform: -target=tk -duration=0 -next;
+changeFigure:凛凛子l2d/225_casualmodel.json -id=rrk -next -motion=serious01 -expression=turn_Down_look;
+setTransform:{"position":{"x":1050,"y":60},"scale":{"x":0.8,"y":0.8},"alpha":0} -target=nya1 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=nya2 -next -motion=nnf_left01 -expression=sigh01;
+:说到底，怪浪怪浪的勺子到底是什么…… -fontSize=default;
+
+setTransform:{"position":{"x":1100,"y":40},"scale":{"x":0.81,"y":0.81},"alpha":0} -target=nya2 -duration=0 -next;
+setTransform:{"position":{"x":1000,"y":0},"scale":{"x":0.8,"y":0.8},"alpha":1} -target=nya1 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=nya1 -next -motion=angry01 -expression=turn_L_Body;
+changeFigure:凛凛子l2d/225_casualmodel.json -id=rrk -next -motion=smile02 -expression=turn_R_Body;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -motion=nf_right01;
+乐奈:Rikki下班了，该陪我玩了。
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=nya1 -next -motion=kime01 -expression=turn_L_Body_Down10;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -motion=sigh02 -expression=turn_Down_look;
+changeFigure:凛凛子l2d/225_casualmodel.json -id=rrk -next -motion=nf04 -expression=turn_Down_look;
+setTransform:{"position":{"x":1300,"y":-200},"scale":{"x":0.8,"y":0.8},"rotation":0.5} -target=tk -duration=1500 -next;
+setTransform:{"position":{"x":1200},"scale":{"x":0.8,"y":0.8},"rotation":0.02} -target=nya1 -duration=1500 -next;
+setTransform:{"position":{"x":-250,"y":300},"scale":{"x":2,"y":2},"alpha":1} -target=bgbk -duration=1200 -next;
+setTransform:{"position":{"x":-250,"y":300},"scale":{"x":2,"y":2},"alpha":1} -target=bgmd -duration=1200 -next;
+setTransform:{"position":{"x":-250,"y":300},"scale":{"x":2,"y":2},"alpha":1} -target=bgft -duration=1200 -next;
+setTransform:{"position":{"x":-1340},"scale":{"x":0.8,"y":0.8}} -target=rrk -duration=1200 -next;
+立希:……我下班后的时间不应该用来上第二个班吧？
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -motion=sigh01 -expression=smile03;
+setTransform:{"position":{"x":800,"y":0},"scale":{"x":0.8,"y":0.8},"alpha":1,"rotation":0} -target=tk -duration=0 -next;
+setTransform:{"position":{"x":1200},"scale":{"x":0.8,"y":0.8},"rotation":0.02,"alpha":0} -target=nya1 -duration=0 -next;
+setTransform:{"position":{"x":-250,"y":300},"scale":{"x":2,"y":2},"alpha":0} -target=bgbk -duration=0 -next;
+setTransform:{"position":{"x":-250,"y":300},"scale":{"x":2,"y":2},"alpha":0} -target=bgmd -duration=0 -next;
+setTransform:{"position":{"x":-250,"y":300},"scale":{"x":2,"y":2},"alpha":0} -target=bgft -duration=0 -next;
+setTransform:{"position":{"x":-1340},"scale":{"x":0.8,"y":0.8},"alpha":0} -target=rrk -duration=0 -next;
+:天底下哪个女高中生下班之后的活动是上班啊，除非是家里破产或者被家里人赶出去了——我们大少女乐队时代有这么惨的女孩子嘛？ -fontSize=default;
+setTransform:{"position":{"x":890,"y":50},"scale":{"x":0.73,"y":0.73},"alpha":1,"rotation":0,"blur":1} -target=tk -duration=900 -next;
+setTransform:{"position":{"x":-640,"y":50},"scale":{"x":0.73,"y":0.73},"alpha":1,"blur":1} -target=rrk -duration=900 -next;
+setTransform:{"position":{"x":-50,"y":-50},"scale":{"x":0.88,"y":0.88},"alpha":1} -target=nya3 -duration=900 -next;
+setTransform:{"position":{"x":-150,"y":300},"scale":{"x":1.7,"y":1.7},"alpha":1,"blur":1} -target=bgbk -duration=900 -next;
+setTransform:{"position":{"x":-150,"y":300},"scale":{"x":1.7,"y":1.7},"alpha":1,"blur":1} -target=bgmd -duration=900 -next;
+setTransform:{"position":{"x":-150,"y":300},"scale":{"x":1.7,"y":1.7},"alpha":1,"blur":1} -target=bgft -duration=900 -next;
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=nya3 -next -motion=sad01 -expression=sigh01;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -motion=nnf02 -expression=smile03;
+changeFigure:凛凛子l2d/225_casualmodel.json -id=rrk -next -motion=nnf04 -expression=turn_Down_look;
+:跟鼓手不同，Mygo!!!!!的主音吉他手似乎闹腾了大半天都活力充足——不过，当她看向RiNG的玻璃墙外时，却皱了皱眉：
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=nya3 -next -motion=serious02;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -motion=sad01 -expression=surprised01;
+乐奈:……要下雨了。
+changeFigure:凛凛子l2d/225_casualmodel.json -id=rrk -next -motion=smile01 -expression=turn_R_Body;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -motion=surprised02 -expression=angry01;
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=nya3 -next -motion=nnf_right01 -expression=thinking01;
+立希:哈？说什么傻话呢，这太阳猛着呢。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=nya3 -next -motion=nf01 -expression=default;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -motion=surprised02 -expression=surprised01;
+乐奈:要下雨了。
+:——就像是什么能够提前感知到气候变化的动物一样，白色短发的少女眨了眨眼，异色瞳中闪烁着奇妙的光芒、重复了一次 -fontSize=default;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -motion=nnf01 -expression=turn_Down_look;
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=nya3 -next -motion=sad01 -expression=turn_R_Body;
+立希:胡说八道。
+changeFigure:凛凛子l2d/225_casualmodel.json -id=rrk -next -motion=sad01 -expression=ririko_smile01;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -motion=smile01 -expression=turn_Down_look;
+:椎名立希没有把这只野猫的戏言放在心上，只是干脆利落地收拾好剩余的空杯子、打算换下制服快乐下班——
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -motion=nnf_left01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -motion=nf_right01 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=nya3 -next -motion=nnf_right01 -expression=surprised01;
+setTransform:{"position":{"x":1200,"y":0},"scale":{"x":0.82,"y":0.82},"alpha":1} -target=umi -duration=0 -next;
+setTransform:{"position":{"x":-850,"y":300},"scale":{"x":1.9,"y":1.9},"alpha":1,"blur":1} -target=bgbk -duration=0 -next;
+setTransform:{"position":{"x":-850,"y":300},"scale":{"x":1.9,"y":1.9},"alpha":1,"blur":1} -target=bgmd -duration=0 -next;
+setTransform:{"position":{"x":-850,"y":300},"scale":{"x":1.9,"y":1.9},"alpha":1,"blur":1} -target=bgft -duration=0 -next;
+setTransform:{"position":{"x":290,"y":0},"scale":{"x":0.78,"y":0.78},"alpha":1,"rotation":0,"blur":0} -target=tk -duration=0 -next;
+setTransform:{"position":{"x":-1280,"y":0},"scale":{"x":0.78,"y":0.78},"alpha":1,"blur":1} -target=rrk -duration=0 -next;
+setTransform:{"position":{"x":-650,"y":-50},"scale":{"x":0.85,"y":0.85},"alpha":1} -target=nya3 -duration=0 -next;
+setTransform:{"position":{"x":-650,"y":-50},"scale":{"x":0.85,"y":0.85},"alpha":0} -target=nya2 -duration=0 -next;
+海铃:啊，我来晚了么？
+:——就在这时，一个熟悉的面孔走进了RiNG。
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -motion=smile01 -expression=turn_R_Body;
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -motion=smile01 -expression=turn_L_Body;
+立希:海铃？
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=nya3 -next -motion=nnf_right01 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=nya2 -next -motion=nnf_right01 -expression=surprised01;
+setTransform:{"position":{"x":-550,"y":-50},"scale":{"x":0.83,"y":0.83},"alpha":0} -target=nya3 -duration=0 -next;
+setTransform:{"position":{"x":-550,"y":-50},"scale":{"x":0.83,"y":0.83},"alpha":1} -target=nya2 -duration=0 -next;
+海铃:下午好，立希同学。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -motion=thinking01;
+:潇洒的贝斯手还是穿着她平时的那套相当潇洒的便服，走的每一步都带着一种到达对岸后特有的余裕——白猫好奇地注视着这个有点眼熟的女孩子，眨了眨眼。
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -motion=smile03 -expression=turn_L_Body10;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -motion=nf04 -expression=smile03;
+海铃:我还想点杯喝的呢，你是要下班了么？
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -motion=smile04 -expression=turn_R_Body;
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -motion=smile02 -expression=turn_L_Body10;
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=nya2 -next -motion=kime01 -expression=turn_R_Body;
+立希:嗯，刚好下班——不过，你想喝什么，我顺手给你弄一杯。
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -motion=kime01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -motion=smile05 -expression=turn_L_Body10;
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=nya2 -next -motion=nf03 -expression=thinking01;
+海铃:……巧克力牛奶？
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=nya2 -next -motion=nf04 -expression=smile01;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -motion=nf01;
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -motion=nnf01 -expression=smile01;
+立希:你就不能换个口味么？
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=nya2 -next -motion=niya01 -expression=turn_R_Body;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -motion=nf_left01 -expression=surprised01;
+乐奈:Rikki，我要抹茶芭菲。
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -motion=sigh02 -expression=turn_L_Body10;
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=nya2 -next -motion=sad01 -expression=turn_R_Body;
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next;
+立希:谁问你了？
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -motion=smile01 -expression=default;
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=nya2 -next -motion=nnf_right01 -expression=sigh01;
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -motion=nnf04 -expression=smile01L;
+:熟稔的二人随意地聊着天，就跟在学校里的时候差不多——八幡海铃对着吧台前的要乐奈点了点头、就当作是打过招呼了。
+
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -motion=nnf_left01 -expression=smile01;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -motion=thinking01 -expression=surprised01;
+立希:……？海铃，你的贝斯呢？
+:椎名立希突然注意到，自己的这位友人今天并没有拖着她的好伙伴。
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=nya2 -next -motion=nnf_left01 -expression=thinking01;
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -motion=nf01;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -motion=nf04 -expression=surprised01;
+setTransform:{"position":{"x":900,"y":0},"scale":{"x":0.85,"y":0.85},"alpha":1,"rotation":0,"blur":0} -target=tk -duration=1300 -next;
+setTransform:{"position":{"x":-910,"y":0},"scale":{"x":0.88,"y":0.88},"alpha":0,"rotation":0} -target=nya2 -duration=1300 -next;
+setTransform:{"position":{"x":160,"y":0},"scale":{"x":0.88,"y":0.88}} -target=umi -duration=1500 -next;
+setTransform:{"position":{"x":-450,"y":300},"scale":{"x":2.6,"y":2.6},"alpha":1,"blur":1} -target=bgbk -duration=1300 -next;
+setTransform:{"position":{"x":-450,"y":300},"scale":{"x":2.6,"y":2.6},"alpha":1,"blur":1} -target=bgmd -duration=1300 -next;
+setTransform:{"position":{"x":-450,"y":300},"scale":{"x":2.6,"y":2.6},"alpha":1,"blur":1} -target=bgft -duration=1300 -next;
+
+setTransform:{"position":{"x":-600,"y":700},"scale":{"x":0.85,"y":0.85},"alpha":0} -target=nya1 -duration=1300 -next;
+海铃:今天没有排练的预定。
+
+
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -motion=smile03 -expression=turn_R_Body;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -motion=smile01 -expression=turn_L_Body10;
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=nya1 -next -motion=serious01 -expression=turn_Down_look;
+setTransform:{"position":{"x":-750,"y":200},"scale":{"x":0.85,"y":0.85},"alpha":1} -target=nya1 -duration=1100 -next;
+:八幡海铃坐到了吧台前的圆凳上，掏出了手机。
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -motion=sigh01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -motion=surprised01;
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=nya1 -next -motion=serious01 -expression=turn_Down_look;
+立希:真意外，我还以为你是个周末都会四处当雇佣兵的大忙人呢。
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -motion=smile03;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -motion=nf_left01 -expression=sigh02;
+海铃:我看上去有那么忙么？
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -motion=nf05 -expression=smile01L;
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -motion=sigh01 -expression=smile01;
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=nya1 -next -motion=nnf_right01 -expression=sad01;
+setTransform:{"position":{"x":-350,"y":10},"scale":{"x":0.85,"y":0.85},"alpha":1} -target=nya1 -duration=1400 -next;
+立希:有。
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -expression=surprised01;
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -motion=nnf_right01 -expression=smile02;
+海铃:原来如此，在立希同学的眼里，我是看动画会跳过片头曲的那类人呢。
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -motion=nnf01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=nya1 -next -motion=nnf_right01 -expression=serious01;
+立希:……这什么比喻啊？
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -motion=surprised01 -expression=turn_L_Body;
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=nya1 -next -motion=serious02 -expression=turn_R_Body;
+setTransform:{"position":{"x":-350,"y":0},"scale":{"x":0.85,"y":0.85},"alpha":1} -target=nya1  -duration= -next;
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -motion=nnf_left01 -expression=smile02;
+乐奈:Rikki，我不会跳过片头曲。
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -motion=nnf_right01 -expression=smile02;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -motion=sigh02 -expression=turn_L_Body_Down10;
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=nya1 -next -motion=nnf_right01 -expression=thinking01;
+立希:谁问你了？
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=nya1 -next -motion=sad01 -expression=turn_Down_look;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -motion=nf01 -expression=serious01;
+setTransform:{"position":{"x":-350,"y":610},"scale":{"x":0.85,"y":0.85},"alpha":1} -target=nya1 -duration=1400 -next;
+bgm:none -enter=1100;
+:——所以。
+: -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -motion=nnf03 -expression=turn_L_Body10;
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -expression=smile01;
+bgm:告解.mp3;
+立希:所以，你找我有事么？
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=nya1 -next -motion=smile01 -expression=niya01;
+setTransform:{"scale":{"x":0.85,"y":0.85},"rotation":0.1} -target=nya1 -duration=0 -next;
+setTransform:{"position":{"x":-300,"y":400},"scale":{"x":0.26,"y":0.26},"alpha":1,"rotation":0.1} -target=buff -duration=0 -next;
+:没有排练的预定，去挑在一个自己正好下班的时间点跑来RiNG——自认对八幡海铃这个人算是相当熟悉的椎名立希，非常干脆地开口问道。
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=nya1 -next -motion=nnf_left01;
+setTransform:{"position":{"x":-1070,"y":100},"scale":{"x":0.85,"y":0.85},"alpha":0,"rotation":0} -target=nya1 -duration=850 -next;
+setTransform:{"position":{"x":-1250,"y":400},"scale":{"x":0.26,"y":0.26},"alpha":0,"rotation":0} -target=buff -duration=850 -next;
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -motion=nnf04 -expression=turn_R_Body;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -motion=nnf03 -expression=turn_L_Body;
+海铃:确实有。
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -expression=sigh02;
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -motion=nnf01 -expression=smile03;
+立希:不会是哪里缺鼓手了吧？
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -motion=smile05 -expression=turn_R_Body10;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -motion=smile02 -expression=turn_L_Body;
+海铃:如果遇到这种问题的话，我会第一时间找你的
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -motion=sigh01 -expression=turn_R_Body;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -motion=nf04 -expression=turn_L_Body;
+setTransform:{"position":{"x":-2000,"y":300},"scale":{"x":1.6,"y":1.6},"alpha":0,"blur":2} -target=nya3 -duration=0 -next;
+海铃:——不过，这一次的问题跟乐队的关系不大。
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -motion=thinking01 -expression=turn_Down_look;
+:八幡海铃解锁了自己的手机，指尖轻轻划动——她在思考、在斟酌接下来的用词。
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -motion=sigh01 -expression=turn_R_Body;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -expression=surprised01;
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=nya3 -next -motion=niya01 -expression=smile01;
+setTransform:{"position":{"x":-1500,"y":300},"scale":{"x":1.6,"y":1.6},"blur":2} -target=nya3 -duration=1000 -next;
+海铃:你就当我是受人所托吧。
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -motion=nnf03 -expression=turn_L_Body10;
+立希:受人所托？
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=nya3 -next -motion=smile01 -expression=turn_Down_look;
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -motion=nnf04;
+海铃:……乐队里的成员，委托我打听一个人。
+intro:干净而简洁的聊天软件界面里，最顶端的聊天窗口备注名—— -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500 -hold;
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -motion=nnf03 -expression=smile03;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -expression=surprised01;
+海铃:打听一个……嗯，你应该认识的人。
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -motion=angry01;
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -motion=nnf_right01;
+立希:哈？
+changeFigure:none -id=bgbk -transform={"position":{"x":1250,"y":300},"scale":{"x":2,"y":2}} -next;
+changeFigure:none -id=nya1 -transform={"position":{"x":1000,"y":750},"scale":{"x":0.8,"y":0.8},"rotation":0.08} -next;
+changeFigure:none -id=buff -transform={"position":{"x":-500,"y":600},"scale":{"x":0.25,"y":0.25},"alpha":0,"rotation":0.1} -next;
+changeFigure:none -id=rrk -transform={"position":{"x":-250,"y":0},"scale":{"x":0.8,"y":0.8}} -next -motion=nnf_right01 -expression=smile01;
+changeFigure:none -id=tk -transform={"position":{"x":700,"y":0},"scale":{"x":0.8,"y":0.8}} -next -motion=nf_left01 -expression=smile01;
+changeFigure:none -id=bgmd -transform={"position":{"x":1250,"y":300},"scale":{"x":2,"y":2}} -next;
+changeFigure:none -id=nya2 -transform={"position":{"x":1300,"y":400},"scale":{"x":0.81,"y":0.81},"alpha":0} -next;
+changeFigure:none -id=umi -transform={"position":{"x":1900,"y":40},"scale":{"x":0.83,"y":0.83},"alpha":0} -next;
+changeFigure:none -id=bgft -transform={"position":{"x":1250,"y":300},"scale":{"x":2,"y":2}} -next;
+changeFigure:none -id=nya3 -transform={"position":{"x":-100,"y":-50},"scale":{"x":0.92,"y":0.92},"alpha":0} -next;
+changeFigure:none -id=cats -transform={"position":{"y":-700},"scale":{"x":1.02,"y":1.02},"alpha":0} -next;
+bgm: -enter=1300;
+intro:——是【Mortis】。 -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(3, 79, 2, 1) -animation=fadeIn -delayTime=1500 -hold;
+:——【距离大雨落下，还有32分钟】——
+:;
+choose:生日特别篇:specific/start.txt;

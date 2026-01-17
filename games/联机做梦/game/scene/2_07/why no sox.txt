@@ -1,0 +1,187 @@
+changeBg:none -next;
+changeFigure:sk_home/SakiKo_Home_Sun_02.png -id=sk_home_b -next;
+changeFigure:anon_small_cloth.webp -id=cloth1 -transform={"position":{"x":-1000,"y":300},"scale":{"x":0.45,"y":0.45},"alpha":0.7,"rotation":-2} -next;
+changeFigure:sakiko_small_cloth.webp -id=cloth2 -transform={"position":{"x":-900,"y":600},"scale":{"x":0.45,"y":0.3},"alpha":0.7,"rotation":-2} -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jhh -transform={"position":{"x":-50,"y":200},"scale":{"x":0.45,"y":0.45},"alpha":0.7,"rotation":0.2} -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=obb -transform={"position":{"x":630,"y":420},"scale":{"x":0.45,"y":0.45},"alpha":0.7,"rotation":-0.2} -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=obb2 -transform={"position":{"x":1500,"y":400},"scale":{"x":0.45,"y":0.45},"alpha":0.7,"rotation":3.2} -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jhh2 -transform={"position":{"x":900,"y":300},"scale":{"x":0.4,"y":0.4},"alpha":0.7} -next;
+changeFigure:sakiko_small/sakiko_small_heart/model.json -id=sox3 -transform={"position":{"x":1000,"y":1600},"scale":{"x":0.4,"y":0.388},"alpha":0.7,"rotation":-1.6} -next;
+changeFigure:anon_small.webp -id=sa3 -transform={"position":{"x":300,"y":335},"scale":{"x":0.3,"y":0.3},"alpha":0.7,"rotation":-1.6} -next;
+changeFigure:sk_home/SakiKo_Home_Sun_02_front.png -id=sk_home_f -transform={"alpha":1} -next;
+changeFigure:steam2.webp -id=steam -transform={"position":{"x":400,"y":120},"scale":{"x":0.2,"y":0.2},"alpha":0,"rotation":-0.1} -next;changeFigure:steam2.webp -id==steam2 -transform={"position":{"x":555,"y":120},"scale":{"x":0.25,"y":0.25},"alpha":0,"rotation":0.2} -nextchangeFigure:steam2.webp -id=d=steam3 -transform={"position":{"x":750,"y":200},"scale":{"x":0.2,"y":0.2},"alpha":0,"rotation":0.4} -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=skk -transform={"position":{"x":200,"y":150},"scale":{"x":0.9,"y":0.9},"alpha":1} -next -motion=zb_surprised02 -expression=default;
+祥子:？ -fontSize=medium -notend;
+setTransform:{"position":{"x":200,"y":0},"scale":{"x":0.9,"y":0.9}} -target=skk -duration=400 -next;
+changeFigure:sakiko_small/sakiko_small_heart/model.json -id=sox2 -transform={"position":{"y":400},"scale":{"x":1,"y":0.97},"alpha":0} -next;
+: -fontSize=default -concat;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=skk -next -motion=zb_nnf_left01 -expression=surprised02;
+setTransform:{"position":{"x":650},"scale":{"x":0.9,"y":0.9}} -target=skk -duration=0 -next;
+changeFigure:sakiko_small/sakiko_small_heart/model.json -id=sox2 -next -motion=angry03_anon -expression=default;
+setTransform:{"position":{"y":200},"scale":{"x":0.9,"y":0.8924},"alpha":0.7} -target=sox2 -duration=0 -next;changeFigure:anon_small.webp -id==sa2 -transform={"position":{"x":-100,"y":600},"scale":{"x":0.45,"y":0.45},"alpha":0.7,"rotation":0.1} -next;
+本能:啊啊啊啊、SOX——！！！呜啊啊啊啊——！！！ -fontSize=large;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=skk -next -motion=zb_nf01;
+changeFigure:sakiko_small/sakiko_small_heart/model.json -id=sox2 -next -motion=shame02 -expression=turn_Down_look;
+setTransform:{"position":{"x":50,"y":300},"scale":{"x":0.9,"y":0.8924},"alpha":0.7,"rotation":0.06} -target=sox2 -duration=0 -next;
+setTransform:{"position":{"x":-100,"y":666},"scale":{"x":0.45,"y":0.45},"alpha":0.7,"rotation":0.6} -target=sa2 -duration=0 -next;
+祥子:？？
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=skk -next -motion=zb_surprised02 -expression=L_Boby;
+changeFigure:sakiko_small/sakiko_small_heart/model.json -id=sox2 -next -motion=smile04;
+setTransform:{"position":{"y":1000},"scale":{"x":0.9,"y":0.8924},"alpha":0.7,"rotation":0.06} -target=sox2 -duration=1000 -next;
+setTransform:{"position":{"x":-100,"y":1000},"scale":{"x":0.45,"y":0.4},"alpha":0.7,"rotation":0.6} -target=sa2 -duration=1000 -next;
+:丰川祥子目瞪口呆。 -fontSize=medium;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jhh -next -motion=smile02 -expression=smile03;
+setTransform:{"position":{"x":300,"y":120},"scale":{"x":0.45,"y":0.45},"alpha":0.7,"rotation":0.4} -target=jhh -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=skk -next -motion=zb_odoodo01;
+感性:呃啊感性感性，看到了吗，这就是你的未来……哦不对，是你的现在。
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=obb -next -motion=nf01 -expression=smile03;
+setTransform:{"position":{"x":360,"y":570},"scale":{"x":0.45,"y":0.45},"alpha":0.7,"rotation":-0.4} -target=obb -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=skk -next -motion=shame01 -expression=Down_look;
+setTransform:{"position":{"y":80},"scale":{"x":0.9,"y":0.9}} -target=skk -duration=0 -next;
+理性:呃啊理性理性，说来也是，戒色一天就已经要死要活的丰川祥子，要是现在戒色五天还能保持一个良好精神状态的话就有鬼了。
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=obb -next -motion=sad01;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jhh -next -motion=zb_surprised01 -expression=Down_look;
+changeFigure:sakiko_small/sakiko_small_heart/model.json -id=sox -transform={"position":{"x":-800,"y":1900},"scale":{"x":0.84,"y":0.815},"alpha":0.7,"rotation":-0.6} -nextchangeFigure:anon_small.webp -id=d=anon_small -transform={"position":{"x":-300,"y":920},"scale":{"x":0.42,"y":0.42},"alpha":0.7,"rotation":-0.6} -next;
+:能拯救她的唯有SOX——此事在任何书籍都没有记载。
+changeFigure:sakiko_small/sakiko_small_heart/model.json -id=sox -next -motion=smile04 -expression=angry02;
+setTransform:{"position":{"x":0,"y":300},"scale":{"x":0.84,"y":0.815},"alpha":0.7,"rotation":0} -target=sox -duration=800 -next;
+setTransform:{"position":{"x":-175,"y":500},"scale":{"x":0.41,"y":0.41},"alpha":0.7} -target=anon_small -duration=1050 -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=skk -next -motion=surprised02 -expression=L_Boby;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jhh -next -motion=smile03 -expression=default;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=obb -next -expression=smile03;
+:对此，本能的看法是： -fontSize=default;
+本能:SOX————！！！ -fontSize=large;
+changeFigure:mygo_avemujica_v6/sakiko/sakiko_也坏掉了/model.json -id=skk -transform={"position":{"x":650,"y":80},"scale":{"x":0.9,"y":0.9}} -next -motion=nnf_left01_anon -expression=surprised01;
+changeFigure:sakiko_small/sakiko_small_heart/model.json -id=sox -next -motion=angry04_taki;
+setTransform:{"position":{"x":1400,"y":200},"scale":{"x":0.84,"y":0.815},"alpha":0.7,"rotation":2.2} -target=sox -duration=500 -next;
+setTransform:{"position":{"x":-1250,"y":-170},"scale":{"x":0.42,"y":0.39},"alpha":0.7,"rotation":2.2} -target=anon_small -duration=600 -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jhh -next -motion=zb_smile03 -expression=R_boby;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=obb -next -motion=nnf_left01 -expression=smile05;
+:丰川祥子脸色苍白，比仓田真白还白：她看着年幼的“自己”怒目圆睁、 -fontSize=default -notend;
+changeFigure:sakiko_small/sakiko_small_heart/model.json -id=sox -next -motion=angry03_anon -expression=angry07;
+setTransform:{"position":{"x":1900,"y":1700},"scale":{"x":0.86,"y":0.8342},"alpha":0.7,"rotation":4.3} -target=sox -duration=400 -next;
+setTransform:{"position":{"x":1100,"y":-450},"scale":{"x":0.45,"y":0.45},"alpha":0.7,"rotation":4.4} -target=anon_small -duration=500 -next;
+changeFigure:mygo_avemujica_v6/sakiko/sakiko_也坏掉了/model.json -id=skk -next -motion=surprised01 -expression=R_boby_UP;
+:眼神满溢着狂气、抱着粉发少女的人偶做出了各种匪夷所思的动作、 -fontSize=default -concat;
+changeFigure:mygo_avemujica_v6/sakiko/sakiko_也坏掉了/model.json -id=skk -next -motion=nf02_rui -expression=shame01;
+changeFigure:sakiko_small/sakiko_small_heart/model.json -id=sox -next -motion=smile03_taki;
+setTransform:{"position":{"x":2800,"y":1400},"scale":{"x":0.82,"y":0.795},"alpha":0.7,"rotation":4.2} -target=sox -duration=0 -next;
+setTransform:{"position":{"x":1550,"y":-650},"scale":{"x":0.44,"y":0.44},"alpha":0.7,"rotation":5} -target=anon_small -duration=0 -next;
+:嘴里还不断念叨着“哈哈哈爱音你是我的（哔——）你不乖你不来梦里见我我就要把你狠狠地（哔——）”这类不堪入耳的台词，脸颊又马上染上了一层深深的红晕。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=skk -transform={"position":{"x":650,"y":0},"scale":{"x":0.9,"y":0.9}} -next -motion=zb_angry07 -expression=default;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jhh -next -motion=smile06 -expression=smile03;
+setTransform:{"position":{"x":-50,"y":200},"scale":{"x":0.45,"y":0.45},"alpha":0.7,"rotation":0.2} -target=jhh -duration=1100 -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=obb -next -motion=nf01 -expression=smile03;
+setTransform:{"position":{"x":630,"y":420},"scale":{"x":0.45,"y":0.45},"alpha":0.7,"rotation":-0.2} -target=obb -duration=1000 -next;
+changeFigure: -id=sox -next;
+changeFigure:none -id=anon_small -next;
+祥子:够了！
+changeFigure:none -id=jhh -next;
+changeFigure:none -id=obb -next;
+:咚——Ave Mujica的键盘手用力握拳砸向新买的小矮桌，而正在千里之外的自家公寓里卸妆的祐天寺若麦小姐……哦，还好，她这次什么也没感觉到。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=skk -next -motion=shame02_anon -expression=shame01;
+祥子:……哈啊、哈啊……;
+setTransform:{"position":{"x":400,"y":120},"scale":{"x":0.2,"y":0.2},"alpha":0.7,"rotation":-0.1} -target=steam -duration=5 -next;
+setTransform:{"position":{"x":555,"y":120},"scale":{"x":0.25,"y":0.25},"alpha":0.7,"rotation":0.2} -target=steam2 -duration=5 -next;
+setTransform:{"position":{"x":750,"y":200},"scale":{"x":0.2,"y":0.2},"alpha":0.7,"rotation":0.4} -target=steam3 -duration=5 -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=skk -next;
+: 此 -fontSize=default -notend;
+setTransform:{"position":{"x":360,"y":-220},"scale":{"x":0.4,"y":0.4},"alpha":0,"rotation":-0.2} -target=steam -duration=900 -next;
+setTransform:{"position":{"x":555,"y":-520},"scale":{"x":0.55,"y":0.5},"alpha":0,"rotation":0.22} -target=steam2 -duration=1200 -next;
+setTransform:{"position":{"x":950,"y":0},"scale":{"x":0.42,"y":0.42},"alpha":0,"rotation":0.6} -target=steam3 -duration=850 -next;
+:时此刻，祥子脸上的红晕已经蔓延到耳根，还好我们就是那什么搞笑动画，她的脑门上已经出现了蒸汽特效、并配上了悠久的蒸汽机关音效—— -fontSize=default -concat;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=skk -next -motion=zb_nf01 -expression=angry01;
+:还好，就算是动画，她也不是什么搞笑角色。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=skk -next -motion=nf_left01_rui -expression=angry01;
+祥子:……我就不该对你们抱有期待。
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=obb2 -next -motion=nf_left01_masking -expression=smile03;
+setTransform:{"position":{"x":1500,"y":900},"scale":{"x":0.45,"y":0.45},"alpha":0.7,"rotation":3.2} -target=obb2 -duration=700 -next;
+:祥子试着将自己此时此刻的羞耻感尽数甩锅给自己的中二幻觉， -fontSize=default -notend;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jhh2 -next -motion=nf_left01_eve -expression=surprised02;
+setTransform:{"position":{"x":-400,"y":500},"scale":{"x":0.4,"y":0.4},"alpha":0.7,"rotation":-0.4} -target=jhh2 -duration=2000 -next;
+changeFigure:sakiko_small/sakiko_small_heart/model.json -id=sox3 -next -motion=kandou02_anon -expression=kime02_anon;
+setTransform:{"position":{"x":640,"y":900},"scale":{"x":0.4,"y":0.388},"alpha":0.7,"rotation":-5} -target=sox3 -duration=2000 -next;
+setTransform:{"position":{"x":-2800,"y":-450},"scale":{"x":0.3,"y":0.3},"alpha":0.7,"rotation":-4} -target=sa3 -duration=2000 -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=obb2 -next -motion=nf_right01_anon -expression=smile03;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=skk -next -expression=surprised01;
+:|但她的理性和感性可不想背锅。 -fontSize=default -concat;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=obb2 -next -motion=nf01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=skk -next -expression=thinking01;
+bgm:none;
+理性:呃啊理性理性，你除了跟我们聊还能跟谁聊，跟你的队友吗？
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=skk -next -motion=thinking01 -expression=default;
+bgm:Reverie by Ludovico Einaudi.mp3 -enter=1000;
+:蓝发双马尾少女表情一愣，发现自己居然无言以对—— -fontSize=default -notend;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=obb2 -next -motion=nf01_anon -expression=sad02;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=skk -next -expression=sad01;
+:不如说，哪怕只是一些稀疏平常的小烦恼，名为丰川祥子的存在其实也找不到任何可以商谈的对象。 -fontSize=default -concat;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=skk -next -motion=sigh01 -expression=default;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=obb2 -next -motion=nnf_right01 -expression=surprised02;
+:家人？|直接Pass掉。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=skk -next -motion=thinking02 -expression=thinking01;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=obb2 -next -motion=zb_surprised02 -expression=R_boby;
+setTransform:{"position":{"x":150,"y":0},"scale":{"x":0.5,"y":0.5},"alpha":0.7,"rotation":1} -target=cloth1 -duration=1200 -next;
+setTransform:{"position":{"x":150,"y":150},"scale":{"x":0.4,"y":0.4},"alpha":0.7,"rotation":1.2} -target=cloth2 -duration=1800 -next;
+:朋友的话……祥子第一时间想到的是若叶睦，
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=skk -next -motion=smile03_anon -expression=smile03;
+setTransform:{"position":{"x":960,"y":900},"scale":{"x":0.45,"y":0.45},"alpha":0.7,"rotation":3.2} -target=obb2 -duration=1000 -next;
+setTransform:{"position":{"x":-635,"y":-300},"scale":{"x":0.5,"y":0.5},"alpha":0.7,"rotation":1} -target=cloth1 -duration=1200 -next;
+setTransform:{"position":{"x":-950,"y":-550},"scale":{"x":0.4,"y":0.4},"alpha":0.7,"rotation":1.2} -target=cloth2 -duration=1800 -next;
+:但她总觉得每次跟睦聊天都很难受，就像是被人拿着刺剑围着身体的前后左右四个方位各戳了一下一样，疼的厉害——          -fontSize=default -notend;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=skk -next -expression=cry02_anon;
+:   -fontSize=default -concat;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=skk -next -motion=sad02 -expression=default_anon;
+:明知道若叶睦是个好孩子、心中没有任何恶意，但饶是作为幼驯染的祥子也有点受不了这位聊天高手字字诛心的各种无心之言和有心之语。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=skk -next -motion=nf_left01_anon -expression=smile03;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mu -transform={"position":{"x":-50},"scale":{"x":0.9,"y":0.9},"alpha":0.7} -next -motion=nf_right01_mu -expression=thinking01;
+:更何况，祥子感觉睦也不像是对恋爱话题有所涉猎的类型，所以Pass。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=skk -next -motion=nnf02 -expression=thinking01;
+setTransform:{"position":{"x":-50},"scale":{"x":0.9,"y":0.9},"alpha":0} -target=mu -duration=0 -next;
+:祥子第二个想到的是三角初华，
+changeFigure:none -id=mu -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=skk -next -expression=smile06;
+:其实初华是一个很好的商谈对象，她有着足够成熟而又偏向温和的待人处事观念，祥子和她的关系也足够支撑她分享一些小小的烦恼……
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=skk -next -motion=nf01 -expression=smile03;
+:但也只是“一些”和“小小”这种程度而已。
+changeFigure:mygo_avemujica_v6/uika/337_sumimi_rip/model.json -id=uk -transform={"position":{"x":-200},"scale":{"x":0.9,"y":0.9},"alpha":0.7} -next -motion=nf_left01 -expression=smile01;
+:更何况，初华自己也是个不输祥子的究极大忙人，小事不想麻烦她、大事不能麻烦她—— -fontSize=default;
+changeFigure:mygo_avemujica_v6/uika/337_sumimi_rip/model.json -id=uk -next -motion=surprised01 -expression=surprised02_sk;
+setTransform:{"position":{"x":-100},"scale":{"x":0.9,"y":0.9},"alpha":0.7} -target=uk -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=skk -next -motion=sigh02;
+:祥子想了想，最终还是选择将那位金发的偶像排除在外。 -fontSize=default;
+changeFigure:none -id=uk -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=skk -next -motion=angry04_anon -expression=smile05;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_rip/model.json -id=nya -transform={"position":{"x":-300},"scale":{"x":0.9,"y":0.9},"alpha":0.7} -next -motion=surprised02 -expression=cry01_anon;
+:祐天寺若麦，Pass。（无慈悲）
+setTransform:{"position":{"x":-300,"y":1200},"scale":{"x":0.9,"y":0.9},"alpha":0.7} -target=nya -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=skk -next -motion=thinking02 -expression=thinking01;
+:至于队内的贝斯手……
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=skk -next -motion=thinking01 -expression=default;
+:祥子摸了摸下巴：八幡海铃这个人，毫无疑问也是个非常好的商谈对象，在遇到一些比较普通的烦恼时，四个队友里好像真的只有这位贝斯手显得靠谱一点。
+changeFigure:none -id=nya -next;
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -transform={"position":{"x":-500},"scale":{"x":0.9,"y":0.9},"alpha":0.7} -next -motion=nf_left01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=skk -next -expression=smile05;
+:可惜，这次祥子的烦恼显然已经超出了八幡海铃的能力范围，她也只能继续待在对岸了。
+changeFigure:none -id=umi -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=skk -next -expression=smile03;
+:这个不行，那个也不行，到头来，祥子还是要选择跟自己和解——| -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=skk -next -motion=nf01 -expression=shame01;
+:或者，去找那个【唯一能够让自己敞开心扉商谈任何烦恼的粉发少女】。 -fontSize=default -concat;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=skk -next -motion=shame02;
+bgm:none -enter=1200;
+:问题是，她的烦恼就跟那个少女有关……这可如何是好。
+changeFigure: -id=cloth1 -next;
+changeFigure: -id=cloth2 -next;
+changeFigure: -id=jhh -next;
+changeFigure: -id=obb -next;
+changeFigure: -id=obb2 -next;
+changeFigure: -id=jhh2 -next;
+changeFigure: -id=sox3 -next;
+changeFigure: -id=sa3 -next;
+changeFigure: -id=steam -next;
+changeFigure: -id=steam2 -next;
+changeFigure: -id=steam3 -next;
+changeFigure: -id=sk_home_b -next;
+changeFigure:none -id=sk_home_f -next;
+changeFigure:none -id=skk -next;
+changeScene:2_07/mygo.txt;

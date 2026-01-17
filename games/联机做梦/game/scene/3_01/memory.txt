@@ -1,0 +1,74 @@
+changeFigure:bg/bg00502.webp -id=bg6 -transform={"position":{"x":2200},"scale":{"x":2.2,"y":2.2},"alpha":0.7} -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an6 -transform={"position":{"x":2400,"y":50},"scale":{"x":0.75,"y":0.75},"alpha":0} -next;
+changeFigure:bg/inner13.webp -id=bg5 -transform={"position":{"x":-60,"y":0},"scale":{"x":1.5,"y":1.5}} -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy2 -transform={"position":{"x":1000,"y":50},"scale":{"x":0.75,"y":0.75}} -next -motion=nf01 -expression=smile03;
+changeFigure:bg/inner13f.webp -id=bg5f -transform={"position":{"x":-60},"scale":{"x":1.5,"y":1.5}} -next;
+:金色短发、紫色短发，
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy2 -next -motion=nf_right01 -expression=serious02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an6 -next -motion=smile02_sk -expression=smile04;
+setTransform:{"position":{"x":-1460},"scale":{"x":1.5,"y":1.5},"alpha":0,"blur":10} -target=bg5 -duration=1200 -next;
+setTransform:{"position":{"x":-1460},"scale":{"x":1.5,"y":1.5},"alpha":0,"blur":10} -target=bg5f -duration=1200 -next;
+setTransform:{"position":{"x":300,"y":50},"scale":{"x":0.75,"y":0.75}} -target=sy2 -duration=1200 -next;
+setTransform:{"position":{"x":200},"scale":{"x":2.2,"y":2.2}} -target=bg6 -duration=1200 -next;
+setTransform:{"position":{"x":1000,"y":50},"scale":{"x":0.75,"y":0.75}} -target=an6 -duration=1200 -next;
+:她以前有见过这两个人，最近也有见过这两个人。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an6 -next -motion=nf_left01_ako -expression=smile04;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy2 -next -expression=smile03;
+:【“——诶？Soyorin居然不知道Sumimi么！  -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy2 -next -motion=nf01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an6 -next -motion=kime01_kokoro -expression=smile04;
+:哼哼，那就由我来介绍一下，左边这个就是Sumimi的主唱……”】 -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy2 -next -expression=turn_Down_look;
+setTransform:{"position":{"x":200},"scale":{"x":2.2,"y":2.2},"alpha":0,"blur":10} -target=bg6 -duration=1200 -next;
+setTransform:{"position":{"x":1000,"y":50},"scale":{"x":0.75,"y":0.75},"alpha":0,"blur":10} -target=an6 -duration=1200 -next;
+:……这是【以前】跟爱音一起等电车的时候，被她指着月台的广告牌强制安利时听到的名字。
+changeFigure: -id=bg5 -next;
+changeFigure: -id=bg5f -next;
+changeFigure: -id=bg6 -next;
+changeFigure:none -id=an6 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy2 -next -motion=serious04 -expression=thinking01;
+:至于【最近】——
+
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy2 -next -motion=nnf_right01;
+素世:……。
+intro:——Ave Mujica。 -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 38, 168, 0.81) -animation=fadeIn -delayTime=1500 -hold;
+changeBg:ave mujica_stage12.webp -next -transform={"position":{"x":200,"y":-100},"scale":{"x":1.2,"y":1.2}};
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy2 -next -motion=nf03;
+:长崎素世的脑海里，猛地浮现出了这个名字。 -fontSize=default;
+changeBg:none -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy2 -next -motion=smile03 -expression=default;
+:世界真小啊。
+changeBg:a台场/inner11.webp -next -transform={"position":{"y":800},"scale":{"x":2.5,"y":2.5}};
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy2 -next -motion=nf05;
+:贝斯手轻吁了一口气，在这个猜想出现的瞬间就停止了继续思考：那个乐队，跟现在的她没有任何关系。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy2 -next -motion=nf_right01 -expression=smile03;
+setTransform:{"position":{"y":800},"scale":{"x":2.5,"y":2.5},"alpha":0} -target=bg-main -duration=1100 -next;
+setTransform:{"position":{"x":1100,"y":50},"scale":{"x":0.75,"y":0.75},"alpha":0} -target=sy2 -duration=1100 -next;
+:所以，她也没必要在意那么多。
+changeFigure:manga/blue2purple.webp -id=nyaabg -transform={"position":{"x":-900,"y":-300},"scale":{"x":0.6,"y":0.6},"rotation":-0.1} -next;
+changeFigure:manga/black.webp -id=bk1 -transform={"position":{"x":120},"rotation":0.05} -next;
+changeFigure:manga/black.webp -id=bk2 -transform={"position":{"x":-1000,"y":-900},"scale":{"x":0.7,"y":0.4},"rotation":0.08} -next;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nyaa -transform={"position":{"x":-750,"y":-100},"scale":{"x":0.75,"y":0.75}} -next -motion=surprised02 -expression=sad01;
+changeFigure:manga/black.webp -id=bk3 -transform={"position":{"x":-900,"y":730},"scale":{"x":0.8},"rotation":-0.07} -next;
+changeFigure:manga/white.webp -id=w1 -transform={"position":{"x":-1000,"y":-600},"scale":{"x":0.6,"y":0.03},"rotation":0.08} -next;
+changeFigure:manga/white.webp -id=w2 -transform={"position":{"x":-600,"y":-300},"scale":{"x":0.03,"y":0.4},"rotation":0.05} -next;
+changeFigure:manga/white.webp -id=w3 -transform={"position":{"x":-1100},"scale":{"x":0.7,"y":0.03},"rotation":-0.07} -next;
+若麦:——啊、啊！？怎么会是大凶…… -fontSize=default;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nyaa -next -motion=angry01_anon -expression=default;
+谁啊！居然往求签筒里放大凶的签！太过分了！ -fontSize=default;
+changeFigure:none -id=nyaabg -next;
+changeFigure:none -id=w3 -next;
+changeFigure: -id=w2 -next;
+changeFigure: -id=w1 -next;
+changeFigure: -id=bk3 -next;
+changeFigure: -id=bk2 -next;
+changeFigure: -id=bk1 -next;
+changeFigure: -id=nyaa -next;
+changeFigure:none -id=sy2 -next;
+:背后似乎传来了某人的悲鸣，以及另一人试着安抚的声音——但长崎素世并没有回头。
+changeBg:soyo_bye3.webp -next;
+:毕竟，她已经决定……不再回头了。
+changeBg:none -next;
+bgm:none -enter=1400;
+:………………………………………………
+changeScene:3_01/yuricon.txt

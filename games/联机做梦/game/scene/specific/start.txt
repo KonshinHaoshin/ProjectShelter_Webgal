@@ -1,0 +1,172 @@
+;联机做梦生日特别篇
+;testscene
+:;
+changeScene:warmth.txt
+changeBg:bg00410.webp -next -transform={"position":{"y":390},"scale":{"y":0.86}};
+:——RiNG的天台，一处任何乐队少女（中略），便是长崎素世与丰川祥子的所在之地。
+changeBg:Ring天台/sumimi_big.webp -next -transform={"position":{"y":0},"scale":{"x":1.1,"y":1.1}};
+:夜幕降临，电子大屏的广告，当红偶像Sumimi的新曲宣传仍在播放；
+changeBg:bg01002.webp -next;
+;changeBg:Ring天台/sumimi.webp -next -transform={"position":{"x":-400,"y":-200},"scale":{"x":1.4,"y":1.4}};
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -transform={"position":{"x":-200,"y":300},"scale":{"x":0.5,"y":0.5},"alpha":0} -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -transform={"position":{"x":1000,"y":-2200},"scale":{"x":1.45,"y":1.45},"alpha":0.4} -next -motion=sigh02 -expression=default -bounds=-100,-100,700,700;
+;changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -transform={"position":{"x":-1000,"y":200},"scale":{"x":0.6,"y":0.6},"alpha":0} -next;
+;:丰川祥子居高临下地站在楼梯上，广告屏的光亮只能照出她的半张侧脸、让她能将自己的另一面藏在阴影之中。 
+changeFigure:Ring天台/栏杆下.webp -id=bg7 -transform={"position":{"y":250},"scale":{"x":1.8,"y":1.8}} -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk7 -transform={"position":{"x":500,"y":-180},"scale":{"x":0.68,"y":0.68},"alpha":0.3} -next -motion=serious01_rui -expression=serious02 -bounds=-100,-100,500,500;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy7 -transform={"position":{"x":670,"y":-200},"scale":{"x":0.85,"y":0.85}} -next -motion=nf_left01 -expression=thinking01;
+changeFigure:Ring天台/栏杆下_front.webp -id=f7 -transform={"position":{"x":10,"y":375},"scale":{"x":1.8,"y":1.8}} -next;
+:丰川祥子居高临下地站在楼梯上，广告屏的光亮只能照出她的半张侧脸、让她能将自己的另一面藏在阴影之中。 -fontSize=default;
+changeFigure: -id=bg7 -next;
+changeFigure: -id=sk7 -next;
+changeFigure:none -id=sy7 -next;
+changeFigure: -id=f7 -next;
+setTransform:{"position":{"x":200},"scale":{"x":1.8,"y":1.8}} -target=bg-main -duration=2000 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf_right01 -expression=thinking01;
+setTransform:{"position":{"x":-400,"y":50},"scale":{"x":0.8,"y":0.8},"alpha":1} -target=sy -duration=2000 -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=nf01 -expression=sad01;
+setTransform:{"position":{"x":1200,"y":-2700},"scale":{"x":1.75,"y":1.75},"blur":15} -target=sk -duration=2000 -next;
+祥子:素世同学，谢谢你愿意来见我。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -expression=sad02;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk2 -transform={"position":{"x":1900,"y":-250},"scale":{"x":0.73,"y":0.73},"alpha":0} -next;
+:清冷的声音响起，栏杆旁的亚麻色长发少女眯了眯眼，回头看向了声音的主人：
+changeFigure:none -id=sk -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nnf_right01 -expression=thinking01;
+setTransform:{"position":{"x":-200,"y":50},"scale":{"x":0.8,"y":0.8}} -target=sy -duration=1500 -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk2 -next -motion=bye01 -expression=sigh01;
+setTransform:{"position":{"x":1400,"y":50},"scale":{"x":0.8,"y":0.8},"alpha":1} -target=sk2 -duration=1500 -next;
+素世:小祥……
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=smile03;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk2 -next -motion=kime01;
+setTransform:{"position":{"x":800,"y":50},"scale":{"x":0.8,"y":0.8}} -target=sk2 -duration=1400 -next;
+:风，拂过她的脸庞、也撩起了她的发丝——长崎素世，小心翼翼地开口问道：
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk2 -next -motion=nod01 -expression=serious02;
+素世:……在开始之前，我能先问一个问题么？
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf_right01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk2 -next -motion=nf04;
+祥子:当然可以。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=shame02 -expression=serious02;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk2 -next -motion=thinking01 -expression=thinking01;
+素世:……为什么一定要在天台见面？
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=smile05 -expression=smile03;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk2 -next -motion=nnf_left01 -expression=smile03;
+祥子:……为了气氛？
+changeBg:none -next;
+changeFigure:none -id=sk2 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=angry01 -expression=angry03;
+:为啥啊。|——长崎素世，在心中偷偷发问。 -fontSize=default;changeBg:bg01002.webp  -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nnf_right01 -expression=smile05;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -transform={"position":{"x":800,"y":50},"scale":{"x":0.8,"y":0.8}} -next -motion=sigh02 -expression=sad01;
+:天台的风很大，吹得素世有些发冷。她有点想速战速决、把话聊完就赶紧下楼走人——|然而，丰川祥子似乎并没有这个打算：
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -expression=surprised01;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=nf01_soyo -expression=smile05;
+祥子:暑假，结束了呢。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf02 -expression=smile02;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=sigh01 -expression=sad01;
+素世:……是、是呢。
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=serious01_anon -expression=sad02;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nnf03 -expression=serious02;
+祥子:感觉好短暂啊，就跟梦境一样……一闭眼、一睁眼，就过去了。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf01 -expression=smile03;
+素世:……说的是呢。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=surprised01 -expression=turn_R_Body;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=odoodo01 -expression=cry01;
+setTransform:{"position":{"x":-250,"y":50},"scale":{"x":0.8,"y":0.8}} -target=sy -duration=0 -next;
+祥子:明明总觉得上一集才是和爱音在台场约会的时候……
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=serious02 -expression=angry01;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -expression=smile05;
+素世:小祥，打住。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf01 -expression=smile02;
+:——这种会破坏世界观的发言，绝对不能继续下去。
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=kime01_anon -expression=kime01;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nnf_right01 -expression=surprised01;
+祥子:但是，这个暑假、我们过得很充实呢……！
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nnf_right01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=smile02_tmr -expression=smile02;
+:丰川祥子，露出了微笑——尽管现场的打光让她显得像个邪笑大反派、但此时此刻的她其实是发自真心地在表达自己的喜悦：
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=smile01_kokoro;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -expression=odoodo01;
+祥子:大家的[羁绊](Kizuna)……也建立起来了呢！
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf01 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=nf03;
+:有吗。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf_right01 -expression=smile03;
+setTransform:{"position":{"x":0,"y":50},"scale":{"x":0.8,"y":0.8}} -target=sy -duration=1800 -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=sad01_mu -expression=smile06;
+setTransform:{"position":{"x":1900,"y":50},"scale":{"x":0.8,"y":0.8}} -target=sk -duration=1800 -next;
+:长崎素世感觉自己的眼角不受控制地抽了抽：不存在的记忆，要增加了……
+changeFigure:none -id=sy -next;
+changeFigure:none -id=sk -next;
+changeBg:none -next;
+changeFigure:Ring天台/台阶高看低.webp -id=bg3 -transform={"position":{"x":90,"y":150},"scale":{"x":1.2,"y":1.2}} -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -transform={"position":{"x":-550,"y":60},"scale":{"x":0.7,"y":0.7}} -next -motion=angry01 -expression=surprised01 -bounds=100,100,100,500;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk3 -transform={"position":{"x":400,"y":-190},"scale":{"x":1.2,"y":1.2}} -next -motion=shame02 -expression=cry03 -bounds=0,0,0,0;
+changeFigure:Ring天台/台阶高看低_front.webp -id=f3 -transform={"position":{"x":90,"y":150},"scale":{"x":1.2,"y":1.2}} -next;
+祥子:跟大家一起去北海道的合宿旅行，真开心啊……
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=nnf05 -expression=smile03;
+素世:……啊、嗯、嗯……
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=nf03 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk3 -next -motion=nf01 -expression=smile03;
+:……诶，去了吗？她们去了吗？
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk3 -next -motion=kime01 -expression=smile05;
+祥子:一起去唱卡啦OK的时候也是…… -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=surprised02_sk -expression=default;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk3 -next -motion=nf04_anon -expression=smile03;
+没想到，睦居然还能唱核嗓—— -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=nf04;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk3 -next -motion=nf_left01;
+素世:诶、诶嗯……
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=surprised01_kokoro -expression=smile03;
+setTransform:{"position":{"x":900,"y":0},"scale":{"x":2,"y":2},"alpha":0,"blur":15} -target=bg3 -duration=0 -next;
+setTransform:{"position":{"x":-560,"y":-250},"scale":{"x":1,"y":1}} -target=sy3 -duration=0 -next;
+setTransform:{"position":{"x":800},"scale":{"x":1.3,"y":1.3},"alpha":0,"blur":15} -target=sk3 -duration=0 -next;
+setTransform:{"position":{"x":900,"y":0},"scale":{"x":2,"y":2},"alpha":0,"blur":15} -target=f3 -duration=0 -next;
+:——会唱么！？小睦原来会唱核嗓么！？
+changeFigure: -id=bg3 -next;
+changeFigure: -id=f3 -next;
+changeFigure:none -id=sk3 -nextchangeBg:bg01002.webp g -next -transform={"position":{"y":120},"scale":{"x":1,"y":1},"blur":10};
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk3_5 -transform={"position":{"x":3000,"y":1600},"scale":{"x":1,"y":1},"alpha":0,"rotation":-2.4} -next -motion=nod01_nanami -expression=smile05 -bounds=100,100,100,500;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=surprised01 -expression=turn_R_Body;
+: -notend -fontSize=default;
+setTransform:{"position":{"x":2500,"y":2300},"scale":{"x":1,"y":1},"alpha":1,"rotation":-2.5} -target=sk3_5 -duration=0 -next;
+祥子:还有一起去澳门旅行的时候……
+changeFigure:hbr/light_blue.webp -id=hbrbg -transform={"position":{"x":-600},"scale":{"x":0.55,"y":1.4},"rotation":0.15} -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=hbrsy -transform={"position":{"x":-500,"y":-200}} -next -motion=angry03 -expression=default;
+changeFigure:hbr/f1.webp -id=hbrfl -transform={"position":{"y":120},"scale":{"x":1.79,"y":1.79},"alpha":1,"blur":10} -next;
+changeFigure:hbr/f2.webp -id=hbrfr -transform={"position":{"y":120},"scale":{"x":1.79,"y":1.79},"alpha":1,"blur":10} -next;
+changeFigure:hbr/white.webp -id=hbrwr -transform={"position":{"x":-220},"scale":{"x":0.03,"y":1.3},"rotation":0.13} -next;
+changeFigure:hbr/white.webp -id=hbrwl -transform={"position":{"x":-760},"scale":{"x":0.03,"y":1.4},"rotation":0.13} -next;
+changeFigure:hbr/whiteball.webp -id=ballr -transform={"position":{"x":-800,"y":-160},"scale":{"x":0.5,"y":0.5}} -next;
+changeFigure:hbr/whiteball.webp -id=balll -transform={"position":{"x":-1160,"y":-1590},"scale":{"x":0.5,"y":0.5}} -next;
+changeFigure:hbr/herb3.webp -id=herb3 -transform={"position":{"x":-400,"y":-1500},"scale":{"x":0.6,"y":0.6}} -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk3_5 -next -motion=surprised01 -expression=default;
+setTransform:{"position":{"x":900,"y":2380},"scale":{"x":1,"y":1},"rotation":-1.35} -target=sk3_5 -duration=0 -next;
+: -fontSize=default;
+changeFigure:none -id=hbrbg -next;
+changeFigure: -id=hbrsy -next -expression=default;
+changeFigure:none -id=hbrfl -next;
+changeFigure:none -id=hbrfr -next;
+changeFigure:none -id=hbrwr -next;
+changeFigure:none -id=hbrwl -next;
+changeFigure:none -id=ballr -next;
+changeFigure:none -id=balll -next;
+changeFigure:none -id=herb3 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=serious02 -expression=angry01;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk3_5 -next -motion=thinking01;
+setTransform:{"position":{"x":500,"y":-250},"scale":{"x":1,"y":1},"rotation":0} -target=sk3_5 -duration=0 -next;
+祥子:……诶？
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -expression=angry02;
+:——丰川祥子的回忆，被长崎素世的怪叫打断了：
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=sad03 -expression=angry03;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk3_5 -next -motion=nf_left01 -expression=surprised01;
+素世:世界线不对！完全不对——小祥，我们没去过澳门呀！？
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk3_5 -next -motion=smile02 -expression=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=surprised02_sk -expression=default;
+祥子:……真的诶。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=cry02 -expression=angry01;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk3_5 -next -motion=smile05;
+素世:小祥————！
+changeBg:none -next;
+changeFigure:none -id=sk3_5 -next;
+changeFigure:none -id=sy3 -next;
+changeScene:specific/talk2.txt

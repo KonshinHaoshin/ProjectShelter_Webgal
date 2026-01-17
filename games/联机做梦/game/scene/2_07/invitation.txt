@@ -1,0 +1,292 @@
+changeBg:bg00008.webp -next -transform={"position":{"y":-100}};
+changeFigure:mygo_avemujica_v6/anon/037_school_summer_smaller/model.json -id=saf -transform={"position":{"x":100},"scale":{"x":0.5,"y":0.48},"alpha":0} -next -motion=zb_nnf05 -expression=smile04;
+changeFigure:bg00009.webp -id=dusk -transform={"scale":{"x":2,"y":2},"alpha":0} -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an -transform={"position":{"x":-300},"scale":{"x":0.9,"y":0.9}} -next -motion=sleep01_kokoro -expression=smile02;
+bgm:painful.mp3;
+:——青春期少女的烦恼或许总会是一些鸡毛蒜皮的小事，但这类鸡毛蒜皮往往主打的就是一个五颜六色多姿多彩。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an -next -motion=zb_surprised01 -expression=default;
+changeFigure:teacher_pink/model.model3.json -id=teacher -transform={"position":{"x":300,"y":-50},"scale":{"x":1.11,"y":1.11}} -next -expression=mtn_ex_020.exp3.json;
+:从让人无法集中精神的课堂到上课玩手机被老师逮捕；          -notend;
+changeFigure:teacher_pink/model.model3.json -id=teacher -next -expression=mtn_ex_030.exp3.json -next;
+setTransform:{"position":{"x":100,"y":-50},"scale":{"x":1.11,"y":1.11}} -target=teacher -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an -next -motion=nf_right01 -expression=smile03;
+:   -concat;
+changeBg:bg00999.webp -next;
+changeFigure:none -id=teacher -next;
+changeFigure:none -id=an -next;
+changeFigure:mygo_avemujica_v6/taki/040_casual-2023_rip/model.json -id=taki -transform={"position":{"x":-300,"y":80},"scale":{"x":0.75,"y":0.75}} -next -motion=nnf_right01 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=anon -transform={"position":{"x":600,"y":80},"scale":{"x":0.75,"y":0.75}} -next -motion=zb_nf04 -expression=sad01;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=soyo -transform={"position":{"x":1200,"y":80},"scale":{"x":0.75,"y":0.75}} -next -motion=nnf_left01 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tomorin -transform={"position":{"x":100,"y":80},"scale":{"x":0.78,"y":0.78}} -next -motion=sing01 -expression=default;
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=rana -transform={"position":{"x":850,"y":80},"scale":{"x":0.78,"y":0.78}} -next -motion=smile01 -expression=default;
+:从邀请别人组乐队到被鼓手狠狠上压力；
+changeFigure:mygo_avemujica_v6/taki/040_casual-2023_rip/model.json -id=taki -next -motion=angry02 -expression=turn_R_Body;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=soyo -next -motion=thinking01 -expression=thinking01;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tomorin -next -motion=nf_right01 -expression=sad01;
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=rana -next -motion=nf_left01 -expression=thinking01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=anon -motion=nf_left01 -expression=smile03;
+changeFigure: -id=anon -next;
+changeFigure: -id=soyo -next;
+changeFigure: -id=rana -next;
+changeFigure: -id=taki -next;
+changeFigure: -id=tomorin -next;
+changeBg:bg00405.webp -next -transform={"position":{"x":600,"y":-200},"scale":{"x":1.6,"y":1.6}};
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an2 -transform={"position":{"x":-100,"y":100},"scale":{"x":0.8,"y":0.8}} -next -motion=nf_right01_masking -expression=sad01;
+changeFigure:LOCK/032_school_summer-2023model.json -id=lock -transform={"position":{"x":1300},"blur":15} -next -motion=nf_left01 -expression=smile03;
+changeFigure:上原 绯玛丽/008_school_summer-2023model.json -id=mary -transform={"position":{"x":650},"blur":15} -next -motion=sneeze01 -expression=default;
+:当然，少不了的还有恋爱相关的烦恼——说出来会脸红害臊、不说又憋在心里憋得难受，
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an2 -next -motion=angry01 -expression=turnR5;
+changeFigure:上原 绯玛丽/008_school_summer-2023model.json -id=mary -next -motion=shame01 -expression=turn_Down_look;
+changeFigure:LOCK/032_school_summer-2023model.json -id=lock -next -motion=nf01 -expression=smile02;
+:尽管过个几年再回头看看只会觉得当初的自己蠢得可爱，但对这个年龄段的女孩子来说，这些小小的烦恼若是真的一点一滴地累积起来、累积个一辈子…… -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an2 -next -motion=angry04 -expression=sad01;
+changeFigure:上原 绯玛丽/008_school_summer-2023model.json -id=mary -next -motion=nnf_right01 -expression=smile02;
+changeFigure:LOCK/032_school_summer-2023model.json -id=lock -next -motion=kime01 -expression=turn_L_Body;
+setTransform:{"position":{"x":1150},"blur":15} -target=lock -duration=0 -next;
+:那其实还挺危险的。 -fontSize=default;
+changeBg:none -next;
+changeFigure: -id=an2 -next;
+changeFigure: -id=lock -next;
+changeFigure: -id=mary -next;
+:——千早爱音，最近就有这么个烦恼。
+changeBg:bg00404.webp -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an -transform={"position":{"x":-200},"scale":{"x":0.9,"y":0.9}} -next -motion=smile03 -expression=smile01;
+changeFigure:teacher_pink/model.model3.json -id=teacher -transform={"position":{"x":300},"scale":{"x":1.11,"y":1.11}} -next -expression=mtn_ex_030.exp3.json;
+:顺带一提她今天上课玩手机真被抓了，还好老师看在她是初犯（准确来说是第一次被抓到）、而且她平时的表现过于良好，哪怕是再严厉的老师也会下意识地选择从轻发落——
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an -next -motion=bye01_sk -expression=smile06_sk;
+changeFigure:teacher_pink/model.model3.json -id=teacher -next -expression=mtn_ex_010.exp3.json;
+:千早爱音就是这么一个讨人喜欢的家伙。changeBg:bg00008.webp  -next -transform={};
+changeFigure: -id=an -next;
+changeFigure: -id=teacher -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -transform={"position":{"x":-100},"scale":{"x":0.9,"y":0.9}} -next -motion=serious03_masking -expression=thinking02;
+:然而，讨人喜欢的她，此刻正为了自己喜欢的人而 -notend;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next -expression=sad02;
+:烦恼。 -concat;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next -motion=sad01 -expression=default;
+爱音:唉……
+:自从那一天的演出结束之后，她就再也没能梦到过祥子——她和那位蓝发少女在梦中的联系，就像是被一把无形的剪刀给剪切、割断了一样，消失得无影无踪。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -transform={"position":{"x":-100},"scale":{"x":0.9,"y":0.9},"alpha":1} -next -motion=zb_kime02 -expression=default;
+:……不，并没有完全消失。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next -motion=nf_left01 -expression=shame01;
+setTransform:{"alpha":0.8} -target=bg-main -duration=900 -next;
+setTransform:{"scale":{"x":2,"y":2},"alpha":0.7} -target=dusk -duration=1500 -next;
+:她和祥子之间始于梦中而又渗入现实的【感情】还在，
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next -motion=nf01 -expression=sad01;
+setTransform:{"alpha":0.9} -target=bg-main -duration=0 -next;
+setTransform:{"scale":{"x":2,"y":2},"alpha":0.3} -target=dusk -duration=1200 -next;
+:只是，当初的约法三章依旧成立：现实中的她们并非情侣、恋人关系，曾经的那些亲密的肢体接触与二人互动自然也成为了真正意义上的“梦”——
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next -motion=sigh02_rui -expression=turnR;
+setTransform:{"alpha":1} -target=bg-main -duration=0 -next;
+setTransform:{"scale":{"x":2,"y":2},"alpha":0} -target=dusk -duration=900 -next;
+:梦醒了，一切都只会化作泡沫。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next -motion=zb_angry02 -expression=sad02_sk;
+:……好想跟祥子接吻。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next -motion=sigh02 -expression=shame02;
+setTransform:{"position":{"x":-110,"y":120},"scale":{"x":0.92,"y":0.92}} -target=anon -duration=0 -next;
+:爱音趴在桌子上、将脑袋埋进自己的臂弯：说到底，她也中了名为“丰川祥子”的毒，哪怕比起某位前·大小姐要稍微好上那么一点，心中那份觉醒的欲望也不容忽视——
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next -motion=zb_sad01 -expression=default;
+:要不是吃准了某位蓝色小章鱼绝对会自己忍不住破戒、她才不会那么简单地答应当初的约法三章 -fontSize=default -notend;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next -expression=smile03;
+:。 -fontSize=default -concat;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next -motion=nf01 -expression=smile03;
+爱音:糟糕糟糕，这下麻烦了……
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next -motion=nf04 -expression=sad02;
+:粉发的少女声音闷闷的，跟她现在的心情一致——|当然，这并不是单纯因为“无法跟祥祥在梦中尽情亲热”导致的。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next -motion=thinking03;
+:关于“长崎素世知道了Ave Mujica的存在”这件事情，她本想在那天的梦里告诉祥子。|结果，一连五天，爱音都没能梦到祥子、自然也找不到商量此事的机会。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next -motion=serious01;
+:千早爱音并不是一个麻烦的女孩子，她发自内心地觉得有些事情绝对不能拖延、必须尽快解决——问题是，现实并不如梦境那般、有种让人释放真正自我的魔力。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next -expression=smile03;
+:她和祥子，现在是真正意义上地需要在现实里保持“相敬如宾”的相处方式，不能与梦境混淆、也不能让旁人看出破绽。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next -motion=sigh02 -expression=turn_Down_look;
+:爱音也有想过干脆试着轻拿轻放、直接在LINE上跟祥子聊聊这件事…… -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next -motion=thinking02_sk -expression=thinking01;
+:|但别说冰冷的文字了，有些时候哪怕是语音通话也不一定能很好地表达各自的情感。 -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next -motion=kime02 -expression=default;
+setTransform:{"position":{"x":-100,"y":50},"scale":{"x":0.9,"y":0.9}} -target=anon -duration=0 -next;
+:像是这种【重要的事情】如果不是面对面去说的话就没有意义了——
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next -expression=angry01_kokoro;
+:千早爱音是个实诚的女孩子，尽管偶尔会有着“全速向后前进”的坏习惯，但一般来说，她还是倾向于把任何的误会、矛盾都聊清楚，而不是避而不谈。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer_smaller/model.json -id=saf -next -motion=thinking01 -expression=thinking02;
+setTransform:{"position":{"x":100,"y":100},"scale":{"x":0.5,"y":0.48},"alpha":0.7} -target=saf -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next -motion=thinking01_sk -expression=smile03;
+:问题是，要怎么开口呢……？
+changeFigure:mygo_avemujica_v6/anon/037_school_summer_smaller/model.json -id=saf -next -motion=zb_thinking03 -expression=smile04;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next -motion=serious01;
+:时间，地点，还有打开话题的方式，这些都要好好计划一番才能尽善尽美。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer_smaller/model.json -id=saf -next -motion=smile03 -expression=turn_R_body_down;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next -motion=smile03 -expression=turn_L_Boby_UP;
+:然而,爱音并没有什么能够商量的对象,她甚至不能跟她头顶那个Q版小爱音对谈——毕竟她不是中二病,那个小爱音也只是她内心的投射罢了,最大的作用就是引起某人的注意：
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -right -id=tmr -transform={"position":{"x":200},"scale":{"x":0.9,"y":0.9}} -next -motion=sad02 -expression=turn_L_Boby;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next -motion=zb_surprised01 -expression=default;
+setTransform:{"position":{"x":-100,"y":-150},"scale":{"x":0.9,"y":0.9}} -target=anon -duration=600 -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer_smaller/model.json -id=saf -next -motion=surprised02_sk;
+bgm:none;
+灯:小爱……？
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next -motion=bye01_kokoro -expression=surprised02_sk;
+爱音:喔、噢！？ -fontSize=default -notend;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next -motion=bye01_kokoro -expression=smile03;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmr -next -motion=thinking02 -expression=turn_L_Boby;
+bgm:23.schoollife.mp3;
+我我我我没事！？ -fontSize=default -concat;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next -motion=nf_right01 -expression=smile03;
+setTransform:{"position":{"x":-100,"y":0},"scale":{"x":0.9,"y":0.9}} -target=anon -duration=1400 -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer_smaller/model.json -id=saf -next -motion=sigh02 -expression=smile03_sk;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmr -next -motion=nnf_left01 -expression=thinking01;
+:听到高松灯的声音，千早爱音“咻”的一声蹦了起来——还好，现在是课间而不是课堂上，不然她这样做就跟大喊一句“全体目光向我看齐！”没有什么区别。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmr -next -motion=serious02 -expression=sad04;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer_smaller/model.json -id=saf -next -motion=nf01 -expression=smile03;
+灯:小爱，身体不舒服……？
+:小企鹅一脸担忧，她总觉得自己的挚友这“身体不舒服”的感觉已经持续快两个月了。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next -motion=nf_left01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmr -next -motion=nf03 -expression=thinking02;
+爱音:没、没有啦，只是有点热而已……
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmr -next -motion=nf04 -expression=sad03;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer_smaller/model.json -id=saf -next -motion=sleep02_kokoro;
+灯:是呢……
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmr -next -motion=nf01;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer_smaller/model.json -id=saf -next -motion=thinking02_sk -expression=turn_Down_look;
+:高松灯点了点头：也快放暑假了，最近的天气确实热得不行，团子虫好难在毒辣的太阳底下活下来…… -fontSize=default;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmr -next -motion=thinking01;
+:即便是曾经温暖的太阳，也会伤害别人么？ -fontSize=default;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmr -next -motion=sad04 -expression=turn_L_Boby;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next -motion=nod01_kaoru -expression=turnR;
+灯:……真的，没事？
+:不知为何，灯总觉得爱音在隐瞒着什么。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer_smaller/model.json -id=saf -next -motion=nf_left01_sk -expression=smile03;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next -motion=kime01 -expression=smile06_sk;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmr -next -motion=nf_left01 -expression=thinking01;
+爱音:没事啦，Tomorin不用这么担心我，我的身体好得很呢~
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmr -next -motion=nnf01;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer_smaller/model.json -id=saf -next -motion=shame01;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next -motion=kime01 -expression=surprised01;
+灯:但是……小爱最近好像没什么活力……
+changeBg:none -next;
+changeFigure: -id=saf -next;
+changeFigure: -id=anon -next;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmr -next -expression=surprised01;
+:岂止是“没什么”，简直是“毫无活力”——|想到这里，高松灯的瞳孔微微一缩。
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmr -next -motion=sad02 -expression=turn_L_Boby;
+changeFigure:130752.webp -id=sad -transform={"position":{"x":-600},"scale":{"x":0.8,"y":0.8},"alpha":0.65} -next;
+:她想起了【那阵子】的小爱：被自己、素世和立希三位Crychic前成员的言行举止所刺伤，认为自己“不被需要”的千早爱音，好像差不多也是这么个精神状态。
+changeFigure:none -id=sad -nextchangeBg:bg00008.webp g -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer_smaller/model.json -id=saf -transform={"position":{"x":100,"y":100},"scale":{"x":0.5,"y":0.5},"alpha":0.7} -next -motion=thinking02 -expression=angry01;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -transform={"position":{"x":-100},"scale":{"x":0.9,"y":0.9}} -next -motion=nf_left01 -expression=thinking01;
+:高松灯不是常规的侦探，她大概属于那种“灵能侦探”、靠直觉办案。于是，她强而有力的电波捕捉到了某种似是而非的情绪波动、让她没多想就开口问道：
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmr -next -expression=thinking01;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer_smaller/model.json -id=saf -next -motion=serious02_sk -expression=surprised02_sk;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next -motion=nnf_right01 -expression=smile03;
+灯:……小爱、跟祥子…吵架了？
+changeFigure:mygo_avemujica_v6/anon/037_school_summer_smaller/model.json -id=saf -next -motion=surprised02_sk -expression=turnR;
+setTransform:{"position":{"x":0,"y":120},"scale":{"x":0.5,"y":0.48},"alpha":0.7,"rotation":-0.11} -target=saf -duration=0 -next;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmr -next -motion=thinking02;
+爱音:！？
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmr -next -motion=nf04 -expression=thinking02;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer_smaller/model.json -id=saf -next -motion=nf01_masking -expression=surprised01;
+setTransform:{"position":{"x":80,"y":100},"scale":{"x":0.5,"y":0.48},"alpha":0.7,"rotation":-0.03} -target=saf -duration=0 -next;
+:——强烈的情绪波动。
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmr -next -motion=nf_left01 -expression=turn_L_Boby_UP;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer_smaller/model.json -id=saf -next -motion=serious01 -expression=surprised01;
+:高松灯微微抬头，尽管她并没有忍者般的动态视力，但她好像还是看到了Q版小爱音一脸惊讶的模样。
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmr -next -motion=nf03 -expression=thinking01;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer_smaller/model.json -id=saf -next -motion=angry03_sk -expression=thinking02;
+:……这是、说中了？
+changeFigure:mygo_avemujica_v6/anon/037_school_summer_smaller/model.json -id=saf -next -motion=odoodo01_sk;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next -motion=smile03 -expression=default;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmr -next -motion=serious01 -expression=thinking01;
+爱音:哎~为什么会提到祥子呢？
+:然而，正常头身比的千早爱音并没有表现出更多的动摇，只是笑得稍微有些勉强：
+changeFigure:mygo_avemujica_v6/anon/037_school_summer_smaller/model.json -id=saf -next -motion=shame02;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next -motion=nnf01 -expression=smile01;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmr -next -motion=thinking02 -expression=default;
+爱音:没有啦，虽然最近姑且算是跟祥子有了接触，但我们之间的关系甚至还没到达能吵架的程度呢。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer_smaller/model.json -id=saf -next -motion=odoodo01_soyo -expression=shame02;
+setTransform:{"position":{"x":100,"y":160},"scale":{"x":0.5,"y":0.5},"alpha":0.7,"rotation":0} -target=saf -duration=0 -next;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmr -next -motion=nf_left01 -expression=sigh02;
+:——此乃谎言。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer_smaller/model.json -id=saf -next -motion=shame02 -expression=shame02;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next -expression=shame02;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmr -next -motion=nf03;
+:别说吵架，这两人的关系都已经到达可以在床上“打架”（意味深·梦中限定）的程度了——
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next -motion=nf_left01 -expression=shame01;
+:还好，小企鹅读不出这份谎言，只是有些困惑地侧了侧脑袋、不知道为什么自己的友人脸颊会这么红。
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmr -next -motion=serious01 -expression=default;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer_smaller/model.json -id=saf -next -motion=serious02 -expression=surprised01;
+灯:那么，小爱……是有什么心事么？
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next -motion=sleep01_kokoro -expression=smile03;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmr -next -motion=thinking01;
+爱音:也不算吧，其实就是最近的睡眠质量不太好，导致上课的时候特别困……
+changeFigure:mygo_avemujica_v6/anon/037_school_summer_smaller/model.json -id=saf -next -motion=nf05 -expression=smile04;
+:这个借口用过太多次了，好在高松灯是个单纯的孩子，爱音说什么她都会信的——
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmr -next -motion=nf_left01 -expression=serious01;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer_smaller/model.json -id=saf -next -motion=surprised01 -expression=surprised01;
+灯:……所以才会、偷偷玩手机？
+:——真的是这样吗？
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next -motion=nnf_left01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer_smaller/model.json -id=saf -next -motion=thinking03 -expression=smile03;
+爱音:呃，那个是……
+changeFigure:mygo_avemujica_v6/anon/037_school_summer_smaller/model.json -id=saf -next -expression=shame01;
+:玩手机其实是耐不住寂寞想找祥祥聊天、又怕会打扰到同样在上课的祥祥、结果在纠结万分的时候正好被老师逮到……
+changeFigure:mygo_avemujica_v6/anon/037_school_summer_smaller/model.json -id=saf -next -motion=sigh02 -expression=shame02;
+:千早爱音确实是个实诚的女孩子，但也没实诚到把这个都说出来的地步。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next -motion=nf01 -expression=smile04;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmr -next -motion=nf_left01 -expression=sigh02;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer_smaller/model.json -id=saf -next -motion=sigh01 -expression=shame01_sk;
+爱音:……总之不是什么大事啦！
+changeFigure:mygo_avemujica_v6/anon/037_school_summer_smaller/model.json -id=saf -next -motion=nf_left01 -expression=sigh02;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next -motion=wondering01_kokoro -expression=smile04;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmr -next -motion=thinking01 -expression=thinking02;
+比起这个~Tomorin，我们今天中午…… ;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer_smaller/model.json -id=saf -next -motion=nf_right01 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next -motion=nf_right01 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmr -next -motion=nf_right01 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -transform={"position":{"x":1800},"scale":{"x":0.9,"y":0.9}} -next;
+0v0:啊，爱音同学！有隔壁班的同学找你哦！
+changeFigure:mygo_avemujica_v6/anon/037_school_summer_smaller/model.json -id=saf -next -motion=zb_surprised01 -expression=default;
+setTransform:{"position":{"x":80,"y":160},"scale":{"x":0.5,"y":0.5},"alpha":0.7} -target=saf -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=zb_odoodo01 -expression=default;
+setTransform:{"position":{"x":1000},"scale":{"x":0.9,"y":0.9}} -target=sk -duration=0 -next;
+setTransform:{"position":{"x":-350},"scale":{"x":0.9,"y":0.9}} -target=tmr -duration=0 -next;
+setTransform:{"position":{"x":-700},"scale":{"x":0.9,"y":0.9}} -target=anon -duration=0 -next;
+:另一个同学的声音打断了二人的对话，爱音抬眼望去，对方是坐在教室门附近的一个学生——而在她的旁边，是一道熟悉的蓝色身影。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer_smaller/model.json -id=saf -next -motion=thinking02 -expression=default;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next -motion=nnf03 -expression=thinking02;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmr -next -motion=sing02 -expression=default;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -expression=sigh01;
+爱音:哎……？
+changeFigure:mygo_avemujica_v6/anon/037_school_summer_smaller/model.json -id=saf -next -expression=thinking02_sk;
+灯:……！ -fontSize=small -id -figureId=tmr;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmr -next -motion=sad03 -expression=default;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer_smaller/model.json -id=saf -next -motion=zb_surprised01 -expression=default;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=zb_nnf_left01 -expression=shame01;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next -expression=surprised01;
+setTransform:{"position":{"x":900},"scale":{"x":0.9,"y":0.9}} -target=sk -duration=0 -next;
+:看见来者，高松灯张开的嘴巴似乎下意识地想要说出对方的名字、最终却还是选择了紧紧闭上。 -fontSize=medium;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next -motion=zb_nnf_right01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -expression=shame02;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer_smaller/model.json -id=saf -next -motion=odoodo01_sk -expression=shame02;
+爱音:祥……祥子？
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next -motion=angry04 -expression=shame01;
+setTransform:{"position":{"x":-400},"scale":{"x":0.9,"y":0.9}} -target=sk -duration=0 -next;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmr -next -expression=surprised01;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=nf_left01_mu -expression=shame01;
+:不要紧，千早爱音替她说出了这个名字——但是，她此时此刻的状态可不比旁边的灯好多少。
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmr -next -motion=nf_left01 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer_smaller/model.json -id=saf -next -motion=nf01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=nf_left01_masking -expression=shame01;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next -motion=nf_right01_sk -expression=shame02;
+setTransform:{"position":{"x":-550},"scale":{"x":1,"y":1},"alpha":0} -target=sk -duration=1000 -next;
+setTransform:{"position":{"x":-975},"scale":{"x":1,"y":1},"alpha":0} -target=anon -duration=1000 -next;
+:因为，丰川祥子破戒了。
+changeFigure:none -id=sk -next;
+changeFigure:none -id=anon -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer_smaller/model.json -id=saf -next -motion=smile03 -expression=turn_R_body_down;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmr -next -motion=thinking02 -expression=default;
+:破的不是色戒，而是——“丰川祥子和千早爱音在学校要保持绝对距离”这一条戒律。
+changeBg: -next;
+changeFigure: -id=tmr -next;
+changeFigure: -id=saf -next;
+bgm: -enter=900;
+:………………………………
+changeScene:2_07/break that barrier.txt;

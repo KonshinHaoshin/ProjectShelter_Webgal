@@ -1,0 +1,179 @@
+changeBg:a台场/inner4.jpg -next -transform={"position":{"x":3000,"y":-1200},"scale":{"x":3.8,"y":3.8},"alpha":0.2,"blur":15};
+changeFigure:light_blue.webp -id=bg10 -transform={"scale":{"x":2},"alpha":0.2} -next;
+changeFigure:black.webp -id=bg11 -transform={"scale":{"x":2},"alpha":0.35} -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -transform={"position":{"x":1100,"y":200},"scale":{"x":0.9,"y":0.9},"alpha":0,"rotation":0.1} -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh -transform={"position":{"x":1400,"y":700},"scale":{"x":0.9,"y":0.9},"alpha":0,"rotation":0.03} -next;
+changeFigure:341_mashiro/model.json -id=sk -transform={"scale":{"x":0.9,"y":0.9}} -next -motion=nf03_soyo -expression=smile02;
+bgm:24.humor.mp3;
+:毕竟是大商场，午饭的选择自然是只多不少。
+changeFigure:341_mashiro/model.json -id=sk -next -motion=thinking01 -expression=serious02;
+:问题是，在约会时选择跟伴侣—— -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk -expression=zb_surprised02;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nf01_masking;
+:呸呸呸，是朋友！朋友！—— -concat -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=zb_odoodo01 -expression=thinking01;
+:跟朋友一起去哪儿用餐，倒也算是一门学问。 -concat -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=zb_thinking02 -expression=sigh01;
+:扶手电梯上，丰川祥子摸了摸下巴、如同正在破解高难度谜题的大侦探—— -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk -transform={"scale":{"x":0.9,"y":0.9}} -next -motion=nf_left01 -expression=smile03;
+:但她很快就意识到自己的小脑袋瓜不太能解开名为“恋爱”…… -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=zb_angry07 -expression=angry01;
+:|呸呸呸！是高、高浓度友情…… -concat -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=thinking03_anon -expression=shame02;
+:咳嗯，不太能解开名为“高浓度友情”的方程式， -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=zb_sigh01 -expression=sigh01;
+:思来想去，还是要摇点后援。 -concat -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=angry01 -expression=R_body_down;
+setTransform:{"position":{"x":3000,"y":-100},"scale":{"x":0.9,"y":0.9},"rotation":1.2} -target=sk -duration=0 -next;
+
+祥子:总而言之，出来吧，没用的东西们。 -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=angry06 -expression=R_boby;
+setTransform:{"position":{"x":-700,"y":0},"scale":{"x":0.9,"y":0.9},"rotation":0} -target=sk -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -next -motion=nnf01 -expression=smile05;
+setTransform:{"position":{"x":100,"y":0},"scale":{"x":0.9,"y":0.9},"alpha":0.7,"rotation":0} -target=ob -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh -next -motion=nf_left01 -expression=smile03_anon;
+setTransform:{"position":{"x":900,"y":0},"scale":{"x":0.9,"y":0.9},"alpha":0.7,"rotation":0} -target=jh -duration=0 -next;
+理性:呃啊理性理性，这人已经开始直呼我们是没用的东西了。
+changeFigure:341_mashiro/model.json -id=sk -motion=angry02;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh -next -motion=nf_right01_soyo;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -next -motion=smile02 -expression=smile02_anon;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=angry07 -expression=cry04;
+感性:呃啊感性感性，向没用的东西们求助的前大小姐真幽默啊。
+setTransform:{"position":{"x":3400,"y":-1200},"scale":{"x":3.8,"y":3.8},"alpha":0.2,"blur":15} -target=bg-main -duration=1200 -next;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=sigh02 -expression=sigh01;
+setTransform:{"position":{"x":100},"scale":{"x":0.9,"y":0.9},"alpha":1} -target=sk -duration=1200 -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -next -motion=serious02_rui -expression=smile03;
+setTransform:{"position":{"x":-400},"scale":{"x":0.9,"y":0.9},"alpha":0.7} -target=ob -duration=1500 -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh -next -motion=nnf_left01 -expression=smile03;
+setTransform:{"position":{"x":600},"scale":{"x":0.9,"y":0.9},"alpha":0.7} -target=jh -duration=1000 -next;
+:说是这么说，没用的东西们还是开始惯例的议一下环节——
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -next -motion=nnf04 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh -next -motion=nnf01 -expression=shame01;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nod01_kaoru -expression=thinking02_R;
+:首先，午饭不能吃咖喱。        -notend -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -next -expression=smile05;
+: -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -next -motion=smile03 -expression=L_Boby;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh -next -motion=nod01_maya -expression=L_Boby;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=sigh02 -expression=shame01;
+changeFigure:SakiKo_Home_Night_02.webp -id=bg22 -transform={"position":{"x":-2600}} -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk2 -transform={"position":{"x":-1800,"y":200},"scale":{"x":0.8,"y":0.8}} -next;
+changeFigure:sakiko_small/model.json -id=sox2 -transform={"position":{"x":-1600,"y":300},"scale":{"x":0.8,"y":0.78}} -next;
+:——为什么这里会提到咖喱，那是因为祥子平时在家里有着吃速食咖喱的习惯。
+setTransform:{"position":{"x":0}} -target=bg22 -duration=1000 -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk2 -next -motion=smile04 -expression=smile02;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":0.8,"y":0.8},"alpha":1} -target=sk2 -duration=1000 -next;
+changeFigure:sakiko_small/model.json -id=sox2 -next -motion=smile04 -expression=default;
+setTransform:{"position":{"x":600,"y":175},"scale":{"x":0.8,"y":0.78},"alpha":0.7} -target=sox2 -duration=1000 -next;
+changeBg:none -next;
+changeFigure: -id=bg10 -next;
+changeFigure: -id=bg11 -next;
+changeFigure: -id=sk -next;
+changeFigure: -id=ob -next;
+changeFigure: -id=jh -next;
+:如果打工下班的时间太晚、导致买不到特价便当的话，她就会在回家之后打开橱柜、拿出之前趁着特价促销囤积下来的袋装速食咖喱，给自己做一顿简单的咖喱饭。
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk2 -next -motion=nod01_saya -expression=smile05;
+setTransform:{"position":{"y":180},"scale":{"x":0.8,"y":0.8}} -target=sk2 -duration=0 -next;
+changeFigure:sakiko_small/model.json -id=sox2 -next -motion=smile04_taki -expression=smile04;
+setTransform:{"position":{"y":300},"scale":{"x":0.8,"y":0.78},"alpha":0.7} -target=sox2 -duration=0 -next;
+changeFigure:anon_small.webp -id=sa2 -transform={"position":{"x":400,"y":1000},"scale":{"x":0.45,"y":0.45},"alpha":0.7,"rotation":0.3} -next;
+:……没多少营养，但胜在便宜和味道足够浓，而且也能吃饱，做起来也轻轻松松、不怎么耗费宝贵的时间。
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk2 -next -motion=smile06 -expression=Down_look;
+changeFigure:sakiko_small/model.json -id=sox2 -next -motion=shame02 -expression=turn_Down_look;
+setTransform:{"position":{"y":600},"scale":{"x":0.45,"y":0.45},"alpha":0.7,"rotation":0.2} -target=sa2 -duration=0 -next;
+:久而久之，祥子稍微有些喜欢上了咖喱的味道—— -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk2 -next -motion=smile03 -expression=R_boby;
+:但也只是稍微而已。 -concat -fontSize=default;
+changeFigure: -id=sk2 -next;
+changeFigure:none -id=sox2 -next;
+changeFigure:none -id=sa2 -next;
+changeFigure:none -id=bg22 -next;
+changeBg:a台场/indian.jpg -next;
+changeFigure:341_mashiro/model.json -id=sk6 -transform={"position":{"x":600,"y":175},"scale":{"x":0.85,"y":0.85}} -next -motion=zb_surprised02 -expression=L_Boby;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an6 -transform={"position":{"x":100,"y":175},"scale":{"x":0.86,"y":0.86}} -next -motion=nf_left01_kokoro -expression=smile01;
+爱音:啊，祥子快看，那边有一家印度餐厅诶——
+changeFigure:341_mashiro/model.json -id=sk6 -next -motion=zb_nnf01 -expression=sigh01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an6 -next -motion=nnf_right01 -expression=smile03;
+祥子:否决。
+changeFigure:341_mashiro/model.json -id=sk6 -next -motion=zb_sigh02 -expression=thinking02_R;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an6 -next -motion=thinking03;
+:——怎么说什么来什么。
+changeFigure:341_mashiro/model.json -id=sk6 -next -motion=nf_left01 -expression=sigh02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an6 -next -expression=thinking02;
+:看到餐牌上一大堆的咖喱料理，祥子脸色一黑：她不太想让爱音看到自己狼吞虎咽的样子。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an6 -next -expression=sad02;
+爱音:嗯…… -notend -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an6 -next -motion=nf_right01 -expression=smile06_sk;
+changeFigure:341_mashiro/model.json -id=sk6 -next -motion=sigh02 -expression=Down_look;
+那祥子想吃什么呢？ -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an6 -next -expression=surprised01;
+changeFigure:341_mashiro/model.json -id=sk6 -next -motion=nnf04 -expression=sad02;
+祥子:随便。
+changeFigure:341_mashiro/model.json -id=sk6 -next -motion=sigh01_chisato -expression=sad01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an6 -next -motion=nnf04 -expression=smile03;
+爱音:……啊，这。
+changeFigure: -id=sk6 -next;
+changeFigure:none -id=an6 -next;
+changeFigure:ramen.webp -id=ramen -transform={"position":{"y":-900},"alpha":0} -next;
+changeFigure:341_mashiro/model.json -id=sk7 -transform={"position":{"x":400,"y":100},"scale":{"x":0.9,"y":0.9},"alpha":0.1} -next -motion=zb_sigh02 -expression=Down_look;
+changeBg:a台场/elevator.webp -next -transform={"alpha":0.15};
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an7 -transform={"position":{"x":-300,"y":100},"scale":{"x":0.9,"y":0.9}} -next -motion=thinking01 -expression=default;
+:通往饮食层的扶手电梯上，千早爱音摸了摸下巴、如同正在破解高难度谜题的大侦探 -notend -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an7 -next -expression=smile03;
+:——但她很快就意识到自己喜欢的女孩子在这方面估计会变得极其麻烦。 -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an7 -motion=nf01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an7 -next -motion=nnf_right01_mu -expression=smile05_sk;
+changeFigure:341_mashiro/model.json -id=sk7 -next -expression=R_body_down;
+setTransform:{"alpha":1} -target=bg-main -duration=800 -next;
+setTransform:{"position":{"y":100},"scale":{"x":0.9,"y":0.9},"alpha":1} -target=sk7 -duration=0 -next;
+:是的，【麻烦】——虽然爱音之前还说过类似“祥子不是麻烦的女孩子哦”这种漂亮话，但此时此刻的她必须承认一点：丰川祥子，微妙地很麻烦。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an7 -next -motion=smile01 -expression=turnR;
+changeFigure:341_mashiro/model.json -id=sk7 -next -expression=thinking01R;
+爱音:……那，拉面如何？ -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an7 -next -motion=smile01_sk;
+changeFigure:341_mashiro/model.json -id=sk7 -next -motion=thinking01 -expression=surprised02;
+setTransform:{"position":{"y":-1000},"alpha":0.75} -target=ramen -duration=0 -next;
+这里有个拉面国技馆还挺出名的—— -concat -fontSize=default;
+setTransform:{"position":{"x":-1900,"y":-2000},"alpha":0,"rotation":-9} -target=ramen -duration=700 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an7 -next -motion=angry01 -expression=smile03;
+changeFigure:341_mashiro/model.json -id=sk7 -next -motion=angry04 -expression=shame01;
+祥子:驳回。
+changeFigure:none -id=ramen -next;
+changeBg:none -next;
+changeFigure:none -id=an7 -next;
+changeFigure:341_mashiro/model.json -id=sk7 -next -motion=nf04_mu;
+:丰川祥子的混账老爹嗦面时会发出很响亮的声音，这个坏习惯似乎遗传给了祥子——| -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk7 -next -motion=zb_sigh02;
+:虽然没那么夸张，但她还是不希望被爱音知道这件事。 -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an7 -transform={"position":{"x":-150,"y":100},"scale":{"x":0.9,"y":0.9}} -next -motion=thinking01_mu -expression=smile03;
+changeFigure:341_mashiro/model.json -id=sk7 -next -motion=nf_left01 -expression=thinking01;
+changeBg:a台场/ramen_out.jpg -next;
+爱音:……那，萨O亚？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an7 -next -expression=sad01;
+changeFigure:341_mashiro/model.json -id=sk7 -next -motion=kime01 -expression=thinking02;
+祥子:家庭餐厅么……
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an7 -next -motion=sad01 -expression=smile03_sk;
+changeFigure:341_mashiro/model.json -id=sk7 -next -motion=sad02_mu -expression=sad01;
+爱音:祥子不喜欢么？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an7 -next -motion=nnf_right01 -expression=smile03;
+changeFigure:341_mashiro/model.json -id=sk7 -motion=sigh02_rui -expression=sad01;
+changeFigure:341_mashiro/model.json -id=sk7 -next -motion=nnf_left01 -expression=sad02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an7 -next -motion=nnf04 -expression=smile03;
+祥子:……没说不喜欢。 -fontSize=small;
+changeFigure: -id=sk7 -next;
+changeBg:none -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an7 -next -motion=angry03;
+changeFigure:B9.webp -id=home -transform={"position":{"x":1200},"alpha":0} -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy7 -transform={"position":{"x":1300,"y":100},"scale":{"x":0.9,"y":0.9},"alpha":0.4} -next -motion=surprised01 -expression=default;
+:——看吧！看吧！是不是很麻烦！是不是跟某个人一样麻烦！ -fontSize=medium;
+changeFigure:none -id=an7 -next;
+setTransform:{"position":{"x":0},"scale":{"x":1,"y":1},"alpha":1} -target=home -duration=0 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy7 -next -motion=sneeze01_himari -expression=default;
+setTransform:{"position":{"x":1000,"y":100},"scale":{"x":0.9,"y":0.9},"alpha":1} -target=sy7 -duration=0 -next;
+:这是千早爱音心中的呐喊，或许是因为某种神秘的电波感应，远在……哦， -notend -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy7 -next -motion=nf_right01;
+bgm: -enter=1500;
+:【其实也离台场没多远】的某栋大楼的45层，正打算出门的长崎素世女士突然打了个喷嚏。 -concat -fontSize=default;
+changeFigure:none -id=home -next;
+changeFigure: -id=sy7 -next -motion=surprised01;
+changeScene:2_08/sweeeeeets.txt

@@ -1,0 +1,176 @@
+bgm:17.monn_forest.mp3 -volume=67 -enter=1200;
+:长崎素世，回想起了今天中午在小黄瓜田前的那一幕——
+changeBg:bg00473.webp -next;
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -id=sy -transform={"position":{"x":500},"scale":{"x":0.8,"y":0.8}} -next -motion=nf_left01 -expression=smile05;
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -id=mu -transform={"position":{"x":-150},"scale":{"x":0.8,"y":0.8}} -next -motion=nnf_right01_mu -expression=smile01_mu;
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -id=mumu -transform={"position":{"y":-75},"scale":{"x":0.95,"y":0.95},"alpha":0} -next;
+changeFigure:none -id=filter -transform={"position":{"y":-722},"scale":{"y":1.02},"alpha":0.4,"oldFilm":1} -next;
+睦:素世。
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -id=mu -next -motion=nf03_mu -expression=smile04_mu;
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -id=sy -next -expression=smile01;
+素世:嗯？怎么了，小睦。
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -id=sy -next -expression=surprised01;
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -id=mu -next -motion=nf01_mu -expression=smile04_mu;
+睦:爱音，不需要我了。
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -id=sy -next -motion=ando01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -id=mu -next -motion=nf03 -expression=thinking01;
+素世:把话说完，小睦。
+setTransform:{"position":{"x":-100},"scale":{"x":1,"y":1},"alpha":0,"blur":40} -target=bg-main -duration=0 -next;
+setTransform:{"position":{"x":-500,"y":0},"scale":{"x":0.8,"y":0.8},"alpha":0} -target=mu -duration=0 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -id=sy -next -motion=surprised01 -expression=surprised01;
+setTransform:{"position":{"x":250,"y":0},"scale":{"x":0.8,"y":0.8}} -target=sy -duration=0 -next;
+setTransform:{"position":{"y":-722},"scale":{"y":1.02},"alpha":0} -target=filter -duration=0 -next;
+:——怎么回事，这种既视感。
+setTransform:{"position":{"x":0},"scale":{"x":1,"y":1},"alpha":1,"blur":0} -target=bg-main -duration=0 -next;
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -id=mu -next -motion=nf_right01 -expression=surprised01;
+setTransform:{"position":{"x":-150},"scale":{"x":0.8,"y":0.8},"alpha":1} -target=mu -duration=0 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -id=sy -next -motion=nnf01 -expression=smile03;
+setTransform:{"position":{"x":500},"scale":{"x":0.8,"y":0.8}} -target=sy -duration=0 -next;
+setTransform:{"position":{"y":-722},"scale":{"y":1.02},"alpha":0.4,"oldFilm":1} -target=filter -duration=0 -next;
+睦:……？ -fontSize=default;
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -id=mu -next -motion=nnf_right01_mu -expression=odoodo01;
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -id=sy -next -motion=nf02 -expression=smile01;
+素世:“爱音，不需要我了”这句话的上一句是什么？
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -id=mu -next;
+睦:上一句是…… -fontSize=default;
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -id=mu -next -motion=nf01_mu;
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -id=sy -next -motion=nod01_kaoru;
+“我和祥都没办法参加生日派对，但因为有 -notend -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -id=sy -next -expression=surprised01;
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -id=mu -next -expression=smile02_mu;
+素世你们陪着千早爱音，所以”。 -concat -fontSize=default;
+setTransform:{"position":{"x":-100},"scale":{"x":1,"y":1},"alpha":0,"blur":40} -target=bg-main -duration=0 -next;
+setTransform:{"position":{"x":-500,"y":0},"scale":{"x":0.8,"y":0.8},"alpha":0} -target=mu -duration=0 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -id=sy -next -motion=angry01 -expression=smile03;
+setTransform:{"position":{"x":250,"y":0},"scale":{"x":0.8,"y":0.8}} -target=sy -duration=0 -next;
+setTransform:{"position":{"y":-722},"scale":{"y":1.02},"alpha":0} -target=filter -duration=0 -next;
+:——为什么“所以”这个词能当句尾啊。
+setTransform:{"position":{"x":0},"scale":{"x":1,"y":1},"alpha":1,"blur":0} -target=bg-main -duration=0 -next;
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -id=mu -next -motion=smile01_mu -expression=sad01;
+setTransform:{"position":{"x":-150},"scale":{"x":0.8,"y":0.8},"alpha":1} -target=mu -duration=0 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -id=sy -next -motion=nnf_left01 -expression=smile03;
+setTransform:{"position":{"x":500},"scale":{"x":0.8,"y":0.8}} -target=sy -duration=0 -next;
+setTransform:{"position":{"y":-722},"scale":{"y":1.02},"alpha":0.4,"oldFilm":1} -target=filter -duration=0 -next;
+素世:再上一句呢？
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -id=mu -next -motion=nf05_mu -expression=serious02;
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -id=sy -next -expression=serious02;
+睦:再上一句是……“9月8日那天晚上，Ave Mujica有一场重要的演出，祥说没办法调整时间，所以”。
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -id=mu -next -motion=odoodo01 -expression=default;
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -id=sy -next -motion=surprised02_masking -expression=smile03;
+:——所以说为什么“所以”这个词会是句尾啦。
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -id=sy -next -motion=nf01 -expression=serious02;
+:长崎素世调整了一下心态，用温柔的语气鼓励道：
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -id=mu -next -motion=nnf04_mu -expression=smile04_mu;
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -id=sy -next -motion=kime01 -expression=smile01;
+素世:那，小睦现在把这三句话连着说一遍~？
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -id=mu -next -motion=nf_right01 -expression=sad01;
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -id=sy -next -motion=smile01 -expression=turn_L_Body;
+睦:……9月8日那天晚上，Ave Mujica有一场重要的演出，祥说没办法调整时间，所以我和祥都没办法参加生日派对， -notend -fontSize=default;
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -id=mu -next -expression=smile01_mu;
+但因为有素世你们陪着千早爱音，所以爱音不需要我了。 -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -id=sy -next -motion=nod02_kasumi -expression=smile04;
+setTransform:{"position":{"x":100},"scale":{"x":0.8,"y":0.8}} -target=sy -duration=0 -next;
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -id=mu -next -motion=smile02_mu -expression=default;
+素世:嗯！很棒哦！小睦做到了呢！摸摸头摸摸头~
+changeBg:00009-431098601.webp -next;
+setTransform:{"position":{"x":-150},"scale":{"x":0.8,"y":0.8},"alpha":0} -target=mu -duration=0 -next;
+setTransform:{"position":{"x":100},"scale":{"x":0.8,"y":0.8},"alpha":0} -target=sy -duration=0 -next;
+setTransform:{"position":{"y":-722},"scale":{"y":1.02},"alpha":0} -target=filter -duration=0 -next;
+:长崎素世温柔地抚摸着若叶睦的脑袋，而对方也眯起了眼睛、似乎很享受这样的感觉——changeBg:bg00473.webp  -next;
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -id=mu -next -motion=nnf_right01 -expression=thinking01;
+setTransform:{"position":{"x":-150},"scale":{"x":0.8,"y":0.8},"alpha":1} -target=mu -duration=0 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -id=sy -next -motion=nf03 -expression=smile03;
+setTransform:{"position":{"x":100},"scale":{"x":0.8,"y":0.8},"alpha":1} -target=sy -duration=0 -next;
+setTransform:{"position":{"y":-722},"scale":{"y":1.02},"alpha":0.4,"oldFilm":1} -target=filter -duration=0 -next;
+素世:……不过，小睦下次可以努力尝试一下、从一开始就把话说清楚么？
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -id=sy -next -motion=odoodo01;
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -id=mu -next -motion=sad01;
+睦:老师说，说话要精简……
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -id=sy -next -motion=nf01;
+setTransform:{"position":{"x":400},"scale":{"x":0.8,"y":0.8}} -target=sy -duration=1200 -next;
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -id=mu -next -motion=thinking02 -expression=thinking01;
+素世:精简过头也不是什么好事哦……？
+setTransform:{"position":{"x":200},"scale":{"x":1.4,"y":1.4},"blur":15} -target=bg-main -duration=20 -next;
+changeFigure:none -id=sy -next;
+changeFigure:none -id=mu -next;
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -id=mumu -next -motion=nnf03 -expression=thinking01;
+setTransform:{"position":{"y":-75},"scale":{"x":0.95,"y":0.95},"alpha":1} -target=mumu -duration=0 -next;
+:哎，算了，谁让这孩子就是这样的性格呢。
+setTransform:{"position":{"x":200},"scale":{"x":1.4,"y":1.4},"alpha":0,"blur":30} -target=bg-main -duration=1400 -next;
+setTransform:{"position":{"y":-75},"scale":{"x":0.95,"y":0.95},"alpha":0} -target=mumu -duration=1400 -next;
+setTransform:{"position":{"y":-722},"scale":{"y":1.02},"alpha":0,"oldFilm":1} -target=filter -duration=1400 -next;
+:望着似懂非懂的若叶睦，长崎素世宠溺地叹了口气——
+changeFigure:none -id=mumu -next;
+changeFigure:none -id=filter -next;
+changeBg:Ring天台/white.webp -next -transform={"position":{"x":100,"y":-300},"scale":{"x":2,"y":2},"blur":10};
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -left -id=sy -transform={"position":{"x":100},"scale":{"x":0.9,"y":0.9}} -next -motion=nf01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -right -id=sk -transform={"position":{"x":100},"scale":{"x":0.9,"y":0.9}} -next -motion=nnf_left01 -expression=thinking01;
+:——时间回到现在，看着眼前的丰川祥子，素世又叹了口气、苦笑着摇了摇头：
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=thinking01;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=smile06 -expression=default;
+素世:……小祥，跟小睦在有些地方特别相似呢。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf_right01 -expression=thinking01;
+祥子:小时候也有人这么说过我们哦。
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=kime01 -expression=smile06;
+:还用过“半身”这种形容词呢——丰川祥子如此补充道。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -expression=smile05;
+素世:呵，是么…… -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=smile01;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=smile01;
+:还是第一次听说这项情报呢。
+changeFigure:none -id=sk -next;
+changeBg:88crychic.webp -next -transform={"scale":{"x":1,"y":1},"blur":20};
+:素世心想，也许，在某个Crychic[没有解散](和平解散)的世界线，关系越来越亲近的她们，也会像现在这样交心……嗯……
+changeBg:2024-09-18 210826.webp -next -transform={"position":{"y":200},"scale":{"x":1.2,"y":1.2}};
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf_left01 -expression=surprised01;
+setTransform:{"position":{"x":700},"scale":{"x":0.9,"y":0.9}} -target=sy -duration=0 -next;
+素世:……。
+changeBg:none -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf01 -expression=smile03;
+setTransform:{"position":{"x":100},"scale":{"x":0.9,"y":0.9}} -target=sy -duration=2000 -next;
+:——不，如果真是那样的世界线，自己是不是还会变成超级辛苦的吐槽役！？
+changeBg:bg01002.webp -next -transform={"scale":{"x":2,"y":2},"blur":10};
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nnf_right01 -expression=smile01;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -right -id=sk -transform={"position":{"x":100},"scale":{"x":0.9,"y":0.9}} -next -motion=thinking01 -expression=thinking01;
+:恍惚间，长崎素世对于Crychic的记忆再次受到扭曲……不过那不是现在应该在意的事情。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=smile02 -expression=turn_R_Body;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=nod01_maya -expression=L_Boby;
+素世:总之，小祥的委托我就先接下了哦。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=smile01;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=thinking01 -expression=R_body_down;
+:能帮上【朋友】的忙，对于长崎素世来说倒也算是一件好事、不是么？
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=surprised01_mu -expression=turn_R_Body;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=zztest1 -expression=R_body_down;
+changeFigure:bag.webp -id=bag -transform={"position":{"x":340,"y":600},"scale":{"x":0.55,"y":0.55},"alpha":0,"rotation":-0.03,"blur":5} -next;
+祥子:嗯，那就麻烦你了。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=smile03;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -expression=L_Boby;
+setTransform:{"position":{"x":340,"y":600},"scale":{"x":0.55,"y":0.55},"alpha":1,"blur":10} -target=bag -duration=0 -next;
+素世:本来我们也打算给她举办生日派对，所以也还好…… -notend -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -expression=surprised01;
+诶？ -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next;
+setTransform:{"position":{"x":0},"scale":{"x":0.9,"y":0.9}} -target=sk -duration=1200 -next;
+setTransform:{"position":{"x":220},"scale":{"x":0.55,"y":0.55}} -target=bag -duration=1200 -next;
+:话说到一半，长崎素世突然愣住了——因为，她眼睁睁地看着丰川祥子从手提包里掏出了一个文件夹、里面是厚厚一叠钉装好的A4纸。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=thinking01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=smile02;
+素世:小祥，这是……？
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=angry07 -expression=smirk;
+setTransform:{"position":{"x":240},"scale":{"x":0.55,"y":0.55},"rotation":0.1} -target=bag -duration=0 -next;
+祥子:企划书。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf_right01;
+素世:……什么的企划？
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=kime01 -expression=default;
+setTransform:{"position":{"x":400,"y":800},"scale":{"x":0.55,"y":0.55},"rotation":1.1} -target=bag -duration=0 -next;
+祥子:爱音的生日企划。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=ando01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=shame02_anon -expression=shame02;
+素世:……小祥，还真是满脑子都想着爱音呢。
+changeBg:none -next;
+changeFigure:none -id=sy -next;
+changeFigure:none -id=sk -next;
+changeFigure:none -id=bag -next;
+bgm: -enter=1500;
+:长崎素世，无言了。
+changeScene:anonbirthday/preparation.txt

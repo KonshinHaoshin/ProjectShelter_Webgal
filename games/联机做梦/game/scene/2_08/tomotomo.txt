@@ -1,0 +1,214 @@
+changeBg:a台场/inner3.webp -next;
+setTransform:{"position":{"x":-510,"y":-480},"scale":{"x":1.4,"y":1.4}} -target=bg-main -duration=0 -next;
+changeFigure:tmtm/1.webp -id=1 -transform={"position":{"y":-700},"scale":{"x":1.2,"y":1.2},"alpha":0} -next;
+changeFigure:tmtm/2.webp -id=2 -transform={"position":{"x":-800,"y":-700},"scale":{"x":1.7,"y":1.7},"alpha":0,"rotation":0} -next;
+changeFigure:tmtm/3.webp -id=3 -transform={"scale":{"x":1.6,"y":1.6},"alpha":0} -next;
+changeFigure:tmtm/4.webp -id=4 -transform={"position":{"x":800,"y":-800},"scale":{"x":1.66,"y":1.66},"alpha":0} -next;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -right -id=tm -transform={"position":{"x":800,"y":50},"scale":{"x":0.8,"y":0.8}} -next -motion=nnf_left01 -expression=default;
+changeFigure:800102/model.model3.json -right -id=man -transform={"position":{"x":1100,"y":100},"scale":{"x":0.9,"y":0.9}} -next -expression=mtn_ex_020.exp3.json;
+bgm:footprints.mp3;
+:——有千早爱音和丰川祥子的地方就有高松灯，这并非一条铁律、但它成立的频率疑似有点过高了。
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -right -id=tm -next -motion=smile02;
+setTransform:{"position":{"x":1300,"y":100},"scale":{"x":0.92,"y":0.92},"alpha":0} -target=man -duration=0 -next;
+:不过，这只天真的小企鹅之所以会出现在台场，倒是跟那粉蓝二人组没有哪怕一根小黄瓜的关系：
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -right -id=tm -next -motion=nnf_right01 -expression=kime01;
+灯:好……！
+changeBg:a台场/inner2.jpg -next;
+changeFigure:none -right -id=tm -next;
+changeFigure:passenger/801200/model.model3.json -id=wu -transform={"position":{"x":-20,"y":120},"scale":{"x":0.88,"y":0.88}} -next -expression=mtn_ex_011.exp3.json;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm2 -transform={"position":{"x":-50,"y":50},"scale":{"x":0.73,"y":0.73}} -next -motion=nnf03 -expression=smile01;
+changeFigure:800102/model.model3.json -id=ji -transform={"position":{"x":-700}} -next -expression=mtn_ex_010.exp3.json;
+:高松灯来得不算早，也不算晚，所以排队的人龙虽说是颇具规模，但也不至于一眼望不到头。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm2 -next -motion=nf04 -expression=smile04;
+:她此行的目标非常简单而纯粹：原本宣布在第二十二弹就停止新产品产出的【海洋生物创可贴系列】，为了跟台场海滨公园进行联动而推出了特别的番外系列—— -fontSize=default;
+setTransform:{"position":{"x":-200,"y":0},"scale":{"x":0.8,"y":0.8}} -target=tm2 -duration=0 -next;
+setTransform:{"position":{"x":-900},"scale":{"x":1.1,"y":1.1},"alpha":0} -target=ji -duration=0 -next;
+setTransform:{"position":{"x":-100,"y":120},"scale":{"x":0.9,"y":0.9}} -target=wu -duration=0 -next;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm2 -next -motion=kime01 -expression=smile04;
+:说到底，能够让惧怕烈日的团子虫在这个天气独自出门的理由，估计也只有这个了。 -fontSize=default;
+changeFigure:none -id=wu -next;
+changeFigure:none -id=ji -next;
+changeFigure:none -id=tm2 -next;
+changeBg:none -next;
+:……是的，【独自】出门。
+changeBg:bg00918.webp -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -left -id=an -transform={"position":{"x":-100},"scale":{"x":0.8,"y":0.8}} -next -motion=zb_smile04 -expression=Down_look;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -transform={"position":{"x":300},"scale":{"x":0.8,"y":0.8}} -next -motion=thinking01 -expression=turn_Down_look;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -right -id=tm -transform={"position":{"x":950},"scale":{"x":0.8,"y":0.8}} -next -motion=nnf_left01 -expression=default;
+:高松灯其实有想过邀请千早爱音一起来——印象中，自己的主动邀请、那位粉发少女都没有拒绝过。
+setTransform:{"position":{"x":270},"scale":{"x":0.8,"y":0.8}} -target=sy -duration=0 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf_left01 -expression=smile02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nnf_right01 -expression=surprised01;
+setTransform:{"position":{"x":-120},"scale":{"x":0.8,"y":0.8}} -target=an -duration=0 -next;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm -next -expression=thinking01;
+:……然而。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nnf05 -expression=smile01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf03 -expression=smile03;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm -next -motion=thinking01;
+爱音:诶？这个周末么—— -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=smile03;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf04 -expression=sad02;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm -next -motion=thinking01 -expression=sad02;
+唔，我正巧有别的预定呢。 -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=sad01 -expression=default;
+setTransform:{"position":{"x":300},"scale":{"x":0.8,"y":0.8}} -target=sy -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf01 -expression=smile05_sk;
+素世:……这样么。 -fontSize=default;
+changeFigure:none -id=an -next;
+changeFigure:none -id=sy -next;
+changeBg:none -next;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm -next -motion=sad03;
+:她的小爱，今天没空——|她甚至还没来得及开口，
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm -next -motion=nf_right01 -expression=sad01;
+setTransform:{"position":{"x":1000},"scale":{"x":0.8,"y":0.8}} -target=tm -duration=0 -next;
+:不如说，在看到对方婉拒了长崎素世那极其难得的主动邀请之后，她也不好意思再去邀请千早爱音了。changeBg:bg00918.webp  -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -left -id=an -transform={"position":{"x":-120},"scale":{"x":0.8,"y":0.8}} -next -motion=nf_right01_sk -expression=smile04;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -transform={"position":{"x":300},"scale":{"x":0.8,"y":0.8}} -next -motion=odoodo01 -expression=default;
+爱音:话说回来，这好像是Soyorin第一次主动邀请我诶——
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=serious02 -expression=odoodo01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf_right01_soyo;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm -next -motion=thinking01 -expression=turn_L_Body;
+素世:……别摆出这种欠揍的表情，可以么？
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=shame02 -expression=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=smile04 -expression=turnR;
+爱音:诶~不要那么冷淡嘛—— -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=wink01 -expression=default;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm -next -expression=turn_Down_look;
+下次一定会陪你的哦~ -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=sad02 -expression=shame02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=sigh02_sk -expression=smile03_sk;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm -next -motion=thinking02 -expression=default;
+素世:谁要你陪了？
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm -motion=nnf01 -expression=smile02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=angry04 -expression=sad01_masking;
+setTransform:{"position":{"x":-150},"scale":{"x":0.8,"y":0.8}} -target=an -duration=0 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=surprised01 -expression=default;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm -next -motion=nnf_left01 -expression=surprised01;
+爱音:好好好~不需要我了是吧~我懂我懂——     -notend -fontSize=default;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm -next -expression=smile03;
+  -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf_right01 -expression=sad01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -expression=smile03;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm -next -motion=thinking01 -expression=default;
+素世:……我也不是这个意思。
+changeFigure: -id=an -next;
+changeFigure: -id=sy -next;
+changeBg:none -next;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm -next -motion=serious01 -expression=serious02;
+:——距离感。
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm -next -expression=surprised01;
+  -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm -next -motion=thinking02 -expression=default;
+:排练室内，高松灯观察着吉他手与贝斯手的互动，脑内却不知为何浮现出了“距离感”这个词语。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -left -id=ann -transform={"position":{"x":-150},"scale":{"x":0.8,"y":0.8},"alpha":0.7} -next -motion=nf_right01_sk -expression=smile03;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=syy -transform={"position":{"x":300},"scale":{"x":0.8,"y":0.8},"alpha":0.7} -next -motion=nnf_left01 -expression=thinking01;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm -next -motion=nnf_left01 -expression=thinking01;
+:……为什么呢。
+changeFigure:none -id=ann -next;
+changeFigure:none -id=syy -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -id=an -transform={"position":{"x":-150},"scale":{"x":0.8,"y":0.8},"alpha":0.7} -next -motion=zb_smile01 -expression=smile06_sk;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -id=sk -transform={"position":{"x":150},"scale":{"x":0.8,"y":0.8},"alpha":0.7} -next -motion=zb_nf_left01 -expression=smile06;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm -next -motion=surprised01 -expression=turn_L_Body;
+:单纯的小企鹅沉默地思考着，想啊、想啊——|然后，她想起了那一天看到的、【丰川祥子和千早爱音手牵着手】的画面。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm -next -motion=nf03 -expression=thinking02;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an -next -motion=zb_nf_right01 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=zb_surprised02 -expression=R_boby;
+灯:……？
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an -next -motion=zb_smile03 -expression=turn_Down_look;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=zb_sigh02 -expression=L_Boby_Down;
+setTransform:{"position":{"x":0,"y":100},"scale":{"x":0.8,"y":0.8},"alpha":0.7,"rotation":-0.04} -target=sk -duration=0 -next;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm -next -motion=nf01 -expression=turn_Down_look;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -transform={"position":{"x":300},"scale":{"x":0.8,"y":0.8},"alpha":0.7} -next -motion=nf_left01 -expression=smile03;
+:距离、不对。
+changeFigure:none -id=sk -next;
+changeFigure: -id=an -next;
+changeFigure:none -id=sy -next;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm -next -motion=nf04 -expression=turn_L_Body;
+:素世、立希酱、乐奈酱……还有，高松灯自己——少女努力回忆着自己平日观测到的、|“千早爱音与其他人互动”的画面，却总觉得哪里怪怪的。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -id=an -transform={"position":{"x":300},"scale":{"x":0.8,"y":0.8},"alpha":0.7} -next -motion=smile01 -expression=R_body_down;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -transform={"position":{"x":-300},"scale":{"x":0.8,"y":0.8},"alpha":0.7} -next -motion=nnf_right01 -expression=serious03;
+:粉发的少女似乎跟任何人都很亲近、也可以跟任何人拉近距离—— -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -expression=thinking01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf_left01 -expression=smile04;
+setTransform:{"position":{"x":0},"scale":{"x":0.8,"y":0.8},"alpha":0.7} -target=an -duration=0;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=angry01 -expression=turn_R_Body;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf01;
+:贝斯手会对她展露出自己的真实性格， -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=kime01 -expression=turnL;
+changeFigure:mygo_avemujica_v6/taki/040_casual-2023_rip/model.json -left -id=tk -transform={"position":{"x":-50},"scale":{"x":0.8,"y":0.8},"alpha":0.7} -next -motion=sigh02 -expression=turn_R_Body_Down;
+changeFigure:none -id=sy -next;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm -next -motion=nf_left01;
+:鼓手会一边臭着脸叹着气、一边接受她的提议， -fontSize=default;
+changeFigure:none -id=tk -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf04;
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -left -id=rn -transform={"position":{"x":-150},"scale":{"x":0.8,"y":0.8},"alpha":0.7} -next -motion=smile02 -expression=default;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm -next -expression=serious02;
+: -notend -fontSize=default;
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=rn -transform={"alpha":0.7} -next -motion=nnf_right01 -expression=smile01;
+setTransform:{"position":{"x":70},"scale":{"x":0.8,"y":0.8},"alpha":0.7} -target=rn -duration=0 -next;
+:哪怕是那只让人捉摸不透的猫猫也会愿意亲近她。 -concat -fontSize=default;
+changeFigure:none -id=rn -next;
+changeFigure:none -id=an -next;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm -next -motion=nf04 -expression=thinking01;
+setTransform:{"position":{"x":400},"scale":{"x":0.8,"y":0.8}} -target=tm -duration=2000 -next;
+:……然后是高松灯。
+setTransform:{"position":{"y":-700},"scale":{"x":1.2,"y":1.2},"alpha":0.8} -target=1 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm -next -motion=serious02 -expression=default;
+:少女心想，是小爱拉着她走出迷茫、 -fontSize=default;
+setTransform:{"position":{"x":-100,"y":-1000},"scale":{"x":0.94,"y":0.94},"alpha":0.8} -target=2 -duration=0 -next;
+:又是她拉着小爱和大家一起在迷茫中前行。 -concat -fontSize=default;
+setTransform:{"scale":{"x":0.95,"y":0.95},"alpha":0.8} -target=3 -duration=0;
+setTransform:{"position":{"x":120,"y":-600},"scale":{"x":0.95,"y":0.95},"alpha":0.8} -target=4 -duration=0;
+changeFigure: -id=1 -next;
+changeFigure: -id=2 -next;
+changeFigure: -id=3 -next;
+changeFigure: -id=4 -next;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm -next -motion=nf03 -expression=thinking02;
+:但是，那个时候……她们牵着彼此的手的时候，那份【距离】……
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm -next -motion=nf01 -expression=serious02;
+灯:……果然，不一样。
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm -next -motion=serious01 -expression=default;
+:——丰川祥子和千早爱音之间的距离，与爱音跟其他任何人的距离都不一样。
+changeFigure:none -id=tm -next;
+changeBg:a台场/shop.jpg -next -transform={"scale":{"x":1.2,"y":1.2}};
+changeFigure:passenger/801200/model.model3.json -left -id=wu -transform={"position":{"x":-750,"y":230},"scale":{"x":0.9,"y":0.9}} -next -motion=Motion -expression=mtn_ex_010.exp3.json;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -left -id=tm2 -transform={"position":{"y":100},"scale":{"x":0.73,"y":0.73}} -next -motion=nf02 -expression=thinking01;
+changeFigure:800102/model.model3.json -id=ji -transform={"position":{"x":700},"scale":{"x":0.94,"y":0.94}} -next -expression=mtn_ex_010.exp3.json;
+: -notend -fontSize=default;
+setTransform:{"position":{"x":1500,"y":300},"scale":{"x":0.9,"y":0.9},"alpha":0} -target=ji -duration=800 -next;
+:到底是为什么呢？ -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm2 -next -motion=surprised01 -expression=turn_R_Body;
+^o^:下一位客人~
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm2 -next -motion=nf04 -expression=surprised01;
+setTransform:{"position":{"x":600,"y":100},"scale":{"x":0.72,"y":0.72}} -target=tm2 -duration=0 -next;
+灯:啊……是、是！
+changeBg:a台场/inner3.webp -next -transform={"position":{"x":200,"y":-600},"scale":{"x":1.6,"y":1.6}};
+changeFigure:none -id=tm2 -next;
+changeFigure:none -id=wu -next;
+changeFigure:none -id=ji -next;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm -transform={"position":{"y":100},"scale":{"x":0.9,"y":0.9}} -next -motion=nf01 -expression=sad04;
+:——哪怕想要的创可贴已经成功入手，高松灯却还是没能想通这个问题的答案。
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm -next -motion=angry01;
+:这似乎已经超出了她的知识范围，进入了宇宙的另一个隐秘角落——|是她的星星无法照耀的、无论多么努力地伸出手也无法触碰的新世界。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm -next -expression=sad03;
+灯:搞不懂呢……
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm -next -motion=nf01 -expression=turn_Down_look;
+:少女坐在商城里随处可见的长椅上，垂下脑袋。
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm -next -motion=sad03;
+:手里的创可贴是她想要的东西，但是，好像有什么“别的东西”、正在从她的指缝之间流逝。
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm -next -motion=sad04;
+:——那是、什么呢？
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm -next -expression=sad04;
+灯:小爱…… -notend -fontSize=default;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm -next -motion=nf_right01 -expression=surprised01;
+嗯？ -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm -next -expression=thinking01;
+:就像是什么动画片里常见的特效那样，高松灯突然感觉自己的后脑勺有什么东西一闪而过——但当她回过头时，看到的却只有熙熙攘攘的人群。
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm -next -motion=thinking02 -expression=turn_L_Body;
+灯:……？
+setTransform:{"position":{"x":1000},"scale":{"x":2,"y":2}} -target=bg-main -duration=0 -next;
+setTransform:{"position":{"x":900,"y":60},"scale":{"x":1.1,"y":1.1},"alpha":0,"blur":10} -target=tm -duration=0 -next;
+bgm: -enter=1200;
+: -fontSize=default;
+changeFigure:none -id=tm -next;
+changeScene:2_08/ansk.txt

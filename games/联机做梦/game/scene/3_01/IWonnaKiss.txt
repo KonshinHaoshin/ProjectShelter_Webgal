@@ -1,0 +1,254 @@
+changeBg:a台场/yuricon3.webp -next -transform={"position":{"y":-300},"scale":{"x":1.4,"y":1.4}};
+changeFigure:341_mashiro/model.json -id=sk -transform={"position":{"x":1150,"y":150},"scale":{"x":1.05,"y":1.05}} -next -motion=nf_left01_eve -expression=shame02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -transform={"position":{"x":700,"y":170},"scale":{"x":1.05,"y":1.05}} -next -motion=zb_nnf04 -expression=shame02;
+: -notend -fontSize=default;
+setTransform:{"position":{"x":400,"y":200},"scale":{"x":1.1,"y":1.1},"alpha":0,"blur":5} -target=an -duration=1400 -next;
+setTransform:{"position":{"x":950,"y":180},"scale":{"x":1.08,"y":1.08},"alpha":0,"blur":5} -target=sk -duration=1400 -next;
+:好热。
+changeFigure:none -id=an -next;
+changeFigure:none -id=sk -next;
+changeBg:a台场/stair1.webp -next -transform={"position":{"x":-8000,"y":1800},"scale":{"x":11.5,"y":11.5}};
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -transform={"position":{"x":800,"y":-120},"scale":{"x":1.05,"y":1.05}} -next -motion=nf02_mu -expression=shame02;
+changeFigure:341_mashiro/model.json -id=sk2 -transform={"position":{"x":200,"y":-120},"scale":{"x":1.05,"y":1.05}} -next -motion=zb_smile04 -expression=R_boby;
+: -notend -fontSize=default;
+setTransform:{"position":{"x":-8500,"y":1800},"scale":{"x":11.5,"y":11.5}} -target=bg-main -duration=1000 -next;
+setTransform:{"position":{"x":400,"y":-120},"scale":{"x":1.05,"y":1.05}} -target=an2 -duration=1000 -next;
+setTransform:{"position":{"x":-200,"y":-120},"scale":{"x":1.05,"y":1.05}} -target=sk2 -duration=1000 -next;
+:躲开人群、来到台阶的阴影处——
+changeFigure:341_mashiro/model.json -id=sk2 -next -motion=zb_angry06 -expression=shame01_anonR;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=zb_nnf_left01 -expression=sigh01;
+setTransform:{"position":{"x":-100,"y":-120},"scale":{"x":1.05,"y":1.05}} -target=sk2 -duration=0 -next;
+爱音:祥祥——姆。
+changeFigure:none -id=sk2 -next;
+changeFigure:none -id=an2 -next;
+changeBg:none -next;
+:——双唇分离，但祥子马上又主动回吻了上去。
+changeFigure:none -id=sk2 -next;
+changeFigure:manga2/44.webp -id=11 -transform={"position":{"x":-330,"y":-1480},"scale":{"x":1,"y":1}} -next;
+changeFigure:manga2/4down.webp -id=1 -transform={"position":{"x":-330,"y":-1470},"scale":{"x":1,"y":1}} -next;
+changeFigure:manga2/55.webp -id=33 -transform={"position":{"x":-330,"y":-1480},"scale":{"x":1,"y":1},"alpha":0} -next;
+changeFigure:manga2/5up.webp -id=3 -transform={"position":{"x":-330,"y":-1490},"scale":{"x":1,"y":1}} -next;
+changeFigure:manga/black.webp -id=bk1 -transform={"position":{"y":-750},"scale":{"x":2,"y":0.2},"alpha":1} -next;
+changeFigure:manga/black.webp -id=bk2 -transform={"position":{"y":-300},"scale":{"x":2,"y":0.2}} -next;
+:  -fontSize=default -notend;
+setTransform:{"position":{"x":-330,"y":-1303},"scale":{"x":1,"y":1}} -target=1 -duration=1500 -next;
+setTransform:{"position":{"x":-330,"y":-1480},"scale":{"x":1,"y":1},"alpha":0.7} -target=11 -duration=1500 -next;
+setTransform:{"position":{"x":-330,"y":-1313},"scale":{"x":1,"y":1}} -target=3 -duration=1500 -next;
+setTransform:{"position":{"x":-330,"y":-1480},"scale":{"x":1,"y":1},"alpha":1} -target=33 -duration=1500 -next;
+:   -fontSize=default;
+setTransform:{"position":{"x":-330,"y":-1303},"scale":{"x":1,"y":1},"alpha":0} -target=1 -duration=50 -next;
+setTransform:{"position":{"x":-330,"y":-1480},"scale":{"x":1,"y":1},"alpha":0} -target=11 -duration=50 -next;
+setTransform:{"position":{"x":-330,"y":-1313},"scale":{"x":1,"y":1},"alpha":0} -target=3 -duration=50 -next;
+setTransform:{"position":{"x":-330,"y":-1480},"scale":{"x":1,"y":1},"alpha":0} -target=33 -duration=50 -next;
+;认真地做小黄油表现好了。滚动式也行吧
+:   -notend;
+changeFigure: -id=1 -next;
+changeFigure:none -id=11 -next;
+changeFigure:none -id=3 -next;
+changeFigure:none -id=33 -next;
+changeFigure:none -id=bk1 -next;
+changeFigure:none -id=bk2 -next;
+changeFigure:none -id=sk2 -next -motion=sigh02;
+changeBg:a台场/yuricon3.webp -next -transform={"position":{"x":1100,"y":-300},"alpha":1.4,"scale":{"x":2,"y":2}};
+changeFigure:341_mashiro/model.json -id=sk3 -transform={"position":{"x":-600,"y":550},"scale":{"x":1.2,"y":1.2}} -next -motion=smile01_anon -expression=smile02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an3 -transform={"position":{"x":-1100,"y":550},"scale":{"x":1.2,"y":1.2}} -next -motion=zb_nnf_right01 -expression=shame02;
+:这好像不是什么应该在巨大高达模型的见证下做的事情：好在，不管是独角兽高达还是百合控高达，大概都不会在意这类小事。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an3 -next -motion=zb_nf03;
+changeFigure:341_mashiro/model.json -id=sk3 -next -motion=surprised01_mu -expression=L_Boby;
+爱音:……话说回来，“百合控”也可以写作“百合婚”呢。
+changeFigure:341_mashiro/model.json -id=sk3 -next -motion=zb_nnf01 -expression=smile05;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an3 -next -motion=nf_right01_sk;
+setTransform:{"position":{"x":1100,"y":-600},"alpha":1.4,"scale":{"x":2,"y":2}} -target=bg-main -duration=0 -next;
+setTransform:{"position":{"x":-1100,"y":50},"scale":{"x":1.2,"y":1.2}} -target=an3 -duration=0 -next;
+setTransform:{"position":{"x":-600,"y":50},"scale":{"x":1.2,"y":1.2}} -target=sk3 -duration=0 -next;
+祥子:……爱音，这种谐音梗是应该在接吻期间说的事情么？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an3 -next -motion=nnf04 -expression=smile03;
+changeFigure:341_mashiro/model.json -id=sk3 -next -motion=nnf_left01 -expression=smile02;
+爱音:啊、啊哈哈，抱歉抱歉——
+changeFigure:341_mashiro_heart/model.json -id=sk4 -transform={"position":{"x":-100,"y":-300},"scale":{"x":1.24,"y":1.24}} -next -motion=zb_odoodo01 -expression=shame02;
+setTransform:{"position":{"x":1500,"y":-850},"alpha":1.4,"scale":{"x":2.2,"y":2.2},"blur":15} -target=bg-main -duration=0 -next;
+changeFigure:none -id=an3 -next;
+changeFigure:none -id=sk3 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -transform={"position":{"x":-1100,"y":-300},"scale":{"x":1.24,"y":1.24},"alpha":0} -next;
+祥子:——只有口头上的道歉么？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=shame02 -expression=turn_Down_look;
+setTransform:{"position":{"x":1650,"y":-850},"alpha":1.4,"scale":{"x":2.2,"y":2.2},"blur":15} -target=bg-main -duration=900 -next;
+setTransform:{"position":{"x":-800,"y":-300},"scale":{"x":1.24,"y":1.24},"alpha":1} -target=an4 -duration=900 -next;
+setTransform:{"position":{"x":200,"y":-300},"scale":{"x":1.24,"y":1.24},"alpha":0} -target=sk4 -duration=900 -next;
+爱音:……。
+changeFigure:none -id=an4 -next;
+changeFigure:none -id=sk4 -next;
+changeBg:none -next;
+changeFigure:manga2/55.webp -id=11 -transform={"position":{"x":-330,"y":-1480},"scale":{"x":1,"y":1}} -next;
+changeFigure:manga2/5down.webp -id=1 -transform={"position":{"x":-330,"y":-1485},"scale":{"x":1,"y":1}} -next;
+changeFigure:manga2/66.webp -id=33 -transform={"position":{"x":-330,"y":-1480},"scale":{"x":1,"y":1},"alpha":0} -next;
+changeFigure:manga2/6up.webp -id=3 -transform={"position":{"x":-330,"y":-1490},"scale":{"x":1,"y":1}} -next;
+changeFigure:manga/black.webp -id=bk1 -transform={"position":{"y":-750},"scale":{"x":2,"y":0.2},"alpha":1} -next;
+changeFigure:manga/black.webp -id=bk2 -transform={"position":{"y":-300},"scale":{"x":2,"y":0.2}} -next;
+:  -fontSize=default -notend;
+setTransform:{"position":{"x":-330,"y":-1303},"scale":{"x":1,"y":1}} -target=1 -duration=1500 -next;
+setTransform:{"position":{"x":-330,"y":-1480},"scale":{"x":1,"y":1},"alpha":0.7} -target=11 -duration=1500 -next;
+setTransform:{"position":{"x":-330,"y":-1307},"scale":{"x":1,"y":1}} -target=3 -duration=1500 -next;
+setTransform:{"position":{"x":-330,"y":-1480},"scale":{"x":1,"y":1},"alpha":1} -target=33 -duration=1500 -next;
+:   -fontSize=default;
+setTransform:{"position":{"x":-330,"y":-1303},"scale":{"x":1,"y":1},"alpha":0} -target=1 -duration=50 -next;
+setTransform:{"position":{"x":-330,"y":-1480},"scale":{"x":1,"y":1},"alpha":0} -target=11 -duration=50 -next;
+setTransform:{"position":{"x":-330,"y":-1307},"scale":{"x":1,"y":1},"alpha":0} -target=3 -duration=50 -next;
+setTransform:{"position":{"x":-330,"y":-1480},"scale":{"x":1,"y":1},"alpha":0} -target=33 -duration=50 -next;
+;认真地做小黄油表现好了。滚动式也行吧
+:     -notend;
+changeFigure: -id=1 -next;
+changeFigure:none -id=11 -next;
+changeFigure:none -id=3 -next;
+changeFigure:none -id=33 -next;
+changeFigure:none -id=bk1 -next;
+changeFigure:none -id=bk2 -next;
+changeBg:a台场/stair1.webp -next -transform={"position":{"x":-8800,"y":1800},"scale":{"x":11.5,"y":11.5}};
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -transform={"position":{"x":400,"y":-120},"scale":{"x":1.05,"y":1.05}} -next -motion=thinking02_sk -expression=surprised01;
+changeFigure:341_mashiro/model.json -id=sk2 -transform={"position":{"x":-200,"y":-120},"scale":{"x":1.05,"y":1.05}} -next -motion=nf03 -expression=R_boby;
+祥子:……这么说来，爱音喜欢这类巨大机器人么？
+changeFigure:341_mashiro/model.json -id=sk2 -next -motion=nnf_right01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=nf03;
+爱音:哎？ -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=nf01_mu -expression=smile03;
+爱音:倒也没到喜欢的地步，只是知道有这么一回事而已。 -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk2 -next -motion=nod01 -expression=smile06;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=serious01_masking -expression=surprised01_sk;
+祥子:这样啊，我还在想要是爱音喜欢的话，下次的演出可以加入类似的要素呢。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=angry04 -expression=surprised01_sk;
+changeFigure:341_mashiro/model.json -id=sk2 -next -motion=thinking01 -expression=smile03;
+爱音:……Ave Mujica的世界观还能容纳巨大机器人么？
+changeFigure:341_mashiro/model.json -id=sk2 -next -motion=nf02 -expression=thinking01;
+祥子:巨大的人偶应该没问题吧，记得其他乐队也有过飞天玩偶熊之类的演出—— -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk2 -next -motion=sad01_rui -expression=sad02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=surprised01_mu;
+啊，抱歉，我不应该在约会的时候讨论工作的事情。 -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=nnf_left01;
+changeFigure:341_mashiro/model.json -id=sk2 -next -expression=smile04;
+爱音:哎？倒也不用道歉——
+changeFigure:341_mashiro/model.json -id=sk2 -next -motion=shame01_tmr -expression=shame02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=zb_surprised01 -expression=turnL;
+祥子:作为赔礼……
+changeFigure:341_mashiro/model.json -id=sk2 -next -motion=zb_angry06 -expression=smile04;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=surprised02_sk -expression=shame01_sk;
+changeFigure:341_mashiro_heart/model.json -id=sk3 -transform={"position":{"x":-200,"y":-120},"scale":{"x":1.05,"y":1.05},"alpha":0} -next -motion=zb_angry06 -expression=smile04;
+爱音:——啊、诶，等等…… -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk2 -next;
+changeFigure:341_mashiro_heart/model.json -id=sk3 -next -expression=shame02_taki;
+setTransform:{"position":{"x":-160,"y":-120},"scale":{"x":1.05,"y":1.05},"alpha":0} -target=sk2 -duration=800 -next;
+setTransform:{"position":{"x":-160,"y":-120},"scale":{"x":1.05,"y":1.05}} -target=sk3 -duration=800 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=angry01 -expression=shame02;
+咕、居然打的是这个主意…… -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=surprised02_sk -expression=shame01_down;
+
+changeFigure:none -id=sk2 -next;
+setTransform:{"position":{"x":-8800,"y":1800},"scale":{"x":11.5,"y":11.5},"alpha":0} -target=bg-main -duration=850 -next;
+setTransform:{"position":{"x":1800,"y":-300},"scale":{"x":1.05,"y":1.05},"alpha":0,"rotation":0.65} -target=sk3 -duration=750 -next;
+setTransform:{"position":{"x":2500,"y":-200},"scale":{"x":1.05,"y":1.05},"alpha":0,"rotation":0.8} -target=an2 -duration=750 -next;
+唔！ -fontSize=default;
+changeBg:none -next;
+changeFigure:manga2/66.webp -id=11 -transform={"position":{"x":-330,"y":-1480},"scale":{"x":1,"y":1}} -next;
+changeFigure:manga2/6down.webp -id=1 -transform={"position":{"x":-330,"y":-1485},"scale":{"x":1,"y":1}} -next;
+changeFigure:manga2/77.webp -id=33 -transform={"position":{"x":-330,"y":-1480},"scale":{"x":1,"y":1},"alpha":0} -next;
+changeFigure:manga2/7up.webp -id=3 -transform={"position":{"x":-330,"y":-1490},"scale":{"x":1,"y":1}} -next;
+changeFigure:manga/black.webp -id=bk1 -transform={"position":{"y":-750},"scale":{"x":2,"y":0.2},"alpha":1} -next;
+changeFigure:manga/black.webp -id=bk2 -transform={"position":{"y":-300},"scale":{"x":2,"y":0.2}} -next;
+:  -fontSize=default -notend;
+setTransform:{"position":{"x":-330,"y":-1303},"scale":{"x":1,"y":1}} -target=1 -duration=1500 -next;
+setTransform:{"position":{"x":-330,"y":-1480},"scale":{"x":1,"y":1},"alpha":0.7} -target=11 -duration=1500 -next;
+setTransform:{"position":{"x":-330,"y":-1307},"scale":{"x":1,"y":1}} -target=3 -duration=1500 -next;
+setTransform:{"position":{"x":-330,"y":-1480},"scale":{"x":1,"y":1},"alpha":1} -target=33 -duration=1500 -next;
+:   -fontSize=default;
+setTransform:{"position":{"x":-330,"y":-1303},"scale":{"x":1,"y":1},"alpha":0} -target=1 -duration=50 -next;
+setTransform:{"position":{"x":-330,"y":-1480},"scale":{"x":1,"y":1},"alpha":0} -target=11 -duration=50 -next;
+setTransform:{"position":{"x":-330,"y":-1307},"scale":{"x":1,"y":1},"alpha":0} -target=3 -duration=50 -next;
+setTransform:{"position":{"x":-330,"y":-1480},"scale":{"x":1,"y":1},"alpha":0} -target=33 -duration=50 -next;
+;认真地做小黄油表现好了。滚动式也行吧
+:     -notend;
+changeFigure: -id=1 -next;
+changeFigure:none -id=11 -next;
+changeFigure:none -id=3 -next;
+changeFigure:none -id=33 -next;
+changeFigure:none -id=bk1 -next;
+changeFigure:none -id=bk2 -next;
+;:【今日爱祥累积接吻次数：6→7】
+changeBg:a台场/stair1.webp -next -transform={"position":{"x":-10000,"y":1200},"scale":{"x":13,"y":13},"blur":20};
+changeFigure:341_mashiro/model.json -id=sk5 -transform={"position":{"x":-800,"y":-1200},"scale":{"x":1.5,"y":1.5}} -next -motion=smile03 -expression=shame02;
+祥子:爱音。
+changeBg:none -next;
+changeFigure:none -id=sk5 -next;
+changeFigure:manga2/77.webp -id=11 -transform={"position":{"x":-330,"y":-1480},"scale":{"x":1,"y":1}} -next;
+changeFigure:manga2/7down.webp -id=1 -transform={"position":{"x":-330,"y":-1485},"scale":{"x":1,"y":1}} -next;
+changeFigure:manga2/88.webp -id=33 -transform={"position":{"x":-330,"y":-1480},"scale":{"x":1,"y":1},"alpha":0} -next;
+changeFigure:manga2/8up.webp -id=3 -transform={"position":{"x":-330,"y":-1490},"scale":{"x":1,"y":1}} -next;
+changeFigure:manga/black.webp -id=bk1 -transform={"position":{"y":-750},"scale":{"x":2,"y":0.2},"alpha":1} -next;
+changeFigure:manga/black.webp -id=bk2 -transform={"position":{"y":-300},"scale":{"x":2,"y":0.2}} -next;
+:  -fontSize=default -notend;
+setTransform:{"position":{"x":-330,"y":-1303},"scale":{"x":1,"y":1}} -target=1 -duration=1500 -next;
+setTransform:{"position":{"x":-330,"y":-1480},"scale":{"x":1,"y":1},"alpha":0.7} -target=11 -duration=1500 -next;
+setTransform:{"position":{"x":-330,"y":-1307},"scale":{"x":1,"y":1}} -target=3 -duration=1500 -next;
+setTransform:{"position":{"x":-330,"y":-1480},"scale":{"x":1,"y":1},"alpha":1} -target=33 -duration=1500 -next;
+:   -fontSize=default;
+setTransform:{"position":{"x":-330,"y":-1303},"scale":{"x":1,"y":1},"alpha":0} -target=1 -duration=50 -next;
+setTransform:{"position":{"x":-330,"y":-1480},"scale":{"x":1,"y":1},"alpha":0} -target=11 -duration=50 -next;
+setTransform:{"position":{"x":-330,"y":-1307},"scale":{"x":1,"y":1},"alpha":0} -target=3 -duration=50 -next;
+setTransform:{"position":{"x":-330,"y":-1480},"scale":{"x":1,"y":1},"alpha":0} -target=33 -duration=50 -next;
+;认真地做小黄油表现好了。滚动式也行吧
+:     -notend;
+changeFigure: -id=1 -next;
+changeFigure:none -id=11 -next;
+changeFigure:none -id=3 -next;
+changeFigure:none -id=33 -next;
+changeFigure:none -id=bk1 -next;
+changeFigure:none -id=bk2 -next;
+;:【今日爱祥累积接吻次数：7→8】
+changeBg:a台场/stair1.webp -next -transform={"position":{"x":-10200,"y":1200},"scale":{"x":13,"y":13},"blur":20};
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -transform={"position":{"x":0,"y":-1200},"scale":{"x":1.5,"y":1.5}} -next -motion=cry01_notcry -expression=shame01_sk;
+爱音:……祥祥，等等……会被、路人看到的……
+changeBg:none -next;
+changeFigure:none -id=an5 -next;
+changeFigure:manga2/88.webp -id=11 -transform={"position":{"x":-330,"y":-1480},"scale":{"x":1,"y":1}} -next;
+changeFigure:manga2/8down.webp -id=1 -transform={"position":{"x":-330,"y":-1485},"scale":{"x":1,"y":1}} -next;
+changeFigure:manga2/99.webp -id=33 -transform={"position":{"x":-330,"y":-1480},"scale":{"x":1,"y":1},"alpha":0} -next;
+changeFigure:manga2/9up.webp -id=3 -transform={"position":{"x":-330,"y":-1490},"scale":{"x":1,"y":1}} -next;
+changeFigure:manga/black.webp -id=bk1 -transform={"position":{"y":-750},"scale":{"x":2,"y":0.2},"alpha":1} -next;
+changeFigure:manga/black.webp -id=bk2 -transform={"position":{"y":-300},"scale":{"x":2,"y":0.2}} -next;
+:  -fontSize=default -notend;
+setTransform:{"position":{"x":-330,"y":-1303},"scale":{"x":1,"y":1}} -target=1 -duration=1500 -next;
+setTransform:{"position":{"x":-330,"y":-1480},"scale":{"x":1,"y":1},"alpha":0.7} -target=11 -duration=1500 -next;
+setTransform:{"position":{"x":-330,"y":-1310},"scale":{"x":1,"y":1}} -target=3 -duration=1500 -next;
+setTransform:{"position":{"x":-330,"y":-1480},"scale":{"x":1,"y":1},"alpha":1} -target=33 -duration=1500 -next;
+:   -fontSize=default;
+setTransform:{"position":{"x":-330,"y":-1303},"scale":{"x":1,"y":1},"alpha":0} -target=1 -duration=50 -next;
+setTransform:{"position":{"x":-330,"y":-1480},"scale":{"x":1,"y":1},"alpha":0} -target=11 -duration=50 -next;
+setTransform:{"position":{"x":-330,"y":-1310},"scale":{"x":1,"y":1},"alpha":0} -target=3 -duration=50 -next;
+setTransform:{"position":{"x":-330,"y":-1480},"scale":{"x":1,"y":1},"alpha":0} -target=33 -duration=50 -next;
+;认真地做小黄油表现好了。滚动式也行吧
+:     -notend;
+changeFigure: -id=1 -next;
+changeFigure:none -id=11 -next;
+changeFigure:none -id=3 -next;
+changeFigure:none -id=33 -next;
+changeFigure:none -id=bk1 -next;
+changeFigure:none -id=bk2 -next;
+;:【今日爱祥累积接吻次数：8→9】
+changeBg:a台场/stair1.webp -next -transform={"position":{"x":-10000,"y":2200},"scale":{"x":13,"y":13},"blur":20};
+changeFigure:341_mashiro/model.json -id=sk5 -transform={"position":{"x":-800,"y":-500},"scale":{"x":1.5,"y":1.5}} -next -motion=smile01_hazawa -expression=shame02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -transform={"position":{"x":100,"y":-500},"scale":{"x":1.5,"y":1.5},"alpha":0} -next -motion=ando01_masking -expression=shame02;
+祥子:不会的，这里没有其他人。
+;爱心眼
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=angry03 -expression=turnL;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=shame01 -expression=surprised01;
+setTransform:{"position":{"x":-8200,"y":1100},"scale":{"x":11,"y":11}} -target=bg-main -duration=0 -next;
+setTransform:{"position":{"x":0,"y":-130},"scale":{"x":1,"y":1}} -target=sk5 -duration=0 -next;
+setTransform:{"position":{"x":500,"y":-130},"scale":{"x":1,"y":1}} -target=an5 -duration=0 -next;
+bgm: -enter=500;
+爱音:……不行！
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=nf01_sk -expression=turn_L_Body_Down;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=shame01 -expression=thinking01;
+:千早爱音，猛踩刹车。
+changeBg:none -next;
+changeFigure: -id=sk5 -next;
+changeFigure: -id=an5 -next;
+: -notend -fontSize=default;
+choose:【今日爱祥累积接吻次数：9】:3_01/break.txt;

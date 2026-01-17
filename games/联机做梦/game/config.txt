@@ -1,0 +1,7 @@
+Game_name:欢迎使用WebGAL！;
+Game_key:707dd72996e73e4;
+Title_img:bg.png;
+Title_bgm:s_Title.mp3;
+Game_Logo:88crychic.png;
+Textbox_theme:imss;
+Positioning_Type:M_2_3;

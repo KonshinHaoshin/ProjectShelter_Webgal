@@ -1,0 +1,318 @@
+changeBg:a台场/1st_2/1st_playGoldfish.jpg -next -transform={"position":{"y":50},"scale":{"x":1.1,"y":1.1},"alpha":1,"blur":10};
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -transform={"position":{"x":-100},"scale":{"x":0.85,"y":0.85},"alpha":0} -next -motion=idle01 -expression=default;
+changeFigure:341_mashiro/model.json -id=sk -transform={"position":{"x":500,"y":0},"scale":{"x":0.85,"y":0.85},"alpha":0} -next -motion=sigh01 -expression=sad01;
+changeFigure:manga/goldfish.webp -id=fish -transform={"position":{"x":350,"y":300},"scale":{"x":0.25,"y":0.25},"alpha":0} -next;
+changeFigure:sk_for_hold/front/model.json -id=skf -transform={"position":{"x":500},"scale":{"x":0.85,"y":0.85},"alpha":0} -next -motion=sigh01 -expression=sad01;
+bgm:22.childhood.mp3 -enter=1200;
+:摊位的店长已经将祥子捞上来的金鱼放进了透明的特制水袋里：橙黄色的身影们在小小的囚笼里游来游去、似乎还不知道自己未来会迎接什么样的命运。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf_right01_rui -expression=sad01;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=sigh01 -expression=default;
+setTransform:{"position":{"x":-100},"scale":{"x":0.85,"y":0.85},"alpha":1} -target=an -duration=800 -next;
+setTransform:{"position":{"x":500,"y":0},"scale":{"x":0.85,"y":0.85},"alpha":1} -target=sk -duration=800 -next;
+setTransform:{"position":{"x":350,"y":300},"scale":{"x":0.25,"y":0.25},"alpha":1} -target=fish -duration=800 -next;
+setTransform:{"position":{"x":500},"scale":{"x":0.85,"y":0.85},"alpha":1} -target=skf -duration=800 -next;
+祥子:……原本应该是要去的。
+changeFigure:341_mashiro/model.json -id=sk -next -motion=sad02;
+changeFigure:sk_for_hold/front/model.json -id=skf -next -motion=sad02;
+setTransform:{"position":{"y":450},"scale":{"x":0.25,"y":0.25},"rotation":0.03} -target=fish -duration=0 -next;
+:那是很久以前的事情了，久到……祥子自己也有点记不清那时的父母都说了些什么。
+changeFigure:341_mashiro/model.json -id=sk -next -expression=smile03;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=thinking03 -expression=sad01;
+:不过，那也已经不再重要了——只需要知道最后的结果是，【原本答应要带祥子去参加夏日祭的丰川夫妇、最终还是食言了】……这就够了。
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nf01 -expression=sigh01;
+changeFigure:sk_for_hold/front/model.json -id=skf -next -motion=nf01;
+setTransform:{"position":{"x":325,"y":700},"scale":{"x":0.25,"y":0.25}} -target=fish -duration=0 -next;
+:祥子对那段记忆，并没有什么眷念。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=kime02 -expression=smile03;
+爱音:……。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nnf_right01 -expression=smile01;
+:爱音似乎在思考着什么，但这短暂的沉默转眼即逝——很快，她又挂上了跟刚刚一样的笑容：
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=smile04 -expression=turnR;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nnf_left01 -expression=surprised01;
+changeFigure:sk_for_hold/front/model.json -id=skf -next -motion=nnf_left01;
+setTransform:{"position":{"x":150,"y":850},"scale":{"x":0.25,"y":0.25}} -target=fish -duration=0 -next;
+爱音:那，祥祥，暑假的时候要不要和我一起去参加夏日祭~？
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nnf_left01 -expression=smile06;
+changeFigure:sk_for_hold/front/model.json -id=skf -next -motion=nnf_left01;
+祥子:……可以是可以， -notend -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk -next -expression=thinking02;
+changeFigure:none -id=fish -next;
+changeFigure:none -id=skf -next;
+但得看行程允不允许。 -concat -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=kime01_mu -expression=smile03;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=smile03 -expression=default;
+:到了暑假，Ave Mujica的运营也该进入下一个阶段了……丰川祥子或许会变成大忙人、忙到连动画的片头曲也只能听超级简短版的地步。
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nf_left01_masking -expression=Down_look;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf_right01_sk -expression=smile06_sk;
+;;;;;;herb
+changeFigure:manga/1st_playGoldfish.jpg -id=bg3Base -transform={"position":{"x":1000,"y":-450},"scale":{"x":2.6,"y":2.6},"alpha":0,"blur":10} -next;
+changeFigure:manga/white2blue.webp -id=bg32 -transform={"position":{"x":-1100,"y":-200},"scale":{"x":0.6,"y":0.6},"alpha":0,"rotation":0.1} -next;
+changeFigure:manga/1st_playGoldfishUp.webp -id=bg3U -transform={"position":{"x":1000,"y":-450},"scale":{"x":2.6,"y":2.6},"alpha":0} -next;
+changeFigure:manga/white.webp -id=w31 -transform={"position":{"x":-740},"scale":{"x":0.02,"y":0.7},"alpha":0,"rotation":0.25} -next;
+changeFigure:manga/white.webp -id=w32 -transform={"position":{"x":-1005,"y":-540},"scale":{"x":0.56,"y":0.02},"alpha":0,"rotation":0.17} -next;
+changeFigure:341_mashiro/model.json -id=sksk -transform={"position":{"x":-760,"y":-180},"scale":{"x":0.76,"y":0.76},"alpha":0} -next -motion=surprised01_anon -expression=default;
+changeFigure:manga/1st_playGoldfishDown.webp -id=bg3D -transform={"position":{"x":1000,"y":-450},"scale":{"x":2.6,"y":2.6},"alpha":0} -next;
+changeFigure:manga/white.webp -id=w34 -transform={"position":{"x":-1100,"y":0},"scale":{"x":0.54,"y":0.02},"alpha":0,"rotation":-0.12} -next;
+;;;;;herb
+:不过——
+changeFigure:none -id=sk -next;
+changeFigure:none -id=an -next;
+;setTransform:{"position":{"x":400,"y":-200},"scale":{"x":1.4,"y":1.4},"blur":10} -target=bg-main -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=biganon -transform={"position":{"x":-600,"y":-1400},"scale":{"x":1.5,"y":1.5}} -next -motion=nf04_ako -expression=default;
+setTransform:{"position":{"x":1000,"y":-451},"scale":{"x":2.6,"y":2.6},"alpha":1,"blur":10} -target=bg3Base -duration=0 -next;
+setTransform:{"position":{"x":-1100,"y":-200},"scale":{"x":0.6,"y":0.6},"alpha":1,"rotation":0.1} -target=bg32 -duration= -next;
+setTransform:{"position":{"x":1000,"y":-450},"scale":{"x":2.6,"y":2.6},"alpha":1,"blur":10} -target=bg3U -duration=0 -next;
+setTransform:{"position":{"x":-740},"scale":{"x":0.02,"y":0.7},"alpha":1,"rotation":0.25} -target=w31 -duration=0 -next;
+setTransform:{"position":{"x":-1005,"y":-540},"scale":{"x":0.56,"y":0.02},"alpha":1,"rotation":0.17} -target=w32 -duration=0 -next;
+setTransform:{"position":{"x":-760,"y":-180},"scale":{"x":0.76,"y":0.76},"alpha":1} -target=sksk -duration=0 -next;
+setTransform:{"position":{"x":1000,"y":-450},"scale":{"x":2.6,"y":2.6},"alpha":1,"blur":10} -target=bg3D -duration=0 -next;
+setTransform:{"position":{"x":-1100,"y":0},"scale":{"x":0.54,"y":0.02},"alpha":1,"rotation":-0.12} -target=w34 -duration=0 -next;
+changeFigure:manga/herbsk.webp -id=herbsk -transform={"position":{"y":-1300},"scale":{"x":0.85,"y":0.85}} -next;
+changeFigure:341_mashiro/model.json -id=sksk -next -motion=kime01 -expression=smile06;
+: -fontSize=default;
+setTransform:{"position":{"y":-1300},"scale":{"x":0.4,"y":0.85},"alpha":0} -target=herbsk -duration=0 -next;
+changeFigure:341_mashiro/model.json -id=sksk -next -motion=smile06;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=biganon -next -motion=serious01;
+:丰川祥子，露出了跟以前的她一模一样的、令人安心的温柔笑容。
+setTransform:{"position":{"x":-1100,"y":-200},"scale":{"x":0.6,"y":0.6},"alpha":0,"rotation":0.1} -target=bg32 -duration= -next;
+setTransform:{"position":{"x":1000,"y":-450},"scale":{"x":2.6,"y":2.6},"alpha":0,"blur":10} -target=bg3U -duration=0 -next;
+setTransform:{"position":{"x":-740},"scale":{"x":0.02,"y":0.7},"alpha":0,"rotation":0.25} -target=w31 -duration=0 -next;
+setTransform:{"position":{"x":-1005,"y":-540},"scale":{"x":0.56,"y":0.02},"alpha":0,"rotation":0.17} -target=w32 -duration=0 -next;
+setTransform:{"position":{"x":-760,"y":-180},"scale":{"x":0.76,"y":0.76},"alpha":0} -target=sksk -duration=0 -next;
+setTransform:{"position":{"x":1000,"y":-450},"scale":{"x":2.6,"y":2.6},"alpha":0,"blur":10} -target=bg3D -duration=0 -next;
+setTransform:{"position":{"x":-1100,"y":0},"scale":{"x":0.54,"y":0.02},"alpha":0,"rotation":-0.12} -target=w34 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=biganon -next -motion=zb_angry03 -expression=smile03;
+setTransform:{"position":{"x":-600,"y":-1100},"scale":{"x":1.5,"y":1.5}} -target=biganon -duration=0 -next;
+setTransform:{"position":{"x":1000,"y":-151},"scale":{"x":2.6,"y":2.6},"alpha":1,"blur":10} -target=bg3Base -duration=0 -next;
+爱音:……这个道理我懂，但祥祥说这话的时候为什么要盯着我的胸看？
+;;;;herb
+changeFigure:none -id=bg3Base -transform={"position":{"x":1000,"y":-450},"scale":{"x":2.6,"y":2.6},"alpha":0,"blur":10} -next;
+changeFigure:none -id=bg32 -transform={"position":{"x":-1100,"y":-200},"scale":{"x":0.6,"y":0.6},"alpha":0,"rotation":0.1} -next;
+changeFigure:none -id=bg3U -transform={"position":{"x":1000,"y":-450},"scale":{"x":2.6,"y":2.6},"alpha":0} -next;
+changeFigure:none -id=w31 -transform={"position":{"x":-740},"scale":{"x":0.02,"y":0.7},"alpha":0,"rotation":0.25} -next;
+changeFigure:none -id=w32 -transform={"position":{"x":-1005,"y":-540},"scale":{"x":0.56,"y":0.02},"alpha":0,"rotation":0.17} -next;
+changeFigure:none -id=sksk -transform={"position":{"x":-760,"y":-180},"scale":{"x":0.76,"y":0.76},"alpha":0} -next -motion=surprised01_anon -expression=default;
+changeFigure:none -id=bg3D -transform={"position":{"x":1000,"y":-450},"scale":{"x":2.6,"y":2.6},"alpha":0} -next;
+changeFigure:none -id=w34 -transform={"position":{"x":-1100,"y":0},"scale":{"x":0.54,"y":0.02},"alpha":0,"rotation":-0.12} -next;
+changeFigure:none -id=herbsk -next;
+changeFigure:none -id=biganon -next;
+;;;;herb
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -transform={"position":{"x":-100},"scale":{"x":0.85,"y":0.85},"alpha":1} -next -motion=zb_serious02 -expression=shame02_sk;
+changeFigure:341_mashiro/model.json -id=sk -transform={"position":{"x":500,"y":0},"scale":{"x":0.85,"y":0.85},"alpha":1} -next -motion=odoodo02_aya -expression=smile05;
+祥子:……。
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nnf_right01_mu -expression=smile05;
+changeFigure:sakiko_small/model.json -id=sox -transform={"position":{"x":1100,"y":200},"scale":{"x":0.85,"y":0.83},"alpha":0.7} -next -motion=nf_left01_taki -expression=serious02;
+changeFigure:anon_small.webp -id=sa -transform={"position":{"x":950,"y":670},"scale":{"x":0.35,"y":0.35},"alpha":0.7,"rotation":0.25} -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=smile01_ako -expression=smile06_sk;
+:都是本能害的——下头小祥脸不红心不跳地将黑锅甩走、别过视线。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf05 -expression=smile01;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nf_left01_aya -expression=smile06;
+changeFigure:sakiko_small/model.json -id=sox -next -motion=sigh02 -expression=turn_Down_look;
+setTransform:{"position":{"x":1100,"y":1050},"scale":{"x":0.85,"y":0.83},"alpha":0.7} -target=sox -duration=0 -next;
+setTransform:{"position":{"x":920,"y":1300},"scale":{"x":0.35,"y":0.35},"alpha":0.7,"rotation":0.1} -target=sa -duration=0 -next;
+changeFigure:sakiko_small/model.json -id=sox2 -transform={"position":{"x":-750,"y":1050},"scale":{"x":0.85,"y":0.83},"alpha":0.7} -next -motion=idle01 -expression=smile02;
+爱音:咳……那，就这么约好咯！                            -notend -fontSize=default;
+changeFigure:sakiko_small/model.json -id=sox2 -next -motion=nf_right01 -expression=smile02;
+setTransform:{"position":{"y":200},"scale":{"x":0.85,"y":0.83},"alpha":0.7} -target=sox2 -duration=0 -next;
+ -concat -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nf_left01 -expression=thinking01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nnf_right01;
+祥子:不过爱音，虽然暑假确实快到了，但也不至于那么 -notend -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk -next -expression=smile03;
+着急吧。  -notend -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -expression=shame02;
+ -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=smile01 -expression=shame01;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=zb_serious01 -expression=shame01;
+changeFigure:sakiko_small/model.json -id=sox2 -next -motion=nf05;
+changeFigure:none -id=sox -next;
+changeFigure:none -id=sa -next;
+changeFigure:00009-1365846110.webp -id=pointing -transform={"position":{"x":280,"y":150},"scale":{"x":-2.5,"y":2.5},"alpha":0} -next;
+爱音:诶嘿嘿~早点跟祥祥做约定的话，总觉得会安心许多嘛。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=smile02 -expression=turnR;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nf_left01_masking -expression=Down_look;
+changeFigure:sakiko_small/model.json -id=sox2 -next -motion=nf03 -expression=turn_R_Body_Down;
+setTransform:{"position":{"x":-100,"y":500},"scale":{"x":0.85,"y":0.85},"alpha":0} -target=an -duration=0 -next;
+setTransform:{"position":{"x":500,"y":0},"scale":{"x":0.85,"y":0.85},"alpha":0} -target=sk -duration=0 -next;
+setTransform:{"position":{"y":200},"scale":{"x":0.85,"y":0.83},"alpha":0} -target=sox2 -duration=0 -next;
+setTransform:{"position":{"x":280,"y":750},"scale":{"x":-2.5,"y":2.5},"alpha":1} -target=pointing -duration=1300 -next;
+:粉发的少女蹲下身子，戳了戳祥子提在手里的水袋：里面的金鱼似乎感觉到了什么，游动得更闹腾了。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nnf03 -expression=shame01;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=surprised01_mu -expression=shame01;
+changeFigure:sakiko_small/model.json -id=sox2 -next -motion=surprised02 -expression=shame01;
+setTransform:{"position":{"x":500,"y":0},"scale":{"x":0.85,"y":0.85},"alpha":1} -target=sk -duration=0 -next;
+setTransform:{"position":{"y":200},"scale":{"x":0.85,"y":0.83},"alpha":0.7} -target=sox2 -duration=0 -next;
+setTransform:{"position":{"x":280,"y":750},"scale":{"x":-2.5,"y":2.5},"alpha":0} -target=pointing -duration=0 -next;
+setTransform:{"position":{"x":-100,"y":500},"scale":{"x":0.85,"y":0.85},"alpha":1} -target=an -duration=0 -next;
+爱音:……毕竟，这也是祥祥的【第一次】呢 -notend -fontSize=default;
+setTransform:{"position":{"x":-1900,"y":1600},"scale":{"x":0.85,"y":0.83},"alpha":0,"rotation":-1} -target=sox2 -duration=1000 -next;
+。 -concat -fontSize=default;
+changeFigure:none -id=sox2 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=zb_nnf_left01 -expression=shame01;
+setTransform:{"position":{"y":0},"scale":{"x":0.85,"y":0.85}} -target=an -duration=0 -next;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=kime01_mu;
+:少女的脸颊，染上了一阵微醺般的红晕——爱音如此，祥子也是如此。
+changeFigure:341_mashiro/model.json -id=sk -next -motion=zb_angry02 -expression=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=shame02 -expression=default;
+changeFigure:none -id=sox2 -next;
+祥子:——下头。
+:蓝发双马尾的少女好不容易才憋出这么一句话，而粉发的少女也有些小小的恼羞成怒：
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf02_kokoro -expression=shame02;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=serious01_rui -expression=shame01R;
+爱音:咳，我是说第一次去祭典啦…… -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=zb_angry01 -expression=turnR;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=zb_surprised01 -expression=surprised02;
+还有，祥祥才没资格说我下头呢！ -concat -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=zb_serious01 -expression=surprised02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=zb_serious02 -expression=turn_Down_look;
+bgm:none -enter=750;
+祥子:为、为何没有？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=odoodo01_ako -expression=shame01_sk;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=smile04_aya -expression=shame01;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -transform={"position":{"x":3200,"y":200},"scale":{"x":0.81,"y":0.81},"alpha":0.7,"rotation":-3.15} -next;
+爱音:你……你忘记你在梦里……都对我做过什么了嘛！
+changeFigure:341_mashiro/model.json -id=sk -next -motion=zb_sigh01 -expression=Down_look;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -next -motion=smile02 -expression=surprised02;
+setTransform:{"position":{"x":3200,"y":1200},"scale":{"x":0.81,"y":0.81},"alpha":0.7,"rotation":-3.15} -target=ob -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=sad01_ako -expression=shame02;
+bgm:19. 存りし日の光.mp3 -enter=1300;
+祥子:……那是Oblivionis干的。
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -next -motion=nod01_kokoro -expression=smile05;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=sad02_kokoro;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=zb_nf_left01 -expression=surprised02;
+爱音:祥祥也干了！
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -next -motion=smile05;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nf05_mu -expression=zb_surprised02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=smile01_mu;
+祥子:！？
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -next -motion=sad01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=zb_nf_right01;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=zb_nnf_left01;
+setTransform:{"position":{"x":-500,"y":200},"scale":{"x":1.4,"y":1.4},"blur":5} -target=bg-main -duration=0 -next;
+setTransform:{"position":{"x":-500,"y":200},"scale":{"x":0.9,"y":0.9},"blur":10} -target=an -duration=0 -next;
+setTransform:{"position":{"x":150,"y":200},"scale":{"x":0.9,"y":0.9},"blur":10} -target=sk -duration=0 -next;
+setTransform:{"position":{"x":3000,"y":1200},"scale":{"x":0.85,"y":0.85},"alpha":0.75,"rotation":-3.15} -target=ob -duration=0 -next;
+:——何等低纯度的拌嘴，怎么看都像是肉麻又婆妈的两妇妻在打情骂俏。
+setTransform:{"position":{"x":3200,"y":200},"scale":{"x":0.81,"y":0.81},"alpha":0.7,"rotation":-3.15} -target=ob -duration=0 -next;
+setTransform:{"position":{"x":0,"y":50},"scale":{"x":1.1,"y":1.1},"alpha":1,"blur":10} -target=bg-main -duration=0 -next;
+setTransform:{"position":{"x":-100,"y":0},"scale":{"x":0.85,"y":0.85},"blur":0} -target=an -duration=0 -next;
+setTransform:{"position":{"x":500,"y":0},"scale":{"x":0.85,"y":0.85},"blur":0} -target=sk -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -next -motion=sigh02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=serious02_sk;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=zb_odoodo01 -expression=shame01;
+祥子:……我、我那是因为……
+changeFigure:341_mashiro/model.json -id=sk -next -expression=zb_surprised02;
+setTransform:{"position":{"x":-200,"y":50},"scale":{"x":1.1,"y":1.1},"alpha":0,"blur":10} -target=bg-main -duration=0 -next;
+setTransform:{"position":{"x":-300,"y":0},"scale":{"x":0.85,"y":0.85},"alpha":0,"blur":0} -target=an -duration=0 -next;
+setTransform:{"position":{"x":300,"y":0},"scale":{"x":0.85,"y":0.85},"blur":0} -target=sk -duration=0 -next;
+changeFigure:none -id=ob -next;
+:丰川祥子下意识地想要找借口，但却发现怎么找都不可能找到一个合适的理由去解释自己的 -notend -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=serious02;
+:各种下头行为—— -concat -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk -next;
+changeFigure:xiatou/soox1.webp -id=soox1 -transform={"position":{"y":-1100},"alpha":1,"rotation":-0.25} -next;
+:因为是梦所以才会肆意妄为？因为误以为爱音是“自己在梦里幻想出来的存在”所以才会做 -notend -fontSize=default;
+changeFigure:xiatou/soox2.webp -id=soox2 -transform={"position":{"y":-1000},"scale":{"x":1.3,"y":1.3},"rotation":0.3} -next;
+:出那些糟糕的事情？ -concat -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=zb_nf01;
+setTransform:{"position":{"x":-1800,"y":-900},"scale":{"x":1,"y":1},"rotation":-1.6} -target=soox1 -duration=0 -next;
+setTransform:{"position":{"x":1900,"y":-1000},"scale":{"x":1.3,"y":1.3},"rotation":1.8} -target=soox2 -duration=0 -next;
+changeFigure:xiatou/soox3.webp -id=soox3 -transform={"position":{"y":-1100},"scale":{"x":1.6,"y":1.6},"alpha":0} -next; 
+setTransform:{"position":{"y":-900},"scale":{"x":1.25,"y":1.25},"alpha":1} -target=soox3 -duration=0;
+changeFigure:none -id=soox1 -next;
+changeFigure:none -id=soox2 -next;
+changeFigure:none -id=soox3 -next;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=odoodo01_mu;
+changeFigure:xiatou/soox4.webp -id=soox4 -transform={"position":{"x":0,"y":-700},"scale":{"x":1.3,"y":1.3}} -next;
+changeFigure:xiatou/soox5.webp -id=soox5 -transform={"position":{"x":10,"y":-950},"scale":{"x":1.35,"y":1.35}} -next;
+:……那么，在【知道真相之后】呢？
+setTransform:{"position":{"x":-1500,"y":400},"scale":{"x":1.55,"y":1.55},"alpha":0,"rotation":-0.6} -target=soox4 -duration=950 -next;
+setTransform:{"position":{"x":1500,"y":400},"scale":{"x":1.6,"y":1.6},"alpha":0,"rotation":0.6} -target=soox5 -duration=950 -next;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nf02;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob3 -transform={"position":{"x":1000,"y":1100},"scale":{"x":0.85,"y":0.85},"alpha":0.7} -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh3 -transform={"position":{"x":2300},"scale":{"x":0.85,"y":0.85},"alpha":0.7} -next;
+changeFigure:sakiko_small/model.json -id=sox3 -transform={"position":{"x":-650,"y":1100},"scale":{"x":0.85,"y":0.83},"alpha":0.7} -next;
+:不行了，万策尽了，理性、感性、还有本能，给我出来呀！
+changeFigure: -id=soox4 -next;
+changeFigure: -id=soox5 -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob3 -next -motion=sigh01_rui -expression=smile03;
+setTransform:{"position":{"y":0},"scale":{"x":0.85,"y":0.85},"alpha":0.7} -target=ob3 -duration=0 -next;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=zb_nnf_right01 -expression=serious02;
+理性:呃啊理性理性，能别难为我们这几个没用的东西么。
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh3 -next -motion=smile05 -expression=default;
+setTransform:{"position":{"x":-150},"scale":{"x":0.85,"y":0.85}} -target=sk -duration=0 -next;
+setTransform:{"position":{"x":400},"scale":{"x":0.85,"y":0.85},"alpha":0.7} -target=ob3 -duration=0 -next;
+setTransform:{"position":{"x":1000},"scale":{"x":0.85,"y":0.85},"alpha":0.7} -target=jh3 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob3 -next -motion=smile04_mu -expression=Down_look;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=sad02_taki -expression=shame01;
+感性:呃啊感性感性，大乐队少女一人做事一人当，丰川祥子你自己干的坏事要自己承担 -notend -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh3 -next -motion=serious02 -expression=smile05;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob3 -next -expression=smile02;
+责任啊。 -concat -fontSize=default;
+changeFigure:sakiko_small/model.json -id=sox3 -next -motion=nf01 -expression=serious01_taki;
+setTransform:{"position":{"y":250},"scale":{"x":0.85,"y":0.83},"alpha":0.7} -target=sox3 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob3 -next -motion=zb_sigh02 -expression=smile03;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh3 -next -motion=zb_nf_left01;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=zb_shame02 -expression=shame01;
+本能:呃啊本能本能，说到底还不是因为你技术太差才会导致失去主导权。 -notend -fontSize=default;
+changeFigure:sakiko_small/model.json -id=sox3 -next -motion=angry02_anon -expression=angry01;
+本能:你要是能把爱音弹得跟你的键盘一样好、把这粉毛小鬼治得服服帖帖的话还会这样？ -concat -fontSize=default;
+changeFigure:sakiko_small/model.json -id=sox3 -next -motion=pui01_taki -expression=angry07;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=shame01_tmr;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob3 -next -motion=nf_right01_rui -expression=smile05;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh3 -next -motion=zb_nf01;
+本能:菜就多练！  -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=sad02;
+changeFigure:sakiko_small/model.json -id=sox3 -next -motion=nf01_taki -expression=sigh01;
+setTransform:{"position":{"x":-770,"y":275},"scale":{"x":0.88,"y":0.86},"alpha":0} -target=sox3 -duration=1100 -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh3 -next -motion=surprised01 -expression=L_Boby_Down;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob3 -next -motion=surprised01_mu -expression=L_Boby;
+祥子:……。
+changeFigure:341_mashiro/model.json -id=sk -next -motion=eeto01_aya -expression=smile05;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob3 -next -motion=nf_right01_mu -expression=smile05;
+setTransform:{"position":{"x":-200,"y":100},"scale":{"x":0.88,"y":0.88},"alpha":0} -target=ob3 -duration=1100 -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh3 -next -motion=nf01_anon -expression=smile05;
+setTransform:{"position":{"x":300,"y":100},"scale":{"x":0.88,"y":0.88},"alpha":0} -target=jh3 -duration=1100 -next;
+:丰川祥子想要反驳这些话语，却发现她就连反驳的余力都已然失去。
+changeFigure:none -id=sox3 -next;
+changeFigure:none -id=ob3 -next;
+changeFigure:none -id=jh3 -next;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=surprised01_aya -expression=zb_surprised02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=thinking03 -expression=smile04;
+setTransform:{"position":{"x":400},"scale":{"x":0.85,"y":0.85}} -target=sk -duration=0 -next;
+setTransform:{"position":{"x":0,"y":50},"scale":{"x":1.1,"y":1.1},"alpha":1,"blur":10} -target=bg-main -duration=0 -next;
+setTransform:{"position":{"x":-100,"y":0},"scale":{"x":0.85,"y":0.85},"blur":0} -target=an -duration=0 -next;
+:——难道说，这把真的是她打得有问题？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf_left01 -expression=smile04;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nf_left01;
+爱音:……祥祥，又在发呆了。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=cry01_notcry -expression=sad02;
+setTransform:{"position":{"x":-200},"scale":{"x":0.85,"y":0.85}} -target=an -duration=1300 -next;
+:千早爱音抹了抹不存在的眼泪，看向了远方：
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=angry01_ako -expression=smile03;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=angry01;
+爱音:……原来，祥祥不想负起责任呢……
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=smile02_sk -expression=smile04;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=zb_angry04 -expression=default;
+祥子:才不是！还有，我说过不许这样逗弄我！
+setTransform:{"position":{"x":0,"y":50},"scale":{"x":1.1,"y":1.1},"alpha":0,"blur":10} -target=bg-main -duration=0 -next;
+setTransform:{"position":{"x":-100,"y":0},"scale":{"x":0.85,"y":0.85},"alpha":0,"blur":0} -target=an -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf_right01 -expression=smile03;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=zb_odoodo01 -expression=zb_surprised02;
+:再这样下去就真的要被爱音牵着鼻子走了—— -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=angry01_anon;
+:想到这里，丰川祥子咬了咬牙、一怒之下…… -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=angry01 -expression=shame01;
+:呃，怒了一下。
+changeFigure:341_mashiro/model.json -id=sk -next -motion=smile03 -expression=shame02;
+:她甚至连生气都不知道该怎么生气，总觉得她好像只能发自己的脾气、压根怪不到爱音身上……
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nf01_aya -expression=zb_surprised02;
+:不、不行！不可以！ -notend -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=zb_angry07 -expression=angry01;
+:不可以就这么认输！ -concat -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=serious01_aya -expression=zb_surprised02;
+:哪怕知道不是爱音的错，她也要、她也要……！
+changeBg:none -next;
+changeFigure:none -id=an -next -motion=angry01_ako -expression=smile03;
+changeFigure:none -id=sk -next -motion=angry01;
+changeScene:3_01/baka.txt

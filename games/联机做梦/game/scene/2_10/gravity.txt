@@ -1,0 +1,205 @@
+changeBg:a台场/1st_2/1st_street4.jpg -next -transform={"position":{"y":170},"scale":{"x":1.3,"y":1.3},"blur":15};
+changeFigure:nyamu_back(ai)2.webp -id=nya_b -transform={"position":{"y":92},"scale":{"x":0.97,"y":0.97},"blur":15} -next;
+changeFigure:uika_back_hat_bright.webp -id=uk_b -transform={"position":{"x":800,"y":360},"scale":{"x":1.5,"y":1.5}} -next;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya12 -transform={"position":{"x":-125,"y":-25},"scale":{"x":1.05,"y":1.05},"alpha":0} -next;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk12 -transform={"position":{"x":750},"scale":{"x":0.98,"y":0.98},"alpha":0} -next;
+bgm:10.one moment.mp3;
+:——三角初华，跟着她们乐队的鼓手一路走到了这里。
+:虽然不知道这位平日就很跳脱的鼓手在干什么，但反正闲着也是闲着， -notend -fontSize=default;
+setTransform:{"position":{"y":92},"scale":{"x":0.97,"y":0.98},"alpha":0,"blur":5} -target=nya_b -duration=0 -next;
+setTransform:{"position":{"x":800,"y":360},"scale":{"x":1.5,"y":1.5},"alpha":0} -target=uk_b -duration=0 -next;
+setTransform:{"position":{"x":-125,"y":-25},"scale":{"x":1.02,"y":1.02},"alpha":1} -target=nya12 -duration=0 -next;
+setTransform:{"position":{"x":750},"scale":{"x":0.98,"y":0.98},"alpha":1} -target=uk12 -duration=0 -next;
+changeBg:a台场/1st_2/1st_paint.jpg -next -transform={"position":{"y":-220},"scale":{"x":1.2,"y":1.2},"blur":0};
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -left -id=nya12 -next -motion=nnf_right01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk12 -next -motion=K_nnf_left01 -expression=K_worry01;
+:三角初华倒也并不觉得自己现在算是在浪费时间。 -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -left -id=nya12 -next -motion=nf04_anon -expression=smile03;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk12 -next -motion=K_nnf_left01 -expression=smile02;
+若麦:初……初子！？为什么会在这里……
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -left -id=nya12 -next -motion=smile03 -expression=turn_Down;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk12 -next -motion=K_nf04 -expression=K_smile01;
+初华:噗，突然从背后搭话吓到你了么， -notend -fontSize=default;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk12 -next -expression=K_kaoru_special;
+不好意思哦，祐天寺小姐 -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya12 -next -motion=nf_right01 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk12 -next -motion=angry01 -expression=smile01;
+——不过，还请祐天寺小姐小声点哦？ -fontSize=default;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -left -id=nya12 -next -motion=nf_right01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk12 -next -motion=K_worry01 -expression=K_kaoru_special;
+:专业的偶像露出了专业的笑容，侧了侧脑袋、将食指比在唇间：
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -left -id=nya12 -next -motion=nf01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk12 -next -motion=smile02 -expression=default;
+changeFigure:none -id=nya_b -next;
+changeFigure:none -id=uk_b -next;
+初华:要是被粉丝发现的话会稍微有点麻烦呢。
+setTransform:{"position":{"x":-125,"y":-25},"scale":{"x":1.02,"y":1.02},"alpha":0} -target=nya12 -duration=0 -next;
+setTransform:{"position":{"x":750},"scale":{"x":0.98,"y":0.98},"alpha":0} -target=uk12 -duration=0 -next;
+changeBg:a台场/beach1.jpg -next -transform={"position":{"y":120},"scale":{"x":1.5,"y":1.5}};
+changeFigure:mygo_avemujica_v6/uika/337_sumimi_rip/model.json -id=uk13 -transform={"position":{"x":40,"y":100},"scale":{"x":0.73,"y":0.73}} -next -motion=nf03 -expression=smile02;
+:——今天的三角初华，有一个代言广告的外景部分需要拍摄。|而拍摄的地点，正是台场海滨公园的海边。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/uika/337_sumimi_rip/model.json -id=uk13 -next -motion=nnf_right01 -expression=smile01;
+:明明没有事先在社交平台上通知粉丝，但毕竟是当红偶像的一员，拍摄的时候好像还是吸引到了不少人围观——
+changeBg:none -next;
+changeFigure:none -id=uk13 -next;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk12 -next -motion=nf03 -expression=smile01;
+setTransform:{"position":{"x":750},"scale":{"x":0.98,"y":0.98},"alpha":1} -target=uk12 -duration=0 -next;
+:虽然现在已经完成了拍摄工作，但算算时间，得知消息的粉丝们应该也已经从四面八方赶来了。
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk12 -next -motion=nf01 -expression=default;
+:继续留在这里四处闲逛，对初华来说其实不算什么好事……要是被祥子知道她又这么“不重视自己的身份特殊性”，估计还会被小小地训斥一番吧？ -fontSize=default;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk12 -next -motion=serious01 -expression=smile02;
+:不过——毕竟难得地在排练以外的时间偶遇队友、还看到了她鬼鬼祟祟的样子，本质上并不算什么“好孩子”的三角初华小姐自然要做点有趣的事情，不是么？
+changeBg:a台场/1st_2/1st_paint.jpg -next -transform={"position":{"y":-220},"scale":{"x":1.2,"y":1.2},"blur":0};
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -left -id=nya12 -next -motion=thinking03_anon -expression=smile03_anon;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk12 -next -motion=nf_left01 -expression=smile02;
+setTransform:{"position":{"x":-125,"y":-25},"scale":{"x":1.02,"y":1.02},"alpha":1} -target=nya12 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -left -id=nya12 -next -motion=thinking03_anon -expression=smile03_anon;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk12 -next -motion=nf_left01 -expression=smile02;
+若麦:初子这样没问题么？
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -left -id=nya12 -next -motion=thinking03_anon -expression=turn_R;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk12 -next -motion=nf01 -expression=smile02;
+初华:还好还好，我不是做了变装嘛？
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -left -id=nya12 -next -motion=smile03 -expression=smile03_anon;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk12 -next -motion=K_serious01 -expression=smile02;
+:三角初华指了指自己的鸭舌帽和便装——说实话，这比Ave Mujica的面具还要缺乏隐蔽性。
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -left -id=nya12 -next -motion=surprised01 -expression=smile02;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk12 -next -motion=nf_left01 -expression=surprised01;
+若麦:……要不，我把我的墨镜借你戴戴？
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -left -id=nya12 -next -motion=smile02 -expression=turn_R;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk12 -next -motion=K_smile01 -expression=turn_L_Body;
+初华:诶，可以么？
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -left -id=nya12 -next -motion=smile01 -expression=turn_R;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk12 -next -motion=nf01 -expression=smile03_sk;
+若麦:如果能在上面留下初子的亲笔签名就更好了呢——
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -left -id=nya12 -next -motion=nf03 -expression=smile03;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk12 -next -motion=sad01 -expression=smile05_sk;
+初华:可以是可以，但不可以拿去卖哦——
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -left -id=nya12 -next -motion=sad01 -expression=smile03_anon;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk12 -next -motion=nf_left01 -expression=smile03_sk;
+若麦:——咳，当、当我没说过吧，喵哈哈。
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk12 -next -motion=K_serious01 -expression=smile02;
+setTransform:{"position":{"x":-425,"y":-25},"scale":{"x":1.02,"y":1.02},"alpha":0} -target=nya12 -duration=0 -next;
+setTransform:{"position":{"x":450},"scale":{"x":0.98,"y":0.98},"alpha":1} -target=uk12 -duration=0 -next;
+setTransform:{"position":{"x":-300,"y":-220},"scale":{"x":1.2,"y":1.2},"alpha":0,"blur":10} -target=bg-main -duration=0 -next;
+:气氛真不错。
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk12 -next -motion=nf04 -expression=smile02;
+:金发的少女，嘴角微微上扬：她本以为自己这样偷偷摸摸地跟上祐天寺若麦会引起对方的反感，现在看来这完全是杞人忧天。
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk12 -next -motion=serious02_sk -expression=smile02;
+:这是好事，毕竟，这证明了Ave Mujica内部的人际关系……至少在气氛上是一直朝着好的方向发展的。
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk12 -next -motion=K_serious02 -expression=kime01;
+:——祥子拼尽全力组建的乐队，一定要好起来。
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk12 -next -motion=smile01 -expression=turn_Down_look;
+:这是三角初华的愿望，也是她努力至今的动力。
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk12 -next -motion=sad01 -expression=sigh01_sk;
+:……为此，她可以付出一切。
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -left -id=nya12 -next -motion=surprised01_anon -expression=smile03_anon;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk12 -next -motion=thinking01_sk -expression=K_worry01;
+setTransform:{"position":{"x":-225,"y":-25},"scale":{"x":1.02,"y":1.02},"alpha":1} -target=nya12 -duration=0 -next;
+setTransform:{"position":{"x":650},"scale":{"x":0.98,"y":0.98},"alpha":1} -target=uk12 -duration=0 -next;
+setTransform:{"position":{"x":-100,"y":-220},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=0 -next;
+初华:话说回来，祐天寺小姐到底在这里干嘛呢？总觉得像是在……
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -left -id=nya12 -next -motion=serious01 -expression=smile02;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk12 -next -motion=nf_left01 -expression=turn_L_Body;
+setTransform:{"position":{"x":-140,"y":-45},"scale":{"x":1.04,"y":1.04},"alpha":1} -target=nya12 -duration=0 -next;
+:金发少女的视线，朝着旁边的画室飘去——在这一瞬间，祐天寺若麦也挪了挪脚步，恰好用自己那属于成年人的身体挡住了玻璃橱柜里“最新作品”的那一列。
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -left -id=nya12 -next -motion=surprised02 -expression=default;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk12 -next -motion=K_nf03 -expression=smile02;
+初华:……像是在跟踪别人？
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -left -id=nya12 -next -motion=nnf01 -expression=smile03_anon;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk12 -next -motion=nf03 -expression=default;
+若麦:啊、啊哈哈，怎么可能呢~喵梦亲我只是在随便逛逛而已啦—— -fontSize=default;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya12 -next -motion=bye01;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk12 -next -expression=surprised01;
+若麦:还有，初子叫我喵梦亲就可以了哦？ -fontSize=default;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -left -id=nya12 -next -motion=smile03 -expression=smile03_anon;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk12 -next -motion=surprised01 -expression=turn_L_Body;
+初华:哎，这样不会对祐天寺小姐造成困扰么？ -fontSize=default;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk12 -next -motion=K_nf_left01 -expression=smile05_sk;
+初华:要是在外面被粉丝认出来的话会有点麻烦吧？ -fontSize=default;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -left -id=nya12 -next -motion=smile03_anon -expression=smile03_anon;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk12 -next -motion=nf_left01 -expression=sad01;
+若麦:……喵梦亲我还没有知名到那种程度啦……
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -left -id=nya12 -next -motion=serious01_anon -expression=smile03_anon;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk12 -next -motion=nf_left01 -expression=smile02;
+若麦:咳，总而言之，叫我喵梦亲就可以了哦！喵·梦·亲！
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -left -id=nya12 -next -motion=thinking01_anon -expression=smile03;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk12 -next -motion=nf05 -expression=smile02;
+初华:嗯，我明白了。
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya12 -next -expression=serious01;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk12 -next -motion=angry01 -expression=smile06_sk;
+setTransform:{"position":{"x":-140,"y":-45},"scale":{"x":1.04,"y":1.04},"alpha":0} -target=nya12 -duration=0 -next;
+setTransform:{"position":{"x":-100,"y":-220},"scale":{"x":1.2,"y":1.2},"alpha":0,"blur":0} -target=bg-main -duration=0 -next;
+:三角初华微笑着点了点头：虽然总觉得对方哪里怪怪的，但她并不讨厌现在的气氛。
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -left -id=nya12 -next -motion=thinking03_anon -expression=smile03_anon;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk12 -next -motion=smile03 -expression=default;
+:……乐队，要是能一直保持融洽的相处气氛就好了呢。
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk12 -next -motion=smile03 -expression=smile05_sk;
+:这样的话，祥子，一定也能笑得更开心一点吧。
+setTransform:{"position":{"x":650},"scale":{"x":0.98,"y":0.98},"alpha":0} -target=uk12 -duration=0 -next;
+changeFigure:skuk_smile.webp -id=777 -transform={"position":{"y":-680},"scale":{"x":1.2,"y":1.2}} -next;
+:——对着我、露出以前那样的笑容——
+setTransform:{"position":{"x":-140,"y":-45},"scale":{"x":1.04,"y":1.04},"alpha":1} -target=nya12 -duration=0 -next;
+setTransform:{"position":{"x":-100,"y":-220},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=0 -next;
+setTransform:{"position":{"x":650},"scale":{"x":0.98,"y":0.98},"alpha":1} -target=uk12 -duration=0 -next;
+setTransform:{"position":{"y":-660},"scale":{"x":1.2,"y":1.2},"alpha":0,"blur":10} -target=777 -duration=1200 -next;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -left -id=nya12 -next -motion=thinking03_anon -expression=smile03_anon;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk12 -next -motion=K_kime05 -expression=smile05_sk;
+bgm:none -enter=1200;
+初华:……。
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk12 -next -motion=smile03 -expression=turn_Down_look;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya12 -next -motion=nf01_anon;
+setTransform:{"position":{"x":-90,"y":-45},"scale":{"x":1.06,"y":1.06},"alpha":1} -target=nya12 -duration=0 -next;
+setTransform:{"position":{"x":-50,"y":-220},"scale":{"x":1.25,"y":1.25},"alpha":1,"blur":0} -target=bg-main -duration=0 -next;
+setTransform:{"position":{"x":730},"scale":{"x":1,"y":1},"alpha":1} -target=uk12 -duration=0 -next;
+:鸭舌帽的帽檐，让少女的眼前蒙上了一层阴影；与此同时，笑得极其僵硬的祐天寺若麦也扶了扶自己的墨镜，让它能尽量掩盖自己的慌张。
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -left -id=nya12 -next -motion=thinking02_anon -expression=thinking01_anon;
+setTransform:{"position":{"x":-90,"y":-45},"scale":{"x":1.06,"y":1.06},"alpha":1} -target=nya12 -duration=0 -next;
+setTransform:{"position":{"x":-50,"y":-220},"scale":{"x":1.25,"y":1.25},"alpha":0,"blur":0} -target=bg-main -duration=0 -next;
+setTransform:{"position":{"x":730},"scale":{"x":1,"y":1},"alpha":0} -target=uk12 -duration=0 -next;
+bgm:59_unrest_2.mp3;
+:……慌张？
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -left -id=nya12 -next -motion=thinking02_anon -expression=smile03_anon;
+:自己为什么要慌张呢？
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -left -id=nya12 -next -motion=nf01 -expression=smile03_anon;
+:——答案是直觉。
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -left -id=nya12 -next -motion=nnf05 -expression=turn_L_Boby;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tmtm -transform={"position":{"x":-1000,"y":700},"scale":{"x":1.15,"y":1.15},"alpha":0.7} -next -motion=idle01 -expression=default;
+:虽然比不上什么疑似能够心灵感应的捡石头爱好者、 -notend -fontSize=default;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -left -id=nya12 -next -motion=nnf05 -expression=turn_R_boby_Down;
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=rnrn -transform={"position":{"x":200,"y":700},"scale":{"x":1.15,"y":1.15},"alpha":0.7} -next -motion=idle01 -expression=default;
+:又或者是什么抹茶芭菲上瘾的白猫…… -concat -fontSize=default;
+changeFigure:none -id=tmtm -next;
+changeFigure:none -id=rnrn -next;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -left -id=nya12 -next -motion=nf_right01 -expression=serious01_anon;
+:但身为靠谱成年人（疑似）的祐天寺若麦小姐，光是凭借那丰富的人生经验，就足以展现出惊人的洞察力。
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -left -id=nya12 -next -motion=serious01 -expression=default;
+:——三角初华，是【暗雷】。
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -left -id=nya12 -next -motion=nf_left01 -expression=smile03_anon;
+:平日相处时的点点滴滴、种种细节，在祐天寺若麦眼中都有着不同的含义：她总感觉，名为三角初华的偶像并不如表面上那么靓丽光鲜——
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -left -id=nya12 -next -motion=nf_left01 -expression=sad01;
+:毕竟，“偶像”这一职业本身就容易积累压力。
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -left -id=nya12 -next -motion=kime02_anon -expression=smile03_anon;
+:而且，三角初华看待丰川祥子的眼神……跟其他人不太一样。
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -left -id=nya12 -next -motion=nnf_right01 -expression=smile03_anon;
+:她不太确定这位金发少女到底对她的老大——呸，是队长——抱持着怎样的感情，但就在刚刚那一瞬间，她的直觉已经做出了决定：
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -left -id=nya12 -next -motion=nf01 -expression=serious01_anon;
+:祐天寺若麦觉得，如果被三角初华知晓了那位粉发少女的存在、知晓了丰川祥子正在和一个女孩子谈恋爱，后果或许会非常、非常严重。
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -left -id=nya12 -next -motion=nnf_left01 -expression=serious01;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk12 -next -motion=nf_left01 -expression=K_worry01;
+setTransform:{"position":{"x":-50,"y":-220},"scale":{"x":1.25,"y":1.25},"alpha":1,"blur":0} -target=bg-main -duration=0 -next;
+setTransform:{"position":{"x":730},"scale":{"x":1,"y":1},"alpha":1} -target=uk12 -duration=0 -next;
+bgm:none;
+:所以，她刚刚几乎是下意识地选择了迈步、用身体挡住那副绘有婆妈二人组……呸呸呸，是粉蓝二人组的画作。
+;setTransform:{"position":{"x":360,"y":80},"scale":{"x":0.9,"y":0.9},"alpha":1} -target=nya12 -duration=0 -next;
+;setTransform:{"position":{"x":0,"y":-220},"scale":{"x":1,"y":1},"alpha":1,"blur":0} -target=bg-main -duration=0 -next;
+;setTransform:{"position":{"x":910,"y":80},"scale":{"x":0.89,"y":0.89},"alpha":1} -target=uk12 -duration=0 -next;
+
+;changeFigure: -id=bg -transform={"scale":{"x":-2.5,"y":2.5}} -next;
+;changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk14 -transform={"position":{"x":80},"scale":{"x":0.64,"y":0.64}} -next;
+;changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya14 -transform={"position":{"y":-120},"scale":{"x":0.68,"y":0.68}} -next -motion=smile03 -expression=turn_R;
+;changeFigure:选择立绘文件 -id=sk14 -next;
+changeBg:none -next;
+changeFigure:none -id=nya12 -next;
+changeFigure: -id=uk12 -next;
+;;changeFigure:选择立绘文件 -id=an14 -next;
+changeScene:2_10/moving.txt

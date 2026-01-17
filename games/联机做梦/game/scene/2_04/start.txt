@@ -1,0 +1,122 @@
+:——有人说过，梦是现实的延续，而现实是梦的终结。
+changeBg:bg00394.webp -next -transform={"position":{"x":0,"y":-200},"scale":{"x":1}};
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -transform={"position":{"y":100},"scale":{"x":0.8,"y":0.8}} -next -motion=sigh02 -expression=thinking02;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -transform={"position":{"x":500,"y":100},"scale":{"x":0.8,"y":0.8}} -next -motion=serious02 -expression=default;
+:但丰川祥子可从没听说过现实还能是梦的延续。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -next -motion=nf_left01 -expression=thinking02;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -next -motion=nnf04 -expression=thinking03;
+两人:……。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -next -motion=nf01_rui -expression=sigh01;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -next -motion=serious02 -expression=L_Boby;
+:熟悉的咖啡厅，熟悉的座位，熟悉的对坐二人，以及不那么熟悉的沉默。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -next -motion=nf_right01_rui -expression=thinking02;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -next -motion=smile03 -expression=L_Boby;
+:丰川祥子看着千早爱音，千早爱音也看着丰川祥子。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -next -motion=nnf_left01 -expression=sad01;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -next -motion=zb_nf_right01 -expression=smile03;
+两人:……。
+:——然后，二人一同朝着相反的方向别过视线。
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+bgm:the_privious_summary 00_00_02-00_00_31.mp3 -enter=900;
+:乐队少女前情提要时间（前回のあらすじ）！ -fontSize=default;
+setTransform:{"position":{"x":900,"y":-700},"scale":{"x":2.1,"y":2.1}} -target=bg-main -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -transform={"position":{"y":-75}} -next -motion=nnf01 -expression=serious02;
+:注意看，这位正在假装无事发生、努力保持镇静的蓝发双马尾少女叫小祥，她正在回忆这个下午到底发生了什么： -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -next -motion=sigh02_rui -expression=thinking02;
+:是了，她因为疲惫而趴在钢琴上睡着了…… -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -next -motion=smile03 -expression=shame01;
+:然后，然后她做了很长很长的梦…… -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -next -motion=zb_angry02 -expression=thinking02;
+祥子:……。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -next -motion=angry01_rui -expression=thinking01;
+:镇静小祥用颤抖的手和不正确的持杯姿 -fontSize=default -notend;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -next -motion=smile03_rui -expression=thinking02;
+:势拿起了茶杯，抿了一口红茶。 -fontSize=default -concat;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -next -motion=thinking01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -transform={"position":{"x":400,"y":0},"alpha":0,"rotation":0} -next;
+:……然后呢，梦的终结是现实，回到现实的她做了什么？
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -next -motion=nf01 -expression=smile05;
+setTransform:{"position":{"x":400,"y":0},"alpha":0.7,"rotation":0} -target=fig-center -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -next -motion=zb_surprised02 -expression=smile03;
+setTransform:{"position":{"y":150}} -target=fig-left -duration=0 -next;
+:——【她亲了千早爱音一口】。
+setTransform:{"position":{"x":0,"y":-200},"scale":{"x":1,"y":1}} -target=bg-main -duration=0 -next;
+changeFigure:none -next;
+changeFigure:none -left -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -id=sk -transform={"position":{"y":100},"scale":{"x":0.8,"y":0.8}} -next -motion=zb_angry07 -expression=surprised02;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -transform={"position":{"x":300,"y":100},"scale":{"x":0.8,"y":0.8}} -next -motion=nf04 -expression=surprised01;
+bgm:none -enter=900;
+祥子:噗咳！
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -next -motion=nf_left01;
+setTransform:{"position":{"x":220,"y":100},"scale":{"x":0.8,"y":0.8}} -target=fig-right -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -id=sk -next -motion=zb_nf_left01 -expression=surprised01;
+bgm:08.thoughts.mp3;
+爱音:祥、祥祥！？
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -id=sk -next -motion=angry05 -expression=default;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -next -motion=smile03 -expression=default;
+祥子:咳……别、别那样叫我……！
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -id=sk -next -motion=serious02 -expression=thinking02;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -next -motion=sigh02 -expression=smile03;
+:丰川祥子努力维持着最后的优雅，同时也在寻求着最后的希望。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -id=sk -next -motion=nnf_right01_rui -expression=smile03;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -next -motion=smile01 -expression=L_Boby_Down;
+祥子:……爱…… -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -id=sk -next -expression=thinking01;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -next -motion=sigh02 -expression=smile03;
+咳，千早爱音同学。 -fontSize=default -concat;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -id=sk -next -expression=serious02;
+:将表情绷紧、将一切与“害羞”、“腼腆”相关的无谓感情彻底埋葬，蓝发的少女化作冰山，以极其冷漠的语气开口说道：
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -id=sk -next -motion=serious01_rui -expression=serious01;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -next -motion=surprised01 -expression=default;
+祥子:让我们先把一些无关紧要的事情放在一边。
+爱音:啊……好、好的？
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -id=sk -next -motion=thinking01 -expression=R_Boby;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -next -motion=nf04 -expression=smile03;
+祥子:我想先确认一件事情。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -id=sk -next -motion=thinking01 -expression=thinking02;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -next -motion=nf_left01;
+爱音:祥…呃，祥子……
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -next -motion=nf01;
+爱音:呃嗯，丰、丰川同学，您、您请说？ -concat;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -id=sk -next -motion=nf_right01;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -next -motion=nnf_left01 -expression=smile03;
+祥子:你有去过英国留学么？
+changeBg:none -next;
+changeFigure: -left -id=sk -next;
+changeFigure:none -right -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -next -motion=thinking02 -expression=thinking02;
+:这是现实中的千早爱音从来没有告诉过祥子的事情——是祥子在梦中窥见到的、属于这位粉发少女的小小秘密。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -next -expression=smile03;
+:如果一切只是自己的臆想，那么还有余地……
+changeFigure:none -left -next;changeBg:bg00394.webp  -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -id=sk -transform={"position":{"y":100},"scale":{"x":0.8,"y":0.8}} -next -motion=nf_right01 -expression=surprised02;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -transform={"position":{"x":220,"y":100},"scale":{"x":0.8,"y":0.8}} -next -motion=nnf04 -expression=smile03;
+爱音:……呃，是、是这样的，所以我才会在一个比较奇妙的时间点转学到羽丘……
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -id=sk -next -motion=nf_left01 -expression=thinking01;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -next -motion=nnf_left01 -expression=thinking03;
+祥子:……这样啊。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -id=sk -next -motion=sigh01 -expression=default;
+:丰川祥子沉默了一会儿，再次抿了口茶——然后，开口问道：
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -id=sk -next -expression=thinking02;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -next -motion=shame02 -expression=smile03;
+祥子:那么，最近，千早爱音同学……有没有在晚上做什么奇怪的梦？
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -next -expression=R_boby;
+爱音:……比如说？
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -id=sk -next -motion=serious01_rui;
+祥子:……梦到跟隔壁班不是很熟的同学接吻什么的？
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -next -motion=odoodo01_rui -expression=smile03;
+爱音:……有。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -id=sk -next -motion=nod01_maya -expression=smile03;
+setTransform:{"position":{"y":150},"scale":{"x":0.8,"y":0.8}} -target=sk -duration=100 -next;
+playEffect:343029__glitchedtones__cup-place-down-on-tile-table.wav;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -next -motion=nnf_left01;
+祥子:原来如此。
+:丰川祥子放下了手中的茶杯，或许是没把控好力度，茶杯碰在了瓷盘上、发出了清脆的响声，好像那么个冰山开裂时的动静。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -id=sk -next -motion=nnf_right01 -expression=thinking01;
+setTransform:{"position":{"y":100},"scale":{"x":0.8,"y":0.8}} -target=sk -duration=2000 -next;
+祥子:……恕我冒昧，我可以问一下你梦到的那个【对象】是谁么？
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -next -motion=thinking03;
+bgm:none -enter=1200;
+爱音:呃。 -fontSize=default;
+changeScene:2_04/anon.txt

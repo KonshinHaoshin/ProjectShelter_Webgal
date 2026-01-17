@@ -1,0 +1,244 @@
+changeBg:a台场/seria_innerR.webp -next -transform={"position":{"y":-200}};
+changeFigure:341_mashiro/model.json -id=sk5 -transform={"position":{"x":-300},"scale":{"x":0.9,"y":0.9}} -next -motion=zb_nnf02 -expression=shame02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -transform={"position":{"x":625},"scale":{"x":0.9,"y":0.9}} -next -motion=surprised01_kokoro -expression=shame01;
+playEffect:biu.mp3 -volume=80;
+祥子:毕竟，我选择爱音的时候，可是一点犹豫都没有的哦。
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=zb_smile02 -expression=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=angry04 -expression=shame01;
+:——百般武艺，此乃丰川流·土味情话·突袭！
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=zb_angry01;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=zb_angry06 -expression=smirk;
+爱音:……。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -expression=sigh01;
+:果不其然，祥子看到爱音的脸颊“咻”地染上了红晕——这两人都是脸皮特别薄的主，一旦害羞就藏都藏不住……
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=zb_thinking03 -expression=thinking02;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=nf_right01_rui -expression=surprised01;
+:然而！
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=zb_surprised01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=angry01 -expression=shame02;
+playEffect:biu.mp3;
+爱音:……不，仔细想想，祥子当初不是犹豫得很厉害么！？
+祥子:！？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=zb_thinking02 -expression=thinking02;
+changeFigure:341_mashiro/model.json -id=sk5 -next;
+:——万般武艺，此乃千早流·弹反·Parry！
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=zb_surprised02 -expression=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=angry04_sk -expression=shame02;
+playEffect:biu.mp3;
+爱音:明明现实里都把我的初吻夺走了……却还要说什么恋人关系只能在梦中成立、 -notend -fontSize=default;
+playEffect:biu.mp3;
+说什么约法三章—— -concat -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=zb_angry01 -expression=surprised02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=zb_nnf_left01 -expression=smile04;
+祥子:等、等等…… -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=zb_angry03;
+爱音，不要再说了！ -concat -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=surprised01_soyo -expression=shame01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=kandou01;
+爱音:——好~那么就算祥子输了哦~
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=zb_sigh01;
+祥子:……。
+:——完败。 -fontSize=large -id;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=serious02_anon;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=serious01;
+setTransform:{"position":{"x":500},"scale":{"x":0.9,"y":0.9}} -target=an5 -duration=2100 -next;
+:丰川祥子不想说自己输给了千早爱音，但这是事实。|即便如此，她还是倔强地说出了最后的台词： -fontSize=medium;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=cry03;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -expression=surprised01;
+祥子:不想输……
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=surprised01_sk -expression=surprised01;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=cry01 -expression=Down_look;
+爱音:哎？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=angry04 -expression=smile03;
+changeFigure:341_mashiro/model.json -id=sk5 -next -expression=odoodo01;
+祥子:……唯独、不想输给爱音……
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=angry03 -expression=smile03;
+changeFigure:341_mashiro/model.json -id=sk5 -next -expression=sigh01;
+爱音:为什么啦！
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=thinking01_sk;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=zb_sigh02 -expression=shame01;
+:因为那该死的自尊心——|丰川祥子轻叹了口气，事已至此，她也算是体会到自己的麻烦之处了。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=serious02_sk;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=nnf_right01_anon -expression=surprised01;
+爱音:……咳，说是这么说 -notend -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=nf_left01_sk -expression=smile06_sk;
+，其实我也没赢就是了。 -concat -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=thinking01 -expression=thinking01R;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=sigh02 -expression=shame02;
+祥子:……什么意思？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=nf01_mu;
+changeFigure:341_mashiro/model.json -id=sk5 -next -expression=thinking02_R;
+:祥子挑了挑眉：如果爱音是想给她找下台阶的话，那她可就有理由借着自己美味的自尊心生气了—— -notend -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk5 -next -expression=shame02;
+:当然不会是真的生气，不如说更像是撒娇…… -concat -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=zb_angry01 -expression=angry01;
+:不对，什么撒娇！不是撒娇！
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=nf_left01 -expression=smile03;
+setTransform:{"position":{"x":440},"scale":{"x":0.9,"y":0.9}} -target=an5 -duration=1400 -next;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=nnf01;
+:砰——蓝发双马尾少女在心里用力敲了敲不存在的桌子，打断了自己的胡思乱想。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -expression=smile04;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=nnf_right01_rui -expression=smile06;
+爱音:意思是……哪怕会犹豫不决也好、哪怕会踌躇不前也罢——
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=shame01 -expression=Down_look;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=shame01_kokoro -expression=smile06_sk;
+playEffect:biu.mp3;
+:|光是知道【祥子会为了我而犹豫、踌躇】这件事，我就已经很高兴了哦？ -concat;
+changeFigure:341_mashiro/model.json -id=sk5 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=shame01_soyo -expression=shame01;
+:千早爱音红着脸，像是一个沉溺于初恋幸福中的小女生——哦，她就是这么个小女生：
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -expression=shame02_sk;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=nnf_right01 -expression=shame01;
+爱音:而且……祥子最后不也还是选择了我、选择了回应我的心意……么？
+setTransform:{"position":{"x":-600,"y":-500},"scale":{"x":1.6,"y":1.6},"blur":20} -target=bg-main -duration=300 -next;
+changeFigure:none -id=sk5 -next;
+changeFigure:none -id=an5 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=shame01_tmr -expression=shame01_tmr;
+:灰银色的双眸，视线乱飘、像是在努力回避着自己的羞涩，但这样的逃避无济于事——| -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -transform={"scale":{"x":1,"y":1}} -next -motion=nf_left01 -expression=shame01_down;
+:最终，她还是低下了头，一边用手指玩弄着自己的发梢、一边说出自己的心底话： -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=shame02 -expression=default;
+bgm: -enter=1000;
+爱音:所以……虽然祥子输给了我，但我也输给了祥子呢——早在我，喜欢上祥子的那一刻开始。
+setTransform:{"position":{"x":-600,"y":-900},"scale":{"x":1.6,"y":1.6},"alpha":0,"blur":20} -target=bg-main -duration=0 -next;
+setTransform:{"position":{"y":-200},"scale":{"x":1,"y":1},"alpha":0,"blur":15} -target=an4 -duration=0 -next;
+祥子:——。
+;放神妈bgm
+changeFigure: -id=an4 -next;
+changeBg: -next;
+changeFigure:341_mashiro_terrible/model.json -id=sk4 -transform={"scale":{"x":0.95,"y":0.95}} -next -motion=nnf_left01 -expression=shame01;
+bgm:lose.mp3 -enter=10;
+:——万般武艺，此乃千早流·直球·ATTACK。
+changeFigure:341_mashiro_terrible/model.json -id=sk4 -next -motion=zb_odoodo01 -expression=smile06;
+:效果不一般，击中了要害，丰川祥子宕机了。
+changeFigure:341_mashiro/model.json -id=sk4 -transform={"scale":{"x":0.95,"y":0.95}} -next -motion=surprised01_rui -expression=shame01;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob4 -transform={"position":{"x":600},"scale":{"x":0.95,"y":0.95},"alpha":0.77} -next -motion=smile02 -expression=wink01_anon;
+理性:呃啊祥子祥子，快撒娇啊不是快生气啊，你不是说要生气的么？
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh4 -transform={"position":{"x":-700},"scale":{"x":0.95,"y":0.95},"alpha":0.77} -next -motion=angry07 -expression=angry01;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob4 -next -motion=smile05 -expression=default_anon;
+感性:呃啊祥子祥子，动啊丰川祥子， -notend -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=surprised01_soyo;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh4 -next -motion=angry03_anon -expression=smile05;
+为什么不动啊？ -concat -fontSize=default;
+changeFigure:sakiko_small/model.json -id=sox4 -transform={"position":{"x":-25,"y":400},"scale":{"x":0.96,"y":0.94},"alpha":0.77} -next -motion=angry02_taki -expression=angry01;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh4 -next -motion=nf_right01 -expression=surprised02;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob4 -next -motion=nf_left01 -expression=surprised02;
+本能: -fontSize=default -notend;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":0.95,"y":0.93},"alpha":0.77} -target=sox4 -duration=0 -next;
+本能:呃啊你再不动的话我就要动了哈，千早爱音是吧，你这个天生邪恶…… -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob4 -next -expression=smile05;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh4 -next -expression=smile05;
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=zb_sigh02 -expression=sigh01;
+changeFigure:sakiko_small/model.json -id=sox4 -next -motion=shame01 -expression=shame01;
+setTransform:{"position":{"y":400},"scale":{"x":0.95,"y":0.93},"alpha":0.77} -target=sox4 -duration=1400 -next;
+唔，呃，邪恶…… -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh4 -next -motion=sigh02_rui;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob4 -next -motion=sigh01;
+changeFigure:sakiko_small/model.json -id=sox4 -next -motion=shame02;
+本能:|好吧，天生善良的可爱小天使，我这就、这就…… -concat -fontSize=default;
+changeFigure:sakiko_small/model.json -id=sox4 -next -expression=shame02;
+唔姆…… -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob4 -next -motion=thinking03_anon -expression=smile03;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh4 -next -motion=zb_nf03 -expression=surprised01;
+changeFigure:sakiko_small/model.json -id=sox4 -next -motion=shame02_taki -expression=shame01;
+理性:完了，本能都给干宕机了。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh4 -next -motion=smile03 -expression=default;
+changeFigure:341_mashiro/model.json -id=sk4 -next -expression=surprised01;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob4 -next -motion=nnf_left01_mu -expression=smile05;
+感性:完了，咱们是不是一辈子都要被千早爱音压着了。
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=zb_angry07;
+changeFigure:sakiko_small/model.json -id=sox4 -next -motion=thinking01 -expression=turn_Up_look;
+bgm:none;
+:……一辈子？
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=awate01_lock;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh4 -next -motion=smile05 -expression=default;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob4 -next -motion=nf_left01 -expression=smile03;
+changeFigure:sakiko_small/model.json -id=sox4 -next -motion=nod01_kokoro -expression=angry01;
+:捕捉到关键词的丰川祥子，那昂首挺胸的灵魂终于回到了低头的肉体——| -notend -fontSize=default;
+bgm:heart.mp3;
+:她必须立刻采取反击，不然真就要被拿捏一辈子了！？ -concat -fontSize=default;
+changeFigure: -id=sk4 -next;
+changeFigure: -id=sox4 -next;
+changeFigure: -id=jh4 -next;
+changeFigure:none -id=ob4 -next;
+changeBg:a台场/seria_innerR.webp -next -transform={"position":{"y":-200}};
+changeFigure:341_mashiro/model.json -id=sk5 -transform={"position":{"x":-300},"scale":{"x":0.9,"y":0.9}} -next -motion=zb_nnf02 -expression=smile05;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -transform={"position":{"x":400},"scale":{"x":0.9,"y":0.9}} -next -motion=surprised01_kokoro -expression=shame01;
+祥子:……爱音，刚刚那些话，可不是【朋友】之间应该说的哦？
+changeBg:none -next;
+changeFigure:none -id=an5 -next;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=zb_serious02 -expression=default;
+:再被爱音这么重击一次的话，自己脑内的弦真的会断个干净——丰川祥子当机立断，必须要将气氛拉回原来的轨道。
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=zb_thinking02;
+:这是一场不容出错的牌局，她和爱音各自持有的最强手牌、正是对彼此的感情。
+changeFigure:341_mashiro/model.json -id=sk5 -next -expression=smile05;
+:如果一上来就将最强的王牌打出去的话，整个牌局都会提前结束……不，应该说是直接走向崩溃和失控。
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=zb_odoodo01 -expression=default;
+:毕竟，她们之间的关系，本就是矛盾的结合体：
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=zb_nf_left01 -expression=shame02;
+changeBg:bg00905.webp -next -transform={"alpha":0.8,"blur":20};
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk99 -transform={"position":{"x":400},"scale":{"x":0.9,"y":0.9},"blur":10} -next -motion=shame02 -expression=R_boby;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an99 -transform={"position":{"x":800},"scale":{"x":0.9,"y":0.9},"blur":10} -next -motion=zb_nf_left01 -expression=sad01;
+:她们的起点是超自然而极其不合理的、犹如神明恶作剧一般的梦境，| -fontSize=default;
+changeFigure:none -id=an99 -next;
+changeFigure:none -id=sk99 -next;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=sad02 -expression=smile03;
+changeBg:bg00455.webp -next -transform={"alpha":0.7,"blur":0};
+changeFigure:上原 绯玛丽/008_school_summer-2023model.json -id=mary -transform={"position":{"x":500},"scale":{"x":0.9,"y":0.9},"alpha":0.7} -next -motion=nnf_right01 -expression=smile02;
+changeFigure:LOCK/032_school_summer-2023model.json -id=lock -transform={"position":{"x":1000},"scale":{"x":0.9,"y":0.9},"alpha":0.7} -next -motion=nnf_left01 -expression=smile01;
+:而追求的终点却是普通而理所当然的、与一般的女孩子们无异的现实； -concat -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=nf01;
+changeBg:pink_blue.webp -next;
+changeFigure: -id=lock -next;
+changeFigure: -id=mary -next;
+:她们本应是难以相交的平行线，但粉与蓝的两条线却在不知不觉间交缠在了一起、变得难解难分；
+changeBg: -next;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=sigh01 -expression=default;
+:她们本应是无法同辉的日与月，但是——
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=serious02 -expression=default;
+:不对。|——不能这样盘。 -fontSize=default;
+changeBg:bigben.webp -next -transform={"blur":0};
+changeFigure:341_mashiro/model.json -id=sk5 -next -expression=smile03;
+:丰川祥子睁开眼睛，她突然意识到了最大的问题所在：早在她们作为普通的同学、朋友互相接触之前，梦中的她们就已经足够了解彼此了…… -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=sigh02_rui -expression=sad01;
+changeBg:SakiKo_Home_Out_Night_solo.webp -transform={"blur":0};
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=nnf04 -expression=shame02;
+changeBg:flower3.webp -next -transform={"blur":22};
+:无论是内心、还是肉体。 -concat -fontSize=default;
+changeBg: 选择背景图片 -next;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=sigh02 -expression=smile03;
+:这让她们之间的距离变得极其不稳定。 -fontSize=default;changeBg:SakiKo_Home_Out_Night_solo.webp  -next -transform={"blur":20,"rgbFilm":1};
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=thinking01_anon -expression=thinking02;
+:千早爱音并不知晓丰川祥子难以启齿的秘密、却能轻而易举地走进对方的内心；| -fontSize=default;changeBg:bigben.webp  -next -transform={"blur":20,"rgbFilm":1};
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=serious02_rui -expression=sigh01;
+:丰川祥子也无法触及千早爱音的过去，却能在对方的未来占据重要的一席之地—— -concat -fontSize=default;
+changeBg: -next;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=kime01 -expression=serious01;
+:这是矛盾的、不合理的，不能用单纯的远近去评估。 -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk5 -next -expression=sad01;
+:事已至此，她和她之间的关系，已经不可能以一种“普通而理所当然”的方式重新开始了…… -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=thinking01 -expression=default;
+:吗？ -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=nf01 -expression=kime01;
+:——不对。
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=nf05_anon -expression=R_body_down;
+changeFigure:sakiko_small/model.json -id=sox7 -transform={"position":{"x":400,"y":200},"scale":{"x":0.9,"y":0.87},"alpha":0.7} -next -motion=serious01_kokoro -expression=smile04;
+:内心的一道声音响起：将思维、逆转过来吧。
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=nod01_nanami -expression=smirk;
+changeFigure:sakiko_small/model.json -id=sox7 -next -motion=nod01;
+:既然不能“普通”地重新开始，那么，干脆就不要重新开始了。
+changeFigure:sakiko_small/model.json -id=sox7 -next -motion=serious02;
+changeFigure:anon_small.webp -id=sa7 -transform={"position":{"x":200,"y":600},"scale":{"x":0.45,"y":0.45},"alpha":0.7} -next;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=smile03 -expression=default;
+:——回归根源，不要将梦和现实分开看待，梦中的千早爱音就是真正的千早爱音、而梦中的丰川祥子就是真正的丰川祥子。
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=smile03 -expression=Down_look;
+setTransform:{"position":{"x":-400,"y":500},"scale":{"x":0.45,"y":0.45},"alpha":0.7,"rotation":-0.2} -target=sa7 -duration=0 -next;
+changeFigure:sakiko_small/model.json -id=sox7 -next -motion=sigh02 -expression=smile03;
+:这本就是无法忽略的事实，只是祥子一直以来都努力地想要将二者切割而已。
+changeFigure:341_mashiro/model.json -id=sk5 -next -expression=shame02;
+changeFigure:sakiko_small/model.json -id=sox7 -next -motion=kandou01_anon -expression=smile02;
+:……但实际上，无论是失控也好、崩溃也罢，只要是跟爱音在一起的话，二者对于丰川祥子这个人来说都无所谓。
+changeFigure: -id=sk5 -next;
+changeFigure: -id=sox7 -next;
+changeFigure:none -id=sa7 -next;
+changeScene:2_08/nya.txt

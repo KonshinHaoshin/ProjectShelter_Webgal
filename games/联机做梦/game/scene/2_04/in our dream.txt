@@ -1,0 +1,128 @@
+:是夜，梦中 -fontSize=default;
+bgm:10.selfworld.mp3 -enter=1200;
+changeBg:full_grey.webp -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -transform={"position":{"x":-100},"scale":{"x":0.9,"y":0.9}} -next -motion=nf_right01 -expression=serious02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -transform={"position":{"x":200},"scale":{"x":0.9,"y":0.9}} -next -motion=nf_left01 -expression=thinking03;
+祥子:爱音，我要跟你约法三章。
+:空无一物的梦境只有一张桌子和两张椅子，丰川祥子竖起三根手指、如是说道：
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -next -motion=angry06 -expression=serious01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -expression=surprised01;
+祥子:首先，我们的恋人关系——
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=kandou01 -expression=smile02;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -next -motion=angry01 -expression=surprised02;
+爱音:祥祥这算是答应我的告白了么！？
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -next -motion=angry07;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=nf_left01 -expression=smile03;
+祥子:——听我把话说完！
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -next -expression=angry02;
+:刚绷紧的表情立刻溃散，恼怒小章鱼鼓起了本来就显得圆滚滚的脸颊：
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -next -motion=nf01 -expression=serious01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=surprised01_eve -expression=surprised01;
+祥子:我们的恋人关系，只能在梦里成立。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=angry04 -expression=surprised01;
+爱音:……诶？
+:爱音眨了眨眼，似乎有些不解。
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -next -motion=nf03 -expression=serious02;
+祥子:简单来说就是一切照旧，我们在现实里依旧要保持一定的距离。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=sad02 -expression=default;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -next -motion=serious01 -expression=sad02;
+爱音:哎……
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -next -motion=odoodo01 -expression=angry02;
+:看到对方露出失落的表情，祥子咬了咬牙、逼着自己硬下心来：
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -next -motion=nf_right01_rui -expression=smile03;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=nf_left01 -expression=smile03;
+祥子:……我知道以爱音的性格应该会想要，呃，将自己的喜悦和幸福分享给其他人——但是，我这边也有自己的问题要处理。
+changeBg: -next;
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+:说着，祥子拿出了自己准备好的说辞，从Ave Mujica的商业策略到二人因为某个乐队而变得错综复杂的人际关系都说了一遍，主打一个动之以情晓之以理——简直完美。changeBg:full_grey.webp  -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -transform={"position":{"x":200},"scale":{"x":0.9,"y":0.9}} -next -motion=smile04 -expression=default;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -transform={"position":{"x":-100},"scale":{"x":0.9,"y":0.9}} -next -expression=surprised01;
+爱音:噗，其实祥祥不用说那么多啦，我也没爱慕虚荣到满脑子只想着自己的地步。
+changeBg:none -next;
+changeFigure:none -right -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -next -motion=thinking01;
+:出乎意料的是，爱音倒也没有在这种时候还顾着撒娇耍赖——
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -next -motion=nf01_rui -expression=smile03;
+:不。|祥子摇了摇头：这里不应该说“出乎意料”。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -next -motion=nnf04 -expression=smile06;
+:——千早爱音向来非常懂事，自己是最清楚这一点的人，不是么changeBg:full_grey.webp g -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -next -motion=nf04_rui -expression=smile02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -transform={"position":{"x":200},"scale":{"x":0.9,"y":0.9}} -next -motion=nf01 -expression=smile04;
+祥子:……谢谢你的理解。
+爱音:呜哇，不要用那么见外的说法嘛~
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=nf03_sk -expression=smile04;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -next -expression=surprised01;
+:爱音眯了眯眼，侧了侧脸、用食指轻轻点了点自己的脸颊。
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -next -motion=zb_sigh01 -expression=smile05;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=nnf04 -expression=smile04;
+祥子:……唉。
+changeFigure:none -left -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -next -motion=zb_angry02 -expression=sigh01;
+changeFigure:none -right -next;
+:祥子无奈地叹了口气，通过一个啄吻表达了自己的感谢——在这方面，她也很“懂事”。
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -next -motion=zb_angry04 -expression=shame01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=nf_left01 -expression=smile04;
+changeFigure:none -next;
+爱音:这就对了嘛~
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -next -expression=sad01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=nf04 -expression=smile04;
+祥子:……不知羞耻。
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -next -expression=angry02;
+爱音:祥祥真的有资格这么说么~？
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -next -motion=zb_nf_right01 -expression=thinking02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=nf_left01 -expression=smile03;
+祥子:下一个话题。
+爱音:呜哇好生硬。
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -next -motion=zb_odoodo01 -expression=serious02;
+:无视了对方的吐槽，祥子红着脸、收起了无名指，比了个“耶”：
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -next -motion=zb_nf_right01 -expression=thinking02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=thinking01 -expression=default;
+祥子:约法三章其之二，我的事情由我自己来解决。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -expression=surprised01;
+爱音:祥祥的事情——啊， ;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -next -motion=nf_left01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=nf03 -expression=smile03;
+爱音:说的是……以前乐队的事情、之类的？ -concat;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -next -expression=sad01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=nf_right01 -expression=smile03;
+祥子:……可以这么说。
+changeBg:none -next;
+changeFigure:none -right -next;
+changeFigure:none -left -next;
+bgm: -enter=900;
+:在入梦之前，丰川祥子思考了很久。
+changeBg:SakiKo_Home_Night_03.webp -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=thinking01 -expression=Down_look;
+bgm:01.rainy_day.mp3 -volume=80 -enter=1200;
+:她重新看待自己，也重新看待千早爱音——她在想，千早爱音给她提供了什么。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -expression=thinking02;
+:情绪价值？
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=nf01 -expression=serious02;
+:那这情绪价值的价值本身有点过高了，她不想说自己至今为止的成就全部仰赖于梦中的千早爱音，但她也不可能说这一切都只是她自己一人的功劳。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=sigh02 -expression=thinking01;
+:丰川家、噩梦、啤酒罐、打工、Crychic——以及，肩上背负着的、别人的人生。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -expression=smile03;
+:排名不分先后、但重量级倒是一个比一个夸张，如果没有荒诞却又幸福美好的梦境作为每日的缓冲带，丰川祥子在面对这些压力的时候，到底能坚持多久呢？
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=kime01 -expression=sad01;
+:她想，她会坚持到最后的。|但过程一定不会好看，结局肯定也不会尽善尽美。 -fontSize=default;
+changeBg:none -next;
+changeFigure:none -next;
+:于是，祥子想了很久——想啊、想啊，终于，她想清楚changeBg:full_grey.webp ng -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -next -motion=nnf_right01_rui -expression=serious01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=nnf_left01 -expression=serious01;
+祥子:爱音，你不是我的救赎，也不该成为我的救赎。
+:【救赎】这个词太危险了。
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -next -motion=sigh01 -expression=sad02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=sad01;
+:救的是别人、赎上的却是自己——不知为何，丰川祥子一直有一种预感：一旦让爱音牵扯到自己的过往，一切都会朝着不好的方向发展。
+:正如太阳和月亮本不应该碰面……|但是。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=angry04 -expression=sad02;
+爱音:祥祥……
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -expression=surprised01;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -next -motion=nnf_right01_anon -expression=smile03;
+祥子:但是，我们也不需要那样的关系，不是么？
+changeBg:none -next;
+changeFigure:none -right -next;
+changeFigure:none -left -next;
+changeScene:2_04/no SOX!.txt

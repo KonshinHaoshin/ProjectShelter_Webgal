@@ -1,0 +1,132 @@
+changeFigure:joypolis_vr.webp -id=vr -transform={"position":{"x":-1500,"y":-700},"scale":{"x":0.85,"y":0.85},"alpha":0.7,"rotation":-0.5,"blur":0} -next;
+changeFigure:joypolis_tube.webp -id=tube -transform={"position":{"x":0,"y":-100},"scale":{"x":0.85,"y":0.85},"alpha":0.7,"rotation":6,"blur":0} -next;
+changeFigure:joypolis_zombie.webp -id=gun -transform={"position":{"x":900},"scale":{"x":0.8,"y":0.8},"alpha":0.7,"rotation":0.7} -next;
+changeFigure:341_mashiro/model.json -id=sk9 -next -motion=thinking01 -expression=smile02;
+:这里的游戏项目可不少，甚至还有近年才兴起的各种VR空间游戏。祥子觉得，爱音应该会喜欢这类—— -fontSize=default;
+changeFigure: -id=gun -next;
+changeFigure: -id=vr -next;
+changeFigure: -id=tube -next;
+changeFigure: -id=sk9 -next;
+changeBg:a台场/joypolis7.jpg -next;
+changeFigure:341_mashiro/model.json -right -transform={"position":{"x":800},"scale":{"x":0.85,"y":0.85}} -next -motion=nf_left01 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -left -transform={"position":{"x":800},"scale":{"x":0.85,"y":0.85}} -next -motion=kime01 -expression=turnR;
+爱音:好耶~！顺利通关！
+changeFigure:none -left -next;
+setTransform:{"alpha":0.5} -target=bg-main -duration=0 -next;
+changeFigure:341_mashiro/model.json -right -next -motion=surprised02 -expression=default;
+:——不是，等等，这是不是喜欢过头了！？
+changeFigure:341_mashiro/model.json -right -next -motion=thinking02 -expression=smile03;
+:丰川祥子目瞪口呆地看着眼前的分数，明明是双人合力通关的、生化危机题材的游戏，但实际游玩过程中，祥子感觉自己完全就是被爱音拖着走—— -fontSize=default;
+changeBg:a台场/joypolis8.jpg -next;
+changeFigure:none -right -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -left -id=an -transform={"scale":{"x":0.9,"y":0.9}} -next -motion=shame01_kokoro -expression=smile04;
+changeFigure:341_mashiro_terrible/model.json -right -id=sk -transform={"scale":{"x":0.9,"y":0.9},"blur":5} -next -motion=nf04_anon -expression=surprised02;
+:爱音是那辆一直往前冲的越野车，而她是车子背后那个负重轮。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf05_kokoro;
+changeFigure:341_mashiro/model.json -right -id=sk -next -motion=nf_left01 -expression=smile05;
+setTransform:{"scale":{"x":0.9,"y":0.9},"blur":0} -target=sk -duration=0 -next;
+祥子:……爱音，意外地很擅长这类游戏呢。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nnf_right01 -expression=smile01;
+changeFigure:341_mashiro/model.json -id=sk -next -expression=thinking01;
+爱音:嗯？也还好啦，我只是平时也比较喜欢打游戏而已。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=smile01 -expression=turnR;
+changeFigure:341_mashiro/model.json -right -id=sk -next -motion=zb_nnf04 -expression=shame01;
+:粉发的少女将手里的枪械扛在肩上，笑得非常自然。
+changeFigure:none -id=an -next;
+changeBg:none -next;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=zb_thinking01 -expression=angry01;
+:——是反差。
+changeFigure:341_mashiro/model.json -id=sk -next -motion=zb_nnf01;
+:丰川祥子没感觉到爱音有什么反差萌，但倒是感觉到了一点“反差帅”——紧接着，就是一种莫名其妙的斗争心。
+changeBg:a台场/joypolis6.jpg -next;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=zb_angry07 -expression=angry01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -left -id=an2 -transform={"scale":{"x":0.9,"y":0.9}} -next -motion=nnf_right01_mu -expression=smile03;
+:这位前任大小姐那美味又纯天然无污染的自尊心，在极其无所谓的地方、以一种极其无害的方式爆发了：
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nf_left01;
+setTransform:{"position":{"x":-2100},"scale":{"x":0.9,"y":0.9}} -target=sk -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=nf_left01 -expression=surprised01;
+祥子:……下一个项目。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -expression=surprised01_sk;
+setTransform:{"position":{"x":-1300},"scale":{"x":0.9,"y":0.9}} -target=an2 -duration=0 -next;
+爱音:诶，好快！？
+changeFigure:none -id=sk -next;
+changeFigure:none -id=an2 -next;
+changeBg:band gream.jpg -next -transform={"alpha":0.9};
+changeFigure:lost.webp -id=lose -transform={"position":{"y":-1100},"scale":{"x":0.85,"y":0.85},"alpha":0} -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -left -id=an10 -transform={"position":{"x":-900},"alpha":0} -next;
+:这次是音游，丰川祥子坚信自己的指技不会输——
+changeBg:none -next;
+setTransform:{"position":{"y":-1100},"scale":{"x":0.87,"y":0.87},"alpha":1} -target=lose -duration=0 -next;
+changeFigure:341_mashiro/model.json -right -id=sk10 -next -motion=cry05 -expression=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an10 -next -motion=nnf_right01 -expression=smile03;
+setTransform:{"position":{"x":0},"scale":{"x":1,"y":1},"alpha":1} -target=an10 -duration=1500 -next;
+祥子:……为什么、输了？ -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an10 -next -motion=smile01_mu -expression=default;
+changeFigure:341_mashiro/model.json -id=sk10 -next -motion=nf_left01 -expression=cry01;
+爱音:祥子，那个绿色的滑键在最后一下也有个尾判要处理来着……
+changeBg:band gream.jpg -next -transform={"alpha":0.9};
+changeFigure:none -id=lose -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an10 -next -motion=thinking03 -expression=smile03;
+changeFigure:341_mashiro/model.json -id=sk10 -next -expression=surprised01;
+祥子:……那是什么？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an10 -next -motion=nf04 -expression=smile05_sk;
+changeFigure:341_mashiro/model.json -id=sk10 -next -motion=nf01 -expression=Down_look;
+爱音:呃，简单来说就是——
+changeFigure:341_mashiro/model.json -id=sk10 -next -motion=angry01_anon;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an10 -next -motion=surprised01_mu -expression=smile03;
+setTransform:{"position":{"x":800},"scale":{"x":1.05,"y":1.05},"alpha":0} -target=sk10 -duration=800 -next;
+祥子:——下一个！
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an10 -next -motion=nnf_right01;
+setTransform:{"position":{"x":800},"scale":{"x":1.05,"y":1.05},"alpha":0} -target=an10 -duration=0 -next;
+爱音:哎哎！？
+changeFigure:none -id=sk10 -next;
+changeFigure: -id=an10 -next;
+changeBg:taikou1.webp -next -transform={"position":{"y":0}};
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -left -id=an -transform={"position":{"x":300,"y":300},"scale":{"x":0.73,"y":0.73}} -next -motion=nnf_right01 -expression=smile03;
+changeFigure:341_mashiro/model.json -right -id=sk -transform={"position":{"x":400,"y":300},"scale":{"x":0.73,"y":0.73}} -next -motion=nnf04 -expression=angry01;
+:下一个还是音游，只不过是打鼓题材的。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=zb_shame01 -expression=smile04;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=gattsu01_kokoro -expression=serious02;
+:丰川祥子露出坚毅的眼神，这一次，她还是坚信手中的鼓棒不会输——
+changeFigure:none -id=an -next;
+changeFigure:none -id=sk -next;
+changeBg:taikou2.webp -next;
+changeFigure:341_mashiro/model.json -id=sk2 -transform={"position":{"x":500,"y":75},"scale":{"x":0.9,"y":0.9}} -next -motion=cry03 -expression=sad02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -transform={"position":{"x":-500,"y":75},"scale":{"x":0.9,"y":0.9}} -next -motion=serious02 -expression=smile03;
+祥子:……为什么、输了？ -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=nnf01 -expression=smile01;
+setTransform:{"position":{"x":-50},"scale":{"x":0.9,"y":0.9}} -target=an2 -duration=0 -next;
+changeFigure:341_mashiro/model.json -id=sk2 -next -motion=nf_left01_mu;
+changeFigure:mask.webp -id=mask -transform={"position":{"x":600,"y":-500},"scale":{"x":0.35,"y":0.35},"alpha":0,"rotation":3.2} -next;
+爱音:祥子，蓝色的图案是要敲靠近边缘的位置哦……？ -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=surprised01 -expression=default;
+changeFigure:341_mashiro/model.json -id=sk2 -next -expression=smile05;
+setTransform:{"position":{"x":450,"y":-200},"scale":{"x":0.3,"y":0.3},"alpha":1,"rotation":3.4} -target=mask -duration=0 -next;
+祥子:……太阳，下山了。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=bye01_kokoro -expression=surprised01;
+setTransform:{"position":{"x":200,"y":20},"scale":{"x":0.9,"y":0.9}} -target=an2 -duration=0 -next;
+setTransform:{"position":{"x":1200,"y":-800},"scale":{"x":0.28,"y":0.28},"alpha":0,"rotation":9} -target=mask -duration=0 -next;
+爱音:不不不，现在还没到正午哦……？
+changeFigure:none -id=sk2 -next;
+changeFigure:none -id=an2 -next;
+changeFigure:none -id=mask -next;
+changeBg:none -next;
+:——就这样，不知道几番胜负过去，祥子几乎没有占到任何便宜。
+changeBg:a台场/joypolis9.jpg -next;
+changeFigure:341_mashiro_terrible/model.json -right -id=sk11 -transform={"position":{"x":-120,"y":-50},"scale":{"x":0.8,"y":0.8},"rotation":0.1,"oldFilm":1,"dotFilm":1,"rgbFilm":1} -next -motion=nnf04_rui -expression=smile02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -left -id=an11 -transform={"scale":{"x":0.8,"y":0.8}} -next -motion=kime01 -expression=smile01;
+:哪怕是抱着玉石俱焚、同归于尽的心态拖着爱音去鬼屋，最终的结果也不尽人意。
+changeFigure:341_mashiro_terrible/model.json -id=sk11 -next -motion=nf01_kokoro -expression=thinking02;
+爱音:啊哈哈~这个解谜还挺有意思的嘛~！
+changeFigure:341_mashiro/model.json -id=sk11 -transform={"position":{"x":400,"y":0},"scale":{"x":0.8,"y":0.8},"rotation":0,"oldFilm":0,"dotFilm":0,"rgbFilm":0} -next -motion=nf_left01 -expression=surprised01_anon;
+setTransform:{"position":{"x":400,"y":0},"scale":{"x":0.8,"y":0.8},"rotation":0,"oldFilm":0,"dotFilm":0,"rgbFilm":0} -target=sk11 -duration=0 -next;
+:——这是千早爱音，她虽然也被一些“jump scare”吓了一跳，但比起惊吓的部分，她似乎更喜欢这个鬼屋的谜题设计。
+changeFigure:341_mashiro/model.json -id=sk11 -next -motion=odoodo01 -expression=surprised02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an11 -next -motion=smile03 -expression=default;
+祥子:……刚、刚刚还有解谜？
+bgm: -enter=1900;
+:——这是丰川祥子，她压根不知道刚刚的鬼屋还有解谜部分，怕是已经遗忘一切了。
+changeBg:none -next;
+changeFigure: -id=sk11 -next;
+changeFigure: -id=an11 -next;
+changeScene:tomorin.txt

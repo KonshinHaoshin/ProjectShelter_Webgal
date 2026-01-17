@@ -1,0 +1,326 @@
+changeBg:none -next;
+changeFigure:IMG_663999.webp -id=bg8 -transform={"position":{"x":-2500,"y":850},"scale":{"x":6.2,"y":6.2},"alpha":0} -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob82 -transform={"position":{"x":-250,"y":-180},"scale":{"x":0.9,"y":0.9},"alpha":0} -next -motion=idle01 -expression=default;
+changeFigure:341_mashiro/model.json -id=sk8 -transform={"position":{"x":550,"y":-180},"scale":{"x":0.9,"y":0.9}} -next -motion=sad02_aya -expression=thinking01;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh83 -transform={"position":{"x":1200,"y":-200},"scale":{"x":0.97,"y":0.97},"alpha":0} -next -motion=idle01 -expression=default;
+changeFigure:341_mashiro_sad/model.json -id=sk83 -transform={"position":{"x":590,"y":-190},"scale":{"x":0.9,"y":0.9},"alpha":0,"rotation":0.02} -next -motion=idle01 -expression=default;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob83 -transform={"position":{"x":150,"y":-160},"scale":{"x":0.88,"y":0.88},"alpha":0} -next -motion=idle01 -expression=default;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob8 -transform={"position":{"x":1700,"y":-200},"scale":{"x":0.92,"y":0.92},"alpha":0,"rotation":0.8} -next -motion=idle01 -expression=default;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh8 -transform={"position":{"x":200,"y":0},"alpha":0,"blur":10} -next -motion=idle01 -expression=default;
+changeFigure:sakiko_small/sakiko_small_banned/model.json -id=sox8 -transform={"position":{"x":0,"y":250},"alpha":0,"rotation":0.2,"blur":10} -next;
+changeFigure:anon_small.webp -id=sa81 -transform={"position":{"x":200,"y":550},"scale":{"x":0.37,"y":0.37},"alpha":0,"rotation":-6} -next;changeFigure:anon_small.webp -id==sa82 -transform={"position":{"x":1300,"y":-400},"scale":{"x":0.36,"y":0.36},"alpha":0,"rotation":5} -next;
+changeFigure:inner7.webp -id=bg82 -transform={"position":{"x":-2130,"y":50},"scale":{"x":2.4,"y":2.4},"alpha":0,"blur":12} -next;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk8 -transform={"position":{"x":-770,"y":-180},"scale":{"x":0.9,"y":0.9},"alpha":0,"blur":12} -next -motion=idle01 -expression=default;
+
+changeFigure:341_mashiro_sad/model.json -id=sk82 -transform={"position":{"x":-350,"y":-400},"scale":{"x":1.3,"y":1.3},"alpha":0,"rotation":0} -next -motion=idle01 -expression=default;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk82 -transform={"position":{"x":-2350,"y":-400},"scale":{"x":1.3,"y":1.3},"alpha":0,"rotation":0,"blur":15} -next -motion=idle01 -expression=default;
+
+changeFigure:sk01.webp -id=sk001 -transform={"position":{"x":200,"y":100},"scale":{"x":1.4,"y":1.4},"alpha":0} -next;
+changeFigure:sk02.webp -id=sk002 -transform={"position":{"x":200,"y":100},"scale":{"x":1.4,"y":1.4},"alpha":0} -next;
+
+changeFigure:why/bg.webp -id=bg83 -transform={"scale":{"x":2},"alpha":0} -next;
+
+changeFigure:why/why3/0.webp -id=why3_0 -transform={"position":{"x":-150},"scale":{"x":1.1,"y":1.1},"alpha":0,"rotation":-0.03,"blur":3} -next;
+changeFigure:why/why3/1.webp -id=why3_1 -transform={"scale":{"x":1.1,"y":1.1},"alpha":0,"rotation":0.08,"blur":3} -next;
+changeFigure:why/why3/2.webp -id=why3_2 -transform={"position":{"x":100},"scale":{"x":1.1,"y":1.1},"alpha":0,"rotation":-0.25,"blur":3} -next;
+changeFigure:why/why3/3.webp -id=why3_3 -transform={"position":{"x":250},"scale":{"x":1.1,"y":1.1},"alpha":0,"rotation":-0.06,"blur":3} -next;
+changeFigure:why/why3/4.webp -id=why3_4 -transform={"position":{"x":50},"scale":{"x":1.1,"y":1.1},"alpha":0,"rotation":0.09,"blur":3} -next;
+changeFigure:why/why3/5.webp -id=why3_5 -transform={"position":{"x":280,"y":160},"scale":{"x":1.1,"y":1.1},"alpha":0,"rotation":0.11,"blur":3,"rgbFilm":0} -next;
+changeFigure:why/why3/6.webp -id=why3_6 -transform={"position":{"x":320,"y":-250},"scale":{"x":1.1,"y":1.1},"alpha":0,"rotation":-0.07,"blur":3,"rgbFilm":0} -next;
+changeFigure:why/why3/7.webp -id=why3_7 -transform={"position":{"x":130,"y":550},"scale":{"x":1.1,"y":1.1},"alpha":0,"rotation":-0.14,"blur":3} -next;
+changeFigure:why/why3/8.webp -id=why3_8 -transform={"position":{"x":250},"scale":{"x":1.1,"y":1.1},"alpha":0,"rotation":0.028,"blur":3} -next;
+:————。
+:……初华，到底想说什么？
+
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob8 -next -motion=nnf04 -expression=thinking02R;
+setTransform:{"position":{"x":-250,"y":-180},"scale":{"x":0.9,"y":0.9},"alpha":0.7} -target=ob8 -duration=800 -next;
+changeFigure:341_mashiro/model.json -id=sk8 -next -motion=sad01_mu -expression=serious02;
+
+
+:如果只是这种程度的闲聊，有必要如此突兀地打电话过来么？
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob8 -next -motion=nnf05_rui -expression=thinking02;
+changeFigure:341_mashiro/model.json -id=sk8 -next -motion=thinking02 -expression=thinking02;
+
+:不光是理性，就连祥子也皱起了眉头：三角初华那被手机轻微扭曲了音质的嗓音，似乎蕴藏着某种深沉的情绪。
+
+
+;changed
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob8 -next -motion=nf_left01_rui -expression=thinking02;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob82 -next -motion=nf_left01_rui -expression=thinking02;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh8 -next -motion=sigh02 -expression=Down_look;
+changeFigure:sakiko_small/sakiko_small_banned/model.json -id=sox8 -next -motion=angry04_taki -expression=angry01;
+changeFigure:341_mashiro/model.json -id=sk8 -next -motion=nnf_left01_anon -expression=thinking01;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk8 -next -motion=K_nf03 -expression=K_angry01;
+setTransform:{"position":{"x":200,"y":0},"scale":{"x":0.8,"y":0.8},"alpha":1,"blur":18} -target=uk8 -duration=500 -next;
+setTransform:{"position":{"x":-1000,"y":150},"scale":{"x":2,"y":2},"alpha":1,"blur":10} -target=bg82 -duration=500 -next;
+setTransform:{"position":{"x":1280,"y":-460},"scale":{"x":0.8,"y":0.8},"alpha":0.7,"rotation":0.5} -target=ob8 -duration=0 -next;
+setTransform:{"position":{"x":1280,"y":-460},"scale":{"x":0.8,"y":0.8},"alpha":0,"rotation":0.5} -target=ob82 -duration=0 -next;
+setTransform:{"position":{"x":-1500,"y":650},"scale":{"x":5.3,"y":5.3},"alpha":0.7,"rotation":0,"blur":1} -target=bg8 -duration=500 -next;
+setTransform:{"position":{"x":1200,"y":-40},"scale":{"x":0.77,"y":0.77},"alpha":1,"rotation":0} -target=sk8 -duration=500 -next;
+setTransform:{"position":{"x":1400,"y":-80},"scale":{"x":0.81,"y":0.81},"alpha":0.7} -target=jh8 -duration=1500 -next;
+setTransform:{"position":{"x":1420,"y":180},"scale":{"x":0.82,"y":0.7872},"alpha":0.7,"rotation":0.21} -target=sox8 -duration=1500 -next;
+:尽管那发狂的年幼小祥还在嚷嚷着“我必须立刻到爱音家里初试云雨情”之类的迷之台词，但感性还是拉着它一起凑了过来、侧耳倾听。
+changeFigure:341_mashiro/model.json -id=sk8 -next -motion=nf_left01_soyo;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh8 -next -motion=thinking01 -expression=L_Boby;
+changeFigure:sakiko_small/sakiko_small_banned/model.json -id=sox8 -next -motion=nf_left01_taki -expression=thinking02;
+祥子:……初华？
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob8 -next -motion=surprised01_rui -expression=surprised02;
+changeFigure:sakiko_small/sakiko_small_banned/model.json -id=sox8 -next -motion=nod01_kokoro -expression=turn_L_Body;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh8 -next -motion=surprised02 -expression=L_Boby;
+
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk8 -next -motion=K_nf_right01 -expression=smile03_sk;
+changeFigure:341_mashiro/model.json -id=sk8 -next -motion=nf_left01_aya -expression=surprised02;
+;setTransform:{"position":{"x":50,"y":-290},"scale":{"x":0.9,"y":0.9},"rotation":0.12,"blur":17} -target=uk8 -duration=1800 -next;
+;setTransform:{"position":{"x":590,"y":-190},"scale":{"x":0.9,"y":0.9},"rotation":0.02} -target=sk8 -duration=0 -next;
+setTransform:{"position":{"x":920,"y":-120},"scale":{"x":0.8,"y":0.8},"alpha":1,"rotation":0.12,"blur":18} -target=uk8 -duration=1700 -next;
+setTransform:{"position":{"x":1280,"y":-40},"scale":{"x":0.77,"y":0.77},"alpha":1,"rotation":0.06} -target=sk8 -duration=750 -next;
+初华:[——那孩子，如果我没记错的话，是叫千早爱音来着？](style-alltext=font-style:italic\;  style=color:#af2f2f) -fontSize=default;
+
+;changed
+setTransform:{"position":{"x":820,"y":-120},"scale":{"x":0.8,"y":0.8},"alpha":0,"rotation":0.12,"blur":18} -target=uk8 -duration=1700 -next;
+setTransform:{"position":{"x":1280,"y":-40},"scale":{"x":0.77,"y":0.77},"alpha":0,"rotation":0.06} -target=sk8 -duration=750 -next;
+setTransform:{"position":{"x":-1050,"y":150},"scale":{"x":2,"y":2},"alpha":0,"blur":10} -target=bg82 -duration=500 -next;
+setTransform:{"position":{"x":1280,"y":-460},"scale":{"x":0.8,"y":0.8},"alpha":0,"rotation":0.5} -target=ob8 -duration=0 -next;
+setTransform:{"position":{"x":-1500,"y":650},"scale":{"x":5.3,"y":5.3},"alpha":0,"rotation":0,"blur":1} -target=bg8 -duration=500 -next;
+setTransform:{"position":{"x":1400,"y":-80},"scale":{"x":0.81,"y":0.81},"alpha":0} -target=jh8 -duration=1500 -next;
+setTransform:{"position":{"x":1420,"y":180},"scale":{"x":0.82,"y":0.7872},"alpha":0,"rotation":0.21} -target=sox8 -duration=1500 -next;
+setTransform:{"position":{"x":200,"y":100},"scale":{"x":1.4,"y":1.4},"alpha":1} -target=sk001 -duration=0 -next;
+;——————。
+
+bgm:某首阴间乐曲.mp3 -enter=600;
+:诶。                       -notend; 
+;(播放嘟嘟嘟的声音？)
+setTransform:{"position":{"x":200,"y":100},"scale":{"x":1.4,"y":1.4},"alpha":0} -target=sk001 -duration=500 -next;
+setTransform:{"position":{"x":198,"y":107},"scale":{"x":1.4,"y":1.4},"alpha":1,"rgbFilm":1} -target=sk002 -duration=300 -next;
+:|少女的嘴唇颤动了一下。 -concat;
+setTransform:{"position":{"x":200,"y":100},"scale":{"x":1.4,"y":1.4},"alpha":0} -target=sk002 -duration=0 -next;
+
+intro:——为什么？|琥珀金的双瞳猛地一缩，微弱的耳鸣声逐渐变得愈加嘈杂—— -fontSize=large -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(138, 7, 7, 1) -animation=revealAnimation -delayTime=1500 -hold;
+changeFigure:none -id=ob8 -next;
+changeFigure:341_mashiro_sad/model.json -id=sk82 -next -motion=sad02_anon -expression=surprised02;
+setTransform:{"position":{"x":-350,"y":-400},"scale":{"x":1.3,"y":1.3},"alpha":1,"rotation":0} -target=sk82 -duration=0 -next;
+:为什么，初华会突然……
+changeFigure:341_mashiro_sad/model.json -id=sk82 -next -motion=surprised02 -expression=L_Boby;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk82 -next -motion=nf_right01 -expression=smile01;
+setTransform:{"position":{"x":450,"y":-400},"scale":{"x":1.3,"y":1.3},"alpha":1,"rotation":0} -target=sk82 -duration=0 -next;
+setTransform:{"position":{"x":-650,"y":-400},"scale":{"x":1.3,"y":1.3},"alpha":1,"rotation":0,"blur":12,"dotFilm":1,"rgbFilm":1} -target=uk82 -duration=0 -next;
+setTransform:{"position":{"x":1420,"y":250},"scale":{"x":0.82,"y":0.7872},"alpha":,"rotation":0} -target=sox8 -duration=0 -next;
+setTransform:{"position":{"x":1280,"y":-40},"scale":{"x":0.77,"y":0.77},"alpha":0,"rotation":0} -target=sk83 -duration=1500 -next;
+setTransform:{"position":{"x":1340,"y":250},"scale":{"x":0.82,"y":0.7872},"alpha":0,"rotation":0} -target=sox8 -duration=1500 -next;
+初华:[我也是想了好一会儿才想起来的呢。](style-alltext=font-style:italic\; style=color:#6c6d58\;)
+setTransform:{"position":{"x":450,"y":-300},"scale":{"x":1.3,"y":1.3},"alpha":0,"rotation":0} -target=sk82 -duration=1000 -next;
+setTransform:{"position":{"x":-650,"y":-300},"scale":{"x":1.3,"y":1.3},"alpha":0,"rotation":0,"blur":12,"dotFilm":1,"rgbFilm":1} -target=uk82 -duration=1000 -next;
+
+setTransform:{"position":{"x":820,"y":0},"scale":{"x":0.8,"y":0.8},"alpha":1,"rotation":0,"blur":18} -target=uk8 -duration=1700 -next;
+setTransform:{"position":{"x":1280,"y":-40},"scale":{"x":0.77,"y":0.77},"alpha":1,"rotation":0} -target=sk83 -duration=1500 -next;
+setTransform:{"position":{"x":-1050,"y":150},"scale":{"x":2,"y":2},"alpha":1,"blur":10} -target=bg82 -duration=1500 -next;
+setTransform:{"position":{"x":1280,"y":-460},"scale":{"x":0.8,"y":0.8},"alpha":0.7,"rotation":0.5} -target=ob82 -duration=1500 -next;
+setTransform:{"position":{"x":-1500,"y":650},"scale":{"x":5.3,"y":5.3},"alpha":1,"rotation":0,"blur":1} -target=bg8 -duration=1500 -next;
+setTransform:{"position":{"x":1400,"y":-80},"scale":{"x":0.81,"y":0.81},"alpha":0.7} -target=jh8 -duration=1500 -next;
+setTransform:{"position":{"x":1340,"y":250},"scale":{"x":0.82,"y":0.7872},"alpha":0.7,"rotation":0} -target=sox8 -duration=1500 -next;
+
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk8 -next -motion=nf01 -expression=smile02;
+changeFigure:341_mashiro_sad/model.json -id=sk83 -next -motion=nf_left01_eve -expression=surprised02;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob82 -next -motion=nf03 -expression=thinking02;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh8 -next -motion=nf_left01_rui -expression=surprised02;
+changeFigure:sakiko_small/sakiko_small_banned/model.json -id=sox8 -next -motion=angry01_taki -expression=turn_L_Body;
+初华:[之前在机缘巧合之下、跟那孩子还有过一面之缘](style-alltext=font-style:italic\; style=color:#2f2f2f\;)[来着……](style-alltext=font-style:italic\; style=color:#2f2f2f\;);
+setTransform:{"position":{"x":-1000,"y":650},"scale":{"x":5.3,"y":5.3},"alpha":0,"rotation":0,"blur":20} -target=bg8 -duration=500 -next;
+setTransform:{"position":{"x":-1550,"y":150},"scale":{"x":2,"y":2},"alpha":0,"blur":20} -target=bg82 -duration=500 -next;
+setTransform:{"position":{"x":900,"y":-50},"scale":{"x":0.85,"y":0.85}} -target=sk83 -duration=900 -next;
+setTransform:{"position":{"x":-400,"y":-50},"scale":{"x":0.85,"y":0.85},"alpha":1,"rotation":0,"blur":18} -target=uk8 -duration=900 -next;
+setTransform:{"position":{"x":400,"y":-40},"scale":{"x":0.848,"y":0.848},"alpha":0.7,"rotation":0} -target=ob82 -duration=900 -next;
+setTransform:{"position":{"x":400,"y":-40},"scale":{"x":0.848,"y":0.848},"alpha":0,"rotation":0} -target=ob83 -duration=900 -next;
+setTransform:{"position":{"x":1200,"y":-60},"scale":{"x":0.86,"y":0.86},"alpha":0.7,"rotation":0,"blur":0} -target=jh8 -duration=900 -next;
+setTransform:{"position":{"x":1200,"y":-60},"scale":{"x":0.86,"y":0.86},"alpha":0,"rotation":0,"blur":0} -target=jh83 -duration=900 -next;
+setTransform:{"position":{"x":1200,"y":280},"scale":{"x":0.86,"y":0.8256},"alpha":0.7} -target=sox8 -duration=900 -next;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk8 -next -motion=K_nf04 -expression=turn_L_Body;
+
+changeFigure:341_mashiro_sad/model.json -id=sk83 -next -motion=angry01;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob82 -next -motion=surprised01_rui -expression=surprised01;
+changeFigure:sakiko_small/sakiko_small_banned/model.json -id=sox8 -next -motion=nf03 -expression=thinking02;
+初华:[嗯，对，她就是那支叫Mygo!!!!!的乐队里的吉他手吧？我有关注她们的乐队账号哦。](style-alltext=font-style:italic\; style=color:#2f2f2f\;)
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob82 -next -motion=thinking02 -expression=thinking02;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk8 -next -motion=sigh02_sk;
+setTransform:{"position":{"x":1220,"y":655},"scale":{"x":0.35,"y":0.35},"alpha":0.7,"rotation":-0.2} -target=sa82 -duration=0 -next;
+setTransform:{"position":{"x":1100,"y":600},"scale":{"x":0.35,"y":0.35},"alpha":0.7,"rotation":0.3} -target=sa81 -duration=0 -next;
+changeFigure:sakiko_small/sakiko_small_banned/model.json -id=sox8 -next -motion=smile06 -expression=turn_Down_look;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh8 -next -motion=kime01 -expression=surprised02;
+:——怎么回事？
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob82 -next -motion=serious01 -expression=R_boby;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob83 -next -motion=serious01 -expression=R_boby;
+setTransform:{"position":{"x":350,"y":-50},"scale":{"x":0.853,"y":0.853},"alpha":0} -target=ob82 -duration=0 -next;
+setTransform:{"position":{"x":350,"y":-50},"scale":{"x":0.853,"y":0.853},"alpha":0.7} -target=ob83 -duration=0 -next;
+changeFigure:341_mashiro_sad/model.json -id=sk83 -next -motion=nf_left01_mu -expression=sad01;
+setTransform:{"position":{"x":1180,"y":620},"scale":{"x":0.36,"y":0.36},"alpha":0,"rotation":0.3} -target=sa81 -duration=1000 -next;
+setTransform:{"position":{"x":1380,"y":680},"scale":{"x":0.36,"y":0.36},"alpha":0,"rotation":-0.2} -target=sa82 -duration=1000 -next;
+setTransform:{"position":{"x":1280,"y":260},"scale":{"x":0.98,"y":0.9412},"alpha":0,"rotation":0} -target=sox8 -duration=1000 -next;
+changeFigure:sakiko_small/sakiko_small_banned/model.json -id=sox8 -next -motion=smile01_anon -expression=smile02;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh8 -next -motion=surprised01 -expression=Down_look;
+:理性突然抬头，似乎想到了什么、又似乎是在说些什么——但是，祥子听不清楚。
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh8 -motion=nf_left01_anon -expression=surprised02;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob83 -next -motion=sigh01_rui -expression=surprised02R;
+changeFigure:341_mashiro_sad/model.json -id=sk83 -next -motion=nnf_left01_mu -expression=sad01;
+setTransform:{"position":{"x":1300,"y":-30},"scale":{"x":0.847,"y":0.847},"alpha":0} -target=jh8 -duration=0 -next;
+setTransform:{"position":{"x":1300,"y":-30},"scale":{"x":0.847,"y":0.847},"alpha":0.7} -target=jh83 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh8 -next -motion=sad02 -expression=L_Boby;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh83 -next -motion=sad02 -expression=L_Boby;
+;;
+:三角初华的声音，越来越远——|丰川祥子，似乎连拿稳手机的力气都没有了。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk8 -next -motion=nnf03 -expression=thinking01_sk;
+changeFigure:341_mashiro_sad/model.json -id=sk83 -next -motion=surprised01_mu -expression=surprised01;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob83 -next -motion=surprised01 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh83 -next -motion=thinking01 -expression=sad01;
+初华:[这么说来，那孩子还说过是我的粉丝来着……](style-alltext=font-style:italic\; style=color:#2f2f2f\;)
+changeFigure:341_mashiro_sad/model.json -id=sk83 -next -expression=surprised02;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk8 -next -motion=smile04_sk -expression=turn_R_Body;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh83 -next -expression=sigh01;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob83 -next -expression=surprised02;
+setTransform:{"position":{"x":-250,"y":-50},"scale":{"x":0.85,"y":0.85},"blur":15} -target=uk8 -duration=0 -next;
+初华:[啊，原来如此，之前祥子找我要的签名，也是给那位千早小姐的吧？](style-alltext=font-style:italic\; style=color:#2f2f2f\;) -concat;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob83 -next -motion=serious02_rui -expression=thinking02;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob82 -next -motion=serious02_rui -expression=thinking02;
+setTransform:{"position":{"x":-250,"y":-50},"scale":{"x":0.85,"y":0.85},"alpha":0,"rotation":0,"blur":15} -target=uk8 -duration=0 -next;
+setTransform:{"position":{"x":700,"y":-50},"scale":{"x":0.847,"y":0.847},"alpha":0} -target=ob83 -duration=800 -next;
+setTransform:{"position":{"x":700,"y":-50},"scale":{"x":0.847,"y":0.847},"alpha":0.7} -target=ob82 -duration=800 -next;
+setTransform:{"position":{"x":1300,"y":-30},"scale":{"x":0.847,"y":0.847},"alpha":0} -target=jh83 -duration=0 -next;
+setTransform:{"position":{"x":900,"y":-50},"scale":{"x":0.85,"y":0.85},"alpha":0} -target=sk83 -duration=500 -next;
+:——必须说些什么。 -fontSize=default;
+changeFigure:341_mashiro_sad/model.json -id=sk83 -next -motion=nf_left01_anon -expression=sad01;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob82 -next -motion=nf01_anon -expression=sigh02;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh83 -next -motion=nf_left01 -expression=sad02;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk8 -next -motion=K_nf03 -expression=turn_R_Body;
+setTransform:{"position":{"x":1300,"y":-30},"scale":{"x":0.847,"y":0.847},"alpha":0.7} -target=jh83 -duration=0 -next;
+setTransform:{"position":{"x":900,"y":-50},"scale":{"x":0.85,"y":0.85},"alpha":1} -target=sk83 -duration=500 -next;
+setTransform:{"position":{"x":-250,"y":-50},"scale":{"x":0.85,"y":0.85},"alpha":1,"rotation":0,"blur":15} -target=uk8 -duration=0 -next;
+:名为理性的丝线缠上了蓝发少女的四肢，丰川祥子就像是人偶一样被操纵着、被理性强迫着重新拿起手机，凑到耳边：
+changeFigure:341_mashiro_sad/model.json -id=sk83 -next -expression=smile03;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk8 -next -motion=K_nf_right01;
+祥子:初华——
+:即便三角初华并不在她的面前，她的嘴角也还是挤出了一个极其僵硬的笑容。
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk8 -next -motion=K_nf04 -expression=turn_R_Body;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob82 -next -motion=sad02 -expression=thinking02D;
+changeFigure:341_mashiro_sad/model.json -id=sk83 -next -motion=surprised01 -expression=surprised02;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh83 -next -motion=odoodo01 -expression=sad02;
+初华:[所以，祥子今天是在跟那孩子约会么？](style-alltext=font-style:italic\; style=color:#2f2f2f\;)
+
+intro:——为什么初华会知道？ -fontSize=large -backgroundColor=rgba(22, 0, 31, 1) -fontColor=rgba(255, 0, 0, 0.75) -animation=revealAnimation -delayTime=1500 -hold;
+;setTransform:{"position":{"x":0,"y":0},"scale":{"x":2,"y":1},"alpha":1,"rotation":0,"rgbFilm":1} -target=bg83 -duration=750 -next;
+;……嗡……
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":2,"y":1},"alpha":0,"rotation":0,"rgbFilm":1} -target=bg83 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk8 -next -motion=nf01 -expression=smile05_sk;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob82 -next -motion=sad02 -expression=thinking02D;
+changeFigure:341_mashiro_sad/model.json -id=sk83 -next -motion=nnf_left01 -expression=smile05;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh83 -next -motion=serious02_anon -expression=sad02;
+祥子:——约会什么的，我们只是普通的朋友关系——
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk8 -next -motion=sigh02_sk -expression=thinking02_sk;
+changeFigure:341_mashiro_sad/model.json -id=sk83 -next -expression=surprised02;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob82 -next -motion=nnf_right01 -expression=sad01;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh83 -next -motion=nnf_left01_mu -expression=sad02;
+初华:[祥子，不太擅长说谎呢。](style-alltext=font-style:italic\; style=color:#2f2f2f\;)
+setTransform:{"position":{"x":1700,"y":-30},"scale":{"x":0.847,"y":0.847},"alpha":0,"rotation":0,"blur":50} -target=jh83 -duration=0 -next;
+setTransform:{"position":{"x":900,"y":-50},"scale":{"x":0.85,"y":0.85},"alpha":0,"rotation":0,"blur":50} -target=sk83 -duration=500 -next;
+setTransform:{"position":{"x":-250,"y":-50},"scale":{"x":0.85,"y":0.85},"alpha":0,"rotation":0,"blur":50} -target=uk8 -duration=0 -next;
+setTransform:{"position":{"x":700,"y":-50},"scale":{"x":0.847,"y":0.847},"alpha":0,"rotation":0,"blur":50} -target=ob82 -duration=0 -next;
+changeFigure:341_mashiro_sad/model.json -id=sk83 -next -motion=nnf04 -expression=sad02;
+祥子:——。
+;——嗡——
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk8 -next -motion=K_worry01;
+初华:[为什么要对我说谎呢——](style-alltext=font-style:italic) -fontSize=large;
+;setTransform:{"position":{"x":150,"y":-180},"scale":{"x":0.9,"y":0.9},"blur":17} -target=uk8 -duration=750 -next;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk8 -expression=smile05_sk -next;
+changeFigure:341_mashiro_sad/model.json -id=sk83 -next -motion=surprised02 -expression=L_Boby;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob82 -next -motion=sigh01 -expression=sad01;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh83 -next -motion=sigh02_rui -expression=sad02;
+初华:[我，原来并没有被祥子信任着么？](style=color:#8f2f2f) -concat -fontSize=large;
+
+
+setTransform:{"position":{"x":150,"y":-160},"scale":{"x":0.9,"y":0.9},"alpha":0,"blur":40} -target=uk8 -duration=1200 -next;
+setTransform:{"position":{"x":-2500,"y":890},"scale":{"x":6.2,"y":6.2},"alpha":0,"blur":50} -target=bg8 -duration=1200 -next;
+setTransform:{"position":{"x":950,"y":-170},"scale":{"x":0.9,"y":0.9},"alpha":0,"rotation":0.02,"blur":30} -target=sk83 -duration=1200 -next;
+setTransform:{"position":{"x":1240,"y":-160},"scale":{"x":0.9,"y":0.9},"alpha":0,"blur":30} -target=jh83 -duration=1200 -next;
+setTransform:{"position":{"x":450,"y":-150},"scale":{"x":0.89,"y":0.89},"alpha":0,"blur":30} -target=ob82 -duration=1200 -next;
+
+setTransform:{"position":{"x":150,"y":-400},"scale":{"x":1.3,"y":1.3},"alpha":0,"rotation":0} -target=sk82 -duration=450 -next;
+;————嗡————
+:耳鸣声，彻底侵蚀了丰川祥子的听觉。 -fontSize=medium;
+
+setTransform:{"position":{"x":-150,"y":290},"scale":{"x":1.5,"y":1.5},"alpha":1,"rotation":-0.05,"blur":5} -target=why3_0 -duration=1700 -next;
+setTransform:{"position":{"x":-100,"y":100},"scale":{"x":1.5,"y":1.5},"alpha":1,"rotation":0.04,"blur":5} -target=why3_1 -duration=1860 -next;
+setTransform:{"position":{"x":40,"y":-700},"scale":{"x":1.5,"y":1.5},"alpha":1,"rotation":-0.15,"blur":5} -target=why3_2 -duration=2120 -next;
+setTransform:{"position":{"x":-150,"y":900},"scale":{"x":1.5,"y":1.5},"alpha":1,"rotation":0.08,"blur":5} -target=why3_3 -duration=2330 -next;
+setTransform:{"position":{"x":150,"y":300},"scale":{"x":1.5,"y":1.5},"alpha":1,"rotation":0.02,"blur":5} -target=why3_4 -duration=2620 -next;
+setTransform:{"position":{"x":720,"y":140},"scale":{"x":1.48,"y":1.48},"alpha":1,"rotation":0.16,"blur":5} -target=why3_5 -duration=2940 -next;
+setTransform:{"position":{"x":440,"y":-420},"scale":{"x":1.46,"y":1.46},"alpha":1,"rotation":-0.1,"blur":5} -target=why3_6 -duration=3220 -next;
+setTransform:{"position":{"x":300,"y":220},"scale":{"x":1.44,"y":1.44},"alpha":1,"rotation":-0.03,"blur":5} -target=why3_7 -duration=3450 -next;
+setTransform:{"position":{"x":300,"y":420},"scale":{"x":1.42,"y":1.42},"alpha":1,"rotation":0.02,"blur":5} -target=why3_8 -duration=3870 -next;
+: -fontSize=default;
+
+
+:;
+;祥子:……初华，抱歉，我不太懂你在说什么—— -fontSize=small
+setTransform:{"position":{"x":-320,"y":380},"scale":{"x":1.1,"y":1.1},"alpha":0,"rotation":-0.5,"blur":15} -target=why3_0 -duration=1100 -next;
+setTransform:{"position":{"x":-100,"y":30},"scale":{"x":1.12,"y":1.12},"alpha":0,"rotation":0.07,"blur":15} -target=why3_1 -duration=1100 -next;
+setTransform:{"position":{"x":60,"y":-400},"scale":{"x":1.1,"y":1.1},"alpha":0,"rotation":-0.11,"blur":15} -target=why3_2 -duration=1100 -next;
+setTransform:{"position":{"x":-190,"y":1200},"scale":{"x":1.1,"y":1.1},"alpha":0,"rotation":0.35,"blur":15} -target=why3_3 -duration=1100 -next;
+setTransform:{"position":{"x":350,"y":620},"scale":{"x":1.1,"y":1.1},"alpha":0,"rotation":-0.36,"blur":15} -target=why3_4 -duration=1100 -next;
+setTransform:{"position":{"x":740,"y":200},"scale":{"x":1.1,"y":1.1},"alpha":0,"rotation":0.35,"blur":15} -target=why3_5 -duration=1100 -next;
+setTransform:{"position":{"x":520,"y":-220},"scale":{"x":1.1,"y":1.1},"alpha":0,"rotation":-0.15,"blur":15} -target=why3_6 -duration=1100 -next;
+setTransform:{"position":{"x":470,"y":210},"scale":{"x":1.1,"y":1.1},"alpha":0,"rotation":-0.05,"blur":15} -target=why3_7 -duration=1100 -next;
+setTransform:{"position":{"x":425,"y":220},"scale":{"x":1.1,"y":1.1},"alpha":0,"rotation":0.3,"blur":15} -target=why3_8 -duration=1100 -next;
+
+setTransform:{"position":{"x":-550,"y":-380},"scale":{"x":1.3,"y":1.3},"alpha":0,"rotation":0,"blur":12,"rgbFilm":0,"dotFilm":0} -target=uk82 -duration=450 -next;
+:这是作为提线木偶的她，用尽最后的理性挤出来的、无意义的话语。 -fontSize=medium;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk82 -next -motion=smile02 -expression=smile02;
+setTransform:{"position":{"x":-550,"y":-380},"scale":{"x":1.3,"y":1.3},"alpha":1,"rotation":0,"blur":12,"rgbFilm":0,"dotFilm":0} -target=uk82 -duration=450 -next;
+setTransform:{"position":{"x":2150,"y":-400},"scale":{"x":1.3,"y":1.3},"alpha":0,"rotation":0} -target=sk82 -duration=450 -next;
+初华:[——祥子，普通的朋友关系、应该不会在大庭广众之下](style-alltext=font-style:italic\; style=color:#2f2f2f\;)[接吻](style-alltext=font-style:italic\; style=color:#ff8899\; ruby=Kiss)[吧？](style-alltext=font-style:italic\; style=color:#2f2f2f\;)
+:三角初华的声音，很平静。
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk82 -next -motion=smile02_sk -expression=turn_R_Body;
+;setTransform:{"position":{"x":2350},"scale":{"x":0.8,"y":0.8},"alpha":1,"blur":10} -target=bg84 -duration=2800 -next;
+setTransform:{"position":{"x":2150,"y":-400},"scale":{"x":1.3,"y":1.3},"alpha":1,"rotation":0} -target=sk82 -duration=450 -next;
+:平静到、就像是关系要好的女孩子在互相打闹——说着“嗯哼~你绝对是喜欢那个人吧~！”之类的玩笑话一样。
+setTransform:{"position":{"x":-2550,"y":-380},"scale":{"x":1.3,"y":1.3},"alpha":1,"rotation":0,"blur":12} -target=uk82 -duration=550 -next;
+setTransform:{"position":{"x":150,"y":-400},"scale":{"x":1.3,"y":1.3},"alpha":1,"rotation":0} -target=sk82 -duration=550 -next;
+changeFigure:341_mashiro_sad/model.json -id=sk82 -next -motion=sad01_anon -expression=cry03;
+:而对于这样的“玩笑话”，丰川祥子——
+changeFigure:341_mashiro_sad/model.json -id=sk82 -next -motion=sad02_mu -expression=cry01;
+祥子:……啊。
+changeFigure: -id=sk82 -next;
+:——完全、笑不出来。
+changeFigure:none -id=bg84 -transform={"position":{"x":-2320},"scale":{"x":0.8,"y":0.8},"alpha":1,"blur":0} -next;
+changeFigure:none -id=bg8 -transform={"position":{"x":-2500,"y":850},"scale":{"x":6.2,"y":6.2},"alpha":0} -next;
+changeFigure:none -id=ob82 -transform={"position":{"x":-250,"y":-180},"scale":{"x":0.9,"y":0.9},"alpha":0} -next;
+changeFigure:none -id=sk8 -transform={"position":{"x":550,"y":-180},"scale":{"x":0.9,"y":0.9}} -next -motion=sad02_aya -expression=thinking01;
+changeFigure:none -id=jh83 -transform={"position":{"x":1200,"y":-200},"scale":{"x":0.97,"y":0.97},"alpha":0} -next;
+changeFigure:none -id=sk83 -transform={"position":{"x":590,"y":-190},"scale":{"x":0.9,"y":0.9},"alpha":0,"rotation":0.02} -next;
+changeFigure:none -id=ob83 -transform={"position":{"x":150,"y":-160},"scale":{"x":0.88,"y":0.88},"alpha":0} -next;
+changeFigure:none -id=ob8 -transform={"position":{"x":1700,"y":-200},"scale":{"x":0.92,"y":0.92},"alpha":0,"rotation":0.8} -next;
+changeFigure:none -id=jh8 -transform={"position":{"x":200,"y":0},"alpha":0,"blur":10} -next;
+changeFigure:none -id=sox8 -transform={"position":{"x":0,"y":250},"alpha":0,"rotation":0.2,"blur":10} -next;
+changeFigure:none -id=sa81 -transform={"position":{"x":200,"y":550},"scale":{"x":0.37,"y":0.37},"alpha":0,"rotation":-6} -next;
+changeFigure:none -id=sa82 -transform={"position":{"x":1300,"y":-400},"scale":{"x":0.36,"y":0.36},"alpha":0,"rotation":5} -next;
+changeFigure:none -id=bg82 -transform={"position":{"x":-2130,"y":50},"scale":{"x":2.4,"y":2.4},"alpha":0,"blur":12} -next;
+changeFigure:none -id=uk8 -transform={"position":{"x":-770,"y":-180},"scale":{"x":0.9,"y":0.9},"alpha":0,"blur":12} -next;
+changeFigure:none -id=sk82 -transform={"position":{"x":-350,"y":-400},"scale":{"x":1.3,"y":1.3},"alpha":0,"rotation":0} -next;
+changeFigure:none -id=uk82 -transform={"position":{"x":-2350,"y":-400},"scale":{"x":1.3,"y":1.3},"alpha":0,"rotation":0,"blur":15} -next;
+changeFigure:none -id=sk001 -transform={"position":{"x":200,"y":100},"scale":{"x":1.4,"y":1.4},"alpha":0} -next;
+changeFigure:none -id=sk002 -transform={"position":{"x":200,"y":100},"scale":{"x":1.4,"y":1.4},"alpha":0} -next;
+changeFigure:none -id=bg83 -transform={"scale":{"x":2},"alpha":0} -next;
+changeFigure:none -id=why1_0 -transform={"position":{"x":-680,"y":-40},"scale":{"x":1.2,"y":1.2},"alpha":0,"rotation":0.03,"blur":35} -next;
+changeFigure:none -id=why1_1 -transform={"position":{"x":-150},"scale":{"x":1.2,"y":1.2},"alpha":0,"rotation":0,"blur":35} -next;
+changeFigure:none -id=why1_2 -transform={"scale":{"x":1.2,"y":1.2},"alpha":0,"blur":35} -next;
+changeFigure:none -id=why1_3 -transform={"position":{"x":130},"scale":{"x":1.2,"y":1.2},"alpha":0,"blur":35} -next;
+changeFigure:none -id=why1_4 -transform={"position":{"x":100,"y":-320},"scale":{"x":1.2,"y":1.2},"alpha":0,"rotation":0.01,"blur":35} -next;
+changeFigure:none -id=why2 -transform={"position":{"y":-100},"scale":{"x":1.2,"y":1.2},"alpha":0,"blur":10} -next;
+changeFigure:none -id=why3_0 -transform={"position":{"x":-150},"scale":{"x":1.1,"y":1.1},"alpha":0,"rotation":-0.03,"blur":3} -next;
+changeFigure:none -id=why3_1 -transform={"scale":{"x":1.1,"y":1.1},"alpha":0,"rotation":0.08,"blur":3} -next;
+changeFigure:none -id=why3_2 -transform={"position":{"x":100},"scale":{"x":1.1,"y":1.1},"alpha":0,"rotation":-0.25,"blur":3} -next;
+changeFigure:none -id=why3_3 -transform={"position":{"x":250},"scale":{"x":1.1,"y":1.1},"alpha":0,"rotation":-0.06,"blur":3} -next;
+changeFigure:none -id=why3_4 -transform={"position":{"x":50},"scale":{"x":1.1,"y":1.1},"alpha":0,"rotation":0.09,"blur":3} -next;
+changeFigure:none -id=why3_5 -transform={"position":{"x":280,"y":160},"scale":{"x":1.1,"y":1.1},"alpha":0,"rotation":0.11,"blur":3,"rgbFilm":0} -next;
+changeFigure:none -id=why3_6 -transform={"position":{"x":320,"y":-250},"scale":{"x":1.1,"y":1.1},"alpha":0,"rotation":-0.07,"blur":3,"rgbFilm":0} -next;
+changeFigure:none -id=why3_7 -transform={"position":{"x":130,"y":550},"scale":{"x":1.1,"y":1.1},"alpha":0,"rotation":-0.14,"blur":3} -next;
+changeFigure:none -id=why3_8 -transform={"position":{"x":250},"scale":{"x":1.1,"y":1.1},"alpha":0,"rotation":0.028,"blur":3} -next;
+:……………………………………………………
+changeScene:3_02/ansy.txt

@@ -1,0 +1,282 @@
+changeBg:bg00553.webp -next;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mumu -transform={"position":{"x":1400,"y":100},"scale":{"x":0.73,"y":0.73}} -next -motion=nf_left01_mu -expression=smile01_mu;
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -transform={"position":{"x":550,"y":100},"scale":{"x":0.73,"y":0.73}} -next -motion=nnf_right01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_rip/model.json -right -id=nyaya -transform={"position":{"x":700,"y":300},"scale":{"x":0.73,"y":0.73},"oldFilm":1,"rgbFilm":1} -next -motion=smile03 -expression=sad01;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_nocap_rip/model.json -id=uk -transform={"position":{"x":-400,"y":100},"scale":{"x":0.73,"y":0.73}} -next -motion=nnf_right01 -expression=smile02;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sksk -transform={"position":{"y":100},"scale":{"x":0.73,"y":0.73}} -next -motion=kime01_anon -expression=smile02;
+bgm:03.how.mp3;
+若麦:活、活下来了……
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_rip/model.json -id=nyaya -next -motion=nnf01 -expression=smile03;
+setTransform:{"position":{"y":100},"scale":{"x":0.73,"y":0.73},"oldFilm":0,"rgbFilm":0} -target=nyaya -duration=0 -next;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mumu -next -motion=nf_left01 -expression=smile02_mu;
+:这次的演出依旧大获成功，除了鼓手一副燃尽了的样子、即将从紫色系变成灰色系女子以外，大家脸上的表情都相当轻松。
+setTransform:{"position":{"x":-700,"y":-100},"scale":{"x":1.8,"y":1.8}} -target=bg-main -duration=0 -next;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_nocap_rip/model.json -id=uk -next -motion=nf04 -expression=kime01;
+setTransform:{"position":{"x":-1500,"y":0},"scale":{"x":0.9,"y":0.9}} -target=uk -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sksk -next -motion=nnf03 -expression=thinking02;
+setTransform:{"position":{"x":-1200,"y":0},"scale":{"x":0.9,"y":0.9},"alpha":1} -target=sksk -duration=0 -next;
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -motion=serious01 -expression=smile03;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":0.8,"y":0.8}} -target=umi -duration=0 -next;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_rip/model.json -id=nyaya -next -motion=nf_left01 -expression=smile03;
+setTransform:{"position":{"x":200,"y":0},"scale":{"x":0.8,"y":0.8}} -target=nyaya -duration=0 -next;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mumu -next -expression=thinking02;
+setTransform:{"position":{"x":1000,"y":0},"scale":{"x":0.8,"y":0.8}} -target=mumu -duration=0 -next;
+海铃:努力活下来了真是太好了呢，喵梦子。
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -motion=nnf05 -expression=smile03;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_rip/model.json -id=nyaya -next -motion=nf01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mumu -next -expression=surprised01;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sksk -next -motion=nf01_soyo -expression=smile03;
+若麦:……这句话我是不是每次演出结束之后都会听到？
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -motion=nf01 -expression=smile05;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_rip/model.json -id=nyaya -next -expression=angry01;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sksk -next -motion=nf_left01 -expression=smile06;
+海铃:要是听不到的话就糟糕了，这是好事，喵梦子。
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_rip/model.json -id=nyaya -next -motion=angry03_anon -expression=default_anon;
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -motion=nf04 -expression=smile04;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mumu -next -motion=thinking01_mu -expression=default;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sksk -next -motion=nf_left01_maya -expression=smile02;
+若麦:所以说是喵梦亲啦！喵梦亲！
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_rip/model.json -id=nyaya -next -motion=nnf01 -expression=smile03_anon;
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -motion=nf03 -expression=default;
+bgm: -enter=800;
+:整个乐队会跟鼓手小姐这样插科打诨的人，大概就只有贝斯手了。
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -expression=serious01;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_rip/model.json -id=nyaya -next -motion=smile02 -expression=turn_R_boby_Down;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mumu -next -motion=nf_left01 -expression=smile01_mu;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sksk -next -motion=thinking01 -expression=default;
+:不过，这位总是跟所有人都保持距离的贝斯手，今天却有意无意地将目光投向了她们的键盘手——八幡海铃看向丰川祥子的眼神中，似乎蕴含着某种深意。 -fontSize=default;
+setTransform:{"position":{"x":325},"scale":{"x":1.25,"y":1.25}} -target=bg-main -duration=0 -next;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_nocap_rip/model.json -id=uk -next -motion=mitore01 -expression=default;
+setTransform:{"position":{"x":-600,"y":0},"scale":{"x":0.8,"y":0.8}} -target=uk -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sksk -next -motion=nf_right01 -expression=thinking01;
+setTransform:{"position":{"x":-100,"y":0},"scale":{"x":0.8,"y":0.8}} -target=sksk -duration=0 -next;
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -motion=nf04 -expression=default;
+setTransform:{"position":{"x":700,"y":100},"scale":{"x":0.68,"y":0.68}} -target=umi -duration=0 -next;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_rip/model.json -id=nyaya -next -motion=surprised01_anon -expression=smile02;
+setTransform:{"position":{"x":820,"y":100},"scale":{"x":0.68,"y":0.68}} -target=nyaya -duration=0 -next;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mumu -next -motion=smile01_mu -expression=default;
+setTransform:{"position":{"x":1500,"y":100},"scale":{"x":0.68,"y":0.68}} -target=mumu -duration=0 -next;
+:但她什么也没说，因为她是八幡海铃。
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_nocap_rip/model.json -id=uk -next -motion=nf_right01 -expression=smile02;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sksk -next -motion=nf_left01_anon -expression=thinking01;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mumu -next -motion=nf_left01 -expression=thinking01;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_rip/model.json -id=nyaya -next -motion=thinking01_anon -expression=surprised01;
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -motion=angry02 -expression=surprised01;
+bgm:19. Passing_by.mp3;
+初华:那个……祥子！
+:说话的是三角初华。
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -expression=serious01;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sksk -next -expression=smile06;
+祥子:怎么了，初华？
+setTransform:{"position":{"x":325},"scale":{"x":1.25,"y":1.25},"alpha":0} -target=bg-main -duration=0 -next;
+setTransform:{"position":{"x":-100,"y":0},"scale":{"x":0.8,"y":0.8},"alpha":0} -target=sksk -duration=0 -next;
+setTransform:{"position":{"x":700,"y":100},"scale":{"x":0.68,"y":0.68},"alpha":0} -target=umi -duration=0 -next;
+setTransform:{"position":{"x":820,"y":100},"scale":{"x":0.68,"y":0.68},"alpha":0} -target=nyaya -duration=0 -next;
+setTransform:{"position":{"x":1500,"y":100},"scale":{"x":0.68,"y":0.68},"alpha":0} -target=mumu -duration=0 -next;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_nocap_rip/model.json -id=uk -next -motion=nf05;
+:丰川祥子并没有什么异样，至少在初华看来，现在的祥子要比之前“更好说话”了。
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_nocap_rip/model.json -id=uk -next -motion=kime01 -expression=shame01;
+:于是，初华决定试着……【向前迈出一步】：
+setTransform:{"position":{"x":700,"y":100},"scale":{"x":1.6,"y":1.6},"alpha":1,"blur":15} -target=bg-main -duration=0 -next;
+changeFigure:none -id=uk -next;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_nocap_rip/model.json -id=ukuk -transform={"position":{"x":-700},"scale":{"x":0.9,"y":0.9}} -next -motion=nf_right01 -expression=smile01;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sksk -next -expression=thinking01;
+setTransform:{"position":{"x":0},"scale":{"x":0.9,"y":0.9},"alpha":1} -target=sksk -duration=0 -next;
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -motion=thinking01 -expression=smile03;
+setTransform:{"position":{"x":1100},"scale":{"x":0.8,"y":0.8},"blur":7} -target=umi -duration=0 -next;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_rip/model.json -id=nyaya -next -motion=surprised01_anon;
+setTransform:{"position":{"x":1200},"scale":{"x":0.8,"y":0.8},"blur":7} -target=nyaya -duration=0 -next;
+setTransform:{"position":{"x":1900},"scale":{"x":0.8,"y":0.8},"blur":7} -target=mumu -duration=0 -next;
+初华:一会儿……我们要不要再举办一个庆功宴之类的？呃，不用太夸张的那种，就简单地大家一起吃个饭什么的——
+若麦:诶？
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sksk -next -motion=nnf_right01_rui -expression=smile03;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_rip/model.json -id=nyaya -next -motion=nf_left01 -expression=smile03;
+setTransform:{"position":{"x":700,"y":0},"scale":{"x":0.9,"y":0.9},"blur":0} -target=nyaya -duration=0 -next;
+:发出困惑声音的是队内的鼓手，佑天寺若麦小姐心想：她说的不是我的词么？
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -motion=nnf_right01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mumu -next -motion=nf01_mu -expression=default;
+setTransform:{"position":{"x":1500},"scale":{"x":0.8,"y":0.8},"blur":7} -target=mumu -duration=1500 -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sksk -next -motion=thinking01;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_nocap_rip/model.json -id=ukuk -next -motion=smile01 -expression=sad01;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_rip/model.json -id=nyaya -next -motion=nf04_anon -expression=smile03;
+祥子:嗯……
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -motion=smile02 -expression=serious01;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mumu -next -motion=odoodo01_mu;
+:同样发出困惑声音的是队内的键盘手，丰川祥子做出了思考的模样，似乎是在认真研究是否应该接受这个提议； -fontSize=default;
+setTransform:{"position":{"x":-700},"scale":{"x":1.6,"y":1.6},"blur":7} -target=bg-main -duration=0 -next;
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -motion=nnf_right01 -expression=sigh01;
+setTransform:{"position":{"x":-100,"y":0},"scale":{"x":0.9,"y":0.9},"alpha":1} -target=umi -duration=0 -next;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_nocap_rip/model.json -id=ukuk -next -motion=smile03 -expression=smile02;
+setTransform:{"position":{"x":-2000},"scale":{"x":1,"y":1},"blur":15} -target=ukuk -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sksk -next -motion=nf_right01_rui -expression=thinking01;
+setTransform:{"position":{"x":-1400},"scale":{"x":1,"y":1},"blur":15} -target=sksk -duration=0 -next;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_rip/model.json -id=nyaya -next -motion=angry01 -expression=smile02;
+setTransform:{"position":{"x":1100},"scale":{"x":1,"y":1},"blur":15} -target=nyaya -duration=0 -next;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mumu -next -motion=nf01_mu;
+setTransform:{"position":{"x":600,"y":0},"scale":{"x":0.9,"y":0.9},"blur":0} -target=mumu -duration=0 -next;
+:但熟悉丰川祥子的人——也就是队内沉默的吉他手知道，这只是她的一种出于礼貌的、| “装出来”的思考。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mumu -next -expression=R_body_down;
+:……会被拒绝的吧。
+changeBg:none -next;
+changeFigure:none -id=nyaya -next;
+changeFigure:none -id=sksk -next;
+changeFigure:none -id=ukuk -next;
+changeFigure:none -id=umi -next;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mumu -next -motion=thinking01_mu -expression=default;
+setTransform:{"position":{"x":100},"scale":{"x":0.9,"y":0.9}} -target=mumu -duration=1100 -next;
+:若叶睦偏过脑袋，她想起了在舞台上听到的“不和谐音”—— -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -transform={"position":{"x":1100},"scale":{"x":0.9,"y":0.9},"alpha":0.7} -next -motion=nf04 -expression=shame02;
+:不，说是噪音有些过了，事实上，丰川祥子刚刚的钢琴演奏在技术上没有任何问题。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mumu -next -motion=nnf_left01_mu -expression=thinking01;
+:问题在于“感情”。
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -next -motion=smile04 -expression=shame02;
+:比平时的祥更加狂乱、比平时的祥更加躁动——然后，因为“意识到了什么”， -fontSize=default -notend;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -next -expression=surprised02;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mumu -next -motion=nf_right01;
+:而又变回了正常的、平时的祥——若叶睦从丰川祥子的琴声中捕捉到 -fontSize=default -notend -concat;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -next -motion=nf04 -expression=thinking01;
+:了这样的情感变化。 -fontSize=default -concat;
+changeFigure:none -id=ob -next;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mumu -next -motion=thinking01_mu -expression=default;
+:那个“意识到了什么”，到底是什么呢？
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mumu -next -expression=surprised02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -transform={"position":{"x":900,"y":800},"alpha":0.7} -next -motion=idle01_sk -expression=default;
+: -fontSize=default;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mumu -next -motion=sad01_mu -expression=default;
+changeFigure:none -id=an -next;
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -transform={"position":{"x":-1200},"scale":{"x":0.9,"y":0.9},"alpha":0} -next;
+:若叶睦想起了那“粉色的一坨”，眼中的光变得越加黯淡。
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -motion=thinking01 -expression=default;
+setTransform:{"position":{"x":-200},"scale":{"x":0.9,"y":0.9},"alpha":1} -target=umi -duration=0 -next;
+setTransform:{"position":{"x":1300},"scale":{"x":0.9,"y":0.9},"alpha":0} -target=mumu -duration=0 -next;
+:无独有偶，同样捕捉到这份“情感变化”的其实还有某位对音乐性相当敏感的传奇雇佣兵贝斯手。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -motion=nf04;
+:只不过，已经到达对岸的八幡海铃这次依旧选择了隔岸观火，不到万不得已绝不出手、不掺和。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -expression=smile04;
+:毕竟，能让她不需要提前预约也愿意出手相助的人，其实也就那么一个而已。
+changeFigure:none -id=umi -next;
+:提出建议的三角初华，选择旁观的若叶睦和八幡海铃，还有“诶所以说这不是我的词么”的佑天寺若麦——大家都觉得，祥子这次大概还是会拒绝这份提议。
+changeBg:bg00505.webp -next -transform={"position":{"y":-200}};
+changeFigure:none -id=mumu -next;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk -transform={"position":{"x":150,"y":300},"scale":{"x":0.73,"y":0.73}} -next -motion=nnf_left01 -expression=sad01;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -transform={"position":{"x":-380,"y":100},"scale":{"x":0.73,"y":0.73}} -next -motion=bye02 -expression=default;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_rip/model.json -right -id=nya -transform={"position":{"x":300,"y":300},"scale":{"x":0.73,"y":0.73}} -next -motion=nnf_left01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -transform={"position":{"x":1050,"y":300},"scale":{"x":0.73,"y":0.73}} -next -motion=nf01 -expression=sigh01;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mu -transform={"position":{"x":1500,"y":300},"scale":{"x":0.73,"y":0.73}} -next -motion=nf05_mu -expression=default;
+:即便最近的祥子偶尔也会参加一些团建项目，但也只是“参加”而已。更何况，她总会有不同的理由中途离席，怎么看也不像是真心想要参加这类活动的样子。
+changeFigure: -id=umi -next;
+changeFigure: -id=sk -next;
+changeFigure: -id=uk -next;
+changeFigure: -id=mu -next;
+changeFigure: -id=nya -next;changeBg:bg00553.webp  -next;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mumu -transform={"position":{"x":800,"y":110},"scale":{"x":0.73,"y":0.73}} -next -motion=sigh01 -expression=default;
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umimi -transform={"position":{"x":400,"y":110},"scale":{"x":0.73,"y":0.73}} -next -motion=serious01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_nocap_rip/model.json -id=ukuk -transform={"position":{"x":-400,"y":100},"scale":{"x":0.73,"y":0.73}} -next -expression=smile02;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_rip/model.json -id=nyaya -transform={"position":{"x":1100,"y":100},"scale":{"x":0.73,"y":0.73}} -next;
+bgm:none;
+:——所以，所谓“庆功宴”的邀请，会因为提议者从鼓手换成主唱而改变结果么？
+changeFigure: -id=umimi -next;
+changeFigure: -id=mumu -next;
+changeFigure: -id=nyaya -next;
+changeFigure: -id=ukuk -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -transform={"position":{"x":100,"y":0},"scale":{"x":0.9,"y":0.9}} -next -motion=kime01 -expression=smile06;
+bgm:23.schoollife.mp3;
+祥子:嗯，可以啊。
+changeFigure:none -id=sk -next;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mumu -transform={"position":{"x":700,"y":110},"scale":{"x":0.73,"y":0.73}} -next -motion=sigh01 -expression=surprised01_mu;
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -transform={"position":{"x":160,"y":110},"scale":{"x":0.73,"y":0.73}} -next -motion=nnf03 -expression=default;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_nocap_rip/model.json -id=ukuk -transform={"position":{"x":-170,"y":100},"scale":{"x":0.73,"y":0.73}} -next -motion=surprised01 -expression=default;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_rip/model.json -id=nyaya -transform={"position":{"x":960,"y":100},"scale":{"x":0.73,"y":0.73}} -next -motion=nf_left01_anon -expression=surprised01;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sksk -transform={"position":{"x":400,"y":100},"scale":{"x":0.73,"y":0.73}} -next -motion=sigh02 -expression=smile06;
+:答案是，“会”。
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_nocap_rip/model.json -id=ukuk -next -motion=K_nf_right01 -expression=surprised01;
+初华:诶、诶？真的吗 -fontSize=default -notend;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_nocap_rip/model.json -id=ukuk -next -motion=smile03 -expression=smile01;
+setTransform:{"position":{"x":10,"y":60},"scale":{"x":0.73,"y":0.73},"rotation":0.04} -target=ukuk -duration=0 -next;
+？ -fontSize=default -concat;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sksk -next -motion=nf_left01 -expression=smile03;
+setTransform:{"position":{"x":445,"y":100},"scale":{"x":0.73,"y":0.73}} -target=sksk -duration=0 -next;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mumu -next -motion=thinking01_mu -expression=default_mu;
+祥子:初华，我没有必要在这种事情上开玩笑吧……？
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_nocap_rip/model.json -id=ukuk -next -motion=K_nf_left01 -expression=smile02;
+setTransform:{"position":{"x":-50,"y":100},"scale":{"x":0.73,"y":0.73},"rotation":0} -target=ukuk -duration=0 -next;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_rip/model.json -id=nyaya -next -expression=angry01;
+:祥子苦笑着，笑得有些宠溺——这让三角初华心中一阵狂喜，她在想：祥子心里有我！
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_rip/model.json -id=nyaya -next -motion=angry01 -expression=default;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sksk -next -motion=nf_right01 -expression=thinking01;
+若麦:诶诶！这、这是差别对待呀！差别对待！喵梦亲我要抗议——！
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sksk -next -motion=smile02 -expression=default;
+:佑天寺若麦变得更像是一只炸毛的大猫了，|祥子也不惯着她，用开玩笑的语气掩嘴回答道： -fontSize=default;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_rip/model.json -id=nyaya -next -motion=surprised01 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -motion=nnf_right01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mumu -next -motion=nf_right01_mu -expression=smile03;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_nocap_rip/model.json -id=ukuk -next -motion=nf_right01 -expression=K_default;
+祥子:既然佑天寺小姐还有精力抗议，那下一首新曲的鼓点应该能更上一层楼了呢。
+若麦:呱！？
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_rip/model.json -id=nyaya -next -motion=sad01_anon -expression=smile03;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sksk -next -motion=sigh02 -expression=smile03;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mumu -next -motion=nf_left01 -expression=default_mu;
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -motion=sigh01;
+:这好像不是猫能发出来的声音。
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -motion=nnf_right01 -expression=smile02;
+setTransform:{"position":{"x":-450,"y":100},"scale":{"x":0.73,"y":0.73}} -target=umi -duration=1000 -next;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_nocap_rip/model.json -id=ukuk -next -motion=K_nf_left01 -expression=smile02;
+:八幡海铃笑了笑，尽管对祥子的态度变化感到了一丝不解，但她确实不讨厌这种气氛。习惯性地看看手机、确认自己接下来没有任何预定之后，贝斯手也非常自然地点了点头：
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -motion=nf05 -expression=smile04;
+海铃:那就算我一个。
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sksk -next -motion=nnf_right01_rui;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_rip/model.json -id=nyaya -next -motion=kandou01_anon -expression=smile01;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mumu -next -motion=sigh01 -expression=default;
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -motion=nnf04 -expression=smile05;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_nocap_rip/model.json -id=ukuk -next -motion=K_nf_left01 -expression=smile01;
+:乐队的气氛变得越来越好了。在某条世界线、或许会因为祥子的拒绝交流以及各人各自的烦恼而逐渐产生矛盾的Ave Mujica，似乎正走向一条康庄大道。 -fontSize=default;
+changeFigure:none -id=sksk -next;
+changeFigure:none -id=ukuk -next;
+changeFigure: -id=nyaya -next;
+changeFigure: -id=umi -next;
+changeBg:none -next;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mumu -next -expression=thinking01;
+setTransform:{"position":{"y":80},"scale":{"x":0.76,"y":0.76}} -target=mumu -duration=0 -next;
+bgm: -enter=800;
+:……真的是这样吗？
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mumu -next -motion=nf_left01 -expression=thinking01;
+bgm:20.truth.mp3;
+:始终保持沉默的若叶睦，在心中提出了这样的疑问。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -transform={"position":{"x":-1100,"y":0},"scale":{"x":0.9,"y":0.9},"alpha":0.7} -next -motion=nf03 -expression=surprised02;
+:只有她注意到了：丰川祥子，从刚刚开始就一直紧握着手机。
+changeBg:T_R_S.webp -next -transform={"position":{"x":-100},"scale":{"x":1.15,"y":1.15},"alpha":0.8};
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mumu -next -motion=sad02;
+changeFigure:none -id=sk -next;
+:睦想起了那一天，想起了Crychic初次演出大获成功的那一天——|自从那一天、祥看到手机里的消息之后，昔日那个纯白无瑕的蓝发双马尾少女就消失了。
+changeBg:none -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=ob -transform={"position":{"x":0,"y":80},"scale":{"x":0.76,"y":0.76},"alpha":0.7} -next -motion=angry04 -expression=default;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_rip/model.json -id=nya -transform={"position":{"y":700},"scale":{"x":0.73,"y":0.73},"alpha":0} -next;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mumu -next -motion=sad02_mu -expression=Down_look;
+:取而代之的，是独自背负着一切的……
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=ob -next -motion=surprised02 -expression=default;
+setTransform:{"position":{"x":900,"y":1100},"scale":{"x":0.76,"y":0.76},"alpha":0,"rotation":-2} -target=ob -duration=0 -next;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_rip/model.json -id=nya -next -motion=nf_right01 -expression=smile02;
+setTransform:{"position":{"y":80},"scale":{"x":0.76,"y":0.76},"alpha":1} -target=nya -duration=0 -next;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mumu -next -expression=surprised01changeBg:bg00553.webp g -next -transform={"position":{"x":-700,"y":-100},"scale":{"x":1.8,"y":1.8},"blur":15};
+bgm: -enter=600;
+若麦:睦子要一起嘛~？
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mumu -next -motion=nf04_mu -expression=default;
+睦:诶。
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_rip/model.json -id=nya -next -motion=smile03 -expression=smile02;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mumu -next -motion=thinking01_mu -expression=L_Body;
+:突然映入眼帘的“紫色的一坨”……呸，是队内的鼓手打断了若叶睦的思绪。
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mumu -next -motion=nf_left01 -expression=thinking01_mu;
+:她呆呆地抬起头，稍微缓了一会儿才理解对方所说的“一起”指的是庆功宴。
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_rip/model.json -id=nya -next -expression=smile03;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mumu -next -motion=nf03_mu -expression=L_Body;
+:于是，她看向了蓝发双马尾的少女，但对方却并没有看向她——这意味着，若叶睦必须自己做出选择。
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_rip/model.json -id=nya -next -motion=smile01 -expression=default;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mumu -next -motion=nf05 -expression=kime01;
+setTransform:{"position":{"x":600,"y":80},"scale":{"x":0.76,"y":0.76}} -target=mumu -duration=0 -next;
+睦:……我去。
+changeBg:none -next;
+changeFigure:none -id=mumu -next;
+changeFigure:none -id=nya -next;
+:而她也确实做到了。
+:…………………………………………
+changeScene:2_06/syan.txt;

@@ -1,0 +1,112 @@
+changeFigure:柱子/inner3.webp -id=bg8 -transform={"position":{"x":800,"y":-400},"scale":{"x":4.6,"y":4.6},"rotation":-0.02} -next;
+changeFigure:341_mashiro_terrible/model.json -id=sk9 -transform={"position":{"x":-300,"y":125},"scale":{"x":0.73,"y":0.73},"alpha":0} -next -motion=surprised01 -expression=Down_look;
+changeFigure:341_mashiro/model.json -id=sk8 -transform={"position":{"x":-300,"y":125},"scale":{"x":0.73,"y":0.73}} -next -motion=surprised01 -expression=R_boby;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an8 -transform={"position":{"x":100,"y":125},"scale":{"x":0.73,"y":0.73}} -next -motion=zb_angry04 -expression=shame01_sk;
+;passenger
+changeFigure:passenger/801600/model.model3.json -id=pg2 -transform={"position":{"x":1600,"y":460},"scale":{"x":0.95,"y":0.95},"rotation":-0.3} -next -expression=mtn_ex_011.exp3.json;
+changeFigure:passenger/801200/model.model3.json -id=pg1 -transform={"position":{"x":1600,"y":880},"scale":{"x":0.9,"y":0.9},"rotation":-0.3} -next -expression=mtn_ex_050.exp3.json;
+changeFigure:passenger/800303/model.model3.json -id=pg3 -transform={"position":{"x":600,"y":1200}} -next;
+changeFigure:800102/model.model3.json -id=pg4 -transform={"position":{"y":1200},"scale":{"x":0.95,"y":0.95}} -next;
+changeFigure:passenger/800100/model.model3.json -id=pg5 -transform={"position":{"x":-800,"y":1200}} -next;
+changeFigure:passenger/800401/model.model3.json -id=pg6 -transform={"position":{"x":500,"y":1200},"rotation":0} -next;
+changeFigure:passenger/801201/model.model3.json -id=pg7 -transform={"position":{"x":-500,"y":1200},"rotation":0} -next;
+changeFigure:passenger/800102/model.model3.json -id=pg8 -transform={"position":{"x":1500,"y":880},"scale":{"x":0.95,"y":0.95},"rotation":-0.3} -next -expression=mtn_ex_010.exp3.json;
+changeFigure:passenger/801200/model.model3.json -id=pg9 -transform={"position":{"x":900,"y":1200}} -next;
+changeFigure:选择立绘文件 -id=pg10 -next;
+;passenger
+:……嗯？不是这个问题？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an8 -next -motion=shame01 -expression=shame02;
+changeFigure:341_mashiro/model.json -id=sk8 -next -motion=thinking01 -expression=thinking02;
+setTransform:{"position":{"x":1200,"y":300},"scale":{"x":0.9,"y":0.9},"rotation":-0.3} -target=pg2 -duration=800 -next;
+setTransform:{"position":{"x":1250,"y":700},"scale":{"x":0.87,"y":0.87},"rotation":-0.3} -target=pg1 -duration=950 -next;
+:祥子微微皱眉，她觉得自己已经想得很开了，难道这个想法还能有什么错嘛——
+setTransform:{"position":{"x":-500,"y":1000},"scale":{"x":0.95,"y":0.95}} -target=pg7 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an8 -motion=shame01_sk -expression=Down_look;
+changeFigure:341_mashiro/model.json -id=sk8 -next -motion=zb_sigh02 -expression=sigh01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an8 -next -motion=nf_right01_mu -expression=shame02;
+setTransform:{"position":{"x":67,"y":125},"scale":{"x":0.73,"y":0.73}} -target=an8 -duration=0 -next;
+setTransform:{"position":{"y":970},"scale":{"x":0.95,"y":0.95}} -target=pg4 -duration=0 -next;
+:|啊，还是说，爱音对单纯的亲吻额头不是很满意呢？ -concat;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an8 -next -expression=surprised01;
+changeFigure:341_mashiro/model.json -id=sk8 -next -motion=zb_odoodo01 -expression=shame01;
+setTransform:{"position":{"y":1000}} -target=pg3 -duration=0 -next;
+setTransform:{"position":{"y":1000}} -target=pg5 -duration=0 -next;
+:但是，今天的约会是以“朋友”的名义……
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an8 -expression=smile03;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an8 -next -motion=nnf_left01 -expression=smile03;
+changeFigure:341_mashiro/model.json -id=sk8 -next -expression=R_boby;
+setTransform:{"position":{"x":400,"y":1000}} -target=pg6 -duration=0 -next;
+祥子:……爱音，亲嘴的话，果、果然【朋友】之间是不行的吧……
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an8 -next -motion=zb_thinking01;
+changeFigure:341_mashiro/model.json -id=sk8 -next -expression=smile05;
+爱音:额头就没问题么—— -notend -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an8 -next -motion=zb_angry02 -expression=sad01;
+changeFigure:341_mashiro/model.json -id=sk8 -next -motion=zb_surprised02 -expression=default;
+不对，所以说不是这个问题！大、大家都在看着呢！ -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an8 -next -motion=nf04 -expression=smile03_sk;
+changeFigure:341_mashiro/model.json -id=sk8 -expression=R_boby;
+changeFigure:none -id=sk8 -next;
+setTransform:{"position":{"x":-300,"y":125},"scale":{"x":0.73,"y":0.73},"alpha":1} -target=sk9 -duration=0 -next;
+changeFigure:341_mashiro_terrible/model.json -id=sk9 -transform={"position":{"x":-300,"y":125},"scale":{"x":0.73,"y":0.73}} -motion=zb_surprised01 -expression=Down_look;
+changeFigure:341_mashiro_terrible/model.json -id=sk9 -next -motion=shame01_tmr -expression=shame01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an8 -next -motion=nf01_mu -expression=smile03;
+祥子:……啊。
+setTransform:{"position":{"x":1120,"y":900},"scale":{"x":0.93,"y":0.93},"rotation":-0.3} -target=pg8 -duration=0 -next;
+:——前略，这里不是什么安静的、能让人好好打情骂俏的地方，而是熙熙攘攘的大商场。
+changeFigure:passenger/801200/model.model3.json -id=pg1 -next -expression=mtn_ex_010.exp3.json;
+setTransform:{"position":{"y":900}} -target=pg9 -duration=0 -next;
+changeFigure:341_mashiro_terrible/model.json -id=sk9 -next -motion=shame01_anon -expression=shame01;
+setTransform:{"position":{"x":-200,"y":125},"scale":{"x":0.73,"y":0.73}} -target=sk9 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an8 -next -motion=nf_right01_mu -expression=shame02;
+祥子:……。
+changeFigure:341_mashiro_terrible/model.json -id=sk9 -next -motion=zb_nf04 -expression=Down_look;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an8 -next -motion=zb_nf_left01 -expression=smile03;
+setTransform:{"position":{"x":50,"y":125},"scale":{"x":0.73,"y":0.73}} -target=an8 -duration=0 -next;
+:感觉到周围火辣辣的视线，丰川祥子的脸颊也变得火辣辣了起来——|她红着脸、低着头，揪了揪爱音的衣角： -fontSize=default;
+changeFigure:341_mashiro_terrible/model.json -id=sk9 -next -motion=zb_nnf_right01 -expression=smile05;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an8 -next -motion=zb_surprised01 -expression=L_Boby_Down;
+祥子:……也、也差不多是午饭时间了呢。
+changeFigure:341_mashiro_terrible/model.json -id=sk9 -next -motion=angry04_anon -expression=shame02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an8 -next -motion=nod01_kasumi -expression=shame02_sk;
+changeFigure:800102/model.model3.json -id=pg11 -transform={"position":{"x":80,"y":970},"scale":{"x":0.97,"y":0.97}} -next;
+changeFigure:passenger/801800/model.model3.json -id=pg12 -transform={"position":{"x":-400,"y":900}} -next;
+changeFigure:passenger/800103/model.model3.json -id=pg13 -transform={"position":{"x":-1100,"y":900},"scale":{"x":0.97,"y":0.97}} -next;
+爱音:是、是是是是呢！
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an8 -next -motion=zb_nf_left01 -expression=smile04_sk;
+:同样红着脸的千早爱音撩了撩自己的发丝，别过视线：
+changeFigure:341_mashiro_terrible/model.json -id=sk9 -next -motion=nf05_anon -expression=smile05;
+setTransform:{"position":{"x":-50,"y":125},"scale":{"x":0.73,"y":0.73}} -target=an8 -duration=0 -next;
+changeFigure:passenger/800103/model.model3.json -id=pg14 -transform={"position":{"x":600,"y":950},"scale":{"x":0.9,"y":0.9},"rotation":0} -next;
+爱音:果、果然还是先吃饭吧！ -fontSize=default;
+setTransform:{"position":{"x":-500,"y":125},"scale":{"x":0.73,"y":0.73}} -target=an8 -duration=0 -next;
+changeFigure:341_mashiro_terrible/model.json -id=sk9 -next -motion=zb_kime01;
+祥子:……事、事已至此，还是先吃饭好了。
+setTransform:{"position":{"x":-1500},"scale":{"x":0.73,"y":0.73}} -target=an8 -duration=900 -next;
+setTransform:{"position":{"x":-1400},"scale":{"x":0.73,"y":0.73}} -target=sk9 -duration=900 -next;
+:就这样，二人一前一后、同手同脚，在众人的注目礼之下离开了原地——
+changeFigure:none -id=an8 -next;
+changeFigure:none -id=sk9 -next;
+changeFigure: -id=bg8 -next;
+changeFigure:none -id=pg1 -next;
+changeFigure: -id=pg2 -next;
+changeFigure: -id=pg3 -next;
+changeFigure: -id=pg4 -next;
+changeFigure: -id=pg5 -next;
+changeFigure: -id=pg6 -next;
+changeFigure: -id=pg7 -next;
+changeFigure: -id=pg8 -next;
+changeFigure: -id=pg9 -next;
+changeFigure: -id=pg10 -next;
+changeFigure: -id=pg11 -next;
+changeFigure: -id=pg12 -next;
+changeFigure:none -id=pg13 -next;
+changeFigure:none -id=pg14 -next;
+miniAvatar:JCconfused02.png;
+0v0:妈妈，刚刚的两个大姐姐在做什么，好奇怪喔—— -fontSize=default;
+miniAvatar:Jcconfused01.png;
+|诶，妈妈，你怎么双手合十了？ -concat -fontSize=default;
+miniAvatar:none;
+bgm: -enter=2000;
+:——既视感，实际强大。
+:…………………………
+changeScene:2_08/lunch.txt

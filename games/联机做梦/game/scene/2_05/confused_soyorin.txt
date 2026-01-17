@@ -1,0 +1,93 @@
+changeFigure:none -id=sk -next;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mu -transform={"position":{"x":800,"y":120},"scale":{"x":0.58,"y":0.58}} -next -motion=thinking01 -expression=default;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -right -id=sk_green -transform={"position":{"x":700,"y":100},"scale":{"x":0.62,"y":0.62}} -next -motion=nnf01 -expression=sigh01;
+:估计是为了省钱而没有保持充足照明的走廊灯光下，少女的脸蒙上了一层阴影——|然后。
+changeBg:bg00707.webp -next;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -left -id=mu -next -motion=nnf_right01 -expression=default;
+setTransform:{"position":{"x":100,"y":100},"scale":{"x":0.73,"y":0.73}} -target=mu -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk_green -next -expression=surprised02;
+setTransform:{"position":{"x":400,"y":100},"scale":{"x":0.73,"y":0.73}} -target=sk_green -duration=0 -next;
+bgm:13.unsure.mp3 -enter=1200;
+睦:那个人，是谁？
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -right -id=sk_green -next -motion=nf_left01 -expression=thinking01;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -left -id=mu -next -motion=nnf_right01 -expression=default;
+:——另一道声音，打断了她的思绪。|从阴影中现身的、是她再熟悉不过的人，是她无法割舍的影子与半身—— -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -right -id=sk_green -next -expression=serious02;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -left -id=mu -next -motion=odoodo01 -expression=sad01;
+祥子:……睦？你怎么在这里？
+changeBg:none -next;
+changeFigure: -left -id=mu -next;
+changeFigure:none -id=sk_green -next;
+:——若叶睦。
+:………………………………
+changeBg:ave mujica_stage3_bright.webp -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -transform={"position":{"x":-600,"y":200},"scale":{"x":0.73,"y":0.73}} -next -motion=nnf02 -expression=smile03;
+爱音:呜哇，人真多……
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=nnf_right01 -expression=smile01;
+setTransform:{"position":{"x":-200,"y":200},"scale":{"x":0.73,"y":0.73}} -target=fig-right -duration=2200 -next;
+:明明距离演出正式开始还有一段不长不短的时间，但观众席已经密密麻麻地聚集了大量的粉丝——毫无疑问，Ave Mujica的成功已经可以用“一飞冲天”来形容了。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=smile03 -expression=smile04;
+setTransform:{"position":{"x":0,"y":200},"scale":{"x":0.73,"y":0.73}} -target=fig-right -duration=1000 -next;
+爱音:真好呢~
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=nf04 -expression=Down_look;
+setTransform:{"position":{"x":100,"y":200},"scale":{"x":0.73,"y":0.73},"alpha":1} -target=fig-right -duration=0 -next;
+:爱音看着手中的门票，寻找着属于自己的位置——在现实中，她也只不过是一个【普通的观众】而已。
+setTransform:{"position":{"x":100,"y":100},"scale":{"x":1.1,"y":1.1}} -target=bg-main -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=angry04 -expression=smile03;
+setTransform:{"position":{"x":250,"y":250},"scale":{"x":0.8,"y":0.8}} -target=fig-right -duration=0 -next;
+:回头看了眼尚未拉开帷幕的舞台，粉发的少女自嘲地笑了笑：这不是理所当然的么？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=nf01 -expression=smile03;
+setTransform:{"position":{"x":200,"y":200},"scale":{"x":1,"y":1},"alpha":0} -target=fig-right -duration=1200 -next;
+:……丰川祥子，又不是她的所有物。
+changeBg:ave mujica_stage4_bright.webp -next -transform={};
+setTransform:{"position":{"x":1600,"y":-1800},"scale":{"x":3.6,"y":3.6}} -target=bg-main -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -left -transform={"position":{"y":250},"scale":{"x":0.6,"y":0.6}} -next -motion=angry02 -expression=smile03;
+changeFigure:none -right -next;
+爱音:不过，这也太夸张了吧——
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -left -next -motion=nf_right01 -expression=smile03;
+setTransform:{"position":{"x":400,"y":250},"scale":{"x":0.6,"y":0.6}} -target=fig-left -duration=0 -next;
+:距离Ave Mujica正式出道其实也没过多久， -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -left -next -motion=thinking03 -expression=smile01;
+setTransform:{"position":{"x":600,"y":250},"scale":{"x":0.6,"y":0.6}} -target=fig-left -duration=0 -next;
+:虽然也有商业战略的成功所带来的热度影响，但能将这些被蒙面乐队的噱头吸引过来的观众留存转化为粉丝，毫无疑问是乐队众人依靠自身的出众实力换来的应得奖励。;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -left -next -motion=nf_left01 -expression=smile03;
+:而这次的会场比上次演出的那个还要大个不少，居然也能做到近乎人满为患的地步……要知道，这还只是演出尚未开始、还有人在外面排队进场的情况。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -left -next -motion=smile03 -expression=smile03;
+setTransform:{"position":{"x":1200,"y":250},"scale":{"x":0.6,"y":0.6}} -target=fig-left -duration=2200 -next;
+:爱音咽了咽口水，忍不住开始幻想如果自己站在舞台上的话，面对那么多的观众、会不会紧张到大脑一片空白什么的。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -left -next -motion=smile04_sk -expression=smile04;
+setTransform:{"position":{"x":1800,"y":250},"scale":{"x":0.6,"y":0.6}} -target=fig-left -duration=900 -next;
+:果然很厉害呢，祥祥。|爱音在心里这么想着，坐到了自己的座 -fontSize=default -notend;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -left -next -motion=sigh02 -expression=smile04;
+setTransform:{"position":{"x":1800,"y":450},"scale":{"x":0.6,"y":0.6}} -target=fig-left -duration=0 -next;
+:位上。 -fontSize=default -concat;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -right -transform={"position":{"x":2200,"y":450},"scale":{"x":0.6,"y":0.6}} -next;
+:——然后。
+setTransform:{"position":{"x":0,"y":-1800},"scale":{"x":3.6,"y":3.6}} -target=bg-main -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -left -next -expression=surprised01;
+setTransform:{"position":{"x":0,"y":450},"scale":{"x":0.6,"y":0.6}} -target=fig-left -duration=0 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -right -next -motion=nf_left01 -expression=surprised01;
+setTransform:{"position":{"x":0,"y":450},"scale":{"x":0.6,"y":0.6}} -target=fig-right -duration=0 -next;
+素世:……爱音？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -left -next -motion=nnf01;
+setTransform:{"position":{"x":0,"y":450},"scale":{"x":0.6,"y":0.6}} -target=fig-left -duration=0 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -right -next -motion=odoodo01 -expression=thinking01;
+爱音:哎？
+:熟悉的声音响起，灰色的双瞳也随之一缩。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -left -next -motion=nf04 -expression=smile03;
+:幻听——才怪啊。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -right -next -motion=nf_left01 -expression=thinking01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -left -next -motion=nf_right01 -expression=smile03;
+素世:……为什么，你会在这里？
+:是啊，为什么呢，我还想问你呢——千早爱音，扭头看向了声音的来源。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -left -next -expression=smile02;
+爱音:……啊、啊哈哈，这么巧啊，Soyorin……
+:——长崎素世，就坐在她的旁边。
+setTransform:{"position":{"x":0,"y":-200},"scale":{"x":3.6,"y":3.6}} -target=bg-main -duration=1000 -next;
+changeFigure: -left -next;
+changeFigure:none -right -next;
+bgm:none -enter=900;
+:坐在，Ave Mujica的观众席。 -fontSize=default;
+changeBg: -next;
+: -fontSize=default;
+choose:交谈之后:2_06/start.txt;

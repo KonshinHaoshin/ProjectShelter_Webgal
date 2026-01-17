@@ -1,0 +1,192 @@
+changeBg:a台场/inner.jpg -next -transform={"position":{"y":300}};
+:于是，祥子主动开口了——背靠着柱子的蓝发少女，微微昂首、看向商场天花板那让人目眩的灯光：
+setTransform:{"position":{"y":300},"alpha":0} -target=bg-main -duration=1600 -next;
+祥子:即便要与曾经幸福的过去做出切割、即便要亲手结束……由我开始的友谊——我也还是会选择离开Crychic。
+changeBg:none -next;
+changeFigure:柱子/inner3.webp -id=bg9 -transform={"position":{"x":1600,"y":-400},"scale":{"x":6.3,"y":6.3},"alpha":0,"rotation":-0.02} -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an9 -transform={"position":{"x":300,"y":200},"scale":{"x":0.78,"y":0.78}} -next -motion=nf04_masking -expression=thinking02;
+changeFigure:341_mashiro/model.json -id=sk9 -transform={"position":{"x":-130,"y":200},"scale":{"x":0.78,"y":0.78},"alpha":0} -next -motion=nnf_left01 -expression=cry01;
+changeFigure:柱子/pillar.webp -transform={"position":{"x":1600,"y":-400},"scale":{"x":6.3,"y":6.3},"alpha":0,"rotation":-0.02} -id=pillar9 -next;
+:这是丰川祥子第一次主动提及过去的事情。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an9 -next -motion=smile03 -expression=default;
+:就跟第一次约会一样，“第一次”这个概念，总是具有一种奇特的魔力、让人打开了话匣子之后就忍不住想要继续说下去。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an9 -next -expression=thinking03;
+:……这会是个好机会么？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an9 -next -motion=sad01_mu -expression=thinking03;
+:粉发的少女那灰银色的双瞳闪过了一道犹豫，但这短暂的踌躇并没有持续多久。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an9 -next -expression=smile03;
+:——时间不对，地点也不对。现在是她和祥子的约会时间，这里也不是什么安静的、能让人坐下来好好谈心的地方，而是人来人往的大商场 -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an9 -next -expression=serious02_sk;
+setTransform:{"position":{"y":200},"scale":{"x":0.78,"y":0.78},"alpha":1} -target=sk9 -duration=0 -next;
+setTransform:{"position":{"x":1600,"y":-400},"scale":{"x":6.3,"y":6.3},"alpha":1,"rotation":-0.02} -target=bg9 -duration=0 -next;
+setTransform:{"position":{"x":1600,"y":-400},"scale":{"x":6.3,"y":6.3},"alpha":0.35,"rotation":-0.02} -target=pillar9 -duration=0 -next;
+:——但是。 -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk9 -next -motion=angry04 -expression=cry04;
+祥子:……即便、我会伤害灯……
+changeFigure:341_mashiro/model.json -id=sk9 -next -expression=cry01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an9 -next -motion=angry04 -expression=sad01;
+setTransform:{"position":{"x":100,"y":200},"scale":{"x":0.78,"y":0.78}} -target=an9 -duration=1800;
+changeFigure:341_mashiro/model.json -id=sk9 -next -motion=zb_cry01 -expression=R_boby;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an9 -next -motion=serious01 -expression=smile03_sk;
+setTransform:{"position":{"x":190,"y":200},"scale":{"x":0.78,"y":0.78}} -target=an9 -duration=0 -next;
+爱音:没有那回事哦。
+changeFigure:341_mashiro/model.json -id=sk9 -next -motion=zb_surprised01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an9 -next -motion=nf_left01 -expression=smile04;
+祥子:——诶。
+setTransform:{"position":{"y":200},"scale":{"x":0.78,"y":0.78},"alpha":0} -target=sk9 -duration=0 -next;
+setTransform:{"position":{"x":1600,"y":-400},"scale":{"x":6.3,"y":6.3},"alpha":0,"rotation":-0.02} -target=bg9 -duration=0 -next;
+setTransform:{"position":{"x":1600,"y":-400},"scale":{"x":6.3,"y":6.3},"alpha":0,"rotation":-0.02} -target=pillar9 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an9 -next -motion=smile06_sk -expression=default;
+:但是，【人物】对了。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an9 -next -expression=smile03;
+:哪怕现在的时间地点都不适合谈论这件事情，千早爱音还是选择了开口—— -notend -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an9 -next -motion=sad02 -expression=shame02;
+:|因为，她喜欢的【人】，在她的面前露出了落寞的表情。 -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an9 -next -motion=zb_kime01 -expression=default;
+:所以，她必须做点什么——逻辑，就这么简单。
+setTransform:{"position":{"x":150},"scale":{"x":0.78,"y":0.78},"alpha":0} -target=an9 -duration=7 -next;
+changeBg:a台场/inner.jpg -next -transform={"position":{"x":-1200,"y":-2700},"scale":{"x":2,"y":2},"rotation":0,"blur":20};
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an10 -transform={"position":{"x":300}} -next -motion=thinking01_sk -expression=smile03;
+changeFigure:sakiko_back_2.webp -id=sk10 -transform={"position":{"x":-520,"y":-360},"scale":{"x":0.84,"y":0.84},"blur":5} -next;
+爱音:不，呃，说“没有那回事”好像也不太对…… -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an10 -next -motion=smile01 -expression=default;
+setTransform:{"position":{"x":-520,"y":-380},"scale":{"x":0.84,"y":0.84},"blur":5} -target=sk10 -duration=0 -next;
+但是呢。 -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an10 -next -motion=nf02 -expression=default;
+setTransform:{"position":{"x":290}} -target=an10 -duration=0 -next;
+:少女面露微笑，晃了晃手里的手机——屏幕里显示着的内容，是她乐队里的群聊：
+changeFigure: -id=bg -next;
+changeFigure: -id=sk9 -next;
+changeFigure: -id=an9 -next;
+changeFigure: -id=sk10 -next;
+changeFigure: -id=an10 -next;
+changeFigure:none -id=pillar -next;
+setTransform:{"position":{"x":-600,"y":-2700},"scale":{"x":2,"y":2},"rotation":0,"blur":20} -target=bg-main -duration=0 -next;
+changeFigure:341_mashiro/model.json -id=sk11 -transform={"position":{"x":-500},"scale":{"x":1.05,"y":1.05}} -next -motion=nnf04 -expression=surprised01;
+changeFigure:anon_back_3.webp -id=an11 -transform={"position":{"x":300,"y":460},"scale":{"x":1.4,"y":1.4},"blur":15} -next;
+爱音:现在的Tomorin，或许比祥子印象里的她要坚强不少呢。
+changeFigure:341_mashiro/model.json -id=sk11 -next -motion=thinking02;
+setTransform:{"position":{"x":-600,"y":-6000},"scale":{"x":4,"y":4},"alpha":0,"blur":25} -target=bg-main -duration=3000 -next;
+setTransform:{"position":{"x":-4300,"y":-2600},"scale":{"x":4,"y":4},"alpha":0} -target=sk11 -duration=3000 -next;
+setTransform:{"position":{"x":2600},"scale":{"x":3.5,"y":3.5},"alpha":0} -target=an11 -duration=3000 -next;
+bgm:none -enter=1100;
+祥子:……？
+changeBg:none -next;
+changeFigure: -id=sk11 -next;
+changeFigure:none -id=an11 -next;
+changeFigure:341_mashiro/model.json -left -id=sk12 -transform={"position":{"x":-900,"y":100},"scale":{"x":0.73,"y":0.73},"alpha":0.7} -next -motion=nf_right01 -expression=smile03;
+: -notend -fontSize=default;
+setTransform:{"position":{"x":-200,"y":100},"scale":{"x":0.73,"y":0.73},"alpha":0.7} -target=sk12 -duration=1200 -next;
+changeBg:bg00919.webp -next;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm12 -transform={"position":{"x":1200,"y":100},"scale":{"x":0.73,"y":0.73}} -next -motion=smile02 -expression=turn_Down_look;
+changeFigure:选择立绘文件 -id=doge -next;
+bgm:28.daily.mp3;
+:琥珀色的双瞳倒映出了群聊的内容——尽管群组成员的昵称备注被爱音改得乱七八糟，但祥子还是能认出她们是谁：  -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy12 -transform={"position":{"x":120,"y":200},"scale":{"x":0.73,"y":0.73},"alpha":0.8} -next -motion=surprised01 -expression=default;
+changeFigure:OIP-C.webp -id=qiang -transform={"position":{"x":50,"y":-600},"scale":{"x":0.5,"y":0.5},"alpha":0.43} -next;
+changeFigure:doge_bandage.webp -id=ban -transform={"position":{"y":70},"scale":{"x":0.4,"y":0.4},"alpha":0.53,"rotation":-1.8} -next;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm12 -next -motion=nf_left01 -expression=smile02;
+changeFigure:341_mashiro/model.json -id=sk12 -next -motion=surprised01 -expression=R_boby;
+:【Tomorin：         （创可贴的照片.jpg）】
+changeFigure: -id=ban -next;
+changeFigure: -id=qiang -next;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm12 -next -motion=kime01 -expression=smile01;
+setTransform:{"position":{"x":600,"y":100},"scale":{"x":0.73,"y":0.73}} -target=tm12 -duration=0 -next;
+changeFigure:341_mashiro/model.json -id=sk12 -next -motion=thinking01;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy12 -next -motion=nnf_right01 -expression=smile01;
+:【Tomorin：成功入手了……番外系列的创可贴！】|——这是刚刚发到群组里的消息，却是丰川祥子完全没有见过的高松灯。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm12 -next -motion=smile04 -expression=default;
+changeFigure:341_mashiro/model.json -id=sk12 -next -motion=smile01_mu -expression=smile03;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy12 -next -motion=thinking01 -expression=turn_Down_look;
+:将自己的喜悦、【主动】分享给其他人……丰川祥子眨了眨眼、轻唇微启，却又什么话都说不出来。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy12 -next -motion=kime01 -expression=turn_R_Body_Down;
+setTransform:{"position":{"x":120,"y":100},"scale":{"x":0.73,"y":0.73},"alpha":1} -target=sy12 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm12 -next -motion=nf_left01 -expression=smile02;
+changeFigure:341_mashiro/model.json -id=sk12 -next -motion=nnf04 -expression=thinking01R;
+:【Soyorin：哇啊，恭喜小灯~】
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy12 -next -motion=thinking02 -expression=serious02;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm12 -next -expression=sad01;
+:【Soyorin：小灯，是自己一个人去买的么？】
+changeFigure:341_mashiro/model.json -id=sk12 -next -motion=nf01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm12 -next -motion=smile03 -expression=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy12 -next -motion=smile01 -expression=default;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=rk12 -transform={"position":{"x":1300,"y":300},"scale":{"x":0.73,"y":0.73},"alpha":0.7} -next -motion=nnf04 -expression=thinking01;
+:——这个人倒是……跟以前没什么区别么。
+changeFigure:341_mashiro/model.json -id=sk12 -next -motion=nnf_right01_rui;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm12 -next -motion=nnf04 -expression=smile03;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=rk12 -next -motion=nnf_left01 -expression=surprised01;
+:【Tomorin：嗯】
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=rk12 -next -motion=angry01 -expression=surprised01;
+setTransform:{"position":{"x":1100,"y":100},"scale":{"x":0.73,"y":0.73},"alpha":1} -target=rk12 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm12 -next -motion=nnf_right01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy12 -next -motion=nnf_right01 -expression=smile03;
+:【Rikki：一个人！？】
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=rk12 -next -motion=shame02 -expression=default;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm12 -next -motion=thinking01 -expression=turn_R_Body_Down;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy12 -next -motion=nf01 -expression=thinking01;
+:【Rikki：灯，不介意的话，我其实可以陪你一起的】
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm12 -next -motion=nnf03 -expression=turn_R_Body;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=rk12 -next -motion=surprised01 -expression=default;
+:【Tomorin：诶】
+changeFigure:341_mashiro/model.json -id=sk12 -next -motion=sigh01_rui -expression=smile05;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm12 -next -motion=nf01;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=rk12 -next -motion=sigh02 -expression=smile03;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy12 -next -expression=smile03;
+:【Tomorin：但是立希酱……今天不是要打工么？】
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy12 -next -motion=smile05 -expression=smile03;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm12 -next -motion=sad03 -expression=smile03;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=rk12 -next -expression=sad01;
+:【Rikki：啊】
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy12 -next -motion=nf01 -expression=smile02;
+changeFigure:341_mashiro/model.json -id=sk12 -next -motion=smile03 -expression=smile01;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=rk12 -next -motion=angry04 -expression=shame01;
+setTransform:{"position":{"y":175},"scale":{"x":0.73,"y":0.73}} -target=rk12 -duration=0 -next;
+:——这个人也是老样子呢。
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=rn12 -transform={"position":{"x":2100,"y":1200},"scale":{"x":0.73,"y":0.73},"alpha":1,"rotation":-1.6} -next -motion=serious01 -expression=smile02;
+: -notend -fontSize=default;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm12 -next -motion=smile01 -expression=turn_R_Body;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy12 -next -motion=nnf_right01 -expression=smile01;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=rk12 -next -motion=nf_right01 -expression=surprised01;
+setTransform:{"position":{"x":1600,"y":1200},"scale":{"x":0.73,"y":0.73},"rotation":-1.5} -target=rn12 -duration=0 -next;
+changeFigure:341_mashiro/model.json -id=sk12 -next -motion=surprised02 -expression=R_boby;
+:【Rana酱：Rikki，wo ma shang jiu dao,gei wo zhun bei】
+setTransform:{"position":{"x":2200,"y":1300},"scale":{"x":0.73,"y":0.73},"rotation":-1.5} -target=rn12 -duration=0 -next;
+:——这人谁啊。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an12 -transform={"position":{"x":-1000,"y":100},"scale":{"x":0.73,"y":0.73},"alpha":0.7} -next -motion=smile03 -expression=default;
+changeFigure:341_mashiro/model.json -id=sk12 -next -motion=nnf_left01 -expression=thinking02;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm12 -next -motion=nf_left01 -expression=smile04;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=rk12 -next -motion=angry01;
+setTransform:{"position":{"y":100},"scale":{"x":0.73,"y":0.73}} -target=rk12 -duration=0 -next;
+changeFigure:none -id=rn12 -next;
+:【Rikki：？】
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=rk12 -next -motion=nf_right01 -expression=angry01;
+setTransform:{"position":{"x":1500,"y":100},"scale":{"x":0.73,"y":0.73}} -target=rk12 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=rn12 -transform={"position":{"x":1000,"y":600},"scale":{"x":0.73,"y":0.73},"alpha":0} -next -motion=niya01 -expression=smile04;
+:【Rikki：能别打罗马音么】
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=rk12 -next -motion=surprised01 -expression=default;
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=rn12 -next -expression=smile02;
+setTransform:{"position":{"x":1080,"y":100},"scale":{"x":0.73,"y":0.73},"alpha":1} -target=rn12 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm12 -next -motion=nf_right01 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy12 -next -expression=surprised01;
+changeFigure:341_mashiro/model.json -id=sk12 -next -expression=surprised02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an12 -next -motion=nnf_right01 -expression=smile03;
+:【Rana酱：准备抹茶芭菲，还要怪浪怪浪的勺子】
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy12 -next -motion=nnf05 -expression=smile02;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm12 -next -motion=smile02 -expression=default;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=rk12 -next -motion=angry02 -expression=angry01;
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=rn12 -next -motion=kime01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an12 -next -motion=smile03_sk;
+setTransform:{"position":{"x":-850,"y":100},"scale":{"x":0.73,"y":0.73},"alpha":0.7} -target=an12 -duration=0 -next;
+changeFigure:341_mashiro/model.json -id=sk12 -next -motion=cry01_anon -expression=surprised02;
+setTransform:{"position":{"x":-250,"y":100},"scale":{"x":0.73,"y":0.73},"alpha":0.7} -target=sk12 -duration=0 -next;
+changeFigure:none -id=bg9 -next;
+changeFigure:none -id=pillar9 -next;
+:——说真的这人谁啊！？怪浪怪浪的勺子又是什么鬼！？
+changeBg:none -next;
+changeFigure: -id=an12 -next;
+changeFigure: -id=sk12 -next;
+changeFigure: -id=rn12 -next;
+changeFigure: -id=rk12 -next;
+changeFigure: -id=tm12 -next;
+changeFigure: -id=sy12 -next;
+changeScene:2_08/exposure.txt

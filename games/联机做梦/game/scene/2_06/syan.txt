@@ -1,0 +1,148 @@
+changeBg:ave mujica_stage_goodbye.webp -next;
+changeFigure:NTR.webp -id=ntr -transform={"position":{"x":1800,"y":-200},"scale":{"x":0.5,"y":0.5},"alpha":0,"rotation":0.6} -next;
+:演出结束，观众离场。
+changeBg:bg00107.webp -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -transform={"position":{"x":-50,"y":120},"scale":{"x":0.77,"y":0.77}} -next -motion=smile03 -expression=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy2 -transform={"position":{"x":500,"y":120},"scale":{"x":0.8,"y":0.8}} -next -motion=nf_right01 -expression=thinking01;
+bgm:21.wait.mp3 -volume=85;
+:长崎素世走在前面，没有回头、也没有停下脚步；千早爱音跟在后头，数次欲言又止、止言又欲，最后还是什么也没说。
+setTransform:{"position":{"x":600,"y":130},"scale":{"x":0.9,"y":0.9},"alpha":0} -target=sy2 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=sad02_masking -expression=Down_look;
+:保险起见，她只能偷偷给丰川祥子发消息、说自己在演出结束后还有些事情要做，不能跟她见面—— -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=surprised01 -expression=smile03;
+setTransform:{"position":{"x":600,"y":150},"scale":{"x":0.9,"y":0.9},"alpha":0} -target=an2 -duration=800 -next;
+changeFigure:none -id=sy2 -next;
+:爱音总觉得，如果今晚放着长崎素世不管的话，有些事情会变得一发不可收拾。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=angry04 -expression=smile03;
+setTransform:{"position":{"x":500,"y":60},"scale":{"x":0.82,"y":0.82},"alpha":1} -target=an2 -duration=10 -next;
+changeBg:night/bg00906.webp -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy2 -transform={"scale":{"x":0.85,"y":0.85}} -next -motion=nf_right01 -expression=serious02;
+:最终，先开口的还是长崎素世：
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy2 -next -expression=serious03;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=surprised01;
+素世:……你有什么话想说的么？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=nf03_sk -expression=thinking01;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy2 -next -motion=nnf04 -expression=thinking01;
+爱音:咦？呃……
+changeBg:none -next;
+changeFigure:none -id=sy2 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=nf01_sk -expression=smile03;
+:——千早爱音确实有很多话想问，但又不知道该怎么开口、也不知道自己该不该开口。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=thinking03 -expression=default;
+:长崎素世的出现将之前她一直担心的事情提前摊上牌桌，这意味着她和祥子之间的关系会变得更加尴尬—— -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -expression=smile03;
+:丰川祥子当初之所以提出要在现实里保持距离，有一部分原因就是担心祥子的三位前队友和爱音的三位现队友各自的看法。 -fontSize=default;
+changeFigure:none -id=an2 -next;
+changeBg:bg00008.webp -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -transform={"position":{"y":100},"scale":{"x":0.8,"y":0.8}} -next -motion=nf_right01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -right -transform={"position":{"x":300,"y":100},"scale":{"x":0.8,"y":0.8}} -next -motion=thinking02 -expression=default;
+:高松灯是个善良又纯粹的孩子， -fontSize=default;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -right -transform={"position":{"x":200,"y":100},"scale":{"x":0.8,"y":0.8}} -next -motion=nf_left01 -expression=thinking01;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -next -motion=bye01_kokoro -expression=smile05_sk;
+:尽管被她看到了一些不该看到的东西，但在千早爱音的花言巧语……咳，应该说是循循善诱之下， -fontSize=default -concat;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -next -motion=sigh02 -expression=smile03_sk;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -right -next -motion=smile02 -expression=default;
+:可爱的小企鹅并没有细想爱音和祥子之间的关系，甚至还为了祥子不再是孤零零一人而感到了一丝喜悦。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -next -motion=nf03_masking -expression=turnL;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -right -next -motion=serious01 -expression=default;
+:爱音心想，假以时日，也许Tomorin能再一次鼓起勇气、向祥祥表达自己内心的呐喊也说不定。
+changeBg:none -next;
+changeFigure:none -right -next;
+changeFigure:none -left -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -left -id=an2 -transform={"position":{"x":0,"y":100},"scale":{"x":0.8,"y":0.8}} -next -motion=thinking02_sk -expression=smile03;
+:……但长崎素世不同。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -expression=thinking02;
+changeFigure:Mrs_lier.webp -right -id=lier -transform={"position":{"x":1800,"y":-50},"scale":{"x":0.8,"y":0.8},"alpha":0} -next;
+:这并不是说长崎素世不是一个善良又纯粹的孩子—— -fontSize=default -notend;
+setTransform:{"position":{"x":800,"y":-50},"scale":{"x":0.8,"y":0.8},"alpha":0.7} -target=lier -duration=1000 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=nf_right01_sk -expression=smile03;
+:呃。 -fontSize=default -concat;
+setTransform:{"position":{"x":1800,"y":-50},"scale":{"x":0.8,"y":0.8},"alpha":0} -target=lier -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=nf04 -expression=smile03_sk;
+:【“你不仅表里不一，还满口谎言。”】
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=serious02_masking -expression=smile03;
+changeFigure:none -id=lier -next;
+:千早爱音想起了自己曾经给出的评价，于是忍痛将这句话改成“长崎素世确实不是一个善良又纯粹的孩子”。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=nf01 -expression=smile01;
+:但这并不意味着在千早爱音眼里、Soyorin不是一个好人：她也只是一个普通的女高中生，不是什么月之森恶妇、什么靠海临江45楼大平层寡妇风格JK。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=odoodo01_sk -expression=default_sk;
+bgm: -enter=1000;
+:问题在于，她很麻烦。
+changeBg:night/bg00906.webp -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=nnf05 -expression=thinking02;
+setTransform:{"position":{"x":850,"y":60},"scale":{"x":0.82,"y":0.82}} -target=an2 -duration=5 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy2 -transform={"position":{"y":40},"scale":{"x":0.85,"y":0.85}} -next -motion=nf04 -expression=serious03;
+爱音:……所以，台上的键盘手和吉他手，就是Soyorin的那两位前队友么？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=nf03_sk -expression=thinking03;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy2 -next -motion=nf04 -expression=thinking01;
+bgm:13.unsure.mp3 -volume=80;
+:其中一个是祥祥，那另一个应该就是那位若叶睦了——爱音听祥子提到过若叶睦的事情，也知道对方的父母是大名人，但对她的了解也只有这种程度而已。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy2 -next -motion=smile01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=smile03 -expression=smile03;
+素世:我还以为你认识小祥呢。
+:长崎素世没有回头，只是一边向前走、一边用轻描淡写的语气问道。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=thinking02 -expression=turnR;
+爱音:呃，认识归认识——
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy2 -next -motion=nf_right01 -expression=thinking01;
+:前略，千早爱音并不是一个“不会撒谎”的女孩子，她只是不喜欢说谎，不代表她不擅长。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=kime02 -expression=smile03;
+:俗语有云，最好的谎言就是真假掺半。于是，粉发的少女非常实诚地回答道：
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy2 -next -motion=thinking01 -expression=default;
+爱音:丰川同学在我隔壁班来着，之前……Tomorin想要将歌词本交给她的时候，我也在场。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=shame01 -expression=shame02_sk;
+setTransform:{"position":{"x":-1900},"scale":{"x":0.5,"y":0.5},"alpha":0.7,"rotation":-5} -target=ntr -duration=2500 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy2 -next -motion=sad02 -expression=default;
+:尽管脑内非常不合时宜地飘出了某段梦境的记忆，但爱音还是努力地保持着冷静、让自己的语气显得没有任何破绽。
+changeBg:none -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=kime01_masking -expression=thinking03;
+changeFigure:none -id=sy2 -next;
+:千早爱音跟丰川祥子并不相熟——这是爱音和祥子约法三章、必须要维持的“现实”。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=serious02 -expression=default;
+:……但是，这样做真的好么？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -expression=angry01;
+:内心的深处隐约传来了这样的质问：这样的掩饰，算什么“现实”？
+changeBg:night/bg00906.webp -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy2 -transform={"position":{"y":40},"scale":{"x":0.85,"y":0.85}} -next -motion=thinking01 -expression=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=serious02 -expression=surprised01;
+素世:……小灯还做了 -fontSize=default -notend;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=serious01 -expression=smile03;
+那样的事情么。 -fontSize=default -concat;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=nod01_yukina -expression=smile03;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy2 -next -motion=nf03 -expression=thinking01;
+爱音:嗯，虽然最后还是失败了……丰川同学，对Tomorin很冷淡呢。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -expression=sad01;
+:到底什么时候才能和好呢——爱音忍不住在心中问道。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy2 -next -motion=nf01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -expression=thinking02;
+素世:我想也是。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=nf04 -expression=thinking01_sk;
+setTransform:{"position":{"x":1000,"y":40},"scale":{"x":0.85,"y":0.85}} -target=an2 -duration=1200 -next;
+:而长崎素世给出的回应，平平无奇。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy2 -next -motion=idle01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -expression=thinking02;
+:没有激动的情绪，没有难过、没有失望、没有悲伤——爱音加快脚步、与长崎素世并肩前行的同时悄悄打量对方的表情，也并没有捕捉到什么异样。
+changeBg:none -next;
+changeFigure:none -id=sy2 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=nf_right01_mu -expression=thinking02_sk;
+:……要试试看么？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=thinking01;
+:前略，千早爱音是一个很有分寸、不会轻易越界的女孩子，但这并不代表着她永远不会越过那条线。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -expression=serious01;
+:有些话她不会去找丰川祥子提问，因为她能感觉到祥祥对此的抗拒； -fontSize=default -notend;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -expression=smile03;
+:但此时此刻，她眼前的长崎素世似乎并没有表现出对【过去】的抗拒与抵触。 -fontSize=default -concat;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=serious02 -expression=thinking02;
+:……要试试看么？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=nf04_sk -expression=smile05_sk;
+:往前一步，或许是真相、也有可能是雷区。
+changeBg:night/bg00007.webp -next;
+changeFigure:none -id=an2 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy2 -transform={"position":{"x":-300},"scale":{"x":0.9,"y":0.9}} -next -motion=nf_left01;
+:爱音有些犹豫，但出乎意料的是，主动拉着她往前一步的人——
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy2 -next -expression=smile03;
+素世:我大概一辈子也忘不了Crychic。
+changeBg:none -next;
+changeFigure:none -id=sy2 -next;
+:——是长崎素世自己。
+:………………………………
+changeScene:2_06/mummy_soyorin.txt;

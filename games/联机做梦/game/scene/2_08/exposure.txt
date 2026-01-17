@@ -1,0 +1,167 @@
+changeFigure:柱子/inner3.webp -id=bg9 -transform={"position":{"x":1600,"y":-400},"scale":{"x":6.3,"y":6.3},"alpha":1,"rotation":-0.02} -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an9 -transform={"position":{"x":200,"y":200},"scale":{"x":0.78,"y":0.78}} -next -motion=nnf_left01 -expression=smile03;
+changeFigure:341_mashiro/model.json -id=sk9 -transform={"position":{"x":-250,"y":200},"scale":{"x":0.78,"y":0.78},"alpha":1} -next -motion=nf04_anon -expression=smile03;
+changeFigure:柱子/pillar.webp -id=pillar9 -transform={"position":{"x":1600,"y":-400},"scale":{"x":6.3,"y":6.3},"alpha":0.35,"rotation":-0.02} -next;
+:丰川祥子原本酝酿得差不多的心情突然变得有些莫名其妙，最后只能神色古怪地开口说道：
+changeFigure:341_mashiro/model.json -id=sk9 -next -motion=sigh01_rui -expression=smile03;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an9 -next -motion=smile03;
+祥子:……你们乐队的关系真好呢。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an9 -next -motion=nnf03 -expression=smile03;
+爱音:诶，这样算是关系好么……？
+changeFigure:341_mashiro/model.json -id=sk9 -motion=thinking01;
+changeFigure:341_mashiro/model.json -id=sk9 -next -expression=thinking02_R;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an9 -next -motion=angry04;
+祥子:……应该算吧？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an9 -next -motion=nnf_right01;
+setTransform:{"position":{"x":1000,"y":-50},"scale":{"x":0.79,"y":0.79},"rotation":0.3} -target=an9 -duration=0 -next;
+changeFigure:341_mashiro/model.json -id=sk9 -next -motion=wondering01_kokoro -expression=thinking02_anon;
+setTransform:{"position":{"x":-500,"y":200},"scale":{"x":0.79,"y":0.79}} -target=sk9 -duration=0 -next;
+:二人对视一眼、沉默不语，然后非常默契地将脑袋探出柱子——高松灯已经不在刚刚的位置了。
+changeFigure:341_mashiro/model.json -id=sk9 -next -motion=sigh02 -expression=smile03;
+setTransform:{"position":{"x":-590,"y":200},"scale":{"x":0.78,"y":0.78}} -target=sk9 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an9 -next -motion=sigh01_rui;
+setTransform:{"position":{"x":800,"y":200},"scale":{"x":0.79,"y":0.79},"rotation":0} -target=an9 -duration=0 -next;
+祥子:走掉了呢。
+changeFigure:341_mashiro/model.json -id=sk9 -next -expression=thinking01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an9 -next -motion=nod01_nanami;
+setTransform:{"position":{"x":900,"y":200},"scale":{"x":0.8,"y":0.8}} -target=an9 -duration=0 -next;
+setTransform:{"position":{"x":-1000,"y":200},"scale":{"x":0.8,"y":0.8}} -target=sk9 -duration=0 -next;
+爱音:走掉了啊…… -fontSize=default;
+changeFigure: -id=pillar9 -next;
+setTransform:{"position":{"x":800},"scale":{"x":4.6,"y":4.6},"rotation":-0.02} -target=bg9 -duration=900 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an9 -next -motion=nf_left01 -expression=surprised01;
+setTransform:{"position":{"x":200,"y":125},"scale":{"x":0.73,"y":0.73}} -target=an9 -duration=900 -next;
+changeFigure:341_mashiro/model.json -id=sk9 -next -motion=sad01 -expression=thinking01R;
+setTransform:{"position":{"x":-300,"y":125},"scale":{"x":0.73,"y":0.73}} -target=sk9 -duration=900 -next;
+祥子:……我们刚刚在说什么来着。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an9 -next -motion=nf02 -expression=smile03;
+changeFigure:341_mashiro/model.json -id=sk9 -next -motion=thinking02 -expression=smile03;
+:是、是抹茶巴菲吗？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an9 -next -motion=angry03;
+changeFigure:341_mashiro/model.json -id=sk9 -next -motion=odoodo01 -expression=sad02;
+爱音:在聊Tomorin啦—— -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an9 -next -motion=kime02 -expression=smile01;
+changeFigure:341_mashiro/model.json -id=sk9 -next -motion=nf02 -expression=thinking01R;
+总而言之！ -concat -fontSize=default;
+:千早爱音连忙将被某个抹茶怪话猫带偏的话题给拉了回来，“咳哼”地清了清嗓子：
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an9 -next -motion=wink01 -expression=smile01;
+changeFigure:341_mashiro/model.json -id=sk9 -next -motion=sigh01 -expression=default;
+爱音:Tomorin这孩子，可是又善良、又坚强的好孩子哦。
+changeFigure:341_mashiro/model.json -id=sk9 -next -motion=nf_left01 -expression=serious02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an9 -next -motion=nf_left01 -expression=smile06_sk;
+setTransform:{"position":{"x":150},"scale":{"x":0.73,"y":0.73}} -target=an9 -duration=0 -next;
+祥子:……所以呢？
+:丰川祥子又一次紧抓着自己的右臂，别过视线。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an9 -next -expression=smile04;
+changeFigure:341_mashiro/model.json -id=sk9 -next -motion=sad01_masking -expression=sad02;
+爱音:所以，祥子有什么想说的，尽管告诉Tomorin就好了。
+changeFigure:341_mashiro/model.json -id=sk9 -next -motion=serious02_anon -expression=serious02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an9 -next -motion=smile04 -expression=default_sk;
+祥子:……我该说些什么呢？
+:祥子眯了眯眼，语气带上了一丝冷意。
+setTransform:{"position":{"x":800},"scale":{"x":4.6,"y":4.6},"alpha":0,"rotation":-0.02} -target=bg9 -duration=0 -next;
+setTransform:{"position":{"x":150,"y":125},"scale":{"x":0.73,"y":0.73},"alpha":0} -target=an9 -duration=0 -next;
+changeFigure:341_mashiro/model.json -id=sk9 -next -motion=angry01_rui -expression=sad01;
+:——解释？道歉？还是忏悔？
+setTransform:{"position":{"x":800},"scale":{"x":4.6,"y":4.6},"alpha":1,"rotation":-0.02} -target=bg9 -duration=0 -next;
+setTransform:{"position":{"x":150,"y":125},"scale":{"x":0.73,"y":0.73},"alpha":1} -target=an9 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an9 -next -motion=nf03 -expression=smile04;
+changeFigure:341_mashiro/model.json -id=sk9 -next -expression=surprised01;
+爱音:诶，就说些……呃，祥子想说的话啊？ -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an9 -next -motion=angry04;
+changeFigure:341_mashiro/model.json -id=sk9 -next -expression=smile03;
+比如想约Tomorin一起喝个茶什么的？ -concat -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk9 -next -motion=smile05 -expression=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an9 -next -motion=nf04;
+祥子:……噗。
+changeFigure:341_mashiro/model.json -id=sk9 -next -motion=smile06 -expression=shame01;
+:冷意消失了。
+setTransform:{"position":{"x":800},"scale":{"x":4.6,"y":4.6},"alpha":0,"rotation":-0.02} -target=bg9 -duration=0 -next;
+setTransform:{"position":{"x":150,"y":125},"scale":{"x":0.73,"y":0.73},"alpha":0} -target=an9 -duration=0 -next;
+changeFigure:341_mashiro/model.json -id=sk9 -next -motion=serious01_masking -expression=smile03;
+:果然——丰川祥子在心中轻叹了口气：千早爱音这个人，实在是太“懂事”了。
+changeFigure:341_mashiro/model.json -id=sk9 -next -motion=nf_right01_masking -expression=smile03;
+:懂事得、令人感到无奈。
+;token
+setTransform:{"position":{"x":800},"scale":{"x":4.6,"y":4.6},"alpha":1,"rotation":-0.02} -target=bg9 -duration=0 -next;
+setTransform:{"position":{"x":150,"y":125},"scale":{"x":0.73,"y":0.73},"alpha":1} -target=an9 -duration=0 -next;
+changeFigure:341_mashiro/model.json -id=sk9 -next -motion=angry02 -expression=sad01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an9 -next -motion=nod01_kaoru -expression=smile06_sk;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an10 -transform={"position":{"x":150,"y":125},"scale":{"x":0.73,"y":0.73},"alpha":0} -next -motion=nod01_kaoru -expression=smile06_sk;
+祥子:……你想说的就这些？
+changeFigure:341_mashiro/model.json -id=sk9 -next -motion=nf04 -expression=smile06;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an9 -next -motion=nf05 -expression=smile02;
+setTransform:{"position":{"x":170,"y":125},"scale":{"x":0.735,"y":0.735},"alpha":0} -target=an9 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an10 -next -motion=nf05 -expression=smile06_sk;
+setTransform:{"position":{"x":170,"y":125},"scale":{"x":0.735,"y":0.735},"alpha":1} -target=an10 -duration=0 -next;
+爱音:我不是答应过祥子嘛，祥子的事情我是不会插手的—— -fontSize=default;
+changeFigure:none -id=an9 -next;
+changeFigure:341_mashiro/model.json -id=sk9 -next -motion=serious01 -expression=shame02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an10 -next -motion=smile04 -expression=default;
+不过，在后面摇旗呐喊给祥子加油打气什么的，可不在禁止事项的范围内哦？ -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an10 -next -motion=smile04;
+changeFigure:341_mashiro/model.json -id=sk9 -next -motion=nf_right01_mu -expression=shame02;
+:名为千早爱音的少女侧了侧脑袋，露出了稍微有些狡猾、却又让人没办法生气的坏笑：
+changeFigure:341_mashiro/model.json -id=sk9 -next -motion=sigh02 -expression=smile03;
+爱音:要说些什么、什么时候去说，还是祥子自己来决定哦。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an10 -next -motion=nf_left01 -expression=smile06_sk;
+changeFigure:341_mashiro/model.json -id=sk9 -next -expression=smile05;
+祥子:……。
+changeFigure:341_mashiro/model.json -id=sk9 -next -motion=nf01 -expression=smile05;
+:蓝发的少女沉默了一会儿，最终还是忍不住苦笑着摇了摇头：
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an10 -next -expression=smile02;
+changeFigure:341_mashiro/model.json -id=sk9 -next -motion=sad03_kokoro -expression=shame02;
+祥子:爱音。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an10 -next -expression=smile04;
+changeFigure:341_mashiro/model.json -id=sk9 -next -motion=nnf_right01 -expression=shame01;
+setTransform:{"position":{"x":-200,"y":105},"scale":{"x":0.735,"y":0.735}} -target=sk9 -duration=900 -next;
+爱音:嗯？
+bgm:none;
+changeFigure: -id=bg9 -next;
+changeFigure: -id=an10 -next;
+changeFigure:none -id=sk9 -next;
+changeBg:00033-1598970968.webp -next -transform={"position":{"y":-230},"scale":{"x":1.15,"y":1.15},"blur":15};
+祥子:谢谢你。
+;changeBg:useless.webp -next -transform={"position":{"y":200},"scale":{"x":1,"y":1},"blur":15};
+changeBg:a台场/inner3.webp -next -transform={"position":{"y":-3000},"scale":{"x":8,"y":8},"blur":20};
+changeFigure:341_mashiro/model.json -id=sk2 -transform={"position":{"x":-1100,"y":-1100},"scale":{"x":1.8,"y":1.8}} -next -motion=idle_in_kiss03 -expression=sad01;
+:——啾。 -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk2 -motion=idle_in_kiss00;
+setTransform:{"position":{"y":-3150},"scale":{"x":8,"y":8},"blur":20} -target=bg-main -duration=0 -next;
+changeFigure:341_mashiro/model.json -id=sk2 -transform={"position":{"x":-830,"y":-600},"scale":{"x":1.6,"y":1.6}} -next -motion=zb_smile02 -expression=default;
+setTransform:{"position":{"x":-830,"y":-600},"scale":{"x":1.6,"y":1.6}} -target=sk2 -duration=0 -next;
+bgm:14. tactfully.mp3;
+:没有任何前兆、又或者说是因为过于自然而无法让千早爱音产生任何预警——丰川祥子踮起脚尖、轻轻啄吻了一下她的额头。
+changeFigure: -id=sk2 -next;
+changeFigure:柱子/inner3.webp -id=bg8 -transform={"position":{"x":800,"y":-400},"scale":{"x":4.6,"y":4.6},"rotation":-0.02} -next;
+changeFigure:341_mashiro/model.json -id=sk8 -transform={"position":{"x":-300,"y":125},"scale":{"x":0.73,"y":0.73}} -next -motion=zb_angry06 -expression=shame01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an8 -transform={"position":{"x":100,"y":125},"scale":{"x":0.73,"y":0.73}} -next -motion=zb_shame02 -expression=surprised01;
+爱音:祥、祥子！？
+changeFigure:341_mashiro/model.json -id=sk8 -next -motion=nnf_right01_mu -expression=shame02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an8 -next -motion=nnf_left01 -expression=shame01;
+changeBg:none -next;
+祥子:这是夸奖哦。
+setTransform:{"position":{"x":1000,"y":-500},"scale":{"x":5,"y":5},"alpha":0,"blur":15} -target=bg8 -duration=0 -next;
+changeFigure:341_mashiro/model.json -id=sk8 -next -motion=smile04 -expression=default;
+setTransform:{"position":{"x":0,"y":100},"scale":{"x":0.8,"y":0.8}} -target=sk8 -duration=0 -next;
+setTransform:{"position":{"x":600,"y":100},"scale":{"x":0.8,"y":0.8},"alpha":0} -target=an8 -duration=0 -next;
+:这是对懂事的、能干的千早爱音同学，赐予的小小夸奖。
+changeFigure:341_mashiro/model.json -id=sk8 -next -motion=kime02_anon -expression=kime01;
+changeFigure:black.webp -id=bl1 -transform={"position":{"y":1200},"scale":{"x":2,"y":1},"alpha":0,"rotation":-0.03} -next;changeFigure:black.webp -id==bl2 -transform={"position":{"y":-1200},"scale":{"x":2,"y":1},"alpha":0,"rotation":-0.03} -next;
+:在爱音的提醒下，丰川祥子知道自己应该如何面对高松灯了——| -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk8 -next -motion=smile01 -expression=smile06;
+:道歉与旧事重提不该是二人重聚时的主旋律。 -concat -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk8 -next -motion=serious02;
+setTransform:{"position":{"x":-100,"y":20},"scale":{"x":0.87,"y":0.87}} -target=sk8 -duration=0 -next;
+setTransform:{"position":{"y":950},"scale":{"x":2,"y":1},"rotation":-0.03} -target=bl1 -duration=0 -next;
+setTransform:{"position":{"y":-950},"scale":{"x":2,"y":1},"alpha":1,"rotation":-0.03} -target=bl2 -duration=0 -next;
+:从泥沼里爬出来的祥子，此刻已经下定决心、要以一个“成功”的姿态，给予高松灯夸奖与认可。  -fontSize=default;
+changeFigure:none -id=bl2 -next;
+changeFigure:none -id=bl1 -next;
+changeFigure:341_mashiro/model.json -id=sk8 -next -motion=sad01_rui -expression=smile02;
+:这是丰川祥子所需要的，也是高松灯所需要的——重新回到一个对等的关系，再将一切都说开。
+changeFigure:none -id=bg8 -next;
+changeFigure: -id=sk9 -next;
+changeFigure:none -id=an8 -next;
+changeFigure:none -id=sk8 -next;
+changeScene:2_08/mad_anon.txt

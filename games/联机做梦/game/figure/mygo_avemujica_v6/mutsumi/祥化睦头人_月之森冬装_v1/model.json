@@ -1,0 +1,510 @@
+{
+  "version": "Sample 1.0.0",
+  "type": 0,
+  "model": "live2d/chara/338_school_winter-2023_rip/mutsumi_school_winter-2023.moc",
+  "textures": [
+    "live2d/chara/338_general_rip/texture_00.png",
+    "live2d/chara/338_school_winter-2023_rip/texture_01.png"
+  ],
+  "controllers": {
+    "param_hit": {},
+    "param_loop": {},
+    "key_trigger": {},
+    "param_trigger": {},
+    "area_trigger": {},
+    "hand_trigger": {},
+    "eye_blink": {
+      "min_interval": 500,
+      "max_interval": 6000,
+      "enabled": true
+    },
+    "lip_sync": {
+      "gain": 5.0
+    },
+    "mouse_tracking": {
+      "smooth_time": 0.15,
+      "enabled": true
+    },
+    "auto_breath": {
+      "enabled": true
+    },
+    "extra_motion": {
+      "enabled": true
+    },
+    "accelerometer": {
+      "enabled": true
+    },
+    "microphone": {},
+    "transform": {},
+    "face_tracking": {
+      "enabled": true
+    },
+    "hand_tracking": {},
+    "param_value": {},
+    "part_opacity": {},
+    "artmesh_opacity": {},
+    "artmesh_color": {},
+    "artmesh_culling": {
+      "default_mode": 0
+    },
+    "intimacy_system": {}
+  },
+  "motions": {
+    "nnf05": [
+      {
+        "file": "live2d/chara/338_general_rip/nnf05.mtn"
+      }
+    ],
+    "nnf_left01": [
+      {
+        "file": "live2d/chara/338_general_rip/nnf_left01.mtn"
+      }
+    ],
+    "bye01": [
+      {
+        "file": "live2d/chara/338_general_rip/bye01.mtn"
+      }
+    ],
+    "smile02": [
+      {
+        "file": "live2d/chara/338_general_rip/smile02.mtn"
+      }
+    ],
+    "smile01": [
+      {
+        "file": "live2d/chara/338_general_rip/smile01.mtn"
+      }
+    ],
+    "odoodo01": [
+      {
+        "file": "live2d/chara/338_general_rip/odoodo01.mtn"
+      }
+    ],
+    "smile04": [
+      {
+        "file": "live2d/chara/338_general_rip/smile04.mtn"
+      }
+    ],
+    "nnf02": [
+      {
+        "file": "live2d/chara/338_general_rip/nnf02.mtn"
+      }
+    ],
+    "nf02": [
+      {
+        "file": "live2d/chara/338_general_rip/nf02.mtn"
+      }
+    ],
+    "sad02": [
+      {
+        "file": "live2d/chara/338_general_rip/sad02.mtn"
+      }
+    ],
+    "surprised01": [
+      {
+        "file": "live2d/chara/338_general_rip/surprised01.mtn"
+      }
+    ],
+    "angry01": [
+      {
+        "file": "live2d/chara/338_general_rip/angry01.mtn"
+      }
+    ],
+    "nnf03": [
+      {
+        "file": "live2d/chara/338_general_rip/nnf03.mtn"
+      }
+    ],
+    "nf_left01": [
+      {
+        "file": "live2d/chara/338_general_rip/nf_left01.mtn"
+      }
+    ],
+    "kime01": [
+      {
+        "file": "live2d/chara/338_general_rip/kime01.mtn"
+      }
+    ],
+    "thinking01": [
+      {
+        "file": "live2d/chara/338_general_rip/thinking01.mtn"
+      }
+    ],
+    "idle01": [
+      {
+        "file": "live2d/chara/338_general_rip/idle01.mtn"
+      }
+    ],
+    "nf01": [
+      {
+        "file": "live2d/chara/338_general_rip/nf01.mtn"
+      }
+    ],
+    "nf_right01": [
+      {
+        "file": "live2d/chara/338_general_rip/nf_right01.mtn"
+      }
+    ],
+    "nnf04": [
+      {
+        "file": "live2d/chara/338_general_rip/nnf04.mtn"
+      }
+    ],
+    "nf05": [
+      {
+        "file": "live2d/chara/338_general_rip/nf05.mtn"
+      }
+    ],
+    "nf04": [
+      {
+        "file": "live2d/chara/338_general_rip/nf04.mtn"
+      }
+    ],
+    "nf03": [
+      {
+        "file": "live2d/chara/338_general_rip/nf03.mtn"
+      }
+    ],
+    "nnf01": [
+      {
+        "file": "live2d/chara/338_general_rip/nnf01.mtn"
+      }
+    ],
+    "sad01": [
+      {
+        "file": "live2d/chara/338_general_rip/sad01.mtn"
+      }
+    ],
+    "nnf_right01": [
+      {
+        "file": "live2d/chara/338_general_rip/nnf_right01.mtn"
+      }
+    ],
+    "z_angry01": [
+      {
+        "file": "live2d/chara/338_general_rip/Saki_angry01.mtn"
+      }
+    ],
+    "z_angry02": [
+      {
+        "name": "z_angry02",
+        "file": "live2d/chara/338_general_rip/Saki_angry02.mtn"
+      }
+    ],
+    "z_angry03": [
+      {
+        "name": "z_angry03",
+        "file": "live2d/chara/338_general_rip/Saki_angry03.mtn"
+      }
+    ],
+    "z_angry04": [
+      {
+        "name": "z_angry04",
+        "file": "live2d/chara/338_general_rip/Saki_angry04.mtn"
+      }
+    ],
+    "z_angry05": [
+      {
+        "name": "z_angry05",
+        "file": "live2d/chara/338_general_rip/Saki_angry05.mtn"
+      }
+    ],
+    "z_angry06": [
+      {
+        "name": "z_angry06",
+        "file": "live2d/chara/338_general_rip/Saki_angry06.mtn"
+      }
+    ],
+    "z_angry07": [
+      {
+        "name": "z_angry07",
+        "file": "live2d/chara/338_general_rip/Saki_angry07.mtn"
+      }
+    ],
+    "z_bye01": [
+      {
+        "name": "z_bye01",
+        "file": "live2d/chara/338_general_rip/Saki_bye01.mtn"
+      }
+    ],
+    "z_bye02": [
+      {
+        "name": "z_bye02",
+        "file": "live2d/chara/338_general_rip/Saki_bye02.mtn"
+      }
+    ],
+    "z_cry01": [
+      {
+        "name": "z_cry01",
+        "file": "live2d/chara/338_general_rip/Saki_cry01.mtn"
+      }
+    ],
+    "z_cry02": [
+      {
+        "name": "z_cry02",
+        "file": "live2d/chara/338_general_rip/Saki_cry02.mtn"
+      }
+    ],
+    "z_cry03": [
+      {
+        "name": "z_cry03",
+        "file": "live2d/chara/338_general_rip/Saki_cry03.mtn"
+      }
+    ],
+    "z_cry04": [
+      {
+        "name": "z_cry04",
+        "file": "live2d/chara/338_general_rip/Saki_cry04.mtn"
+      }
+    ],
+    "z_cry05": [
+      {
+        "name": "z_cry05",
+        "file": "live2d/chara/338_general_rip/Saki_cry05.mtn"
+      }
+    ],
+    "z_idle01": [
+      {
+        "name": "z_idle01",
+        "file": "live2d/chara/338_general_rip/Saki_idle01.mtn"
+      }
+    ],
+    "z_kime01": [
+      {
+        "name": "z_kime01",
+        "file": "live2d/chara/338_general_rip/Saki_kime01.mtn"
+      }
+    ],
+    "z_nf_left01": [
+      {
+        "name": "z_nf_left01",
+        "file": "live2d/chara/338_general_rip/Saki_nf_left01.mtn"
+      }
+    ],
+    "z_nf_right01": [
+      {
+        "name": "z_nf_right01",
+        "file": "live2d/chara/338_general_rip/Saki_nf_right01.mtn"
+      }
+    ],
+    "z_nf01": [
+      {
+        "name": "z_nf01",
+        "file": "live2d/chara/338_general_rip/Saki_nf01.mtn"
+      }
+    ],
+    "z_nf02": [
+      {
+        "name": "z_nf02",
+        "file": "live2d/chara/338_general_rip/Saki_nf02.mtn"
+      }
+    ],
+    "z_nf03": [
+      {
+        "name": "z_nf03",
+        "file": "live2d/chara/338_general_rip/Saki_nf03.mtn"
+      }
+    ],
+    "z_nf04": [
+      {
+        "name": "z_nf04",
+        "file": "live2d/chara/338_general_rip/Saki_nf04.mtn"
+      }
+    ],
+    "z_nf05": [
+      {
+        "name": "z_nf05",
+        "file": "live2d/chara/338_general_rip/Saki_nf05.mtn"
+      }
+    ],
+    "z_nnf_left01": [
+      {
+        "name": "z_nnf_left01",
+        "file": "live2d/chara/338_general_rip/Saki_nnf_left01.mtn"
+      }
+    ],
+    "z_nnf_right01": [
+      {
+        "name": "z_nnf_right01",
+        "file": "live2d/chara/338_general_rip/Saki_nnf_right01.mtn"
+      }
+    ],
+    "z_nnf01": [
+      {
+        "name": "z_nnf01",
+        "file": "live2d/chara/338_general_rip/Saki_nnf01.mtn"
+      }
+    ],
+    "z_nnf02": [
+      {
+        "name": "z_nnf02",
+        "file": "live2d/chara/338_general_rip/Saki_nnf02.mtn"
+      }
+    ],
+    "z_nnf03": [
+      {
+        "name": "z_nnf03",
+        "file": "live2d/chara/338_general_rip/Saki_nnf03.mtn"
+      }
+    ],
+    "z_nnf04": [
+      {
+        "name": "z_nnf04",
+        "file": "live2d/chara/338_general_rip/Saki_nnf04.mtn"
+      }
+    ],
+    "z_nnf05": [
+      {
+        "name": "z_nnf05",
+        "file": "live2d/chara/338_general_rip/Saki_nnf05.mtn"
+      }
+    ],
+    "z_odoodo01": [
+      {
+        "name": "z_odoodo01",
+        "file": "live2d/chara/338_general_rip/Saki_odoodo01.mtn"
+      }
+    ],
+    "z_sad01": [
+      {
+        "name": "z_sad01",
+        "file": "live2d/chara/338_general_rip/Saki_sad01.mtn"
+      }
+    ],
+    "z_sad02": [
+      {
+        "name": "z_sad02",
+        "file": "live2d/chara/338_general_rip/Saki_sad02.mtn"
+      }
+    ],
+    "z_serious01": [
+      {
+        "name": "z_serious01",
+        "file": "live2d/chara/338_general_rip/Saki_serious01.mtn"
+      }
+    ],
+    "z_serious02": [
+      {
+        "name": "Saki_serious02",
+        "file": "live2d/chara/338_general_rip/Saki_serious02.mtn"
+      }
+    ],
+    "z_shame01": [
+      {
+        "name": "z_shame01",
+        "file": "live2d/chara/338_general_rip/Saki_shame01.mtn"
+      }
+    ],
+    "z_shame02": [
+      {
+        "name": "z_shame02",
+        "file": "live2d/chara/338_general_rip/Saki_shame02.mtn"
+      }
+    ],
+    "z_sigh01": [
+      {
+        "name": "z_sigh01",
+        "file": "live2d/chara/338_general_rip/Saki_sigh01.mtn"
+      }
+    ],
+    "z_sigh02": [
+      {
+        "name": "z_sigh02",
+        "file": "live2d/chara/338_general_rip/Saki_sigh02.mtn"
+      }
+    ],
+    "z_smile01": [
+      {
+        "name": "z_smile01",
+        "file": "live2d/chara/338_general_rip/Saki_smile01.mtn"
+      }
+    ],
+    "z_smile02": [
+      {
+        "name": "z_smile02",
+        "file": "live2d/chara/338_general_rip/Saki_smile02.mtn"
+      }
+    ],
+    "z_smile03": [
+      {
+        "name": "z_smile03",
+        "file": "live2d/chara/338_general_rip/Saki_smile03.mtn"
+      }
+    ],
+    "z_smile04": [
+      {
+        "name": "z_smile04",
+        "file": "live2d/chara/338_general_rip/Saki_smile04.mtn"
+      }
+    ],
+    "z_smile05": [
+      {
+        "name": "z_smile05",
+        "file": "live2d/chara/338_general_rip/Saki_smile05.mtn"
+      }
+    ],
+    "z_surprised01": [
+      {
+        "name": "z_surprised01",
+        "file": "live2d/chara/338_general_rip/Saki_surprised01.mtn"
+      }
+    ],
+    "z_surprised02": [
+      {
+        "name": "z_surprised02",
+        "file": "live2d/chara/338_general_rip/Saki_surprised02.mtn"
+      }
+    ],
+    "z_thinking01": [
+      {
+        "name": "Saki_thinking01",
+        "file": "live2d/chara/338_general_rip/Saki_thinking01.mtn"
+      }
+    ],
+    "z_thinking02": [
+      {
+        "name": "z_thinking02",
+        "file": "live2d/chara/338_general_rip/Saki_thinking02.mtn"
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "name": "sad01",
+      "file": "live2d/chara/338_general_rip/sad01.exp.json"
+    },
+    {
+      "name": "smile04",
+      "file": "live2d/chara/338_general_rip/smile04.exp.json"
+    },
+    {
+      "name": "angry01",
+      "file": "live2d/chara/338_general_rip/angry01.exp.json"
+    },
+    {
+      "name": "default",
+      "file": "live2d/chara/338_general_rip/default.exp.json"
+    },
+    {
+      "name": "smile01",
+      "file": "live2d/chara/338_general_rip/smile01.exp.json"
+    },
+    {
+      "name": "surprised01",
+      "file": "live2d/chara/338_general_rip/surprised01.exp.json"
+    },
+    {
+      "name": "idle01",
+      "file": "live2d/chara/338_general_rip/idle01.exp.json"
+    },
+    {
+      "name": "smile02",
+      "file": "live2d/chara/338_general_rip/smile02.exp.json"
+    }
+  ],
+  "physics": "live2d/chara/338_school_winter-2023_rip/sakiko_casual-2023.physics.json",
+  "physics_v2": {
+    "file": "live2d/chara/338_school_winter-2023_rip/sakiko_casual-2023.physics.json"
+  },
+  "options": {}
+}

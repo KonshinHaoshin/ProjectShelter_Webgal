@@ -1,0 +1,68 @@
+:——青春期少女的烦恼，或许比丰川祥子所预想的还要深刻些许。;
+changeBg:SakiKo_Home_Day_03.webp -next -transform={};
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=sigh02 -expression=default;
+bgm:03.how.mp3 -enter=800;
+:她的人生绝非一帆风顺，甚至可以说是有些过于曲折了。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -expression=smile03;
+:还好，最近的生活主打一个稳中向好，经济压力的骤减让这位肩负多条人命……呸，是肩负多人人生的女高中生总算是活得有个人样。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=nf02 -expression=smile02;
+:而正所谓饱暖思那什么，她并不觉得自己最近的梦境有多么不健全，反而认为这种尽情的纵欲是保证身心健康的必要行为——
+:毕竟是在梦里，她甚至没有影响到自己的身体、只是获取精神上的满足而已。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=thinking01 -expression=default;
+:不害人不害己，自然是想做什么就做什么……问题是————
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -expression=thinking02;
+祥子:……总觉得梦里的爱音有点嫌弃我呢。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=smile06 -expression=default;
+:洗漱的时候，丰川祥子盯着镜子里的自己：嗯，黑眼圈没有了，肌肤也变得比以前更光滑水嫩了，感觉像是被爱情滋润了一样呢跌丝袜。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -expression=serious02;
+:但是，为什么在梦里，自己总会是“败者”（意味深）呢……？
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=sigh01 -expression=default;
+祥子:……技术的问题、么？
+:就像是乐器水平太菜的吉他手容易被鼓手上压力一样，技术不行的女孩子在做“那种事情”的时候好像也会被嫌弃——蓝发的键盘手一边刷着牙，一边陷入了沉思。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=odoodo01 -expression=shame01;
+:正所谓菜就多练，但她压根就没有练手的对象，而且在脱离了梦境之后，丰川祥子本质上还是一个纯真的前·大小姐——
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=shame01 -expression=default;
+setTransform:{"position":{"y":300}} -target=fig-center -duration=0 -next;
+:不在梦中、又没有了那副面具的心理暗示，最近的她甚至比以前的自己还要软弱，就像个热恋中的小女生一样。别说练习了，光是回想一下梦境里的场景，她就无比害臊。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=zb_nf01;
+setTransform:{"position":{"y":0}} -target=fig-center -duration=0 -next;
+祥子:……不行不行。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -expression=thinking02;
+:——不能被虚假的幸福蒙蔽了，丰川祥子。
+:镜中的少女重新露出了坚毅的眼神。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=nod01;
+:梦终究只是梦，她可以尽情地在梦中释放压力、享受跟那位粉发少女共度的时光、品味那令人陶醉的欢愉，但绝不可能让梦境里的事情变成她现实中的烦恼。
+changeFigure: -next;
+:梦与现实就应该切割看待，正如日与月本不可能同辉。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=nf04;
+:这是她的理性告诉她的—— -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=nf04 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_rip/model.json -left -transform={"position":{"x":-300,"y":1000},"alpha":0.6} -next;
+理性:啊，不，等等 -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_rip/model.json -left -transform={"position":{"x":-300},"alpha":0.6} -next -motion=nf01 -expression=smirk;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=nnf_left01_anon;
+setTransform:{"position":{"x":-300,"y":0},"alpha":0.6} -target=fig-left -duration=0 -next;
+理性:呃啊理性理性，我没说过这句话。
+祥子:？
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_summer-2023_rip/model.json -right -transform={"position":{"x":300,"y":0},"alpha":0.6} -next -motion=serious02 -expression=smile04;
+感性:呃啊感性感性，丰川祥子你就是单纯地不想提升自己的技术水平才说这么多漂亮话吧。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=nnf_right01;
+祥子:？？
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=nf01 -expression=shame01;
+changeFigure: -left -next;
+changeFigure:none -right -next;
+:——不是这样的！
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=zb_serious02 -expression=thinking02;
+:丰川祥子将水含在嘴里、发泄似地“咕噜噜”着——然后将烦人的理性和感性一起吐了出去。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=zb_nf01 -expression=thinking01;
+setTransform:{} -target=fig-center -duration=0 -next;
+:该上学了。
+changeBg:none -next;
+changeFigure:none -next;
+:她享受着梦境为她带来的神清气爽、心里想着自己绝对不会将梦与现实混淆，却没有意识到镜中的自己仍脸颊微红。
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -transform={"position":{"x":-750,"y":0},"scale":{"x":0.7,"y":0.7},"alpha":0.25} -next -motion=thinking01 -expression=thinking01;
+bgm: -enter=1700;
+:——就像是，过去软弱的自己还没有死透、甚至开始打起了复活赛一样。
+changeFigure:none -left -next;
+:………………………………
+changeScene:2_02/anon.txt

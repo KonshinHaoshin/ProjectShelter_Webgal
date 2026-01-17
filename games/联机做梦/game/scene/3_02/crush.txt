@@ -1,0 +1,154 @@
+changeFigure:sad_sakiko.webp -id=ssk -transform={"position":{"y":-40},"scale":{"x":1.2,"y":1.2}} -next;
+changeFigure:shelves.webp -id=bg2 -transform={"position":{"x":600,"y":-850},"scale":{"x":1.6,"y":1.6},"alpha":0,"rotation":0.1,"blur":8} -next;changeFigure:shelves.webp -id==bg1 -transform={"position":{"x":-900,"y":-950},"scale":{"x":-2,"y":2},"alpha":0,"rotation":-0.08,"blur":8} -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy13 -transform={"position":{"x":-700,"y":-10},"scale":{"x":0.76,"y":0.76},"alpha":0} -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an13 -transform={"position":{"x":-100,"y":-10},"scale":{"x":0.76,"y":0.76},"alpha":0} -next;
+changeFigure:sakiko_back_2.webp -id=sk13 -transform={"position":{"x":900,"y":-240},"scale":{"x":-1.4,"y":1.4},"alpha":0,"blur":10} -next;
+changeFigure:bg_adv_narration.webp -id=narra -transform={"scale":{"x":1.6,"y":1.6},"alpha":0} -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy12 -transform={"position":{"x":530,"y":-260},"scale":{"x":0.66,"y":0.66},"alpha":0} -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an12.5 -transform={"position":{"x":-200,"y":-120},"scale":{"x":0.79,"y":0.79},"alpha":0} -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip_wet_sun/model.json -id=an12 -transform={"position":{"x":-1400,"y":-350},"scale":{"x":1.7,"y":1.7},"alpha":0} -next -motion=surprised01 -expression=default;
+changeFigure:341_mashiro_sad/model.json -id=sk12 -transform={"position":{"x":-2000,"y":-1000},"scale":{"x":3,"y":3},"blur":12,"alpha":0} -next -motion=sad01_anon -expression=sad01;
+changeFigure:walk2fin_2.webp -id=walk -transform={"position":{"x":400,"y":-40},"scale":{"x":2.7,"y":2.7},"alpha":0} -next;
+changeFigure:run2.5fin_2.webp -id=run -transform={"position":{"x":-120,"y":200},"scale":{"x":2.2,"y":2.2},"blur":8,"alpha":0} -next;
+changeFigure:341_mashiro_sad/model.json -id=sk11 -transform={"position":{"y":-220},"scale":{"x":1.15,"y":1.15},"alpha":0} -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an11 -transform={"position":{"x":-500,"y":-220},"scale":{"x":1.15,"y":1.15},"alpha":0} -next;
+素世:……小、祥？
+祥子:……。
+changeFigure:none -id=ssk -next;
+setTransform:{"position":{"x":600,"y":-850},"scale":{"x":1.6,"y":1.6},"alpha":1,"rotation":0.1,"blur":8} -target=bg2 -duration=750 -next;
+setTransform:{"position":{"x":-100,"y":-10},"scale":{"x":0.76,"y":0.76},"alpha":1} -target=an13 -duration=750 -next;
+setTransform:{"position":{"x":-700,"y":-10},"scale":{"x":0.76,"y":0.76},"alpha":1} -target=sy13 -duration=750 -next;
+setTransform:{"position":{"x":900,"y":-240},"scale":{"x":-1.4,"y":1.4},"alpha":1,"blur":10} -target=sk13 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an13 -next -motion=nnf04_mu -expression=surprised01;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy13 -next -motion=nf04 -expression=surprised01;
+:映入眼帘的，是丰川祥子——低垂着脑袋的她，双眼被刘海遮掩了大半。
+setTransform:{"position":{"x":1400,"y":-700},"scale":{"x":2.2,"y":2.2},"alpha":0,"rotation":0.1,"blur":8} -target=bg2 -duration=750 -next;
+setTransform:{"position":{"x":200,"y":-120},"scale":{"x":0.9,"y":0.9},"alpha":0} -target=an13 -duration=750 -next;
+setTransform:{"position":{"x":-600,"y":-120},"scale":{"x":0.9,"y":0.9},"alpha":1} -target=sy13 -duration=750 -next;
+setTransform:{"position":{"x":2400,"y":-20},"scale":{"x":-2,"y":2},"alpha":0,"blur":20} -target=sk13 -duration=750 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy13 -next -motion=sad01_aya;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an13 -next -motion=nf05_mu -expression=surprised02_sk;
+:即便是拥有惊世智慧的长崎素世，也不可能想到自己会在这个地方、这种时候与|[【这个人】](style=color:#848caf)偶遇—— -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy13 -next -motion=odoodo02_aya -expression=sad01;
+:她张了张嘴，下意识地想要说些什么、但话语到了喉间却又变成了无意义的杂音，|最后化作无言的沉默。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy13 -next -motion=angry01 -expression=sigh02_sk;
+:……她不知道该怎么开口，也不知道开口应该先说什么好。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an13 -next -motion=smile03 -expression=sad01R;
+setTransform:{"position":{"x":1400,"y":-700},"scale":{"x":2.2,"y":2.2},"alpha":0,"rotation":0.1,"blur":8} -target=bg2 -duration=750 -next;
+setTransform:{"position":{"x":200,"y":-120},"scale":{"x":0.9,"y":0.9},"alpha":1} -target=an13 -duration=750 -next;
+setTransform:{"position":{"x":-600,"y":-120},"scale":{"x":0.9,"y":0.9},"alpha":0} -target=sy13 -duration=750 -next;
+setTransform:{"position":{"x":2400,"y":-20},"scale":{"x":-2,"y":2},"alpha":0,"blur":20} -target=sk13 -duration=750 -next;
+:正如千早爱音心中猜想的那样，即便已经踏上了不同的道路，即便已经做好了背负着过去的迷茫、与同伴们继续前进的觉悟——
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an13 -next -motion=sigh02_sk;
+:可真要让这样的长崎素世在没有任何准备的情况下面对丰川祥子，显然还“时候未到”。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an13 -next -motion=nnf01 -expression=sad01;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy13 -next -motion=nf04_mashiro -expression=sigh01_sk;
+setTransform:{"position":{"x":200,"y":-120},"scale":{"x":0.9,"y":0.9},"alpha":0} -target=an13 -duration=0 -next;
+setTransform:{"position":{"x":-600,"y":-120},"scale":{"x":0.9,"y":0.9},"alpha":1} -target=sy13 -duration=0 -next;
+:……不过。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy13 -next -motion=smile01 -expression=smile03;
+:亚麻色长发的少女深呼吸了一口气——然后，露出了一个稍微有些勉强、也稍微有些苦涩的笑容：
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy13 -next -motion=smile01_mashiro;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an13 -next -motion=surprised01 -expression=default;
+setTransform:{"position":{"x":1400,"y":-700},"scale":{"x":2.2,"y":2.2},"alpha":1,"rotation":0.1,"blur":8} -target=bg2 -duration=750 -next;
+setTransform:{"position":{"x":200,"y":-120},"scale":{"x":0.9,"y":0.9},"alpha":1} -target=an13 -duration=750 -next;
+setTransform:{"position":{"x":-600,"y":-120},"scale":{"x":0.9,"y":0.9},"alpha":1} -target=sy13 -duration=750 -next;
+素世:……真巧呢，小——
+setTransform:{"position":{"x":200,"y":-120},"scale":{"x":0.9,"y":0.9},"alpha":0} -target=an13 -duration=750 -next;
+setTransform:{"position":{"x":-600,"y":-120},"scale":{"x":0.9,"y":0.9},"alpha":0} -target=sy13 -duration=750 -next;
+setTransform:{"position":{"x":1400,"y":-700},"scale":{"x":2.2,"y":2.2},"alpha":0,"rotation":0.1,"blur":8} -target=bg2 -duration=750 -next;
+changeBg:ansk1.webp -next;
+祥子:爱音，我们走。
+素世:——祥？
+changeBg:yellow.webp -next -transform={"scale":{"x":2,"y":1}};
+setTransform:{"scale":{"x":1.6,"y":1.6},"alpha":0.4} -target=narra -duration=0 -next;
+:瞳孔微缩。
+:那曾经让她朝思暮想的蓝色发丝，从长崎素世的侧边经过——毫不留情、甚至连一丝气味都不愿意留下。
+setTransform:{"scale":{"x":1.6,"y":1.6},"alpha":0} -target=narra -duration=0 -next;
+changeBg:test5.webp -next -transform={"scale":{"x":1,"y":1}};
+
+爱音:哎、哎！？祥——
+;changeBg:none -next;
+;changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy12 -next -motion=nf04_mashiro -expression=surprised01;
+;setTransform:{"position":{"x":400,"y":-320},"scale":{"x":0.79,"y":0.79},"alpha":1} -target=sy12 -duration=800 -next;
+:——被带走的，是长崎素世熟悉的那抹粉色。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy12 -next -motion=serious01_mashiro -expression=sigh02_sk;
+setTransform:{"position":{"x":400,"y":-320},"scale":{"x":0.79,"y":0.79},"alpha":0} -target=sy12 -duration=620 -next;
+setTransform:{"position":{"x":-200,"y":-120},"scale":{"x":0.79,"y":0.79},"alpha":1} -target=an12.5 -duration=620 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an12.5 -next -motion=nf04_kokoro -expression=surprised01;
+changeBg:none -next;
+:大脑一片空白。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an12.5 -next -motion=nf01;
+:不光是长崎素世，同样无法思考的还有千早爱音——事情发生得过于突然，饶是这位小聪明不嫌多的小天才也没能第一时间反应过来。
+setTransform:{"position":{"x":-200,"y":-120},"scale":{"x":0.79,"y":0.79},"alpha":0} -target=an12.5 -duration=0 -next;
+changeBg:a台场/inner3_2.webp -next -transform={"position":{"x":1000,"y":-2200},"scale":{"x":2.6,"y":2.6},"blur":12};
+setTransform:{"position":{"x":400,"y":-40},"scale":{"x":2.7,"y":2.7},"alpha":1} -target=walk -duration=0 -next;
+:她的手腕被用力扼住、甚至到了有些发疼的地步；她那时而温柔、时而强硬、时而呆呆萌萌的心上人只是拽着她一路往前走，穿过人群、穿过商场的自动门……
+爱音:祥、祥祥……呜哇！？
+changeBg:a台场/outer_2.webp -next -transform={"position":{"x":800,"y":-900},"scale":{"x":3,"y":3},"blur":12};
+setTransform:{"position":{"x":400,"y":-40},"scale":{"x":2.7,"y":2.7},"alpha":0} -target=walk -duration=0 -next;
+setTransform:{"position":{"x":-120,"y":200},"scale":{"x":2.2,"y":2.2},"blur":8,"alpha":1} -target=run -duration=0 -next;
+:……然后，开始奔跑。
+changeBg:a台场/Af1no2_2.webp -next -transform={"position":{"x":1000,"y":600},"scale":{"x":2.4,"y":2.4},"blur":5};
+setTransform:{"position":{"x":400,"y":-300},"scale":{"x":0.79,"y":0.79},"alpha":0} -target=sy12 -duration=600 -next;
+setTransform:{"position":{"x":-1400,"y":-350},"scale":{"x":1.7,"y":1.7},"alpha":1} -target=an12 -duration=600 -next;
+setTransform:{"position":{"x":-2000,"y":-1000},"scale":{"x":3,"y":3},"blur":12,"alpha":1} -target=sk12 -duration=600 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip_wet_sun/model.json -id=an12 -next -motion=angry01 -expression=surprised01;
+changeFigure:341_mashiro_sad/model.json -id=sk12 -next -motion=sad02;
+setTransform:{"position":{"x":-120,"y":200},"scale":{"x":2.2,"y":2.2},"blur":8,"alpha":0} -target=run -duration=0 -next;
+爱音:祥祥，等等—— -fontSize=medium;
+changeFigure:341_mashiro_sad/model.json -id=sk12 -next -motion=angry01 -expression=sigh02;
+祥子:[不要。](style=color:#88939d) -fontSize=large;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip_wet_sun/model.json -id=an12 -next -motion=serious01;
+changeFigure:341_mashiro_sad/model.json -id=sk12 -next -expression=sigh01;
+setTransform:{"position":{"x":-1500,"y":-550},"scale":{"x":1.9,"y":1.9},"alpha":1} -target=an12 -duration=0 -next;
+setTransform:{"position":{"x":-1800,"y":-1100},"scale":{"x":3.4,"y":3.4},"blur":12,"alpha":0} -target=sk12 -duration=0 -next;
+setTransform:{"position":{"x":1200,"y":600},"scale":{"x":2.7,"y":2.7},"blur":8} -target=bg-main -duration=0 -next;
+爱音:但是—— -fontSize=medium;
+changeBg:none -next;
+setTransform:{"position":{"x":-1500,"y":-550},"scale":{"x":1.9,"y":1.9},"alpha":0} -target=an12 -duration=0 -next;
+setTransform:{"position":{"x":-1800,"y":-1100},"scale":{"x":3.4,"y":3.4},"blur":12,"alpha":0} -target=sk12 -duration=0 -next;
+:少女，停下了脚步。
+changeBg:a台场/stairs.webp -next -transform={"position":{"x":0,"y":60},"scale":{"x":1.1,"y":1.1},"alpha":1,"rotation":0,"blur":5};
+changeFigure:341_mashiro_sad/model.json -id=sk11 -transform={"position":{"y":-220},"scale":{"x":1.15,"y":1.15}} -next -motion=cry03 -expression=cry01;
+setTransform:{"position":{"y":-220},"scale":{"x":1.15,"y":1.15},"alpha":1} -target=sk11 -duration=0 -next;
+祥子:[……拜托了，爱音……](style=color:#88939d)
+setTransform:{"position":{"x":40,"y":60},"scale":{"x":1.1,"y":1.1},"alpha":0} -target=bg-main -duration=0 -next;
+setTransform:{"position":{"x":150,"y":-220},"scale":{"x":1.15,"y":1.15},"alpha":0} -target=sk11 -duration=0 -next;
+setTransform:{"position":{"x":-350,"y":-220},"scale":{"x":1.15,"y":1.15},"alpha":1} -target=an11 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an11 -next -motion=nnf04 -expression=surprised01;
+:——啊。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an11 -next -motion=sad02 -expression=thinking03;
+:倒映着蓝色身影的灰银瞳仁，想起了什么。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an11 -next -expression=thinking02_sk;
+:……她是见过的、见过[这样的](style=color:#88939d)祥祥。
+changeBg:none -next;
+setTransform:{"position":{"x":0,"y":-220},"scale":{"x":1.15,"y":1.15},"alpha":0} -target=sk11 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an11 -next -motion=serious02_sk -expression=surprised01_masking;
+:是那场梦——
+changeBg:a台场/stairs_dreaming.webp -transform={"position":{"x":0,"y":60},"scale":{"x":1.1,"y":1.1},"alpha":1,"rotation":0,"blur":5} -next;
+setTransform:{"position":{"x":0,"y":-220},"scale":{"x":1.15,"y":1.15},"alpha":1} -target=sk11 -duration=0 -next;
+setTransform:{"position":{"x":-350,"y":-220},"scale":{"x":1.15,"y":1.15},"alpha":0} -target=an11 -duration=0 -next;
+changeFigure:341_mashiro_sad/model.json -id=sk11 -next -motion=smile03 -expression=default;
+祥子:[……带着我、一起逃跑吧，爱音。](style=color:#88939d)
+changeBg:none -next;
+setTransform:{"position":{"x":0,"y":-220},"scale":{"x":1.15,"y":1.15},"alpha":0} -target=sk11 -duration=0 -next;
+bgm:none -enter=1100;
+:——那场、雨中的梦。
+changeFigure:none -id=sk11 -next;
+changeFigure:none -id=ssk -transform={"position":{"y":-40},"scale":{"x":1.2,"y":1.2}} -next;
+changeFigure:none -id=bg2 -transform={"position":{"x":600,"y":-850},"scale":{"x":1.6,"y":1.6},"alpha":0,"rotation":0.1,"blur":8} -next;
+changeFigure:none -id=bg1 -transform={"position":{"x":-900,"y":-950},"scale":{"x":-2,"y":2},"alpha":0,"rotation":-0.08,"blur":8} -next;
+changeFigure:none -id=sy13 -transform={"position":{"x":-700,"y":-10},"scale":{"x":0.76,"y":0.76},"alpha":0} -next;
+changeFigure:none -id=an13 -transform={"position":{"x":-100,"y":-10},"scale":{"x":0.76,"y":0.76},"alpha":0} -next;
+changeFigure:none -id=sk13 -transform={"position":{"x":900,"y":-240},"scale":{"x":-1.4,"y":1.4},"alpha":0,"blur":10} -next;
+changeFigure:none -id=narra -transform={"scale":{"x":1.6,"y":1.6},"alpha":0} -next;
+changeFigure:none -id=sy12 -transform={"position":{"x":530,"y":-260},"scale":{"x":0.66,"y":0.66},"alpha":0} -next;
+changeFigure:none -id=an12.5 -transform={"position":{"x":-200,"y":-320},"scale":{"x":0.79,"y":0.79},"alpha":0} -next;
+changeFigure:none -id=an12 -transform={"position":{"x":-1400,"y":-350},"scale":{"x":1.7,"y":1.7},"alpha":0} -next -motion=surprised01 -expression=default;
+changeFigure: -id=sk12 -transform={"position":{"x":-2000,"y":-1000},"scale":{"x":3,"y":3},"blur":12,"alpha":0} -next -motion=sad01_anon -expression=sad01;
+changeFigure:none -id=walk -transform={"position":{"x":400,"y":-40},"scale":{"x":2.7,"y":2.7},"alpha":0} -next;
+changeFigure: -id=run -transform={"position":{"x":-300,"y":-40},"scale":{"x":2.6,"y":2.6},"blur":8,"alpha":0} -next;
+changeFigure:none -id=an11 -transform={"position":{"x":-500,"y":-220},"scale":{"x":1.15,"y":1.15},"alpha":0} -next;
+:…………………………
+changeScene:3_02/cafe.txt

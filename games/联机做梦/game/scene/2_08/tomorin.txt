@@ -1,0 +1,152 @@
+changeFigure: -id=ob -next;
+changeFigure: -id=jh -next;
+changeFigure: -id=sox -next;
+changeBg:a台场/inner3.jpg -next -transform={"position":{"x":510,"y":-380},"scale":{"x":1.4,"y":1.4}};
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -left -id=an -transform={"position":{"x":400,"y":100},"scale":{"x":0.73,"y":0.73}} -next -motion=smile03 -expression=default;
+changeFigure:341_mashiro/model.json -right -id=sk -transform={"position":{"x":600,"y":100},"scale":{"x":0.73,"y":0.73}} -next -motion=sigh02 -expression=default;
+bgm:24.humor.mp3;
+:总而言之、言而总之，这趟躲避炎炎夏日的室内游乐园逃避行……压根不浪漫，而且还让祥子输得透彻。
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nnf_right01 -expression=sigh02;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -transform={"position":{"x":1700,"y":100},"scale":{"x":0.73,"y":0.73},"alpha":0.7} -next -motion=bye01_anon -expression=L_Boby;
+:对此，理性和感性并无怨言，不如说它们早就猜到了会有这样的结果。
+setTransform:{"position":{"x":2100},"scale":{"x":0.73,"y":0.73},"alpha":0.7} -target=ob -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -id=an -next -motion=smile04 -expression=turnR;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=zb_surprised01 -expression=default;
+爱音:祥子，难道说……意外地胜负心很重？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -expression=shame02_sk;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=zb_serious02;
+祥子:不许说出来。
+changeBg:none -next;
+changeFigure:none -id=an -next;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=zb_nf_left01 -expression=shame01;
+changeFigure:sakiko_small/model.json -id=sox -transform={"position":{"x":500,"y":400},"scale":{"x":0.73,"y":0.71},"alpha":0.7} -next -motion=nod01_kokoro -expression=smile04;
+:听到爱音的打趣，祥子感觉自己的本能更加躁动不安、巴不得赶紧（哔——）死这个天生邪恶以下略。
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nnf01_rui;
+changeFigure:sakiko_small/model.json -id=sox -next -motion=angry02_taki -expression=turn_R_Body;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh -transform={"position":{"x":100,"y":100},"scale":{"x":0.73,"y":0.73},"alpha":0.7} -next -motion=nnf_right01_mu -expression=cry04;
+:这不妥，今天的她们是作为朋友……作为同学来约会的……嗯……
+changeFigure:341_mashiro/model.json -id=sk -next -motion=thinking02 -expression=surprised02;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh -next -motion=cry03 -expression=odoodo01;
+setTransform:{"position":{"y":1100},"scale":{"x":0.73,"y":0.73},"alpha":0.7} -target=jh -duration=900 -next;
+changeFigure:sakiko_small/model.json -id=sox -next -motion=nf_left01_anon -expression=surprised01;
+setTransform:{"position":{"y":1100},"scale":{"x":0.73,"y":0.71},"alpha":0.7} -target=sox -duration=900 -next;
+祥子:……。
+changeFigure:none -id=jh -next;
+changeFigure:none -id=sox -next;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=zb_surprised02 -expression=default;
+:——这么一想，自己刚刚好像特别失礼啊。
+changeFigure:341_mashiro/model.json -id=sk -next -motion=angry02_soyo -expression=sad01;
+:不光没有表现出什么“反差萌”，甚至还跟个幼稚的顽童一样跟爱音较上了劲…… -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=odoodo01 -expression=sad02;
+:丰川祥子眉头紧皱、心里很不是滋味：这已经不是“软弱的我又复活了”可以解释的事情了，哪怕是以前的她也不可能任性到这种程度。 -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=sad01_mu -expression=odoodo01;
+:……这样的她，会被爱音讨厌么？
+changeBg:a台场/inner3.jpg -next -transform={"position":{"x":510,"y":-380},"scale":{"x":1.4,"y":1.4}};
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -left -id=an -transform={"position":{"x":400,"y":100},"scale":{"x":0.73,"y":0.73}} -next -motion=nnf01 -expression=default;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=sigh02 -expression=sad01;
+爱音:好好好，我不说我不说~ -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf03_kokoro -expression=smile04;
+changeFigure:341_mashiro/model.json -id=sk -next -expression=surprised01;
+不过，刚刚的祥子也很可爱呢。 -concat -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nf_left01 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nnf_right01;
+祥子:诶？
+:祥子抬眼望去，却正好与爱音对上视线。
+changeFigure:341_mashiro/model.json -id=sk -next -expression=thinking01;
+:……嗯，怎么看都不像是“讨厌”的眼神。
+changeFigure:341_mashiro/model.json -id=sk -next -motion=zb_serious01 -expression=shame01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf_right01_masking -expression=smile04;
+祥子:“可爱”这种形容词可不适合我。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=smile04_soyo -expression=smile04;
+setTransform:{"position":{"x":600,"y":100},"scale":{"x":0.73,"y":0.73}} -target=an -duration=0 -next;
+爱音:哎，明明就很合适嘛~平时总是很优雅的祥子也会为了打游戏的事情着急什么的——
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=smile03_sk;
+changeFigure:341_mashiro/model.json -id=sk -next -expression=surprised01;
+爱音:这叫什么来着，【反差萌】？
+changeBg:none -next;
+changeFigure:none -left -id=an -next;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=zb_nf_right01 -expression=shame01;
+祥子:……。
+changeFigure:none -id=sox -next;
+changeFigure:none -id=ob -next;
+changeFigure:none -id=jh -next;
+:丰川祥子，别过脸去。
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh11 -transform={"position":{"x":-200,"y":100},"scale":{"x":0.73,"y":0.73},"alpha":0.7} -next -motion=sigh01 -expression=smile05;
+changeFigure:sakiko_small/sakiko_small_banned/model.json -id=sox11 -transform={"position":{"x":-200,"y":400},"scale":{"x":0.73,"y":0.71},"alpha":0.7,"rotation":0.1} -next -motion=nf01 -expression=sigh01;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob11 -transform={"position":{"x":250,"y":100},"scale":{"x":0.73,"y":0.73},"alpha":0.7} -next -motion=smile05 -expression=R_boby;
+changeFigure:341_mashiro/model.json -id=sk -next -expression=sigh01;
+理性:呃啊坏了坏了，又让她爽到了。
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob11 -next -motion=nf_left01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh11 -next -motion=nf01;
+setTransform:{"position":{"x":0,"y":100},"scale":{"x":0.73,"y":0.73},"alpha":0.7} -target=jh11 -duration=0 -next;
+changeFigure:sakiko_small/sakiko_small_banned/model.json -id=sox11 -next -motion=nf01_kokoro -expression=sigh02;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=sigh02 -expression=default;
+感性:呃啊算了算了，就让她爽爽吧。
+changeFigure: -id=ob11 -next;
+changeFigure: -id=jh11 -next;
+changeFigure: -id=sox11 -next;
+changeBg:a台场/inner3.jpg -next -transform={"position":{"x":510,"y":-380},"scale":{"x":1.4,"y":1.4}};
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -transform={"position":{"x":400,"y":100},"scale":{"x":0.73,"y":0.73}} -next -motion=smile06_sk;
+:但实际上，丰川祥子并没有真的“爽到”。
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nf_left01 -expression=sad01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -expression=surprised01;
+祥子:……爱音不会觉得我是个很麻烦的女孩子么？ -fontSize=default;
+:任性、麻烦、自尊心——祥子用左手紧紧抓着自己的右臂，试探性地问道。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=surprised01 -expression=default;
+changeFigure:341_mashiro/model.json -id=sk -next -expression=thinking01;
+爱音:诶，这哪里麻烦了……？
+:怎料爱音完全没跟上她的话题节奏，只是不解地眨了眨眼，就像是见过更麻烦的女孩子|一样——哦，她好像真见过。 -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nnf01 -expression=shame01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nnf04 -expression=turnR;
+祥子:……当我没问吧。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf03 -expression=smile04;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=shame01 -expression=Down_look;
+爱音:哼嗯~总觉得祥子今天有些奇怪呢。
+:或许是感觉到自己掌握了主导权，这次轮到后天邪恶的千早爱音露出了小恶魔般的笑容：
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=smile03;
+爱音:不是说好了，只是【朋友】、【同学】关系的约会么~我怎么感觉，祥子的反应—— -notend -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -expression=surprised01;
+changeFigure:341_mashiro/model.json -id=sk -next -expression=surprised01;
+bgm:none;
+诶？ -concat -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nf_left01 -expression=thinking01;
+:然而，不知为何，爱音的调侃戛然而止。
+bgm:16.reaching_out_hands.mp3;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=thinking03;
+changeFigure:341_mashiro/model.json -id=sk -next -expression=surprised01;
+祥子:……？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -expression=default;
+changeFigure:341_mashiro/model.json -id=sk -next -expression=thinking02;
+:祥子莫名地看着爱音的表情逐渐变得僵硬、随后染上了名为困惑的情绪：
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -expression=turnR;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nf04 -expression=thinking02;
+爱音:……祥祥，难道说，我们现在还在做梦？
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nnf01;
+祥子:怎么可能，还有，注意你的称呼。
+changeFigure:341_mashiro/model.json -id=sk -next -expression=angry01;
+:如果这是梦的话，祥子第一时间就得把天上那个狠毒的太阳换成爱音的脸…… -notend -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=smile05 -expression=default;
+:呃，总觉得好像变成了什么古早的子供向电视节目。 -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=thinking01;
+setTransform:{"position":{"x":425,"y":100},"scale":{"x":0.73,"y":0.73}} -target=an -duration=0 -next;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nnf_right01 -expression=thinking01;
+爱音:……那，为什么。 -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk -next -expression=thinking02;
+:千早爱音的视线越过了祥子的肩头，看向了她的身后——注意到不对劲的祥子立刻反应了过来、回头望去。
+changeFigure:341_mashiro/model.json -id=sk -next -expression=surprised01;
+:然后，她也看到了——
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -expression=smile03;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=surprised02 -expression=default;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm -transform={"position":{"x":2500,"y":100},"scale":{"x":0.75,"y":0.75}} -next;
+爱音:……为什么，Tomorin会在这里？
+setTransform:{"position":{"x":-510,"y":-480},"scale":{"x":1.4,"y":1.4}} -target=bg-main -duration=0 -next;
+changeFigure: -id=an -next;
+changeFigure:none -id=sk -next;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm -next -motion=smile01 -expression=default;
+setTransform:{"position":{"x":1500,"y":100},"scale":{"x":0.75,"y":0.75},"alpha":1} -target=tm -duration=0 -next;
+:——高松灯，堂堂登场。
+bgm:;
+changeBg:none -next;
+changeFigure:none -id=tm -next;
+intro:————【今日爱祥累积接吻次数：0】 -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500 -hold;
+: -fontSize=default;

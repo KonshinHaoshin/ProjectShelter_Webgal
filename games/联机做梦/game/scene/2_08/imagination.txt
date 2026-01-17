@@ -1,0 +1,123 @@
+changeBg:station2.webp -next;
+changeFigure:341_mashiro/model.json -id=sk -transform={"scale":{"x":0.9,"y":0.9}} -next -motion=nnf01 -expression=thinking01;
+:为什么呢？
+changeBg:station3.webp -next;
+changeFigure:none -id=sk -next;
+changeFigure:341_mashiro/model.json -id=sk2 -transform={"position":{"x":600},"scale":{"x":0.73,"y":0.73}} -next -motion=nf_left01 -expression=default;
+:祥子走向了车站的出闸口，准备换乘另一条线前往她今天的目的地。|经过出闸口时，她抬眼看向了车站大堂那高悬的时钟—— -fontSize=default;
+setTransform:{"position":{"x":2400,"y":600},"scale":{"x":3,"y":3}} -target=bg-main -duration=10 -next;
+changeFigure:none -id=sk2 -next;
+:【8:19】
+changeFigure:341_mashiro/model.json -id=sk -transform={"position":{"x":600},"scale":{"x":0.73,"y":0.73}} -next -motion=smile01 -expression=default;
+setTransform:{"scale":{"x":1,"y":1}} -target=bg-main -duration=0 -next;
+:时间还早，不如说早得有点过分了。
+changeFigure:341_mashiro/model.json -id=sk -next -motion=serious01 -expression=smile02;
+:她和爱音约好的见面时间是九点半，这是一个说早不早、说晚不晚，非常恰当的时间—— -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nf_left01_masking -expression=smile05;
+:祥子本打算提前半个小时抵达，但或许是因为紧张过度，哪怕算上换乘之后的路程，她这个“提前”好像也提得有点太前了点。 -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nf01_mu -expression=smile05;
+祥子:……呵。
+:少女自嘲地笑了笑，看来，她真的是紧张得有点不像话了。
+changeBg:none -next;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=thinking01 -expression=kime01;
+bgm: -enter=2000;
+:不过，这样也好。
+changeFigure:none -id=an -next;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=kime01 -expression=default;
+bgm:14. tactfully.mp3 -enter=1400;
+:——约会要点，其之一！
+changeFigure:341_mashiro/model.json -id=sk -next -expression=smirk;
+:祥子的脑海里浮现出了之前进行“情报收集”时，在网上看到的所谓约会攻略：首先，约会的时候，一定要比对方更早抵达见面的地点！
+changeFigure:none -id=sk -next;
+changeBg:stationDOGE.webp -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -transform={"position":{"x":-1100,"y":50},"scale":{"x":0.9,"y":0.9}} -next -motion=angry01 -expression=smile03;
+:虽然约会本身就不该迟到，但“早到”却能让你在约会开始前就抢占先机、掌控一定程度的主导权——要问为什么的话，不妨想象一下这样的画面：
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=surprised01 -expression=smile04;
+setTransform:{"position":{"x":-800},"scale":{"x":0.9,"y":0.9}} -target=an -duration=0 -next;
+爱音:呼……提前了十五分钟抵达，应该没问题了吧~？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -expression=default;
+changeFigure:none -id=an -next;
+changeBg:stationDOGE2.webp -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -transform={"position":{"x":800},"scale":{"x":0.73,"y":0.73}} -next -motion=nnf_left01 -expression=smile01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -transform={"scale":{"x":0.73,"y":0.73}} -next -motion=zb_nnf_right01 -expression=surprised01;
+:粉发少女从车站里走出来，心里想着先跟这边的知名地标拍个合照发给自己的恋人、却没想到那只忠犬八公的石像底下已经站着一道熟悉的身影。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=surprised01_sk -expression=default;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -expression=thinking02;
+爱音:……！？祥、祥祥？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=nf_left01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=thinking02 -expression=thinking02;
+祥子:我说过在外面要叫我祥子的吧？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=serious01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=nf_left01 -expression=smile06;
+爱音:唔，抱、抱歉…… -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=serious03_masking -expression=default;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -expression=kime01;
+爱音:那个，久等了……祥子 -fontSize=default -notend;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -expression=smile03;
+setTransform:{"position":{"x":100},"scale":{"x":0.73,"y":0.73}} -target=an2 -duration=0 -next;
+爱音:等很久了么？ -fontSize=default -concat;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=kime01 -expression=smile06;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=nf_right01_sk -expression=shame01;
+祥子:没有哦，我也只是刚到而已。
+changeBg:none -next;
+changeFigure:none -id=sk -next;
+changeFigure:none -id=an2 -next;
+changeFigure:341_mashiro/model.json -id=sk2 -transform={"scale":{"x":0.9,"y":0.9}} -next -motion=angry07 -expression=smirk;
+:——咔！
+changeFigure:341_mashiro/model.json -id=sk2 -next -motion=serious02;
+:看到没有，就是这个！就是这个“没有哦，我也只是刚到而已”！
+changeFigure:none -id=sk2 -next;
+changeBg:ave mujica_stage5 .webp -next -transform={"position":{"y":-200},"scale":{"x":0.8,"y":0.8}};
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_rip/model.json -id=sk -transform={"position":{"x":480,"y":180},"scale":{"x":0.6,"y":0.6}} -next -motion=smile01 -expression=smile02;
+:从容不迫、游刃有余，在对方抵达之前就已经站在了顶点、占据了名为“约会”的舞台中央，将手中的剑刃刺入那Position Zero—— -fontSize=default;
+changeFigure:none -id=sk -next;
+changeFigure:341_mashiro/model.json -id=sk2 -transform={"scale":{"x":0.9,"y":0.9}} -next -motion=nf04_kokoro;
+changeBg:none -next;
+:这就是，先来后到的千层道路！ -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk2 -next -motion=kime02_anon -expression=thinking01;
+:祥子握紧了拳头：她其实也不是很懂这种“抢占先机”的意义是什么，但既然网上的攻略是这么写的，她也 -fontSize=default -notend;
+changeFigure:341_mashiro/model.json -id=sk2 -next -expression=smile05;
+:就这么照做了。 -fontSize=default -concat;
+changeFigure:341_mashiro/model.json -id=sk2 -next -motion=zb_surprised02 -expression=default;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -left -id=ob -transform={"position":{"x":-300},"scale":{"x":0.9,"y":0.9},"alpha":0.7} -next -motion=nf01 -expression=serious02;
+理性:呃啊理性理性，你有这功夫不如多练练手上的功夫（意味深）。
+changeFigure:341_mashiro/model.json -id=sk2 -next -motion=angry01 -expression=shame01;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -right -id=jh -transform={"position":{"x":300},"scale":{"x":0.9,"y":0.9},"alpha":0.7} -next -motion=nf01 -expression=smile05;
+changeFigure:sakiko_small/model.json -id=sox -transform={"position":{"y":1100},"scale":{"x":0.9,"y":0.873},"alpha":0.7} -next;
+感性:呃啊感性感性，你有这时间不如增加一下忍耐的时间（意味深）。
+changeFigure:341_mashiro/model.json -id=sk2 -next -motion=zb_angry05 -expression=default;
+setTransform:{"position":{"x":1800},"scale":{"x":0.9,"y":0.9}} -target=sk2 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -next -motion=sigh02 -expression=smile05;
+changeFigure:sakiko_small/model.json -id=sox -next -motion=nnf_right01 -expression=thinking02;
+setTransform:{"position":{"y":200},"scale":{"x":0.9,"y":0.873},"alpha":0.7} -target=sox -duration=2000 -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh -next -motion=odoodo01 -expression=smile06;
+:丰川祥子将理性和感性抛诸脑后，优雅地走向换乘的月台——直到，她看到了那抹熟悉的粉色身影。
+bgm: -enter=200;
+changeFigure:none -id=jh -next;
+changeFigure:none -id=ob -next;
+changeFigure:none -id=sox -next;
+changeBg:station5.webp -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -transform={"position":{"x":-100,"y":50},"scale":{"x":0.8,"y":0.8}} -next -motion=surprised01 -expression=default;
+changeFigure:341_mashiro/model.json -right -id=sk -transform={"position":{"x":1000,"y":50},"scale":{"x":0.8,"y":0.8}} -next -motion=nf_left01_soyo -expression=surprised01;
+祥子:啊。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nnf_right01 -expression=smile03;
+bgm:02.sweet_dream.mp3 -volume=100 -enter=1000;
+爱音:……诶。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=angry04 -expression=shame01;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=zb_smile03 -expression=sigh02;
+:没有忠犬八公像，也没有“久等了，等很久了吗”的起手式，不如说她们约好的地点也压根不是涩谷——在前往换乘海鸥线的路上，丰川祥子与千早爱音相遇了。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf_right01_sk;
+setTransform:{"position":{"x":350,"y":50},"scale":{"x":0.8,"y":0.8}} -target=an -duration=0 -next;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=zb_sigh01;
+祥子:……。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf_left01 -expression=surprised01;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=shame02_anon -expression=sigh01;
+setTransform:{"position":{"x":-1800,"y":50},"scale":{"x":0.8,"y":0.8}} -target=sk -duration=0 -next;
+爱音:……祥、祥祥？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -expression=smile03;
+setTransform:{"position":{"x":-1800,"y":50},"scale":{"x":0.8,"y":0.8}} -target=an -duration=0;
+changeBg:none -next;
+:时间是，上午八点二十一分。
+bgm: -enter=1000;
+:………………………………
+changeScene:on_railway.txt

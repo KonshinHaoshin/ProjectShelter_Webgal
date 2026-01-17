@@ -1,0 +1,102 @@
+changeBg:Ring天台/外墙看里面远景_red.webp -next -transform={"position":{"x":1520,"y":-340},"scale":{"x":2.2,"y":2.2}};
+bgm:25.yume.mp3;
+:【“——抬起头来吧。”】
+changeBg:none -next;
+changeFigure:Ring天台/栏杆下.webp -id=bg9 -transform={"position":{"x":300,"y":400},"scale":{"x":1.8,"y":1.8}} -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -id=an9 -transform={"position":{"x":1750,"y":100},"scale":{"x":0.98,"y":0.98}} -next -motion=thinking01 -expression=surprised01;
+changeFigure:Ring天台/栏杆下_front.webp -id=f9 -transform={"position":{"x":300,"y":750},"scale":{"x":1.8,"y":1.8}} -next;
+changeFigure:red.webp -id=red -transform={"scale":{"x":2},"alpha":0.2} -next;
+: -notend -fontSize=default;
+setTransform:{"position":{"x":560,"y":-20},"scale":{"x":1.07,"y":1.07}} -target=an9 -duration=1650 -next;
+爱音:……诶？
+:熟悉的声音响起，落在身上的灯光也发生了转变——千早爱音下意识地抬起头来，映入眼帘的却是一片黑与红。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an9 -next -motion=nf03_sk -expression=turnL15;
+爱音:这是……Live的直播？
+setTransform:{"position":{"x":300,"y":400},"scale":{"x":1.8,"y":1.8},"alpha":0} -target=bg9 -duration=0 -next;
+setTransform:{"position":{"x":300,"y":750},"scale":{"x":1.8,"y":1.8},"alpha":0} -target=f9 -duration=0 -next;
+setTransform:{"scale":{"x":2},"alpha":0} -target=red -duration=0 -next;
+setTransform:{"position":{"x":560,"y":-20},"scale":{"x":1.07,"y":1.07},"alpha":0} -target=an9 -duration=0 -next;
+changeBg:ave mujica_stage.webp -next -transform={"position":{"x":70,"y":-700},"scale":{"x":1.8,"y":1.8}};
+changeFigure:ave mujica stage human.png -id=mujica -transform={"position":{"y":-800}} -next;
+:大型广告电子屏幕上，手游广告已经消失得无影无踪、取而代之的是无比熟悉的五道身影：
+setTransform:{"position":{"y":-1500},"scale":{"x":2.2,"y":2.2},"alpha":0} -target=mujica -duration=1200 -next;
+changeFigure:mygo_avemujica_v6/uika/三角初华_Doloris_v1.22/337_Doloris_v1.22.model.json -id=uk -transform={"position":{"x":200,"y":50},"scale":{"x":0.8,"y":0.8}} -next -motion=K_kime05 -expression=serious01;
+:【“赤红之月已然沉入梦之海—— -notend -fontSize=default;
+changeFigure:mygo_avemujica_v6/uika/三角初华_Doloris_v1.22/337_Doloris_v1.22.model.json -id=uk -next -motion=K_kime02 -expression=smile01;
+:啊啊，多么奇妙、深邃的海中，竟仍藏着那小小的、阳光的碎片。”】 -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/uika/三角初华_Doloris_v1.22/337_Doloris_v1.22.model.json -id=uk -next -motion=K_serious01 -expression=K_kaoru_special;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_rip/model.json -id=ob -transform={"position":{"x":-150,"y":75},"scale":{"x":0.77,"y":0.77},"alpha":0} -next;
+:一曲终了，Ave Mujica特有的中二……咳，舞台剧风格小剧场再次开演。但身为Ave Mujica老粉的爱音，一眼就看出来了这次的小剧场有什么地方不太对劲。
+changeFigure:mygo_avemujica_v6/uika/三角初华_Doloris_v1.22/337_Doloris_v1.22.model.json -id=uk -next -motion=K_kime02 -expression=turn_L_Body;
+setTransform:{"position":{"x":560,"y":75},"scale":{"x":0.77,"y":0.77},"alpha":0.8} -target=uk -duration=900 -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_rip/model.json -id=ob -next -motion=serious02 -expression=smile02;
+setTransform:{"position":{"x":145,"y":50},"scale":{"x":0.8,"y":0.8}} -target=ob -duration=1100 -next;
+:【“难道、奇迹与魔法都是存在的么——遗忘的人偶，似乎想起了什么本应遗忘的情感。”】
+changeFigure:mygo_avemujica_v6/uika/三角初华_Doloris_v1.22/337_Doloris_v1.22.model.json -id=uk -next -motion=K_natural01 -expression=K_smile01;
+setTransform:{"position":{"x":-300,"y":75},"scale":{"x":0.77,"y":0.77},"alpha":0} -target=uk -duration=2000 -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_rip/model.json -id=ob -next -motion=serious01_anon -expression=smirk;
+:蓝发双马尾的面具少女，身为键盘手、却在不知不觉间来到了属于主唱的C位——|而金色短发的面具少女，也配合地将主唱的麦克风交托给了她。
+changeFigure:none -id=uk -next;
+setTransform:{"position":{"x":145,"y":50},"scale":{"x":0.8,"y":0.8},"alpha":0} -target=ob -duration=0 -next;
+setTransform:{"position":{"x":300,"y":400},"scale":{"x":1.8,"y":1.8},"alpha":1} -target=bg9 -duration=0 -next;
+setTransform:{"position":{"x":300,"y":750},"scale":{"x":1.8,"y":1.8},"alpha":1} -target=f9 -duration=0 -next;
+setTransform:{"scale":{"x":2},"alpha":0.2} -target=red -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an9 -next -motion=surprised01 -expression=turnL15;
+setTransform:{"position":{"x":560,"y":-20},"scale":{"x":1.07,"y":1.07},"alpha":1} -target=an9 -duration=0 -next;
+爱音:啊。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an9 -next -motion=smile04_ako;
+:——千早爱音，似乎意识到了什么。
+setTransform:{"position":{"x":300,"y":400},"scale":{"x":1.8,"y":1.8},"alpha":0} -target=bg9 -duration=0 -next;
+setTransform:{"position":{"x":300,"y":750},"scale":{"x":1.8,"y":1.8},"alpha":0} -target=f9 -duration=0 -next;
+setTransform:{"scale":{"x":2},"alpha":0} -target=red -duration=0 -next;
+setTransform:{"position":{"x":560,"y":-20},"scale":{"x":1.07,"y":1.07},"alpha":0} -target=an9 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_rip/model.json -id=ob -next -motion=smile01 -expression=default;
+setTransform:{"position":{"x":145,"y":50},"scale":{"x":0.8,"y":0.8},"alpha":1} -target=ob -duration=1100 -next;
+:而屏幕里的少女也朝着镜头微微一笑、那双琥珀金的眼瞳似乎与爱音对上了视线：
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_rip/model.json -id=ob -next -motion=ZK_kime01 -expression=smile02;
+bgm:none -enter=1400;
+:【“——所以，仅此一次、为了独此唯一。”】
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_rip/model.json -id=ob -next -motion=cry02_notcry -expression=smile06;
+:戴着手套的手，握住了麦克风——前奏响起，是Ave Mujica相当火爆的一曲《黑色生日》。但这一次的演唱者不是Doloris，而是…… -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_rip/model.json -id=ob -next -motion=ZK_kime05 -expression=smile06;
+setTransform:{"position":{"x":0,"y":-400},"scale":{"x":1.1,"y":1.1}} -target=ob -duration=0 -next;
+setTransform:{"position":{"y":-1600},"scale":{"x":2.6,"y":2.6}} -target=bg-main -duration=0 -next;
+:【“——Oblivionis，为汝献上、诞生之歌。”】
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_rip/model.json -id=ob -next -motion=smile06 -expression=wink01_anon;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an9 -next -motion=nf_left01_soyo -expression=sad01;
+:生日快乐。 -fontSize=small;
+changeBg:none -next;
+changeFigure:none -id=ob -next;
+setTransform:{"position":{"x":0,"y":-400},"scale":{"x":1.1,"y":1.1},"alpha":0} -target=ob -duration=0 -next;
+setTransform:{"position":{"x":300,"y":400},"scale":{"x":1.8,"y":1.8},"alpha":1} -target=bg9 -duration=0 -next;
+setTransform:{"position":{"x":300,"y":750},"scale":{"x":1.8,"y":1.8},"alpha":1} -target=f9 -duration=0 -next;
+setTransform:{"scale":{"x":2},"alpha":0.11} -target=red -duration=0 -next;
+setTransform:{"position":{"x":560,"y":-20},"scale":{"x":1.07,"y":1.07},"alpha":1} -target=an9 -duration=0 -next;
+:特地拉近的镜头，让爱音读到了Oblivionis……不，是【丰川祥子】的唇语。 -fontSize=medium;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an9 -next -expression=cry02;
+爱音:……啊啊。
+:不知不觉间已经彻底放松了身体的爱音，只能呆呆地注视着那巨大的屏幕——就像是、在注视着梦境与现实之间的裂隙一样。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an9 -next -motion=oowarai01_kokoro -expression=cry04_sk_L15;
+爱音:真狡猾呢，祥祥。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an9 -next -motion=nf01_sk -expression=cry04_sk_L15;
+:少女抽了抽鼻子，却发现自己的眼角已经彻底湿润。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an9 -next -motion=angry02 -expression=cry02_L15;
+爱音:……太狡猾了啦。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an9 -next -motion=smile02_sk -expression=turnL15;
+:然后，她笑了——笑得很开心、笑得与屏幕里那位自信开腔的键盘手相似。
+setTransform:{"position":{"x":300,"y":400},"scale":{"x":1.8,"y":1.8},"alpha":0} -target=bg9 -duration=0 -next;
+setTransform:{"position":{"x":300,"y":750},"scale":{"x":1.8,"y":1.8},"alpha":0} -target=f9 -duration=0 -next;
+setTransform:{"scale":{"x":2},"alpha":0} -target=red -duration=0 -next;
+setTransform:{"position":{"x":560,"y":-20},"scale":{"x":1.07,"y":1.07},"alpha":0} -target=an9 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_rip/model.json -id=ob -next -motion=smile02 -expression=smile06;
+setTransform:{"position":{"x":0,"y":-400},"scale":{"x":1.1,"y":1.1},"alpha":1} -target=ob -duration=0 -next;
+爱音:——最喜欢了。
+changeFigure:none -id=an9 -next;
+changeFigure:none -id=bg9 -next;
+changeFigure:none -id=f9 -next;
+changeFigure:none -id=ob -next;
+changeBg:00012-894205988.webp -next -transform={"position":{"y":100},"blur":0};
+:粉发的少女闭上眼睛、在音乐与歌声的簇拥下尽情拥抱着这场梦。
+setTransform:{"position":{"y":100},"alpha":0,"blur":35} -target=bg-main -duration=1400 -next;
+:——名为，【现实】的梦。
+intro:      ~Happy Birthday·Chihaya Anon~ -fontSize=medium -backgroundColor=rgba(50, 17, 69, 1) -fontColor=rgba(113, 190, 245, 1) -animation=fadeIn -delayTime=1500 -hold;

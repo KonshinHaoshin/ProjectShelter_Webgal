@@ -1,0 +1,189 @@
+changeFigure:darker_blue.webp -id=dd_blue -transform={"scale":{"x":2},"alpha":0.5} -next;
+changeFigure:bright_orange.webp -id=bright_orange -transform={"scale":{"x":2},"alpha":0} -next;
+changeFigure:full_grey.webp -id=grey -transform={"scale":{"x":2},"alpha":0.2} -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -transform={"position":{"x":225,"y":200},"scale":{"x":0.85,"y":0.85},"alpha":0} -next -motion=nf04 -expression=sigh01;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -transform={"position":{"y":150},"scale":{"x":0.85,"y":0.85}} -next -motion=sigh01 -expression=down_look;
+bgm:16.sunset.mp3 -volume=80 -enter=1200;
+:……丰川祥子，好像做了一个很漫长的梦。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -next -motion=thinking01 -expression=thinking01;
+:她梦到了，属于【千早爱音】的过往—— -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -next -expression=smile03;
+:这太奇妙了，她跟爱音同学一点都不熟、更不可能知晓对方的过去。就算只是做梦，怎么还给人家编排了个出国留学失败然后灰溜溜回国的经历，真是的…… -fontSize=default;
+changeBg:bg00905.webp -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -next -motion=nf_right01 -expression=surprised01;
+setTransform:{"position":{"x":225,"y":200},"scale":{"x":0.85,"y":0.85},"alpha":1} -target=fig-center -duration=0 -next;
+祥子:……姆？
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -next -motion=zb_surprised02;
+:睁眼一看，粉发少女的睡颜近在咫尺。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -next -motion=nf_left01 -expression=thinking01;
+:丰川祥子被吓了一跳，但她很快就注意到教室窗外仍下着雨——难道说？
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -next -motion=nf_left01 -expression=smile04;
+爱音:唔……嗯？祥祥……？
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -next -motion=smile06 -expression=default;
+:巧合的是，千早爱音也在这个时候“醒”了过来、揉了揉眼睛——|原来如此。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -next -expression=kime01;
+:听到了【梦境专属的昵称】，绝顶聪明、拥有惊世智慧的丰川祥子当下了然：什么嘛，【原来我还在做梦啊】。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -next -motion=smile03 -expression=smile06;
+祥子:爱音。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -next -expression=surprised01;
+爱音:嗯……？
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -next -motion=kime02 -expression=kime01;
+:看着眼前的蓝发少女露出【独属于梦境里的温柔笑容】，才思敏捷、拥有惊世智慧的千早爱音当下了然：什么嘛，【原来我还在做梦啊】。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -next -motion=zb_nf_right01;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -next -motion=nf_left01 -expression=shame01;
+:既然是做梦，那接下来的展开自然不必多言。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=nf02_rui -expression=shame02;
+changeFigure:none -left -next;
+祥子:啾。 -fontSize=default;
+:——这是丰川祥子，她毫不犹豫地吻上了千早爱音的唇间。  -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -next -motion=smile01;
+爱音:唔~ -fontSize=default;
+:——这是千早爱音，她完全不觉得有哪里不对劲、非常主动地回应了对方的吻。;
+changeFigure:none -transform={"position":{"y":100}} -next -motion=motion_200 -expression=mtn_ex_011.exp3.json;
+O_o:啊，这。 -fontSize=default;
+:——这是不愿意透露姓名的羽丘高中吹奏部部员，她刚把门打开。;
+changeFigure:none -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -transform={"position":{"x":-200}} -next -motion=shame02 -expression=shame01;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -transform={"position":{"x":100}} -next;
+:“比较眼熟的同学”和“不怎么眼熟的同学”正在部活室里接吻，我为什么会做这样的梦——不对，这不是梦！？
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -next -motion=surprised01;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -next -expression=surprised01;
+爱音:那、那个……呃，诶……
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -next -motion=zb_thinking01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -next -motion=nnf_right01;
+祥子:咦？啊啦……
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -next -motion=zb_nf01 -expression=smile05;
+:唇间分离，祥子注意到了来者、轻笑了一声：
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -next -motion=zb_nf_right01 -expression=smile06;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -next -motion=smile04 -expression=L_Boby;
+祥子:又来了呢……抱歉，失礼了。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -next -motion=zb_nf01 -expression=smile03;
+setTransform:{"position":{"y":-150}} -target=fig-left -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -next -motion=nnf_left01 -expression=smile04;
+setTransform:{"position":{"y":-150}} -target=fig-right -duration=0 -next;
+:难道自己有这方面的暴露癖好么——丰川祥子自嘲地笑了笑，站起身来、牵起了千早爱音的手：
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -next -motion=nnf_right01 -expression=smile06;
+祥子:走吧，爱音。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -next -motion=nnf03;
+爱音:嗯？祥祥，这次又要去哪儿~
+:千早爱音也是一副没睡醒的样子，迷迷糊糊、整个人都轻飘飘的。
+setTransform:{"position":{"x":-300},"alpha":0} -target=bg-main -duration=1100 -next;
+setTransform:{"position":{"x":900,"y":-150},"alpha":0} -target=fig-left -duration=1100 -next;
+setTransform:{"position":{"x":900,"y":-150},"alpha":0} -target=fig-right -duration=1100 -next;
+:她们就这样手牵着手，跟热恋中的小情侣没有任何区别——
+changeBg:00002-597224358.webp -next;
+setTransform:{"scale":{"x":2},"alpha":0} -target=dd_blue -duration=0 -next;
+changeFigure:none -right -next;
+changeFigure:none -left -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -id=an -transform={"position":{"y":200},"scale":{"x":0.73,"y":0.73}} -next -motion=nf_right01 -expression=smile02;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -transform={"position":{"y":200},"scale":{"x":0.73,"y":0.73}} -next -motion=angry01 -expression=smile02;
+:反正是梦，只要她们想，哪怕是直接从窗户翻出去跳个楼再接一段杂耍表演都没问题，当场改名弦卷祥子和弦卷爱音也不在话下。
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -right -id=tmr -transform={"position":{"x":400,"y":200},"scale":{"x":0.73,"y":0.73}} -next -motion=nf_left01 -expression=surprised01;
+灯:……啊。
+:离开教室的时候，熟悉的身影出现了。|——是高松灯。
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmr -next -motion=surprised01 -expression=default;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -id=sk -next -motion=angry01 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an -next -expression=surprised01;
+灯:小爱……还有，祥……子？
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmr -next -motion=smile03 -expression=thinking02;
+:像是小动物的短发少女先是露出了困惑的表情，然后视线下移——在看到二人十指紧扣的双手后，瞳孔微微一缩：
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmr -next -expression=surprised01;
+bgm: -enter=1200;
+灯:……诶？
+changeFigure:none -id=tmr -next;
+changeFigure:none -id=an -next;
+changeFigure: -id=sk -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -transform={"position":{"x":300},"scale":{"x":0.8,"y":0.8}} -next -motion=nf04 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -right -transform={"scale":{"x":0.8,"y":0.8}} -next -motion=nnf01_rui -expression=thinking02;
+bgm:02.sweet_dream.mp3 -enter=1300;
+祥子:……哈啊，怎么又是灯。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -right -next -expression=sigh01;
+:丰川祥子稍微有些自我嫌恶了：癖好再怎么异常，自己也不能老拿小灯这孩子当“素材”……她还得想清楚该用怎样的态度在现实里面对这位重要的前队友呢。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -next -expression=thinking02;
+爱音:……Tomorin？
+:跟某个完全没有察觉到异样的双马尾少女不同，千早爱音眨了眨眼、似乎意识到了什么。
+:但一切都太迟了。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -right -next -motion=smile03 -expression=smile03;
+祥子:抱歉，【今晚】不需要灯的出场呢。
+:丰川祥子觉得今夜是无秩序的百无禁忌不眠之夜，像高松灯这样可爱又纯洁的小孩子是要被“少儿不宜”的警告牌给请出去的。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -next -motion=surprised01 -expression=default;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -right -next -motion=smirk -expression=smirk;
+:于是，她模仿着在舞台上的动作、化身遗忘小姐，潇洒地打了个响指——
+:啪。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -right -next -expression=surprised02;
+祥子:——嗯？
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -next -motion=smile03 -expression=R_body_down;
+:场景，没有变化；
+:|身上的衣物，也没有改变； -concat;
+:眼前的高松灯，自然也没有消失。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -right -next -motion=nf01;
+祥子:……？
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -right -next -motion=smirk -expression=thinking01;
+:丰川祥子向来是个不信邪的主，她非常耿直地又打了一声响指——
+:啪。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -right -next -motion=thinking01 -expression=surprised02;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -next -expression=smile03;
+:——无事发生。
+爱音:……祥祥，
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -next -motion=nf01 -expression=smile03;
+爱音:不对，呃， -concat;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -next -motion=nnf05;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -right -next -motion=nf_left01 -expression=thinking01;
+爱音:祥子……同学。 -concat;
+:千早爱音的灵感检定显然要比丰川祥子更早通过，她已经理解了一件事情：此处，并非梦境。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -right -next -motion=thinking02 -expression=thinking02;
+:是的，并……并非梦境……并非……诶……
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -next -motion=surprised01 -expression=default;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -right -next -motion=surprised02 -expression=default;
+两人:……等等……
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -next -motion=shame01;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -right -next -expression=shame01;
+:那，也就是说，刚刚她们在别人面前——
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -right -next -motion=zb_surprised02 -expression=L_Boby;
+setTransform:{"position":{"x":300,"y":0},"scale":{"x":0.8,"y":0.8}} -target=fig-right -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -next -motion=nnf_right01 -expression=shame02;
+setTransform:{"position":{"x":-100},"scale":{"x":0.8,"y":0.8}} -target=fig-left -duration=0 -next;
+祥子:——！？
+setTransform:{"position":{"x":-400,"y":0},"scale":{"x":1,"y":1}} -target=fig-right -duration=0 -next;
+setTransform:{"position":{"x":-1300,"y":0},"scale":{"x":1,"y":1}} -target=fig-left -duration=0 -next;
+setTransform:{"position":{"x":-400,"y":400},"scale":{"x":1.6,"y":1.6}} -target=bg-main -duration=0 -next;
+:这是丰川祥子，她松开了千早爱音的手、嘴巴微张，目瞪口呆地注视着自己的“梦中情人”。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -next -motion=nnf_right01 -expression=shame02;
+setTransform:{"position":{"x":1200,"y":0},"scale":{"x":1,"y":1}} -target=fig-right -duration=0 -next;
+setTransform:{"position":{"x":400,"y":0},"scale":{"x":1,"y":1}} -target=fig-left -duration=0 -next;
+setTransform:{"position":{"x":400,"y":400},"scale":{"x":1.6,"y":1.6}} -target=bg-main -duration=0 -next;
+爱音:——？！？
+:这是千早爱音，她松开了丰川祥子的手、露出了自己的小虎牙，瞠目结舌地注视着自己的“梦中情人”。
+setTransform:{"position":{"x":-100,"y":0},"scale":{"x":0.8,"y":0.8}} -target=fig-left -duration=0 -next;
+setTransform:{"position":{"x":300,"y":0},"scale":{"x":0.8,"y":0.8}} -target=fig-right -duration=0 -next;
+setTransform:{"scale":{"x":1,"y":1}} -target=bg-main -duration=0 -next;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -transform={"position":{"x":100},"scale":{"x":0.8,"y":0.8},"alpha":0} -next;
+灯:……那个，嗯……
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -transform={"position":{"x":100},"scale":{"x":0.8,"y":0.8},"alpha":1} -next -motion=nf_left01 -expression=thinking02;
+setTransform:{"position":{"x":100},"scale":{"x":0.8,"y":0.8},"alpha":1} -target=fig-center -duration=0 -next;
+:这是高松灯，她正在用她强而有力的电波感应着二人那极其复杂又混乱的情绪——
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -right -next -motion=zb_nf01 -expression=shame01;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -next -motion=nnf_left01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -next -motion=nf_right01;
+:她好像看到了Q版爱音小人在叽叽喳喳地说着什么，又好像听到了自称“呃啊理性理性”和“呃啊感性感性”的声音在聊些什么“敬，爱祥”之类的话语……
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -next -motion=kime02 -expression=thinking01;
+:然后，高松灯点了点头，虽然不是很懂，但她还是献上了自己的祝福：
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -next -motion=surprised01 -expression=default;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -right -next -motion=zb_surprised02 -expression=default;
+灯:……祝你们、幸福？
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -right -next -expression=sigh01;
+setTransform:{"position":{"x":1200},"scale":{"x":0.8,"y":0.8},"rotation":0.6} -target=fig-right -duration=0 -next;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -next -motion=nf_right01 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -next -motion=surprised01 -expression=Down_look;
+setTransform:{"position":{"x":800,"y":100},"scale":{"x":0.8,"y":0.8}} -target=fig-left -duration=0 -next;
+祥子:……。
+changeBg:none -next;
+changeFigure: -next;
+changeFigure: -left -next;
+changeFigure: -right -next;
+changeFigure:none -id=grey -next;
+changeFigure:none -id=dd_blue -next;
+bgm: -enter=1400;
+:丰川祥子被看不见但听得见的回旋镖砸在脑门上，两眼一黑、昏死过去。
+:;
+choose:LOVE STORY:2_04/start.txt;

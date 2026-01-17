@@ -1,0 +1,409 @@
+bgm:一番星.mp3 -volume=85 -enter=800;
+changeFigure:bench.webp -id=bg -transform={"position":{"x":-530,"y":-470},"scale":{"x":1.9,"y":1.9},"alpha":1} -next;
+changeFigure:bg00905.webp -id=bg2 -transform={"position":{"x":-900,"y":-200},"scale":{"x":1.5,"y":1.5},"alpha":0} -next;
+changeFigure:wataxi.webp -id=wataxi -transform={"position":{"y":-1680},"scale":{"x":0.7,"y":0.7},"rotation":-0.6} -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -transform={"position":{"x":-250,"y":-150},"scale":{"x":1,"y":1},"alpha":0} -next -motion=nf03 -expression=smile03R;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -transform={"position":{"x":-250,"y":-150},"scale":{"x":1,"y":1},"alpha":1} -next -motion=nf03 -expression=smile03R;
+changeFigure:anon_phone2.webp -id=phone -transform={"position":{"x":380,"y":50},"scale":{"x":0.25,"y":0.25},"alpha":0} -next;
+changeFigure:anon_for_hold/front/model.json -id=anf -transform={"alpha":0} -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -transform={"position":{"x":800,"y":-110},"scale":{"x":0.95,"y":0.95}} -next -motion=nf_left01 -expression=thinking01;
+changeFigure:fact.webp -id=fact -transform={"position":{"y":-280},"scale":{"x":0.8,"y":0.8},"alpha":0} -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=sa -transform={"position":{"x":50,"y":200},"scale":{"x":0.45,"y":0.45},"alpha":0} -next -bounds=-100,-100,100,-600;
+
+changeFigure:words/words1.webp -id=wd1 -transform={"position":{"x":-700,"y":-1100},"scale":{"x":0.4,"y":0.4},"alpha":0} -next;
+changeFigure:words/words2.webp -id=wd2 -transform={"position":{"x":-500,"y":-1400},"scale":{"x":0.4,"y":0.4},"alpha":0} -next;
+changeFigure:words/words3.webp -id=wd3 -transform={"position":{"x":-520,"y":-900},"scale":{"x":0.4,"y":0.4},"alpha":0} -next;
+changeFigure:words/words4.webp -id=wd4 -transform={"position":{"x":-350,"y":-1200},"scale":{"x":0.4,"y":0.4},"alpha":0} -next;
+changeFigure:words/words5.webp -id=wd5 -transform={"position":{"x":-750,"y":-700},"scale":{"x":0.4,"y":0.4},"alpha":0} -next;
+爱音:……Soyorin？
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf04 -expression=serious03;
+素世:干嘛。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=sad02_mu -expression=smile03R;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=sigh01_sk -expression=turn_R_Body;
+爱音:……你在等人？
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf01 -expression=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=smile03 -expression=turn_Down_look;
+素世:没有，就我自己一个。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=odoodo01_sk -expression=turnR10;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf_left01 -expression=thinking01;
+爱音:……。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf_right01_sk -expression=smile03R;
+:——千早爱音总觉得，自己现在应该说些什么。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=thinking01_mu -expression=thinking02;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=sad01 -expression=smile03;
+:但还没能从“跟亲爱的祥祥相亲相爱”的过热模式中恢复过来的她，脑子稍微有点转不动了——好在，作为不脱退同盟的盟友，长崎素世似乎看出了她的窘迫： -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nnf05_mu -expression=smile03R;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=sigh01_rui -expression=turn_L_Body10;
+素世:……电影还没开始，我只是打发打发时间而已。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf_right01 -expression=sigh01_sk;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -motion=nf_right01_sk;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=surprised01_soyo -expression=turnR10;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf_right01 -expression=thinking01;
+素世:你的朋友呢？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf04_kokoro -expression=thinking01_sk;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=angry01 -expression=smile03;
+爱音:诶，S、Soyorin怎么知道还有人跟我一起……
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=smile06_sk -expression=smile03R;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=smile03 -expression=turn_R_Body10;
+素世:……你把我当笨蛋么？ -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=smile04_aya -expression=smile02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=surprised01_sk -expression=turn_Down_look;
+setTransform:{"position":{"y":-600},"scale":{"x":0.8,"y":0.8},"alpha":1} -target=fact -duration=1500 -next;
+: -fontSize=default;
+setTransform:{"position":{"y":-470},"scale":{"x":0.8,"y":0.8},"alpha":0} -target=fact -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf_right01 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=smile02 -expression=turn_L_Body;
+素世:还是说，我们亲爱的爱音酱其实非常讨厌我，所以宁愿自己一个人孤零零地逛街、|当初也要拒绝我的[主动邀请](style-alltext=font-size:107%) 呢——？ -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=smile01 -expression=turn_R_Body10;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=angry03 -expression=smile03_skR;
+爱音:没有那回事啦！
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=thinking01_ran;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=serious02_sk -expression=smile03;
+爱音:咳……
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=serious03_masking;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=thinking01_tomoe -expression=turn_R_Body_Down10;
+爱音:我确实在等朋友没错……她去接电话了来着。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=angry01;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf05 -expression=thinking01R;
+素世:哦。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf_right01_ako;
+setTransform:{"position":{"x":800,"y":-110},"scale":{"x":0.95,"y":0.95},"alpha":0.6} -target=sy -duration=0 -next;
+setTransform:{"position":{"x":-530,"y":-470},"scale":{"x":1.9,"y":1.9},"alpha":0.3} -target=bg -duration=0 -next;
+:长崎素世似乎对爱音的这位“朋友”不怎么感兴趣——毕竟，她并不知道千早爱音今天在跟[谁](style=color:#aec4d1)约会。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=angry01_sk -expression=cry02;
+:但是千早爱音自己知道啊。
+setTransform:{"position":{"x":50,"y":170},"scale":{"x":0.45,"y":0.45},"alpha":0.7} -target=sa -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=sa -next -motion=thinking02 -expression=thinking03;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf_left01_sk -expression=sad01;
+:于是，问题出现了——要是一会儿丰川祥子接完电话回来、两个人正好撞上的话怎么办？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=sa -next -motion=nf_right01_rui -expression=thinking02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=sigh02_sk;
+setTransform:{"position":{"x":800,"y":-110},"scale":{"x":0.95,"y":0.95},"alpha":0} -target=sy -duration=0 -next;
+setTransform:{"position":{"x":-530,"y":-470},"scale":{"x":1.9,"y":1.9},"alpha":0} -target=bg -duration=0 -next;
+setTransform:{"position":{"x":1500,"y":1700},"scale":{"x":0.7,"y":0.7},"alpha":1,"rotation":0.8} -target=wataxi -duration=2000 -next;
+:[粉发少女头顶的小小爱音开始思考：她向来是个敏锐的女孩子，哪怕缺失了一些重要的、堪称名](style-alltext=font-size:95%\;)|[场面的情报，她也能从长崎素世和丰川祥子这两个人的言行之中大致推断出二人如今的【关系】](style-alltext=font-size:95%\;) -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -expression=smile03;
+:——呃，推断出这段关系有多么复杂。 -fontSize=default;
+changeBg:aieeeee.webp -next -transform={"position":{"x":700},"scale":{"x":0.5,"y":0.5}};
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=sa -next -motion=nf01_mu;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf_right01 -expression=thinking02_sk;
+:她想起了那天在Ave Mujica的Live现场、与长崎素世的偶遇，想起了自己还没找到机会告诉她的祥祥、“Soyorin已经知道了Ave Mujica成员的身份”—— -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=sa -next -motion=nod01_sk;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=serious01 -expression=thinking03;
+changeBg:none -next;
+:在这种情况下让二人碰面，总觉得不会是什么好事。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=sa -next -motion=sad01 -expression=turn_R_body_down;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=angry04;
+:……更何况，不知为何，爱音有点不太想让长崎素世知道、她跟祥子之间的联系。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=sa -next -motion=angry04 -expression=smile03R;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=serious02;
+changeBg:lier.webp -next -transform={"position":{"x":800,"y":75},"scale":{"x":0.7,"y":0.7},"alpha":0.7};
+:毕竟，自己在那天晚上可是撒了谎、隐瞒了跟祥祥相熟的事实——
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=sa -next -motion=sigh02_sk -expression=turnR10;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=sad02;
+changeBg:none -next;
+:哪怕可以用“自己答应过祥祥要保密、必须遵守诺言”作为借口，但在爱音的心中，自己终究算是做出了一个抉择，将Mygo!!!!!的大家和丰川祥子放到了天秤的两端。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf04 -expression=thinking01;
+setTransform:{"position":{"x":50,"y":170},"scale":{"x":0.45,"y":0.45},"alpha":0} -target=sa -duration=0 -next;
+:她不喜欢这样。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=sad01_soyo;
+setTransform:{"position":{"x":800,"y":-110},"scale":{"x":0.95,"y":0.95},"alpha":1} -target=sy -duration=0 -next;
+setTransform:{"position":{"x":-530,"y":-470},"scale":{"x":1.9,"y":1.9},"alpha":1} -target=bg -duration=0 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=sigh01_rui -expression=thinking01R;
+爱音:……Soyorin一会儿要看什么电影？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=odoodo01_mu;
+:少女勉强着自己、试着开口随便找点话题。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf04;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -expression=smile03;
+素世:跟乐队有关的题材。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf04_sk -expression=smile03R;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf_left01 -expression=surprised01_aya;
+爱音:喔、喔……
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=smile03 -expression=turn_L_Body;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=smile06_sk -expression=smile03R;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=smile06_sk -expression=smile03R;
+素世:……干什么了，今天怎么那么拘谨？
+setTransform:{"position":{"x":600,"y":-110},"scale":{"x":1,"y":1},"alpha":1} -target=sy -duration=0 -next;
+setTransform:{"position":{"x":-680,"y":-140},"scale":{"x":1.13,"y":1.13},"alpha":0.3,"blur":2} -target=an -duration=0 -next;
+setTransform:{"position":{"x":-770,"y":-420},"scale":{"x":2.2,"y":2.2},"alpha":0.3} -target=bg -duration=0 -next;
+setTransform:{"position":{"x":-680,"y":-140},"scale":{"x":1.13,"y":1.13},"alpha":0.2,"blur":2} -target=an2 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=thinking01_tomoe -expression=turn_Down_look;
+:——长崎素世总觉得眼前这个粉发笨蛋，今天有哪里怪怪的。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=smile04 -expression=turnR;
+setTransform:{"position":{"x":-150,"y":-130},"scale":{"x":1.08,"y":1.08},"alpha":0.5,"blur":1} -target=an2 -duration=0 -next;
+setTransform:{"position":{"x":-680,"y":-140},"scale":{"x":1.13,"y":1.13},"alpha":0,"blur":2} -target=an -duration=10 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=thinking01 -expression=turn_L_Body;
+:一般来说，这种时候的千早爱音不是应该用撒娇的语气说着“哎~怎么还藏着掖着的，告诉我电影名嘛~！”这类台词、惹人心烦才对么？
+setTransform:{"position":{"x":-150,"y":-130},"scale":{"x":1.08,"y":1.08},"alpha":0} -target=an2 -duration=0 -next;
+setTransform:{"position":{"x":-680,"y":-140},"scale":{"x":1.13,"y":1.13},"alpha":1,"blur":1} -target=an -duration=0 -next;
+setTransform:{"position":{"x":-770,"y":-420},"scale":{"x":2.2,"y":2.2},"alpha":1} -target=bg -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=bye01_kokoro;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf_left01_aya -expression=thinking01;
+爱音:哎，有、有么？
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -expression=smile03;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=odoodo01_sk;
+素世:……。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=shame02 -expression=turn_R_Body10;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -expression=thinking03;
+:——算了，自己又不是这笨蛋的妈妈，管这么多干嘛。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=surprised01_sk -expression=turnR;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=angry02 -expression=turn_R_Body;
+setTransform:{"position":{"x":-800,"y":-500},"scale":{"x":1.7,"y":1.7}} -target=bg -duration=0 -next;
+setTransform:{"position":{"x":1050,"y":-250},"scale":{"x":0.91,"y":0.91}} -target=sy -duration=0 -next;
+setTransform:{"position":{"x":-500,"y":0},"scale":{"x":0.95,"y":0.95}} -target=an -duration=0 -next;
+素世:我走了。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=surprised01;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf_left01 -expression=thinking01;
+爱音:哎？
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -expression=smile03;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=smile03;
+素世:……干嘛，我可不想跟个喜欢戳金鱼的粉毛笨蛋一直坐在一起， -fontSize=default -notend;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=sad02 -expression=shame02;
+素世:会被人误以为我也是笨蛋的。 -fontSize=default -concat;
+setTransform:{"position":{"x":-900,"y":-500},"scale":{"x":1.7,"y":1.7},"alpha":0.3} -target=bg -duration=0 -next;
+setTransform:{"position":{"x":850,"y":-240},"scale":{"x":0.915,"y":0.915}} -target=sy -duration=0 -next;
+setTransform:{"position":{"x":-700,"y":20},"scale":{"x":0.96,"y":0.96},"alpha":0.7} -target=an -duration=0 -next;
+setTransform:{"position":{"x":-700,"y":20},"scale":{"x":0.96,"y":0.96},"alpha":0} -target=an2 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=thinking01 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=zb_nnf_left01 -expression=smile03;
+:——总觉得好像听到路人在说什么“呜哇，那个粉发的身边换了个女孩子诶……”这种话，是错觉么？
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=smile03_mashiro -expression=smile03;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=thinking03 -expression=turn_Down_look;
+
+:大概是错觉吧——长崎素世，并没有多想。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=angry01 -expression=sad02;
+setTransform:{"position":{"x":-420,"y":-590},"scale":{"x":1.4,"y":1.4}} -target=bg -duration=0 -next;
+setTransform:{"position":{"x":1150,"y":-120},"scale":{"x":0.82,"y":0.82},"alpha":1} -target=sy -duration=0 -next;
+setTransform:{"position":{"x":500,"y":-120},"scale":{"x":0.82,"y":0.82}} -target=an -duration=0 -next;
+setTransform:{"position":{"x":200,"y":-80},"scale":{"x":0.8,"y":0.8},"alpha":0.5} -target=an2 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=nf03_sk -expression=thinking02;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nnf_left01 -expression=surprised01;
+爱音:Soyorin好过分——！
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=thinking02_sk;
+:虽然长崎素世并没有多想，但千早爱音的小脑袋瓜却已经开始高速运转：
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf03 -expression=turnR10;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -expression=smile03;
+爱音:不过，电影么——不知道现在正在上映什么电影诶~
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=sigh01_sk -expression=turn_R_Body10;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -expression=sigh01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next;
+素世:……。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=smile01;
+setTransform:{"position":{"x":600,"y":-120},"scale":{"x":0.82,"y":0.82}} -target=an -duration=0 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=odoodo02_aya -expression=thinking01R;
+爱音:啊啊~要不要去看看呢……Soyorin陪我一起去嘛~
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=smile03 -expression=turnR10;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=thinking01 -expression=turn_L_Body10;
+素世:为什么？
+changeBg:a台场/IMG_6428(20240731-030625).webp -next -transform={"position":{"x":0,"y":0},"scale":{"x":1,"y":1}};
+setTransform:{"position":{"x":-420,"y":-590},"scale":{"x":1.4,"y":1.4},"alpha":0} -target=bg -duration=0 -next;
+setTransform:{"position":{"x":1150,"y":-120},"scale":{"x":0.82,"y":0.82},"alpha":0} -target=sy -duration=0 -next;
+setTransform:{"position":{"x":200,"y":-80},"scale":{"x":0.8,"y":0.8},"alpha":0} -target=an2 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=thinking02_sk -expression=thinking01;
+bgm:none -enter=1200;
+:——因为，商场的电影院位于地下一层。
+: -concat -fontSize=default;
+bgm:痛み.mp3 -enter=1200;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=thinking01;
+:丰川祥子是朝着升降机那边走的，如果长崎素世打算搭乘升降机下去电影院所在楼层的话，她们很有可能就这么直接撞上——
+changeBg:a台场/QQ图片20240815170636.jpg -next -transform={"position":{"x":0,"y":-120},"scale":{"x":1,"y":1}};
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf01_sk -expression=smile03;
+:幸运的是，这里是G/F的储物柜附近，扶手电梯就在旁边。
+changeBg:none -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=serious01 -expression=thinking03;
+:也就是说，千早爱音只需要保证“长崎素世不会搭乘升降机、而是选择通过扶手电梯下楼”的话，就能避免二人的偶遇
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=sad02_sk;
+:——虽然她总觉得这两人迟早还是需要坐下来好好聊一次的，但现在明显不是时候。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -expression=sigh02;
+:……因为，不知为何，千早爱音总有种非常不好的预感。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf_left01_sk;
+setTransform:{"position":{"x":-700,"y":-1100},"scale":{"x":0.4,"y":0.4},"alpha":1} -target=wd1 -duration=800 -next;
+setTransform:{"position":{"x":-500,"y":-1400},"scale":{"x":0.4,"y":0.4},"alpha":1} -target=wd2 -duration=1300 -next;
+setTransform:{"position":{"x":-520,"y":-900},"scale":{"x":0.4,"y":0.4},"alpha":1} -target=wd3 -duration=1700 -next;
+setTransform:{"position":{"x":-350,"y":-1200},"scale":{"x":0.4,"y":0.4},"alpha":1} -target=wd4 -duration=2200 -next;
+setTransform:{"position":{"x":-750,"y":-700},"scale":{"x":0.4,"y":0.4},"alpha":1} -target=wd5 -duration=0 -next;
+:来自三角初华的来电、迟迟未归的丰川祥子，都像是在警告着千早爱音：前有危机，接下来，谨慎很有用。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=smile06_sk -expression=smile05_sk;
+setTransform:{"position":{"x":-700,"y":-1100},"scale":{"x":0.4,"y":0.4},"alpha":0} -target=wd1 -duration=800 -next;
+setTransform:{"position":{"x":-500,"y":-1400},"scale":{"x":0.4,"y":0.4},"alpha":0} -target=wd2 -duration=800 -next;
+setTransform:{"position":{"x":-520,"y":-900},"scale":{"x":0.4,"y":0.4},"alpha":0} -target=wd3 -duration=800 -next;
+setTransform:{"position":{"x":-350,"y":-1200},"scale":{"x":0.4,"y":0.4},"alpha":0} -target=wd4 -duration=800 -next;
+setTransform:{"position":{"x":-750,"y":-700},"scale":{"x":0.4,"y":0.4},"alpha":0} -target=wd5 -duration=800 -next;
+:甜到发腻的约会，好像要提前结束了呢。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=smile04 -expression=turnR;
+setTransform:{"position":{"x":-420,"y":-590},"scale":{"x":1.4,"y":1.4},"alpha":1} -target=bg -duration=0 -next;
+setTransform:{"position":{"x":1150,"y":-120},"scale":{"x":0.82,"y":0.82},"alpha":1} -target=sy -duration=0 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf_left01 -expression=odoodo01;
+爱音:陪我去嘛~
+setTransform:{"position":{"x":600,"y":-120},"scale":{"x":0.82,"y":0.82},"alpha":0.3} -target=an -duration=0 -next;
+setTransform:{"position":{"x":200,"y":-80},"scale":{"x":0.8,"y":0.8},"alpha":0.9} -target=an2 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=thinking01_sk -expression=thinking02_sk;
+setTransform:{"position":{"x":-420,"y":-590},"scale":{"x":1.4,"y":1.4},"alpha":0.3} -target=bg -duration=0 -next;
+setTransform:{"position":{"x":1150,"y":-120},"scale":{"x":0.82,"y":0.82},"alpha":0.3} -target=sy -duration=0 -next;
+:总之，现在的自己只能走一步算一步了：千早爱音想着，这应该不算在“过度干预”的范围里。
+setTransform:{"position":{"x":600,"y":-120},"scale":{"x":0.82,"y":0.82},"alpha":1} -target=an -duration=0 -next;
+setTransform:{"position":{"x":600,"y":-120},"scale":{"x":0.82,"y":0.82},"alpha":0} -target=anf -duration=0 -next;
+setTransform:{"position":{"x":200,"y":-80},"scale":{"x":0.8,"y":0.8},"alpha":0} -target=an2 -duration=0 -next;
+setTransform:{"position":{"x":-420,"y":-590},"scale":{"x":1.4,"y":1.4},"alpha":1} -target=bg -duration=0 -next;
+setTransform:{"position":{"x":1150,"y":-120},"scale":{"x":0.82,"y":0.82},"alpha":1} -target=sy -duration=0 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=thinking01 -expression=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=smile01;
+changeFigure:anon_for_hold/front/model.json -id=anf -next -motion=smile01;
+素世:……你不是在等人么？
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=sigh01_ran -expression=smile03;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=bye01 -expression=smile02;
+changeFigure:anon_for_hold/front/model.json -id=anf -next -motion=smile01 -motion=bye01 -expression=smile02;
+setTransform:{"position":{"x":600,"y":-120},"scale":{"x":0.82,"y":0.82},"alpha":1} -target=anf -duration=0 -next;
+setTransform:{"position":{"x":120,"y":-80},"scale":{"x":0.8,"y":0.8},"alpha":0} -target=an2 -duration=0 -next;
+爱音:没事，我让她一会儿下来找我就行~
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf03_sk -expression=smile02_sk;
+setTransform:{"position":{"x":380,"y":0},"scale":{"x":0.25,"y":0.25},"alpha":1} -target=phone -duration=0 -next;
+changeFigure:anon_for_hold/front/model.json -id=anf -next -motion=nf03_sk -expression=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf_left01 -expression=thinking01;
+:这么说着，爱音非常自然地拿出手机、在长崎素世面前敲起了信息：不过，信息的内容跟她嘴上说的不太一样。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=serious01 -expression=surprised02_sk;
+setTransform:{"position":{"x":-420,"y":-590},"scale":{"x":1.4,"y":1.4},"alpha":0.7} -target=bg -duration=800 -next;
+setTransform:{"position":{"x":-1080,"y":-200},"scale":{"x":1.5,"y":1.5},"alpha":1} -target=bg2 -duration=800 -next;
+setTransform:{"position":{"x":-200,"y":-120},"scale":{"x":0.82,"y":0.82},"alpha":1} -target=an2 -duration=800 -next;
+
+setTransform:{"position":{"x":600,"y":-120},"scale":{"x":0.82,"y":0.82},"alpha":0.8} -target=an -duration=800 -next;
+setTransform:{"position":{"x":330,"y":10},"scale":{"x":0.25,"y":0.25},"alpha":0.8,"rotation":0.04} -target=phone -duration=800 -next;
+setTransform:{"position":{"x":600,"y":-120},"scale":{"x":0.82,"y":0.82},"alpha":0.6} -target=anf -duration=800 -next;
+setTransform:{"position":{"x":1150,"y":-120},"scale":{"x":0.82,"y":0.82},"alpha":0.8} -target=sy -duration=800 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=serious01_sk -expression=smile06_sk;
+changeFigure:anon_for_hold/front/model.json -id=anf -next -motion=serious01_sk -expression=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nnf01 -expression=smile05;
+:【祥祥，Soyorin居然也在台场！我正好碰到了她！】
+setTransform:{"position":{"x":-420,"y":-590},"scale":{"x":1.4,"y":1.4},"alpha":1} -target=bg -duration=800 -next;
+setTransform:{"position":{"x":-1080,"y":-200},"scale":{"x":1.5,"y":1.5},"alpha":0.8} -target=bg2 -duration=800 -next;
+setTransform:{"position":{"x":-200,"y":-120},"scale":{"x":0.82,"y":0.82},"alpha":0.8} -target=an2 -duration=800 -next;
+
+setTransform:{"position":{"x":600,"y":-120},"scale":{"x":0.82,"y":0.82},"alpha":1} -target=an -duration=800 -next;
+setTransform:{"position":{"x":420,"y":10},"scale":{"x":0.25,"y":0.25},"alpha":1,"rotation":-0.03} -target=phone -duration=800 -next;
+setTransform:{"position":{"x":600,"y":-120},"scale":{"x":0.82,"y":0.82},"alpha":1} -target=anf -duration=800 -next;
+setTransform:{"position":{"x":1150,"y":-120},"scale":{"x":0.82,"y":0.82},"alpha":1} -target=sy -duration=800 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf02_sk -expression=smile03R;
+changeFigure:anon_for_hold/front/model.json -id=anf -next -motion=nf02_sk -expression=turn_R_Body10;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=serious04 -expression=smile03;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=odoodo01_sk -expression=sad01;
+素世:……爱音酱，真会给人添麻烦呢。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf05_mu -expression=smile02D;
+changeFigure:anon_for_hold/front/model.json -id=anf -next -motion=nf05_mu -expression=Down_look;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf_right01 -expression=thinking01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=kime01_sk -expression=sad01;
+setTransform:{"position":{"x":-420,"y":-590},"scale":{"x":1.4,"y":1.4},"alpha":0.8} -target=bg -duration=800 -next;
+setTransform:{"position":{"x":-1080,"y":-200},"scale":{"x":1.5,"y":1.5},"alpha":1} -target=bg2 -duration=800 -next;
+setTransform:{"position":{"x":-200,"y":-120},"scale":{"x":0.82,"y":0.82},"alpha":1} -target=an2 -duration=800 -next;
+
+setTransform:{"position":{"x":600,"y":-120},"scale":{"x":0.82,"y":0.82},"alpha":0.8} -target=an -duration=800 -next;
+setTransform:{"position":{"x":370,"y":20},"scale":{"x":0.25,"y":0.25},"alpha":0.8,"rotation":0.03} -target=phone -duration=800 -next;
+setTransform:{"position":{"x":600,"y":-120},"scale":{"x":0.82,"y":0.82},"alpha":0.6} -target=anf -duration=800 -next;
+setTransform:{"position":{"x":1150,"y":-120},"scale":{"x":0.82,"y":0.82},"alpha":0.8} -target=sy -duration=800 -next;
+:【祥祥如果不想——】
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf03 -expression=smile03R;
+changeFigure:anon_for_hold/front/model.json -id=anf -next -motion=nf03 -expression=turnR;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=shame02 -expression=turn_Down_look;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=sad02 -expression=turnL;
+setTransform:{"position":{"x":-420,"y":-590},"scale":{"x":1.4,"y":1.4},"alpha":1} -target=bg -duration=800 -next;
+setTransform:{"position":{"x":-1080,"y":-200},"scale":{"x":1.5,"y":1.5},"alpha":0.8} -target=bg2 -duration=800 -next;
+setTransform:{"position":{"x":-200,"y":-120},"scale":{"x":0.82,"y":0.82},"alpha":0.8} -target=an2 -duration=800 -next;
+
+setTransform:{"position":{"x":680,"y":-120},"scale":{"x":0.82,"y":0.82},"alpha":1} -target=an -duration=800 -next;
+setTransform:{"position":{"x":130,"y":920},"scale":{"x":0.23,"y":0.23},"alpha":0,"rotation":0.2} -target=phone -duration=800 -next;
+setTransform:{"position":{"x":680,"y":-120},"scale":{"x":0.82,"y":0.82},"alpha":1} -target=anf -duration=800 -next;
+setTransform:{"position":{"x":1150,"y":-120},"scale":{"x":0.82,"y":0.82},"alpha":1} -target=sy -duration=800 -next;
+爱音:哎，所以Soyorin是不想陪我么——
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=smile04 -expression=turnR;
+setTransform:{"position":{"x":680,"y":-120},"scale":{"x":0.82,"y":0.82},"alpha":0} -target=anf -duration=10 -next;
+changeFigure:anon_for_hold/front/model.json -id=anf -next -motion=smile04 -expression=turnR;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -expression=turn_L_Body10;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=thinking03 -expression=surprised01;
+素世:……没说不想。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=smile01 -expression=turn_Down_look;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nnf_left01 -expression=smile05;
+changeFigure:anon_for_hold/front/model.json -id=anf -next -motion=smile01 -expression=Down_look;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=nnf01 -expression=smile03;
+setTransform:{"position":{"x":-420,"y":-590},"scale":{"x":1.4,"y":1.4},"alpha":0.8} -target=bg -duration=800 -next;
+setTransform:{"position":{"x":-1080,"y":-200},"scale":{"x":1.5,"y":1.5},"alpha":1} -target=bg2 -duration=800 -next;
+setTransform:{"position":{"x":-200,"y":-120},"scale":{"x":0.82,"y":0.82},"alpha":1} -target=an2 -duration=800 -next;
+;
+setTransform:{"position":{"x":680,"y":-120},"scale":{"x":0.82,"y":0.82},"alpha":0.8} -target=an -duration=800 -next;
+setTransform:{"position":{"x":380,"y":-30},"scale":{"x":0.25,"y":0.25},"alpha":0.8,"rotation":-0.3} -target=phone -duration=800 -next;
+setTransform:{"position":{"x":680,"y":-120},"scale":{"x":0.82,"y":0.82},"alpha":0.6} -target=anf -duration=800 -next;
+setTransform:{"position":{"x":1150,"y":-120},"scale":{"x":0.82,"y":0.82},"alpha":0.8} -target=sy -duration=800 -next;
+:少女的指尖顿了一下，删掉了还没写完的半句话、重新改写：
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=angry04 -expression=sad02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=kime01_sk;
+changeFigure:anon_for_hold/front/model.json -id=anf -next -motion=kime01_sk;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next;
+setTransform:{"position":{"x":480,"y":40},"scale":{"x":0.25,"y":0.25},"alpha":0.8,"rotation":-0.1} -target=phone -duration=800 -next;
+:【——祥祥如果还没做好准备的话，先不要回来，我陪她去地下一层的电影院一趟、一会儿再跟你——】
+setTransform:{"position":{"x":-420,"y":-590},"scale":{"x":1.4,"y":1.4},"alpha":1} -target=bg -duration=800 -next;
+setTransform:{"position":{"x":-1080,"y":-200},"scale":{"x":1.5,"y":1.5},"alpha":0.8} -target=bg2 -duration=800 -next;
+setTransform:{"position":{"x":-200,"y":-120},"scale":{"x":0.82,"y":0.82},"alpha":0.8} -target=an2 -duration=800 -next;
+
+setTransform:{"position":{"x":680,"y":-120},"scale":{"x":0.82,"y":0.82},"alpha":1} -target=an -duration=800 -next;
+setTransform:{"position":{"x":520,"y":-30},"scale":{"x":0.25,"y":0.25},"alpha":1,"rotation":0.15} -target=phone -duration=800 -next;
+setTransform:{"position":{"x":680,"y":-120},"scale":{"x":0.82,"y":0.82},"alpha":1} -target=anf -duration=800 -next;
+setTransform:{"position":{"x":1150,"y":-120},"scale":{"x":0.82,"y":0.82},"alpha":1} -target=sy -duration=800 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=smile04_sk -expression=smile04;
+changeFigure:anon_for_hold/front/model.json -id=anf -next -motion=smile04_sk -expression=smile04;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nnf05;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=nod01_sk -expression=thinking01_sk;
+爱音:那我们走吧~我给她发个信息——
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=serious01_sk -expression=smile02_sk;
+changeFigure:anon_for_hold/front/model.json -id=anf -next -motion=serious01_sk;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=smile01 -expression=turn_R_Body;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=serious01 -expression=smile03;
+setTransform:{"position":{"x":-420,"y":-590},"scale":{"x":1.4,"y":1.4},"alpha":0.8} -target=bg -duration=800 -next;
+setTransform:{"position":{"x":-1080,"y":-200},"scale":{"x":1.5,"y":1.5},"alpha":1} -target=bg2 -duration=800 -next;
+setTransform:{"position":{"x":-200,"y":-120},"scale":{"x":0.82,"y":0.82},"alpha":1} -target=an2 -duration=800 -next;
+
+setTransform:{"position":{"x":680,"y":-120},"scale":{"x":0.82,"y":0.82},"alpha":0.8} -target=an -duration=800 -next;
+setTransform:{"position":{"x":440,"y":-10},"scale":{"x":0.25,"y":0.25},"alpha":0.8,"rotation":0.04} -target=phone -duration=800 -next;
+setTransform:{"position":{"x":680,"y":-120},"scale":{"x":0.82,"y":0.82},"alpha":0.6} -target=anf -duration=800 -next;
+setTransform:{"position":{"x":1150,"y":-120},"scale":{"x":0.82,"y":0.82},"alpha":0.8} -target=sy -duration=800 -next;
+:【——汇合。】
+setTransform:{"position":{"x":-420,"y":-590},"scale":{"x":1.4,"y":1.4},"alpha":0} -target=bg -duration=800 -next;
+setTransform:{"position":{"x":-1080,"y":-200},"scale":{"x":1.5,"y":1.5},"alpha":0} -target=bg2 -duration=800 -next;
+setTransform:{"position":{"x":-200,"y":-120},"scale":{"x":0.82,"y":0.82},"alpha":0} -target=an2 -duration=800 -next;
+
+setTransform:{"position":{"x":780,"y":-105},"scale":{"x":0.83,"y":0.83},"alpha":0} -target=an -duration=800 -next;
+setTransform:{"position":{"x":220,"y":500},"scale":{"x":0.25,"y":0.25},"alpha":0,"rotation":0} -target=phone -duration=800 -next;
+setTransform:{"position":{"x":780,"y":-105},"scale":{"x":0.83,"y":0.83},"alpha":0} -target=anf -duration=800 -next;
+setTransform:{"position":{"x":1250,"y":-100},"scale":{"x":0.84,"y":0.84},"alpha":0} -target=sy -duration=800 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=nnf_left01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=anf -next -motion=nf_right01 -expression=smile02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf_right01 -expression=smile02;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -expression=smile02;
+:信息发送——
+:叮咚。 -fontSize=large;
+setTransform:{"position":{"x":-420,"y":-590},"scale":{"x":1.4,"y":1.4},"alpha":1} -target=bg -duration=300 -next;
+setTransform:{"position":{"x":780,"y":-105},"scale":{"x":0.83,"y":0.83},"alpha":1} -target=an -duration=300 -next;
+setTransform:{"position":{"x":1250,"y":-100},"scale":{"x":0.84,"y":0.84},"alpha":1} -target=sy -duration=300 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -expression=surprised01;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -expression=surprised01;
+bgm:none -enter=1000;
+:——然后，【收到新消息】的提示音，从长崎素世和千早爱音的背后响了起来。 -fontSize=medium;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=surprised01_sk;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=thinking01;
+爱音:诶。
+素世:……？
+setTransform:{"position":{"x":-920,"y":-590},"scale":{"x":1.4,"y":1.4},"alpha":0} -target=bg -duration=800 -next;
+setTransform:{"position":{"x":380,"y":-105},"scale":{"x":0.83,"y":0.83},"alpha":0} -target=an -duration=800 -next;
+setTransform:{"position":{"x":800,"y":-100},"scale":{"x":0.84,"y":0.84},"alpha":0} -target=sy -duration=800 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf_right01_sk;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf_right01_mashiro;
+:二人回过头，然后——瞪大了眼睛 -fontSize=default;
+changeFigure: -id=an2 -next;
+changeFigure: -id=an -next;
+changeFigure: -id=sy -next;
+changeFigure: -id=wd1 -next;
+changeFigure: -id=wd2 -next;
+changeFigure: -id=wd3 -next;
+changeFigure: -id=wd4 -next;
+changeFigure: -id=wd5 -next;
+changeFigure:none -id=bg -next;
+changeFigure:none -id=phone -next;
+changeFigure:none -id=anf -next;
+changeScene:3_02/scrush.txt

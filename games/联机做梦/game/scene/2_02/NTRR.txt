@@ -1,0 +1,102 @@
+changeBg:bg00905.webp -next -transform={"blur":65};
+changeFigure:sakiko_也坏掉了/model.json -next -motion=odoodo01 -expression=odoodo01;
+祥子:忘掉它们。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -next -motion=surprised01 -expression=default;
+爱音:哎、哎？
+changeFigure:sakiko_也坏掉了/model.json -next -motion=angry02 -expression=smile03;
+祥子:我说，爱音，忘掉创可贴。
+:反正只是梦而已。
+changeFigure:sakiko_也坏掉了/model.json -next -motion=smile03 -expression=default;
+:蓝发的少女无声地做出了这样的宣告，撕开了缠绕在爱音指尖上的企鹅创可贴——当着、高松灯的面。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -next -motion=nnf_left01_rana -expression=surprised01;
+爱音:……！？
+changeFigure:sakiko_也坏掉了/model.json -next -motion=smile06 -expression=smile02;
+:不行。
+:慌乱、困惑、震惊——不同的情绪喷发而出，粉发少女张着嘴想要说什么、却又什么都说不出来。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -next -motion=sad01 -expression=thinking03;
+:……简直就像是要窒息了一样。
+changeFigure:sakiko_也坏掉了/model.json -next -motion=smile06 -expression=default;
+:那双金瞳流露出来的某种情感，变成了看不见的毒蛇、缠绕在了爱音的脖颈之上，张嘴露出了尖尖的利齿——
+changeFigure:sakiko_也坏掉了/model.json -next -motion=angry01 -expression=shame02;
+:罐子里溢出的花蜜似乎开始了变质，又或者说，在欲望渗入之后，它们早就已经变质成某种让人欲罢不能的“毒”了。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -next -motion=kime02 -expression=surprised01;
+爱音:祥祥，等一下——
+changeFigure:sakiko_也坏掉了/model.json -next -expression=smile02;
+祥子:不等。
+changeBg: -next;
+changeFigure:none -next;
+:嘶啦。
+:——创可贴，被撕了下来。changeBg:bg00905.webp  -next -transform={"blur":45};
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -transform={"scale":{"x":0.9,"y":0.9}} -next -motion=cry01 -expression=default;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -right -id=tmr -transform={"position":{"x":950},"blur":55} -next -motion=nf_left01 -expression=sad03;
+changeFigure:sakiko_也坏掉了/model.json -left -transform={"scale":{"x":0.9,"y":0.9}} -next -motion=nf_right01 -expression=smile06;
+:千早爱音，无法呼吸了。
+changeFigure:sakiko_也坏掉了/model.json -left -next -motion=nnf_right01_anon;
+setTransform:{"position":{"x":50,"y":50},"scale":{"x":0.9,"y":0.9}} -target=fig-left -duration=0 -next;
+:她的声音变得断断续续，甚至隐约有些哭腔：
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -next -expression=thinking03;
+爱音:不要看……Tomorin……|祥祥，不要撕……
+setTransform:{"position":{"x":75},"scale":{"x":0.9,"y":0.9}} -target=fig-right -duration=0 -next;
+:央求？求饶？粉发的少女不知道自己在说些什么，她只觉得这样不好、很不好——哪怕只是梦，也非常的不好。
+changeFigure:sakiko_也坏掉了/model.json -left -next -motion=nnf04;
+setTransform:{"position":{"x":125,"y":0},"scale":{"x":0.9,"y":0.9}} -target=fig-left -duration=0 -next;
+:但她无法反抗面前的人。
+changeFigure:sakiko_也坏掉了/model.json -left -next -expression=smile04;
+祥子:只是梦而已。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -next -motion=nf_left01 -expression=surprised01;
+setTransform:{"position":{"x":25},"scale":{"x":0.9,"y":0.9}} -target=fig-right -duration=0 -next;
+:但蓝发的少女并不这么觉得，她只是用指甲轻轻抠弄着创可贴的断口、然后又撕下一块。
+changeFigure:sakiko_也坏掉了/model.json -left -next -motion=smile02;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -next -motion=sad01 -expression=cry02;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmr -next -motion=surprised01;
+祥子:对不起，爱音。
+changeBg: -next;
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure: -id=tmr -next;
+:小小的企鹅创可贴，自由落体、掉在了地上changeBg:bg00905.webp g -next -transform={"blur":45};
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=zb_sad01 -expression=smile01;
+:丰川祥子张开嘴、将爱音那失去创可贴保护的指尖含在嘴里，轻轻吸吮着、舔舐着，直到满意为止。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=zb_angry06;
+祥子:但是，你是我的……至少在这里，你只能是我的。
+:琥珀般的金瞳，瞄向了旁边的“高松灯”——
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -next -motion=surprised01 -expression=default;
+:——祥祥是故意的。
+changeBg:none -next;
+changeFigure:anon_坏掉了/model.json -next -motion=nf01 -expression=surprised01;
+:不对。
+changeFigure:anon_坏掉了/model.json -next -motion=nnf_right01_rana -expression=smile03;
+:——这是、我的梦。
+changeFigure:anon_坏掉了/model.json -next -motion=shame02;
+:窒息的感觉变成了某种诡异的、无法用言语去形容的刺激感，那是一种酥酥麻麻的、让人明知道是错误的行为也会欲罢不能的……由罪恶感而生的愉悦。
+:——【背德感】。|千早爱音，总算想起了这个词语。
+changeFigure:anon_坏掉了/model.json -next -expression=thinking02;
+:这是她的梦，所以，现在的画面，全都是【她本人】在潜意识里想要看到的一切。
+changeFigure:anon_坏掉了/model.json -next -motion=serious02 -expression=shame02;
+setTransform:{} -target=fig-center -duration=0 -next;
+:全部、全部……都是她……|梦中的丰川祥子所做的一切，都只是因为她千早爱音【想要被这么对待changeBg:bg00905.webp ng -next -transform={"blur":75};
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -transform={"blur":75} -next -motion=cry02 -expression=default;
+:最后一次，逐渐失去高光的灰瞳试着再次看向那位短发的少女——
+changeFigure:anon_坏掉了/model.json -next -motion=angry04 -expression=smile03;
+setTransform:{"blur":0} -target=fig-center -duration=0 -next;
+爱音:……啊。
+changeFigure:sakiko_也坏掉了/model.json -id=bsk -transform={"alpha":0} -next;
+:——三个烦恼混在了一起、变成了一团糟。
+changeFigure:none -next;
+changeFigure:sakiko_也坏掉了/model.json -id=bsk -next -motion=zb_smile04 -expression=default;
+setTransform:{"alpha":1} -target=bsk -duration=0 -next;
+:她还是没能看清高松灯的脸，在被按倒在桌子上的同时，千早爱音好像听到了自己心底深处的【某物】碎掉的声音。
+changeFigure:sakiko_也坏掉了/model.json -id=bsk -next -expression=shame02;
+:……是蜜罐。
+changeFigure: -id=bsk -next;
+:蜜罐被打碎了，流出来的却不是纯洁而甜美的花蜜、而是名为欲望的毒。
+bgm: -enter=1500;
+changeFigure:anon_坏掉了/model.json -next -motion=smile03 -expression=cry01;
+爱音:原来……我……是这样的人么……？
+changeFigure:none -next;
+:有什么东西，彻底改变了。
+:——而丰川祥子，完全没有注意到这件事。
+changeBg:none -next;
+:————————
+intro:【目前可以公开的情报】 ——|          二人的梦境是相通相连的，随着对彼此的了解逐渐深入，梦境里的【自我】也会更加强烈、更加贴近现实的自己。 换句话说，事已至此，现在的二人其实已经是在货真价实地“联机做梦”，她们无法干预对方的选择、只能控制自己的行动，但也能在一定程度上掌控梦境的内容，跟明晰梦同理。 ——遗憾的是，目前无论是丰川祥子还是千早爱音，都不知道这些事情。 对她们来说，一切的一切都只是【自己】做的梦、只有【自己】知道，仅此而已。|          以及，灯并没有也在联机做梦 -fontSize=small -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500 -hold;
+choose:彩色的现实（下）:2_03/start.txt;

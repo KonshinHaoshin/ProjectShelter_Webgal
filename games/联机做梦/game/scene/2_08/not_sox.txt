@@ -1,0 +1,162 @@
+changeBg:a台场/IMG_1320_0-1.jpg -next;
+bgm:10.selfworld.mp3;
+:……总而言之、言而总之，约会正式开始了。
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeBg:a台场/map.webp -next -transform={"position":{"y":0}};
+:台场这块地，有大商场、有游乐园，还有虽然不在45楼但依旧很无敌的无敌海景、甚至还能看到非常有名的彩虹大桥…… -fontSize=default;
+changeBg:a台场/inner5.webp -next -transform={"position":{"y":-600}};
+changeFigure:341_mashiro/model.json -left -transform={"position":{"y":120},"scale":{"x":0.9,"y":0.9}} -next -motion=nf02 -expression=smile03_anon;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -transform={"position":{"y":120},"scale":{"x":0.9,"y":0.9}} -next -motion=nf_left01 -expression=smile03;
+:作为约会的地点来说，丰川祥子觉得这是非常完美的安排。 -fontSize=default;
+changeFigure:341_mashiro/model.json -left -next -motion=angry01_anon -expression=cry01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=sad02_sk -expression=smile03;
+:——前提是，如果天上的太阳没有那么毒辣的话。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=nod01_maya -expression=thinking01;
+changeFigure:341_mashiro/model.json -left -next -motion=sigh02 -expression=smile03;
+祥子:……这还没到中午吧，夏天真可怕呢。
+changeFigure:341_mashiro/model.json -left -next -motion=nf_left01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=nf_left01 -expression=smile06_sk;
+:祥子眺望着大海，水面上金光闪闪的，说不漂亮肯定是假的，但她们现在只能躲在商场空调的庇护之下、隔着玻璃窗远远望去。
+changeFigure:341_mashiro/model.json -left -next -motion=nnf01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -expression=shame01;
+:别说靠近海边了，对于 -fontSize=default -notend;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=nf_left01_mu -expression=shame02;
+:现在的她们来说，就连出门也是一项艰巨的 -fontSize=default -notend -concat;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -expression=smile01;
+:挑战。这要是到了正午，外面的太阳别说石头底下的团子虫了，就连那块石头估计都能直接熔化—— -fontSize=default -concat;
+changeFigure:341_mashiro/model.json -left -transform={"position":{"y":120},"scale":{"x":0.9,"y":0.9}} -next -motion=nnf_right01_rui -expression=smile06;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -transform={"position":{"y":120},"scale":{"x":0.9,"y":0.9}} -next -motion=nf_left01_mu -expression=surprised01;
+:祥子心想，太阳什么的，果然还 -fontSize=default -notend;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=nf_right01_rui -expression=shame02;
+:是像她 -notend -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -expression=smile03;
+:身边的某人这种“恰到好处”的温暖最合适。 -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -expression=thinking02;
+爱音:嗯……
+:爱音趴在护栏上，视线却飘向了另一边：
+changeFigure:341_mashiro/model.json -left -next -expression=smile01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=nf_left01 -expression=smile01;
+爱音:……说是这么说， -fontSize=default -notend;
+changeFigure:341_mashiro/model.json -left -next -motion=smile06 -expression=default;
+外面的人倒是不少诶。 -fontSize=default -concat;
+changeFigure:341_mashiro/model.json -left -next -motion=nod01_lisa -expression=thinking01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=thinking03;
+:明明太阳如此狠毒，在海滨公园周边的人群倒是不见减少。远处甚至还聚集了相当的人群，大概是在举行什么活动吧。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=thinking01 -expression=surprised01;
+changeFigure:341_mashiro/model.json -left -next -motion=odoodo01 -expression=thinking01;
+爱音:难道说，其实外面凉快得很……？
+changeFigure:341_mashiro/model.json -left -next -motion=thinking01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=thinking01 -expression=thinking02;
+:侦探爱音认真探案，助手小祥立刻跟上：
+changeFigure:341_mashiro/model.json -left -next -expression=R_boby;
+祥子:……因为有海风？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=kime01_sk -expression=turnL;
+changeFigure:341_mashiro/model.json -left -next -motion=nf_left01 -expression=smile06;
+爱音:……要试试看么？
+changeFigure:341_mashiro/model.json -left -next -motion=nod01_chisato -expression=R_boby;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=nod02_kokoro -expression=smile02;
+bgm: -enter=2000;
+:二人看向了从商场二楼通向海边的出入口，相互对视了一眼、点了点头。
+changeBg:bg00837.webp -next;
+changeFigure:none -left -next;
+changeFigure: -right -next;
+:;
+changeBg:a台场/inner.jpg -next -transform={"position":{"y":-980}};
+changeFigure:341_mashiro_sun/model.json -left -transform={"scale":{"x":0.9,"y":0.9}} -next -motion=odoodo01_rui -expression=smile05;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip_wet_sun/model.json -right -transform={"scale":{"x":0.9,"y":0.9}} -next -motion=angry01 -expression=smile03;
+bgm:22.childhood.mp3 -enter=1600;
+:——十秒后，二人满身大汗地回到了商场，不知道的还以为是做了什么需要激烈前后的神秘运动。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip_wet_sun/model.json -right -motion=nf_left01 -expression=thinking03;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip_wet_sun/model.json -right -motion=zztest1 -expression=smile03;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip_wet_sun/model.json -right -next -motion=nf05 -expression=smile01;
+setTransform:{"position":{"x":-75},"scale":{"x":0.9,"y":0.9}} -target=fig-right -duration=0 -next;
+changeFigure:341_mashiro_sun/model.json -left -next -motion=smile06 -expression=smile01;
+爱音:祥子，擦擦汗吧……
+changeFigure:341_mashiro_sun/model.json -left -next -motion=sigh02 -expression=smile03;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip_wet_sun/model.json -right -next -motion=nf04;
+祥子:……是我失策了。
+changeFigure:341_mashiro/model.json -left -transform={"scale":{"x":0.9,"y":0.9}} -next -motion=cry04_notcry -expression=sigh01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -transform={"scale":{"x":0.9,"y":0.9}} -next -motion=thinking01 -expression=smile01;
+:祥子接过了爱音递过来的纸巾，抹了抹 -fontSize=default -notend;
+changeFigure:341_mashiro/model.json -left -next -expression=smile06;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -expression=smile01_sk;
+:额间的汗水： -fontSize=default -concat;
+changeFigure:341_mashiro/model.json -left -next -motion=nf04;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=nod01_kasumi -expression=smile05_sk;
+祥子:果然还是留在室内活动吧。
+changeBg:none -next;
+changeFigure:none -right -next;
+changeFigure:341_mashiro/model.json -left -next -motion=odoodo01 -expression=smile03;
+:原本预定的海边散步环节，估计得留到太阳下山之后再说了。
+changeBg:a台场/inner.jpg -next -transform={"position":{"x":-500,"y":-1600},"scale":{"x":1.4,"y":1.4},"blur":10};
+changeFigure:none -left -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -transform={"position":{"x":-450,"y":0},"scale":{"x":1,"y":1}} -next -motion=smile04 -expression=default;
+爱音:那，祥子打算去哪里？
+changeBg:none -next;
+changeFigure:341_mashiro/model.json -left -next -motion=nf03 -expression=thinking01;
+changeFigure:none -right -next -motion=nf_left01 -expression=smile04;
+祥子:……？
+changeFigure:341_mashiro/model.json -left -next -motion=sad02_kokoro -expression=thinking01;
+:尽管只是非常普通的一句提问，但不知为何，祥子总觉得哪里怪怪的——就像是，爱音正在主动将主导权 -fontSize=default -notend;
+changeFigure:341_mashiro/model.json -left -next -expression=smile06;
+:交给她一样。 -fontSize=default -concat;
+changeBg:a台场/inner.jpg -next -transform={"position":{"y":-980}};
+changeFigure:341_mashiro/model.json -left -next -motion=nf02;
+setTransform:{"scale":{"x":0.9,"y":0.9}} -target=fig-left -duration=10 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -transform={"scale":{"x":0.9,"y":0.9}} -next -motion=smile01;
+:祥子倒也乐于见到这样的局面，立刻清了清嗓子、变回了平时那个优雅而冷静的“大小姐”：
+changeFigure:341_mashiro/model.json -left -next -motion=angry06 -expression=smile06;
+setTransform:{"position":{"x":10},"scale":{"x":0.9,"y":0.9}} -target=fig-left -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -expression=smile01;
+祥子:我姑且再确认一次，爱音已经吃过早饭了吧？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=nod01_yukina;
+爱音:嗯， -fontSize=default ;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=nnf_left01 -expression=smile01;
+怎么了么？ -fontSize=default -concat;
+changeFigure:341_mashiro/model.json -left -next -expression=smirk;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -expression=smile06_sk;
+祥子:那么，接下来——直到午饭时间之前……
+:少女眯起双眼，琥珀金的双瞳闪过了一丝坏心眼的狡黠光芒——|就像是引人堕落的小恶魔一样： -fontSize=default;
+setTransform:{"position":{"x":500,"y":-1600},"scale":{"x":1.4,"y":1.4},"blur":10} -target=bg-main -duration=10 -next;
+changeFigure: -left -next;
+changeFigure:341_mashiro/model.json -left -id=sk -transform={"scale":{"x":1.12,"y":1.12}} -next -motion=zb_serious02 -expression=smile01;
+changeFigure:none -right -next;
+祥子:……爱音，能陪我做一些【叛逆】的事情么？
+changeBg:a台场/inner.jpg -next -transform={"position":{"y":-980},"scale":{"x":1,"y":1}};
+setTransform:{"position":{"x":0,"y":-980},"scale":{"x":1,"y":1}} -target=bg-main -duration=10 -next;
+changeFigure: -left -id=sk -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -id=an2 -transform={"scale":{"x":0.9,"y":0.9}} -next -motion=zb_surprised01 -expression=turnL;
+changeFigure:341_mashiro/model.json -left -id=sk2 -transform={"position":{"x":150},"scale":{"x":0.9,"y":0.9}} -next -motion=nf_right01_rui -expression=shame02;
+爱音:……哎？
+setTransform:{"position":{"x":500,"y":-1600},"scale":{"x":1.47,"y":1.47},"blur":10} -target=bg-main -duration=10 -next;
+changeFigure:341_mashiro/model.json -left -id=sk -transform={"position":{"x":460,"y":-75},"scale":{"x":1.15,"y":1.15}} -next -motion=zb_smile03 -expression=smile01;
+changeFigure: -left -id=sk2 -next;
+changeFigure: -right -id=an2 -next;
+:二人之间的距离顿时拉近， -fontSize=default;
+setTransform:{"position":{"x":500,"y":-1800},"scale":{"x":1.47,"y":1.47},"blur":10} -target=bg-main -duration=2200 -next;
+changeFigure:341_mashiro/model.json -id=sk -next -expression=smile06;
+setTransform:{"position":{"x":460,"y":-175},"scale":{"x":1.15,"y":1.15}} -target=sk -duration=2200 -next;
+:明明没有任何的肢体接触、也没有类似什么“捏住下巴”之类的动作——|但不知为何，爱音就是感觉自己被名为丰川祥子的少女彻底锁定、身体动弹不得。 -fontSize=default;
+changeFigure: -id=sk -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -transform={"position":{"y":-125},"scale":{"x":1.15,"y":1.15}} -next -motion=surprised02_sk -expression=shame01;
+setTransform:{"position":{"x":-600,"y":-1750},"scale":{"x":1.47,"y":1.47},"blur":10} -target=bg-main -duration=0 -next;
+爱音:叛、叛逆的事情……
+changeFigure:none -id=an -next;
+changeBg:00045-3406752.webp -next -transform={"position":{"y":-100},"scale":{"x":1,"y":1}};
+祥子:跟我来吧？
+changeBg: -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -id=an -transform={"position":{"y":-75},"scale":{"x":1.1,"y":1.1}} -next -motion=serious02 -expression=shame02;
+changeBg:a台场/inner.jpg -next -transform={"position":{"x":-520,"y":-1400},"scale":{"x":1.4,"y":1.4},"alpha":0,"blur":10};
+:这是邀请、还是命令呢？
+setTransform:{"position":{"x":-520,"y":-1400},"scale":{"x":1.4,"y":1.4},"alpha":1,"blur":10} -target=bg-main -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=serious01 -expression=shame01;
+:爱音看着朝她伸出的手，明明是如同邀请舞伴一同共舞的手势、却让爱音心中的小鹿开始乱撞，巴不得立刻跳起影色舞：
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nod01_sk -expression=shame02_sk;
+爱音:……嗯。
+changeBg:none -next;
+changeFigure:none -id=an -next;
+:——不管是邀请还是命令都无所谓。
+bgm: -enter=2000;
+:爱音知道，自己不可能拒绝祥子——所以，她握住了对方伸向她的手。
+changeScene:playground.txt

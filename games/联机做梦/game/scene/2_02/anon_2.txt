@@ -1,0 +1,106 @@
+changeBg:bg00372.webp -next -transform={};
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -transform={"position":{"y":-100},"scale":{"x":0.9,"y":0.9}} -next -motion=nf_left01 -expression=smile03;
+:……然而，放学后，她还是鬼使神差地来到了吹奏部的部活室门外，然后被熟悉的钢琴声所吸引。
+changeBg:none -next;
+changeFigure:none -right -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -next;
+setTransform:{"position":{"x":2000},"scale":{"x":0.8,"y":0.8}} -target=fig-center -duration=0 -next;
+:——。
+changeBg:bg00905.webp -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -next -motion=smile04 -expression=smile01;
+setTransform:{"position":{"x":1500},"scale":{"x":0.8,"y":0.8},"alpha":1} -target=fig-center -duration=2500 -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -transform={"position":{"x":-100,"y":200},"scale":{"x":0.8,"y":0.8}} -next -motion=idle01 -expression=smile06;
+:她驾轻就熟地、在不发出一点声响的情况下打开教室门；
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -next -motion=smile06;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -next -motion=bye01;
+setTransform:{"position":{"x":1000},"scale":{"x":0.8,"y":0.8}} -target=fig-center -duration=800 -next;
+:即便如此，正在弹琴的蓝色双马尾少女却还是感应到了她的到来、瞄了门口一眼， -fontSize=default -notend;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -next -motion=nf05 -expression=smile01;
+setTransform:{"position":{"x":1000,"y":200},"scale":{"x":0.8,"y":0.8}} -target=fig-center -duration=500 -next;
+:嘴角微微上扬， -fontSize=default -concat;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -next -motion=nnf04;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -next -expression=surprised01;
+bgm:none -enter=2500;
+:明明一曲尚未奏毕，她却在进入下一个段落之前以极其自然的方式切成了另一首曲子。
+bgm:02.girl.mp3 -enter=1400;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -next -motion=thinking03 -expression=surprised01;
+爱音:啊……
+:——是《亚麻色头发的少女》。
+changeBg:none -next;
+changeFigure:none -left -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -next -expression=smile04;
+:简直就像是，祥子在给自己打招呼呢。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -next -motion=nf01 -expression=smile03;
+:千早爱音在心里苦笑了一声：她总觉得，自己可能真是着魔了。changeBg:bg00905.webp  -next -transform={"blur":15};
+changeFigure: -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=odoodo01 -expression=smile06;
+:坐在熟悉的观众席上，不知不觉，灰色的双眸只容得下演奏着钢琴的少女——夏天的日落来得很晚，窗外的阳光仍旧灿烂，即便只是洒入室内的碎片也足以让人感到一道热意。
+changeFigure:none -id=sk -next;
+changeBg:none -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -next -motion=serious01 -expression=smile03;
+:……不对。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -next -motion=nnf_left01 -expression=shame01;
+:爱音摸了摸自己的脸颊：这股涌上脸颊的热意源头，是她的内心。 -fontSize=defaultchangeBg:bg00905.webp g -next -transform={"blur":15};
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=nnf_right01_anon -expression=smile02;
+:……糟糕糟糕糟糕糟糕——
+setTransform:{"blur":45} -target=bg-main -duration=0 -next;
+changeFigure:none -next;
+:有些事情就是这样，你不去在意还好，一旦开始在意、就跟打开了潘多拉魔盒没什么区别—平时总是能将现实和梦境分开看待的粉发少女，此刻已经无法抑制自己的胡思乱想。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -right -transform={"blur":0} -duration=400 -next -motion=nnf_left01_anon -expression=smile02;
+changeBg:bg00009.webp -next;
+changeFigure:blue.webp -transform={"position":{"x":380,"y":50},"scale":{"x":0.2,"y":0.3}} -next;
+:——她想起了早期的梦境。
+changeFigure:none -right -next;
+changeBg:ansk.webp -next -transform={"blur":25};
+setTransform:{"blur":25} -target=bg-main -duration=0 -next;
+changeFigure:none -next;
+:——她想起了跟祥子初见时，那像是梦一样的、相敬如宾的对话。 -fontSize=default -notend -hold;
+changeBg:ansk2.webp -next -transform={"blur":25}
+: -concat;
+changeBg: -next;
+:——她想起了梦境里的changeBg:bg00905.webp ng -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -transform={"position":{"y":200},"scale":{"x":0.8,"y":0.8}} -next -motion=nf04 -expression=smile06;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -transform={"position":{"x":900,"y":200},"scale":{"x":0.8,"y":0.8}} -next -motion=shame02 -expression=smile03;
+:——她想起了《亚麻色头发的少女》，这是现在祥子正在演奏的曲目，也是她最近每天晚上睡觉前都会听的名曲。
+changeFigure: -left -next;
+changeFigure: -next;
+changeBg:ave mujica_stage.webp -next;
+changeFigure:oblivionis_naked/model.json -id=sk_ob -next -motion=smile06 -expression=smile06;
+:【“爱音，我喜欢你哦。”】
+changeFigure: -id=sk_ob -next;
+changeBg:none -next;
+:——她想起了昨夜的梦。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -next -motion=serious02 -expression=shame01;
+:糟糕。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -next -motion=nf01 -expression=shame02;
+:糟糕糟糕糟糕糟糕——
+:不可以，快停下，千早爱音……！
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -next -motion=nnf_left01;
+:对了，要想一些别的事情转移注意力，比如changeBg:bg00905.webp webp -next;
+changeFigure:none -right -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -next -motion=smile01 -expression=surprised01;
+:不行，满脑子都只剩下祥祥了……！！
+changeBg:none -next;
+changeFigure:none -left -next;
+:快，哪怕只是随便想个冷笑话也好——
+changeFigure:oblivionis_naked/model.json -next -motion=smirk -expression=smile05;
+:【——嘘，现在的我是【OblivionischangeBg:bg00905.webp .webp -next;
+changeFigure:none -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -transform={"position":{"x":600,"y":200},"scale":{"x":0.8,"y":0.8}} -next -motion=angry01 -expression=smile04;
+爱音:噗。
+:——千早爱音，好像得了想起遗忘女士就想笑的病。
+bgm: -enter=0;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -next -motion=smile04 -expression=smile04;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -transform={"position":{"x":-100,"y":200},"scale":{"x":0.8,"y":0.8}} -next -motion=surprised01 -expression=surprised01;
+祥子:！？
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -next -expression=surprised01;
+:嗡——突如其来的嗤笑声，似乎吓到了一直在偷偷关注着爱音表情的祥子。错乱的琴音变成了噪音，美妙的演奏自然也就戛然而止。
+changeFigure:mygo_avemujica_v6/sakiko/341_school_summer-2023_rip/model.json -left -transform={"position":{"x":-100,"y":200},"scale":{"x":0.8,"y":0.8}} -next -motion=angry06 -expression=angry07;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -next -motion=sad01 -expression=smile03;
+祥子:……爱·音·同·学？
+爱音:……啊，抱歉。
+changeFigure:none -right -next;
+changeFigure:none -left -next;
+changeBg:none -next;
+:——结果，作为赔罪，事态顺理成章地变成了“爱音请祥子喝茶”这样的展开。
+changeScene:2_02/tea_party.txt

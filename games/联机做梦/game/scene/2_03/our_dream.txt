@@ -1,0 +1,173 @@
+——丰川祥子感到有些意外。
+changeBg:bg00905.webp -next;
+changeFigure:dark_blue.webp -id=d_blue -transform={"scale":{"x":2},"alpha":0} -next;
+changeFigure:darker_blue.webp -id=dd_blue -transform={"scale":{"x":2},"alpha":0} -next;
+changeFigure:grey.webp -id=grey -transform={"scale":{"x":2},"alpha":1} -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -transform={"position":{"y":100},"scale":{"x":0.73,"y":0.73},"alpha":1} -next -motion=thinking02 -expression=default;
+这或许是她这阵子第一次“没有梦到千早爱音”，难道说梦中的千早爱音是在打工、跟自己一样有固定的出勤时间么？
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=nf01 -expression=smile06;
+祥子笑了笑，看着空荡荡的梦境、摇了摇头：也好，这至少证明了，她丰川祥子并不是什么“满脑子只有千早爱音”的笨蛋。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=idle01;
+setTransform:{"alpha":0} -target=grey -duration=400 -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=sigh02 -expression=default;
+setTransform:{"position":{"y":350},"scale":{"x":0.73,"y":0.73}} -target=fig-center -duration=1500 -next;
+已然成为造梦大师的少女随意地唤出了一台钢琴、坐了下来，周围的场景也随之变成了熟悉的部活室——只是，这里没有那道粉色的身影。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -expression=down_look;
+……弹些什么好呢？
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=thinking02 -expression=L_Boby;
+一种让人极其不习惯的空虚感突然袭上心头，祥子皱了皱眉、指尖迟疑了许久都没能落到琴键上。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=sigh02_rui -expression=default;
+她索性盖上钢琴，闭上双眼——就当作是在梦里闭目养神吧。
+changeBg:none -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -transform={"position":{"x":800,"y":100},"scale":{"x":0.73,"y":0.73}} -next -motion=thinking01_rui -expression=surprised01;
+changeFigure:none -next -motion=thinking01_rui -expression=thinking01;
+setTransform:{"scale":{"x":2},"alpha":0} -target=grey -duration=0 -next;
+……不过，自己居然还会有“不习惯孤身一人”的时候么？
+changeBg:none -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -next -motion=sigh01_rui -expression=thinking02;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -transform={"position":{"x":900,"y":100},"scale":{"x":0.73,"y":0.73},"alpha":0} -next -motion=angry01 -expression=sigh01;
+丰川祥子意识到自己改变了：她不再是那个软弱的自己、却也不像是那个能够切割一切的自己。changeBg:bg00905.webp  -next -transform={};
+setTransform:{"scale":{"x":2},"alpha":0.2} -target=grey -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -next -motion=nf_right01_rui -expression=sad01;
+setTransform:{"position":{"x":0,"y":100},"scale":{"x":0.73,"y":0.73}} -target=fig-left -duration=2400 -next;
+setTransform:{"position":{"x":900,"y":100},"scale":{"x":0.73,"y":0.73},"alpha":0.7} -target=fig-center -duration=2400 -next;
+她不太愿意去思考“为什么自己一开始会梦到千早爱音”，但事到如今，她必须正视另一件事：现在的自己，是否有能力回首望向过去的幽灵。
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -next -expression=angry02;
+setTransform:{"scale":{"x":2},"alpha":0.35} -target=grey -duration=2400 -next;
+【“——我要，退出Crychic。”】
+setTransform:{"scale":{"x":2},"alpha":0.7} -target=dd_blue -duration=1200 -next;
+setTransform:{"position":{"x":-400,"y":-150},"scale":{"x":1.3,"y":1.3}} -target=bg-main -duration=1200 -next;
+setTransform:{"position":{"x":500},"scale":{"x":0.73,"y":0.73},"alpha":0.7} -target=fig-center -duration=1200 -next;
+setTransform:{"position":{"x":-1000,"y":500},"scale":{"x":0.83,"y":0.83}} -target=fig-left -duration=1000 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_school_winter-2023_rip/model.json -id=soyo -transform={"position":{"x":850,"y":100},"scale":{"x":0.73,"y":0.73},"alpha":0.7,"blur":25} -next -motion=nf_left01 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_winter-2023_rip/model.json -id=mu -transform={"position":{"x":-900,"y":100},"scale":{"x":0.73,"y":0.73},"alpha":0.7,"blur":25} -next -motion=nf_left01 -expression=sad01;
+changeFigure:mygo_avemujica_v6/taki/Taki_040_羽丘初一_winter-2023_rip_v1/model.json -id=rikki -transform={"position":{"x":-400,"y":200},"scale":{"x":0.73,"y":0.73},"alpha":0.7,"blur":25} -next -motion=angry02 -expression=右转身;
+changeFigure:mygo_avemujica_v6/tomoli/Tomori_green/model.json -id=tmr -transform={"position":{"y":400},"scale":{"x":0.73,"y":0.73},"alpha":0.7,"blur":25} -next -motion=nf_right01 -expression=sad03;
+教室的窗外下起了雨。
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -next -motion=nf_left01 -expression=angry07;
+房间的角落缺乏照明，几道模糊的人影或是站立、或是瘫坐在地——唯有被雨淋湿的“丰川祥子”，那落寞而晦暗的背影清晰可见。
+changeFigure: -id=mu -next;
+changeFigure: -id=tmr -next;
+changeFigure: -id=rikki -next;
+changeFigure: -id=soyo -next;
+changeFigure:none -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -next -motion=nnf_right01_anon -expression=sad02;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":0.73,"y":0.73}} -target=fig-left -duration=800 -next;
+setTransform:{"position":{"x":400,"y":-150},"scale":{"x":1.3,"y":1.3}} -target=bg-main -duration=1200 -next;
+祥子就这么看着过去的“自己”，一言不发。
+changeFigure:none -left -next;
+setTransform:{"scale":{"x":2},"alpha":0} -target=dd_blue -duration=0 -next;
+changeBg:bg00053.webp -next;
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_winter-2023_rip/model.json -id=mu -transform={"position":{"x":-600,"y":100},"scale":{"x":0.8,"y":0.8}} -next -motion=nnf_right01 -expression=idle01;
+changeFigure:mygo_avemujica_v6/taki/Taki_040_羽丘初一_winter-2023_rip_v1/model.json -id=rikki -transform={"position":{"x":1100,"y":200},"scale":{"x":0.8,"y":0.8}} -next -motion=nf05 -expression=pui01;
+changeFigure:mygo_avemujica_v6/soyo/039_school_winter-2023_rip/model.json -id=soyo -transform={"position":{"x":700,"y":250},"scale":{"x":0.8,"y":0.8}} -next -motion=smile02 -expression=default;
+changeFigure:mygo_avemujica_v6/tomoli/Tomori_green_light/model.json -id=tmr -transform={"position":{"x":-125,"y":175},"scale":{"x":0.8,"y":0.8}} -next -motion=nf_right01 -expression=smile01;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -transform={"position":{"x":250},"scale":{"x":0.8,"y":0.8},"blur":35} -next -motion=smile04 -expression=default;
+【“——今后的我们是一起演奏音乐的命运共同体呢！”】
+幻影的另一侧，曾经的同伴站立于灯光之下、身影无比清晰——唯独被围在中间的“丰川祥子”，身影模糊不清、脸上的笑容也一团浆糊。
+changeFigure:none -id=soyo -next;
+changeFigure: -id=tmr -next;
+changeFigure: -id=mu -next;
+changeFigure: -id=rikki -next;
+changeFigure:none -next;
+setTransform:{"scale":{"x":2},"alpha":0} -target=grey -duration=0 -next;
+changeBg:never_said_that.webp -next;
+changeFigure:pics/our_song.webp -id=oursong -transform={"scale":{"x":0.4,"y":0.4},"alpha":0,"rotation":3.1} -next;
+changeFigure:pics/freedom.webp -id=free -transform={"position":{"x":-900,"y":-800},"scale":{"x":0.35,"y":0.35},"alpha":0,"rotation":-2.7} -next;
+changeFigure:pics/becoming_human.webp -id=human -transform={"position":{"x":900,"y":-700},"scale":{"x":0.4,"y":0.4},"alpha":0,"rotation":5.1} -next;
+changeFigure:pics/sakiko_dead.webp -id=dead -transform={"position":{"x":900,"y":0},"scale":{"x":0.3,"y":0.3},"alpha":0.4,"rotation":-2.2} -next;
+【“——我没说过那种话。”】 -fontSize=default;
+setTransform:{"position":{"y":-715},"scale":{"x":1.2,"y":1.2},"alpha":1,"rotation":0.3,"blur":15} -target=oursong -duration=0 -next;
+【“——《春日影》就是我们的歌呢！”】 -fontSize=default;
+setTransform:{"position":{"x":0,"y":-725},"scale":{"x":1.1,"y":1.1},"alpha":1,"rotation":-0.2} -target=free -duration=0 -next;
+【“——想怎么演奏是你们的自由。”】 -fontSize=default;
+setTransform:{"position":{"x":0,"y":100},"scale":{"x":1.2,"y":1.2},"rotation":0.2,"blur":25} -target=human -duration=0 -next;
+【“——好想、成为人类哇！”】 -fontSize=default;
+setTransform:{"position":{"x":0,"y":-725},"scale":{"x":1.1,"y":1.1},"alpha":1,"rotation":-0.1} -target=dead -duration=0 -next;
+【“——过去软弱的我，已经死了。”】 -fontSize=defaultchangeBg:bg00905.webp g -next;
+setTransform:{"scale":{"x":2},"alpha":0.7} -target=dd_blue -duration=0 -next;
+changeFigure:none -id=oursong -next;
+changeFigure:none -id=free -next;
+changeFigure: -id=human -next;
+changeFigure:none -id=dead -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -transform={"position":{"x":700,"y":100},"scale":{"x":0.73,"y":0.73}} -next -motion=surprised01 -expression=default;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_rip/model.json -left -transform={"position":{"x":0,"y":400},"scale":{"x":0.73,"y":0.73}} -next -motion=smirk -expression=default;
+——噔噔——！
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=nf_left01_rui -expression=surprised01;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_rip/model.json -left -next -motion=angry02 -expression=angry07;
+突兀的钢琴声，驱散了旧日的幻影。
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_rip/model.json -left -next -motion=angry06 -expression=smirk;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=nnf_right01_rui -expression=sigh01;
+setTransform:{"position":{"x":750,"y":100},"scale":{"x":0.73,"y":0.73}} -target=fig-center -duration=0 -next;
+穿着演出服的【Oblivionis】坐在钢琴前，指尖重重地压在琴键上——然后，面具底下的双眼，以一种不屑的神色瞄向了站在窗边的丰川祥子。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -expression=angry01_rui;
+祥子:……你是在嘲笑我么？ -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_rip/model.json -left -next -motion=smile02;
+祥子皱了皱眉，语气也变得冷若冰霜。
+setTransform:{"position":{"x":0,"y":100},"scale":{"x":0.73,"y":0.73}} -target=fig-left -duration=2000 -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_rip/model.json -left -next -motion=nf01;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=nnf_left01 -expression=angry07;
+对方并没有立刻回应，只是动作优雅地合上琴盖、站起身来，转向祥子：
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_rip/model.json -left -next -motion=nnf_right01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -expression=surprised01;
+理性:——呃啊，理性理性—— -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=angry01 -expression=angry01;
+祥子:……原来是你这家伙啊！？ -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_rip/model.json -left -next -motion=odoodo01 -expression=smile03;
+setTransform:{"position":{"x":-1400,"y":3200},"alpha":0,"rotation":-2.2} -target=fig-left -duration=900 -next;
+:丰川祥子将手边的椅子砸了过去、将自己的理性分身砸得魂飞魄散。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=nf_left01 -expression=smile03;
+setTransform:{"position":{"x":-200,"y":100},"scale":{"x":0.73,"y":0.73}} -target=fig-center -duration=2200 -next;
+changeFigure:none -left -next;
+:总觉得刚刚那沉重的气氛顿时变得荡然无存了啊…… -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=sigh02 -expression=down_look;
+少女突然感觉心情复杂，靠在窗边轻叹了口气： -fontSize=default;
+changeBg:maybe_thisone.webp -next;
+setTransform:{"scale":{"x":2},"alpha":0.2} -target=d_blue -duration=0 -next;
+setTransform:{"scale":{"x":2},"alpha":0} -target=dd_blue -duration=10 -next;
+changeFigure:none -next;
+:窗外还在下着雨，从这里俯瞰校门口的方向，能看到平时某位短发少女经常活动的那个花坛——理所当然地，那位喜欢捡石头的女孩子并不在那里。 -fontSize=default;
+changeBg:none -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=nnf01_rui -expression=smile03;
+毕竟，外面在下雨呢。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=thinking01_rui -expression=thinking01;
+祥子将手按在窗户玻璃上，留下自己的指印：她改变了，却又好像没有改变。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=thinking02;
+Ave Mujica的成功、父亲的振作，似乎都在意味着假以时日、她很快就能证明自己，夺回本应属于她的一切——丰川祥子能回到从前，但所谓的“从前”却已经被她亲手埋葬。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=nf01_rui -expression=sigh01;
+她原本以为，自己不可能再有精力去回忆过去。可是，人类就是这么一种麻烦的生物： -fontSize=medium;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=thinking01_rui -expression=smile03;
+就跟饱暖思那什么一个道理，吃饱喝足、睡得安稳，祥子很难不去追忆自己埋进土里的一些往昔。——但这也意味着，她好像还得自己把土里的玩意儿挖出来。 -fontSize=defaulchangeBg:bg00905.webp ng -next;
+setTransform:{"scale":{"x":2},"alpha":0.4} -target=d_blue -duration=0 -next;
+setTransform:{"scale":{"x":2},"alpha":0.2} -target=dd_blue -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -transform={"position":{"y":100},"scale":{"x":0.73,"y":0.73}} -next -motion=sigh01 -expression=thinking01;
+changeFigure:none -next;
+祥子:……哈啊。 -fontSize=default;
+:丰川祥子有些迷茫。 -fontSize=default;
+:在绝境中仍旧相信自己的选择、绝不迷茫也绝不后退的少女，在从炼狱脱身之后反而变得有些不知所措。 -fontSize=default;
+:……我变得软弱了，是因为千早爱音么？ -fontSize=default;
+不可能。
+少女自嘲地笑了笑，摇了摇头。
+如果将她至今为止的人生撰写成一本书、再交给毫无关系的看客观众们审视的话，或许会得到很多种不同的看法——正确也好、错误也罢，她不会在意任何对她的批判，正如她不会接受任何来自他人的怜悯。
+只是。
+【“——祝你幸福。”】
+再次回头望去，那本绿色的笔记簿就这么躺在了钢琴的琴盖上、跟它的主人一样安静。
+“……。”
+——现在的她，是否能够坦然地收下这本笔记簿呢？
+祥子突然想起了前阵子的梦境，想起了她故意跟爱音当着高松灯的面做“那种事情”的那一幕——即便是梦，但那似乎也代表着她潜意识里的某种想法。
+……那到底是什么呢。
+现实的顺风顺水、蒸蒸日上，让祥子变得游刃有余——可一旦被“遗忘”的罪恶感真的从过去追了上来，她却无法独自面对。
+——【孤独】。
+丰川祥子突然发现，她现在甚至没有一个能够商量烦恼的对象。
+……不，还是有的。
+只是，此时此刻，那个人并不在梦中——
+“祥祥！”
+——课室的门被拉开了。
+粉发的少女出现在了门外，祥子不禁在心中感叹了一句“不愧是我的梦”——想要什么就来什么，如果现实也是如此就再好不过了。
+来得正好，她正打算【预演】一下呢。
+“爱音。”
+就算没有什么实际意义，祥子还是朝着千早爱音伸出了手、做出了邀请的手势：
+“——可以，跟我来一趟么？”
+
+…………………………
+changeScene:2_03/our_dance.txt

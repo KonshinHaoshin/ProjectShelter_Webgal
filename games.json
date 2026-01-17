@@ -39,7 +39,7 @@
           "cover": "/game/background/wurenqu.webp",
           "icon": "/icons/icon-512.webp"
         },
-        "tags": ["webgal", "visual-novel", "mygo", "demo"],
+        "tags": ["webgal", "visual-novel", "mygo", "微恐","群像"],
         "author": "十九万两千一百九十七"
       },
       {
@@ -59,8 +59,28 @@
           "cover": "/game/background/danzhu_1.png",
           "icon": "/icons/icon-512.webp"
         },
-        "tags": ["webgal", "visual-novel", "mygo", "demo"],
+        "tags": ["webgal", "visual-novel", "crychic", "长崎素世"],
         "author": "马喽马"
+      },
+      {
+        "id":"联机做梦",
+        "name": "联机做梦",
+        "display_name": "丰川祥子梦到自己跟千早爱音接吻",
+        "engine": "webgal",
+        "engine_version": "mygo",
+        "description": "丰川祥子梦到自己跟千早爱音接吻",
+        "release_date": "2026-01-17",
+        "status": "completed",
+        "entry": {
+          "type": "url",
+          "value": "https://game.shelter.net.cn/联机做梦/"
+        },
+        "assets": {
+          "cover": "/game/background/bg.png",
+          "icon": "/icons/icon-512.webp"
+        },
+        "tags": ["webgal", "visual-novel", "mygo", "爱祥","千早爱音","丰川祥子"],
+        "author": "奈良良柴犬,呃吩咐的沟通呢"
       }
     ]
   }

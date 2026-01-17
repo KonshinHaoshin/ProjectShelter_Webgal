@@ -1,0 +1,739 @@
+{
+  "version": "Sample 1.0.0",
+  "type": 0,
+  "model": "live2d/chara/341_school_summer-2023_rip/sakiko_school_summer-2023.moc",
+  "textures": [
+    "live2d/chara/341_general_rip/texture_00.png",
+    "live2d/chara/341_school_summer-2023_rip/texture_01.png"
+  ],
+  "controllers": {
+    "param_hit": {},
+    "param_loop": {},
+    "key_trigger": {},
+    "param_trigger": {},
+    "area_trigger": {},
+    "hand_trigger": {},
+    "eye_blink": {
+      "min_interval": 500,
+      "max_interval": 6000,
+      "enabled": true
+    },
+    "lip_sync": {
+      "gain": 5.0
+    },
+    "mouse_tracking": {
+      "smooth_time": 0.15,
+      "enabled": true
+    },
+    "auto_breath": {
+      "enabled": true
+    },
+    "extra_motion": {
+      "enabled": true
+    },
+    "accelerometer": {
+      "enabled": true
+    },
+    "microphone": {},
+    "transform": {},
+    "face_tracking": {
+      "enabled": true
+    },
+    "hand_tracking": {},
+    "param_value": {},
+    "part_opacity": {},
+    "artmesh_opacity": {},
+    "artmesh_color": {},
+    "artmesh_culling": {
+      "default_mode": 0
+    },
+    "intimacy_system": {}
+  },
+  "motions": {
+    "nf_left01": [
+      {
+        "file": "live2d/chara/341_general_rip/nf_left01.mtn"
+      }
+    ],
+    "cry04": [
+      {
+        "file": "live2d/chara/341_general_rip/cry04.mtn"
+      }
+    ],
+    "nnf01": [
+      {
+        "file": "live2d/chara/341_general_rip/nnf01.mtn"
+      }
+    ],
+    "kime01": [
+      {
+        "file": "live2d/chara/341_general_rip/kime01.mtn"
+      }
+    ],
+    "cry01": [
+      {
+        "file": "live2d/chara/341_general_rip/cry01.mtn"
+      }
+    ],
+    "angry05": [
+      {
+        "file": "live2d/chara/341_general_rip/angry05.mtn"
+      }
+    ],
+    "nf_right01": [
+      {
+        "file": "live2d/chara/341_general_rip/nf_right01.mtn"
+      }
+    ],
+    "nf04": [
+      {
+        "file": "live2d/chara/341_general_rip/nf04.mtn"
+      }
+    ],
+    "nnf_right01": [
+      {
+        "file": "live2d/chara/341_general_rip/nnf_right01.mtn"
+      }
+    ],
+    "nod01": [
+      {
+        "file": "live2d/chara/341_general_rip/nod01.mtn"
+      }
+    ],
+    "shame02": [
+      {
+        "file": "live2d/chara/341_general_rip/shame02.mtn"
+      }
+    ],
+    "nnf_left01": [
+      {
+        "file": "live2d/chara/341_general_rip/nnf_left01.mtn"
+      }
+    ],
+    "angry07": [
+      {
+        "file": "live2d/chara/341_general_rip/angry07.mtn"
+      }
+    ],
+    "nf03": [
+      {
+        "file": "live2d/chara/341_general_rip/nf03.mtn"
+      }
+    ],
+    "sigh01": [
+      {
+        "file": "live2d/chara/341_general_rip/sigh01.mtn"
+      }
+    ],
+    "nnf04": [
+      {
+        "file": "live2d/chara/341_general_rip/nnf04.mtn"
+      }
+    ],
+    "nnf05": [
+      {
+        "file": "live2d/chara/341_general_rip/nnf05.mtn"
+      }
+    ],
+    "sigh02": [
+      {
+        "file": "live2d/chara/341_general_rip/sigh02.mtn"
+      }
+    ],
+    "nf01": [
+      {
+        "file": "live2d/chara/341_general_rip/nf01.mtn"
+      }
+    ],
+    "smile04": [
+      {
+        "file": "live2d/chara/341_general_rip/smile04.mtn"
+      }
+    ],
+    "thinking01": [
+      {
+        "file": "live2d/chara/341_general_rip/thinking01.mtn"
+      }
+    ],
+    "nf05": [
+      {
+        "file": "live2d/chara/341_general_rip/nf05.mtn"
+      }
+    ],
+    "surprised02": [
+      {
+        "file": "live2d/chara/341_general_rip/surprised02.mtn"
+      }
+    ],
+    "bye01": [
+      {
+        "file": "live2d/chara/341_general_rip/bye01.mtn"
+      }
+    ],
+    "bye01_anon": [
+      {
+        "file": "live2d/chara/341_general_rip/bye01_anon.mtn"
+      }
+    ],
+    "bye02": [
+      {
+        "file": "live2d/chara/341_general_rip/bye02.mtn"
+      }
+    ],
+    "odoodo01": [
+      {
+        "file": "live2d/chara/341_general_rip/odoodo01.mtn"
+      }
+    ],
+    "serious01": [
+      {
+        "file": "live2d/chara/341_general_rip/serious01.mtn"
+      }
+    ],
+    "smile03": [
+      {
+        "file": "live2d/chara/341_general_rip/smile03.mtn"
+      }
+    ],
+    "nnf03": [
+      {
+        "file": "live2d/chara/341_general_rip/nnf03.mtn"
+      }
+    ],
+    "angry04": [
+      {
+        "file": "live2d/chara/341_general_rip/angry04.mtn"
+      }
+    ],
+    "angry02": [
+      {
+        "file": "live2d/chara/341_general_rip/angry02.mtn"
+      }
+    ],
+    "sad01": [
+      {
+        "file": "live2d/chara/341_general_rip/sad01.mtn"
+      }
+    ],
+    "nf02": [
+      {
+        "file": "live2d/chara/341_general_rip/nf02.mtn"
+      }
+    ],
+    "surprised01": [
+      {
+        "file": "live2d/chara/341_general_rip/surprised01.mtn"
+      }
+    ],
+    "cry03": [
+      {
+        "file": "live2d/chara/341_general_rip/cry03.mtn"
+      }
+    ],
+    "smile02": [
+      {
+        "file": "live2d/chara/341_general_rip/smile02.mtn"
+      }
+    ],
+    "smile05": [
+      {
+        "file": "live2d/chara/341_general_rip/smile05.mtn"
+      }
+    ],
+    "cry05": [
+      {
+        "file": "live2d/chara/341_general_rip/cry05.mtn"
+      }
+    ],
+    "angry01": [
+      {
+        "file": "live2d/chara/341_general_rip/angry01.mtn"
+      }
+    ],
+    "serious02": [
+      {
+        "file": "live2d/chara/341_general_rip/serious02.mtn"
+      }
+    ],
+    "cry02": [
+      {
+        "file": "live2d/chara/341_general_rip/cry02.mtn"
+      }
+    ],
+    "nnf02": [
+      {
+        "file": "live2d/chara/341_general_rip/nnf02.mtn"
+      }
+    ],
+    "angry03": [
+      {
+        "file": "live2d/chara/341_general_rip/angry03.mtn"
+      }
+    ],
+    "smile01": [
+      {
+        "file": "live2d/chara/341_general_rip/smile01.mtn"
+      }
+    ],
+    "thinking02": [
+      {
+        "file": "live2d/chara/341_general_rip/thinking02.mtn"
+      }
+    ],
+    "smile06": [
+      {
+        "file": "live2d/chara/341_general_rip/smile06.mtn"
+      }
+    ],
+    "angry06": [
+      {
+        "file": "live2d/chara/341_general_rip/angry06.mtn"
+      }
+    ],
+    "idle01": [
+      {
+        "file": "live2d/chara/341_general_rip/idle01.mtn"
+      }
+    ],
+    "sad02": [
+      {
+        "file": "live2d/chara/341_general_rip/sad02.mtn"
+      }
+    ],
+    "shame01": [
+      {
+        "file": "live2d/chara/341_general_rip/shame01.mtn"
+      }
+    ],
+    "zb_angry01": [
+      {
+        "file": "live2d/chara/341_general_rip/zb_angry01.mtn"
+      }
+    ],
+    "zb_angry02": [
+      {
+        "name": "zb_angry02",
+        "file": "live2d/chara/341_general_rip/zb_angry02.mtn"
+      }
+    ],
+    "zb_angry03": [
+      {
+        "name": "zb_angry03",
+        "file": "live2d/chara/341_general_rip/zb_angry03.mtn"
+      }
+    ],
+    "zb_angry04": [
+      {
+        "name": "zb_angry04",
+        "file": "live2d/chara/341_general_rip/zb_angry04.mtn"
+      }
+    ],
+    "zb_angry05": [
+      {
+        "name": "zb_angry05",
+        "file": "live2d/chara/341_general_rip/zb_angry05.mtn"
+      }
+    ],
+    "zb_angry06": [
+      {
+        "name": "zb_angry06",
+        "file": "live2d/chara/341_general_rip/zb_angry06.mtn"
+      }
+    ],
+    "zb_angry07": [
+      {
+        "name": "zb_angry07",
+        "file": "live2d/chara/341_general_rip/zb_angry07.mtn"
+      }
+    ],
+    "zb_bye01": [
+      {
+        "name": "zb_bye01",
+        "file": "live2d/chara/341_general_rip/zb_bye01.mtn"
+      }
+    ],
+    "zb_bye02": [
+      {
+        "name": "zb_bye02",
+        "file": "live2d/chara/341_general_rip/zb_bye02.mtn"
+      }
+    ],
+    "zb_cry01": [
+      {
+        "name": "zb_cry01",
+        "file": "live2d/chara/341_general_rip/zb_cry01.mtn"
+      }
+    ],
+    "zb_cry02": [
+      {
+        "name": "zb_cry02",
+        "file": "live2d/chara/341_general_rip/zb_cry02.mtn"
+      }
+    ],
+    "zb_cry03": [
+      {
+        "name": "zb_cry03",
+        "file": "live2d/chara/341_general_rip/zb_cry03.mtn"
+      }
+    ],
+    "zb_cry04": [
+      {
+        "name": "zb_cry04",
+        "file": "live2d/chara/341_general_rip/zb_cry04.mtn"
+      }
+    ],
+    "zb_cry05": [
+      {
+        "name": "zb_cry05",
+        "file": "live2d/chara/341_general_rip/zb_cry05.mtn"
+      }
+    ],
+    "zb_idle01": [
+      {
+        "name": "zb_idle01",
+        "file": "live2d/chara/341_general_rip/zb_idle01.mtn"
+      }
+    ],
+    "zb_kime01": [
+      {
+        "name": "zb_kime01",
+        "file": "live2d/chara/341_general_rip/zb_kime01.mtn"
+      }
+    ],
+    "zb_nf_left01": [
+      {
+        "name": "zb_nf_left01",
+        "file": "live2d/chara/341_general_rip/zb_nf_left01.mtn"
+      }
+    ],
+    "zb_nf_right01": [
+      {
+        "name": "zb_nf_right01",
+        "file": "live2d/chara/341_general_rip/zb_nf_right01.mtn"
+      }
+    ],
+    "zb_nf01": [
+      {
+        "name": "zb_nf01",
+        "file": "live2d/chara/341_general_rip/zb_nf01.mtn"
+      }
+    ],
+    "zb_nf02": [
+      {
+        "name": "zb_nf02",
+        "file": "live2d/chara/341_general_rip/zb_nf02.mtn"
+      }
+    ],
+    "zb_nf03": [
+      {
+        "name": "zb_nf03",
+        "file": "live2d/chara/341_general_rip/zb_nf03.mtn"
+      }
+    ],
+    "zb_nf04": [
+      {
+        "name": "zb_nf04",
+        "file": "live2d/chara/341_general_rip/zb_nf04.mtn"
+      }
+    ],
+    "zb_nf05": [
+      {
+        "name": "zb_nf05",
+        "file": "live2d/chara/341_general_rip/zb_nf05.mtn"
+      }
+    ],
+    "zb_nnf_left01": [
+      {
+        "name": "zb_nnf_left01",
+        "file": "live2d/chara/341_general_rip/zb_nnf_left01.mtn"
+      }
+    ],
+    "zb_nnf_right01": [
+      {
+        "name": "zb_nnf_right01",
+        "file": "live2d/chara/341_general_rip/zb_nnf_right01.mtn"
+      }
+    ],
+    "zb_nnf01": [
+      {
+        "name": "zb_nnf01",
+        "file": "live2d/chara/341_general_rip/zb_nnf01.mtn"
+      }
+    ],
+    "zb_nnf02": [
+      {
+        "name": "zb_nnf02",
+        "file": "live2d/chara/341_general_rip/zb_nnf02.mtn"
+      }
+    ],
+    "zb_nnf03": [
+      {
+        "name": "zb_nnf03",
+        "file": "live2d/chara/341_general_rip/zb_nnf03.mtn"
+      }
+    ],
+    "zb_nnf04": [
+      {
+        "name": "zb_nnf04",
+        "file": "live2d/chara/341_general_rip/zb_nnf04.mtn"
+      }
+    ],
+    "zb_nnf05": [
+      {
+        "name": "zb_nnf05",
+        "file": "live2d/chara/341_general_rip/zb_nnf05.mtn"
+      }
+    ],
+    "zb_odoodo01": [
+      {
+        "name": "zb_odoodo01",
+        "file": "live2d/chara/341_general_rip/zb_odoodo01.mtn"
+      }
+    ],
+    "zb_sad01": [
+      {
+        "name": "zb_sad01",
+        "file": "live2d/chara/341_general_rip/zb_sad01.mtn"
+      }
+    ],
+    "zb_sad02": [
+      {
+        "name": "zb_sad02",
+        "file": "live2d/chara/341_general_rip/zb_sad02.mtn"
+      }
+    ],
+    "zb_serious01": [
+      {
+        "name": "zb_serious01",
+        "file": "live2d/chara/341_general_rip/zb_serious01.mtn"
+      }
+    ],
+    "zb_serious02": [
+      {
+        "name": "zb_serious02",
+        "file": "live2d/chara/341_general_rip/zb_serious02.mtn"
+      }
+    ],
+    "zb_shame01": [
+      {
+        "name": "zb_shame01",
+        "file": "live2d/chara/341_general_rip/zb_shame01.mtn"
+      }
+    ],
+    "zb_shame02": [
+      {
+        "name": "zb_shame02",
+        "file": "live2d/chara/341_general_rip/zb_shame02.mtn"
+      }
+    ],
+    "zb_sigh01": [
+      {
+        "name": "zb_sigh01",
+        "file": "live2d/chara/341_general_rip/zb_sigh01.mtn"
+      }
+    ],
+    "zb_sigh02": [
+      {
+        "name": "zb_sigh02",
+        "file": "live2d/chara/341_general_rip/zb_sigh02.mtn"
+      }
+    ],
+    "zb_smile01": [
+      {
+        "name": "zb_smile01",
+        "file": "live2d/chara/341_general_rip/zb_smile01.mtn"
+      }
+    ],
+    "zb_smile02": [
+      {
+        "name": "zb_smile02",
+        "file": "live2d/chara/341_general_rip/zb_smile02.mtn"
+      }
+    ],
+    "zb_smile03": [
+      {
+        "name": "zb_smile03",
+        "file": "live2d/chara/341_general_rip/zb_smile03.mtn"
+      }
+    ],
+    "zb_smile04": [
+      {
+        "name": "zb_smile04",
+        "file": "live2d/chara/341_general_rip/zb_smile04.mtn"
+      }
+    ],
+    "zb_smile05": [
+      {
+        "name": "zb_smile05",
+        "file": "live2d/chara/341_general_rip/zb_smile05.mtn"
+      }
+    ],
+    "zb_surprised01": [
+      {
+        "name": "zb_surprised01",
+        "file": "live2d/chara/341_general_rip/zb_surprised01.mtn"
+      }
+    ],
+    "zb_surprised02": [
+      {
+        "name": "zb_surprised02",
+        "file": "live2d/chara/341_general_rip/zb_surprised02.mtn"
+      }
+    ],
+    "zb_thinking01": [
+      {
+        "name": "zb_thinking01",
+        "file": "live2d/chara/341_general_rip/zb_thinking01.mtn"
+      }
+    ],
+    "zb_thinking02": [
+      {
+        "name": "zb_thinking02",
+        "file": "live2d/chara/341_general_rip/zb_thinking02.mtn"
+      }
+    ],
+    "nnf_right01_anon":[
+      {
+        "name":"nnf_right01_anon",
+        "file":"live2d/chara/341_general_rip/nnf_right01_anon.mtn"
+      }
+    ],
+    "nnf_left01_anon":[
+      {
+        "name":"nnf_left01_anon",
+        "file":"live2d/chara/341_general_rip/nnf_left01_anon.mtn"
+      }
+    ],
+    "Gt_nnf05s_v4-24":[{"name":"Gt_nnf05s_v4-24","file":"live2d/chara/341_general_rip/Gt_nnf05s_v4-24.mtn"}],
+    "Gt_nnf05s_v4-2":[{"name":"Gt_nnf05s_v4-2","file":"live2d/chara/341_general_rip/Gt_nnf05s_v4-2.mtn"}],
+    "Gt_nnf05s_v4":[{"name":"Gt_nnf05s_v4","file":"live2d/chara/341_general_rip/Gt_nnf05s_v4.mtn"}],
+    "Gt_nnf05s_v3":[{"name":"Gt_nnf05s_v3","file":"live2d/chara/341_general_rip/Gt_nnf05s_v3.mtn"}],
+    "Gt_nnf05s_v2":[{"name":"Gt_nnf05s_v3","file":"live2d/chara/341_general_rip/Gt_nnf05s_v2.mtn"}],
+    "smirk":[{"file":"live2d/chara/341_general_rip/smirk.mtn"}]
+  },
+  "expressions": [
+    {
+      "name": "smile06",
+      "file": "live2d/chara/341_general_rip/smile06.exp.json"
+    },
+    {
+      "name": "serious02",
+      "file": "live2d/chara/341_general_rip/serious02.exp.json"
+    },
+    {
+      "name": "idle01",
+      "file": "live2d/chara/341_general_rip/idle01.exp.json"
+    },
+    {
+      "name": "thinking02",
+      "file": "live2d/chara/341_general_rip/thinking02.exp.json"
+    },
+    {
+      "name": "sad02",
+      "file": "live2d/chara/341_general_rip/sad02.exp.json"
+    },
+    {
+      "name": "cry02",
+      "file": "live2d/chara/341_general_rip/cry02.exp.json"
+    },
+    {
+      "name": "angry01",
+      "file": "live2d/chara/341_general_rip/angry01.exp.json"
+    },
+    {
+      "name": "shame01",
+      "file": "live2d/chara/341_general_rip/shame01.exp.json"
+    },
+    {
+      "name": "smile05",
+      "file": "live2d/chara/341_general_rip/smile05.exp.json"
+    },
+    {
+      "name": "smile03",
+      "file": "live2d/chara/341_general_rip/smile03.exp.json"
+    },
+    {
+      "name": "shame02",
+      "file": "live2d/chara/341_general_rip/shame02.exp.json"
+    },
+    {
+      "name": "sigh01",
+      "file": "live2d/chara/341_general_rip/sigh01.exp.json"
+    },
+    {
+      "name": "cry04",
+      "file": "live2d/chara/341_general_rip/cry04.exp.json"
+    },
+    {
+      "name": "smile02",
+      "file": "live2d/chara/341_general_rip/smile02.exp.json"
+    },
+    {
+      "name": "serious01",
+      "file": "live2d/chara/341_general_rip/serious01.exp.json"
+    },
+    {
+      "name": "default",
+      "file": "live2d/chara/341_general_rip/default.exp.json"
+    },
+    {
+      "name": "odoodo01",
+      "file": "live2d/chara/341_general_rip/odoodo01.exp.json"
+    },
+    {
+      "name": "cry03",
+      "file": "live2d/chara/341_general_rip/cry03.exp.json"
+    },
+    {
+      "name": "surprised02",
+      "file": "live2d/chara/341_general_rip/surprised02.exp.json"
+    },
+    {
+      "name": "sad01",
+      "file": "live2d/chara/341_general_rip/sad01.exp.json"
+    },
+    {
+      "name": "sigh02",
+      "file": "live2d/chara/341_general_rip/sigh02.exp.json"
+    },
+    {
+      "name": "smile01",
+      "file": "live2d/chara/341_general_rip/smile01.exp.json"
+    },
+    {
+      "name": "smile04",
+      "file": "live2d/chara/341_general_rip/smile04.exp.json"
+    },
+    {
+      "name": "surprised01",
+      "file": "live2d/chara/341_general_rip/surprised01.exp.json"
+    },
+    {
+      "name": "cry01",
+      "file": "live2d/chara/341_general_rip/cry01.exp.json"
+    },
+    {
+      "name": "thinking01",
+      "file": "live2d/chara/341_general_rip/thinking01.exp.json"
+    },
+    {
+      "name": "kime01",
+      "file": "live2d/chara/341_general_rip/kime01.exp.json"
+    },
+    {
+      "name": "angry07",
+      "file": "live2d/chara/341_general_rip/angry07.exp.json"
+    },
+    {
+      "name": "angry02",
+      "file": "live2d/chara/341_general_rip/angry02.exp.json"
+    },
+    {"name":"smirk","file":"live2d/chara/341_general_rip/smirk.exp.json"},
+    {"name":"bye01_anon","file":"live2d/chara/341_general_rip/bye01_anon.exp.json"}
+  ],
+  "physics": "live2d/chara/341_school_summer-2023_rip/sakiko_school_summer-2023.physics.json",
+  "physics_v2": {
+    "file": "live2d/chara/341_school_summer-2023_rip/sakiko_school_summer-2023.physics.json"
+  },
+  "options": {}
+}

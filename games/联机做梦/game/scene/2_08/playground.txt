@@ -1,0 +1,125 @@
+changeBg:a台场/joypolis.webp -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -id=an6 -transform={"position":{"x":-70},"scale":{"x":0.8,"y":0.8}} -next -motion=surprised01 -expression=default;
+changeFigure:341_mashiro/model.json -left -id=sk6 -transform={"scale":{"x":0.8,"y":0.8}} -next -motion=kime01 -expression=default;
+bgm:17.interesting.mp3 -volume=90 -enter=1900;
+:三分钟后，在丰川祥子的带领下，爱音来到了所谓的“叛逆的舞台”……
+changeFigure:341_mashiro/model.json -id=sk6 -next -motion=nod01 -expression=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -id=an6 -next -motion=nf_left01 -expression=surprised01;
+爱音:……游戏厅？
+changeFigure:341_mashiro/model.json -id=sk6 -next -motion=nf04 -expression=smile02;
+setTransform:{"position":{"x":20},"scale":{"x":0.8,"y":0.8}} -target=sk6 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an6 -next -expression=smile03;
+祥子:正解。
+changeFigure: -id=sk6 -next;
+changeFigure: -id=an6 -next;
+changeBg:a台场/joypolis2.jpg -next;
+:……准确来说是知名连锁室内游乐园，JOYPOLIS。
+setTransform:{"blur":15} -target=bg-main -duration=0 -next;
+changeFigure:341_mashiro/model.json -left -next -motion=nnf03 -expression=smile06;
+:作为情侣约会的地点来说，这个选择实在是有些过于微妙，但如果是作为【朋友】、【同学】的话，在这炎炎夏日底下、一个室内游乐园好像还真是个不错的选择。
+changeFigure:341_mashiro/model.json -left -next -motion=kime01_anon -expression=smile02;
+:至于祥子为什么觉得这是个叛逆的选择，因为在她的认知里，这种类似游戏厅的地方、好孩子一般都不会去——别问，问就是前大小姐的不谙世事跌丝袜。
+changeBg:none -next;
+changeFigure:341_mashiro/model.json -left -next -motion=kime01 -expression=default;
+:而之所以要选择这种“叛逆”的地方，这就要打开我们丰川祥子小姐的约会攻略笔记了。
+changeFigure:341_mashiro/model.json -left -next -motion=gattsu01_masking -expression=R_boby;
+:——约会要点，其之二！
+changeFigure:341_mashiro/model.json -left -next -motion=nnf_right01 -expression=smile01;
+changeFigure:moe/moe01.webp -id=moe01 -transform={"position":{"x":600,"y":-60},"scale":{"x":0.9,"y":0.9},"alpha":0.7} -next;
+changeFigure:moe/moe02.webp -id=moe02 -transform={"position":{"x":626,"y":1184.5},"scale":{"x":0.9,"y":0.9},"alpha":0.7} -next;
+:有一个名词，叫“反差萌”。
+:人总会有一个类似“人设”的东西，这就像是某种标签、像是某种印象，在人与人的相处过程初期，“人设”是建立基础关系认知的重要构筑—— -fontSize=medium;
+changeFigure:341_mashiro/model.json -left -next -motion=smile01 -expression=default;
+setTransform:{"position":{"x":600,"y":-660},"scale":{"x":0.9,"y":0.9},"alpha":0} -target=moe01 -duration=0 -next;
+setTransform:{"position":{"x":626,"y":584.5},"scale":{"x":0.9,"y":0.9},"alpha":0} -target=moe02 -duration=0 -next;
+:而如何打破这初期的印象，就是拉近二人关系的必修课。 -fontSize=default;
+changeFigure:341_mashiro/model.json -left -next -motion=nf01_rui;
+:……好吧，说得简单一点就是： -fontSize=default;
+changeFigure:341_mashiro/model.json -left -next -motion=zb_odoodo01 -expression=shame02;
+:约会的时候做一些自己平时不会做的事情、通过印象上的反差去强调、突出自己可爱的一面——差不多就是这么一回事。 -concat -fontSize=default;
+changeFigure: -id=moe01 -next;
+changeFigure:none -id=moe02 -next;
+changeFigure:341_mashiro/model.json -left -next -expression=smile03;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -transform={"position":{"x":1700,"y":1425},"scale":{"x":0.85,"y":0.85},"alpha":0.7,"rotation":-1} -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh -transform={"position":{"x":1700,"y":1825},"scale":{"x":0.85,"y":0.85},"alpha":0.7,"rotation":-1} -next;
+:也许千早爱音会很适合干这种事，但对丰川祥子来说，这就跟现在立刻走出空调庇护下的商场去拥抱太阳一样困难。
+changeFigure:341_mashiro/model.json -left -next -motion=nnf_right01_rui -expression=surprised01;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -next -motion=nf01 -expression=smirk;
+setTransform:{"position":{"x":1000,"y":900},"scale":{"x":0.85,"y":0.85},"alpha":0.7,"rotation":-1} -target=ob -duration=0 -next;
+理性:呃啊理性理性，她能做到吗?     -fontSize=default -notend;
+changeFigure:341_mashiro/model.json -left -next -expression=angry01;
+ -fontSize=default -concat;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -next -expression=smile05;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh -next -motion=smile05 -expression=default;
+setTransform:{"position":{"x":1000,"y":1300},"scale":{"x":0.85,"y":0.85},"alpha":0.7,"rotation":-1} -target=jh -duration=0 -next;
+changeFigure:341_mashiro/model.json -left -next -motion=angry04 -expression=default_anon;
+感性:呃啊感性感性，她能逆转吗？
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -transform={"position":{"x":90}} -next -motion=nnf02 -expression=surprised02;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh -next -motion=surprised02 -expression=L_Boby;
+changeFigure:sakiko_small/model.json -id=sox -transform={"position":{"x":300,"y":200},"scale":{"x":0.97,"y":0.941},"alpha":0.7} -next -motion=nf_left01 -expression=angry02;
+changeFigure:341_mashiro/model.json -left -next -motion=zb_shame01 -expression=Down_look;
+本能:呃啊本能本能你这不如直接去情侣酒店开个房、再准备一些秘密武器，那个更叛逆——
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh -next -motion=nf01_rui -expression=smile03;
+setTransform:{"position":{"x":600,"y":0},"scale":{"x":0.98,"y":0.98},"alpha":0.7,"rotation":0} -target=jh -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -next -motion=serious01;
+setTransform:{"position":{"x":100,"y":0},"scale":{"x":0.98,"y":0.98},"alpha":0.7,"rotation":0} -target=ob -duration=0 -next;
+changeFigure:sakiko_small/model.json -id=sox -next -expression=surprised01;
+:话刚说完，本能就被上面两位抬下去了，连带着祥子钱包里的钱钱一起……     -fontSize=default -notend;
+changeFigure:sakiko_small/model.json -id=sox -next -motion=angry01 -expression=default;
+setTransform:{"position":{"x":100,"y":700},"scale":{"x":0.98,"y":0.98},"alpha":0,"rotation":0} -target=ob -duration=950 -next;
+setTransform:{"position":{"x":600,"y":700},"scale":{"x":0.98,"y":0.98},"alpha":0,"rotation":0} -target=jh -duration=950 -next;
+setTransform:{"position":{"x":300,"y":900},"scale":{"x":0.97,"y":0.941},"alpha":0} -target=sox -duration=950 -next;
+changeFigure:341_mashiro/model.json -left -next -motion=nf01 -expression=smile03;
+:|是的，JOYPOLIS的门票费其实微妙地有点贵，但里面的项目倒也算是值回票价了。 -concat -fontSize=default;
+changeFigure:none -left -next;
+changeBg:a台场/joypolis3.webp -next -transform={"position":{"y":100}};
+:比如说——
+changeBg:a台场/joypolis5.webp -next -transform={"position":{"y":0}};
+changeFigure:341_mashiro/model.json -left -transform={"scale":{"x":0.8,"y":0.8}} -next -motion=surprised02 -expression=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -transform={"position":{"x":-30},"scale":{"x":0.8,"y":0.8}} -next -motion=surprised01 -expression=smile01;
+祥子:过、过山车？为什么室内会有过山车！？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=nf03 -expression=smile01;
+changeFigure:341_mashiro/model.json -left -next -motion=odoodo01 -expression=sad01;
+:明明是约会计划安排者本人，祥子却表现得跟个初见玩家没有任何区别—— -fontSize=default;
+changeFigure:341_mashiro/model.json -left -next -expression=smile03;
+:|哦，她确实是初见。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=nf_left01 -expression=smile04;
+setTransform:{"position":{"x":-70},"scale":{"x":0.8,"y":0.8}} -target=fig-right -duration=0 -next;
+changeFigure:341_mashiro/model.json -left -next -motion=nf_right01 -expression=thinking01;
+爱音:诶，这种也挺常见的吧？规模大一点的室内游乐场都会有过山车哦。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -expression=smile01;
+:倒是作为“接受邀请者”的爱音表现得像个熟手，这让祥子有些困惑：
+changeFigure:341_mashiro/model.json -left -next -motion=nf_right01_anon -expression=thinking01;
+祥子:爱音以前来过这里么？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=nf01 -expression=smile01;
+爱音:没有啦，只是…… -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=nf_right01_mu -expression=smile03;
+嗯，初中的时候跟同学 -notend -concat -fontSize=default;
+changeFigure:341_mashiro/model.json -left -next -expression=sigh02;
+去过别的地方的室内游乐园，跟这里也差不多。 -concat -fontSize=default;
+changeFigure:341_mashiro/model.json -left -next -motion=sad02 -expression=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=angry04;
+祥子:……。
+changeFigure:341_mashiro/model.json -left -next -expression=sad01;
+:丰川祥子的脸，立刻垮了下来——|千早爱音，你去室内游乐园了吗，跟我以外的女孩子…… -fontSize=default;
+changeFigure:341_mashiro/model.json -left -next -motion=nf01 -expression=serious02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=thinking03;
+:呸，不是因为这个，单纯是因为自己准备的惊喜对爱音来说好像并没有什么效果而感到有些受挫而已，嗯。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=smile04 -expression=default;
+changeFigure:341_mashiro/model.json -left -next -expression=surprised02;
+爱音:祥子想坐坐看么？
+changeFigure:341_mashiro/model.json -left -next -motion=nf_left01 -expression=odoodo01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=nf03_masking -expression=smile01;
+祥子:爱音会害怕过山车么？
+changeFigure:341_mashiro/model.json -left -next -expression=thinking01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -expression=thinking02;
+爱音:唔，果然还是有点吧—— -fontSize=default;
+changeFigure:341_mashiro/model.json -left -next -expression=surprised01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -expression=smile03;
+但这个规模的话应该还行，而且这类过山车一般也不会太刺激…… -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=thinking01 -expression=smile04;
+changeFigure:341_mashiro/model.json -left -next -expression=sigh02;
+祥子呢？ -fontSize=medium;
+changeBg:none -next;
+changeFigure:none -right -next;
+changeScene:playground_talk.txt

@@ -1,0 +1,186 @@
+bgm:14. tactfully.mp3;
+changeBg:a台场/inner11.webp -next -transform={"position":{"x":600,"y":400},"scale":{"x":1.6,"y":1.6},"alpha":0};
+changeFigure:bg/bg00410.webp -id=bg3 -transform={"position":{"y":-600},"scale":{"x":2,"y":2}} -next;
+:长崎素世并不喜欢夏天，无论是以前还是现在。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -transform={"position":{"x":200},"scale":{"x":0.83,"y":0.83}} -next -motion=smile03 -expression=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -transform={"position":{"x":200},"scale":{"x":0.83,"y":0.83}} -next -motion=nf01;
+:闷热的时候热得不行、下起雨来的时候更是讨厌至极——长崎素世心想，没有比夏天更加令人难受的季节了。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -expression=smile01;
+:还是春天更好一些。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=sad02 -expression=smile03;
+:亚麻色长发的少女这么想着，下一秒，她自嘲地笑了笑：
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf03 -expression=smile05;
+setTransform:{"position":{"x":600,"y":400},"scale":{"x":1.6,"y":1.6},"alpha":1} -target=bg-main -duration=800 -next;
+setTransform:{"position":{"y":-600},"scale":{"x":2,"y":2},"alpha":0} -target=bg3 -duration=1200 -next;
+素世:……明明都一样呢。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf_right01;
+:季节什么的根本不重要。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf_right01 -expression=smile01;
+setTransform:{"position":{"x":1100},"scale":{"x":0.83,"y":0.83},"alpha":0} -target=sy -duration=1400 -next;
+setTransform:{"position":{"x":500,"y":400},"scale":{"x":1.6,"y":1.6},"alpha":1} -target=bg-main -duration=1200 -next;
+:重要的，是陪伴着自己度过一年四季的、【身边的人】才对。
+changeFigure:none -id=sy -next;
+changeBg:a台场/inner9.webp -next -transform={"position":{"y":300},"scale":{"x":1.6,"y":1.6}};
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy2 -transform={"position":{"x":600,"y":100},"scale":{"x":0.75,"y":0.75}} -next -motion=thinking01 -expression=turn_Down_look;
+:出了升降机，她经过了自动售货机、径直走向了通往观景台的自动门。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy2 -next -motion=nnf_left01 -expression=smile01;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -transform={"position":{"x":1900,"y":50},"scale":{"x":0.8,"y":0.8}} -next;
+素世:接下来是右转么。
+changeBg:a台场/shrine2.jpg -next -transform={"position":{"x":0,"y":0},"scale":{"x":1.1,"y":1.1}};
+changeFigure:none -id=sy2 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=surprised01 -expression=turn_L_Body;
+setTransform:{"position":{"x":800,"y":50},"scale":{"x":0.75,"y":0.75}} -target=sy3 -duration=1500 -next;
+:少女翻看着手中的某本出场率奇高的旅游指南：果然，出了门口之后右转，她很快就找到了——位于这座商场6/F的……呃，嗯，【神社】。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=nnf01 -expression=smile03;
+素世:……居然真的有。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=nnf_left01;
+:烈日当空，长崎素世的表情有些微妙：规模小得可怜的神社，就这么坐落于大商场的观景露台边缘——顺带一提，在它的鸟居对面不超过五米的位置是一处露天烧烤摊。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=angry01 -expression=smile03;
+:难道这是什么掌管烧烤的神明么……？
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=smile05 -expression=turn_L_Body;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.1,"y":1.1},"alpha":0} -target=bg-main -duration=1000 -next;
+setTransform:{"position":{"x":1400,"y":70},"scale":{"x":0.77,"y":0.77},"alpha":0} -target=sy3 -duration=1000 -next;
+:虽然很想这么吐槽，但长崎素世还是掏出了手机——
+changeFigure:bg/shrine4.jpg -id=shrine3 -transform={"position":{"x":0,"y":-750},"scale":{"x":1,"y":1.1}} -next;
+changeFigure:manga/phone_shoot.webp -id=phone -transform={"position":{"y":-700}} -next;
+;playEffect:455511__rvgerxini__ios-camera-flash.mp3 -volume=10;
+:咔嚓。 -notend -fontSize=default;
+:|——然后，拍下了这槽点满满的一幕。 -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=smile01 -expression=smile02;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.1,"y":1.1},"alpha":1} -target=bg-main -duration=1500 -next;
+setTransform:{"position":{"x":800,"y":50},"scale":{"x":0.75,"y":0.75},"alpha":1} -target=sy3 -duration=1500 -next;
+setTransform:{"position":{"x":-700,"y":-800},"scale":{"x":0.6,"y":0.6},"rotation":-0.4} -target=shrine3 -duration=0 -next;
+setTransform:{"position":{"x":-700,"y":-800},"scale":{"x":0.6,"y":0.6},"rotation":-0.4,"alpha":0} -target=phone -duration=0 -next;
+素世:……感觉还不错。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=thinking01 -expression=smile02;
+:左边是烧烤摊的遮阳棚和烧烤炉、右边是坐着狐狸雕像的神社——从构图上来说，这张照片拍得还蛮有意思的，属于发到社交平台上能赚个几千点赞和转发的类型。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=kime01;
+:长崎素世感觉，自己或许真的有什么拍照的才能也说不定。
+changeFigure:none -id=phone -next;
+changeBg:bg01004.webp -next -transform={"position":{"x":0,"y":0},"scale":{"x":1,"y":1}};
+setTransform:{"position":{"x":-600,"y":-1060},"scale":{"x":0.6,"y":0.6},"rotation":0,"alpha":0.8} -target=shrine3 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm3 -transform={"position":{"x":-200,"y":100},"scale":{"x":0.75,"y":0.75},"alpha":0.7} -next -motion=surprised01 -expression=turn_Up_look;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=smile01 -expression=turn_L_Body;
+:没有多想，她将照片发到了Mygo!!!!!的群组里——
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm3 -next -motion=nnf_right01 -expression=surprised01;
+setTransform:{"position":{"x":-200,"y":50},"scale":{"x":0.75,"y":0.75}} -target=tm3 -duration=0 -next;
+灯:诶
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=nf05 -expression=smile02;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm3 -next -motion=nf03 -expression=smile03;
+灯:神社……烧烤摊？
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=serious03;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm3 -next -motion=nnf01 -expression=smile02;
+setTransform:{"position":{"x":40,"y":50},"scale":{"x":0.75,"y":0.75},"alpha":0} -target=tm3 -duration=1100 -next;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk3 -transform={"position":{"x":1800,"y":50},"scale":{"x":0.75,"y":0.75},"alpha":0} -next;
+:理所当然的反应呢。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=nf_right01 -expression=smile01;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk3 -next -motion=nnf_left01 -expression=sigh02;
+setTransform:{"position":{"x":750,"y":50},"scale":{"x":0.75,"y":0.75}} -target=sy3 -duration=0 -next;
+setTransform:{"position":{"x":1250,"y":50},"scale":{"x":0.75,"y":0.75}} -target=tk3 -duration=0 -next;
+立希:你这是跑哪儿玩去了
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -expression=smile05;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk3 -next -motion=angry02 -expression=surprised01;
+立希:这什么鬼地方
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk3 -next -motion=nf01;
+setTransform:{"position":{"x":1550,"y":50},"scale":{"x":0.75,"y":0.75},"alpha":0} -target=tk3 -duration=1400 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=nf_left01 -expression=thinking01;
+:——说实话，这不像是长崎素世会做的事情。
+setTransform:{"position":{"x":-600,"y":-1060},"scale":{"x":0.6,"y":0.6},"rotation":0,"alpha":0} -target=shrine3 -duration=0 -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1,"y":1},"alpha":0} -target=bg-main -duration=0 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=nf04 -expression=serious02;
+:但是，她还是想要试着这么做。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=shame02 -expression=smile03;
+:就像是千早爱音一样、就像是高松灯一样—— -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=ando01 -expression=smile05;
+:跟在校园里为了融入不同圈子而努力地附和他人的时候不同，长崎素世想要试着跟乐队的同伴们分享一些有趣的事情。 -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=nf01;
+:说实话，这真的只是非常无关紧要的、比日常还要日常的无谓琐事。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=nf03 -expression=smile04;
+changeFigure:none -id=tm3 -next;
+changeFigure:none -id=tk3 -next;
+:但素世觉得，哪怕只是这样的琐事，只要一点一滴地累积起来，或许也能变成被乐队的大家所珍视的宝贵回忆。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=kime01 -expression=default;
+setTransform:{"position":{"x":-600,"y":-1260},"scale":{"x":0.6,"y":0.6},"alpha":0,"rotation":0} -target=shrine3 -duration=0 -next;
+:毕竟，所谓的一辈子……其实都是这平平无奇的“每一天”堆叠而成的奇迹，不是么？
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=serious04 -expression=smile04;
+setTransform:{"position":{"x":-600,"y":-1260},"scale":{"x":0.6,"y":0.6},"rotation":0,"alpha":0.8} -target=shrine3 -duration=0 -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1,"y":1},"alpha":1} -target=bg-main -duration=0 -next;
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=rn4 -transform={"position":{"x":-900,"y":120},"scale":{"x":0.84,"y":0.84},"alpha":0,"blur":7} -next;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk4 -transform={"position":{"x":300,"y":140},"scale":{"x":0.84,"y":0.84},"blur":7} -next -motion=smile02 -expression=turn_L_Body;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm4 -transform={"position":{"x":-250,"y":140},"scale":{"x":0.84,"y":0.84},"blur":7} -next -motion=smile02 -expression=turn_R_Body;
+:……所以，一步一步来吧。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=nnf05;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk4 -next -motion=smile03 -expression=turn_L_Body;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm4 -next -motion=kime02 -expression=smile02;
+:看着群组因为自己引出的话题而逐渐变得热闹起来，长崎素世的嘴角微微上扬——
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=surprised01 -expression=default;
+:嗯？ -concat;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=thinking02 -expression=thinking01;
+素世:已读……3？
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=thinking01;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk4 -next -motion=nnf03 -expression=turn_L_Body;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm4 -next -motion=nf_right01 -expression=serious01;
+:虽然平时的乐队群组，已读就连超过2都比较艰难，但今天明明还挺热闹的，怎么还是是少了一个…… -notend -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -expression=smile03;
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=rn4 -next -motion=niya01 -expression=turn_R_Body_UP;
+setTransform:{"position":{"x":-900,"y":120},"scale":{"x":0.84,"y":0.84},"alpha":0.7,"blur":7} -target=rn4 -duration=0 -next;
+:啊，少了的那个果然是乐奈酱么—— -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=surprised01 -expression=turn_L_Body;
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=rn4 -next -motion=smile01 -expression=turn_L_Body_UP;
+setTransform:{"position":{"x":100,"y":0},"scale":{"x":0.75,"y":0.75},"alpha":1,"blur":0} -target=rn4 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk4 -next -motion=nnf_left01 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm4 -next -motion=nf_left01 -expression=surprised01;
+乐奈:哇浪，有趣
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=rn4 -next -motion=nnf_right01 -expression=smile02;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=nf01 -expression=smile03;
+setTransform:{"position":{"x":100,"y":0},"scale":{"x":0.75,"y":0.75},"alpha":0.5,"blur":0} -target=rn4 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk4 -next -motion=smile02 -expression=turn_L_Body;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm4 -next -motion=smile02 -expression=turn_R_Body;
+:——不对，这孩子只是打字稍微慢了点而已…… -notend -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=nf01 -expression=angry01;
+:话说这口癖是怎么回事？ -concat;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=thinking01 -expression=default;
+setTransform:{"position":{"x":100,"y":0},"scale":{"x":0.75,"y":0.75},"alpha":0,"blur":0} -target=rn4 -duration=0 -next;
+setTransform:{"position":{"x":-250,"y":140},"scale":{"x":0.84,"y":0.84},"blur":7,"alpha":0} -target=tm4 -duration=0 -next;
+setTransform:{"position":{"x":300,"y":140},"scale":{"x":0.84,"y":0.84},"blur":7,"alpha":0} -target=tk4 -duration=0 -next;
+setTransform:{"position":{"x":-600,"y":-1260},"scale":{"x":0.6,"y":0.6},"rotation":0,"alpha":0} -target=shrine3 -duration=0 -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1,"y":1},"alpha":0,"blur":0} -target=bg-main -duration=0 -next;
+:但这样一来，也就是说，那个唯一的“未读”—— -notend -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -expression=surprised01;
+:是千早爱音？ -concat -fontSize=default;
+changeFigure:none -id=tm4 -next;
+changeFigure:none -id=tk4 -next;
+changeFigure:none -id=rn4 -next;
+changeFigure:none -id=shrine3 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=nf04 -expression=smile03;
+素世:……那家伙估计在忙吧。
+changeBg:none -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an13 -transform={"position":{"x":-200,"y":50},"scale":{"x":0.75,"y":0.75},"alpha":0.7} -next -motion=bye01 -expression=smile04;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=nf_left01 -expression=serious02;
+:素世想起了自己难得的主动邀请、被爱音婉言拒绝的那一幕——不知为何，前阵子的不安感再次袭来。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an13 -next -motion=nf_left01 -expression=smile04;
+setTransform:{"position":{"x":-250,"y":50},"scale":{"x":0.75,"y":0.75},"alpha":0} -target=an13 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -expression=sad02;
+changeBg:a台场/shrine7.webp -next -transform={"position":{"x":0,"y":-50},"scale":{"x":1.2,"y":1.2},"blur":5};
+:明明千早爱音看上去没有什么异样，不如说每天的心情好像都还不错的样子，但是……长崎素世的直觉，似乎正在发出某种警告。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=sad01 -expression=turn_Down_look;
+素世:……应该只是错觉而已吧。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=odoodo01 -expression=sad01;
+:千早爱音和乐队之间的距离感，似乎变得有些微妙。长崎素世希望这只是错觉……是自己杞人忧天的错觉，而不是真正的“事出反常必有妖”。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=nf_left01 -expression=sad01;
+setTransform:{"position":{"x":750,"y":50},"scale":{"x":0.75,"y":0.75},"alpha":0} -target=sy3 -duration=0 -next;
+setTransform:{"scale":{"x":2.6,"y":2.6}} -target=bg-main -duration=2200 -next;
+:毕竟，最近压根没有发生什么变故，也不可能再发生什么变故了。
+setTransform:{"scale":{"x":2.6,"y":2.6},"alpha":0} -target=bg-main -duration=0 -next;
+bgm: -enter=1000;
+:素世将硬币投进了神社的赛钱箱，双手合十、闭上眼睛：
+changeFigure:none -id=sy3 -next;
+changeBg:a台场/shrine5.webp -next -transform={"position":{"y":-600},"scale":{"x":1.8,"y":1.8}};
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -transform={"scale":{"x":1.08,"y":1.08}} -next -motion=nf_right01 -expression=sad01;
+:——神明啊，请保佑她这一次的“家”、永远不会分崩离析。
+setTransform:{"position":{"y":550},"scale":{"x":1.8,"y":1.8}} -target=bg-main -duration=1900 -next;
+setTransform:{"position":{"x":1600,"y":1400},"scale":{"x":1.1,"y":1.1}} -target=sy -duration=1900 -next;
+:希望大家，都可以得到幸福……
+changeBg:none -next;
+changeFigure:none -id=sy -next;
+changeScene:3_01/meet.txt

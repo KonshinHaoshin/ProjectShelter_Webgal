@@ -1,0 +1,268 @@
+:…………………………
+bgm:15.breast.mp3 -enter=1000;
+changeBg:ring_cafe.webp -next -transform={"position":{"x":200},"scale":{"x":1.3,"y":1.3}};
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -left -id=sy -transform={"scale":{"x":0.9,"y":0.9}} -next -motion=smile01 -expression=default;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -right -id=tk -transform={"scale":{"x":0.9,"y":0.9}} -next -motion=nf_left01 -expression=surprised01;
+:说是这么说，丰川祥子准备的企划确实相当有参考价值—— -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -id=sy -next -motion=nf01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -motion=nnf04 -expression=surprised01;
+:所谓的全能之人，似乎也拥有着“给别人筹备生日派对”这样的才能。 -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -id=sy -next -motion=thinking01 -expression=smile01;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -motion=thinking01;
+:比起素世和立希一开始商量的、稍微有些敷衍的方案,祥子的安排可以说是更加周到、甚至还照顾到了参加者们的体验以及提醒了她们租用场地时的各种 -notend -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -id=sy -next -motion=nnf_right01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/taki/040_arbeit_rip/model.json -id=tk -next -expression=smile03;
+注意事项,堪称完美—— -concat -fontSize=default;
+changeFigure:none -id=sy -next;
+changeFigure:none -id=tk -next;
+changeBg:none -next;
+:然而，原本应该秘密筹备、给我们的寿星小姐一个惊喜的这场生日派对，最终却因为一个意料之外、情理之中的理由而提前暴露了。
+changeBg:bg00008.webp -next -transform={"position":{"y":-200},"scale":{"x":1,"y":1}};
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -left -id=tm -transform={"position":{"y":200},"scale":{"x":0.9,"y":0.9}} -next -motion=sleep01_kokoro -expression=default;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an -transform={"position":{"x":1300},"scale":{"x":0.9,"y":0.9}} -next -motion=bye01 -expression=turnL;
+: -notend -fontSize=default;
+setTransform:{"position":{"x":300},"scale":{"x":0.9,"y":0.9}} -target=an -duration=1800 -next;
+:暴露的流程，分为三步。 -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an -next -motion=nnf_left01 -expression=smile02;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tm -next -motion=nnf_right01 -expression=surprised01;
+setTransform:{"position":{"y":100},"scale":{"x":0.9,"y":0.9}} -target=tm -duration=0 -next;
+灯:啊，早上好，小爱……！          -notend -fontSize=default;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tm -next -expression=smile01;
+ -concat -fontSize=default;
+:这是第一步。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an -next -motion=nf05 -expression=smile01;
+爱音:嗯，早上好哦，Tomorin…… -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an -next -motion=thinking03 -expression=surprised01_sk;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tm -next -expression=surprised01;
+诶！？怎、怎么回事，Tomorin脸上的黑眼圈好重，昨晚失眠了 -notend -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an -next -motion=angry04 -expression=smile03;
+吗？ -concat -fontSize=default;
+:这是第二步。
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tm -next -motion=nf05 -expression=serious01;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an -next -expression=surprised01;
+灯:啊，嗯……昨晚在跟立希酱和素世一起商量、小爱的生日派对的事情， -notend -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an -next -expression=smile04;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tm -next -expression=smile03;
+所以很晚才…… -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tm -next -motion=surprised01 -expression=default;
+灯:啊。 -concat;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tm -next -motion=nnf_right01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an -next -motion=shame02;
+:这是第三步。
+changeFigure:none -id=an -next;
+changeFigure:none -id=tm -next;
+changeBg:bg00918.webp -next;
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -left -id=sysy -transform={"position":{"x":-100},"scale":{"x":0.8,"y":0.8}} -next -motion=nnf01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/taki/040_school_summer-2023_rip/model.json -right -id=tktk -transform={"position":{"x":100},"scale":{"x":0.8,"y":0.8}} -next -motion=nf_left01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmtm -transform={"scale":{"x":0.8,"y":0.8}} -next -motion=sad03 -expression=default;
+changeFigure:mygo_avemujica_v6/rana/038_school_summer-2023_rip/model.json -right -id=rnrn -transform={"position":{"x":700},"scale":{"x":0.8,"y":0.8}} -next -motion=nf_left01 -expression=thinking01;
+:——完全不擅长说谎和掩饰秘密的高松灯小朋友，就这样成为了本次行动的头号战犯。
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmtm -next -motion=sad01;
+changeFigure:mygo_avemujica_v6/taki/040_school_summer-2023_rip/model.json -id=tktk -next -motion=sad02 -expression=surprised01;
+灯:对、对不起……
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -id=sysy -next -motion=smile03 -expression=turn_R_Body;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmtm -next -motion=nnf_right01 -expression=thinking01;
+changeFigure:mygo_avemujica_v6/taki/040_school_summer-2023_rip/model.json -id=tktk -next -motion=ando01 -expression=shame01;
+setTransform:{"position":{"x":-100},"scale":{"x":0.8,"y":0.8}} -target=tktk -duration=0 -next;
+changeFigure:mygo_avemujica_v6/rana/038_school_summer-2023_rip/model.json -id=rnrn -next -motion=nf_left01 -expression=smile02;
+:短发的少女惭愧地低下了头，椎名立希见状立刻抱住了她：
+changeFigure:mygo_avemujica_v6/taki/040_school_summer-2023_rip/model.json -id=tktk -next -motion=angry03;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmtm -next -motion=surprised01 -expression=turn_R_boby;
+changeFigure:mygo_avemujica_v6/rana/038_school_summer-2023_rip/model.json -id=rnrn -next -motion=nf_left01 -expression=niya01;
+立希:不是灯的错！ -notend -fontSize=default;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmtm -next -motion=nf_right01 -expression=smile03;
+ -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/taki/040_school_summer-2023_rip/model.json -id=tktk -next -motion=nf_right01 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmtm -next -motion=surprised01 -expression=turn_R_boby;
+changeFigure:mygo_avemujica_v6/rana/038_school_summer-2023_rip/model.json -id=rnrn -next -motion=nf04 -expression=smile02;
+setTransform:{"position":{"x":0,"y":100},"scale":{"x":0.8,"y":0.8},"rotation":-0.1} -target=rnrn -duration=0 -next;
+:大概是这一幕看着怪好玩，要乐奈也抱了上去： -fontSize=default;
+changeFigure:mygo_avemujica_v6/taki/040_school_summer-2023_rip/model.json -id=tktk -next -motion=sad02 -expression=smile03;
+setTransform:{"position":{"x":10,"y":-70},"scale":{"x":0.8,"y":0.8},"rotation":0.04} -target=tktk -duration=0 -next;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmtm -next -motion=kandou01;
+setTransform:{"position":{"y":40},"scale":{"x":0.8,"y":0.8},"rotation":-0.02} -target=tmtm -duration=0 -next;
+changeFigure:mygo_avemujica_v6/rana/038_school_summer-2023_rip/model.json -id=rnrn -next -motion=nf01 -expression=smile01;
+setTransform:{"position":{"x":-300,"y":430},"scale":{"x":0.8,"y":0.8},"rotation":-0.3} -target=rnrn -duration=0 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -id=sysy -next -motion=nf01 -expression=smile03;
+乐奈:不是灯的错。
+changeFigure:mygo_avemujica_v6/taki/040_school_summer-2023_rip/model.json -id=tktk -next -motion=nf_left01 -expression=smile02;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmtm -next -motion=smile02;
+changeFigure:mygo_avemujica_v6/rana/038_school_summer-2023_rip/model.json -id=rnrn -next -motion=nf_left01 -expression=smile02;
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -id=sysy -next -motion=surprised01_mu -expression=turn_R_Body;
+:——然后，立希和乐奈，一起无言地看向了长崎素世。
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -id=sysy -next -motion=angry01;
+素世:看我干嘛。
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -id=sysy -next -motion=thinking01 -expression=serious02;
+changeFigure:mygo_avemujica_v6/rana/038_school_summer-2023_rip/model.json -id=rnrn -next -motion=nf_left01 -expression=smile02;
+setTransform:{"position":{"x":100,"y":0},"scale":{"x":0.8,"y":0.8},"rotation":0} -target=rnrn -duration=0 -next;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmtm -next -motion=nf_left01 -expression=thinking01;
+changeFigure:mygo_avemujica_v6/taki/040_school_summer-2023_rip/model.json -id=tktk -next -motion=sigh02 -expression=default;
+:被迫熬夜的不熬夜主义者揉了揉眉间，叹了口气：
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -id=sysy -next -motion=nf01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/rana/038_school_summer-2023_rip/model.json -id=rnrn -next -expression=sad01;
+changeFigure:mygo_avemujica_v6/taki/040_school_summer-2023_rip/model.json -id=tktk -next -motion=nf05;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anan -transform={"position":{"x":1800},"scale":{"x":0.82,"y":0.82},"alpha":0} -next;
+素世:事已至此，也只能见一步走一步了——
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anan -next -motion=bye01 -expression=turn_L_Boby_Down;
+setTransform:{"position":{"x":1500},"scale":{"x":0.8,"y":0.8}} -target=anan -duration=300 -next;
+changeFigure:mygo_avemujica_v6/rana/038_school_summer-2023_rip/model.json -id=rnrn -next -motion=nf_right01 -expression=niya01;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmtm -next -motion=surprised01 -expression=turn_R_boby;
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -id=sysy -next -motion=nf_right01 -expression=smile01;
+changeFigure:mygo_avemujica_v6/taki/040_school_summer-2023_rip/model.json -id=tktk -next -motion=surprised02 -expression=surprised01;
+setTransform:{"position":{"x":500,"y":0},"scale":{"x":0.8,"y":0.8}} -target=tktk -duration=300 -next;
+爱音:——饮料买回来了哦…… -fontSize=default -notend;
+changeFigure:mygo_avemujica_v6/taki/040_school_summer-2023_rip/model.json -id=tktk -next -motion=nf_left01 -expression=shame01;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anan -next -motion=wondering01_kokoro -expression=turn_L_Boby_Down;
+诶，大家都在干嘛呢？ -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/taki/040_school_summer-2023_rip/model.json -id=tktk -next -motion=nf01 -expression=sigh01;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anan -next -motion=nf03_sk -expression=default;
+setTransform:{"position":{"x":1470},"scale":{"x":0.8,"y":0.8}} -target=anan -duration=0 -next;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmtm -next -motion=nf04 -expression=turn_R_boby;
+:抱着饮料回来的千早爱音，一推开门就看到了抱作一团的灯希猫二人一猫，迷惑地眨了眨眼睛。
+changeFigure:mygo_avemujica_v6/taki/040_school_summer-2023_rip/model.json -id=tktk -next -motion=smile03 -expression=turn_R_Body;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anan -next -motion=nf04 -expression=thinking02;
+立希:没什么，继续排练吧。
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -id=sysy -next -expression=smile03;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmtm -next -motion=nf_left01 -expression=default;
+changeFigure:mygo_avemujica_v6/taki/040_school_summer-2023_rip/model.json -id=tktk -next -motion=sigh01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/rana/038_school_summer-2023_rip/model.json -id=rnrn -next -motion=smile02 -expression=turn_R_Body;
+setTransform:{"position":{"x":760},"scale":{"x":0.8,"y":0.8}} -target=rnrn -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anan -next -motion=nnf05;
+爱音:喔、喔……？
+setTransform:{"position":{"x":-300},"alpha":0} -target=bg-main -duration=0 -next;
+setTransform:{"position":{"x":460},"scale":{"x":0.8,"y":0.8},"alpha":0} -target=rnrn -duration=0 -next;
+setTransform:{"position":{"x":200},"scale":{"x":0.8,"y":0.8},"alpha":0} -target=tktk -duration=0 -next;
+setTransform:{"position":{"x":-500},"scale":{"x":0.8,"y":0.8},"alpha":0} -target=sysy -duration=0 -next;
+setTransform:{"position":{"x":-300},"scale":{"x":0.8,"y":0.8},"alpha":0} -target=tmtm -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anan -next -motion=smile02_sk -expression=default;
+setTransform:{"position":{"x":1100},"scale":{"x":0.8,"y":0.8}} -target=anan -duration=0 -next;
+:——没什么？怎么可能！
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anan -next -motion=kime01 -expression=smile04;
+:前略，千早爱音是个聪明的女孩子……不，说到底，有了高松灯的自爆发言，她其实不需要有多聪明也能从中得知事情的大概：
+changeBg:none -next;
+changeFigure: -id=tktk -next;
+changeFigure: -id=sysy -next;
+changeFigure: -id=rnrn -next;
+changeFigure: -id=tmtm -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anan -next -motion=kime02;
+setTransform:{"position":{"x":960},"scale":{"x":0.83,"y":0.83}} -target=anan -duration=400 -next;
+:显然，她的队友们正在为了她的生日而秘密筹划着生日派对…… -notend -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anan -next -expression=shame01;
+嗯…… -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anan -next -motion=smile01 -expression=smile04;
+爱音:……嘻嘻。
+changeFigure:none -id=anan -next;changeBg:bg00918.webp  -next -transform={"position":{"x":700,"y":-200},"scale":{"x":1.8,"y":1.8},"blur":15};
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -id=sy3 -transform={"position":{"x":200}} -next -motion=smile03 -expression=turn_L_Body;
+changeFigure:mygo_avemujica_v6/taki/040_school_summer-2023_rip/model.json -id=tk3 -transform={"position":{"x":-600}} -next -motion=thinking01 -expression=turn_R_Body;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tm3 -transform={"position":{"x":600}} -next -motion=nf_left01 -expression=thinking01;
+changeFigure:mygo_avemujica_v6/rana/038_school_summer-2023_rip/model.json -id=rn3 -transform={"position":{"x":200,"y":-175},"scale":{"x":1.4,"y":1.4},"blur":5} -next -motion=smile02 -expression=default;
+:——要问爽不爽，那确实爽。
+changeFigure:mygo_avemujica_v6/taki/040_school_summer-2023_rip/model.json -id=tk3 -next -motion=nnf_right01 -expression=smile03;
+setTransform:{"position":{"x":-620},"scale":{"x":1,"y":1},"blur":5} -target=tk3 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -id=sy3 -next -motion=nf01 -expression=smile04;
+setTransform:{"position":{"x":150},"scale":{"x":1,"y":1},"blur":5} -target=sy3 -duration=0 -next;
+setTransform:{"position":{"x":650,"y":-220},"scale":{"x":1.8,"y":1.8},"blur":15} -target=bg-main -duration=0 -next;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tm3 -next -motion=nnf05 -expression=turn_L_Boby;
+setTransform:{"position":{"x":550},"scale":{"x":1,"y":1},"blur":5} -target=tm3 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/rana/038_school_summer-2023_rip/model.json -id=rn3 -next -motion=smile01 -expression=default;
+setTransform:{"position":{"x":270,"y":-300},"scale":{"x":1.37,"y":1.37},"blur":0} -target=rn3 -duration=0 -next;
+:没有什么比“自己重视的同伴同样重视着自己”这件事更让爱音感到愉快的了——
+changeFigure:mygo_avemujica_v6/taki/040_school_summer-2023_rip/model.json -id=tk3 -next -motion=smile01 -expression=default;
+setTransform:{"position":{"x":-600,"y":-160},"scale":{"x":1,"y":1},"rotation":0.06,"blur":0} -target=tk3 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -id=sy3 -next -motion=nf_right01 -expression=smile01;
+setTransform:{"position":{"x":150,"y":-130},"scale":{"x":1,"y":1},"rotation":0.06,"blur":0} -target=sy3 -duration=0 -next;
+setTransform:{"position":{"x":650,"y":-320},"scale":{"x":1.8,"y":1.8},"rotation":0.06,"blur":15} -target=bg-main -duration=0 -next;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tm3 -next -motion=smile01 -expression=turn_L_Boby;
+setTransform:{"position":{"x":540,"y":-130},"scale":{"x":1,"y":1},"rotation":0.06,"blur":0} -target=tm3 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/rana/038_school_summer-2023_rip/model.json -id=rn3 -next -motion=smile01 -expression=smile02;
+setTransform:{"position":{"x":430,"y":-515},"scale":{"x":1.37,"y":1.37},"rotation":0.06,"blur":5} -target=rn3 -duration=0 -next;
+:更何况，不擅长撒谎的Tomorin真的很可爱，虽然惊喜感确实是削减了不少，但提前知道也不是什么坏事啦。
+changeBg:none -next;
+changeFigure: -id=sy3 -next;
+changeFigure: -id=tm3 -next;
+changeFigure: -id=tk3 -next;
+changeFigure: -id=rn3 -nextchangeBg:bg00918.webp g -next -transform={"position":{"x":-350},"scale":{"x":1.4,"y":1.4},"rotation":0,"blur":0};
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an5 -transform={"position":{"x":1000},"scale":{"x":0.85,"y":0.85}} -next -motion=nf_left01 -expression=smile04;
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -id=sy5 -transform={"position":{"x":-650},"scale":{"x":0.85,"y":0.85}} -next -motion=angry02 -expression=smile03;
+changeFigure:mygo_avemujica_v6/taki/040_school_summer-2023_rip/model.json -id=tk5 -transform={"position":{"x":-1000},"scale":{"x":0.85,"y":0.85}} -next -motion=nf01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/rana/038_school_summer-2023_rip/model.json -id=rn5 -transform={"position":{"x":600},"scale":{"x":0.85,"y":0.85}} -next -motion=nnf_right01 -expression=smile02;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tm5 -transform={"position":{"x":-200},"scale":{"x":0.85,"y":0.85}} -next -motion=nf_right01 -expression=smile03;
+:说是这么说，中略，千早爱音同样也是个温柔的女孩子。 -fontSize=default;
+setTransform:{"position":{"x":100},"scale":{"x":1.4,"y":1.4}} -target=bg-main -duration=700 -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an5 -next -motion=smile04;
+setTransform:{"position":{"x":400},"scale":{"x":0.85,"y":0.85}} -target=an5 -duration=1200 -next;
+changeFigure:mygo_avemujica_v6/rana/038_school_summer-2023_rip/model.json -id=rn5 -next -motion=nnf_left01;
+setTransform:{"position":{"x":820},"scale":{"x":0.85,"y":0.85}} -target=rn5 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -id=sy5 -next -motion=shame02 -expression=default;
+setTransform:{"position":{"x":-200},"scale":{"x":0.85,"y":0.85}} -target=sy5 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/taki/040_school_summer-2023_rip/model.json -id=tk5 -next -motion=nf_right01 -expression=smile03;
+setTransform:{"position":{"x":-600},"scale":{"x":0.85,"y":0.85}} -target=tk5 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tm5 -next -motion=surprised01 -expression=sigh02;
+setTransform:{"position":{"x":100},"scale":{"x":0.85,"y":0.85}} -target=tm5 -duration=0 -next;
+:所以，即便她知道了秘密生日派对的存在、也知道了素世她们知道她知道——好拗口—— -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an5 -next -motion=nf04;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tm5 -next -motion=sigh01;
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -id=sy5 -next -motion=nf_left01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/rana/038_school_summer-2023_rip/model.json -id=rn5 -next -expression=kime01;
+:总之就是即便在这种“你知道我知道”的情况下，温柔的爱音也会装作什么都不知道，这几天该干嘛干嘛。
+changeFigure: -id=an5 -next;
+changeFigure: -id=tk5 -next;
+changeFigure: -id=rn5 -next;
+changeFigure: -id=sy5 -next;
+changeFigure: -id=tm5 -next;
+changeBg:none -next;
+:于是，日子一天一天过去……啊，其实也没几天了。changeBg:ring_cafe.webp  -next -transform={"scale":{"x":1.1,"y":1.1}};
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm4 -transform={"position":{"x":-550},"scale":{"x":0.8,"y":0.8}} -next -motion=surprised01 -expression=turn_R_Body;
+changeFigure:选择立绘文件 -id=rn4 -next;
+changeFigure:mygo_avemujica_v6/rana/038_casual-2023_rip/model.json -id=rn4 -transform={"position":{"x":900},"scale":{"x":0.84,"y":0.84}} -next -motion=thinking01 -expression=smile02;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -right -id=sy4 -transform={"position":{"x":175},"scale":{"x":0.8,"y":0.8}} -next -motion=thinking02 -expression=turn_R_Body;
+changeFigure:mygo_avemujica_v6/taki/040_casual-2023_rip/model.json -right -id=tk4 -transform={"position":{"x":700},"scale":{"x":0.8,"y":0.8}} -next -motion=nnf04 -expression=turn_L_Body;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -transform={"scale":{"x":0.8,"y":0.8}} -next -motion=nf_left01_sk -expression=smile04;
+:每天都一脸心虚冒圈圈眼的主唱、每天都在憋笑的节奏吉他手、每天都在忙碌的鼓手和贝斯手、以及每天都在吃抹茶芭菲的主音吉他手… -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy4 -next -motion=thinking01 -expression=turn_Down_look;
+changeFigure:mygo_avemujica_v6/taki/040_casual-2023_rip/model.json -id=tk4 -next -motion=nnf_right01 -expression=smile03;
+setTransform:{"position":{"x":1300},"scale":{"x":0.8,"y":0.8}} -target=rn4 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -id=tm4 -next -motion=sad01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=smile04;
+:啊，最后这个好像跟平时没什么区别—— -fontSize=default;
+changeBg:none -next;
+changeFigure: -id=an4 -next;
+changeFigure: -id=tk4 -next;
+changeFigure: -id=sy4 -next;
+changeFigure: -id=tm4 -next;
+changeFigure: -id=rn4 -next;
+:总而言之，言而总之，不知不觉间，Mygo!!!!!这支乐队似乎又回到了曾经那个“各怀鬼胎”的阶段……当然，这一次是正面意义的暗藏玄机。
+changeBg:sheet.webp -next -transform={"scale":{"x":1.5,"y":1.5}};
+changeFigure:pillar2.webp -id=pillar -transform={"position":{"x":-800,"y":-900},"scale":{"x":0.6,"y":0.6},"rotation":-0.8,"blur":0} -next;changeFigure:pillar2.webp -id==pillar2 -transform={"position":{"x":1100,"y":-700},"scale":{"x":0.6,"y":0.6},"rotation":0.8} -next;
+changeFigure:mygo_avemujica_v6/anon/anon_naked/model.json -id=an -transform={"position":{"x":50,"y":-160},"scale":{"x":0.95,"y":0.95},"rotation":0.1} -next -motion=nf_right01_sk -expression=smile04;
+changeFigure:祥子L/341_school_summer-2023_rip/model.json -id=sk -transform={"position":{"x":300,"y":140},"scale":{"x":0.95,"y":0.95},"rotation":-0.2} -next -motion=nf02 -expression=odoodo01;
+:无独有偶，每夜的梦境、爱音与祥子幽会之时，某位Ob一串字母小姐的状态也不太正常。
+changeFigure:mygo_avemujica_v6/anon/anon_naked/model.json -id=an -next -motion=smile04 -expression=turnR;
+setTransform:{"position":{"x":-300,"y":120},"scale":{"x":0.95,"y":0.95},"rotation":-0.14} -target=an -duration=2000 -next;
+changeFigure:祥子L/341_school_summer-2023_rip/model.json -id=sk -next -motion=nf_left01 -expression=shame01;
+setTransform:{"position":{"x":620,"y":-170},"scale":{"x":0.95,"y":0.95},"rotation":0.03} -target=sk -duration=1600 -next;
+爱音:祥祥，在发什么呆呢~
+changeFigure:mygo_avemujica_v6/anon/anon_naked/model.json -id=an -next -motion=angry06_sk -expression=smile04;
+setTransform:{"position":{"x":0,"y":-70},"scale":{"x":0.95,"y":0.95},"rotation":0.02} -target=an -duration=0 -next;
+changeFigure:祥子L/341_school_summer-2023_rip/model.json -id=sk -next -motion=angry02;
+:一夜的缠绵后，粉发的少女轻轻戳了戳蓝色小章鱼的脸颊——
+changeFigure:祥子L/341_school_summer-2023_rip/model.json -id=sk -next -motion=angry01 -expression=shame01;
+changeFigure:mygo_avemujica_v6/anon/anon_naked/model.json -id=an -next -motion=smile05_sk -expression=default;
+祥子:——我没有在想给爱音准备生日派对的事情哦。
+changeFigure:祥子L/341_school_summer-2023_rip/model.json -id=sk -next -motion=odoodo01 -expression=shame01;
+爱音:噗。
+changeFigure:mygo_avemujica_v6/anon/anon_naked/model.json -id=an -next -motion=nf_right01_mu -expression=shame02;
+setTransform:{"position":{"x":280,"y":-60},"scale":{"x":0.95,"y":0.95},"rotation":0.01} -target=an -duration=0 -next;
+changeFigure:祥子L/341_school_summer-2023_rip/model.json -id=sk -next -motion=shame02;
+:……真是的，自己身边的女孩子、都是这种又“麻烦”又可爱的类型呢。
+changeFigure: -id=pillar -next;
+changeFigure: -id=pillar2 -next;
+changeFigure: -id=an -next;
+changeFigure: -id=sk -next;
+changeBg:none -next;
+:爱音这么想着，将怀中的恋人搂得更紧了一些……然后。
+:9月8日，到了。
+bgm:none -enter=1200;
+:………………………………
+changeScene:anonbirthday/warmth.txt
+;

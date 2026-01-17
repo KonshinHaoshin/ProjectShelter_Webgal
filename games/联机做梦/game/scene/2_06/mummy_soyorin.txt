@@ -1,0 +1,171 @@
+changeBg:night/bg00410.webp -next -transform={"position":{"y":-200},"scale":{"y":0.9}};
+:长崎素世讲故事的能力只能说一般。
+:也许是有太多的事情要讲，也许是不知道该从哪里开始说起，最终千早爱音能捕捉到的信息相当有限、但也算是刚刚好：
+changeBg:night/bg00007.webp -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -transform={"position":{"x":-300},"scale":{"x":0.9,"y":0.9}} -next -motion=nnf04 -expression=sad01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -transform={"position":{"x":600},"scale":{"x":0.9,"y":0.9}} -next -motion=thinking03 -expression=thinking03;
+:——她不清楚长崎素世为何会养成现在这份性格，但理解了Crychic对当时的她有多么重要。
+changeBg:none -next;
+setTransform:{"position":{"x":-1000},"scale":{"x":0.9,"y":0.9},"alpha":0} -target=sy -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf03 -expression=smile03;
+setTransform:{"position":{"x":-100},"scale":{"x":0.9,"y":0.9}} -target=an -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=sk -transform={"position":{"x":800},"scale":{"x":0.9,"y":0.9},"alpha":0.7} -next -motion=smile01 -expression=default;
+:——她跟长崎素世一样不知道为什么丰川祥子会变成现在的脾气， -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf_left01 -expression=shame01;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=sk -next -expression=smile02;
+:但也大致理解了长崎素世和高松灯她们眼中的“曾经的丰川祥子”，为何能够如同高悬夜空的白色月光般令人念念不忘。 -fontSize=default;
+changeBg:clever_test.webp -next -transform={"position":{"x":800},"scale":{"x":0.8,"y":0.8},"alpha":0.6,"oldFilm":1};
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf_right01_sk -expression=smile03;
+changeFigure:none -id=sk -next;
+:——她也知道了，丰川祥子当初的诀别有多么毅然决然，大致理解了长崎素世后续的一些行为动机。
+changeBg:none -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=thinking02 -expression=default;
+:大侦探爱尔摩斯认真探案，她头顶的Q版爱音摸了摸下巴、点了点头：今晚这向前迈出的一步，收获颇丰。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf_left01 -expression=smile03;
+setTransform:{"position":{"x":600},"scale":{"x":0.9,"y":0.9}} -target=an -duration=0 -next;
+changeBg:night/bg00007.webp -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=thinking01 -expression=sad01;
+setTransform:{"position":{"x":-400},"scale":{"x":0.9,"y":0.9},"alpha":1} -target=sy -duration=0 -next;
+素世:……如何，我果然是个麻烦的女人吧？
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -expression=smile03;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -expression=thinking03;
+:亚麻色长发的少女自嘲地笑了笑，总觉得身上的未亡人气息更浓重了。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=kime02 -expression=serious01;
+setTransform:{"position":{"x":500},"scale":{"x":0.9,"y":0.9}} -target=an -duration=0 -next;
+爱音:Soyorin……现在还难受么？
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf_left01 -expression=sad02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -expression=sad02;
+素世:难受。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf01;
+:长崎素世说，她忘不了那份刺痛——自己所珍视的美好事物化作一盘散沙、从自己紧握着的拳头指缝之间流逝，而自己对此却无能为力……
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -expression=angry02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf04 -expression=sad01;
+素世:这种感觉，不可能不难受。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -expression=smile03;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=angry04 -expression=thinking01;
+:但是，这份刺痛，也源自于那份忘不掉的美好。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=smile03 -expression=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -expression=odoodo01_sk;
+素世:……我跟小灯一样，也许，比起那份刺痛，我们更难忘记的是那份美好。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf_left01 -expression=shame02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=thinking03 -expression=thinking01_sk;
+:往日的痛楚也许可以通过时间慢慢治愈，但旧日的幸福却总会让人流连忘返。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -expression=smile03;
+:不会忘记，也不愿放手。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf04 -expression=serious03;
+:——但这并不代表长崎素世她们再也无法继续前进。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf_right01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf_left01 -expression=surprised01;
+素世:爱音， -fontSize=default -notend;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -expression=thinking01_sk;
+Ave Mujica的事情最好暂时不要跟小灯她们说…… -fontSize=default -concat;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf03 -expression=thinking01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -expression=surprised01;
+等等。 -fontSize=default ;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf_left01 -expression=odoodo01;
+:路灯下，少女停下了脚步、别过了视线：
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=smile03 -expression=default;
+素世:……我好像也不该跟你这家伙说刚刚那些话。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf01 -expression=smile04;
+setTransform:{"position":{"x":200,"y":-40},"scale":{"x":0.92,"y":0.92}} -target=an -duration=0 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -expression=thinking01;
+爱音:哎，别那么冷淡嘛，Soyorin~
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=angry04;
+:爱音多往前走了两步才停下来、转身看向对方：现在的她已经安心了不少， -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf01;
+:因为她发现Soyorin好像并没有对祥祥重新组建乐队的事情表达出太大的情绪波动、也不太像是在刻意压抑自己。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -expression=sad02;
+素世:我的意思是说—— -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -expression=thinking02;
+:长崎素世顿了一下，才低声说道：
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -expression=angry02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -expression=surprised01;
+素世:——我还欠你一个道歉。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=serious02 -expression=thinking02;
+爱音:哎？
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf_right01 -expression=sad02;
+:灰色的双瞳微微一缩：这句话有些超出爱音的预料之外了。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -expression=serious03;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -expression=sad02;
+素世:我的过去与你无关，所以……唯有当初利用了你这件事，是无法狡辩的错误。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -expression=thinking01;
+setTransform:{"position":{"x":-240,"y":50},"scale":{"x":0.87,"y":0.87}} -target=sy -duration=0 -next;
+:长崎素世回过头，看向了刚刚Ave Mujica举办演出的会场—— -fontSize=default -notend;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf04;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf_left01 -expression=smile03;
+:|然后，她又转头看向了千早爱音： -fontSize=default -concat;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -expression=kime01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -expression=thinking02;
+素世:但我并不后悔，因为我不讨厌现在的结果。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=surprised01 -expression=default;
+爱音:喔、噢？
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -expression=smile03;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf03_sk -expression=smile03;
+:爱音似懂非懂地眨了眨眼，然后又有点不好意思地挠了挠脸颊：
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf01 -expression=smile03;
+setTransform:{"position":{"x":400,"y":50},"scale":{"x":0.87,"y":0.87}} -target=an -duration=0 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf_right01 -expression=surprised01;
+爱音:其实我也没有责怪Soyorin的意思啦…… -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=smile01 -expression=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=odoodo01 -expression=sad02;
+呃，虽然当时还是很不高兴的，但那也都是过去的事情了嘛，事到如今也不觉得是什么大事了~！ -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf_left01 -expression=smile03;
+素世:……你真是这么想的么？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -expression=smile02_sk;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=sad02 -expression=smile03;
+爱音:毕竟人生漫漫长，好事坏事都是一箩筐一箩筐地来——如果一直只记着一些让人不高兴的事情，日子可就过不下去了呢。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf_right01 -expression=smile02;
+:粉发的少女也回头看向了刚刚Ave Mujica举办演出的会场、看向了不在场的某个人：
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -expression=smile03;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf_right01 -expression=smile02;
+爱音:所以，像Soyorin这样一边记住美好的过去、一边前进什么的，也许才是正解也说不定。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -expression=thinking01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf_right01 -expression=smile04;
+素世:……你果然很擅长说这些漂亮话。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=smile04 -expression=default_sk;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf_left01;
+爱音:诶？这算是在夸我么？
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf01 -expression=smile02;
+setTransform:{"position":{"x":-600,"y":0},"scale":{"x":0.93,"y":0.93},"alpha":0} -target=sy -duration=900 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -expression=smile03;
+bgm: -enter=900;
+素世:怎么可能。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf_left01_sk;
+setTransform:{"position":{"x":-500,"y":0},"scale":{"x":0.93,"y":0.93},"alpha":0} -target=an -duration=0 -next;
+changeBg:none -next;
+:长崎素世扭头就走，千早爱音连忙追上——|小小的身位差距，让爱音没能捕捉到素世上扬的嘴角： -fontSize=default;
+changeBg:night/bg01006.webp -next;
+changeFigure:none -id=sy -next;
+changeFigure: -id=an -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an3 -transform={"position":{"x":100,"y":50},"scale":{"x":0.8,"y":0.8}} -next -motion=surprised01_masking -expression=surprised01;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -transform={"position":{"x":-500},"scale":{"x":0.86,"y":0.86}} -next -motion=thinking01 -expression=smile03;
+bgm:02.sweet_dream.mp3 -enter=1100;
+素世:——这么说来，你最近还有在做那些下头的梦么？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an3 -next -motion=zb_nnf04;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=nnf_right01 -expression=smile04;
+爱音:——为什么突然会提到这个！？
+:被打了个措手不及的爱音脸颊微红，素世回头瞄了她一眼，似乎对爱音这样的反应很满意：
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=shame02 -expression=smile02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an3 -next -motion=zb_nnf_right01 -expression=smile03;
+素世:看来是有呢。
+爱音:呃，嗯……
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=nf_right01 -expression=thinking01;
+素世:倒也不用太在意，我不会告诉别人，更不会嘲笑你。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an3 -next -motion=smile04 -expression=default;
+setTransform:{"position":{"x":200,"y":0},"scale":{"x":0.86,"y":0.86}} -target=an3 -duration=0 -next;
+爱音:……怎么感觉今天的Soyorin好温柔？
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=serious03;
+素世:你的意思是平时的我不温柔么。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an3 -next -motion=nf05_sk -expression=kime01;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=angry02 -expression=default;
+爱音:嗯。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=nf_right01 -expression=serious04;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an3 -next -motion=nnf_right01 -expression=smile03;
+素世:……你果然是喜欢找我吵架，对吧？
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=angry01 -expression=default;
+爱音:啊，变回平时的Soyorin了。
+素世:……啧。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=nf01 -expression=angry01;
+:真是个笨蛋——长崎素世暗骂了一声，没好气地说道：
+changeScene:2_06/mummy_soyorin2.txt;

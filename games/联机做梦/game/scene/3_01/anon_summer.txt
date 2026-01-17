@@ -1,0 +1,212 @@
+bgm:07. 表裏ー体.mp3;
+changeBg:bg00837.webp -next;
+changeFigure:bg/inner13.webp -id=bg7 -transform={"scale":{"x":1.5,"y":1.5},"alpha":0} -next;
+:千早爱音原本并不喜欢夏天。
+setTransform:{"position":{"y":-500}} -target=bg-main -duration=850 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -transform={"position":{"x":500,"y":0},"scale":{"x":0.73,"y":0.73}} -next -motion=nf02_masking -expression=smile03;
+:不过，她也不算是讨厌夏天……或者说，她并没有“特别讨厌某个季节”这种说法。 -fontSize=default;
+changeBg:bigben.webp -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=sad02_sk -expression=default;
+:硬要说的话，异国那片总是灰沉沉的、感觉空气质量不太好的天空，比起任何一个季节都让她感到不适。 -fontSize=default;
+changeBg:none -next;
+;changeBg:a台场/inner11.webp -next -transform={"position":{"x":100,"y":350},"scale":{"x":1.6,"y":1.6},"blur":0};
+setTransform:{"scale":{"x":1.5,"y":1.5},"alpha":1} -target=bg7 -duration=0 -next;
+changeFigure:manga/goldfish.webp -id=fish -transform={"position":{"x":-150,"y":800},"scale":{"x":0.25,"y":0.25},"rotation":0.2} -next;
+changeFigure:341_mashiro/model.json -id=sk -transform={"position":{"x":-130},"scale":{"x":0.73,"y":0.73}} -next -motion=angry01 -expression=shame02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nnf_left01;
+changeFigure:bg/inner13f.webp -id=bg7f -transform={"scale":{"x":1.5,"y":1.5}} -next;
+:而现在，她稍微有点喜欢夏天了。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf04 -expression=smile04;
+changeFigure:341_mashiro/model.json -id=sk -next -expression=shame01;
+爱音:……祥祥，破戒了呢。
+祥子:……。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=smile02_sk -expression=turnL;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nf_left01_aya -expression=shame01;
+setTransform:{"position":{"x":470},"scale":{"x":0.73,"y":0.73}} -target=an -duration=0 -next;
+setTransform:{"position":{"x":-200,"y":800},"scale":{"x":0.25,"y":0.25},"rotation":0.2} -target=fish -duration=0 -next;
+爱音:祥祥的忍耐力好弱。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf_left01_sk -expression=smile04;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=zb_serious01_anon -expression=sigh01;
+setTransform:{"position":{"x":370},"scale":{"x":0.73,"y":0.73}} -target=an -duration=0 -next;
+setTransform:{"position":{"x":-160,"y":800},"scale":{"x":0.25,"y":0.25},"rotation":0.2} -target=fish -duration=0 -next;
+祥子:……多嘴。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf_left01_sk -expression=smile02_sk;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nf04 -expression=shame01R;
+;setTransform:{"position":{"x":300,"y":480},"scale":{"x":1.8,"y":1.8},"blur":0} -target=bg-main -duration=0 -next;
+setTransform:{"position":{"x":-440,"y":-50},"scale":{"x":0.83,"y":0.83}} -target=sk -duration=950 -next;
+setTransform:{"position":{"x":70,"y":-50},"scale":{"x":0.83,"y":0.83}} -target=an -duration=950 -next;
+setTransform:{"position":{"x":190,"y":850},"scale":{"x":0.25,"y":0.25},"rotation":0.2} -target=fish -duration=950 -next;
+setTransform:{"position":{"x":-200,"y":-50},"scale":{"x":1.8,"y":1.8},"alpha":1,"blur":4} -target=bg7 -duration=950 -next;
+setTransform:{"position":{"x":-200,"y":-50},"scale":{"x":1.8,"y":1.8},"alpha":1,"blur":4} -target=bg7f -duration=950 -next;
+:顺着扶手电梯向下，丰川祥子脸颊微红地别过了视线： -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf04_ako -expression=smile04;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=smile02_mu -expression=shame01;
+祥子:只是因为天气太热了而已。 -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nf01_mu -expression=shame01;
+;setTransform:{"position":{"x":300,"y":480},"scale":{"x":1.8,"y":1.8},"blur":0,"alpha":0} -target=bg-main -duration=0 -next;
+setTransform:{"position":{"x":130},"scale":{"x":0.83,"y":0.83},"alpha":1} -target=sk -duration=0 -next;
+setTransform:{"position":{"x":670},"scale":{"x":0.83,"y":0.83},"alpha":0} -target=an -duration=0 -next;
+setTransform:{"position":{"x":190,"y":850},"scale":{"x":0.25,"y":0.25},"rotation":0.2,"alpha":0} -target=fish -duration=0 -next;
+setTransform:{"position":{"x":0,"y":-50},"scale":{"x":1.8,"y":1.8},"alpha":0,"blur":4} -target=bg7 -duration=0 -next;
+setTransform:{"position":{"x":0,"y":-50},"scale":{"x":1.8,"y":1.8},"alpha":0,"blur":4} -target=bg7f -duration=0 -next;
+:所以，自己的脑子才会变得不太灵光…… -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=zb_kime01 -expression=smile05;
+:一定是这样没错。 -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf05_mu -expression=smile04;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nf_right01_masking -expression=shame01;
+;setTransform:{"position":{"x":200,"y":480},"scale":{"x":1.8,"y":1.8},"blur":0,"alpha":1} -target=bg-main -duration=0 -next;
+setTransform:{"position":{"x":30},"scale":{"x":0.83,"y":0.83},"alpha":1} -target=sk -duration=0 -next;
+setTransform:{"position":{"x":570},"scale":{"x":0.83,"y":0.83},"alpha":1} -target=an -duration=0 -next;
+setTransform:{"position":{"x":90,"y":850},"scale":{"x":0.25,"y":0.25},"rotation":0.2,"alpha":1} -target=fish -duration=0 -next;
+setTransform:{"position":{"x":0,"y":-50},"scale":{"x":1.8,"y":1.8},"alpha":1,"blur":4} -target=bg7 -duration=0 -next;
+setTransform:{"position":{"x":0,"y":-50},"scale":{"x":1.8,"y":1.8},"alpha":1,"blur":4} -target=bg7f -duration=0 -next;
+爱音:是~是~
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf04 -expression=shame01_down;
+;setTransform:{"position":{"x":200,"y":480},"scale":{"x":1.8,"y":1.8},"blur":0,"alpha":0} -target=bg-main -duration=0 -next;
+setTransform:{"position":{"x":30},"scale":{"x":0.83,"y":0.83},"alpha":0} -target=sk -duration=0 -next;
+setTransform:{"position":{"x":570},"scale":{"x":0.83,"y":0.83},"alpha":1} -target=an -duration=0 -next;
+setTransform:{"position":{"x":90,"y":850},"scale":{"x":0.25,"y":0.25},"rotation":0.2,"alpha":0} -target=fish -duration=0 -next;
+setTransform:{"position":{"x":0,"y":-50},"scale":{"x":1.8,"y":1.8},"alpha":0,"blur":4} -target=bg7 -duration=0 -next;
+setTransform:{"position":{"x":0,"y":-50},"scale":{"x":1.8,"y":1.8},"alpha":0,"blur":4} -target=bg7f -duration=0 -next;
+:——千早爱音喜欢这样的丰川祥子。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=eeto01_ako -expression=shame01;
+:也许这就是所谓的“反差萌”吧：看似是高岭之花、生人勿近的蓝发少女，唯有在自己面前会展露出最为软弱又可爱的一面…… -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf02 -expression=shame01_down;
+:这种“瞒着全世界独占了某种美好事物”的感觉，非常容易令人上瘾。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=zb_serious02 -expression=shame01_down;
+:不行不行，自己可不能太沉沦——
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=kime01_sk -expression=smile03;
+:千早爱音深呼吸了一口气：她倒是没有丰川祥子肩上背负着的多条人命……呸，是多人的人生所带来的压力。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf01 -expression=smile03;
+:她能承担的人生只有她自己的， -notend;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -expression=smile06_sk;
+:但她愿意为了祥子的幸福而努力。 -concat;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf03_sk -expression=shame01_down;
+:而在大庭广众下控制不住自己的欲望什么的，显然不是通往幸福的捷径，不如说还会让她们手牵着手一起社会性死亡。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=angry01 -expression=smile05_sk;
+:因此，相比起在某些地方特别坚强但在欲望和爱情这方面意志力极其薄弱的丰川祥子小姐，爱音觉得，还是由自己掌控方向盘和刹车比较合适。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf_left01 -expression=shame01_down;
+:——否则的话，这车指不定一个不留神就开往青少年不宜的秋名山去了。
+;setTransform:{"position":{"x":200,"y":480},"scale":{"x":1.8,"y":1.8},"blur":0,"alpha":1} -target=bg-main -duration=0 -next;
+setTransform:{"position":{"x":30},"scale":{"x":0.83,"y":0.83},"alpha":1} -target=sk -duration=0 -next;
+setTransform:{"position":{"x":570},"scale":{"x":0.83,"y":0.83},"alpha":1} -target=an -duration=0 -next;
+setTransform:{"position":{"x":90,"y":850},"scale":{"x":0.25,"y":0.25},"rotation":0.2,"alpha":1} -target=fish -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf_left01 -expression=smile04;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nnf03 -expression=thinking01;
+setTransform:{"position":{"x":0,"y":-50},"scale":{"x":1.8,"y":1.8},"alpha":1,"blur":4} -target=bg7 -duration=0 -next;
+setTransform:{"position":{"x":0,"y":-50},"scale":{"x":1.8,"y":1.8},"alpha":1,"blur":4} -target=bg7f -duration=0 -next;
+爱音:那么，祥祥接下来打算带我去哪儿呢~？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -expression=thinking01_sk;
+setTransform:{"position":{"x":-70,"y":-50},"scale":{"x":0.83,"y":0.83},"alpha":1} -target=sk -duration=0 -next;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nf03 -expression=smile03;
+祥子:……。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf03 -expression=smile03;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=kime01 -expression=smile05;
+;setTransform:{"position":{"x":200,"y":360},"scale":{"x":2.2,"y":2.2},"blur":10,"alpha":1} -target=bg-main -duration=850 -next;
+setTransform:{"position":{"x":-240,"y":-660},"scale":{"x":0.94,"y":0.94},"alpha":1} -target=sk -duration=850 -next;
+setTransform:{"position":{"x":620,"y":-660},"scale":{"x":0.94,"y":0.94},"alpha":1} -target=an -duration=850 -next;
+setTransform:{"position":{"x":120,"y":650},"scale":{"x":0.3,"y":0.3},"alpha":1,"rotation":0.2} -target=fish -duration=850 -next;
+setTransform:{"position":{"x":0,"y":-450},"scale":{"x":2,"y":2},"alpha":1,"blur":9} -target=bg7 -duration=0 -next;
+setTransform:{"position":{"x":0,"y":-450},"scale":{"x":2,"y":2},"alpha":1,"blur":9} -target=bg7f -duration=0 -next;
+:祥子低头看了眼自己的手——此刻的她和爱音并没有手牵着手，而是一人提着一端绑在金鱼水袋上的绳结：
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf03 -expression=smile04;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=kime01 -expression=sigh02;
+changeFigure:manga/goldfish.webp -id=fish2 -transform={"position":{"x":-350,"y":320},"scale":{"x":0.25,"y":0.25},"alpha":0,"rotation":-0.07} -next;
+
+祥子:……我有点想把这两条金鱼随便找个地方放下。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=smile04 -expression=smile04;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=sigh02 -expression=sigh02;
+;setTransform:{"position":{"x":200,"y":560},"scale":{"x":2.2,"y":2.2},"blur":10,"alpha":1} -target=bg-main -duration=850 -next;
+setTransform:{"position":{"x":-240,"y":-160},"scale":{"x":0.94,"y":0.94},"alpha":1} -target=sk -duration=850 -next;
+setTransform:{"position":{"x":350,"y":-160},"scale":{"x":0.94,"y":0.94},"alpha":1} -target=an -duration=850 -next;
+setTransform:{"position":{"x":120,"y":650},"scale":{"x":0.28,"y":0.28},"alpha":0,"rotation":0.2} -target=fish -duration=0 -next;
+setTransform:{"position":{"x":-350,"y":350},"scale":{"x":0.3,"y":0.3},"rotation":-0.02} -target=fish2 -duration=850 -next;
+setTransform:{"position":{"x":0,"y":-250},"scale":{"x":2,"y":2},"alpha":1,"blur":9} -target=bg7 -duration=0 -next;
+setTransform:{"position":{"x":0,"y":-250},"scale":{"x":2,"y":2},"alpha":1,"blur":9} -target=bg7f -duration=0 -next;
+爱音:诶，这不是祥祥重要的战利品么？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=smile04_mu -expression=smile04;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nf01 -expression=sigh02;
+changeFigure:none -id=fish -next;
+setTransform:{"position":{"x":-350,"y":700},"scale":{"x":0.3,"y":0.3},"rotation":0} -target=fish2 -duration=0 -next;
+祥子:我还没幼稚到需要提着自己的战利品四处耀武扬威的程度。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nnf03_mu -expression=smile03;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=angry01_kokoro -expression=smile05;
+setTransform:{"position":{"x":-620,"y":960},"scale":{"x":0.3,"y":0.3},"rotation":0.18} -target=fish2 -duration=0 -next;
+:——虽然这是自己战胜爱音（？）的重要凭证，但说实话，提着这玩意儿逛街会影响她和爱音牵手，怎么想怎么亏。
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nnf03 -expression=thinking01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -expression=thinking02;
+爱音:那，干脆找个储物柜放着……？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf_left01_ako -expression=smile02;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=thinking01 -expression=default;
+祥子:也行——储物柜的话，我记得是在……
+changeFigure:341_mashiro/model.json -id=sk -next -expression=sigh02;
+changeFigure:bg/shelf.jpg -id=shelf -transform={"position":{"x":-700,"y":100},"scale":{"x":0.75,"y":0.75},"alpha":0} -next;
+:祥子仔细回忆着旅游指南的内容：这一层虽然也有储物柜，但距离她们的目前所在地倒是还有一段距离，想绕过去还怪麻烦的。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nod01_kaoru -expression=smile04;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nf02 -expression=smile02;
+setTransform:{"position":{"x":-300,"y":-300},"scale":{"x":0.75,"y":0.75},"alpha":0.7} -target=shelf -duration=0 -next;
+祥子:……一楼的话，扶手电梯旁边好像就有一列储物柜。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nod01_kaoru -expression=smile02;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=smile06 -expression=default;
+changeFigure:none -id=shelf -next;
+爱音:啊，我也记得有——
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf02_mu -expression=smile04;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nf_right01 -expression=surprised;
+爱音:那我们就从这边下去吧~ -concat;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nnf04_mu -expression=smile04;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=sigh02 -expression=R_boby;
+祥子:别闹，直接坐升降机下去就好。
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nf01_rui -expression=smile03;
+:一层一层地坐扶手电梯下去也太麻烦了，这不符合丰川祥子的效率美学。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=smile04 -expression=smile04;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nf_left01 -expression=smile02;
+爱音:好好好~听祥祥的~
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nnf_right01 -expression=smile04;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nf_right01_aya -expression=smile02;
+;setTransform:{"position":{"x":500,"y":560},"scale":{"x":2.2,"y":2.2},"blur":10,"alpha":0} -target=bg-main -duration=850 -next;
+setTransform:{"position":{"x":1470,"y":-60},"scale":{"x":0.88,"y":0.88},"alpha":0} -target=sk -duration=850 -next;
+setTransform:{"position":{"x":1140,"y":-60},"scale":{"x":0.88,"y":0.88},"alpha":0} -target=an -duration=850 -next;
+setTransform:{"position":{"x":-400,"y":-150},"scale":{"x":1.8,"y":1.8},"alpha":1,"blur":4} -target=bg7 -duration=850 -next;
+setTransform:{"position":{"x":-400,"y":-150},"scale":{"x":1.8,"y":1.8},"alpha":1,"blur":4} -target=bg7f -duration=850 -next;
+:二人没有继续通过扶手电梯从6/F下到5/F，而是转身走向了角落的升降机。
+changeFigure:none -id=an -next;
+changeFigure:none -id=sk -next;
+changeFigure:none -id=bg7 -next;
+changeFigure:none -id=bg7f -next;
+changeBg:elevator.webp -next -transform={"position":{"x":1200},"scale":{"x":2.5,"y":2.5}};
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -transform={"position":{"x":-200},"scale":{"x":0.83,"y":0.83}} -next -motion=smile01 -expression=turnR10;
+changeFigure:341_mashiro/model.json -id=sk2 -transform={"position":{"x":450},"scale":{"x":0.83,"y":0.83}} -next -motion=surprised01 -expression=L_Boby;
+爱音:接下来要不要去隔壁看看呢，我记得台场这里还有高达来着——
+changeBg:elevator (2).webp -next -transform={"position":{"x":1200},"scale":{"x":2.5,"y":2.5}};
+playEffect:634327__uniuniversal__elevator_dingdong.mp3 -volume=40;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=nnf_right01 -expression=thinking01_sk;
+changeFigure:341_mashiro/model.json -id=sk2 -next -motion=thinking02 -expression=thinking01;
+:叮。|升降机门打开了。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=nf_right01_masking -expression=smile04;
+changeFigure:341_mashiro/model.json -id=sk2 -next -motion=nf_left01 -expression=thinking01;
+祥子:高达……？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=smile01_sk -expression=smile04;
+setTransform:{"position":{"x":-100,"y":40},"scale":{"x":0.8,"y":0.8},"alpha":0} -target=an2 -duration=1100 -next;
+setTransform:{"position":{"x":400,"y":40},"scale":{"x":0.8,"y":0.8},"alpha":0} -target=sk2 -duration=1100 -next;
+爱音:诶，祥祥不知道么？那个也算是台场的知名地标哦——
+:升降机门关上了，连带着少女们的交谈声一起吞没……
+: -notend -fontSize=default;
+choose:【千早爱音和丰川祥子的目前所在地：6/F→G/F】:选择场景文件;
+setTransform:{"position":{"x":-600},"scale":{"x":2.7,"y":2.7}} -target=bg-main -duration=800 -next;
+playEffect:634327__uniuniversal__elevator_dingdong.mp3 -volume=40;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=syy -transform={"position":{"x":500,"y":70},"scale":{"x":0.75,"y":0.75},"alpha":0} -next;
+:——叮。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=syy -next -motion=smile01 -expression=smile02;
+setTransform:{"position":{"x":500},"scale":{"x":0.83,"y":0.83},"alpha":1} -target=syy -duration=900 -next;
+:下一秒，【旁边的升降机门】打开了。
+: -notend -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=syy -next -motion=nnf_right01 -expression=smile01;
+setTransform:{"position":{"x":1850},"scale":{"x":0.83,"y":0.83}} -target=syy -duration=1400 -next;
+choose:【长崎素世的目前所在地：G/F→6/F】:选择场景文件;
+changeFigure:none -id=an2 -next;
+changeFigure:none -id=sk2 -next;
+changeFigure:none -id=syy -next;
+changeBg:none -next;
+bgm:none;
+:………………………………
+changeScene:3_01/soyo_summer.txt

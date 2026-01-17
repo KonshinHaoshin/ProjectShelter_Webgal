@@ -1,0 +1,102 @@
+:………………………………
+changeBg:bg00008.webp -next;
+bgm:22.bitter_thoughts.mp3 -volume=100 -enter=1200;
+:——人类有三大欲望。
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -left -transform={"scale":{"x":0.9,"y":0.9}} -next -motion=sad03 -expression=default;
+:而想要成为人类的高松灯，却有着三个烦恼。
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -left -next -motion=nnf_right01 -expression=sad02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -transform={"position":{"x":100},"scale":{"x":0.9,"y":0.9},"alpha":0.7} -next -motion=nf_right01 -expression=shame01;
+灯:小爱……
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=nnf04;
+:第一个烦恼，是她重要的挚友千早爱音——最近的爱音总是一副魂不守舍的样子，虽然在乐队里的表现倒是越来越好，但高松灯的电波还是感应到了一股不自然感。
+changeFigure:none -right -next;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -left -next -motion=sad01 -expression=default;
+灯:……祥子……
+changeBg:none -next;
+changeBg:bg00905.webp -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_school_summer-2023_rip/model.json -transform={"position":{"x":-120}} -next -motion=angry04 -expression=default;
+changeFigure:none -left -next;
+:第二个烦恼，是她的重要之人丰川祥子——那一天没能送出的笔记簿依旧是高松灯心中无法消解的遗憾，她想要传达自己的心意、也想要得到祥子的回应。
+changeFigure:none -next;
+changeBg:none -next;
+:然后，是第三个烦恼——changeBg:bg00008.webp  -next;
+changeFigure:800401/model.model3.json -right -id=pass1 -transform={"position":{"x":-1950}} -next -motion=Motion;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -left -transform={"scale":{"x":0.9,"y":0.9}} -next -motion=nnf_left01 -expression=thinking01;
+:“呐呐，听说了么？”
+setTransform:{"position":{"x":-2200}} -target=pass1 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -left -next -motion=thinking02 -expression=default;
+:——她的第一个烦恼，和她的第二个烦恼，好像是在谈恋爱的样子。
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -left -next -motion=sigh02 -expression=sad02;
+setTransform:{"position":{"y":100},"scale":{"x":0.9,"y":0.9}} -target=fig-left -duration=0 -next;
+:正如夏天的团子虫不知冬日的严寒，高松灯自然也不太懂什么是“恋爱”。
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -left -next -motion=nnf03 -expression=serious01;
+:她只是听到其他学生在讨论“一个粉头发的女孩子和蓝头发的女孩子在教室里接吻了”这件事，又想起了那天看到的、亲密无间地手牵着手的粉蓝二人组，
+:然后回家上网搜索了“接吻代表着什么？”而已。
+changeBg:Tomoli_House_Night_01.webp -next;
+changeFigure:mygo_avemujica_v6/tomoli/036_casual-2023_rip/model.json -transform={"scale":{"x":0.9,"y":0.9}} -next -motion=thinking01 -expression=default;
+changeFigure:none -left -next;
+灯:接吻……亲密之人……表达爱情……
+:高松灯似懂非懂地阅读着属于人类的文字，却无法理解当中蕴含的情感——对于她来说，这些事情都太早了。
+changeBg:bg00405.webp -next -transform={"position":{"y":-200}};
+changeFigure:none -next;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -right -id=tmr -transform={"position":{"y":100},"scale":{"x":0.9,"y":0.9}} -next -motion=nf_left01 -expression=thinking01;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -id=an -transform={"position":{"y":100},"scale":{"x":0.9,"y":0.9}} -next -motion=nf_left01 -expression=shame01;
+灯:这么说来，爱音同学也是粉头发的呢——
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -id=an -next -motion=nf01 -expression=shame02;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -right -id=tmr -next -motion=thinking01 -expression=default;
+爱音:哎哎，跟我没关系啦~
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -right -id=tmr -next -motion=nf_left01 -expression=thinking01;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -id=an -next -motion=shame02 -expression=thinking02;
+:——但是，为什么呢？|为什么，小爱要说这跟自己无关呢？ -fontSize=default;
+changeBg:none -next;
+changeFigure:none -left -id=an -next;
+:一旁的高松灯眨了眨眼，侧了侧脑袋：难道说，接吻的其实并不是小爱和祥子？
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmr -next -motion=nnf04 -expression=thinking01;
+:也就是说，小爱和祥子并没有在谈恋爱……是这样么？
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmr -next -motion=nf01 -expression=turn_Down_look;
+:但是，如果不是在谈恋爱的话，千早爱音和丰川祥子的关系为什么会变得那么亲密呢？|高松灯看着自己的手，她也跟爱音牵过小手，但总觉得……【某种感觉】、不太一样。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmr -next -motion=nf_left01 -expression=thinking02;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -id=an -transform={"position":{"y":100},"scale":{"x":0.9,"y":0.9},"alpha":0.7} -next -motion=zb_smile02 -expression=default;
+:——【跟自己牵手的小爱】，以及【跟祥子手牵着手的小爱】，有哪里不太一样。
+changeFigure:none -id=an -next;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -right -id=tmr -next -motion=sad03 -expression=default;
+灯:……搞不懂。
+changeFigure:none -id=tmr -next;
+:对于可爱的小企鹅来说，这些问题显然已经严重超纲了。
+changeBg:bg00372.webp -next;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -transform={"position":{"x":300},"scale":{"x":0.75,"y":0.75}} -next -motion=sad02 -expression=default;
+:她并不觉得自己的挚友与……【曾经的重要之人】关系亲近是什么坏事。只是，不知为何，她的心底有一种奇妙的、很难用言语去形容的感觉。
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -next -motion=nnf_right01;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -id=ann_p -transform={"position":{"x":500,"y":100},"scale":{"x":0.75,"y":0.75},"alpha":0.7} -next -motion=zb_nnf02 -expression=smile03;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -right -id=skk_p -transform={"position":{"x":1000},"scale":{"x":0.75,"y":0.75},"alpha":0.7,"rotation":0.4} -next -motion=zb_shame02 -expression=sigh01;
+:……为什么小爱就可以接近祥子呢？
+changeFigure:none -id=ann_p -next;
+changeFigure:none -id=skk_p -next;
+setTransform:{"position":{"x":300},"scale":{"x":0.75,"y":0.75},"alpha":1} -target=fig-center -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -id=skk_p2 -transform={"position":{"x":-175,"y":50},"scale":{"x":0.85,"y":0.85},"alpha":0.7,"rotation":-0.1} -next -motion=zb_cry03 -expression=sigh01;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -id=ann_p2 -transform={"position":{"x":-50},"scale":{"x":0.9,"y":0.9},"alpha":0.7} -next -motion=zb_smile03 -expression=default;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -next -motion=nf_left01 -expression=turn_Down_look;
+:……为什么祥子也能够亲近小爱呢？
+setTransform:{"position":{"x":-300,"y":25},"scale":{"x":0.95,"y":0.95},"alpha":0} -target=ann_p2 -duration=0 -next;
+setTransform:{"position":{"x":-350,"y":100},"scale":{"x":0.88,"y":0.88},"alpha":0,"rotation":-0.1} -target=skk_p2 -duration=0 -next;
+:遗憾、又或者说幸运的是，名为高松灯的少女内心的土壤并不足以支撑这份有些阴暗的情绪生根发芽。
+changeBg:music_room.webp -next -transform={"position":{"x":100},"scale":{"x":1.1,"y":1.1}};
+changeFigure:none -next;
+changeFigure:bright_orange.webp -id=orange -transform={"scale":{"x":2},"alpha":0.25} -next;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmr_orange -transform={"position":{"x":450,"y":200},"scale":{"x":0.75,"y":0.75}} -next -motion=nf_left01 -expression=thinking02;
+changeFigure:none -id=skk_p2 -next;
+changeFigure:none -id=ann_p2 -next;
+:她只是带着一丝好奇与不解，来到了那天的部活室门前——里面静悄悄的，没有任何声音。
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmr_orange -next -motion=nf01 -expression=turn_Down_look;
+:蓝色的身影不在里面，钢琴声也没有响起。
+changeBg:bg00011.webp -next;
+changeFigure:none -id=orange -next;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tmr -transform={"position":{"y":100},"scale":{"x":0.75,"y":0.75}} -next -motion=nf_right01 -expression=sad03;
+changeFigure:none -id=tmr_orange -next;
+:粉色的身影今天还有【别的事情】要做，放学后很早就离开了学校——夕阳西下，走到校门前的高松灯回过头来、看到的却是自己那被拉得长长的影子。
+changeBg:none -next;
+changeFigure: -id=tmr -next;
+:——有什么事情，正在悄然改变。|变得熟悉、而陌生。 -fontSize=default;
+bgm:none -enter=1200;
+:………………………………
+changeScene:2_05/confused_mustumin.txt

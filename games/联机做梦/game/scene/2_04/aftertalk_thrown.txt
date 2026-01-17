@@ -1,0 +1,38 @@
+changeFigure:lane1.webp -id=lane1 -transform={"position":{"x":460,"y":-600},"scale":{"x":0.7,"y":0.7},"alpha":0} -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon2 -transform={"position":{"x":430,"y":-200},"scale":{"x":0.4,"y":0.4},"alpha":0} -next -motion=nnf_left01 -expression=smile01;
+changeFigure:lane2.webp -id=lane2 -transform={"position":{"x":-600,"y":300},"scale":{"x":0.6,"y":0.6},"alpha":0} -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sakiko -transform={"position":{"x":1450,"y":-200},"scale":{"x":0.4,"y":0.4},"alpha":0} -next -motion=idle01 -expression=serious02;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -transform={"position":{"x":-100,"y":600},"scale":{"x":0.5,"y":0.5},"alpha":0} -next -motion=nf_left01 -expression=smile01;
+changeFigure:1_A.webp -id=1_A -transform={"position":{"x":-850,"y":-1150},"scale":{"x":0.4,"y":0.4},"alpha":0} -next;
+changeFigure:black.webp -id=black1 -transform={"position":{"x":600,"y":180},"scale":{"x":0.4,"y":0.4},"alpha":0} -next;
+changeFigure:bg00069.webp -id=lane3 -transform={"position":{"x":720,"y":400},"scale":{"x":0.8,"y":0.75},"alpha":0} -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sakiko2 -transform={"position":{"x":1500,"y":600},"scale":{"x":0.5,"y":0.5},"alpha":0} -next -motion=idle01_rui -expression=serious02;
+changeFigure:white.webp -id=white1 -transform={"position":{"y":-120},"scale":{"x":2,"y":0.03},"alpha":0} -next;changeFigure:white.webp -id==white2 -transform={"position":{"x":-320,"y":-450},"scale":{"x":0.03,"y":0.45},"alpha":0} -nextchangeFigure:white.webp -id=d=white3 -transform={"position":{"x":170,"y":310},"scale":{"x":0.03,"y":0.62},"alpha":0} -next;
+OvO:——呐呐，听说了么。
+setTransform:{"position":{"x":-850,"y":-1150},"scale":{"x":0.4,"y":0.4},"alpha":1} -target=1_A -duration=0 -next;
+setTransform:{"position":{"y":-120},"scale":{"x":2,"y":0.03},"alpha":1} -target=white1 -duration=0 -next;
+setTransform:{"position":{"x":-320,"y":-450},"scale":{"x":0.03,"y":0.45},"alpha":1} -target=white2 -duration=0 -next;
+setTransform:{"position":{"x":170,"y":310},"scale":{"x":0.03,"y":0.62},"alpha":1} -target=white3 -duration=0 -next;
+setTransform:{"position":{"x":1500,"y":600},"scale":{"x":0.5,"y":0.5},"alpha":1} -target=sakiko2 -duration=0 -next;
+setTransform:{"position":{"x":720,"y":400},"scale":{"x":0.8,"y":0.75},"alpha":1} -target=lane3 -duration=0;
+:蓝发双马尾的少女，板着脸走在走廊上。
+setTransform:{"position":{"x":-600,"y":300},"scale":{"x":0.6,"y":0.6},"alpha":1} -target=lane2 -duration=0 -next;
+setTransform:{"position":{"x":-100,"y":600},"scale":{"x":0.5,"y":0.5},"alpha":1} -target=anon -duration=0 -next;
+O_o:——听说什么？
+:粉色长发的少女，在教室门外跟几位学生欢声笑语地交谈着。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=anon -next -motion=surprised01_rui -expression=smile04;
+OwO:——我们学校有两个女孩子……在吹奏部的部活室接吻了哦！
+:窗外的阳光洒进了走廊，蓝发的少女保持着固定的步伐与节奏、交错的阴晴没能动摇她那紧绷的表情。
+O_o:——呜哇，玩这么大……是谁是谁？
+:或许是聊到了什么有趣的话题，粉发的少女笑得咧开嘴角、露出了那可爱的小虎牙。
+OvO:——不知道，据目击者称是不认识的孩子，但其中一个经常在那边弹琴……
+:蓝发的少女走向了自己的教室门口。
+OwO:——哎，那她们有什么特征么？
+:粉发的少女突然想起了什么，跟自己的友人们挥了挥手、转过身来。
+OvO:——唔，好像一个是粉头发、一个是蓝头发的？然后有个好像留着双马尾之类的发型……
+:转身的少女与刚要走进教室的少女，擦肩而过——二人之间，没有任何的视线接触。
+OwO:哎，那不就是——
+:——就像是，什么也没有发生过一样。
+:【千早爱音禁欲天数：1】|【丰川祥子禁欲天数：1】
+:………………………………
+changeScene:aftertalk2.txt

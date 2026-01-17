@@ -1,0 +1,132 @@
+changeFigure:full_grey.webp -id=greyy -transform={"scale":{"x":2},"alpha":0.95} -next;
+changeFigure:darker_blue.webp -id=light -transform={"scale":{"x":2},"alpha":0.4} -next;changeFigure:darker_blue.webp -id==dd_blue -transform={"scale":{"x":2},"alpha":0} -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=cry03 -expression=surprised01;
+祥子:哎、哎？
+changeFigure:none -id=greyy -next;
+changeFigure:none -id=light -next;
+changeBg:SakiKo_Home_Out_Night_solo.webp -next -transform={"scale":{"x":2,"y":2},"rotation":-1.6,"blur":25};
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -transform={"position":{"x":1000,"y":2200},"scale":{"x":1.1,"y":1.1},"rotation":-1.6} -next -motion=kime02 -expression=smile04;
+爱音:不如说就应该逃跑才对——跟我来！
+setTransform:{"position":{"x":0,"y":-1800},"scale":{"x":2,"y":2},"alpha":0,"rotation":-1.6,"blur":30} -target=bg-main -duration=1100 -next;
+setTransform:{"position":{"x":1000,"y":2200},"scale":{"x":1.1,"y":1.1},"rotation":-1.6,"blur":10} -target=fig-center -duration=0 -next;
+祥子:等……
+changeFigure:none -next;
+:千早爱音，开始了奔跑。
+changeBg:bg00723.webp -next -transform={"position":{"y":-400}};
+祥子:……等等，爱音！爱音同学！？
+setTransform:{"position":{"y":-300},"scale":{"x":1.3,"y":1.3}} -target=bg-main -duration=0 -next;
+:朝着大海、毅然决然地开始奔跑——
+changeBg:none -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -next -motion=angry04 -expression=smile04;
+爱音:不等你哦！
+bgm: -enter=1300;
+changeFigure:none -next;
+:——然后，二人一起跳入海中。
+changeBg:00008-363455550.webp -next;
+setTransform:{"scale":{"x":2},"alpha":0.5} -target=dd_blue -duration=0 -next;
+:噗通！
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -transform={"position":{"y":200},"scale":{"x":0.8,"y":0.8}} -next -motion=nf04 -expression=smile01;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -right -transform={"position":{"x":50,"y":200},"scale":{"x":0.8,"y":0.8}} -next -motion=cry04 -expression=sigh01;
+bgm:21.moon_undeerwater.mp3 -enter=1300;
+:落水声之后、是沉沦。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -next -expression=R_boby;
+:祥子害怕地闭上了眼睛，却并没有感觉到预想中的呼吸困难。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -right -next -expression=surprised01;
+setTransform:{"scale":{"x":2},"alpha":0} -target=dd_blue -duration=0 -next;
+changeBg:bright2.webp -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -next -expression=smile04;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -right -next -motion=surprised02 -expression=surprised01;
+:幽暗深邃的大海突然亮起了柔和的光芒、吸引着她睁开眼睛——
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -right -next -motion=surprised01 -expression=L_Boby;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -next -motion=nnf_right01;
+祥子:诶？
+:——如梦似幻。|丰川祥子第一反应就是这个词语 -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -next -motion=nf03 -expression=smile04;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -right -next -motion=nnf02 -expression=R_Boby;
+:成群的鱼影从她们头顶不远处游过、将从水面上洒进来的阳光分割成了温暖的碎片；散发着梦幻光芒的水母在她们附近漂浮着，不知为何，旁边还有一对结伴的企鹅游过…… -fontSize=medium;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -right -next -expression=surprised01;
+:企鹅？为什么这里会有企鹅？ -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -next -motion=kime01 -expression=default;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -right -next -motion=nf_left01_rui -expression=thinking01;
+爱音:果然，梦就应该是这样呢！
+:——千早爱音笑着说道。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -right -next -motion=thinking02;
+祥子:梦……
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -next -motion=nnf_right01 -expression=smile04;
+:……对了，这是梦。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -right -next -expression=smile03;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -next -motion=nnf02;
+:所以，没有那么多“为什么”。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -right -next -motion=nf_left01 -expression=thinking01;
+:蓝发的少女抬眸，发现爱音并没有跟刚刚一样将她搂入怀中，而是放松着身体、让自己在水中随意浮沉。
+changeFigure:none -left -next;
+changeBg:none -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -right -next -motion=thinking02;
+:这不像是丰川祥子会做的梦。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -right -next -motion=nf_left01 -expression=L_Boby;
+:祥子觉得，这更像是“千早爱音”——现实里那个活泼的粉发少女——会做的梦。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -right -next -expression=smile06;
+:很梦幻，像是童话一样，一点也不觉得难受。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -right -next -motion=zb_nf03;
+:……像是、太阳一样。changeBg:bright2.webp  -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -transform={"position":{"y":200},"scale":{"x":0.8,"y":0.8}} -next -motion=kime02 -expression=default;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -right -next -motion=nf_left01 -expression=surprised01_rui;
+爱音:祥祥，我想通了。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -next -motion=smile03;
+祥子:……想通了？
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -next -motion=nf01 -expression=serious02;
+爱音:我果然，在害怕窥探到祥祥的秘密。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -right -next -motion=nf02_rui -expression=thinking02;
+:……害怕、窥探到秘密？
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -right -next -motion=nf_left01 -expression=thinking01;
+:祥子皱了皱眉，她没能理解为什么“梦中的千早爱音”会突然说这种话。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -next -motion=nnf_right01 -expression=smile03;
+爱音:因为如果是以前的我，肯定也不愿意被别人知道自己无法启齿的过往……|哎，说什么‘以前’，现在的我其实也不太愿意这么做啦。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -next -expression=thinking02;
+:果然，梦都是潜意识的投射呢——|千早爱音这么自言自语道。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -right -next -expression=surprised02;
+祥子:……爱音？
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -left -next -motion=smile04 -expression=smile04;
+爱音:所以呢，我决定了——在我下定决心追求祥祥、拉近距离之前，先让我在梦里预演一下吧。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -right -next -motion=surprised02;
+:——预演？
+changeBg:none -next;
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+:潮水上涌，大量的泡泡占据了祥子的视野。她伸出手、却没能捕捉到那抹模糊的粉色身影——
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=serious01 -expression=surprised01;
+祥子:爱音！
+changeFigure:none -next;
+:——重力，重新回归这个世界。
+changeBg:bigben.webp -next -transform={"blur":0};
+changeFigure:mygo_avemujica_v6/anon/anon_dundun/model.json -right -id=an -transform={"position":{"x":75},"alpha":0} -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=nnf04 -expression=surprised01;
+:气泡散去，丰川祥子穿过水幕、站在了地面上。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=nf_right01;
+:抬起头，天空仍是一片阴霾、隐约能看到有飞机穿过云层、消失在了天际线的尽头。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=surprised01 -expression=R_Boby;
+:噔——噔——
+:钟声响起，丰川祥子回头望去，看到了在哪里见过的桥梁、以及非常著名的钟楼——
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=thinking02 -expression=default;
+祥子:……伦敦？
+changeFigure:mygo_avemujica_v6/anon/anon_dundun/model.json -right -id=an -next -motion=wink01 -expression=default;
+setTransform:{"position":{"x":75},"alpha":1} -target=an -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=nnf_right01 -expression=surprised01;
+爱音:BINGO！不愧是祥祥~
+:粉发的少女，穿着【不属于羽丘】的校服，站在了祥子的背后。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=nnf_right01_rui -expression=thinking01;
+祥子:……诶。
+changeFigure:mygo_avemujica_v6/anon/anon_dundun/model.json -right -id=an -next -motion=nnf_right01 -expression=smile04;
+setTransform:{"position":{"x":1500}} -target=an -duration=900 -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=surprised01 -expression=default;
+setTransform:{"position":{"x":1750}} -target=sk -duration=900 -next;
+:前略，丰川祥子是一个聪明的女孩子，某种【可能性】在她的脑海里一闪而过——但她来不及捕捉那道转瞬即逝的光芒，就被爱音握住了手。
+changeBg:none -next;
+:多米诺骨牌，只剩最后一枚。
+:……………………………………
+:……………………
+bgm: -enter=2000;
+:…………
+:……
+changeScene:2_03/not_kissing_in_a_dream.txt -fontSize=default;

@@ -1,0 +1,327 @@
+changeFigure:manga/sk_hair_blue.webp -id=skblue -transform={"position":{"x":-570},"alpha":0} -next;
+changeFigure:manga/blu&pink.webp -id=anpink -transform={"position":{"x":1600,"y":-1000},"scale":{"x":1.7,"y":1.7},"alpha":0} -next;
+changeFigure:341_mashiro/model.json -id=sk -transform={"position":{"x":-200,"y":-150},"scale":{"x":0.9,"y":0.9}} -next -motion=smile02_soyo -expression=smile04;
+changeFigure:manga/happy1.webp -id=hp1 -transform={"position":{"x":600,"y":-1350},"scale":{"x":0.75,"y":0.75},"alpha":0,"blur":15} -next;
+changeFigure:manga/happy2.webp -id=hp2 -transform={"position":{"x":-650,"y":-1100},"scale":{"x":0.75,"y":0.75},"alpha":0,"blur":15} -next;
+changeFigure:manga/happy3.webp -id=hp3 -transform={"position":{"x":170,"y":-760},"scale":{"x":0.75,"y":0.75},"alpha":0,"blur":15} -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an3 -transform={"alpha":0} -next;
+changeFigure:341_mashiro/model.json -id=sk3_2 -transform={"position":{"x":-800},"alpha":0} -next;
+changeFigure:341_mashiro/model.json -id=sk3 -transform={"position":{"x":-600},"alpha":0} -next;
+
+:前戏之后，自然就是正戏……
+changeFigure:341_mashiro/model.json -id=sk -next -motion=zb_smile06 -expression=shame02_taki;
+:再怎么健全的约会环节，到了正戏部分都会变得不怎么健全、从“高松灯也能安心观看”的全年龄向发展成“高松灯绝对不能看”的好孩子不宜限制级。
+changeFigure:341_mashiro/model.json -id=sk -next -motion=zb_nf03 -expression=smile02;
+:……就跟她和千早爱音在梦中幽会的时候一样。
+changeBg:a台场/yuricon4_sunset_brighter.webp -next -transform={"position":{"x":2000,"y":-2500},"scale":{"x":4.5,"y":4.5},"alpha":1.1,"rotation":0};
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -transform={"position":{"x":300,"y":-150},"scale":{"x":0.9,"y":0.9}} -next -motion=zb_nnf_left01 -expression=shame01;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nnf_right01 -expression=smile06;
+setTransform:{"position":{"x":-150,"y":-150},"scale":{"x":0.9,"y":0.9}} -target=sk -duration=1900 -next;
+:而现在，她们之间的气氛值，已然突破天际，恨不得现在就把对方一把搂住、顷刻——
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf_right01_mu -expression=shame01_down;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=zb_surprised01 -expression=shame02;
+爱音:……祥祥，太近了啦。
+changeFigure:341_mashiro/model.json -id=sk -next -motion=kime01 -expression=smile03;
+setTransform:{"position":{"x":-175,"y":-150},"scale":{"x":0.9,"y":0.9}} -target=sk -duration=1700 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf_right01_sk;
+祥子:啊，抱歉。
+setTransform:{"position":{"x":300,"y":-150},"scale":{"x":0.9,"y":0.9},"alpha":0} -target=an -duration=0 -next;
+setTransform:{"position":{"x":2000,"y":-2500},"scale":{"x":4.5,"y":4.5},"alpha":0,"rotation":0} -target=bg-main -duration=0 -next;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=odoodo01 -expression=zb_surprised02;
+:差点又脸贴脸嘴对嘴了，隐忍，丰川祥子，隐忍！ -fontSize=default ;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nf01_aya -expression=shame02;
+: -fontSize=default -concat;
+setTransform:{"position":{"x":-175,"y":-150},"scale":{"x":0.9,"y":0.9},"alpha":0} -target=sk -duration=0 -next;
+changeBg:ansk_walking.webp -next -transform={"position":{"y":600},"alpha":1};
+:手牵着手、十指相扣——不再掩盖二人之间的关系、也不再隐藏自己的恋心，就像是在梦中一样，她们变得解放、放纵、纵容。
+changeBg:a台场/yuricon4_sunset_brighter.webp -next -transform={"position":{"x":2000,"y":-2500},"scale":{"x":4.5,"y":4.5},"alpha":0,"rotation":0};
+
+: -notend -fontSize=default;
+setTransform:{"position":{"x":600,"y":-1350},"scale":{"x":0.75,"y":0.75},"alpha":1,"blur":3} -target=hp1 -duration=850 -next;
+setTransform:{"position":{"x":-650,"y":-1100},"scale":{"x":0.75,"y":0.75},"alpha":1,"blur":3} -target=hp2 -duration=2550 -next;
+setTransform:{"position":{"x":170,"y":-760},"scale":{"x":0.75,"y":0.75},"alpha":1,"blur":3} -target=hp3 -duration=3750 -next;
+: -fontSize=default;
+setTransform:{"position":{"x":600,"y":-1350},"scale":{"x":0.75,"y":0.75},"alpha":0,"blur":5} -target=hp1 -duration=650 -next;
+setTransform:{"position":{"x":-650,"y":-1100},"scale":{"x":0.75,"y":0.75},"alpha":0,"blur":5} -target=hp2 -duration=650 -next;
+setTransform:{"position":{"x":170,"y":-760},"scale":{"x":0.75,"y":0.75},"alpha":0,"blur":5} -target=hp3 -duration=650 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=zb_nf01 -expression=smile03;
+setTransform:{"position":{"x":300,"y":-150},"scale":{"x":0.9,"y":0.9},"alpha":1} -target=an -duration=0 -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":2,"y":1},"alpha":1} -target=skblue -duration=1300 -next;
+:梦与现实之间的界线就像是用粉笔在黑板上画出的线条一样，随随便便就被抹除了。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=zb_thinking01 -expression=shame02;
+:……那么，【原本在梦里才能做的事情】，是不是也能原封不动、完整无缺地搬运到现实里来呢？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=sad01_sk;
+:——千早爱音觉得，这理应是不被允许的事情。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=angry01_sk -expression=smile02_sk;
+:但她允许了。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=kime01_sk -expression=shame02_sk;
+setTransform:{"position":{"x":200,"y":-1000},"scale":{"x":1.7,"y":1.7},"alpha":1} -target=anpink -duration=1300 -next;
+:这不是越界，而是[二](style=color:#aec4d1)[人](style=color:#ffdbde)一起抬腿迈步、踩在了那条界线上，用力地将它擦掉。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=shame01 -expression=shame02_sk;
+:所以，哪怕丰川祥子小姐紧紧贴在她的身上，她也只会象征性地提醒一句——
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=kime02 -expression=shame01_down;
+:要说完全不羞耻那是假的，再怎么爱慕虚荣，要是一直看到带着女儿出来玩的家庭主妇对着自己双手合十的话、怎么说也会变得面红耳赤。
+setTransform:{"position":{"x":200,"y":-1000},"scale":{"x":1.7,"y":1.7},"alpha":0} -target=anpink -duration=0 -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":2,"y":1},"alpha":0} -target=skblue -duration=0 -next;
+setTransform:{"position":{"x":2000,"y":-2500},"scale":{"x":4.5,"y":4.5},"alpha":1.1,"rotation":0} -target=bg-main -duration=0 -next;
+setTransform:{"position":{"x":-175,"y":-150},"scale":{"x":0.9,"y":0.9},"alpha":1} -target=sk -duration=0 -next;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nf_left01_aya -expression=shame02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=zb_nf_left01 -expression=smile02_sk;
+:……但是，比起羞耻，这种能够毫无顾忌地与丰川祥子并肩而行所带来的幸福感，终究还是占据了更多的重量、将她心中的天秤狠狠压下。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=odoodo01_sk -expression=shame02;
+setTransform:{"position":{"x":2000,"y":-2500},"scale":{"x":4.5,"y":4.5},"alpha":0,"rotation":0} -target=bg-main -duration=0 -next;
+setTransform:{"position":{"x":-175,"y":-150},"scale":{"x":0.9,"y":0.9},"alpha":0} -target=sk -duration=0 -next;
+bgm:none -enter=1100;
+:不过，还不够。
+: -fontSize=default -concat;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=sad01_masking;
+bgm:押し花の栞.mp3 -enter=800;
+:现在还不够“毫无顾忌”，对于没有按照“普通而理所当然”的过程发展恋情的二人来说，什么约会、什么亲亲抱抱，都像是一种故作矜持的繁文缛节。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=shame02;
+:——千早爱音和丰川祥子，早就过了那段暧昧期了。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=serious03_masking;
+:于是，她做出了那个邀请。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=serious02 -expression=smile03;
+:这并非提前预案，也不是约会计划的一部分——她的父母也还在家里、并没有如此碰巧地出差或者跑去哪儿旅游不带她玩。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf03_sk -expression=smile05_sk;
+:所以，哪怕真的带着祥子回家，她们其实也做不了什么出格的事情。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nod01_sk -expression=smile05_sk;
+:……但是，这样就够了。
+changeBg:fantasy.webp -next -transform={"position":{"y":55},"alpha":0,"blur":15};
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nod01_sk -expression=shame02;
+:千早爱音[想要](style-alltext=font-weight:700\; style=color:#111111\;)带丰川祥子回家 -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=odoodo01_ako -expression=shame01_sk;
+setTransform:{"position":{"y":0},"alpha":1,"blur":5} -target=bg-main -duration=1500 -next;
+:——或者说，她想要跟丰川祥子有一个家？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=surprised01_sk;
+
+setTransform:{"position":{"x":-550},"scale":{"x":0.3,"y":0.3},"alpha":0,"rotation":-10,"blur":0} -target=bg-main -duration=900 -next;
+爱音:……唔。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=surprised02_sk -expression=shame02_sk;
+changeBg: -next;
+:糟糕，糟糕糟糕糟糕。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=zb_smile01 -expression=smile02;
+changeBg:a台场/yuricon4_sunset_brighter.webp -next -transform={"position":{"x":2000,"y":-2500},"scale":{"x":4.5,"y":4.5},"alpha":0,"rotation":0};
+setTransform:{"position":{"x":2000,"y":-2500},"scale":{"x":4.5,"y":4.5},"alpha":0,"rotation":0} -target=bg-main -duration=0 -next;
+:满脑子的妄想全都洋溢着幸福的气泡，爱音感觉自己整个人都要飞起来了—— -notend -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=zb_angry03 -expression=smile03;
+:不行不行，祥祥还在地上呢。 -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nnf_left01 -expression=shame01;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=nnf_left01 -expression=smile06;
+setTransform:{"position":{"x":400,"y":-150},"scale":{"x":1,"y":1},"alpha":0} -target=an -duration=0 -next;
+setTransform:{"position":{"x":-175,"y":-150},"scale":{"x":1,"y":1},"alpha":1} -target=sk -duration=1200 -next;
+setTransform:{"position":{"x":2200,"y":-2570},"scale":{"x":4.75,"y":4.75},"alpha":1.1,"rotation":0} -target=bg-main -duration=1200 -next;
+:灰银色的双眼偷偷瞄了瞄自己的心上人：虽然距离感已经失控，但蓝发双马尾的少女表现得意外地克制，并没有做出像是刚刚那样的疯狂行径。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=sigh01_rui -expression=smile01_sk;
+setTransform:{"position":{"x":300,"y":-150},"scale":{"x":1,"y":1},"alpha":1} -target=an -duration=0 -next;
+setTransform:{"position":{"x":-275,"y":-150},"scale":{"x":1,"y":1},"alpha":0} -target=sk -duration=0 -next;
+setTransform:{"position":{"x":1800,"y":-2570},"scale":{"x":4.75,"y":4.75},"alpha":0.6,"rotation":0} -target=bg-main -duration=0 -next;
+:——不愧是祥祥。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nnf_left01_mu -expression=shame02_sk;
+:爱音悄悄地欣赏着恋人那优雅的、冷静的、却又像是月光般柔和的气质。比起满脸通红的自己，果然还是祥祥更“厉害”一些……
+setTransform:{"position":{"x":500,"y":-150},"scale":{"x":1,"y":1},"alpha":0} -target=an -duration=0 -next;
+setTransform:{"position":{"x":-75,"y":-150},"scale":{"x":1,"y":1},"alpha":1} -target=sk -duration=0 -next;
+setTransform:{"position":{"x":2600,"y":-2570},"scale":{"x":4.75,"y":4.75},"alpha":0,"rotation":0} -target=bg-main -duration=0 -next;
+changeFigure:341_mashiro/model.json -id=sk -next -expression=zb_surprised02;
+changeFigure:sakiko_small/model.json -id=sox -transform={"position":{"x":-800,"y":50},"scale":{"x":0.98,"y":0.95},"alpha":0.7} -next -motion=jaan01_kokoro -expression=smile02;
+bgm:none -enter=400;
+本能:咿呀哈——————！ -fontSize=default;
+changeFigure:none -id=sa1 -next;
+changeFigure:none -id=sa2 -next;
+changeFigure:sakiko_small/model.json -id=sox -next -motion=humming01_kokoro -expression=shame02;
+changeFigure:manga/yiha.webp -id=yiha -transform={"position":{"x":700,"y":270},"alpha":0} -next;
+:……吗？
+changeFigure:341_mashiro/model.json -id=sk -next -motion=zb_surprised02 -expression=R_boby;
+changeFigure:sakiko_small/model.json -id=sox -next -motion=shame01_kokoro;
+setTransform:{"position":{"x":730,"y":50},"scale":{"x":0.98,"y":0.95},"alpha":0.7} -target=sox -duration=500 -next;
+setTransform:{"position":{"x":700,"y":180},"alpha":0.8} -target=yiha -duration=1000 -next;
+bgm:暴走列車.mp3;
+:千早爱音不知道的是，丰川祥子远比她想象的还要擅长强装镇定、假装冷静——哪怕现在的她已经冷静得快要吓死了，这位前·大小姐也会装得跟个没事人似的。
+setTransform:{"position":{"x":760,"y":80},"scale":{"x":1.03,"y":0.999},"alpha":0.7} -target=sox -duration=500 -next;
+setTransform:{"position":{"x":700,"y":180},"alpha":0} -target=yiha -duration=0 -next;
+setTransform:{"position":{"x":500,"y":-150},"scale":{"x":1,"y":1},"alpha":1} -target=an -duration=0 -next;
+setTransform:{"position":{"x":-75,"y":-150},"scale":{"x":1,"y":1},"alpha":1} -target=sk -duration=0 -next;
+setTransform:{"position":{"x":2600,"y":-2570},"scale":{"x":4.75,"y":4.75},"alpha":1.1,"rotation":0} -target=bg-main -duration=0 -next;
+changeFigure:sakiko_small/model.json -id=sox -next -motion=smile01_kokoro -expression=smile02;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=smile06 -expression=L_Boby;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf_left01 -expression=shame02;
+:所以，即便丰川祥子的本能正在咿呀鬼叫着，她的脸上也不会有任何的波澜，就像是暴风雨来临前那片宁静到让人害怕的天空一样。
+setTransform:{"position":{"x":0,"y":-125},"scale":{"x":1.01,"y":1.01},"alpha":0,"blur":10} -target=an -duration=900 -next;
+setTransform:{"position":{"x":-575,"y":-125},"scale":{"x":1.01,"y":1.01},"alpha":0,"blur":10} -target=sk -duration=900 -next;
+setTransform:{"position":{"x":2600,"y":-2570},"scale":{"x":4.75,"y":4.75},"alpha":0,"rotation":0,"blur":10} -target=bg-main -duration=900 -next;
+setTransform:{"position":{"x":760,"y":80},"scale":{"x":1.03,"y":0.999},"alpha":0,"blur":10} -target=sox -duration=900 -next;
+changeFigure:sakiko_small/model.json -id=sox -next -motion=nnf_left01 -expression=thinking01;
+:她们就这样手牵着手、回到商场……
+
+changeBg:a台场/yuricon3.webp -next -transform={"position":{"x":-6000,"y":-3500},"scale":{"x":6,"y":6}};
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -transform={"position":{"x":400,"y":-50},"scale":{"x":0.9,"y":0.9}} -next -motion=smile01_ako -expression=smile02;
+changeFigure:341_mashiro/model.json -id=sk2_2 -transform={"position":{"x":-380,"y":-50},"scale":{"x":0.9,"y":0.9},"alpha":0.7} -next -motion=zb_surprised02 -expression=default;
+changeFigure:341_mashiro/model.json -id=sk2 -transform={"position":{"x":-100,"y":-50},"scale":{"x":0.9,"y":0.9}} -next -motion=smile06 -expression=default;
+changeFigure:sakiko_small/model.json -id=sox2 -transform={"position":{"x":-600,"y":450},"scale":{"x":1.1,"y":1.067},"alpha":0.7,"rotation":0} -next -motion=angry01_kokoro -expression=smile02;
+: -notend -fontSize=default;
+setTransform:{"position":{"x":500,"y":-650},"scale":{"x":1.4,"y":1.358},"alpha":0.7,"rotation":0.3} -target=sox2 -duration=0 -next;
+
+本能:咿呀——哈——！
+changeFigure:sakiko_small/model.json -id=sox3 -transform={"position":{"x":2200,"y":1830},"scale":{"x":1,"y":0.97},"rotation":-2.5,"alpha":0} -next;
+setTransform:{"position":{"x":400,"y":-50},"scale":{"x":0.9,"y":0.9},"alpha":0} -target=an2 -duration=15 -next;
+setTransform:{"position":{"x":-100,"y":-50},"scale":{"x":0.9,"y":0.9},"alpha":0} -target=sk2 -duration=15 -next;
+setTransform:{"position":{"x":-380,"y":-50},"scale":{"x":0.9,"y":0.9},"alpha":0} -target=sk2_2 -duration=15 -next;
+setTransform:{"position":{"x":500,"y":-650},"scale":{"x":1.4,"y":1.358},"alpha":0,"rotation":0.3} -target=sox2 -duration=15 -next;
+;;
+;;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1,"y":1}} -target=an3 -duration=15 -next;
+setTransform:{"position":{"x":-800,"y":0},"scale":{"x":1,"y":1},"alpha":0.7} -target=sk3_2 -duration=15 -next;
+setTransform:{"position":{"x":-600,"y":0},"scale":{"x":1,"y":1}} -target=sk3 -duration=15 -next;
+
+setTransform:{"position":{"x":2200,"y":1830},"scale":{"x":1,"y":0.97},"rotation":-2.5,"alpha":0.7} -target=sox3 -duration=15 -next;
+changeBg:a台场/inner10.webp -next -transform={"position":{"x":2500,"y":-2400},"scale":{"x":4.7,"y":4.7},"rotation":0};
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an3 -next -motion=zb_nf03 -expression=shame01_down;
+changeFigure:341_mashiro/model.json -id=sk3_2 -next -motion=wondering01_kokoro -expression=surprised02;
+changeFigure:341_mashiro/model.json -id=sk3 -next -motion=nnf02 -expression=smile05;
+changeFigure:sakiko_small/model.json -id=sox3 -next -motion=wink01_kokoro -expression=smile04;
+changeFigure:manga/芜湖.webp -id=wuhu -transform={"position":{"x":-100,"y":-1200},"scale":{"x":1,"y":1},"rotation":0.1,"alpha":0} -next;
+changeFigure:sakiko_small/model.json -id=sox3_2 -transform={"position":{"x":-900,"y":400},"scale":{"x":1,"y":0.97},"alpha":0,"rotation":0.2} -next -motion=wink01_kokoro -expression=smile04;
+changeFigure:manga/呱.webp -id=gua -transform={"position":{"y":-700},"rotation":-0.2,"alpha":0} -next;
+changeFigure:sakiko_small/model.json -id=sox3_3 -transform={"position":{"x":-150,"y":400},"scale":{"x":1.1,"y":1.067},"alpha":0,"rotation":0} -next -motion=idle01 -expression=smile04;
+changeFigure:manga/哟西亚—.webp -id=youxi -transform={"position":{"x":0,"y":-1000},"scale":{"x":1.1,"y":1.1},"rotation":0,"alpha":0} -next;
+: -notend -fontSize=default;
+setTransform:{"position":{"x":0,"y":-130},"scale":{"x":1.4,"y":1.4},"blur":7} -target=bg-main -duration=900 -next;
+setTransform:{"position":{"x":50,"y":850},"scale":{"x":0.5,"y":0.5},"blur":7} -target=an3 -duration=900 -next;
+setTransform:{"position":{"x":-200,"y":850},"scale":{"x":0.5,"y":0.5},"blur":7} -target=sk3 -duration=900 -next;
+setTransform:{"position":{"x":-350,"y":850},"scale":{"x":0.5,"y":0.5},"blur":7,"alpha":0.7} -target=sk3_2 -duration=900 -next;
+setTransform:{"position":{"x":2000,"y":1630},"scale":{"x":0.95,"y":0.922},"rotation":-2.7,"alpha":0.7} -target=sox3 -duration=900 -next;
+:……穿过自动门、经过商铺的门口……
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an3 -next -motion=nnf03_mu -expression=smile02;
+changeFigure:341_mashiro/model.json -id=sk3 -next -motion=nf_right01 -expression=smile06;
+changeFigure:341_mashiro/model.json -id=sk3_2 -next -motion=zb_surprised02;
+setTransform:{"position":{"x":-400,"y":850},"scale":{"x":0.5,"y":0.5},"blur":7,"alpha":0.7} -target=sk3_2 -duration=0 -next;
+setTransform:{"position":{"x":400,"y":-750},"scale":{"x":1.3,"y":1.3},"rotation":-0.2,"alpha":1} -target=wuhu -next;
+changeFigure:sakiko_small/model.json -id=sox3 -next -motion=smile04 -expression=smile02;
+setTransform:{"position":{"x":2000,"y":1630},"scale":{"x":0.95,"y":0.922},"rotation":-2.7,"alpha":0.7} -target=sox3 -duration=0 -next;
+:;
+setTransform:{"position":{"x":2000,"y":1630},"scale":{"x":0.95,"y":0.922},"rotation":-2.7,"alpha":0} -target=sox3 -duration=20 -next;
+changeFigure:sakiko_small/model.json -id=sox3_2 -next -motion=gattsu01_kokoro -expression=smile04;
+setTransform:{"position":{"x":-600,"y":0},"scale":{"x":1,"y":0.97},"alpha":0.7,"rotation":0.2} -target=sox3_2 -duration=800 -next;
+setTransform:{"position":{"x":-300,"y":-1400},"scale":{"x":1.2,"y":1.2},"alpha":1,"rotation":0.1} -target=gua -duration=0 -next;
+:;
+setTransform:{"position":{"x":-600,"y":0},"scale":{"x":1,"y":0.97},"alpha":0,"rotation":0.2} -target=sox3_2 -duration=0 -next;
+setTransform:{"position":{"x":-150,"y":100},"scale":{"x":1.1,"y":1.067},"alpha":1,"rotation":0} -target=sox3_3 -duration=0 -next;
+setTransform:{"position":{"x":0,"y":-1300},"scale":{"x":1.15,"y":1.15},"alpha":1,"rotation":0} -target=youxi -duration=0 -next;
+changeFigure:sakiko_small/model.json -id=sox3_3 -next -motion=jaan01_kokoro -expression=smile04;
+changeFigure:341_mashiro/model.json -id=sk3 -next -motion=nnf05;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an3 -next -motion=smile02_sk;
+changeFigure:341_mashiro/model.json -id=sk3_2 -next -motion=sad02_mu;
+;芜——！呱——！哟西亚——！ -fontSize=default;
+: -fontSize=default;
+changeFigure:none -id=an2 -next;
+changeFigure:none -id=sk2 -next;
+changeFigure:none -id=sk2_2 -next;
+changeFigure:none -id=sox2 -next;
+changeFigure:none -id=sk3 -next;
+changeFigure:none -id=an3 -next;
+changeFigure:none -id=sk3_2 -next;
+changeFigure:none -id=sox3 -next;
+changeFigure:none -id=sox3_2 -next;
+changeFigure:none -id=sox3_3 -next;
+changeFigure:none -id=wuhu -next;
+changeFigure:none -id=youxi -next;
+changeFigure:none -id=gua -next;
+changeBg:a台场/inner2.jpg -next -transform={"position":{"x":200,"y":80},"scale":{"x":2,"y":2}};
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob4 -transform={"position":{"x":-150,"y":-100},"scale":{"x":0.9,"y":0.9},"alpha":0.7} -next -motion=shame02 -expression=angry02;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh4 -transform={"position":{"x":600,"y":-100},"scale":{"x":0.9,"y":0.9},"alpha":0.7} -next -motion=nf01_masking -expression=smile05;
+changeFigure:manga/ciallo.webp -id=cia -transform={"position":{"x":-500,"y":-1200},"alpha":0,"rotation":-0.4} -next;
+changeFigure:manga/brrr.webp -id=brr -transform={"position":{"y":-1100},"alpha":0,"rotation":0.2} -next;
+changeFigure:manga/bravo.webp -id=bra -transform={"position":{"x":-300,"y":-700},"alpha":0,"rotation":-0.1} -next;
+changeFigure:manga/yahoo.webp -id=yah -transform={"position":{"x":40,"y":-500},"scale":{"x":0.9,"y":0.9},"alpha":0,"rotation":0.2} -next;
+changeFigure:sakiko_small/model.json -id=sox4 -transform={"position":{"x":50,"y":100},"scale":{"x":1,"y":0.97},"alpha":0.7} -next -motion=smile04_anon -expression=smile04;
+changeFigure:341_mashiro/model.json -id=sk4 -transform={"position":{"x":100,"y":-100}} -next -motion=nnf_left01 -expression=smile06;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -left -id=an4 -transform={"position":{"x":-100,"y":-100}} -next -motion=smile01 -expression=turnL;
+: -notend -fontSize=default;
+setTransform:{"position":{"x":-500,"y":-100},"scale":{"x":1.1,"y":1.1},"alpha":0} -target=sk4 -duration=1800 -next;
+setTransform:{"position":{"x":-700,"y":-100},"scale":{"x":1.1,"y":1.1},"alpha":0} -target=an4 -duration=1800 -next;
+
+:……与人群擦、擦肩而过……
+changeFigure:sakiko_small/model.json -id=sox4 -next -motion=gattsu01_kokoro -expression=smile02;
+setTransform:{"position":{"x":-100,"y":100},"scale":{"x":1.14,"y":1.14},"alpha":0} -target=sox4 -duration=2500 -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob4 -next -motion=serious02_rui -expression=sad02;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh4 -next -motion=smile05;
+setTransform:{"position":{"x":-600,"y":-1300},"alpha":1,"rotation":-0.5} -target=cia -duration=900 -next;
+setTransform:{"position":{"x":600,"y":-1200},"alpha":1,"rotation":0.6} -target=brr -duration=1300 -next;
+setTransform:{"position":{"x":-500,"y":-800},"alpha":1,"rotation":-0.8} -target=bra -duration=1600 -next;
+setTransform:{"position":{"x":400,"y":-550},"scale":{"x":0.9,"y":0.9},"alpha":1,"rotation":0.3} -target=yah -duration=2000 -next;
+;本能:Ciallo！Brrrrrrrrrrrrrr——bravo！Yahoo—— 
+:; -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob4 -next -motion=zb_angry02 -expression=default;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh4 -next -motion=nf_left01;
+setTransform:{"position":{"x":-1600,"y":-1400},"alpha":0,"rotation":-1.5} -target=cia -duration=900 -next;
+setTransform:{"position":{"x":1600,"y":-1300},"alpha":0,"rotation":1.3} -target=brr -duration=900 -next;
+setTransform:{"position":{"x":-1500,"y":-700},"alpha":0,"rotation":-1.8} -target=bra -duration=900 -next;
+setTransform:{"position":{"x":1500,"y":-450},"scale":{"x":0.9,"y":0.9},"alpha":0,"rotation":1.2} -target=yah -duration=900 -next;
+理性:——吵死了！ -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh4 -next -motion=nf01;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob4 -next -motion=zb_sigh02 -expression=default;
+:丰川祥子的理性发出抗议，但她的感性却只是无奈地摇了摇头：呃啊感性感性，别抗议了，这娃已经着相了。
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob4 -next -motion=thinking02 -expression=smile05;
+理性:呃啊确实确实，丰川祥子要去千早爱音的家做客，我怎么会做这样的梦—— -notend;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh4 -next -motion=nf_left01_mu -expression=smile05;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob4 -next -motion=thinking02 -expression=smile03;
+理性:什么，这不是梦？ -concat;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob4 -next -motion=zb_angry06 -expression=angry02;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh4 -next;
+:一个玩乐队的女孩子邀请另一个玩乐队的女孩子去家中做客，绝对是O暗示、啊啊、唯有O暗示——此事在《大少女乐队时代约会守则》之中亦有记载……
+changeFigure: -id=an4 -next;
+changeFigure: -id=cia -next;
+changeFigure: -id=brr -next;
+changeFigure:none -id=bra -next;
+changeFigure:none -id=yah -next;
+
+setTransform: -target= -duration=0 -next;
+setTransform:{"position":{"x":100},"scale":{"x":1.3,"y":1.3},"alpha":0.5} -target=bg-main -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob4 -next -motion=wondering01_kokoro -expression=surprised01;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh4 -next -motion=smile04_mu;
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=kime01 -expression=smile04;
+setTransform:{"position":{"x":600,"y":-70},"scale":{"x":0.85,"y":0.85},"alpha":0.7} -target=jh4 -duration=0 -next;
+setTransform:{"position":{"x":-20,"y":-70},"scale":{"x":0.85,"y":0.85},"alpha":0.7} -target=ob4 -duration=0 -next;
+setTransform:{"position":{"x":0,"y":-150},"scale":{"x":1,"y":1},"alpha":1} -target=sk4 -duration=0 -next;
+:哪怕没有记载，丰川祥子也得自己往里面写上这么一句。
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob4 -next -motion=sigh01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh4 -next -motion=nf03;
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=odoodo01 -expression=default;
+setTransform:{"position":{"x":-220,"y":-70},"scale":{"x":0.85,"y":0.85},"alpha":0.7} -target=ob4 -duration=1000 -next;
+bgm:none -enter=1100;
+:不过，抛开不健全的部分不谈，对于祥子来说，“去朋友家中做客”本来就是一件非常值得期待的事情。
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob4 -next -motion=nnf_right01 -expression=sad01;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh4 -next -motion=nf_left01_maya -expression=odoodo01;
+:要知道，无论是以前还是现在，她都鲜少有这么做的机会。除了作为幼驯染的若叶睦以外，她这辈子好像也就去过……
+setTransform:{"position":{"x":-220,"y":0},"scale":{"x":0.85,"y":0.85},"alpha":0} -target=ob4 -duration=1500 -next;
+setTransform:{"position":{"x":600,"y":0},"scale":{"x":0.85,"y":0.85},"alpha":0} -target=jh4 -duration=1500 -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob4 -next -motion=smile06 -expression=smile03;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh4 -next -motion=nf_left01 -expression=smile03;
+changeFigure:341_mashiro/model.json -id=sk4 -next -motion=surprised02 -expression=R_boby;
+changeFigure:sakiko_small/model.json -id=sox5 -transform={"position":{"x":1200,"y":260},"scale":{"x":0.6,"y":0.582},"alpha":0} -next;
+changeFigure:anon_small.webp -id=sa5 -transform={"position":{"x":700,"y":600},"scale":{"x":0.35,"y":0.35},"alpha":0,"rotation":0.4} -next;
+祥子:……。
+setTransform:{"position":{"x":200,"y":80},"scale":{"x":2,"y":2},"alpha":1} -target=bg-main -duration=1000 -next;
+setTransform:{"position":{"x":-300},"scale":{"x":1.05,"y":1.05},"alpha":0,"blur":9} -target=sk4 -duration=0 -next;
+changeFigure:sakiko_small/model.json -id=sox5 -next -motion=kime01_anon -expression=smile02;
+setTransform:{"position":{"x":1200,"y":200},"scale":{"x":0.85,"y":0.8245},"alpha":0.7} -target=sox5 -duration=1000 -next;
+setTransform:{"position":{"x":900,"y":750},"scale":{"x":0.45,"y":0.45},"alpha":0.8,"rotation":0.3} -target=sa5 -duration=1000 -next;
+:丰川祥子突然感觉背后一股凉意，回头望去，却并没有见到什么熟悉的身影——
+changeFigure:sakiko_small/model.json -id=sox5 -next -motion=nf05 -expression=smile02;
+setTransform:{"position":{"x":0,"y":200},"scale":{"x":0.85,"y":0.8245},"alpha":0.7} -target=sox5 -duration=0 -next;
+setTransform:{"position":{"x":-120,"y":750},"scale":{"x":0.45,"y":0.45},"alpha":0.8,"rotation":0.6} -target=sa5 -duration=0 -next;
+本能:咿呀哈——芜——Seya——!    ;
+changeFigure:sakiko_small/model.json -id=sox5 -next -motion=jaan01_kokoro -expression=smile02;
+setTransform:{"position":{"x":400,"y":200},"scale":{"x":0.85,"y":0.8245},"alpha":0.7} -target=sox5 -duration=0 -next;
+setTransform:{"position":{"x":300,"y":750},"scale":{"x":0.45,"y":0.45},"alpha":0.8,"rotation":0.1} -target=sa5 -duration=0;
+changeFigure:sakiko_small/model.json -id=sox5 -next -motion=humming01_kokoro -expression=smile02;
+setTransform:{"position":{"x":250,"y":500},"scale":{"x":0.45,"y":0.45},"alpha":0.8,"rotation":0} -target=sa5 -duration=0 -next;
+:——只有哇哇怪叫着的本能小孩手里抓着爱音玩偶、搁那跑来跑去。
+changeFigure: -id=an4 -next;
+changeFigure: -id=sk4 -next;
+changeFigure: -id=sox5 -next;
+changeFigure: -id=sa5 -next;
+changeFigure: -id=ob4 -next;
+changeFigure: -id=jh4 -next;
+changeBg:none -next;
+changeScene:3_02/calm.txt

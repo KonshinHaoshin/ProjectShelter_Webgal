@@ -1,0 +1,180 @@
+bgm:27.sunshine.mp3 -enter=1100;
+changeBg:a台场/inner.jpg -next -transform={"position":{"x":500,"y":-4200},"scale":{"x":3,"y":3},"alpha":0};
+
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh6 -transform={"position":{"x":1600,"y":-80},"scale":{"x":0.85,"y":0.85},"alpha":0} -next;
+changeFigure:sakiko_small/model.json -id=sox6 -transform={"position":{"x":1800,"y":500},"scale":{"x":0.85,"y":0.816},"alpha":0,"rotation":-0.3} -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob6 -transform={"position":{"x":-1300,"y":-70},"scale":{"x":0.88,"y":0.88},"alpha":0} -next;
+
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -transform={"position":{"x":170,"y":-120},"scale":{"x":0.9,"y":0.9},"alpha":0} -next;
+changeFigure:341_mashiro/model.json -id=sk5 -transform={"position":{"x":-500,"y":-120},"scale":{"x":0.9,"y":0.9}} -next -motion=thinking02 -expression=thinking01;
+changeFigure:manga/sakiko_phone.webp -id=phone -transform={"position":{"x":-600,"y":500},"scale":{"x":0.2,"y":0.2},"alpha":0} -next;
+changeFigure:341_mashiro_front/model.json -id=sk5f -transform={"position":{"x":-500,"y":-120},"scale":{"x":0.9,"y":0.9},"alpha":0} -next -motion=thinking02 -expression=thinking01;
+:错觉……么？|不知为何，她刚刚总觉得有人在盯着她看。 -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=smile03 -expression=default;
+:不过，某只爱捡石头的小企鹅并不在此处——而祥子和那个人，也已经回不去当初到对方家中做客的那段时光了。 -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=serious01 -expression=smile06;
+:……不，她们也没必要回去。
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=nf01_mu;
+:时间不能倒流，也不需要倒流——|这个世界上，从来都不存在什么“禁止分道扬镳的友人再次重聚”的律法。 -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=thinking02 -expression=smile03;
+:……说是这么说，到时候要怎么跟灯解释自己跟爱音的关系呢……
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=odoodo01 -expression=smile05;
+changeFigure:341_mashiro_front/model.json -id=sk5f -next -motion=odoodo01 -expression=smile05;
+:祥子突然觉得，自己需要考虑的问题好像增加了。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=nf_left01_ako -expression=surprised01_sk;
+
+setTransform:{"position":{"x":200,"y":-120},"scale":{"x":0.9,"y":0.9}} -target=an5 -duration=0 -next;
+setTransform:{"position":{"x":500,"y":-4200},"scale":{"x":3,"y":3},"alpha":1} -target=bg-main -duration=0 -next;
+爱音:祥祥？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=nf_left01 -expression=thinking01_sk;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=nnf_right01 -expression=smile03;
+setTransform:{"position":{"x":160,"y":-120},"scale":{"x":0.9,"y":0.9}} -target=an5 -duration=1100 -next;
+爱音: -concat;
+
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=surprised01 -expression=Down_look;
+:突然驻足不前的祥子引起了爱音的疑惑，但就在这时，祥子的手机却突然响了起来。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=thinking01_sk -expression=turn_Down_look;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=nf04 -expression=thinking01D;
+changeFigure:341_mashiro_front/model.json -id=sk5f -next -motion=nnf04 -expression=Down_look;
+setTransform:{"position":{"x":-500,"y":-120},"scale":{"x":0.9,"y":0.9},"alpha":1} -target=sk5f -duration=5 -next;
+setTransform:{"position":{"x":-600,"y":450},"scale":{"x":0.2,"y":0.2},"alpha":1} -target=phone -duration=800 -next;
+;bgm暂停
+:——♪——
+changeFigure:341_mashiro/model.json -id=sk5 -next -expression=thinking02D;
+setTransform:{"position":{"x":2500,"y":-9000},"scale":{"x":6,"y":6},"alpha":1,"blur":20} -target=bg-main -duration=1000 -next;
+setTransform:{"position":{"x":180,"y":-1000},"scale":{"x":1.3,"y":1.3}} -target=an5 -duration=1000 -next;
+setTransform:{"position":{"x":-800,"y":-1000},"scale":{"x":1.3,"y":1.3}} -target=sk5 -duration=1000 -next;
+setTransform:{"position":{"x":-800,"y":-1000},"scale":{"x":1.3,"y":1.3}} -target=sk5f -duration=1000 -next;
+setTransform:{"position":{"x":-350,"y":100},"scale":{"x":0.3,"y":0.3},"rotation":0.08} -target=phone -duration=1000 -next;
+祥子:咦？
+:熟悉的铃声让祥子愣了一下：她没有料到会在这个时候接到别人的电话。
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=nf01 -expression=sigh01;
+changeFigure:341_mashiro_front/model.json -id=sk5f -next -motion=nf01 -expression=;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=nf_left01_sk -expression=thinking01_sk;
+setTransform:{"position":{"x":2500,"y":-8500},"scale":{"x":6,"y":6},"alpha":1,"blur":20} -target=bg-main -duration=1000 -next;
+setTransform:{"position":{"x":180,"y":-600},"scale":{"x":1.3,"y":1.3}} -target=an5 -duration=1000 -next;
+setTransform:{"position":{"x":-800,"y":-600},"scale":{"x":1.3,"y":1.3}} -target=sk5 -duration=1000 -next;
+setTransform:{"position":{"x":-800,"y":-600},"scale":{"x":1.3,"y":1.3}} -target=sk5f -duration=1000 -next;
+setTransform:{"position":{"x":-370,"y":920},"scale":{"x":0.3,"y":0.3},"rotation":-0.04} -target=phone -duration=800 -next;
+:……如果是什么不长眼的推销电话，她可要生气——
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=surprised01 -expression=Down_look;
+changeFigure:341_mashiro_front/model.json -id=sk5f -next -motion=surprised01 -expression=;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=nf_left01_sk -expression=surprised01_sk;
+嗯？
+
+changeFigure:none -id=phone -next;
+changeFigure: -id=sk5 -next;
+changeFigure: -id=sk5f -next;
+changeFigure: -id=an5 -next;
+changeBg:a台场/inner11.webp -next -transform={"position":{"y":300},"scale":{"x":6,"y":6},"blur":30};
+changeFigure:uika.webp -id=hand -transform={"position":{"x":-50},"scale":{"x":1,"y":1}} -next;
+祥子:初华……？
+changeFigure:none -id=hand -next;
+changeBg:a台场/inner.jpg -next -transform={"position":{"x":800,"y":-4200},"scale":{"x":3,"y":3},"alpha":1,"blur":8};
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an6 -transform={"position":{"x":170,"y":-120},"scale":{"x":0.9,"y":0.9},"alpha":1} -next -motion=kandou01 -expression=turnL;
+changeFigure:341_mashiro/model.json -id=sk6 -transform={"position":{"x":-500,"y":-120},"scale":{"x":0.9,"y":0.9}} -next -motion=nf05_soyo -expression=R_boby;
+爱音:诶诶，是初华小姐的电话么？
+
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an6 -next -motion=smile01 -expression=smile02;
+changeFigure:341_mashiro/model.json -id=sk6 -next -motion=nnf03 -expression=thinking01D;
+:听到自己偶像的名字，粉发少女双眼发光——|祥子倒是没她那么兴奋，只是感觉有些困惑。
+
+setTransform:{"position":{"x":1200,"y":-4200},"scale":{"x":3,"y":3},"alpha":0,"blur":15} -target=bg-main -duration=0 -next;
+setTransform:{"position":{"x":-100,"y":-120},"scale":{"x":0.9,"y":0.9}} -target=sk6 -duration=0 -next;
+setTransform:{"position":{"x":570,"y":-120},"scale":{"x":0.9,"y":0.9},"alpha":0} -target=an6 -duration=0 -next;
+changeFigure:341_mashiro/model.json -id=sk6 -next -motion=thinking02 -expression=thinking01D;
+:虽然不是什么不长眼的推销电话，但看着屏幕上的来电备注、丰川祥子却还是皱了皱眉：三角初华，为什么会突然给自己打电话？
+
+changeFigure:341_mashiro/model.json -id=sk6 -next -motion=eeto01_aya -expression=default;
+:一般来说，如果有什么事的话不应该直接用LINE发消息么? -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk6 -next -motion=ando01_taki -expression=surprised01;
+
+bgm:none -enter=1100;
+:|——除非。 -concat -fontSize=default;
+
+changeFigure:341_mashiro/model.json -id=sk6 -next -motion=serious01_anon -expression=sad02;
+祥子:……。
+bgm:darkcloud.mp3 -enter=900;
+setTransform:{"position":{"x":1050,"y":-100},"scale":{"x":0.9,"y":0.9},"alpha":0.7} -target=jh6 -duration=2000 -next;
+setTransform:{"position":{"x":1100,"y":600},"scale":{"x":0.9,"y":0.864},"alpha":0.7,"rotation":-0.3} -target=sox6 -duration=2000 -next;
+setTransform:{"position":{"x":-800,"y":-100},"scale":{"x":0.9,"y":0.9},"alpha":0.7} -target=ob6 -duration=1200 -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh6 -next -motion=sigh02 -expression=Down_look;
+changeFigure:sakiko_small/model.json -id=sox6 -next -motion=nf_left01 -expression=thinking01;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob6 -next -motion=nnf_right01_rui -expression=serious02;
+changeFigure:341_mashiro/model.json -id=sk6 -next -motion=nf_left01_mu -expression=odoodo01;
+:还在到处乱跑的本能突然被感性扯住后衣领、用力拽了回来；理性平静地来到祥子的身边，轻声提醒道：初华，可能是有急事。
+;动作还是文字？
+
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh6 -next -motion=smile03 -expression=Down_look;
+changeFigure:sakiko_small/model.json -id=sox6 -next -motion=nf_left01_taki -expression=thinking01;
+setTransform:{"position":{"x":1300,"y":220},"scale":{"x":0.9,"y":0.864},"alpha":0.7} -target=sox6 -duration=700 -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob6 -next -motion=nnf02;
+changeFigure:341_mashiro/model.json -id=sk6 -next -motion=nod01_maya;
+changeFigure:anon_small.webp -id=sa6 -transform={"position":{"x":1200,"y":800},"scale":{"x":0.3,"y":0.3},"alpha":0} -next;
+:害怕祥子不能第一时间看到LINE的讯息、所以必须要直接打电话过来——
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh6 -next -motion=nf03 -expression=smile03D;
+changeFigure:sakiko_small/model.json -id=sox6 -next -motion=humming01_kokoro -expression=turn_Down_look;
+setTransform:{"position":{"x":1200,"y":500},"scale":{"x":0.35,"y":0.35},"alpha":0.7,"rotation":0.1} -target=sa6 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob6 -next -motion=nnf_right01 -expression=sad02;
+changeFigure:341_mashiro/model.json -id=sk6 -next -motion=thinking01_soyo;
+
+:能让那位温柔的偶像着急到这种程度的事情，怎么想也不可能会是“祥子我今天吃了两个甜甜圈哦”之类的日常分享……
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh6 -next -motion=nf_left01 -expression=sad02;
+changeFigure:sakiko_small/model.json -id=sox6 -next -motion=nf_left01_taki -expression=thinking01;
+setTransform:{"position":{"x":1200,"y":550},"scale":{"x":0.35,"y":0.35},"alpha":0.7,"rotation":0.15} -target=sa6 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob6 -next -motion=nod01_maya -expression=thinking02R;
+changeFigure:341_mashiro/model.json -id=sk6 -next -motion=kime01 -expression=surprised02;
+
+:不，不如说初华压根就不是会【主动联系自己】的那类人吧？
+
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh6 -next -motion=sad02 -expression=smile03D;
+changeFigure:sakiko_small/model.json -id=sox6 -next -motion=nf04_anon -expression=smile02;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob6 -next -motion=sigh02 -expression=default;
+changeFigure:341_mashiro/model.json -id=sk6 -next -motion=nf01 -expression=sigh01;
+
+:——情况可能比想象中更加恶劣。
+setTransform:{"position":{"x":1200,"y":-4200},"scale":{"x":3,"y":3},"alpha":1,"blur":15} -target=bg-main -duration=1200 -next;
+setTransform:{"position":{"x":570,"y":-120},"scale":{"x":0.9,"y":0.9},"alpha":1} -target=an6 -duration=1200 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an6 -next -motion=nnf03 -expression=thinking02;
+changeFigure:341_mashiro/model.json -id=sk6 -next -motion=nf_right01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob6 -next -motion=nnf_right01_rui -expression=serious02;
+changeFigure:sakiko_small/model.json -id=sox6 -next -motion=nf_left01_taki -expression=surprised01;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh6 -next -motion=nf_left01 -expression=smile03;
+爱音:难道说，是急事……？ -notend -fontSize=default;
+setTransform:{"position":{"x":900,"y":200},"scale":{"x":0.88,"y":0.8448},"alpha":0.7} -target=sox6 -duration=750 -next;
+changeFigure:sakiko_small/model.json -id=sox6 -next -motion=angry04_taki -expression=shame02;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh6 -next -motion=zb_surprised02 -expression=Down_look;
+setTransform:{"position":{"x":1900,"y":500},"scale":{"x":0.35,"y":0.35},"alpha":0.7,"rotation":3} -target=sa6 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an6 -next -motion=thinking01 -expression=turn_Down_look;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob6 -next -motion=nf03 -expression=L_Boby;
+:爱音似乎跟祥子（理性ver.）想到了一块去：
+changeFigure:none -id=sa6 -next;
+changeFigure:341_mashiro/model.json -id=sk6 -next -motion=sad01_rui -expression=smile05;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an6 -next -expression=smile03;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob6 -next -motion=nf05;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh6 -next -motion=zb_sigh02 -expression=surprised01_anon;
+changeFigure:sakiko_small/model.json -id=sox6 -next -motion=nf_left01 -expression=surprised02;
+setTransform:{"position":{"x":2000,"y":-100},"scale":{"x":0.9,"y":0.9},"alpha":0} -target=jh6 -duration=1500 -next;
+setTransform:{"position":{"x":1700,"y":130},"scale":{"x":0.88,"y":0.8448},"alpha":0,"rotation":0.12} -target=sox6 -duration=1500 -next;
+爱音:比如说乐队的事情、什么的？
+changeFigure:341_mashiro/model.json -id=sk6 -next -motion=nf_right01_soyo -expression=smile03;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an6 -next -motion=nnf_left01 -expression=smile06_sk;
+setTransform:{"position":{"x":-1700,"y":-95},"scale":{"x":0.91,"y":0.91},"alpha":0.7} -target=ob6 -duration=1000 -next;
+祥子:……嗯，那边的人少一些，我去接个电话。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an6 -next -motion=bye01 -expression=turnL;
+changeFigure:341_mashiro/model.json -id=sk6 -next -motion=nod01 -expression=R_boby;
+爱音:好~那我先去储物柜把金鱼们带上~
+changeFigure:341_mashiro/model.json -id=sk6 -next -motion=odoodo01 -expression=L_Boby5;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an6 -next -motion=smile03 -expression=turnR10;
+setTransform:{"position":{"x":1200,"y":-4200},"scale":{"x":3,"y":3},"alpha":0,"blur":17} -target=bg-main -duration=1900 -next;
+setTransform:{"position":{"x":-1000,"y":-95},"scale":{"x":0.91,"y":0.91},"alpha":0} -target=sk6 -duration=1600 -next;
+setTransform:{"position":{"x":1700,"y":-100},"scale":{"x":0.9,"y":0.9},"alpha":0} -target=an6 -duration=1900 -next;
+bgm:none -enter=900;
+: -fontSize=default;
+changeFigure: -id=sa6 -next;
+changeFigure: -id=an6 -next;
+changeFigure: -id=sk6 -next;
+changeFigure: -id=ob6 -next;
+changeFigure:none -id=jh6 -next;
+changeFigure:none -id=sox6 -next;
+changeScene:3_02/call.txt

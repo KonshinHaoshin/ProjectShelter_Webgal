@@ -1,0 +1,171 @@
+changeBg:a台场/1st_2/1st_shop1.jpg -next;
+changeFigure:341_mashiro/model.json -id=sk10 -transform={"position":{"x":0,"y":180},"scale":{"x":1,"y":1}} -next -motion=nf_left01_maya -expression=smile02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an10 -transform={"position":{"x":800,"y":180},"scale":{"x":1,"y":1}} -next -motion=smile01 -expression=turnL;
+:             -notend -fontSize=default;
+setTransform:{"position":{"x":-2350,"y":230},"scale":{"x":0.95,"y":0.95},"alpha":1} -target=sk10 -duration=1600 -next;
+setTransform:{"position":{"x":-1650,"y":230},"scale":{"x":0.96,"y":0.96},"alpha":1} -target=an10 -duration=1600 -next;
+changeFigure:魔法纪录-路人Live2D包/800101/model.model3.json -id=3 -transform={"position":{"y":1000},"scale":{"x":1.1,"y":1.1},"alpha":0} -next -motion=Motion -expression=mtn_ex_011.exp3.json;
+changeFigure:魔法纪录-路人Live2D包/802000/model.model3.json -id=2 -transform={"position":{"x":500,"y":1000},"scale":{"x":1.1,"y":1.1},"alpha":0} -next -motion=Motion -expression=mtn_ex_010.exp3.json;
+changeFigure:魔法纪录-路人Live2D包/800600/model.model3.json -id=1 -transform={"position":{"x":880,"y":850},"scale":{"x":1.1,"y":1.1},"alpha":0} -next -motion=Motion -expression=mtn_ex_011.exp3.json;
+changeFigure:魔法纪录-路人Live2D包/800100/model.model3.json -id=4 -transform={"position":{"x":-400,"y":1300},"scale":{"x":1.1,"y":1.1},"alpha":0} -next -motion=Motion -expression=mtn_ex_010.exp3.json;
+bgm:14. tactfully.mp3 -enter=1800;
+:……丰川祥子和千早爱音满怀恋心的约会，仍在继续。 -fontSize=default;
+setTransform:{"position":{"x":800,"y":600},"scale":{"x":1.1,"y":1.1}} -target=1 -duration=900 -next;
+setTransform:{"position":{"x":400,"y":620},"scale":{"x":1.08,"y":1.08}} -target=2 -duration=1000 -next;
+setTransform:{"position":{"x":-75,"y":650},"scale":{"x":1.08,"y":1.08}} -target=3 -duration=1000 -next;
+setTransform:{"position":{"x":-500,"y":650},"scale":{"x":1.07,"y":1.07}} -target=4 -duration=1100 -next;
+changeFigure:manga/bb1bg.webp -id=bbg1 -transform={"position":{"x":-800,"y":-1100},"scale":{"x":1.8,"y":1.8},"alpha":0,"blur":10} -next;
+changeFigure:manga/bb1.webp -id=bb1 -transform={"position":{"x":-700,"y":-1300},"scale":{"x":0.9,"y":0.9},"alpha":0} -next;
+changeFigure:manga/bb2bg.webp -id=bbg2 -transform={"position":{"x":1000,"y":-600},"scale":{"x":1.3,"y":1.3},"alpha":0,"blur":10} -next;
+changeFigure:manga/bb2.webp -id=bb2 -transform={"position":{"x":1000,"y":-650},"scale":{"x":0.9,"y":0.9},"alpha":0} -next;
+:如果高松灯在场的话，哪怕这只可爱温顺的小企鹅完全看不懂这两人在演什么神秘拉扯戏码，估计也能读懂周围人那极其微妙的脑电波——比如说，一阵阵的“呜哇”什么的。
+changeFigure: -id=1 -next;
+changeFigure: -id=2 -next;
+changeFigure: -id=3 -next;
+changeFigure: -id=4 -next;
+changeBg:none -next;
+setTransform:{"position":{"x":-500,"y":-1300},"scale":{"x":0.9,"y":0.9}} -target=bb1 -duration=800 -next;
+setTransform:{"position":{"x":-400,"y":-1100},"scale":{"x":1.8,"y":1.8},"blur":10} -target=bbg1 -duration=800 -next;
+;(´∀`):呜哇，好婆妈的两个女孩子，还好不是我女儿，不然便样衰了……
+:——这是刚刚捞金鱼小摊的老板，没能说出口的话语。
+setTransform:{"position":{"x":620,"y":-600},"scale":{"x":1.3,"y":1.3},"blur":10} -target=bbg2 -duration=0 -next;
+setTransform:{"position":{"x":400,"y":-650},"scale":{"x":0.9,"y":0.9}} -target=bb2 -duration=0 -next;
+;(#ﾟﾛﾟ#):呜哇，好婆妈的两个女孩子，买个单还要打情骂俏一番，还好不是我女儿，不然便样衰了……
+:——这是章鱼烧小摊的店员，不敢对着自己的顾客说出口的话语。
+setTransform:{"position":{"x":-500,"y":-1300},"scale":{"x":0.9,"y":0.9},"blur":10} -target=bb1 -duration=800 -next;
+setTransform:{"position":{"x":400,"y":-650},"scale":{"x":0.9,"y":0.9},"blur":10} -target=bb2 -duration=800 -next;
+changeFigure:魔法纪录-路人Live2D包/800100/model.model3.json -id=5 -next -motion=Motion -expression=mtn_ex_030.exp3.json;
+(◍╹ｘ╹◍):呜哇，好婆妈的两个大姐姐，还让我的妈妈双手黏一起分不开了， -notend -fontSize=default;
+changeFigure:魔法纪录-路人Live2D包/800100/model.model3.json -id=5 -next -expression=mtn_ex_010.exp3.json;
+还好不是我的妈妈们，不然便样衰了。 -concat -fontSize=default;
+setTransform:{"position":{"x":620,"y":-600},"scale":{"x":1.3,"y":1.3},"alpha":0,"blur":10} -target=bbg2 -duration=800 -next;
+setTransform:{"position":{"x":-400,"y":-1100},"scale":{"x":1.8,"y":1.8},"alpha":0,"blur":10} -target=bbg1 -duration=800 -next;
+setTransform:{"position":{"x":-500,"y":-1300},"scale":{"x":0.9,"y":0.9},"alpha":0,"blur":10} -target=bb1 -duration=800 -next;
+setTransform:{"position":{"x":400,"y":-650},"scale":{"x":0.9,"y":0.9},"alpha":0,"blur":10} -target=bb2 -duration=800 -next;
+setTransform:{"position":{"x":-1000,"y":0},"alpha":0} -target=5 -duration=1050 -next;
+:——这是路过的小女孩，出场率略胜于《台场海滨公园旅游观光指南》。
+changeFigure: -id=bb1 -next;
+changeFigure: -id=bb2 -next;
+changeFigure: -id=bbg1 -next;
+changeFigure: -id=bbg2 -next;
+changeFigure: -id=5 -next;
+changeBg:a台场/1st_2/1st_paint.jpg -next;
+changeFigure:魔法纪录-路人Live2D包/801601/model.model3.json -left -id=6 -transform={"position":{"x":0,"y":100},"scale":{"x":1.2,"y":1.2}} -next -motion=Motion -expression=mtn_ex_030.exp3.json;
+(´◒`):呜哇，好婆妈的两个女孩子，画个肖像画都要十指紧扣……
+changeFigure:魔法纪录-路人Live2D包/801601/model.model3.json -id=6 -transform={"position":{"x":-120,"y":100}} -next -motion=Motion -expression=mtn_ex_011.exp3.json;
+ヽ(＊>∇<)ﾉ:嘻嘻，看到如此珍贵的画面，哪怕是死也值回票价了呀！”
+:——这是台场一丁目商店街一个网红打卡热点画室的店长，主要的业务是给游客用非常卡通的画风画个速写人像。
+changeFigure:none -id=6 -next;
+changeBg:a台场/1st_paintout.jpg -next;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya10 -next -motion=angry01_anon -expression=smile03_anon;
+changeFigure:sakifish.webp -id=eee -transform={"position":{"x":-220,"y":270},"scale":{"x":0.4,"y":0.4},"alpha":0,"rotation":1} -next;
+changeFigure:sk_for_hold/340_casual-2023_glass/model.json -id=nya10f -next -motion=angry01_anon;
+若麦:呜哇，好婆妈啊老大……
+:——这是祐天寺若麦。
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya10 -next -motion=serious01_anon -expression=smile03;
+setTransform:{"position":{"x":-200,"y":280},"scale":{"x":0.35,"y":0.35},"alpha":1,"rotation":1} -target=eee -duration=1000 -next;
+changeFigure:sk_for_hold/340_casual-2023_glass/model.json -id=nya10f -next -motion=serious01_anon -expression=smile03;
+:手里拿着一串章鱼烧的她，已经跟了粉蓝二人组一路——这一路上，那两个人肆无忌惮的闪光弹大放送着实是对她造成了不少的精神伤害。
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya10 -next -motion=nf_right01_anon;
+setTransform:{"position":{"x":120,"y":150},"scale":{"x":0.32,"y":0.32},"alpha":0,"rotation":0.6} -target=eee -duration=0 -next;
+changeFigure:sk_for_hold/340_casual-2023_glass/model.json -id=nya10f -next -motion=nf_right01_anon;
+:看到两人拐入一家零食店，祐天寺若麦也不敢追得太紧，而是一边享用手里的章鱼烧、一边停在了刚刚二人所在的画室前：
+changeFigure: -id=nya10 -next;
+changeFigure: -id=eee -next;
+changeFigure:none -id=nya10f -next;
+changeBg:a台场/1st_2/1st_paint.jpg -next -transform={"position":{"y":-220},"scale":{"x":1.2,"y":1.2}};
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya11 -next -motion=thinking03_anon -expression=smile02;
+:粉发的少女与蓝发的少女手牵着手的模样，在画师那不算精湛但也算是足够熟能生巧的画技下…… -fontSize=default;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya11 -next -motion=nf01 -expression=surprised01;
+setTransform:{"position":{"x":120}} -target=nya11 -duration=0 -next;
+:好吧，一点也不栩栩如生，怪不得没被带走。 -fontSize=default;
+changeFigure:魔法纪录-路人Live2D包/801601/model.model3.json -left -id=6 -transform={"position":{"x":-320,"y":50},"scale":{"x":1.2,"y":1.2}} -next -motion=Motion -expression=mtn_ex_010.exp3.json;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya11 -next -motion=surprised01_anon -expression=smile03_anon;
+ฅ(°ω°ฅ):啊，客人也是要来写生的么？
+changeFigure:魔法纪录-路人Live2D包/801601/model.model3.json -id=6 -next -expression=mtn_ex_050.exp3.json;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya11 -next -motion=bye01_anon -expression=smile03;
+若麦:不不，我只是路过看看而已。
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya11 -next -motion=smile03 -expression=turn_L_Boby;
+setTransform:{"position":{"x":-1300},"scale":{"x":1.2,"y":1.2},"alpha":0} -target=6 -duration=1200 -next;
+:——是的，只是路过、也只是看看。
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya11 -next -motion=smile03_anon -expression=smile03;
+:祐天寺若麦知道，对于那两个人来说，她只是路人、也只能在旁边看看。|她无权插手、干预丰川祥子的恋情，问题是…… -fontSize=default;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya11 -next -motion=cry01 -expression=thinking02_anon;
+若麦:……总觉得像是在做梦一样诶。
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya11 -next -motion=thinking02_anon -expression=thinking02_anon;
+changeFigure:none -id=6 -next;
+:墨镜底下的粉瞳，闪过了一道微妙的色彩：那是介于困惑与担忧之间的、不好定义的感情。
+changeBg:ave mujica_stage7.webp -next;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya11 -next -motion=nnf_left01 -expression=thinking02_anon;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_rip/model.json -left -id=ssk -transform={"position":{"x":-400},"alpha":0.8} -next -motion=angry06 -expression=R_boby;
+:——那个丰川祥子，居然会和女孩子谈恋爱？
+changeBg:bg00553.webp -next;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya11 -next -motion=angry01;
+changeFigure:none -id=ssk -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -id=ssk1 -transform={"position":{"x":-400,"y":0},"alpha":0.8} -next -motion=bye01 -expression=thinking02;
+:——那个丰川祥子，居然还能露出这种“热恋中的女孩子”特有的表情？
+changeBg:none -next;
+changeFigure: -id=ssk1 -next;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya11 -next -motion=nf02_anon -expression=serious01_anon;changeFigure:sakifish.webp -id==eee2 -transform={"position":{"x":-95,"y":280},"scale":{"x":0.35,"y":0.35},"alpha":0,"rotation":0.88} -next;
+changeFigure:sk_for_hold/340_casual-2023_glass/model.json -id=nya11f -transform={"position":{"x":120},"alpha":0} -next -motion=nf01;
+:——那可是丰川祥子诶？
+changeBg:a台场/1st_paintout.jpg -next -transform={"position":{"x":-300,"y":100},"scale":{"x":2.6,"y":2.6}};
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya11 -next -motion=sad01 -expression=thinking03_anon;
+changeFigure:sk_for_hold/340_casual-2023_glass/model.json -id=nya11f -next -motion=sad01 -expression=default;
+setTransform:{"position":{"x":-95,"y":280},"scale":{"x":0.35,"y":0.35},"alpha":1,"rotation":0.88} -target=eee2 -duration=950 -next;
+setTransform:{"position":{"x":120},"alpha":1} -target=nya11f -duration=0 -next;
+:祐天寺若麦扶了扶眼镜：她总觉得有种不安的感觉。
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya11 -next -motion=nf03_anon -expression=thinking01_anon;
+changeFigure:sk_for_hold/340_casual-2023_glass/model.json -id=nya11f -next -motion=nf03_anon -expression=thinking01_anon;
+setTransform:{"position":{"x":40,"y":880},"scale":{"x":0.35,"y":0.35},"alpha":1,"rotation":1.88} -target=eee2 -duration=0 -next;
+:她有些担心这份恋情会在未来的某一天影响Ave Mujica的运作——作为在互联网上打滚多年的“老江湖”，她难免会想起一些关于“偶像恋情曝光”的新闻……
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya11 -next -motion=nf01 -expression=serious01_anon;
+setTransform:{"position":{"x":25,"y":300},"scale":{"x":0.35,"y":0.35},"rotation":1.2} -target=eee2 -duration=0 -next;
+changeFigure:sk_for_hold/340_casual-2023_glass/model.json -id=nya11f -next -motion=nf01 -expression=thinking01_anon;
+:以及那些事件的后果。
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya11 -next -motion=nnf_left01 -expression=kime01_anon;
+setTransform:{"position":{"y":1300},"scale":{"x":0.35,"y":0.35},"rotation":1.8} -target=eee2 -duration=0 -next;
+changeFigure:sk_for_hold/340_casual-2023_glass/model.json -id=nya11f -next -motion=nf_left01 -expression=thinking01_anon;
+:……不不不，Ave Mujica也不算是“那种”偶像团体，倒也没必要那么担心……
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya11 -next -motion=serious01 -expression=surprised01;
+changeFigure:sk_for_hold/340_casual-2023_glass/model.json -id=nya11f -next -motion=serious01 -expression=thinking01_anon;
+若麦:……。
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya11 -next -motion=angry01_anon -expression=smile03_anon;
+changeFigure:sk_for_hold/340_casual-2023_glass/model.json -id=nya11f -next -motion=angry01_anon -expression=thinking01_anon;
+:……需要担心的，真的是【粉丝】么？
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya11 -next -motion=serious01_anon -expression=serious01_anon;
+setTransform:{"position":{"x":-20,"y":240},"scale":{"x":0.35,"y":0.35},"rotation":1.5} -target=eee2 -duration=0 -next;
+changeFigure:sk_for_hold/340_casual-2023_glass/model.json -id=nya11f -next -motion=serious01_anon -expression=thinking01_anon;
+:这位不靠谱的成年人露出了有些靠谱的严肃表情，咬了口章鱼烧——啊， -notend -fontSize=default;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya11 -next -expression=smile03_anon;
+setTransform:{"position":{"y":220},"scale":{"x":0.33,"y":0.33},"alpha":0,"rotation":1.5} -target=eee2 -duration=0 -next;
+:已经凉掉了啊。 -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya11 -next -motion=smile03 -expression=default;
+changeFigure:sk_for_hold/340_casual-2023_glass/model.json -id=nya11f -next -motion=smile03 -expression=thinking01_anon;
+changeFigure:none -id=eee2 -next;
+若麦:……哈啊，喵梦亲我还是别继续干蠢事了吧。
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk11 -transform={"position":{"x":1300},"scale":{"x":1.05,"y":1.05},"alpha":0} -next -motion=idle01;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya11 -next -motion=kime01_anon;
+changeFigure: -id=nya11f -next -motion=kime01_anon -expression=smile04_anon;
+:上述的所有事情，都不是她所应该担心的。
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya11 -next -motion=nf02 -expression=smile01;
+:她只需要打好自己的鼓、等待丰川祥子兑现她当时的承诺就行了。
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya11 -next -motion=smile01 -expression=default;
+
+:没错，就是这样——想到这里，鼓手突然觉得心情轻松了很多、刚刚那份难以言喻的不安感也消散了大半。
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya11 -next -motion=nf_left01_anon -expression=smile02;
+:直到——
+bgm: -enter=450;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya11 -next -motion=surprised02 -expression=turn_R;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk11 -next -motion=nnf_left01 -expression=smile02;
+setTransform:{"position":{"x":850},"scale":{"x":0.98,"y":0.98},"alpha":1} -target=uk11 -duration=750 -next;
+初华:祐天寺小姐？
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya11 -next -motion=nf_right01 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk11 -next -expression=K_surprised01;
+若麦:喵！？
+changeBg:none -next;
+changeFigure:none -id=nya11 -next -motion=nf02_anon -expression=serious01_anon;
+changeFigure:none -id=uk11 -next;
+:——直到，那份【不安感】亲自找上门来。
+:……………………………………
+changeScene:3_01/gravity.txt

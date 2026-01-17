@@ -1,0 +1,122 @@
+bgm:10.one moment.mp3;
+changeBg:a台场/inner12.jpg -next -transform={"position":{"x":-200,"y":0},"scale":{"x":1,"y":1}};
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy1 -transform={"position":{"x":-300,"y":-50},"scale":{"x":0.76,"y":0.76}} -next -motion=surprised01 -expression=turn_R_Body -bounds=-100,0,100,100;
+素世:……。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy1 -next -motion=serious02 -expression=turn_R_Body;
+:……仔细一看，这神社旁边还有个扭蛋机一样的玩意儿——居然是求签筒。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy1 -next -motion=smile03;
+:准备下楼的长崎素世，总觉得心情有些微妙：在这样的神社许愿，怎么想怎么不靠谱啊…… -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy1 -next -motion=angry02 -expression=smile03;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk1 -transform={"position":{"x":2300,"y":-120},"scale":{"x":0.68,"y":0.68},"alpha":0} -next;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya1 -transform={"position":{"x":1900,"y":-120},"scale":{"x":0.68,"y":0.68},"alpha":0} -next;
+素世:……算了。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy1 -next -motion=nf_right01 -expression=smile03;
+:闲着也是闲着。
+setTransform:{"position":{"x":-220,"y":-50},"scale":{"x":0.745,"y":0.745}} -target=sy1 -duration=1000 -next;
+:素世走向了扭蛋机——呸，是求签……呃，求签扭蛋机？
+setTransform:{"position":{"x":600,"y":-100},"scale":{"x":0.87,"y":0.87}} -target=nya1 -duration=1000 -next;
+setTransform:{"position":{"x":1300,"y":-100},"scale":{"x":0.85,"y":0.85}} -target=uk1 -duration=1000 -next;
+setTransform:{"position":{"x":-2370,"y":570},"scale":{"x":2.3,"y":2.3},"rotation":-0.04} -target=bg-main -duration=1000 -next;
+setTransform:{"position":{"x":-3900,"y":400},"scale":{"x":1.5,"y":1.5}} -target=sy1 -duration=1000 -next;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya1 -next -motion=nf_left01 -expression=thinking01_anon;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk1 -next -motion=K_nf_left01 -expression=K_smile01;
+:|然而，有两道身影似乎比她还要快一步、捷足先登了： -concat;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya1 -next -motion=thinking01_anon -expression=smile03;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk1 -next -motion=K_nf01 -expression=smile05_sk;
+若麦:这神社总给人一种随意的感觉啊……
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya1 -next -motion=nf_right01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk1 -next -motion=nf03 -expression=smile03_sk;
+初华:喵梦亲，不可以对神明大人不敬哦。
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya1 -next -motion=nf03 -expression=turn_R;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk1 -next -motion=K_nnf03 -expression=thinking01_sk;
+若麦:诶，初子是会信鬼神之说的类型嘛？
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya1 -next -motion=nnf04 -expression=turn_R;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk1 -next -motion=K_nf01 -expression=smile05_sk;
+初华:唔~怎么说呢——
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy1 -next -motion=thinking01 -expression=serious02;
+setTransform:{"position":{"x":1700,"y":-30},"scale":{"x":0.57,"y":0.57},"alpha":0} -target=nya1 -duration=0 -next;
+setTransform:{"position":{"x":2200,"y":-30},"scale":{"x":0.55,"y":0.55},"alpha":0} -target=uk1 -duration=0 -next;
+setTransform:{"position":{"x":-200,"y":0},"scale":{"x":1,"y":1},"alpha":0} -target=bg-main -duration=0 -next;
+setTransform:{"position":{"x":-220,"y":-50},"scale":{"x":0.77,"y":0.77}} -target=sy1 -duration=0 -next;
+:很眼熟，是刚刚在楼下跟自己擦肩而过的那两人——长崎素世停下脚步，远远地打量着二人。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy1 -next -expression=surprised01;
+:不对。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy1 -next -motion=nf03 -expression=thinking01;
+:长崎素世眯了眯眼：她应该在别的地方见过这两个人。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy1 -next -motion=nnf_right01;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya1 -next -motion=nf_left01 -expression=smile02;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk1 -next -motion=K_nf_left01 -expression=smile05_sk;
+setTransform:{"position":{"x":100,"y":-100},"scale":{"x":0.96,"y":0.96}} -target=nya1 -duration=1000 -next;
+setTransform:{"position":{"x":1000,"y":-100},"scale":{"x":0.94,"y":0.94}} -target=uk1 -duration=1000 -next;
+setTransform:{"position":{"x":-2400,"y":870},"scale":{"x":2.5,"y":2.5},"rotation":-0.04} -target=bg-main -duration=1000 -next;
+setTransform:{"position":{"x":-3900,"y":400},"scale":{"x":1.5,"y":1.5}} -target=sy1 -duration=1000 -next;
+若麦:喔喔，找到了，这就是网上说的那个扭蛋机款式的求签筒—— -fontSize=default;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya1 -next -motion=surprised02 -expression=turn_L_Boby;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk1 -next -motion=K_nf01;
+真的好随意啊！ -fontSize=default;
+setTransform:{"position":{"x":1700,"y":-30},"scale":{"x":0.57,"y":0.57},"alpha":0} -target=nya1 -duration=0 -next;
+setTransform:{"position":{"x":2200,"y":-30},"scale":{"x":0.55,"y":0.55},"alpha":0} -target=uk1 -duration=0 -next;
+setTransform:{"position":{"x":-200,"y":0},"scale":{"x":1,"y":1},"alpha":0} -target=bg-main -duration=0 -next;
+setTransform:{"position":{"x":-220,"y":-50},"scale":{"x":0.77,"y":0.77}} -target=sy1 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy1 -next -motion=nf_right01 -expression=smile03;
+changeFigure:bg/bg00918.webp -id=bg4 -transform={"position":{"x":480,"y":600},"scale":{"x":4.5,"y":4.5},"alpha":0,"blur":15} -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy4 -transform={"position":{"x":800,"y":100},"scale":{"x":0.73,"y":0.73},"alpha":0,"blur":15} -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -transform={"position":{"x":-200,"y":200},"scale":{"x":0.73,"y":0.73},"alpha":0,"blur":15} -next;
+:这个戴着墨镜的、稍微有些聒噪的紫发女性……
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=smile04 -expression=turn_Down_look;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy4 -next -motion=nf_left01 -expression=serious02;
+setTransform:{"position":{"x":-220,"y":-50},"scale":{"x":0.77,"y":0.77},"alpha":0} -target=sy1 -duration=0 -next;
+setTransform:{"position":{"x":470,"y":600},"scale":{"x":4.7,"y":4.7},"alpha":1} -target=bg4 -duration=1400 -next;
+setTransform:{"position":{"x":-230,"y":200},"scale":{"x":0.75,"y":0.75},"alpha":1,"blur":0} -target=an4 -duration=1400 -next;
+setTransform:{"position":{"x":800,"y":100},"scale":{"x":0.75,"y":0.75},"alpha":1,"blur":0} -target=sy4 -duration=1400 -next;
+:【“早上好喵姆喵姆——”】
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=surprised01_sk -expression=smile03;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy4 -next -motion=angry02 -expression=turn_L_Body;
+setTransform:{"position":{"x":400,"y":100},"scale":{"x":0.75,"y":0.75}} -target=sy4 -duration=1100 -next;
+:【“……爱音，你看视频的时候能别外放么？”】
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=nf01;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy4 -next -motion=nf05 -expression=smile03;
+setTransform:{"position":{"x":400,"y":200},"scale":{"x":0.75,"y":0.75}} -target=sy4 -duration=0 -next;
+:【“啊，抱歉抱歉，忘记戴上耳机了——”】
+:……对了，是以前某次排练的休息时间里、她碰巧从爱音的手机里看到过的……
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=nf_right01 -expression=smile04;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy4 -next -motion=thinking01 -expression=turn_L_Body;
+:【“这是谁？”】
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=smile05_ako -expression=turnR10;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy4 -next -motion=smile01 -expression=turn_L_Body;
+:【“啊，是我非常喜欢的一个主播哦！叫作——”】
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy1 -next -motion=nf01 -expression=thinking01;
+setTransform:{"position":{"x":-220,"y":-50},"scale":{"x":0.77,"y":0.77},"alpha":1} -target=sy1 -duration=1400 -next;
+setTransform:{"position":{"x":470,"y":600},"scale":{"x":4.7,"y":4.7},"alpha":0,"blur":15} -target=bg4 -duration=1000 -next;
+setTransform:{"position":{"x":-230,"y":200},"scale":{"x":0.75,"y":0.75},"alpha":0,"blur":15} -target=an4 -duration=1000 -next;
+setTransform:{"position":{"x":400,"y":200},"scale":{"x":0.75,"y":0.75},"alpha":0,"blur":15} -target=sy4 -duration=1000 -next;
+:也不对。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy1 -next -motion=odoodo01 -expression=turn_Down_look;
+:素世皱了皱眉，她应该在【别的地方】也见过这个人——
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy1 -next -motion=nnf_right01 -expression=surprised01;
+setTransform:{"position":{"x":-100,"y":-100},"scale":{"x":0.96,"y":0.96}} -target=nya1 -duration=1000 -next;
+setTransform:{"position":{"x":800,"y":-100},"scale":{"x":0.94,"y":0.94}} -target=uk1 -duration=1000 -next;
+setTransform:{"position":{"x":-2600,"y":870},"scale":{"x":2.5,"y":2.5},"rotation":-0.04} -target=bg-main -duration=1000 -next;
+setTransform:{"position":{"x":-4000,"y":400},"scale":{"x":1.5,"y":1.5}} -target=sy1 -duration=1000 -next;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya1 -next -motion=thinking03_anon -expression=turn_R;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk1 -next -motion=nf03 -expression=surprised01;
+初华:啊。
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya1 -next -motion=thinking03_anon -expression=surprised01;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk1 -next -motion=K_nnf_left01 -expression=thinking01_sk;
+:——长崎素世的思绪被打断了：因为，那个戴着鸭舌帽、留着金色短发的少女，似乎注意到了她的视线、看向了这边。
+changeFigure:none -id=sy4 -next;
+changeFigure:none -id=an4 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy1 -next -motion=nf_left01 -expression=thinking01;
+setTransform:{"position":{"x":1700,"y":-30},"scale":{"x":0.6,"y":0.6},"alpha":0} -target=nya1 -duration=0 -next;
+setTransform:{"position":{"x":2200,"y":-30},"scale":{"x":0.59,"y":0.59},"alpha":0} -target=uk1 -duration=0 -next;
+setTransform:{"position":{"x":400,"y":0},"scale":{"x":1.4,"y":1.4},"alpha":1} -target=bg-main -duration=0 -next;
+setTransform:{"position":{"x":-220,"y":-200},"scale":{"x":0.9,"y":0.9}} -target=sy1 -duration=0 -next;
+素世:……。
+setTransform:{"position":{"x":-340,"y":-200},"scale":{"x":0.92,"y":0.92},"alpha":0} -target=sy1 -duration=1000 -next;
+:长崎素世不动声色地转过身、迈开脚步——她不打算去求签了。
+changeFigure: -id=sy1 -next;
+changeFigure: -id=nya1 -next;
+changeFigure:none -id=uk1 -next;
+changeFigure:none -id=bg4 -next;
+changeBg:none -next;
+changeScene:3_01/memory.txt

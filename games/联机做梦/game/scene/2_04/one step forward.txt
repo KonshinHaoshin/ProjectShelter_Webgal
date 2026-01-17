@@ -1,0 +1,142 @@
+changeBg:bg00394.webp -next -transform={"position":{"x":-510,"y":-450},"scale":{"x":1.4,"y":1.4},"blur":55};
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=ann -next -motion=smile01 -expression=default;
+setTransform:{"position":{"y":-400},"scale":{"x":1,"y":1},"blur":35} -target=ann -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_rip/model.json -left -id=obb -next -motion=surprised01 -expression=surprised01;
+setTransform:{"position":{"x":-600,"y":-300},"scale":{"x":0.95,"y":0.95},"alpha":0.8} -target=obb -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -right -id=jhh -next -motion=nnf_left01 -expression=surprised01;
+setTransform:{"position":{"x":600,"y":-300},"scale":{"x":0.95,"y":0.95},"alpha":0.8} -target=jhh -duration=0 -next;
+changeFigure:sakiko_small/model.json -id=sox -transform={"position":{"x":120,"y":100},"scale":{"x":0.9,"y":0.886},"alpha":0.9} -next -motion=angry07 -expression=default;
+changeFigure:anon_small.webp -id=small -transform={"position":{"x":100,"y":500},"scale":{"x":0.43,"y":0.43},"alpha":0.9,"rotation":0.9} -next;
+bgm:none;
+？:异议阿里！
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_rip/model.json -id=obb -next -motion=nf_right01 -expression=surprised02;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -right -id=jhh -next -motion=serious01 -expression=surprised02;
+:——就像是不小心溜到了月之森的菌子一样，丰川祥子看到了第三道幻影。|那是【本能】。 -fontSize=default;
+changeFigure:sakiko_small/model.json -id=sox -next -motion=serious01_rui -expression=serious01;
+bgm:21.moon_undeerwater.mp3 -enter=1200;
+:保持着孩童的模样、坐在千早爱音大腿上的蓝发双马尾小女孩，怀里还抱着一个小小的、粉发少女的玩偶。
+changeFigure:sakiko_small/model.json -id=sox -next -motion=nf01 -expression=thinking02;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_rip/model.json -id=obb -next -expression=serious02;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jhh -next -motion=nf_left01 -expression=odoodo01;
+setTransform:{"position":{"x":60},"scale":{"x":0.43,"y":0.43},"alpha":0.9,"rotation":0.7} -target=small -duration=0 -next;
+本能:呃啊本能本能，事已至此，谈个恋爱怎么你了。
+changeFigure:sakiko_small/model.json -id=sox -next -motion=nf_right01 -expression=serious02;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jhh -next -motion=nnf01;
+感性:丰川祥子终究无法回首过去、就像她无法收下高松灯递过来的笔记簿一样。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_rip/model.json -id=obb -next -motion=nf01 -expression=sigh01;
+changeFigure:sakiko_small/model.json -id=sox -next -motion=nf_left01_rui -expression=odoodo01;
+理性:丰川祥子终究无法拥抱未来，从她将乐队当做“工具”看待的第一天开始就注定会有这样的结局。 -fontSize=default;
+changeFigure:sakiko_small/model.json -id=sox -next -motion=sad02 -expression=Down_look;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jhh -next -motion=sad01 -expression=smile03;
+setTransform:{"position":{"x":470,"y":-300},"scale":{"x":0.95,"y":0.95},"alpha":0.7} -target=jhh -duration=1200 -next;
+setTransform:{"position":{"x":50},"scale":{"x":0.43,"y":0.39},"rotation":0.6} -target=small -duration=0 -next;
+感性:这是罪。
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_rip/model.json -left -id=obb -next -motion=smirk -expression=sigh02;
+setTransform:{"position":{"x":-550,"y":-300},"scale":{"x":0.95,"y":0.95},"alpha":0.7} -target=obb -duration=0 -next;
+理性:这是孽。
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_rip/model.json -id=obb -next -motion=serious02 -expression=serious02;
+:太阳和月亮不该在一起，迷子乐队的前世今生、丰川祥子和【那几个人】之间的因缘纠缠，都会让粉与蓝的二人无法光明正大地登上舞台——
+changeFigure:sakiko_small/model.json -id=sox -next -motion=kime01 -expression=thinking01;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_rip/model.json -id=obb -next -motion=nnf03 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jhh -next -motion=nf_left01 -expression=surprised01;
+setTransform:{"position":{"x":25},"scale":{"x":0.43,"y":0.43},"alpha":0.9,"rotation":0} -target=small -duration=0 -next;
+本能:真的是这样吗？ -fontSize=default;
+changeFigure:sakiko_small/model.json -id=sox -next -motion=humming01_kokoro -expression=smile02;
+setTransform:{"position":{"x":25,"y":240},"scale":{"x":0.43,"y":0.43},"alpha":0.9,"rotation":0} -target=small -duration=0 -next;
+:——幼小的祥子，举起了手中的爱音玩偶：
+changeBg:bg00707 (1).webp -next;
+setTransform:{"position":{"x":-500,"y":-100},"scale":{"x":1.4,"y":1.4},"blur":10} -target=bg-main -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=ann_past -next -motion=kandou01 -expression=smile04;
+changeFigure: -id=obb -next;
+changeFigure: -id=jhh -next;
+changeFigure:none -id=sox -next;
+changeFigure:none -id=ann -next;
+changeFigure:none -id=small -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=ann_now -transform={"alpha":0} -next -motion=nf04 -expression=smile01_rui;
+:【“那么，可以让我成为Oblivionis小姐的头号粉丝么~？”】changeBg:bg00394.webp  -next -transform={"position":{"x":-510,"y":-300},"scale":{"x":1.4,"y":1.4},"blur":15};
+changeFigure: -id=ann_past -next;
+setTransform:{"alpha":1} -target=ann_now -duration=0 -next;
+:——。
+:丰川祥子抬起头，看向了坐在对面的粉发少女。|千早爱音只是保持着淡淡的笑容、安静地等待着。 -fontSize=default;
+setTransform:{"position":{"x":300,"y":-300},"scale":{"x":1.4,"y":1.4},"alpha":0,"blur":15} -target=bg-main -duration=10 -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=thinking01 -expression=default;
+changeFigure:none -id=ann_now -next;
+:——这是梦、还是现实？
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=nf01 -expression=thinking01;
+:是现实。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=odoodo01 -expression=serious02;
+:因为是现实，所以不能为所欲为；因为是现实，所以不能放纵自己。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -expression=sad01;
+:……但是，凭什么？
+changeBg:none -next;
+changeFigure:none -next;
+changeFigure:sakiko_small/model.json -id=sox -transform={"position":{"x":20},"scale":{"x":0.9,"y":0.886},"alpha":0.9} -next -motion=serious02 -expression=angry07;changeFigure:anon_small.webp -id==small -transform={"position":{"x":-160,"y":-400},"scale":{"x":0.43,"y":0.4},"alpha":0.9,"rotation":-0.2} -next;
+本能:凭什么。
+changeFigure:sakiko_small/model.json -id=sox -next -motion=angry01 -expression=angry02;
+setTransform:{"position":{"x":-60,"y":400},"scale":{"x":0.43,"y":0.43},"alpha":0.9,"rotation":0.2} -target=small -duration=0 -next;
+本能:人饿了就要吃饭，人困了就要睡觉——那么，人想要谈恋爱的时候，谈个恋爱怎么了？
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -right -id=jhh -transform={"position":{"x":300,"y":-320},"scale":{"x":0.95,"y":0.95},"alpha":0.9} -next -motion=nnf04 -expression=smile03;
+感性:丰川祥子无法接受这样的幸福。
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_rip/model.json -id=obb -transform={"position":{"x":-770,"y":-320},"alpha":0.9} -next -motion=nf01 -expression=serious02;
+changeFigure:sakiko_small/model.json -id=sox -next -motion=angry03 -expression=serious02;
+理性:丰川祥子没有资格获得这样的幸福。
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_rip/model.json -id=obb -next -motion=sigh02;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jhh -next -motion=odoodo01 -expression=smile03;
+changeFigure:sakiko_small/model.json -id=sox -next -motion=thinking02 -expression=serious02;
+setTransform:{"position":{"x":-60},"scale":{"x":0.43,"y":0.41},"alpha":0.9,"rotation":0.26} -target=small -duration=0 -next;
+本能:但爱音说了要当我的头号粉丝。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=zb_odoodo01 -expression=default;
+changeFigure:none -id=obb -next;
+changeFigure:none -id=jhh -next;
+changeFigure:none -id=sox -next;
+changeFigure:none -id=small -next;
+:——她说了，喜欢我。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=sigh01 -expression=shame01;
+祥子:……哈啊。
+:丰川祥子叹了口气，她感觉自己的脑内不断重复着“对、对吗？”、“对的对的”、“哦不对不对”这样的纠结，要把自己给拉扯麻了。
+changeBg:none -next;
+changeFigure:none -next;
+changeFigure:sakiko_small/model.json -id=sox -transform={"position":{"x":100},"scale":{"x":0.9,"y":0.886}} -next -motion=smile06 -expression=smile03changeFigure:anon_small.webp -id=d=small -transform={"position":{"y":450},"scale":{"x":0.43,"y":0.43},"alpha":0.9,"rotation":-0.1} -next;
+:直到本能这么说：呃啊，本能本能——丰川祥子，你不过也只是一个普通的女高中生而已。
+changeFigure:sakiko_small/model.json -id=sox -next -motion=kime01 -expression=default;
+setTransform:{"position":{"x":0,"y":400},"scale":{"x":0.5,"y":0.5},"alpha":0,"rotation":0} -target=small -duration=1200 -next;
+本能:普通的女高中生或许没有能力承担别人的人生，但普通的女高中生谈个恋爱绝对是理所当然的事情。 -fontSize=defaultchangeBg:bg00394.webp g -next -transform={"position":{"x":300,"y":-300},"scale":{"x":1.4,"y":1.4},"blur":15};
+changeFigure:none -id=sox -next;
+changeFigure:none -id=small -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=thinking02 -expression=sigh01;
+:普通，而理所当然。|少女细细咀嚼着这两个词汇，然后将它们连同理性和感性一同吞下。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -expression=serious02;
+:……仅此一次。
+:丰川祥子并不是一个容易上头的人，经过丰川家的变故之后，她自认为已经成熟了不少、自己也不会成为什么任性的小女孩。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=nf01_rui -expression=smile03;
+:但是，仅此一次。|本能将手中的爱音玩偶递给了她，而她选择了收下—— -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=smile03;
+:高傲、高洁、高高在上，有些标签是旁人给她贴上的，有些则是她为了保护自己而主动贴在脑门上的。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -expression=smile05;
+:唯有这次，她任由本能撕下这些伪装、露出藏在底下的……她本以为再也没有机会展露出来的【任性】。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=zb_odoodo01 -expression=shame01;
+:真的，仅此一次。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=kime01 -expression=default;
+祥子:千早爱音。
+:幻觉消散，丰川祥子握着的不再是粉色的玩偶、而是爱音的手：
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=kime01_rui -expression=shame02;
+祥子:——来跟我定下契约吧。
+:这是丰川祥子，她想要【仅此一次】地任性一番。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=ann -next -motion=kandou01 -expression=smile04;
+changeFigure: -next;
+setTransform:{"position":{"x":-510,"y":-300},"scale":{"x":1.4,"y":1.4},"blur":15} -target=bg-main -duration=200 -next;
+爱音:……可以哦？
+changeFigure:羽泽 鸫/010_arbeitmodel.json -transform={"position":{"x":300},"alpha":0} -next;
+:这是千早爱音，她只是【一如既往】地顺从祥子。
+changeFigure: -left -id=ann -next;
+setTransform:{"position":{"x":-1550,"y":600},"scale":{"x":2.2,"y":2.2},"blur":0} -target=bg-main -duration=0 -next;
+changeFigure:羽泽 鸫/010_arbeitmodel.json -next -motion=surprised01 -expression=smile02;
+setTransform:{"position":{"x":300},"alpha":1} -target=fig-center -duration=0 -next;
+鸫:哇、哇哦，现在的女孩子玩真大，还是我们羽丘的学生，这下样衰了。 -fontSize=default;
+:——这是某位不愿意透露姓名的咖啡店店员，尽管她的姓氏就写在咖啡店的招牌上。
+changeBg:none -next;
+changeFigure:none -next;
+:至此，千早爱音的告白没有完成；但丰川祥子的契约，却就这么成立了。
+bgm: -enter=1200;
+:…………………………………
+changeScene:2_04/in our dream.txt

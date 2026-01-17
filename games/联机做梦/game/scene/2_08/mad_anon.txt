@@ -1,0 +1,18 @@
+changeFigure:pink.webp -id=hbrlb -transform={"position":{"x":-100},"scale":{"y":2},"alpha":0.8,"rotation":-0.15} -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=hbran -transform={"position":{"x":-450,"y":-250},"scale":{"x":1.25,"y":1.25}} -next -motion=angry03 -expression=shame02;
+changeFigure:柱子/herb2R.webp -id=hbrbL -transform={"position":{"x":-570,"y":700},"scale":{"x":2,"y":2},"rotation":0,"blur":0} -next;
+changeFigure:柱子/herb2L.webp -id=hbrbR -transform={"position":{"x":-100,"y":700},"scale":{"x":2,"y":2},"rotation":0,"blur":0} -next;
+changeFigure:white.webp -id=hbrwL -transform={"position":{"x":175},"scale":{"x":0.02,"y":2},"rotation":0.15} -next;changeFigure:white.webp -id==hbrwR -transform={"position":{"x":-370},"scale":{"x":0.02,"y":2},"rotation":0.15} -next;
+changeFigure:whiteball.webp -id=ball1 -transform={"position":{"x":-330,"y":-180},"scale":{"x":0.4,"y":0.4}} -next;changeFigure:whiteball.webp -id==ball2 -transform={"position":{"x":-650,"y":-1600},"scale":{"x":0.4,"y":0.4}} -next;
+changeFigure:herb2.webp -id=herb -transform={"position":{"x":-100,"y":-1400},"scale":{"x":0.8,"y":0.8}} -next;
+: -fontSize=default;
+changeFigure: -id=hbrlb -next;
+changeFigure: -id=hbran -next -motion=zb_angry07 -expression=cry04;
+changeFigure: -id=hbrwL -next;
+changeFigure: -id=hbrwR -next;
+changeFigure: -id=hbrbL -next;
+changeFigure: -id=hbrbR -next;
+changeFigure:none -id=ball1 -next;
+changeFigure: -id=ball2 -next;
+changeFigure: -id=herb -next;
+changeScene:2_08/sweeeets.txt

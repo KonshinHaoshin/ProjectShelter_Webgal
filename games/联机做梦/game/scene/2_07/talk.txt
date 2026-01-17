@@ -1,0 +1,188 @@
+bgm: -enter=1300;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -transform={"position":{"y":200},"scale":{"x":0.9,"y":0.9},"alpha":0} -next;
+|赐予凡人小小的幸福，又毫不留情地突然将它收回去。 -concat;
+changeBg:sakikohomenight02_big.webp -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=nf01 -expression=serious02;
+setTransform:{"position":{"y":0},"scale":{"x":0.9,"y":0.9},"alpha":1} -target=sk -duration=0 -next;
+祥子:……。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=serious02 -expression=default;
+bgm:14. tactfully.mp3;
+:不行。|不能再这样胡思乱想下去了。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -expression=thinking02;
+:前略，丰川祥子是一个行动力很强的女孩子。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=kime01 -expression=serious02;
+:她觉得自己并非什么麻烦的女人，比起沉溺在美好的过去无法自拔，她更倾向于立刻采取行动、靠自己的力量将未来导向她期望的模样——
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=smile03 -expression=default;
+:就跟她当初从深渊中爬出来、组建Ave Mujica一样。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=thinking02;
+:但首先，她需要一个计划，一个完美的计划。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -expression=thinking01;
+:祥子觉得自己需要找人商量一下， -fontSize=default -notend;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -expression=serious01;
+:然而，考虑到“能相信的只有自己…… -fontSize=default -notend -concat;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -expression=smile03;
+:咳，还、还有爱音”定律，在跟爱音聊这些事情之前， -fontSize=default -notend -concat;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=nf_left01 -expression=thinking01;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -right -id=ob -transform={"position":{"x":300,"y":80},"scale":{"x":0.9,"y":0.9},"alpha":0} -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -left -id=jh -transform={"position":{"x":-300,"y":80},"scale":{"x":0.9,"y":0.9},"alpha":0} -next;
+:她决定先坐起身来、跟自己开个会。 -fontSize=default -concat;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=serious01_rui -expression=serious02;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -next -motion=sigh02 -expression=smile05;
+setTransform:{"position":{"x":300,"y":0},"scale":{"x":0.9,"y":0.9},"alpha":0.7} -target=ob -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh -transform={"position":{"x":-300,"y":0},"scale":{"x":0.9,"y":0.9},"alpha":0.7} -next -motion=smile04 -expression=default;
+setTransform:{"position":{"x":-300,"y":0},"scale":{"x":0.9,"y":0.9},"alpha":0.7} -target=jh -duration=0 -next;
+祥子:此事，议一下吧。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=nf_left01 -expression=odoodo01;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh -next -motion=kime01_soyo -expression=smile01;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -next -motion=smile05 -expression=default;
+:于是，时隔数日，呃啊理性理性小姐和呃啊感性感性小姐终于脱狱，可喜可贺。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=zb_shame02 -expression=surprised02;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -next -expression=kime01;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh -next -motion=nod01;
+理性:呃啊理性理性，现在这样不也挺好的么，你终于不再是day 0复读机了，禁欲的计数方式也不再是二进制了，可喜可贺可喜可贺。
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh -next -motion=angry06 -expression=smile05;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -next -motion=nnf05 -expression=smile03;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=zb_odoodo01 -expression=L_Boby;
+感性:呃啊感性感性，现在这样不也挺好的么，你还能趁机磨练一下自己的指技
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh -next -motion=smirk -expression=default;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=zb_surprised02 -expression=serious02;
+setTransform:{"position":{"y":50},"scale":{"x":0.9,"y":0.9}} -target=sk -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -next -motion=smile02 -expression=default;
+感性:每次都是抢占先攻然后被爱音反杀丢人不丢人，我要是你我以后出门都要戴着那难绷的面具免得被人认出来，可悲可叹可悲可叹。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=angry01;
+setTransform:{"position":{"y":0},"scale":{"x":0.9,"y":0.9}} -target=sk -duration=1000 -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh -next -motion=nnf_right01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -next -motion=nf_left01 -expression=thinking01;
+祥子:……。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=nf01_anon -expression=serious02;
+:尽管祥子发自真心地觉得这两个东西就是“成事不足败事有余”八个字的具现化，但越是这种时候，她就越应该保持冷静。
+changeBg:none -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=thinking01;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -next -motion=nf04 -expression=default;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh -next -motion=angry02 -expression=smile02;
+:首先，她要确认自己的本心：她真的要耗费现实的时间去处理梦中的事情么？
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -next -expression=sigh01;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=nnf_right01_rui -expression=thinking01;
+理性:理性分析，我们有一说一，最近这几天你没梦到爱音， -fontSize=default -notend;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -expression=sad01;
+不光是每日可调用的时间变少了，整个人都不好了。 -fontSize=default -concat;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=zb_sad02 -expression=default;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -next -motion=nnf01;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh -next -motion=nnf_left01 -expression=thinking01;
+changeFigure:sakiko_small/model.json -id=sox -transform={"position":{"x":-1200},"scale":{"x":0.9,"y":0.886},"alpha":0.7,"rotation":0.3} -next;
+:——是了，刚刚也说过，祥子今天排练的状态就不太好，身体也没有前阵子那么有精神了，白天上课时甚至出现了无法集中注意力的情况， -fontSize=default;
+changeFigure:sakiko_small/model.json -id=sox -next -motion=angry07 -expression=default;
+setTransform:{"position":{"x":-1160},"scale":{"x":0.9,"y":0.886},"alpha":0.7,"rotation":0.2} -target=sox -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh -next -expression=surprised02;
+:好在她不是那种上课玩手机的坏孩子，不然铁被逮捕。
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh -next -motion=odoodo01;
+changeFigure:sakiko_small/model.json -id=sox -next -motion=nnf04 -expression=angry01;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=nf02 -expression=thinking02;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -next -motion=sigh01 -expression=smile05;
+祥子:……这可不是什么好事。
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh -next -motion=nf_left01 -expression=cry01;
+setTransform:{"position":{"x":-800,"y":450},"scale":{"x":0.9,"y":0.9},"alpha":0,"rotation":-0.4} -target=jh -duration=0 -next;
+changeFigure:sakiko_small/model.json -id=sox -next -motion=surprised02 -expression=default;
+setTransform:{"position":{"x":-1200,"y":200},"scale":{"x":0.9,"y":0.886},"rotation":0.3} -target=sox -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=nf01;
+:祥子眉头紧皱：这意味着，“无法梦到爱音”会对她造成实际上的利益损失、严重影响她的生活质量甚至是事业发展乃至奖学金的获取——
+changeFigure: -id=jh -next;
+changeFigure: -id=sox -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=thinking01 -expression=thinking02;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -next -motion=thinking01 -expression=thinking02;
+:将这个等式画得再通俗易懂一点的话就是：【梦不到爱音=影响祥子赚钱】。
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -next -motion=surprised02 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=nod01_yukina;
+理性:万万不可，万万不可啊！ -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -next -motion=nnf_right01;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh -transform={"position":{"x":1800},"scale":{"x":0.9,"y":0.9},"alpha":0.7} -next;
+:祥子点了点头，认同了这个看法、将【丰川祥子跟千早爱音并没有梦到彼此】这件事的待处理优先级拉高了两级。
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh -next -motion=angry04 -expression=smirk;
+setTransform:{"position":{"x":800,"y":0},"scale":{"x":0.9,"y":0.9},"alpha":0.7} -target=jh -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=nf_right01_masking -expression=thinking01;
+setTransform:{"position":{"x":-600},"scale":{"x":0.9,"y":0.9}} -target=sk -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -next -expression=smile05;
+setTransform:{"position":{"x":-250},"scale":{"x":0.9,"y":0.9},"alpha":0.7} -target=ob -duration=0 -next;
+感性:来我们野性……呸，感性讨论、尽情发散：如果再不改变现状的话，丰川祥子的未来会变成什么模样呢？
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh -next -motion=angry07 -expression=smirk;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -expression=surprised01;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -next -motion=nod01 -expression=smile03;
+:答案是【戒断反应】。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh -next -motion=nf03 -expression=smile03;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=zb_odoodo01 -expression=default;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -next -motion=smile02 -expression=default;
+:就像是祥子崇拜的某位前辈要是哪天看不到鲸鱼在天上飞也会很不适应一样，习惯了与爱音梦中相见的祥子自己，如今也在被这类戒断反应所困扰 -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -next -motion=nf01 -expression=default;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh -next -motion=nf_right01 -expression=surprised02;
+:—— -fontSize=default -notend;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -expression=shame01;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh -next -motion=smile06 -expression=smile03;
+setTransform:{"position":{"x":1600},"scale":{"x":0.9,"y":0.9},"alpha":0.7} -target=jh -duration=0 -next;
+:而且，情况还会越来越严重。 -fontSize=default -concat;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh -next -motion=angry07 -expression=default;
+setTransform:{"position":{"x":1150,"y":250},"scale":{"x":0.9,"y":0.9},"alpha":0.7,"rotation":-0.2} -target=jh -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=zb_surprised02 -expression=shame01;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -next -expression=smile05;
+感性:今天才第五天，丰川祥子你弹琴的时候就已经正手不精反手无力没有一个动作像样。
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh -next -motion=angry05 -expression=default;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=thinking01_mu -expression=surprised01;
+感性:这要是再过个十天半个月，你高低得变得目光呆滞、极度自卑、且智商逐年下降，撑不到明年一月就得沦为呆萌系笨蛋角色，发配去月之森种小黄瓜。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -expression=thinking02;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -next -motion=smile03 -expression=surprised02;
+setTransform:{"position":{"x":1300},"scale":{"x":0.9,"y":0.9},"alpha":0.7} -target=ob -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh -next -motion=surprised01 -expression=serious01;
+setTransform:{"position":{"x":1800,"y":0},"scale":{"x":0.9,"y":0.9},"alpha":0.7,"rotation":0} -target=jh -duration=0 -next;
+changeFigure:sakiko_small/model.json -id=sox -transform={"position":{"x":1700,"y":100},"scale":{"x":0.9,"y":0.886},"alpha":0.7} -next;
+:祥子皱了皱眉，不认同这个看法。
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh -next -motion=nnf01 -expression=smile03;
+setTransform:{"position":{"x":100},"scale":{"x":0.9,"y":0.9},"alpha":0.7} -target=jh -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -next -motion=sigh02 -expression=default;
+setTransform:{"position":{"x":600},"scale":{"x":0.9,"y":0.9},"alpha":0.7} -target=ob -duration=0 -next;
+changeFigure:sakiko_small/model.json -id=sox -next -motion=angry05 -expression=default;
+setTransform:{"position":{"x":500,"y":150},"scale":{"x":0.9,"y":0.886},"alpha":0.7} -target=sox -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -expression=surprised01;
+感性:呃啊感性感性，有请我们的证人。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=smile06 -expression=default;
+changeFigure:sakiko_small/model.json -id=sox -next -motion=nf_left01 -expression=default;
+:证人是丰川祥子的本能。|祥子对自己的本能其实还是颇具好感的，
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -expression=shame01;
+changeFigure:sakiko_small/model.json -id=sox -next -expression=smile02;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -next -expression=surprised01;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh -next -motion=smile03_anon -expression=shame02;
+:毕竟顺从本能跟爱音这样那样的时候都很舒服…… -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=shame02 -expression=angry01;
+setTransform:{"position":{"x":-400},"scale":{"x":0.92,"y":0.92}} -target=sk -duration=0 -next;
+changeFigure:sakiko_small/model.json -id=sox -next -motion=nod01;
+setTransform:{"position":{"x":200,"y":140},"scale":{"x":0.92,"y":0.8924},"alpha":0.7} -target=sox -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh -next -motion=nnf_left01_anon -expression=smile03;
+setTransform:{"position":{"x":750,"y":80},"scale":{"x":0.85,"y":0.85},"alpha":0.7} -target=jh -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -next -motion=sigh01 -expression=default;
+setTransform:{"position":{"x":1000,"y":80},"scale":{"x":0.85,"y":0.85},"alpha":0.7} -target=ob -duration=0 -next;
+:呸呸呸，她的意思是本能是她唯一的压力宣泄口，若是没有本能的驱动，祥子迟早要被这残酷的现实狠狠压垮。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=zb_smile06 -expression=default;
+changeFigure:sakiko_small/model.json -id=sox -next -motion=sigh02 -expression=sigh01;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh -next -motion=nf01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -next;
+changeFigure:anon_small.webp -id=anon_small -transform={"position":{"x":90,"y":620},"scale":{"x":0.44,"y":0.44},"alpha":0,"rotation":0.1} -next;
+祥子:本能，你怎么看？
+changeFigure:sakiko_small/model.json -id=sox -next -motion=sigh02 -expression=shame02;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -expression=surprised01;
+setTransform:{"position":{"x":90,"y":420},"scale":{"x":0.44,"y":0.44},"alpha":0.7,"rotation":0.1} -target=anon_small -duration=0 -next;
+changeFigure:none -id=skk -next;
+bgm: -enter=800;
+:本能答曰：
+changeFigure:sakiko_small/model.json -id=sox -next -motion=angry04_taki -expression=shame02;
+setTransform:{"position":{"y":50},"scale":{"x":0.92,"y":0.89},"alpha":0.7} -target=sox -duration=400 -next;
+setTransform:{"position":{"x":85,"y":520},"scale":{"x":0.45,"y":0.45},"alpha":0.7,"rotation":-0.1} -target=anon_small -duration=400 -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=zb_surprised02 -expression=default;
+setTransform:{"position":{"x":-1800,"y":1900},"scale":{"x":1,"y":1},"alpha":1,"rotation":-2} -target=sk -duration=600 -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -id=jh -next -motion=smile03 -expression=L_Boby;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_no_mask_rip/model.json -id=ob -next -motion=nf_left01 -expression=smirk;
+bgm:02.sweet_dream.mp3;
+本能:——SOX——————！！！ -fontSize=large;
+changeFigure: -id=sox -next;
+changeFigure: -id=jh -next;
+changeFigure: -id=ob -next;
+changeFigure: -id=anon_small -next;
+changeFigure: -id=sk -next;
+changeScene:2_07/why no sox.txt;

@@ -1,0 +1,157 @@
+: -fontSize=default;
+bgm:A Silent Summer.mp3;
+changeBg:bg00707.webp -next -transform={};
+changeFigure:bg00064.webp -id=black -transform={"scale":{"x":2},"alpha":0.2} -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -left -id=an -transform={"position":{"x":-300,"y":100},"scale":{"x":0.9,"y":0.9}} -next -motion=nf04 -expression=smile03;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mu -transform={"position":{"x":1600,"y":100},"scale":{"x":0.73,"y":0.73}} -next -motion=nnf_left01_mu -expression=thinking01;changeFigure:bg00064.webp -id==black2 -transform={"position":{"x":1400},"scale":{"x":0.6,"y":1},"alpha":0.2} -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -right -id=sk -transform={"position":{"x":400,"y":100},"scale":{"x":0.73,"y":0.73},"alpha":1} -next -motion=sigh02 -expression=sad01;
+:——若叶睦并不认识那名粉发的少女。
+changeFigure: -id=mu -next;
+changeFigure: -id=an -next;
+changeFigure: -id=sk -next;
+setTransform:{"scale":{"x":2},"alpha":0} -target=black -duration=0 -next;
+changeFigure:none -id=black2 -next;
+changeBg:IMG_5574(20240715-075201).webp -next -transform={"position":{"x":260},"scale":{"x":1.2,"y":1.2}};
+:或许是因为周遭的光线实在是过于昏暗，她甚至没看清对方的脸，只是依稀捕捉到了“粉色的一坨”这种奇妙的印象。
+changeBg:none -next;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mu -transform={"position":{"x":100,"y":100},"scale":{"x":0.73,"y":0.73}} -next -motion=nf01_mu -expression=thinking01;
+:不过，比起那粉色的一坨，她更在意另一件事情：
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mu -next -motion=nf_right01_mu -expression=surprised01_mu;
+:——祥，在笑。
+changeFigure:mygo_avemujica_v6/sakiko/341_jh_school_winter-2023_rip/model.json -right -transform={"position":{"x":400,"y":100},"scale":{"x":0.73,"y":0.73},"alpha":0.7} -next -motion=kime01 -expression=smile02;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mu -next -expression=thinking01;
+:祥子当然是会笑的，若叶睦是最清楚这件事的人。
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mu -next -motion=odoodo01_mu -expression=default;
+changeFigure:none -right -next;
+:但是……
+changeBg:sakiko_dead.webp -next -transform={"alpha":0.9};
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mu -next -motion=nf04_mu -expression=cry01;
+setTransform:{"position":{"x":100,"y":275},"scale":{"x":0.73,"y":0.73}} -target=mu -duration=0 -next;
+:【“——过去软弱的我已经死了。”】changeBg:bg00707.webp  -next;
+setTransform:{"position":{"x":-460,"y":300},"scale":{"x":1.4,"y":1.4}} -target=bg-main -duration=0 -next;
+setTransform:{"scale":{"x":2},"alpha":0.2} -target=black -duration=0 -next;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mu -next -motion=thinking01_mu -expression=default;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -right -id=sk -transform={"position":{"x":200,"y":300},"scale":{"x":0.75,"y":0.75}} -next -motion=zb_kime01 -expression=sigh01;
+:……难道说，就是那粉色的一坨、把祥给修好了么？
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mu -next -motion=thinking02 -expression=surprised02;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=nnf01;
+:在若叶睦自己，不知道的地方、不知道的时候……？
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1,"y":1}} -target=bg-main -duration=0 -next;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mu -next -motion=nnf_right01_mu -expression=thinking02;
+setTransform:{"position":{"x":100,"y":100},"scale":{"x":0.73,"y":0.73}} -target=mu -duration=0 -next;
+setTransform:{"position":{"x":400,"y":100},"scale":{"x":0.73,"y":0.73}} -target=sk -duration=0 -next;
+:睦抱持着无法忽略的疑问，于是，她发问了：
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -expression=surprised02;
+睦:那个人，是谁？
+祥子:……！
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mu -next -motion=nf02_mu;
+:——惊讶、紧张、不安，以及 -fontSize=default -notend;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -expression=thinking02;
+:同样无法让人忽略的窘迫。 -fontSize=default -concat;
+changeBg: -next;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mu -next -motion=nf01_mu -expression=sad02;
+changeFigure:none -id=sk -next;
+:即便周遭光线昏暗、搞得跟交不起电费似的，若叶睦还是捕捉到了丰川祥子脸上一闪而过的动摇——她想，祥，向来如此。
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mu -next -motion=nf_right01 -expression=smile03;
+:哪怕身居黑暗，丰川祥子的周围却总像是蒙着一层薄薄的光幕、让人情不自禁地被她所吸引。
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mu -next -motion=nnf04_mu -expression=thinking01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -left -transform={"position":{"x":-400,"y":800},"alpha":0.7} -next -motion=idle01 -expression=default;
+:……那个“粉色的一坨”，也被祥所吸引了么changeBg:bg00707.webp g -next;
+changeFigure:none -left -next;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mu -next -expression=smile03;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -right -id=sk -transform={"position":{"x":400,"y":100},"scale":{"x":0.73,"y":0.73}} -next -motion=nf_left01 -expression=serious02;
+:若叶睦莫名地产生了这样的想法。
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mu -next -expression=surprised01_mu;
+祥子:……睦？你怎么在这里？
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mu -next -motion=nf_left01_mu -expression=sad01_mu;
+:转瞬之间，所有的惊讶、紧张、不安，还有那一丝丝的窘迫都从丰川祥子的脸上消失了。取而代之的，自然是让若叶睦感到熟悉又陌生的冰冷。
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mu -next -motion=nf04_mu -expression=sad02;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=nf04;
+:……变回去了。
+:睦的脑袋微微耸拉了些许，内心却得到了一个答案：“被修好的祥”，似乎并不属于自己。
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mu -next -motion=nf05_mu;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=nf04 -expression=sad02;
+:或者说，并不属于她所认识的任何人，只属于——【某个特定的对象】。
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mu -next -motion=nnf_right01_mu -expression=odoodo01;
+:某个，若叶睦不认识的对象。
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -expression=sad01;
+睦:……不可以么？
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -right -id=sk -next -motion=nnf03_rui -expression=smile03;
+:我不可以待在这里么？
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=nf01_soyo -expression=smile03;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mu -next -expression=default;
+祥子:不，我倒也不是这个意思……只是没想到睦会在这里而已。
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=smile03 -expression=L_Boby;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mu -next -motion=nf04_mu;
+:或许是意识到了自己的语气变得有些过于尖锐，祥子无声地叹了口气、放缓了语调。
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mu -next -motion=nf03_mu -expression=R_body;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -expression=thinking01;
+:可是，若叶睦并不打算让话题的节奏也跟着放缓：
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -expression=sad02;
+睦:所以，刚刚的人是谁？
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mu -next -motion=nf_right01 -expression=sad02;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -expression=serious02;
+:——是把祥“修好”的那个人么？|——是那个、所谓的【特定的对象】么？
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mu -next -motion=nnf02_mu -expression=thinking02;
+setTransform:{"position":{"x":180,"y":100},"scale":{"x":0.73,"y":0.73}} -target=mu -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -expression=odoodo01;
+:若叶睦想要知道这些问题的答案。|她想要知道，是谁让丰川祥子的脸上再一次绽放笑容。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=nf_right01_rui -expression=odoodo01;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mu -next -motion=nnf03_mu -expression=surprised01;
+祥子:……这跟睦没有关系吧？
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mu -next -expression=thinking02;
+:——然而，丰川祥子却选择了回避、选择了隐瞒。
+changeBg:none -next;
+changeFigure:none -id=mu -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=sigh01 -expression=R_boby;
+:这并不是一个正确的选择。
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=angry02 -expression=sad01;
+:如果想要隐瞒一些事情的话，比起极其刻意且明显的逃避话题，一个随意且合理的正面回答反而更能够让提问者失去兴趣，这是社交礼仪的常识——丰川祥子自然也清楚这一点。
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=sigh02 -expression=smile03;
+:她大可以直接告诉若叶睦，那是她的同班同学、甚至说是她的朋友……然后，这件事就此揭过、到此为止。
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -expression=shame01;
+:但她做不到，做不到问心无愧。
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=nf05_rui;
+:因为问心有愧，所以心虚了——心虚的结果，就是下意识地选择回避话题。
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=zb_odoodo01 -expression=default;
+:……她不想让别人知道自己和千早爱音的关系。
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=angry04 -expression=thinking01;
+:丰川祥子非常了解名为若叶睦的少女。她知道，以对方的敏锐程度，哪怕自己真的给出类似“只是普通的同学而已”这样的回答，也会招来对方的怀changeBg:bg00707.webp ng -next;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mu -transform={"position":{"x":180,"y":100},"scale":{"x":0.73,"y":0.73}} -next -motion=nf01 -expression=sad02;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=nnf_right01_rui -expression=thinking02;
+:——因为“亲手葬送过去的丰川祥子”，不应该、也不可能跟一个“普通的同学”走得那么近，在演出开始前还要偷偷会面。
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mu -next -motion=angry01_mu -expression=sad01_mu;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -expression=sigh01;
+:同样的，若叶睦也非常了解名为丰川祥子的少女。她知道对方现在表现出来的态度意味着什么，也知道现在的她最好的选择是闭上嘴巴、任由祥子将这个话题翻页。
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mu -next -motion=nf_right01_mu -expression=R_body;
+setTransform:{"position":{"x":220,"y":100},"scale":{"x":0.73,"y":0.73}} -target=mu -duration=0 -next;
+:——但是，她做不到。|或者说，如果她真能做到这一点的话，她也不叫若叶睦了：
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mu -next -motion=nf_right01 -expression=R_body;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=nf_left01 -expression=smile03;
+睦:……是那个人，把祥、 -fontSize=default -notend;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mu -next -expression=surprised01_mu;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -expression=surprised02;
+修好了么？ -fontSize=default -concat;
+changeBg:none -next;
+changeFigure:none -id=sk -next;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mu -next -motion=nnf_left01_mu -expression=sad01;
+:心中的疑问脱口而出的瞬间，与祥子瞳色极其相近的那双金瞳、映出了蓝发双马尾少女那一下子变得扭曲的面容。
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mu -next -motion=nod01 -expression=L_Body;
+:……说对了。
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mu -next -motion=nf01_mu -expression=L_Body_Down;
+setTransform:{"position":{"x":100,"y":100},"scale":{"x":0.73,"y":0.73}} -target=mu -duration=1100 -next;
+:但是，也说错了。
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mu -next -motion=odoodo01_mu -expression=default;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -right -id=sk -transform={"position":{"x":400,"y":100},"scale":{"x":0.73,"y":0.73},"alpha":0} -next -motion=nf_left01_maya -expression=thinking02;
+:看到祥子的反应，若叶睦立刻理解了一件事：自己，不该把这句话问changeBg:bg00707.webp webp -next;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mu -next -motion=nf_right01_mu -expression=sad02;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -right -id=sk -next -motion=sigh01 -expression=f03;
+setTransform:{"position":{"x":400,"y":100},"scale":{"x":0.73,"y":0.73},"alpha":1} -target=sk -duration=0 -next;
+睦:……对不起。
+:于是，她选择在祥子开口前抢先一步道歉。
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=angry04 -expression=thinking02;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mu -next -motion=nf_left01_mu -expression=sad02;
+bgm:none -enter=2400;
+祥子:……哈啊。
+:丰川祥子再次叹了口气，那抓住右臂的左手非常用力、她就像是在通过这种方式逼迫自己保持冷静一样——短暂的沉默后，她选择以一种极其生硬的方式转移了话题：
+changeScene:2_06/fighting_sakiko.txt;

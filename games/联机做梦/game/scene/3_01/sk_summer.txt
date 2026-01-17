@@ -1,0 +1,233 @@
+;【爱祥】丰川祥子和千早爱音在约会，我怎么会做这样的…这不是梦！？·Part.4
+intro:本视频是《Bang Dream It's MyGO!!!!!》的二次创作《丰川祥子和千早爱音在约会，我怎么会做这样的…这不是梦！？·Part.4》的视频化，已获原作者奈良良柴犬拜为义父（）|原作：lofter/蓝P|感谢奈良良柴犬为本作提供的实拍背景支持|前情提要：挑战天台的爱祥、大喵尽力了（ -fontSize=small -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500 -hold;
+:[本作品是BangDreamIt'sMyGO为原作的二次创作，角色崩坏请注意](叠甲) -fontSize=default;
+changeBg:bg00983.webp -next;
+changeFigure:manga/anon_swimsuit.webp -id=swimsuit -transform={"position":{"y":-200},"scale":{"x":1.53,"y":1.53},"alpha":0} -next;
+changeFigure:bg/rooftop.jpg -id=rooftop -transform={"position":{"x":400,"y":420},"scale":{"x":2.3,"y":2.3},"alpha":0} -next;
+bgm:21.moon_undeerwater.mp3 -enter=800;
+:丰川祥子原本并不讨厌夏天。
+changeFigure:341_mashiro/model.json -id=sk0 -transform={"position":{"y":0},"scale":{"x":0.73,"y":0.73}} -next -motion=nf01 -expression=default;
+:不如说，对她来说就没有什么“讨厌的季节”这类说法。 -fontSize=default;
+changeBg:rainy_day.webp -next -transform={"alpha":0.7,"blur":10};
+changeFigure:341_mashiro/model.json -id=sk0 -next -motion=nf03_rui -expression=smile03;
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an -transform={"position":{"x":600,"y":-100},"scale":{"x":0.9,"y":0.9},"alpha":0} -next;
+changeFigure:341_mashiro_sun/model.json -id=sk -transform={"position":{"x":-100,"y":-100},"scale":{"x":0.9,"y":0.9},"alpha":0} -next;
+:硬要说的话，夏天的雨特别多，而她不太喜欢下雨天——这大概是她对夏天这一季节观感下降的最大理由。 -fontSize=default;
+changeFigure:none -id=sk0 -next;
+changeBg:none -next;
+setTransform:{"position":{"x":400,"y":550},"scale":{"x":2.8,"y":2.8},"alpha":1} -target=rooftop -duration=750 -next;
+setTransform:{"position":{"x":600,"y":-100},"scale":{"x":0.94,"y":0.94},"alpha":1} -target=an -duration=750 -next;
+setTransform:{"position":{"x":-200,"y":-100},"scale":{"x":0.94,"y":0.94}} -target=sk -duration=750 -next;
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an -next -motion=nf01 -expression=smile03;
+changeFigure:341_mashiro_sun/model.json -id=sk -next -motion=nf05 -expression=smile05;
+爱音:……真的好热啊。
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an -next -motion=nf_left01 -expression=smile03;
+changeFigure:341_mashiro_sun/model.json -id=sk -next -motion=nod01_maya -expression=smile03;
+祥子:……是呢。
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an -next -motion=nf01_sk -expression=Down_look;
+:而现在，她讨厌夏天的理由喜加一了。
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an -next -motion=angry01 -expression=smile03;
+changeFigure:341_mashiro_sun/model.json -id=sk -next -motion=surprised01 -expression=smile06;
+爱音:如果现在能换上泳衣冲进海里就好了——
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an -next -motion=sad02_sk -expression=smile03;
+changeFigure:341_mashiro_sun/model.json -id=sk -next -motion=smile03_anon -expression=smile05;
+祥子:……爱音，这里可不是海滩哦？
+setTransform:{"scale":{"x":1.1,"y":1.1},"alpha":0} -target=sk -duration=700 -next;
+setTransform:{"position":{"x":1200},"scale":{"x":1.1,"y":1.1},"alpha":0} -target=an -duration=700 -next;
+setTransform:{"position":{"x":700,"y":800},"scale":{"x":2.9,"y":2.9}} -target=rooftop -duration=1500 -next;
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an2 -transform={"position":{"x":1500,"y":-680},"scale":{"x":1.4,"y":1.4},"alpha":0} -next;
+:虽说是海滨公园，但台场的游玩项目可不包括下海游泳。
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an2 -next -motion=zb_thinking03 -expression=smile03;
+changeFigure:none -id=sk -next -motion=nf05 ;
+changeFigure:none -id=an -next;
+setTransform:{"position":{"x":400,"y":-680},"scale":{"x":1.4,"y":1.4},"alpha":1} -target=an2 -duration=800 -next;
+setTransform:{"position":{"x":600,"y":780},"scale":{"x":2.88,"y":2.88},"blur":7} -target=rooftop -duration=800 -next;
+:祥子瞄了眼身边的恋人，欣赏着她苦着脸、一直用手给自己扇风的可爱模样——
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an2 -next -motion=zb_serious02 -expression=smile03;
+setTransform:{"position":{"x":400,"y":-780},"scale":{"x":1.4,"y":1.4},"alpha":1} -target=an2 -duration=1200 -next;
+setTransform:{"position":{"x":600,"y":680},"scale":{"x":2.88,"y":2.88},"blur":7} -target=rooftop -duration=1200 -next;
+:她看着汗珠从粉发少女的额间划落到脸颊、又从脸颊一路往下落到喉间……琥珀金的双瞳定格在了千早爱音那被汗水浸湿了些许的胸前，眨了眨眼。
+setTransform:{"position":{"x":400,"y":-780},"scale":{"x":1.4,"y":1.4},"alpha":0} -target=an2 -duration=0 -next;
+setTransform:{"position":{"x":600,"y":680},"scale":{"x":2.88,"y":2.88},"blur":7,"alpha":0} -target=rooftop -duration=0 -next;
+changeFigure:341_mashiro/model.json -id=sk -transform={"scale":{"x":0.73,"y":0.73}} -next -motion=thinking01 -expression=default;
+:游泳 -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk -next -motion=zb_surprised02 -expression=shame02;
+setTransform:{"position":{"x":-160,"y":-50},"scale":{"x":0.83,"y":0.83}} -target=sk -duration=0 -next;
+changeFigure:none -id=an2 -next;
+:、泳装 -concat -fontSize=default;
+changeFigure:341_mashiro_heart/model.json -id=sk -transform={"position":{"x":-240,"y":-100},"scale":{"x":0.94,"y":0.94}} -next -motion=smile04 -expression=default;
+setTransform:{"position":{"y":140},"scale":{"x":1.53,"y":1.53},"alpha":1} -target=swimsuit -duration=800 -next;
+:——[爱音](style=color:#E8A9B4\;)的泳装。 -concat -fontSize=default;
+changeFigure:341_mashiro_heart/model.json -id=sk -next -motion=nf_right01_rui -expression=smile02;
+setTransform:{"position":{"y":140},"scale":{"x":1.53,"y":1.53},"alpha":0} -target=swimsuit -duration=800 -next;
+setTransform:{"position":{"x":400,"y":550},"scale":{"x":2.8,"y":2.8},"alpha":1} -target=rooftop -duration=0 -next;
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an -transform={"position":{"x":500,"y":-100},"scale":{"x":0.94,"y":0.94}} -next -motion=thinking01;
+:祥子在脑内构筑着幻想中的画面：她感觉，自己好像又没有那么讨厌夏天了。
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an -next -motion=awate01_lock -expression=smile03;
+changeFigure:341_mashiro_sun/model.json -id=sk -transform={"position":{"x":-240,"y":-100},"scale":{"x":0.94,"y":0.94}} -next -motion=surprised01_mu -expression=smile02;
+爱音:……祥祥，在看哪里呢？
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an -next -motion=nnf_left01 -expression=surprised01;
+changeFigure:341_mashiro_sun/model.json -id=sk -transform={"position":{"x":-240,"y":-100},"scale":{"x":0.94,"y":0.94}} -next -motion=nf_right01_taki -expression=smile02;
+祥子:在看爱音的衣服。 -fontSize=medium;
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an -next -motion=surprised01_soyo -expression=turn_Down_look;
+changeFigure:341_mashiro_sun/model.json -id=sk -next -motion=nod01_maya -expression=smile02;
+爱音:哎？
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an -next -motion=smile04_ako -expression=shame01;
+changeFigure:341_mashiro_sun/model.json -id=sk -next -motion=nf03_mu -expression=smile06;
+祥子:我在想，爱音的衣品意外地很好呢。
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an -next -motion=angry04 -expression=shame02;
+changeFigure:341_mashiro_sun/model.json -id=sk -next -motion=smile05 -expression=smile02;
+爱音:“意外地”是什么意思啦，“意外地”——
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an -next -motion=sigh02 -expression=shame02_sk;
+changeFigure:341_mashiro_sun/model.json -id=sk -next -motion=nnf_left01 -expression=smile03;
+: -fontSize=default;
+intro:好热 -fontSize=large -backgroundColor=rgba(0, 11, 31, 1) -fontColor=rgba(243, 189, 255, 1) -animation=fadeIn -delayTime=1500 -hold;
+changeFigure:341_mashiro_sun/model.json -id=sk -next -motion=nnf04 -expression=shame01;
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an -next -motion=nnf04 -expression=shame01;
+:海风吹拂，靠在观景台边上的二人同时眯起了眼睛。
+changeFigure:341_mashiro_sun/model.json -id=sk -next -motion=nnf_right01_mu;
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an -next -motion=nf_left01_sk -expression=shame01;
+:……变得清爽了一些，但还是好热。
+changeFigure:341_mashiro_sun/model.json -id=sk -next -motion=odoodo01_mu -expression=smile05;
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an -next -motion=nf03_soyo -expression=smile03;
+changeBg:none -next;
+爱音:话说回来，祥祥，我们是打算干什么的来着？
+changeFigure:341_mashiro_sun/model.json -id=sk -next -motion=thinking01_anon -expression=smile05;
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an -next -motion=nf_left01_soyo -expression=smile03;
+changeBg:view2.webp -next -transform={"position":{"x":0,"y":0},"scale":{"x":1.1,"y":1.1},"alpha":1};
+祥子:……看海？
+changeFigure:341_mashiro_sun/model.json -id=sk -next -expression=smile06;
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an -next -motion=sigh02_sk;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.4,"y":1.4},"alpha":1} -target=bg-main -duration=1000 -next;
+setTransform:{"position":{"x":1200,"y":700},"scale":{"x":3,"y":3},"alpha":0} -target=rooftop -duration=700 -next;
+setTransform:{"position":{"x":400,"y":-50},"scale":{"x":0.97,"y":0.97},"alpha":0} -target=sk -duration=700 -next;
+setTransform:{"position":{"x":1300,"y":-50},"scale":{"x":0.97,"y":0.97},"alpha":0} -target=an -duration=700 -next;
+:丰川祥子看向了金灿灿的海面：午后的阳光虽然没有先前那么毒辣，但其散发的温度也不容小觑。
+changeFigure:341_mashiro_sun/model.json -id=sk -next -motion=smile01_rui -expression=smile02;
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an -next -motion=shame02 -expression=turnL;
+setTransform:{"position":{"x":0,"y":20},"scale":{"x":1,"y":1},"alpha":0.3} -target=bg-main -duration=1000 -next;
+;setTransform:{"position":{"x":500,"y":320},"scale":{"x":2.7,"y":2.7},"alpha":1} -target=bg-main -duration=1000 -next;
+setTransform:{"position":{"x":400,"y":550},"scale":{"x":2.8,"y":2.8},"alpha":1} -target=rooftop -duration=700 -next;
+setTransform:{"position":{"x":-240,"y":-100},"scale":{"x":0.94,"y":0.94},"alpha":1} -target=sk -duration=700 -next;
+setTransform:{"position":{"x":500,"y":-100},"scale":{"x":0.94,"y":0.94},"alpha":1} -target=an -duration=700 -next;
+:不过，抛开这点不谈的话，这片海景确实令人心旷神怡。
+changeFigure:341_mashiro_sun/model.json -id=sk -next -motion=nf_left01_aya -expression=smile06;
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an -next -motion=zb_thinking03 -expression=shame02;
+爱音:大海么——
+changeFigure:341_mashiro_sun/model.json -id=sk -next -motion=nf_left01 -expression=smile06;
+setTransform:{"position":{"x":1200,"y":750},"scale":{"x":3,"y":3},"blur":10} -target=rooftop -duration=800 -next;
+setTransform:{"position":{"x":0,"y":-100},"scale":{"x":1,"y":1}} -target=sk -duration=800 -next;
+setTransform:{"position":{"x":1400,"y":-100},"scale":{"x":1,"y":1},"alpha":0} -target=an -duration=0 -next;
+:千早爱音拖着慵懒的长音，视线却飘向了身边人： -fontSize=default;
+changeFigure:341_mashiro_sun/model.json -id=sk -next -motion=nf_left01_anon -expression=smile06;
+:海风拂过蓝发少女的脸庞、撩起了她的发丝——青色的天空、令人目眩的阳炎，以及让人无法挪开视线的……[【心爱之人】](style=color:#aac1ce\;)…… -fontSize=default;
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an -next -motion=kime02 -expression=shame01;
+setTransform:{"position":{"x":600,"y":700},"scale":{"x":3,"y":3},"blur":10} -target=rooftop -duration=0 -next;
+setTransform:{"position":{"x":-800,"y":-100},"scale":{"x":1,"y":1},"alpha":0} -target=sk -duration=0 -next;
+setTransform:{"position":{"x":300,"y":-100},"scale":{"x":1,"y":1},"alpha":1} -target=an -duration=0 -next;
+爱音:……确实很好看呢~
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an -next -motion=nf_left01_masking -expression=shame02_sk;
+changeFigure:341_mashiro_sun/model.json -id=sk -next -motion=nnf_right01 -expression=thinking01;
+setTransform:{"position":{"x":400,"y":550},"scale":{"x":2.8,"y":2.8},"alpha":1} -target=rooftop -duration=700 -next;
+setTransform:{"position":{"x":-240,"y":-100},"scale":{"x":0.94,"y":0.94},"alpha":1} -target=sk -duration=700 -next;
+setTransform:{"position":{"x":500,"y":-100},"scale":{"x":0.94,"y":0.94},"alpha":1} -target=an -duration=700 -next;
+祥子:嗯？
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an -next;
+changeFigure:341_mashiro_sun/model.json -id=sk -next -motion=nnf_right01 -expression=shame02;
+:注意到对方的视线，祥子也将目光转向了爱音——她是个聪明的女孩子，自然能想到刚刚那句“好看”指的是什么。
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an -next -motion=surprised01_ako -expression=shame01;
+changeFigure:341_mashiro_sun/model.json -id=sk -next -motion=zb_serious02 -expression=sigh02;
+祥子:……老土。
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an -next -motion=angry01 -expression=shame02;
+changeFigure:341_mashiro_sun/model.json -id=sk -next -motion=nf04_aya -expression=smile02;
+爱音:哎，祥祥才没资格说我！
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an -next -motion=zb_thinking01 -expression=smile03;
+changeFigure:341_mashiro_sun/model.json -id=sk -next -motion=smile02 -expression=R_boby;
+祥子:爱音是喜欢对女孩子说情话的类型呢。
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an -next -motion=angry03 -expression=shame01;
+changeFigure:341_mashiro_sun/model.json -id=sk -next -motion=smile05 -expression=smile05;
+爱音:才不是啦！那是祥祥才对吧！
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an -next -motion=angry04_sk -expression=shame01_sk;
+changeFigure:341_mashiro_sun/model.json -id=sk -next -motion=nf01 -expression=smile06;
+:噗嗤——丰川祥子被爱音那副有些着急的样子给逗乐了，忍不住笑出声来：
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an -next -motion=zb_surprised01 -expression=shame01;
+changeFigure:341_mashiro_sun/model.json -id=sk -next -motion=smile04 -expression=smile02;
+祥子:我只是“会对喜欢的女孩子说情话”而已哦？
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an -next -motion=sigh01 -expression=shame02;
+changeFigure:341_mashiro_sun/model.json -id=sk -next -motion=nnf_right01 -expression=smile02;
+爱音:……好土。
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an -next -motion=surprised02_sk -expression=shame01;
+changeFigure:341_mashiro_sun/model.json -id=sk -next -motion=nnf03 -expression=smile04;
+setTransform:{"position":{"x":0},"scale":{"x":0.94,"y":0.94}} -target=sk -duration=1000 -next;
+祥子:但是爱音脸红了呢。
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an -next -motion=angry02 -expression=shame01_down;
+setTransform:{"position":{"x":600},"scale":{"x":0.94,"y":0.94}} -target=an -duration=400 -next;
+changeFigure:341_mashiro_sun/model.json -id=sk -next -motion=nf04_anon -expression=smile02;
+爱音:那、那是因为天气太热了——        -fontSize=default;
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an -next -expression=shame02;
+changeFigure:341_mashiro_sun/model.json -id=sk -next -expression=surprised02;
+|还有，刚刚那句应该是那个什么《约会必备情话TOP10》里的第三位吧！ -concat -fontSize=default;
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an -next -motion=angry04;
+changeFigure:341_mashiro_sun/model.json -id=sk -next -motion=zb_odoodo01 -expression=smile02;
+setTransform:{"position":{"x":200,"y":600},"scale":{"x":2.95,"y":2.95},"alpha":1} -target=rooftop -duration=900 -next;
+setTransform:{"position":{"x":-340,"y":-100},"scale":{"x":0.96,"y":0.96},"alpha":1} -target=sk -duration=900 -next;
+setTransform:{"position":{"x":200,"y":-100},"scale":{"x":0.96,"y":0.96},"alpha":1} -target=an -duration=900 -next;
+祥子:……。
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an -next -expression=shame01_tmr;
+changeFigure:341_mashiro_sun/model.json -id=sk -next -motion=zb_nnf_left01 -expression=smile05;
+setTransform:{"position":{"x":900,"y":600},"scale":{"x":2.95,"y":2.95},"alpha":1} -target=rooftop -duration=1200 -next;
+setTransform:{"position":{"x":240,"y":-100},"scale":{"x":0.96,"y":0.96},"alpha":1} -target=sk -duration=1200 -next;
+setTransform:{"position":{"x":800,"y":-100},"scale":{"x":0.96,"y":0.96},"alpha":1} -target=an -duration=1200 -next;
+:被戳穿的祥子，心虚地别过了视线——
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an -next -motion=zb_serious02 -expression=angry01;
+changeFigure:341_mashiro_sun/model.json -id=sk -next -motion=surprised01_mu -expression=shame01;
+爱音:不许挪开视线——！
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an -next -expression=smile03;
+changeFigure:341_mashiro_sun/model.json -id=sk -next -motion=shame01 -expression=R_boby;
+setTransform:{"position":{"x":300,"y":600},"scale":{"x":2.95,"y":2.95},"alpha":1} -target=rooftop -duration=900 -next;
+setTransform:{"position":{"x":-240,"y":-100},"scale":{"x":0.96,"y":0.96},"alpha":1} -target=sk -duration=900 -next;
+setTransform:{"position":{"x":300,"y":-100},"scale":{"x":0.96,"y":0.96},"alpha":1} -target=an -duration=900 -next;
+祥子:唔……
+changeBg:none -next;
+changeFigure:none -id=rooftop -next;
+changeFigure:none -id=an -next;
+changeFigure:none -id=sk -next -motion=nnf_right01 -expression=shame02;
+changeFigure:bg/rooftop.jpg -id=rooftop2 -transform={"position":{"x":-100,"y":600},"scale":{"x":3.1,"y":3.1},"blur":10} -next;
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an2 -transform={"position":{"x":0,"y":-425},"scale":{"x":1.3,"y":1.3}} -next -motion=smile01 -expression=shame02;
+changeFigure:341_mashiro_sun_透肉/model.json -id=sk2 -transform={"position":{"x":-1800,"y":-425},"scale":{"x":1.3,"y":1.3},"alpha":0} -next;
+bgm:none;
+爱音:梦里的祥祥可不会躲开我的眼睛哦？
+changeFigure:341_mashiro_sun_透肉/model.json -id=sk2 -next -motion=shame02 -expression=default;
+setTransform:{"position":{"x":700,"y":600},"scale":{"x":3.12,"y":3.12},"blur":10} -target=rooftop2 -duration=0 -next;
+setTransform:{"position":{"x":1000,"y":-425},"scale":{"x":1.3,"y":1.3},"alpha":0} -target=an2 -duration=0 -next;
+setTransform:{"position":{"x":-800,"y":-425},"scale":{"x":1.3,"y":1.3},"alpha":1} -target=sk2 -duration=0 -next;
+祥子:……。
+changeFigure:none -id=rooftop2 -next;
+changeFigure:none -id=sk2 -next;
+changeFigure:none -id=an2 -next;
+changeFigure:bg/rooftop.jpg -id=rooftop3 -transform={"position":{"x":700,"y":620},"scale":{"x":2.8,"y":2.8},"alpha":1} -next;
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an3 -transform={"position":{"x":460,"y":-220},"scale":{"x":1.1,"y":1.1},"alpha":1} -next -motion=nf_left01 -expression=shame02_sk -bounds=-100,0,100,400;
+changeFigure:341_mashiro_sun/model.json -id=sk3 -transform={"position":{"x":-300,"y":-220},"scale":{"x":1.1,"y":1.1}} -next -motion=zb_smile06 -expression=shame02 -bounds=-100,0,100,400;
+bgm:Together We Will Live Forever by Clint Mansell.mp3;
+:琥珀金色与灰银色，再次目光交汇。
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -id=an3 -next -motion=shame02 -expression=default;
+changeFigure:341_mashiro_sun/model.json -id=sk3 -next -motion=shame02_tmr -expression=smile06;
+setTransform:{"position":{"x":700,"y":-20},"scale":{"x":2.8,"y":2.8},"alpha":1,"blur":17} -target=rooftop3 -duration=1950 -next;
+setTransform:{"position":{"x":460,"y":-920},"scale":{"x":1.1,"y":1.1},"alpha":1,"blur":15} -target=an3 -duration=1950 -next;
+setTransform:{"position":{"x":-300,"y":-920},"scale":{"x":1.1,"y":1.1},"alpha":1,"blur":15} -target=sk3 -duration=1950 -next;
+changeFigure:manga/pink.webp -id=pink -transform={"scale":{"x":2},"alpha":0} -next;
+:——如梦似幻。 -fontSize=default;
+setTransform:{"position":{"x":700,"y":-20},"scale":{"x":2.8,"y":2.8},"alpha":0,"blur":17} -target=rooftop3 -duration=850 -next;
+setTransform:{"position":{"x":460,"y":-920},"scale":{"x":1.1,"y":1.1},"alpha":0,"blur":15} -target=an3 -duration=850 -next;
+setTransform:{"position":{"x":-300,"y":-920},"scale":{"x":1.1,"y":1.1},"alpha":0,"blur":15} -target=sk3 -duration=850 -next;
+setTransform:{"scale":{"x":2},"alpha":0.3} -target=pink -duration=850 -next;
+changeFigure:manga/hot.webp -id=hot -transform={"position":{"x":-565,"y":-1050},"scale":{"x":1.7,"y":1.7},"alpha":0,"blur":10} -next;
+:大脑处理信息的效率变得极其低下，某种朦胧而恍惚的情绪开始逐渐侵蚀二人的理智——就像是，身心都坠入了一个大大的蜜罐里一样。
+changeFigure: -id=rooftop3 -next;
+changeFigure: -id=an3 -next;
+changeFigure: -id=sk3 -next;
+setTransform:{"position":{"x":-565,"y":-1045},"scale":{"x":1.7,"y":1.7},"alpha":1,"blur":10} -target=hot -duration=850 -next;
+: -fontSize=default;
+changeFigure:none -id=pink -next;
+changeFigure:none -id=hot -next;
+changeScene:3_01/hot_summer.txt

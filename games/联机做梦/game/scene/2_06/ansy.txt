@@ -1,0 +1,191 @@
+:长崎素世闭上了眼睛。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=ann -transform={"position":{"x":-200,"y":300},"scale":{"x":0.73,"y":0.73},"alpha":0} -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -right -transform={"position":{"x":400,"y":100},"scale":{"x":0.8,"y":0.8}} -next -motion=nnf03 -expression=thinking01;
+bgm:10.selfworld.mp3;
+:——【Ave Mujica】这个名字会进入她的视野、纯属意外。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -right -next -motion=nf_left01 -expression=smile05;
+:不，要说意外的话倒也不太准确。硬要说的话，这件事跟一个叫千早爱音的笨蛋有关。
+changeBg:soyo_home_night.webp -next -transform={"position":{"y":-100},"scale":{"x":1.25,"y":1.25}};
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -right -next -motion=smile03 -expression=default;
+:——长崎素世有偷偷视ji……咳，是偷偷【观察】乐队成员社交账号的习惯。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -right -next -motion=thinking01 -expression=default;
+setTransform:{"position":{"x":400,"y":200},"scale":{"x":0.8,"y":0.8}} -target=fig-right -duration=1100 -next;
+setTransform:{"position":{"x":0,"y":-200},"scale":{"x":1.25,"y":1.25}} -target=bg-main -duration=1100 -next;
+:掌握朋友的兴趣爱好、从而更好地在相处时展开合适的话题，是她一直以来的社交方针之一。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -left -transform={"position":{"y":300},"scale":{"x":0.8,"y":0.8},"alpha":0.7} -next -motion=smile04 -expression=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -right -next -expression=smile03;
+:但考虑到整个【Mygo!!!!!】乐队其实只有某位粉发吉他手在社交平台上活跃，因此，她的观察对象实际上也只有一个人。 -fontSize=default;
+changeFigure:none -left -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -right -next -motion=nf01 -expression=smile03;
+:这件事情，长崎素世大概直到死都不会说出口。
+changeBg:ansy_home.webp -next;
+changeFigure:none -right -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -left -id=an -transform={"position":{"y":100},"scale":{"x":0.85,"y":0.85}} -next -motion=nf04 -expression=smile02;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -right -id=sy -transform={"position":{"x":350,"y":100},"scale":{"x":0.85,"y":0.85}} -next -motion=nf_left01 -expression=surprised01;
+:总而言之、言而总之，在某个晚上，千早爱音点赞并转发了这支蒙面乐队的宣传帖文、 -fontSize=default -notend;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf04 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -expression=thinking01;
+:又在一分钟后选择了撤回操作—— -fontSize=default -concat;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf01 -expression=shame01;
+setTransform:{"position":{"y":400},"scale":{"x":0.85,"y":0.85},"alpha":0} -target=an -duration=0 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=thinking01 -expression=default;
+:这样的异常举动引起了长崎素世的注意，成为了她提前接触到这个名字的契机。 -fontSize=default;
+changeBg:none -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=sad01 -expression=default;
+:也许再过一阵子，即便没有这场“意外”，一飞冲天的银河战舰依旧会闯入长崎素世的视野。但凡事没有“也许”、也没有“如果”。
+changeBg: 选择背景图片 -next;
+changeFigure:none -id=an -next;
+changeFigure:none -id=sy -next;
+changeBg:solosoyo.webp -next;
+:就像长崎素世曾经在无数个夜晚独自琢磨着“不让Crychic解散的可能性”一样；
+changeBg:never_said_that.webp -next;
+:就像长崎素世曾经在每一个发呆的瞬间思考着“如果那个时候我这样做会不会更好”一样；
+changeBg:ave mujica_stage4_bright.webp -next -transform={"position":{"y":-2300},"scale":{"x":4.2,"y":4.2}};
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -transform={"position":{"x":-100,"y":400},"scale":{"x":0.73,"y":0.73},"oldFilm":1,"rgbFilm":1} -next -motion=smile03 -expression=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -transform={"position":{"x":500,"y":400},"scale":{"x":0.73,"y":0.73}} -next -motion=sad02 -expression=sad01;
+:——就像千早爱音正在思考“要是我今天没来就好了”一样。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -transform={"rgbFilm":1} -next -motion=handsleft -expression=smile03;
+setTransform:{"position":{"y":400},"scale":{"x":0.73,"y":0.73},"oldFilm":1,"rgbFilm":1} -target=an -duration=0 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nnf_left01 -expression=surprised01;
+爱音:……啊、啊叭叭叭叭……
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=serious01 -expression=serious03;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf03_sk -expression=smile03;
+setTransform:{"position":{"y":400},"scale":{"x":0.73,"y":0.73},"oldFilm":0,"rgbFilm":0} -target=an -duration=0 -next;
+素世:……你能别发出奇怪的声音么？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf_left01;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=odoodo01 -expression=serious03;
+:长崎素世不耐烦地睁开眼睛、瞄了眼旁边的观众席： -fontSize=default;
+:也许是神明的恶作剧、也许是因为长崎素世预订的座位恰好也是视野最好（价格也更高）的位置，丰川祥子送给爱音的门票所预留的座位，极其巧合地与长崎素世凑成了一对。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=sad01_masking -expression=smile03;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=smile05 -expression=smile03;
+:少女乐队的世界，真小啊……
+setTransform:{"position":{"x":-200,"y":100},"scale":{"x":0.73,"y":0.73},"alpha":0} -target=ann -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf_right01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf_right01 -expression=thinking01;
+爱音:啊，呃，抱歉……
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf03 -expression=smile03;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=angry04 -expression=smile03;
+素世:……干嘛对着我道歉。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=thinking01 -expression=shame02;
+:长崎素世只觉得今天的千早爱音特别奇怪，但仔细想想，这家伙平时也挺奇怪的，前阵子还莫名其妙问自己关于什么“梦到在跟不熟的女孩子接吻”之类的事情…… -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=kime01 -expression=smile05;
+:这样一想，现在这个慌慌张张的粉毛笨蛋好像也只能算是通常运转而已。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf_left01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -expression=surprised01;
+素世:还是说，爱音酱是觉得自己能来看Live，我就不行了么？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=bye01_kokoro -expression=smile03;
+爱音:……不，我不是这个意思啦。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nnf_right01 -expression=thinking01;
+setTransform:{"position":{"y":400},"scale":{"x":0.73,"y":0.73},"alpha":0} -target=sy -duration=0 -next;
+changeBg:none -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=angry01 -expression=sigh01;
+:千早爱音现在只觉得汗毛倒竖、冷汗更是狂飙，就连心中 -fontSize=default -notend;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -expression=smile03;
+:的Q版小爱音也变了个画风、大喊着“Aieeeeee！Soyorin、Soyorin为何！”这种意义不明的话语。 -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=thinking02_sk -expression=thinking02;
+:——为什么Soyorin会在这里？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf01 -expression=thinking02_sk;
+:极其简单的问题，隐藏着数个极其危险的可能性。
+changeFigure:none -id=an -next;
+:——而更糟糕的是，现实，正是千早爱音所能设想到的、最危险的那个展开。
+changeBg:ave mujica_stage4_bright.webp -next -transform={"position":{"y":-2300},"scale":{"x":4.2,"y":4.2}};
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -transform={"position":{"x":-100,"y":400},"scale":{"x":0.73,"y":0.73}} -next -motion=nf_right01_sk -expression=smile03;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -transform={"position":{"x":500,"y":400},"scale":{"x":0.73,"y":0.73}} -next -motion=serious03 -expression=default;
+setTransform:{"position":{"x":500,"y":400},"scale":{"x":0.73,"y":0.73},"alpha":1} -target=sy -duration=0 -next;
+素世:别误会了，我可不是因为你喜欢这支乐队才跑来看的。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=smile03_sk -expression=smile04;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf_left01 -expression=serious03;
+爱音:诶？为什么Soyorin会知道…… -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -expression=default;
+呃。 -fontSize=default -concat;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=sad01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=smile03 -expression=default;
+:注意到对方散发着警告意味的眼神，千早爱音选择了乖乖闭嘴。不过，长崎素世也不打算刁难这位粉毛吉他手—— -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -expression=smile02;
+:在她的视角里，千早爱音的出现只是一个纯粹的“巧合”，因为这个人根本不怎么清楚过去的事情、也跟那名为Crychic的往日之影没有任何的牵扯与关联。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf_right01_masking -expression=thinking01_sk;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -expression=thinking01;
+素世:我有一个……
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf03;
+:亚麻色长发的少女停顿了一会儿，才继续说道：
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -expression=smile03;
+素世:……我有一个【认识的人】，也许在这支乐队里。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf01;
+:她又顿了一下，随即改口道：
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf01 -expression=serious03;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=smile03 -expression=default_masking;
+素世:应该说是【两个】才对。
+changeBg:ave mujica_stage10_bright.webp -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1,"y":1}} -target=bg-main -duration=0 -next;
+changeFigure: -id=an -next;
+changeFigure:none -id=sy -next;
+:——Ave Mujica是一支蒙面乐队。
+changeBg:ave mujica_stage8_brighter.webp -next;
+:在这个商业企划的初期，乐队成员在“身份保密”这一块做得非常严谨，哪怕是亲自来到现场的观众，在舞台下也看不见那一幅幅被面具遮蔽的面容—— -fontSize=default;
+changeBg:ave mujica_stage11.webp -next;
+:甚至，在特殊的舞台灯光处理之下，她们的发色也会变得跟真正的色彩有所区别、哪怕是熟人也很难辨认出各人的具体身份。 -fontSize=default;
+changeBg:none -next;
+:问题有两个。
+changeBg:1919810.webp -next;
+setTransform:{"position":{"y":300},"scale":{"x":2,"y":2}} -target=bg-main -duration=0 -next;
+:其一，现在已经不是“企划初期”了—— -fontSize=default;
+changeBg:bg00553.webp -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -transform={"position":{"x":-100,"y":75},"scale":{"x":0.8,"y":0.8}} -next -motion=smile04 -expression=default;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_rip/model.json -right -transform={"position":{"x":400,"y":75},"scale":{"x":0.8,"y":0.8}} -next -motion=smile01 -expression=default;
+:过于顺利的进展让计划提前完成了原定的指标，最近的演出也不再注重身份上的保密、正式进入“准备通过逐步揭露身份从而赚取更多热度”的第二阶段。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -next -motion=nnf_right01 -expression=smile02;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_rip/model.json -right -next -motion=nnf04;
+:这意味着，原本甚至不会在流媒体上释出演出片段、或者即便放出Live现场片段也会通过各种处理掩盖乐队成员身份的Ave Mujica，已经揭开了第一层神秘的面纱。 -fontSize=default;
+changeBg:ave mujica_stage12.webp -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -transform={"position":{"x":700,"y":400},"scale":{"x":0.73,"y":0.73}} -next -motion=thinking02 -expression=surprised01;
+:于是，问题其之二出现了——名为长崎素世的少女，在大数据的推送之下看到了官方放出的高清晰度Live片段。
+changeBg:none -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -right -id=sy -transform={"position":{"x":200}} -next -expression=smile03;
+:如果是别人还好，但这是长崎素世，是那个有着“我是个麻烦的女人”这一自觉的长崎素世。
+changeBg:SoyoHome_Room_01_Sun.webp -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nf01 -expression=smile03;
+setTransform:{"position":{"y":200},"scale":{"x":0.73,"y":0.73},"alpha":1} -target=sy -duration=0 -next;
+:这世界就是如此奇妙，如果说有件事情不能让某个人知道，那么假以时日，这个人一定会知道这所谓的“某件事情”，尤其是在这个人特别“麻烦”的场合—— -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy -next -motion=nnf_left01 -expression=serious04;
+:别问为什么，问就是动画都是这么演的、漫画都是这么画的、小说都是这么写的、二创都是这么创的。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -right -id=sy -transform={"position":{"x":400},"scale":{"x":0.8,"y":0.8}} -next -motion=serious03 -expression=smile02;
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -id=mu -transform={"position":{"x":-800},"scale":{"x":0.8,"y":0.8}} -next -motion=surprised01_mu -expression=default;
+changeBg:bg00473.webp -next;
+:——蓝色、绿色；键盘、吉他。
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -id=sy -next -motion=nf_left01 -expression=smile04;
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -id=mu -next -motion=nf03_mu -expression=sad01;
+:无需多言，只靠这几个关键词，长崎素世就理解了一切—— -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_school_summer-2023_rip/model.json -id=sy -next -motion=nf01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -id=mu -next -motion=nf_left01_mu -expression=sad02;
+setTransform:{"position":{"x":-1300},"scale":{"x":0.8,"y":0.8}} -target=mu -duration=0 -next;
+:字面意义上地，她甚至没有经过什么严谨的思考，就已经通过一种近乎直觉的方式看穿了【Oblivionis】和【Mortis】藏在那没什么用的面具底下的、真实身份。 -fontSize=default;
+changeFigure: -id=mu -next;
+changeFigure:none -id=sy -next;
+changeBg:ave mujica_stage4_bright.webp -next -transform={"position":{"y":-2300},"scale":{"x":4.2,"y":4.2}};
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -transform={"position":{"x":-100,"y":400},"scale":{"x":0.73,"y":0.73}} -next -motion=smile06_sk -expression=smile03;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sysy -transform={"position":{"x":500,"y":400},"scale":{"x":0.73,"y":0.73}} -next -motion=nnf04 -expression=thinking01;
+:这次来到现场，仅仅只是为了【确认】而已。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sysy -next -motion=thinking02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=idle01 -expression=smile03;
+素世:遗忘……和死亡么。
+:长崎素世的脸上没有任何的情绪波动，她只是平静地注视着那尚未拉开的红色帷幕。
+changeBg:none -next;
+changeFigure:none -id=an -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sysy -next -motion=nf03 -expression=thinking01;
+:——何物，遭到了遗忘？ -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sysy -next -motion=nf01 -expression=default;
+:——又是何物，迎来了死亡？ -fontSize=default;
+changeBg:ave mujica_stage4_bright.webp -next -transform={"position":{"y":-2300},"scale":{"x":4.2,"y":4.2}};
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -transform={"position":{"x":-100,"y":400},"scale":{"x":0.73,"y":0.73}} -next -motion=smile03 -expression=default;
+爱音:……So、Soyorin？
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sysy -next -motion=serious04 -expression=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nnf04 -expression=smile05_sk;
+素世:嘘。
+changeBg:none -next;
+changeFigure:none -id=sysy -next;
+changeFigure: -id=an -next;
+bgm:none -enter=1000;
+: -fontSize=default;
+changeScene:2_06/ansy2.txt;

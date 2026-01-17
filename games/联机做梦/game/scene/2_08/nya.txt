@@ -1,0 +1,119 @@
+:所以——
+changeBg:a台场/seria_innerR.webp -next -transform={"position":{"y":-200}};
+changeFigure:341_mashiro/model.json -id=sk5 -transform={"position":{"x":-300},"scale":{"x":0.9,"y":0.9}} -next -motion=zb_smile06 -expression=shame02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -transform={"position":{"x":400},"scale":{"x":0.9,"y":0.9}} -next -motion=zb_nnf_left01 -expression=surprised01;
+祥子:……除非，爱音跟我，不再是单纯的【朋友】关系呢。
+changeBg:none -next;
+setTransform:{"position":{"x":400,"y":0},"scale":{"x":0.9,"y":0.9},"alpha":0.2} -target=an5 -duration=0 -next;
+:——丰川祥子，又一次选择了让步。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=zb_angry06 -expression=serious02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=odoodo01_sk -expression=smile03;
+:不，与其说是让步，不如说是主动向前迈出一步……也不对——| -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=nf01;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=nnf04 -expression=smirk;
+:这更像是某种欲擒故纵、以退为进，邀请对方堕入自己设下的陷阱。 -concat -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=smirk;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=kime02 -expression=serious01;
+:隐藏在美味的自尊心背后的，是某种更加阴暗、却也让“丰川祥子”这个存在变得更加完整的—— -notend -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -expression=smile04;
+:【控制欲】。 -concat -fontSize=default;
+changeBg:a台场/seria_innerR.webp -next -transform={"position":{"y":-200}};
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=nf_left01_masking;
+setTransform:{"position":{"x":400,"y":0},"scale":{"x":0.9,"y":0.9},"alpha":1} -target=an5 -duration=0 -next;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=smile06 -expression=smile04;
+:那么，千早爱音，你的回答会是什么呢？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=nf03;
+爱音:……祥子，是打算破戒么？
+:粉发的少女微微眯眼，嘴角的上扬却明显得藏都藏不住。|破戒，意味着今日这个约会的【性质】会发生翻天覆地的、不可逆的变化。 -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk5 -next -expression=smirk;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=nnf01;
+祥子:如果我说“是”的话，爱音会怎么做呢？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=smile04;
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=smile05 -expression=smile04;
+changeFigure:shutiao.webp -id=shu -transform={"position":{"x":120,"y":80},"scale":{"x":0.12,"y":0.12},"alpha":0,"rotation":-0.8} -next;
+爱音:……真是坏心眼呢——祥祥。
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=zb_surprised01 -expression=thinking01R;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an5 -next -motion=zb_thinking01;
+setTransform:{"position":{"x":180,"y":84},"scale":{"x":0.12,"y":0.12},"alpha":0.92,"rotation":-0.83} -target=shu -duration=0 -next;
+:于是，爱音的选择是——将薯条的一端，咬在了嘴里。
+changeFigure:341_mashiro/model.json -id=sk5 -next -motion=smile06 -expression=shame02;
+祥子:这话可轮不到爱音来说呢。
+changeFigure: -id=sk5 -next;
+changeFigure: -id=an5 -next;
+changeFigure: -id=shu -next;
+changeBg:none -next;
+:——不过，反正也不是第一次了。
+changeBg:kiss2.webp -next -transform={"position":{"x":0,"y":200},"blur":30};
+:丰川祥子，将自己的马尾辫拨到肩后、然后就这么迎了上去。| -fontSize=default;
+changeBg:none -next;
+:——就像是在梦中一样。 -fontSize=default;
+bgm: -enter=2400;
+intro:【今日爱祥累积接吻次数：0→1】 -fontSize=large -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500 -hold;
+:………………………………
+changeBg:a台场/seria_innernya.jpg -next -transform={"position":{"y":-800}};
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya -transform={"position":{"x":400},"scale":{"x":1.1,"y":1.1}} -next -motion=sad01 -expression=default;
+bgm:02.sweet_dream.mp3;
+:萨O亚餐厅，一处任何人都不会注意到的角落，便是——祐天寺若麦小姐的所在之处。
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya -next -motion=angry01;
+:约好要搞联动的同行狠狠地放了她鸽子，这让这位远赴台场的视频主满肚子都是怨气：|要不是Ave Mujica那边还没正式进入完全揭开面具的阶段，她也不至于这样受气。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya -next -motion=smile03 -expression=default;
+:唉，数字，唉，热度，唉，霸凌。
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya -next -motion=angry01_anon -expression=angry01;
+:祐天寺若麦心想，等如日中天的Ave Mujica进入下一个运营阶段、自己的身份得以揭露，她一定要让今日这些将她当作过气小网红的笨蛋吃不了兜着走—— -fontSize=default;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya -next -motion=kime02;
+:三十年池袋西口东、三十年池袋东口西，莫欺少年… -fontSize=default;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya -next -motion=nf03 -expression=smile03;
+:呃，少女… -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya -next -motion=serious01 -expression=default;
+:呃，熟女穷！ -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya -next -motion=sad01_anon;
+若麦:哎……
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya -next -motion=nnf03 -expression=smile03;
+:不过仔细想想，今天的她也接连遇到一些怪事，比如走在路上的时候莫名听到了从远方传来的、像是在捶桌子一样的鼓点，搞得她有些心神不宁。
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya -next -motion=smile03_anon;
+若麦:难道说……今天喵梦亲我不宜出行？
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya -next -motion=thinking01_anon -expression=smile03;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_rip/model.json -id=skkkk -transform={"position":{"x":-600},"scale":{"x":1.1,"y":1.1},"alpha":0.7} -next -motion=angry06 -expression=smirk;
+:作为一位成熟的成年人，她其实不太信鬼神之说。比起鬼神，她更怕自家乐队的老大、那位蓝发的恐怖键盘手—— -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_rip/model.json -id=skkkk -next -motion=kandou01_anon -expression=smile05;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya -next -motion=surprised02 -expression=surprised01_anon;
+:此人杀人不动刀不动枪，但只要无辜的喵梦亲触了她的霉头，新曲的BPM就会猛增、劲增、暴增，拼尽全力也只能勉强战胜。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_rip/model.json -id=skkkk -next -motion=zb_odoodo01;
+setTransform:{"position":{"x":-900},"scale":{"x":1.15,"y":1.15},"alpha":0} -target=skkkk -duration=0 -next;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya -next -motion=kime01 -expression=serious01;
+:可怜的鼓手小姐还不想英年早逝，总而言之，现在的一切委屈都是必要的牺牲，她要做的就是隐忍…… -fontSize=default;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya -next -motion=serious01_anon;
+changeFigure:none -id=skkkk -next;
+changeFigure:800102/model.model3.json -id=pg1 -transform={"position":{"x":1600,"y":500},"scale":{"x":1.2,"y":1.2}} -next;
+changeFigure:passenger/801800/model.model3.json -id=pg2 -transform={"position":{"x":2000,"y":300},"scale":{"x":1.15,"y":1.15}} -next -expression=mtn_ex_011.exp3.json;
+:为了未来的数字，隐忍！ -fontSize=default;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya -next -motion=surprised01 -expression=turn_R_boby_Down;
+changeFigure:800102/model.model3.json -id=pg1 -next -expression=mtn_ex_030.exp3.json;
+setTransform:{"position":{"x":-200,"y":1300},"scale":{"x":1.3,"y":1.3}} -target=pg1 -duration=2700 -next;
+setTransform:{"position":{"x":200,"y":1100},"scale":{"x":1.3,"y":1.3}} -target=pg2 -duration=2700 -next;
+0v0:妈妈，刚刚的两个大姐姐在做什么，好奇怪喔——
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya -next -motion=smile01 -expression=default;
+诶，妈妈，你为什么背过身去了？ -fontSize=default;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya -next -motion=nf01 -expression=turn_Down;
+:还能为什么，背身躲闪光弹吧大概——鼓手嗤笑一声，用手中的餐叉将盘子里的意大利面卷成一团……
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya -next -motion=surprised02 -expression=default;
+playEffect:fist-hitting-wood-table.wav;
+:咚！
+若麦:！？
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya -next -motion=nf_left01 -expression=surprised01;
+setTransform:{"position":{"y":-140},"scale":{"x":1.1,"y":1.1}} -target=nya -duration=0 -next;
+:鼓、鼓点！？为什么这里会有那熟悉的鼓点——莫名的幻觉，让祐天寺若麦小姐猛地一个猫抬头、猫转身。
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya -next -expression=thinking01_anon;
+:然后，她看到了——
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya -next -motion=nf_left01_anon -expression=smile03;
+若麦:啊、诶。
+setTransform:{"position":{"x":200,"y":-400},"scale":{"x":1.4,"y":1.4},"alpha":0} -target=bg-main -duration=900 -next;
+changeFigure:none -id=nya -next;
+:——微微往下滑落了一寸的墨镜，倒映出了粉与蓝的两道身影。
+bgm: -enter=1000;
+: -fontSize=default;
+changeBg:none -next;
+changeFigure: -id=pg1 -next;
+changeFigure: -id=pg2 -next;
+choose:chase~:2_10/start.txt;

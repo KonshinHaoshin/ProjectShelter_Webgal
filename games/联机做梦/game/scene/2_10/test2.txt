@@ -1,0 +1,3 @@
+changeBg:a台场/rooftop.jpg -next;
+changeFigure:037_casual-2023_rip_wet_sun_透肉/model.json -right -transform={"position":{"x":300,"y":-150},"scale":{"x":0.73,"y":0.73}} -next -motion=zb_angry01 -expression=smile02_sk;
+changeFigure:341_mashiro_sun_透肉/model.json -id=sk_hot -transform={"position":{"y":-150},"scale":{"x":0.73,"y":0.73}} -next -motion=nod01 -expression=default;

@@ -1,0 +1,68 @@
+changeBg:bg00012.webp -next;
+:【OOC彩蛋】
+bgm:automan.mp3 -enter=900;
+changeFigure:美竹 兰/006_school_summer-2023model.json -id=ran -transform={"position":{"x":2700,"y":600},"scale":{"x":0.9,"y":0.9},"alpha":0,"rotation":3.2} -next;
+changeFigure:宇田川 巴/009_school_summer-2023model.json -id=ba -transform={"position":{"x":-300,"y":-200},"scale":{"x":0.9,"y":0.9},"alpha":0,"rotation":1} -next;
+changeFigure:青叶 摩卡/007_school_summer-2023model.json -id=morca -transform={"position":{"x":1500,"y":1600},"scale":{"x":0.9,"y":0.9},"alpha":0,"rotation":-1} -next;
+changeFigure:上原 绯玛丽/008_school_summer-2023model.json -id=mary -transform={"position":{"x":-100,"y":100},"scale":{"x":0.9,"y":0.9}} -next -motion=smile03 -expression=smile01;
+:——羽丘的天台、一处任何乐队少女都喜欢去的地方，便是少女乐队Afterglow的团建地点之一。
+changeFigure:美竹 兰/006_school_summer-2023model.json -id=ran -next -motion=kime01 -expression=default;
+setTransform:{"position":{"x":2700,"y":1500},"scale":{"x":0.9,"y":0.9},"alpha":1,"rotation":3.2} -target=ran -duration=0 -next;
+changeFigure:上原 绯玛丽/008_school_summer-2023model.json -id=mary -next -motion=surprised01 -expression=R_boby;
+兰:实话实说吧，绯玛丽。
+:这是美竹兰队员，一直摸兜里的本领没人敢和她相比。
+changeFigure:宇田川 巴/009_school_summer-2023model.json -id=ba -next -motion=kime03 -expression=smile03;
+setTransform:{"position":{"x":200,"y":-500},"scale":{"x":0.9,"y":0.9},"alpha":1,"rotation":1} -target=ba -duration=0 -next;
+changeFigure:上原 绯玛丽/008_school_summer-2023model.json -id=mary -next -motion=nf_left01 -expression=smile03;
+巴:……是啊，事到如今也只能坦白从宽了，虽然这台词由我来说感觉哪里怪怪的。
+:这是宇田川巴队员，你想了解银河拉面的知识么？她是银河拉面馆优秀员工。
+changeFigure:青叶 摩卡/007_school_summer-2023model.json -id=morca -next -motion=niyaniya01 -expression=default;
+setTransform:{"position":{"x":1000,"y":1400},"scale":{"x":0.9,"y":0.9},"alpha":1,"rotation":-1} -target=morca -duration=0 -next;
+changeFigure:上原 绯玛丽/008_school_summer-2023model.json -id=mary -next -motion=nf04 -expression=surprised01;
+摩卡:抗~拒~从~严~
+:青叶摩卡队员，是个面包。
+changeFigure:上原 绯玛丽/008_school_summer-2023model.json -id=mary -next -motion=surprised01 -expression=sad01;
+丸……绯玛丽:诶、诶？
+:还有一位、也是正在被包围的这位【粉发少女】——估计、可能是丸山……不，是上原绯玛丽队员。
+changeFigure:美竹 兰/006_school_summer-2023model.json -id=ran -next -motion=nf_right01 -expression=serious01;
+changeFigure:青叶 摩卡/007_school_summer-2023model.json -id=morca -next -motion=nf_left01 -expression=smile02;
+changeFigure:宇田川 巴/009_school_summer-2023model.json -left -id=ba -next -motion=nf_right01 -expression=default;
+changeFigure:上原 绯玛丽/008_school_summer-2023model.json -id=mary -next -motion=angry01 -expression=smile01;
+兰:在吹奏部的部室，有个粉发的女孩子跟一个蓝头发的女孩子接吻了——绯玛丽，你怎么看？
+changeFigure:上原 绯玛丽/008_school_summer-2023model.json -id=mary -next -motion=nf01 -expression=sad01;
+绯玛丽:哈、哈诶！？我该怎么看……！？
+changeBg:none -next;
+changeFigure: -id=morca -next;
+changeFigure: -id=ran -next;
+changeFigure:none -id=ba -next;
+changeFigure:none -id=mary -next;
+:如果某位咖啡店店员在场的话，应该能为可怜的绯玛丽小姐解开一些误会——只可惜，她此刻正在为了学生会长的工作而忙碌。
+changeBg:chuchu_home.webp -next;
+changeFigure:CHUCHU/035_casual_summer-2023model.json -id=chu -transform={"position":{"y":-100}} -next -motion=serious01 -expression=serious01;
+:无独有偶，与此同时，另一支乐队也发生了一件美好（？）的事情：
+changeFigure:CHUCHU/035_casual_summer-2023model.json -id=chu -next -motion=smile04 -expression=smile01;
+CHUCHU:哼嗯……Afterglow的Uehara·Himari=san么……
+:头戴猫耳耳机的女孩缩在自己的座位上，目不转睛地注视着眼前的屏幕：
+changeFigure:CHUCHU/035_casual_summer-2023model.json -id=chu -next -motion=smile03;
+CHUCHU:不要小看我的情报网，原来你跟LOCK是这样的关系……
+changeFigure:CHUCHU/035_casual_summer-2023model.json -id=chu -next -expression=smile02;
+呵呵、呵呵呵…… -fontSize=default;
+:来自RAISE A SUILEN的传奇制作人CHU²大人，大概是因为最近被某只忠犬荼毒得不轻，心中居然产生了一个邪恶的计划：
+changeFigure:CHUCHU/035_casual_summer-2023model.json -id=chu -next -motion=kime01 -expression=default;
+CHUCHU:……Okay，It’s my go！
+changeFigure: -id=chu -next;
+changeBg:bg00008.webp -next;
+changeFigure:LOCK/032_school_summer-2023model.json -id=rikka -next -motion=serious02 -expression=surprised01;
+:——是日，羽丘高中的朝日六花同学收到了来自队内制作人的短信：
+changeFigure:LOCK/032_school_summer-2023model.json -id=rikka -next -motion=serious01;
+六花:要我跟上原绯玛丽前辈……诶？
+changeFigure:LOCK/032_school_summer-2023model.json -id=rikka -next -motion=eeto01 -expression=serious01;
+:蓝发的少女扶了扶眼镜、眨了眨眼睛：
+changeFigure:LOCK/032_school_summer-2023model.json -id=rikka -next -motion=awate01 -expression=default;
+六花:……百合情侣营业？
+changeBg:none -next;
+changeFigure:none -id=rikka -next;
+bgm: -enter=900;
+:——《上原绯玛丽和朝日六花正在进行百合营业的样子》、锐意制作中！（不会做的）
+:;
+choose:SOX! SOX!:2_05/start.txt;

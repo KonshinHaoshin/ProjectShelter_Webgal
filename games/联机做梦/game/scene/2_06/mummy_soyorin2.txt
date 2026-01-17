@@ -1,0 +1,132 @@
+changeBg:night/bg01006.webp -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an3 -transform={"position":{"x":200,"y":0},"scale":{"x":0.86,"y":0.86}} -next -motion=nnf04 -expression=smile03;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -transform={"position":{"x":-500},"scale":{"x":0.86,"y":0.86}} -next -motion=nnf_right01 -expression=surprised01;
+素世:你不知道么？你们羽丘不是有两个前辈最近官宣了要谈恋爱来着？
+爱音:啊，这。
+changeBg:none -next;
+changeFigure:none -id=an3 -next;
+changeFigure: -id=sy3 -next;
+:——千早爱音还真知道有这件事。
+changeBg:bg00144.webp -next -transform={"position":{"y":150}};
+changeFigure:上原 绯玛丽/008_school_summer-2023model.json -id=mary -transform={"position":{"x":800},"scale":{"x":0.73,"y":0.73}} -next -motion=shame01 -expression=default;
+changeFigure:LOCK/032_school_summer-2023model.json -id=lock -transform={"position":{"x":300},"scale":{"x":0.73,"y":0.73}} -next -motion=nf_right01 -expression=smile02;
+:那个“粉发少女与蓝发少女接吻”的传闻，现在已经没人会联想到她和祥子了—— -fontSize=default;
+changeFigure:CHUCHU/035_casual_summer-2023model.json -id=chuchu -transform={"position":{"x":-100,"y":-300},"scale":{"x":0.8,"y":0.8},"alpha":0.7,"rotation":0.6} -next -motion=kime02 -expression=default;
+changeFigure:上原 绯玛丽/008_school_summer-2023model.json -id=mary -next -motion=nf_left01 -expression=smile02;
+changeFigure:LOCK/032_school_summer-2023model.json -id=lock -next -motion=nf05 -expression=default;
+:因为，在某位传奇制作人的暗中操作之下，一对意想不到的组合莫名其妙地走在了一起、狠狠地炒了一波热度。 -fontSize=default;
+changeBg:bg00012.webp -next -transform={"position":{"y":-300}};
+changeFigure:none -id=chuchu -next;
+changeFigure:none -id=lock -next;
+changeFigure:none -id=mary -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -id=sk -transform={"scale":{"x":0.9,"y":0.9}} -next -motion=zb_odoodo01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an -transform={"position":{"x":400},"scale":{"x":0.9,"y":0.9}} -next -motion=shame02 -expression=default;
+:至于这到底是震惊百万乐队少女的真爱、还是某种新潮的百合营业，那就不是千早爱音的情报网所能触及的内容了。
+changeFigure: -id=sk -next;
+changeFigure: -id=an -next;
+changeBg:night/bg01006.webp -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an3 -transform={"position":{"x":200,"y":0},"scale":{"x":0.86,"y":0.86}} -next -motion=nf_right01_mu -expression=smile03;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -transform={"position":{"x":-500},"scale":{"x":0.86,"y":0.86}} -next -motion=nf_left01 -expression=smile03;
+素世:……我想说的是，女孩子和女孩子之间谈恋爱，在现在这个世道也不算什么奇怪的事情。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an3 -next -motion=sigh01_sk -expression=shame02;
+:长崎素世努力保持着平静的语气，别过视线：
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=nf01 -expression=angry02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an3 -next -motion=nf01 -expression=thinking01;
+素世:……所以，你也别太纠结这件事。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an3 -next -motion=nf_left01 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=nnf_right01 -expression=surprised01;
+爱音:哎？纠结？我么？
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=thinking01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an3 -next -motion=smile03 -expression=default;
+素世:……？
+changeBg:none -next;
+changeFigure:none -id=an3 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=surprised01 -expression=default;
+:——诶？不是么？
+:长崎素世眨了眨眼：这阵子爱音的魂不守舍她看在眼里，经过惊世智慧的严谨推导，她最终还是想起了一个多月前的那次相谈。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=nf_right01 -expression=thinking01;
+:——千早爱音，梦到了自己跟不熟的隔壁班同学接吻。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -transform={"position":{"x":900},"scale":{"x":0.86,"y":0.86},"alpha":0.7} -next -motion=cry02_sk -expression=default;
+:素世觉得，这应该就是爱音暗恋着某人而不得、由此产生了心结，才会导致在排练的时候总是容易走神……虽然吉他的技术反而变好了。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=nf03;
+changeFigure: -id=an -next;
+:为了让乐队能够稳步向前，素世妈妈下定决心要让队内的迷子找到方向——至少不要因为这份暗恋之心影响演出时的表现。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -expression=smile03;
+:……但现在看来，好像是自己会错意了。
+changeBg:night/bg01006.webp -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an3 -transform={"position":{"x":200,"y":0},"scale":{"x":0.86,"y":0.86}} -next -motion=nnf_left01 -expression=smile04;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=nf_right01 -expression=smile01;
+素世:算了，当我没说吧。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an3 -next -motion=nf03;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -expression=angry02;
+爱音:哎~没想到Soyorin意外地很开明嘛~
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=angry02 -expression=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an3 -next -motion=nf_right01_rui -expression=smile03;
+setTransform:{"position":{"x":270},"scale":{"x":0.86,"y":0.86}} -target=an3 -duration=0 -next;
+素世:……“开明”是什么意思？我在你眼里的形象很不开明么？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an3 -next -motion=nf03_sk;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=nf02 -expression=angry01;
+爱音:……因为很像是什么童话故事里的恶毒后妈……？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an3 -next -motion=nf_left01 -expression=smile02_sk;
+素世:你的兴趣爱好果然是找我吵架么？
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=nf01 -expression=smile03;
+:明明是打算把话题的节奏引向爱音、狠狠地嘲弄她一番，没想到还是被对方把节奏带歪了——长崎素世轻叹了口气，她觉得，自己可能真的不太擅长应付名为千早爱音的少女。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=nf_left01 -expression=angry02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an3 -next -expression=smile05_sk;
+素世:回去了，别跟着我。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an3 -next -motion=smile06_sk -expression=turnL;
+setTransform:{"position":{"x":200},"scale":{"x":0.86,"y":0.86}} -target=an3 -duration=0 -next;
+爱音:喔——那，Soyorin要一起走么~
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -expression=serious03;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an3 -next -motion=nf03 -expression=default;
+setTransform:{"position":{"x":150},"scale":{"x":0.86,"y":0.86}} -target=an3 -duration=0 -next;
+素世:才不要。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an3 -next -expression=smile04;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -motion=nf_right01 -expression=smile03;
+爱音:但我也要走这条路去车站哦？
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy3 -next -expression=angry02;
+setTransform:{"position":{"x":-700},"scale":{"x":0.92,"y":0.92},"alpha":0} -target=sy3 -duration=1200 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an3 -next -motion=nf04_sk;
+setTransform:{"position":{"x":0},"scale":{"x":0.92,"y":0.92},"alpha":0} -target=an3 -duration=1200 -next;
+bgm:none -enter=1200;
+素世:……那你问个什么劲啊。
+changeBg:night/bg00988.webp -next;
+changeFigure: -id=sy3 -next;
+changeFigure: -id=an3 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -left -id=sy4 -transform={"position":{"x":200},"scale":{"x":0.73,"y":0.73}} -next -motion=nf04 -expression=smile05;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -id=an4 -transform={"position":{"x":400},"scale":{"x":0.73,"y":0.73}} -next -motion=nf04 -expression=smile06_sk;
+:二人有一句没一句地一路“吵”到了车站，不知为何，长崎素世感到了一阵安心。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy4 -next -motion=nf_left01 -expression=serious01;
+bgm:13_Shittori.mp3;
+:……看来，爱音这边没有什么太大的问题。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=bye01 -expression=smile02;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy4 -next -motion=nf_right01 -expression=surprised01;
+爱音:拜拜，Soyorin——！
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy4 -next -motion=angry01 -expression=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=nf04 -expression=smile03;
+素世:不要那么大声地喊那个称呼……！
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy4 -next -motion=nf_left01 -expression=smile02;
+setTransform:{"position":{"y":80},"scale":{"x":0.66,"y":0.66},"alpha":0} -target=sy4 -duration=1200 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=angry02_sk -expression=smile02_sk;
+:同样的，千早爱音也感到了一阵安心：不需要她多做什么，Soyorin光靠自己就已经走出了过去的阴霾。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=nod01_nanami;
+:这是好事。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=thinking03 -expression=thinking02;
+setTransform:{"position":{"x":200},"scale":{"x":0.73,"y":0.73}} -target=an4 -duration=1000 -next;
+:长崎素世没有因为蒙着脸登上舞台的丰川祥子而悲伤、恼怒甚至是憎恨——
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=thinking01 -expression=smile01;
+:也许是因为往日的幸福始终要凌驾于那份刺痛，也许是因为现在的【Mygo!!!!!】恰到好处地填补了她内心的空缺，也或许是两者皆是—— -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -motion=smile03 -expression=smile02;
+:总而言之，本以为是“麻烦的女人”的长崎素世，并没有那么的麻烦。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an4 -next -expression=turnL;
+:……甚至，自己还被对方开导了一番。
+changeBg:none -next;
+changeFigure:none -id=an4 -next;
+:看着长崎素世离去的背影，千早爱音踏上电梯、前往另一条电车线的月台：
+changeBg:railway2.webp -next -transform={"position":{"x":500,"y":240},"scale":{"x":1.4,"y":1.4}};
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -transform={"position":{"x":-750,"y":-300},"scale":{"x":1.1,"y":1.1}} -next -motion=nf_right01_sk -expression=smile05_sk;
+爱音:……太好了呢，祥祥。
+changeBg:none -next;
+changeFigure:none -id=an -next;
+:世界终究不是围着千早爱音一个人转。
+changeScene:2_06/aftertalk.txt;

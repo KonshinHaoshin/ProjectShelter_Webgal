@@ -1,0 +1,138 @@
+intro:本视频是《Bang Dream It's MyGO!!!!!》的二次创作《丰川祥子和千早爱音成功禁欲，我怎么会做这样的梦》的视频化，已获原作者奈良良柴犬拜为义父（）|原作：lofter/蓝P -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=slideIn -delayTime=1500 -hold;
+:——青春期少女的烦恼或许总会是一些鸡毛蒜皮的小事，|但这类鸡毛蒜皮往往主打的就是一个五颜六色多姿多彩。
+bgm:26.solitude.mp3 -enter=1200;
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -transform={"position":{"x":-100,"y":100},"scale":{"x":0.73,"y":0.73}} -next -motion=nnf_right01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mu -transform={"position":{"x":1200,"y":100},"scale":{"x":0.73,"y":0.73}} -next -motion=nf03_mu -expression=smile03;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_rip/model.json -id=nya -transform={"position":{"x":1900,"y":0},"scale":{"x":0.73,"y":0.73},"rotation":1.1,"oldFilm":1,"glitchFilm":1,"rgbFilm":1} -next -motion=idle01_anon -expression=sad02_anon;
+changeBg:bg00553.webp -next;
+:从让人无法集中精神的课堂到上课玩手机被老师逮捕； -fontSize=default -notend;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mu -next -expression=sigh02;
+:|从被邀请组乐队到鼓谱bpm不当人引发工伤； -fontSize=default -concat;
+changeBg:none -next;
+changeFigure: -id=mu -next;
+changeFigure: -id=umi -next;
+changeFigure: -id=nya -next;
+changeFigure:canteen/canteen.png -id=canteen_b -transform={"position":{"y":-100},"scale":{"x":1.78,"y":1.78}} -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an -transform={"position":{"x":-500,"y":100},"scale":{"x":0.62,"y":0.62}} -next -motion=nf_right01 -expression=smile03;
+changeFigure:canteen/canteen_f1.png -id=canteen_f1 -transform={"position":{"y":-100},"scale":{"x":1.78,"y":1.78}} -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -transform={"position":{"x":1800,"y":50},"scale":{"x":0.5,"y":0.5}} -next -motion=nf_left01 -expression=sad01;
+changeFigure:canteen/canteen_f2.png -id=canteen_f2 -transform={"position":{"y":-100},"scale":{"x":1.78,"y":1.78}} -next;
+changeFigure:上原 绯玛丽/008_school_summer-2023model.json -id=mary -transform={"position":{"x":-200},"scale":{"x":0.87,"y":0.87}} -next -motion=nf04 -expression=smile01;
+changeFigure:LOCK/032_school_summer-2023model.json -id=lock -transform={"position":{"x":450},"scale":{"x":0.87,"y":0.87}} -next -motion=odoodo02 -expression=smile02;
+:当然，少不了的还有恋爱相关的烦恼—— -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=nf_right01_rui -expression=sad02;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an -next -motion=smile03 -expression=default_sk;
+changeFigure:LOCK/032_school_summer-2023model.json -id=lock -next -motion=nf04 -expression=smile01;
+changeFigure:上原 绯玛丽/008_school_summer-2023model.json -id=mary -next -motion=shake01 -expression=default;
+changeFigure:LOCK/032_school_summer-2023model.json -id=lock -next -motion=smile01 -expression=turn_L_Body;
+:说出来会脸红害臊、不说又憋在心里憋得难受， -fontSize=default;
+changeFigure:上原 绯玛丽/008_school_summer-2023model.json -id=mary -next -motion=nf04 -expression=turn_R_Body;
+setTransform:{"position":{"x":-50,"y":-40},"scale":{"x":0.87,"y":0.87},"rotation":0.05} -target=mary -duration=0 -next;
+changeFigure:LOCK/032_school_summer-2023model.json -id=lock -next -motion=smile03 -expression=smile01;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=nf_right01 -expression=sigh02;
+setTransform:{"position":{"x":2200,"y":150},"scale":{"x":0.53,"y":0.53},"alpha":0} -target=sk -duration=1100 -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an -next -motion=sad02 -expression=smile03;
+:尽管过个几年再回头看看只会觉得当初的自己蠢得可爱，但对这个年龄段的女孩子来说，这些小小的烦恼若是真的一点一滴地累积起来、累积个一辈子……
+changeFigure: -id=canteen_f1 -next;
+changeFigure: -id=canteen_f2 -next;
+changeFigure: -id=canteen_b -next;
+changeFigure: -id=an -next;
+changeFigure: -id=mary -next;
+changeFigure: -id=lock -next;
+changeFigure: -id=sk -next;
+changeBg:none -next;
+:那其实还挺危险的。
+changeBg:bg00024.webp -next -transform={"position":{"y":-150},"alpha":1};
+setTransform:{"alpha":1} -target=bg-main -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -transform={"position":{"y":-50},"scale":{"x":0.85,"y":0.85}} -next -motion=nnf_right01 -expression=thinking01;
+:——丰川祥子，最近就有这么个烦恼。
+changeBg:working_sakiko.webp -next -transform={"position":{"y":100},"scale":{"x":1.2,"y":1.2},"alpha":0.9,"blur":0};
+changeFigure: -next;
+:换做是以前的她，打死都不会想到自己有朝一日会为了恋爱相关的事情而烦恼。changeBg:bg00024.webp  -next -transform={"position":{"y":-50}};
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -transform={"scale":{"x":0.86,"y":0.86}} -next -motion=serious01 -expression=sad01;
+:但世事无常，就像是再往前一点的她也曾经以为自己构筑的“命运共同体”关系真的能持续一辈子一样，人总是会变的。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=sigh02_rui -expression=smile03;
+:不知道是谁曾经说过、只要接受了自己的软弱就能无敌。丰川祥子不愿让过去那个软弱的自己复活，但那个软糯得像个小团子一样的自己还是非常坚挺地打赢复活赛了。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -expression=thinking01;
+:这好吗？
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=nf04 -expression=smile03;
+:丰川祥子摇了摇头：这不好，但她也无话可说。
+changeBg:00008-3657077686.webp -next -transform={"scale":{"x":1,"y":1}};
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -id=sk -transform={"position":{"x":850,"y":400},"scale":{"x":0.6,"y":0.6}} -next -motion=sigh02;
+changeFigure:none -next;
+:尽管最近她的生活确实稳中向好、距离“无敌”二字也差不了多远，即便变得软糯… | -fontSize=default -notend;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -expression=shame01;
+:呸，软弱一点也不至于 -fontSize=default -concat -notend;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -expression=thinking01;
+:阻碍她前进的脚步， -fontSize=default -concat;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=nf_left01 -expression=sad01;
+:可是，无敌之人往往也会更容易感到寂寞、软弱的人更是对“孤独”二字极其过敏。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=sad01 -expression=default;
+:丰川祥子不知道自己现在这样算不算无敌，但寂寞是肯定寂寞了——|简单来说就是，自从那一天的演出结束后，【丰川祥子再也没有梦到过千早爱音】。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=nf01_rui -expression=sigh01;
+setTransform:{"position":{"y":440},"scale":{"x":0.57,"y":0.57},"alpha":0} -target=sk -duration=1000 -next;
+setTransform:{"scale":{"x":1,"y":1},"alpha":0} -target=bg-main -duration=1000 -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=skk -transform={"position":{"x":1600},"scale":{"x":0.9,"y":0.9},"alpha":0} -next;
+:这成为了她最近最大的烦恼。
+changeFigure:none -id=sk -next;
+changeBg:sakikohome night4_nohuman.png -next -transform={"position":{"x":-500,"y":400},"scale":{"x":1.8,"y":1.8}};
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -transform={"position":{"x":800,"y":-100},"scale":{"x":0.73,"y":0.73}} -next -motion=smile03 -expression=sad01;
+祥子:我回来了。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=sigh02 -expression=smile03;
+:家中空无一人，但祥子还是试着像个“普通的女高中生”一样喊出这句话。changeBg:bg00553.webp  -next;
+changeFigure:none -next;
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -transform={"position":{"y":80},"scale":{"x":0.71,"y":0.71}} -next -motion=nf03 -expression=sigh01;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_rip/model.json -id=nya -transform={"position":{"x":700,"y":80},"scale":{"x":0.71,"y":0.71}} -next -motion=nf_left01 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -transform={"position":{"x":-500,"y":100},"scale":{"x":0.73,"y":0.73}} -next -motion=zb_surprised01 -expression=surprised02;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_nocap_rip/model.json -id=uk -transform={"position":{"x":300,"y":100},"scale":{"x":0.73,"y":0.73}} -next -motion=K_nnf_left01 -expression=K_surprised01;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mu -transform={"position":{"x":1000,"y":100},"scale":{"x":0.73,"y":0.73}} -next -motion=nf_left01_mu -expression=surprised01_mu;
+:今 -fontSize=default -notend;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_nocap_rip/model.json -id=uk -next -motion=K_nnf_left01 -expression=K_worry01;
+setTransform:{"position":{"x":200,"y":100},"scale":{"x":0.73,"y":0.73}} -target=uk -duration=1000 -next;
+:天的排练效果不是很好，原因是祥子自己的状态欠佳，这是在Ave Mujica组建起来之后第一次发生这样的情况。 -fontSize=default -concat;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=zb_angry04 -expression=odoodo01;
+setTransform:{"position":{"x":-800,"y":100},"scale":{"x":0.73,"y":0.73}} -target=sk -duration=0 -next;
+changeFigure:mygo_avemujica_v6/umiri/339_casual-2023_rip/model.json -id=umi -next -motion=sigh01;
+changeFigure:mygo_avemujica_v6/mutsumi/338_casual-2023_rip/model.json -id=mu -next -motion=nf01_mu -expression=R_body_down;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_rip/model.json -id=nya -next -motion=nnf02 -expression=serious01;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_nocap_rip/model.json -id=uk -next -motion=nnf_left01 -expression=K_kaoru_special02;
+setTransform:{"position":{"x":100,"y":100},"scale":{"x":0.73,"y":0.73}} -target=uk -duration=1200 -next;
+:队友、好友的关心让她意识到自己不小心将脆弱的一面暴露在了众人的视线范围之内，|一种强烈的、近乎“羞耻”乃至“恼羞成怒”的情绪濒临爆发——她不希望发生这种事情。
+changeFigure: -id=sk -next;
+changeFigure: -id=umi -next;
+changeFigure: -id=nya -next;
+changeFigure: -id=uk -next;
+changeFigure: -id=mu -next;
+changeBg:sakikohome night4_nohuman.png -next -transform={"position":{"x":-500,"y":400},"scale":{"x":1.8,"y":1.8}};
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -transform={"position":{"x":900,"y":-100},"scale":{"x":0.73,"y":0.73}} -next -motion=sigh01 -expression=default;
+:软弱的自己有它自己的归宿，不能让其他人发现。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=sad01 -expression=sad02;
+setTransform:{"position":{"x":1000,"y":-80},"scale":{"x":0.73,"y":0.73},"rotation":0.04} -target=fig-center -duration=0 -next;
+:——但是，那个归宿已经不在了。
+changeFigure:none -next;
+changeBg:sakikohomenight02_big.webp -next -transform={"position":{"x":0},"scale":{"x":1.2,"y":1.2}};
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -transform={"position":{"x":900},"scale":{"x":0.8,"y":0.8}} -next -motion=angry02 -expression=sad01;
+:丰 -fontSize=default -notend;
+setTransform:{"position":{"x":400},"scale":{"x":0.8,"y":0.8}} -target=sk -duration=800 -next;
+:川祥子走进了屋子，连灯都懒得打开，就这么将手提包随意地往旁边 -fontSize=default -notend -concat;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=nnf05_rui -expression=sigh01;
+setTransform:{"position":{"x":400,"y":150},"scale":{"x":0.8,"y":0.8},"rotation":0} -target=sk -duration=500 -next;
+setTransform:{"position":{"y":-420},"scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=500 -next;
+:一丢、随后瘫坐在了坐垫上。 -fontSize=default -concat;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -motion=sad02 -expression=odoodo01;
+:——好累。
+changeFigure:mygo_avemujica_v6/sakiko/sakiko_也坏掉了/model.json -id=sk -transform={"position":{"x":400,"y":150},"scale":{"x":0.8,"y":0.8}} -next -motion=odoodo01 -expression=default;
+:这是她和爱音不再一起做梦的【第五天】。
+changeBg:SakiKo_Home_Night_02.webp -next;
+changeFigure: -id=sk -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -transform={"scale":{"x":0.73,"y":0.73}} -next -motion=thinking01 -expression=surprised02;
+:在梦中失联的第一天，她其实是错愕又惊讶的—— -fontSize=default -notend;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -expression=smile03;
+:但是，“联机做梦”这种超自然现象既然能做到说来就来、自然也能做到说走就走。 -fontSize=default -concat;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=zb_smile03 -expression=smile05;
+setTransform:{"scale":{"x":0.73,"y":0.73}} -target=fig-center -duration=0 -next;
+changeFigure:sakiko_small/model.json -id=sox -transform={"position":{"x":-1000,"y":200},"scale":{"x":0.73,"y":0.7081},"alpha":0.7} -next -motion=angry01 -expression=default;
+:甚至，她还能安慰自己、说是这样还能帮忙“戒色”一天，不一定是什么坏事。
+changeFigure:none -id=sox -next;
+changeFigure:none -next;
+changeScene:2_07/sadness.txt;

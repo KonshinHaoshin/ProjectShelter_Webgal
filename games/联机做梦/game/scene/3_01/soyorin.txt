@@ -1,0 +1,76 @@
+changeBg:a台场/inner4.jpg -next -transform={"position":{"y":-300},"scale":{"x":1.4,"y":1.4},"blur":5};
+bgm:07. 表裏ー体.mp3;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip_sweat/model.json -id=sy17 -transform={"position":{"x":900,"y":100},"scale":{"x":0.75,"y":0.75}} -next -motion=nf01 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy19 -transform={"position":{"x":900,"y":100},"scale":{"x":0.75,"y":0.75},"alpha":0} -next;
+素世:……这也太热了。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip_sweat/model.json -id=sy17 -next -motion=ando01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk17 -transform={"position":{"x":2900},"scale":{"x":0.68,"y":0.68}} -next;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya17 -transform={"position":{"x":2300,"y":0},"scale":{"x":0.7,"y":0.7}} -next;
+:从地狱中生还的少女——长崎素世，满头大汗地逃进了商场。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip_sweat/model.json -id=sy17 -next -motion=angry01 -expression=shame02;
+:——她就不该脑子犯浑在这种天气出门的。
+setTransform:{"position":{"x":900,"y":100},"scale":{"x":0.75,"y":0.75},"alpha":0} -target=sy17 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip_sweat/model.json -id=sy18 -transform={"position":{"x":1100,"y":700},"scale":{"x":0.6,"y":0.6},"alpha":0.8,"rotation":-0.9,"oldFilm":1} -next -motion=ando01 -expression=smile03;
+changeBg:a台场/QQ图片20240815170626.jpg -next -transform={"position":{"y":0},"scale":{"x":1,"y":1}};
+:本以为台场离家里不远、更何况沿途的交通工具什么的也都有空调……但光是从车站走到商场的这趟路程，就差点要了她这位“半个家里蹲”的半条命。
+changeBg:a台场/inner4.jpg -next -transform={"position":{"y":-300},"scale":{"x":1.4,"y":1.4},"blur":5};
+changeFigure:none -id=sy18 -next;
+setTransform:{"position":{"x":900,"y":100},"scale":{"x":0.75,"y":0.75},"alpha":1} -target=sy17 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip_sweat/model.json -id=sy17 -next -motion=odoodo01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya17 -next -motion=bye01_anon -expression=turn_R;
+setTransform:{"position":{"x":300,"y":600},"scale":{"x":1.03,"y":1.03},"blur":12} -target=nya17 -duration=1500 -next;
+奇怪的紫毛:初子，这、这边这边！
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip_sweat/model.json -id=sy17 -next -motion=surprised01 -expression=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy19 -next -motion=surprised01 -expression=default;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya17 -next -motion=nf_left01 -expression=smile01;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk17 -next -motion=K_nf_left01 -expression=K_smile01;
+setTransform:{"position":{"x":900,"y":100},"scale":{"x":0.75,"y":0.75},"alpha":0} -target=sy17 -duration=1200 -next;
+setTransform:{"position":{"x":900,"y":100},"scale":{"x":0.75,"y":0.75},"alpha":1} -target=sy19 -duration=0 -next;
+setTransform:{"position":{"x":970,"y":630},"scale":{"x":0.98,"y":0.98},"alpha":1,"blur":10} -target=uk17 -duration=1600 -next;
+奇怪的金毛:是，是。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy19 -next -motion=thinking01;
+:人群涌动，长崎素世用纸巾抹了抹额间的汗水，正巧与一位紫发的女性和一位金发的少女擦肩而过。
+素世:？
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy19 -next -motion=nnf03 -expression=serious03;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya17 -next -motion=nf02 -expression=smile01;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk17 -next -motion=K_serious02 -expression=K_smile01;
+setTransform:{"position":{"x":-300,"y":1050},"scale":{"x":1.15,"y":1.15},"blur":10} -target=nya17 -duration=1000 -next;
+setTransform:{"position":{"x":400,"y":1050},"scale":{"x":1.1,"y":1.1},"blur":10} -target=uk17 -duration=1000 -next;
+:浅蓝色的双瞳微微扫过了这两个人，长崎素世总觉得自己在哪里见过她们——是哪里呢？
+changeFigure: -id=nya17 -next;
+changeFigure: -id=uk17 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy19 -next -motion=nf01 -expression=smile03;
+:……应该只是错觉吧。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy19 -next -motion=nf_left01 -expression=sad02;
+setTransform:{"position":{"x":750,"y":140},"scale":{"x":0.78,"y":0.78}} -target=sy19 -duration=1000 -next;
+素世:都怪那个笨蛋……
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy19 -next -motion=smile01 -expression=smile03;
+素世:算了，好像也不能怪她。
+changeFigure:callback1.webp -id=mem1 -transform={"position":{"x":-700},"scale":{"x":0.85,"y":0.85},"alpha":0.7} -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy19 -next -motion=nf_left01 -expression=thinking01;
+:其实长崎素世今天原本是不想出门的，毕竟某个粉毛笨蛋拒绝了她的邀请。
+changeFigure:callback2.webp -id=mem2 -transform={"position":{"x":-640},"scale":{"x":0.73,"y":0.73},"alpha":0.8} -next;
+changeFigure:none -id=mem1 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy19 -next -motion=sad01;
+:但一想到高松灯都鼓起勇气独自出门了，自己还因为这样那样的理由拼了命地给自己找借口、当家里蹲……长崎素世就总觉得有点不自在。
+changeFigure:none -id=mem2 -next;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy19 -next -motion=smile01 -expression=default;
+:于是，虽然自己一个人去电影院看电影什么的稍微有些微妙，但长崎素世最终也还是选择了出门——她想要像小灯一样，向前迈出脚步。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy19 -next -motion=nf04 -expression=smile05;
+素世:……这么说来，下次干脆试着约约小灯好了。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy19 -next -motion=serious01 -expression=smile01;
+:长崎素世确认了一下时间——距离电影开场还有一段时间。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy19 -next -motion=nf_left01;
+:既然如此，那就……
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy19 -next -motion=nf_left01 -expression=smile05;
+setTransform:{"position":{"y":-300},"scale":{"x":1.4,"y":1.4},"alpha":0,"blur":5} -target=bg-main -duration=1300 -next;
+setTransform:{"position":{"x":700,"y":140},"scale":{"x":0.77,"y":0.77},"alpha":0} -target=sy19 -duration=1200 -next;
+素世:……随便逛逛吧。
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy19 -next;
+changeFigure:2f6f.webp -id=2f6f -transform={"position":{"y":-1300},"scale":{"x":0.75,"y":0.75},"alpha":0} -next;
+:——长崎素世，乘上了电梯。
+changeBg:none -next;
+changeFigure:none -id=sy19 -next;
+setTransform:{"position":{"y":-1250},"scale":{"x":0.75,"y":0.75},"alpha":1} -target=2f6f -duration=1300 -next;
+bgm:none -enter=1000;
+: -fontSize=default;

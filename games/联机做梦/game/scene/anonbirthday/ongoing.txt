@@ -1,0 +1,117 @@
+changeBg:bg00009.webp -next -transform={"position":{"x":0}};
+changeFigure:giftbag.webp -id=bag -transform={"position":{"x":400,"y":500},"scale":{"x":0.65,"y":0.65},"rotation":-0.06} -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an8 -transform={"scale":{"x":0.95,"y":0.95}} -next -motion=smile03 -expression=default;
+bgm:16.sunset.mp3;
+:羽丘的人气王、不知为何就连其他乐队前辈都非常疼爱她的千早爱音同学，就这么收了一箩筐的祝福与礼物……
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an8 -next -motion=serious01_sk -expression=smile03;
+爱音:……好多！
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an8 -next -motion=nf01_soyo;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tm8 -transform={"position":{"x":1800,"y":-20},"scale":{"x":0.87,"y":0.87}} -next -motion=idle01 -expression=default;
+:感觉比情人节会收到的巧克力还多——放学后，爱音手忙脚乱地收拾 -notend -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an8 -next -motion=nnf_right01 -expression=smile01;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tm8 -next -motion=nf_left01 -expression=sad01;
+setTransform:{"position":{"x":1260,"y":300},"scale":{"x":0.87,"y":0.87},"rotation":-0.4} -target=tm8 -duration=2400 -next;
+好东西、最后看向了门口的方向。 -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an8 -next -motion=smile02_sk -expression=smile04;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tm8 -next -motion=idle01 -expression=shame01;
+爱音:……咕。
+:是高松灯。
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tm8 -next -motion=serious01 -expression=default;
+setTransform:{"position":{"x":1000,"y":500},"scale":{"x":0.95,"y":0.95},"rotation":-0.5} -target=tm8 -duration=2000 -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an8 -next -motion=nf01;
+setTransform:{"position":{"x":100},"scale":{"x":0.95,"y":0.95}} -target=an8 -duration=1100 -next;
+:这只可爱的小企鹅，从今天上午开始就一直在尽可能地躲着爱音、还总是一副欲言又止止言又欲的模样，怎么看都像是要憋坏了的样子——
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an8 -next -motion=smile04 -expression=turnR;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tm8 -next -motion=surprised01 -expression=turn_L_Boby;
+setTransform:{"position":{"x":1200,"y":550},"scale":{"x":0.95,"y":0.95},"rotation":-0.5} -target=tm8 -duration=0 -next;
+:哎呀，呆呆的Tomorin也太可爱了呀、太可爱了呀……
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an8 -next -motion=bye01;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tm8 -next -motion=smile01;
+setTransform:{"position":{"x":1000,"y":0},"scale":{"x":0.95,"y":0.95},"rotation":0} -target=tm8 -duration=2400 -next;
+爱音:Tomorin~我们一起去排练吧~
+:假装什么都不知道的千早爱音，如是说道。
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tm8 -next -motion=serious02 -expression=smile03;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an8 -next -motion=thinking03 -expression=smile01;
+灯:嗯、嗯！
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tm8 -next -expression=smile01;
+:高松灯点了点头，把手从手提包里掏了出来—— -notend -fontSize=default;
+setTransform:{"alpha":0} -target=bg-main -duration=0 -next;
+setTransform:{"position":{"x":400,"y":500},"scale":{"x":0.65,"y":0.65},"alpha":0,"rotation":-0.06} -target=bag -duration=0 -next;
+setTransform:{"position":{"x":1000,"y":0},"scale":{"x":0.95,"y":0.95},"alpha":0,"rotation":0} -target=tm8 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an8 -next -expression=smile04;
+:看来，生日礼物就藏在里面呢。 -concat -fontSize=default;
+setTransform:{"alpha":1} -target=bg-main -duration=0 -next;
+setTransform:{"position":{"x":400,"y":500},"scale":{"x":0.65,"y":0.65},"alpha":1,"rotation":-0.06} -target=bag -duration=0 -next;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tm8 -next -motion=surprised01 -expression=turn_L_Boby;
+setTransform:{"position":{"x":1000,"y":0},"scale":{"x":0.95,"y":0.95},"alpha":1,"rotation":0} -target=tm8 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an8 -next -motion=smile01 -expression=turnR;
+爱音:Tomorin~
+灯:嗯、嗯？
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an8 -next -motion=smile01_sk -expression=smile04;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tm8 -next -motion=smile03;
+爱音:今天是什么日子来着~？
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tm8 -next -motion=nf01 -expression=turn_Down_look;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an8 -next -motion=angry04;
+灯:……我、我不知道…… -fontSize=default;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tm8 -motion=nf_left01 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tm8 -next -motion=bye01_kokoro -expression=sad04;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an8 -next -motion=nf_right01_mu;
+啊，不，我、我其实是知道的！但我现在不能知道！ -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tm8 -next -motion=nnf_left01 -expression=smile03;
+:噗。
+changeBg:none -next;
+changeFigure: -id=an8 -next;
+changeFigure:none -id=bag -next;
+changeFigure: -id=tm8 -next;
+:爱音愉悦地欣赏着小企鹅慌慌张张的姿态，但也不打算再继续“欺负”她—— -fontSize=default;
+changeBg:bg00372.webp -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an9 -transform={"position":{"x":-150,"y":-50},"scale":{"x":0.85,"y":0.85},"alpha":1} -next -motion=serious02 -expression=smile03;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -right -id=tm9 -transform={"position":{"x":200,"y":-50},"scale":{"x":0.85,"y":0.85},"alpha":1} -next -motion=nf_left01 -expression=sad03;
+: -notend -fontSize=default;
+setTransform:{"position":{"x":180,"y":-55},"scale":{"x":0.86,"y":0.86},"alpha":1} -target=tm9 -duration=1600 -next;
+:|经过隔壁教室门口的时候，灰银的双瞳悄悄地瞄了里面一眼。  -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an9 -next -expression=sad01;
+:空无一人。
+changeBg:none -next;
+setTransform:{"position":{"x":180,"y":-55},"scale":{"x":0.86,"y":0.86},"alpha":0} -target=tm9 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an9 -next -motion=sad02_sk -expression=smile03;
+:……是呢，她早就知道、祥子今天为了晚上的演出提前早退了。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an9 -next -motion=sigh02 -expression=turn_R_body_down;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_rip/model.json -id=sk9 -transform={"position":{"x":1200,"y":-50},"scale":{"x":0.85,"y":0.85},"alpha":0.7} -next -motion=sad01 -expression=L_Boby;
+:尽管她的祥祥这几天一直努力克制着，但是，在每天晚上的梦境当中，千早爱音都能感觉到丰川祥子那份难以掩饰的遗憾。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an9 -next -motion=sad02 -expression=turnR15;
+setTransform:{"position":{"x":850,"y":-50},"scale":{"x":0.85,"y":0.85},"alpha":1} -target=an9 -duration=1600 -next;
+changeFigure:mygo_avemujica_v6/sakiko/祥子演出服-Oblivionis/341_live_rip/model.json -id=sk9 -next -motion=nf_left01 -expression=sad01;
+setTransform:{"position":{"x":1900,"y":-50},"scale":{"x":0.85,"y":0.85},"alpha":0.4} -target=sk9 -duration=1100 -next;
+:——相恋以来、千早爱音的第一个生日，没有丰川祥子的身影。
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an9 -next -motion=smile03_sk -expression=smile03;
+:要说介意不介意，那肯定还是……稍微有点介意的呢。 -fontSize=default;
+changeBg:anon_sunset.webp -next;
+setTransform:{"position":{"x":850,"y":-50},"scale":{"x":0.85,"y":0.85},"alpha":0} -target=an9 -duration=0 -next;
+:看着窗外的夕阳，千早爱音眨了眨眼——不知道，现在的祥祥有没有在想自己呢？
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an9 -next -motion=sigh02 -expression=turnR15;
+setTransform:{"position":{"x":850,"y":-50},"scale":{"x":0.85,"y":0.85},"alpha":1} -target=an9 -duration=0 -next;changeBg:bg00372.webp  -next;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tm9 -next -motion=nf_right01 -expression=sad02;
+setTransform:{"position":{"x":180,"y":-55},"scale":{"x":0.86,"y":0.86},"alpha":1} -target=tm9 -duration=0 -next;
+;changeFigure:none -id=tm9 -next;
+;changeFigure:none -id=an9 -next;
+;changeBg:none -next;
+;进个CG？
+灯:小爱…changeBg:bg00372.webp g -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an9 -transform={"position":{"x":850,"y":-50},"scale":{"x":0.85,"y":0.85}} -next -motion=zb_surprised01 -expression=default;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tm9 -transform={"position":{"x":180,"y":-55},"scale":{"x":0.86,"y":0.86}} -next -motion=thinking01 -expression=turn_R_boby;
+爱音:嗯？啊， -notend -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an9 -next -motion=bye01 -expression=smile03;
+抱歉抱歉——我马上就跟上来哦。 -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an9 -next -motion=sigh02_rui;
+setTransform:{"position":{"x":830},"scale":{"x":0.86,"y":0.86}} -target=an9 -duration=900 -next;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -id=tm9 -next -motion=nf_right01 -expression=thinking01;
+:少女笑着摇了摇头，抬脚迈过了地上残阳的碎片。
+changeBg:none -next;
+changeFigure: -id=an9 -next;
+changeFigure: -id=tm9 -next;
+:……没关系的。 -fontSize=default;
+:不过只是、稍微有点介意的程度而已。
+bgm:none -enter=1200;
+:…………………………
+changeScene:anonbirthday/party.txt

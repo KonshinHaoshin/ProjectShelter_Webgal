@@ -1,0 +1,86 @@
+changeBg:SakiKo_Home_Night_03.webp -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=thinking02 -expression=surprised01;
+:——如果，她们并非【太阳】或是【月亮】呢？
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=zb_smile03 -expression=shame02;
+:跟任何的前尘往事都没有关系，只是作为两个普通……好吧，或许也不算那么普通的女高中生，享受一段源自于超自然事件的、甜蜜到有些腻歪的恋情——
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=zb_nf02 -expression=smile05;
+:这跟任何的罪、任何的孽，都没有任何的关系。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=zb_odoodo01 -expression=default;
+:只要能做到这种程度就可以了。
+changeBg:full_grey.webp -next;
+changeFigure:none -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=skk -next -motion=zb_kime01 -expression=serious01;
+祥子:我喜欢你，爱音—— ;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=skk -next -motion=zb_serious01;
+祥子:所以。 -concat;
+:能相信的人只有自己，那是因为当初辜负他人信任的也是自己。
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=skk -next -motion=zb_kime01 -expression=default;
+祥子:我会处理好的。
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -next -motion=zb_nnf_right01 -expression=smile06;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=nf_left01 -expression=smile01;
+changeFigure:none -id=skk -next;
+爱音:嗯，我相信祥祥哦~
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -next -motion=nod01_lisa;
+祥子:……是么。
+changeFigure:none -right -next;
+changeBg:none -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -next -motion=zb_nf04 -expression=smile03;
+:千早爱音还是那么懂事。
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -next -motion=zb_sigh02;
+:明明在梦中的距离感已然是负数，但在这种时候，她依旧知道该如何保持一个令双方都舒适的距离。
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -next -motion=zb_shame02 -expression=default;
+:仔细想想也确实如此，最先越界的那个人并非爱音，而是祥子自己……想到这里，蓝发少女脸颊上的红晕又加深了一层。changeBg:full_grey.webp  -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -next -motion=nf_right01 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -transform={"position":{"x":-150,"y":35},"scale":{"x":1,"y":1},"rotation":-0.02} -next -motion=smile02 -expression=default;
+爱音:不过，有需要的话，祥祥尽管跟我说哦？只要是我能帮上忙的地方，我都会全力以赴的！
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -next -motion=nnf_left01 -expression=sigh02;
+祥子:……我不是说过，现实里的我们要保持距离么？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=nnf03 -expression=smile04;
+setTransform:{"position":{"x":-170,"y":0},"rotation":0} -target=fig-right -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -next -motion=surprised01 -expression=R_boby;
+爱音:诶~
+:爱音拖着长音、单手托腮：
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=angry04 -expression=smile04;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -next -motion=odoodo01_rui -expression=smile03;
+爱音:哪怕只是【一般的朋友】，稍微帮点小忙什么的也不算什么问题吧？
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -next -motion=serious02 -expression=smile06;
+祥子:……唉，行吧。
+changeBg:none -next;
+changeFigure:none -right -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -next -motion=zb_smile03 -expression=default;
+:千早爱音还是那么狡猾。明明已经下定决心要掌控这段关系的主导权，但唯独在这种时候，她依旧是那么的不好应付。 -fontSize=defaultchangeBg:full_grey.webp g -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -next -motion=nf_left01_eve -expression=smile03;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -transform={"position":{"x":-175}} -next -motion=angry04 -expression=smile04;
+:祥子选择了让步，她好像已经习惯这样的拉扯了：
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -next -expression=sigh01;
+祥子:有需要的话我会说的。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=kime01;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -next -motion=smile05 -expression=default;
+爱音:那我平时就负责给祥祥打call喊加油？
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -next -motion=nnf03 -expression=smile03;
+setTransform:{"position":{"x":200}} -target=fig-left -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=nnf_left01 -expression=smile04;
+祥子:……无聊。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=nnf_left01 -expression=shame01;
+:祥子终于忍不住伸手捏了捏对方的脸——她平时在梦里也喜欢这么做。 -notend;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -next -motion=zb_nf_left01 -expression=shame02;
+setTransform:{"position":{"x":100}} -target=fig-left -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -expression=smile04;
+:然后，她意识到这种亲昵行为的对象其实是个活生生的人、又赶紧把手缩了回来： -concat;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -next -motion=zb_serious02 -expression=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=nf04;
+祥子:最后一件事。
+:丰川祥子清了清嗓子，说出了今晚最重要（？）的一个约定：
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -next -motion=zb_angry03;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -expression=surprised01;
+祥子:——从今晚开始，不健全的事情将全面禁止。
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -next -motion=zb_nf_left01 -expression=thinking02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -next -motion=angry04 -expression=surprised01;
+爱音:……哎？
+:——千早爱音，瞪大了眼睛。
+changeBg:none -next;
+changeFigure:none -right -next;
+changeFigure:none -left -next;
+bgm: -enter=1000;
+:…………………………………
+changeScene:2_04/aftertalk.txt

@@ -1,0 +1,269 @@
+changeScene:2_10/sk_summer.txt
+bgm:24.humor.mp3 -enter=1200;
+changeFigure:seria/seria_inner2.jpg -id=bg -transform={"position":{"x":230,"y":-100},"scale":{"x":2.8,"y":2.8}} -next;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya -transform={"position":{"x":600,"y":0},"scale":{"x":1,"y":1}} -next -motion=nf01 -expression=smile03;
+changeFigure:seria/table_inner2.webp -id=f -transform={"position":{"x":230,"y":-100},"scale":{"x":2.8,"y":2.8}} -next;
+:有人曾经说过，某些时候、无知也是一种幸福。
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya -next -motion=smile03 -expression=turn_L_Boby;
+:正如知道得太多的人容易被杀人灭口、灵视过高的调查员容易陷入疯狂一样，有些事情确实是“不知道”比“知道”好——
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya -next -motion=surprised02;
+setTransform:{"position":{"x":600,"y":-200}} -target=nya -duration=0 -next;
+changeBg:a台场/seria_innerR.webp -next -transform={"position":{"y":-200},"scale":{"x":1.1,"y":1.1}};
+:祐天寺若麦小姐，此时此刻对于这个道理拥有了无比清晰的崭新理解。
+changeFigure: -id=bg -next;
+changeFigure: -id=nya -next;
+changeFigure: -id=f -next;
+changeFigure:mygo_avemujica_v6/anon/for_kiss/037_casual-2023_rip_back/model.json -id=anb -transform={"position":{"x":640},"scale":{"x":0.9,"y":0.9}} -next -motion=nnf_left01 -expression=shame02;
+changeFigure:341_mashiro/model.json -id=sk -transform={"position":{"x":0,"y":40},"scale":{"x":0.9,"y":0.9}} -next -motion=kiss_nnfR01_up_v4 -expression=shame02;
+changeFigure:mygo_avemujica_v6/anon/for_kiss/037_casual-2023_rip_front/model.json -id=anf -transform={"position":{"x":640},"scale":{"x":0.9,"y":0.9}} -next -motion=nnf_left01 -expression=shame02;
+若麦:哇哇哇哇……
+setTransform:{"position":{"x":640},"scale":{"x":0.9,"y":0.9},"alpha":0} -target=anb -duration=0 -next;
+setTransform:{"position":{"x":0,"y":40},"scale":{"x":0.9,"y":0.9},"alpha":0} -target=sk -duration=0 -next;
+setTransform:{"position":{"x":640},"scale":{"x":0.9,"y":0.9},"alpha":0} -target=anf -duration=0 -next;
+changeBg:none -next;
+changeFigure:seria/seria_inner2.jpg -id=bg1 -transform={"position":{"x":230,"y":-100},"scale":{"x":2.8,"y":2.8}} -next;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya1 -transform={"position":{"x":600,"y":0},"scale":{"x":1,"y":1}} -next -motion=nf_left01 -expression=smile03;
+changeFigure:seria/menuR.webp -id=menu1 -transform={"position":{"x":500,"y":420},"scale":{"x":0.57,"y":0.62},"rotation":0.17} -next;
+changeFigure:manga/nya_phone_SelfieStick.webp -id=stick1 -transform={"position":{"x":600,"y":1000},"scale":{"x":1.2,"y":1.2},"alpha":0} -next;
+changeFigure:seria/table_inner2.webp -id=f1 -transform={"position":{"x":230,"y":-100},"scale":{"x":2.8,"y":2.8}} -next;
+:萨O亚餐厅内，这位不怎么靠谱的成年女子将脸藏在菜单后面、微微将戴着的墨镜往下拉了拉：
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya1 -next -motion=surprised01 -expression=turn_L_Boby;
+setTransform:{"position":{"x":500,"y":510},"scale":{"x":0.57,"y":0.62},"rotation":0.14} -target=menu1 -duration=0 -next;
+changeFigure:none -id=anb -next -motion=nnf_left01 -expression=shame02;
+changeFigure:none -id=sk -next -motion=kiss_nnfR01_up_v4 -expression=shame02;
+changeFigure:none -id=anf -next -motion=nnf_left01 -expression=shame02;
+:她没有看错，也没有因为鼓谱强度过高而产生什么幻觉——坐在她斜前方不远处的那个蓝发女孩，正是她目前所在乐队的“老大”。
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya1 -next -motion=nf04_anon -expression=surprised01;
+setTransform:{"position":{"x":500,"y":640},"scale":{"x":0.57,"y":0.6},"rotation":0.14} -target=menu1 -duration=0 -next;
+:——丰川祥子和不认识的粉发少女吻在了一起，我怎么会做这样的梦！？
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya1 -next -motion=serious01_anon -expression=serious01;
+setTransform:{"position":{"x":600,"y":-120},"scale":{"x":1,"y":1}} -target=nya1 -duration=0 -next;
+setTransform:{"position":{"x":520,"y":990},"scale":{"x":0.6,"y":0.6},"rotation":0.26} -target=menu1 -duration=0 -next;
+setTransform:{"position":{"x":880,"y":400},"scale":{"x":1.2,"y":1.2},"rotation":-0.4} -target=stick1 -duration=0 -next;
+:不对，这是真的，这不是梦。
+setTransform:{"position":{"x":230,"y":-100},"scale":{"x":2.8,"y":2.8},"alpha":0} -target=f1 -duration=0 -next;
+setTransform:{"position":{"x":230,"y":-100},"scale":{"x":2.8,"y":2.8},"alpha":0} -target=bg1 -duration=0 -next;
+setTransform:{"position":{"x":600,"y":-120},"alpha":0} -target=nya1 -duration=0 -next;
+setTransform:{"position":{"x":520,"y":990},"scale":{"x":0.6,"y":0.6},"alpha":0,"rotation":0.26} -target=menu1 -duration=0 -next;
+setTransform:{"position":{"x":880,"y":400},"scale":{"x":1.2,"y":1.2},"alpha":0,"rotation":-0.4} -target=stick1 -duration=0 -next;
+changeBg:a台场/seria_innerR.webp -next -transform={"position":{"y":-200},"scale":{"x":1.1,"y":1.1}};
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an1 -transform={"position":{"x":640},"scale":{"x":0.9,"y":0.9}} -next -motion=nf_right01_mu -expression=shame01;
+changeFigure:341_mashiro/model.json -id=sk1 -transform={"position":{"x":0,"y":0},"scale":{"x":0.9,"y":0.9}} -next -motion=zb_nnf04 -expression=shame01_anonR;
+changeFigure:manga/phone_record.webp -id=phoR -transform={"position":{"y":-725}} -next;
+:祐天寺若麦的“目瞪口呆”状态只持续了一回合，下一秒，墨镜底下的双眼立刻微微眯起：常年与热度、数字打交道的她，几乎是下意识地拿出了手机、将摄像头对准了二人。
+changeFigure:341_mashiro/model.json -id=sk1 -next -motion=angry06;
+setTransform:{"position":{"x":140},"scale":{"x":0.9,"y":0.9}} -target=sk1 -duration=1400 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an1 -next -motion=surprised02_sk;
+:黑料、胁迫、用拍下来的视频逼祥子降低下一曲的bpm……呸，是为自己赚取更多的利益——狡猾的成年人，第一时间就想到了这些关键词。
+changeFigure:341_mashiro/model.json -id=sk1 -next -motion=zb_nf_right01_soyo -expression=smile06;
+setTransform:{"position":{"x":250,"y":40},"scale":{"x":0.9,"y":0.9},"rotation":0.08} -target=sk1 -duration=1600 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an1 -next -motion=zb_nf_left01 -expression=shame01_down;
+setTransform:{"position":{"x":600},"scale":{"x":0.9,"y":0.9}} -target=an1 -duration=1600 -next;
+setTransform:{"position":{"x":-100,"y":-200},"scale":{"x":1.1,"y":1.1}} -target=bg-main -duration=1700 -next;
+miniAvatar:mygo_avemujica_v6/nyamu/nyamu_smile02.webp;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya1 -next -motion=nf_left01 -expression=smile02;
+若麦:啊啦啊啦……~这可是大新闻中的大新闻呢—— -fontSize=default;
+changeBg:none -next;
+changeFigure: -id=sk1 -next;
+changeFigure: -id=an1 -next;
+changeFigure: -id=phoR -next;
+miniAvatar:none;
+setTransform:{"position":{"x":230,"y":-100},"scale":{"x":2.8,"y":2.8},"alpha":1} -target=bg1 -duration=0 -next;
+setTransform:{"position":{"x":600,"y":-120},"alpha":1} -target=nya1 -duration=0 -next;
+setTransform:{"position":{"x":520,"y":990},"scale":{"x":0.6,"y":0.6},"alpha":0,"rotation":0.26} -target=menu1 -duration=0 -next;
+setTransform:{"position":{"x":880,"y":400},"scale":{"x":1.2,"y":1.2},"alpha":1,"rotation":-0.4} -target=stick1 -duration=0 -next;
+setTransform:{"position":{"x":230,"y":-100},"scale":{"x":2.8,"y":2.8},"alpha":1} -target=f1 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya1 -next -motion=thinking03_anon -expression=default;
+:                                                           -notend;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya1 -next -motion=nf01 -expression=smile03;
+setTransform:{"position":{"x":1100,"y":1200},"scale":{"x":1.21,"y":1.22},"rotation":0.7} -target=stick1 -duration=1800 -next;
+setTransform:{"position":{"x":600,"y":0},"alpha":1} -target=nya1 -duration=1700 -next;
+若麦:——什么的，感觉也没什么意思呢。
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya1 -next -motion=nf01 -expression=smile02;
+:祐天寺若麦看得出来：名为丰川祥子的少女，正享受着这份热恋。
+setTransform:{"position":{"x":230,"y":-100},"scale":{"x":2.8,"y":2.8},"alpha":0} -target=f1 -duration=40 -next;
+setTransform:{"position":{"x":230,"y":-100},"scale":{"x":2.8,"y":2.8},"alpha":0} -target=bg1 -duration=40 -next;
+setTransform:{"position":{"x":520,"y":990},"scale":{"x":0.6,"y":0.6},"alpha":0,"rotation":0.26} -target=menu1 -duration=40 -next;
+setTransform:{"position":{"x":1100,"y":1200},"scale":{"x":1.21,"y":1.22},"alpha":0,"rotation":0.7} -target=stick1 -duration=40 -next;
+setTransform:{"position":{"x":600,"y":0},"alpha":0} -target=nya1 -duration=40 -next;
+changeBg:a台场/seria_innerR.webp -next -transform={"position":{"y":-200},"scale":{"x":1.1,"y":1.1}};
+;;;;;;;;;;;;;;;;;;;;;;;;
+changeFigure:manga/blue2purple.webp -id=bg22 -transform={"position":{"x":-1100,"y":-200},"scale":{"x":0.6,"y":0.6},"alpha":0,"rotation":0.1} -next;
+changeFigure:manga/seria_innerR_Up.webp -id=bg2U -transform={"position":{"y":-200},"scale":{"x":2.6,"y":2.6},"alpha":0} -next;
+changeFigure:manga/white.webp -id=w21 -transform={"position":{"x":-780},"scale":{"x":0.02,"y":0.72},"alpha":0,"rotation":0.16} -next;
+changeFigure:manga/white.webp -id=w22 -transform={"position":{"x":-1005,"y":-540},"scale":{"x":0.45,"y":0.02},"alpha":0,"rotation":0.09} -next;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nyanya -transform={"position":{"x":-760,"y":-80},"scale":{"x":0.76,"y":0.76},"alpha":0} -next -motion=surprised01_anon -expression=default;
+changeFigure:manga/seria_innerR_Down.webp -id=bg2D -transform={"position":{"y":-200},"scale":{"x":2.6,"y":2.6},"alpha":0} -next;
+changeFigure:manga/white.webp -id=w24 -transform={"position":{"x":-1100,"y":-110},"scale":{"x":0.5,"y":0.02},"alpha":0,"rotation":-0.15} -next;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -transform={"position":{"x":640,"y":0},"scale":{"x":0.9,"y":0.9},"rotation":0} -next -motion=zb_angry04 -expression=shame02_sk;
+changeFigure:341_mashiro/model.json -id=sk2 -transform={"position":{"x":350,"y":40},"scale":{"x":0.9,"y":0.9},"rotation":0.08} -next -motion=zb_nnf04 -expression=shame01R;
+:没错，【热恋】。| -notend -fontSize=default;
+setTransform:{"position":{"x":600,"y":0},"scale":{"x":0.9,"y":0.9},"rotation":0} -target=an2 -duration=0 -next;
+setTransform:{"position":{"x":430,"y":60},"scale":{"x":0.9,"y":0.9},"rotation":0.1} -target=sk2 -duration=0 -next;
+:毫无疑问，那个粉发的女孩子是丰川祥子的恋人，至少祐天寺若麦是如此判断的。 -concat -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk2 -next -motion=nf_right01 -expression=shame02;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":0.9,"y":0.9},"rotation":0} -target=sk2 -duration=1000 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=smile01_sk -expression=shame02_sk;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nyanya -next -motion=smile01 -expression=default;
+;;;;;;;;;;;;
+setTransform:{"position":{"x":-1100,"y":-200},"scale":{"x":0.6,"y":0.6},"alpha":1,"rotation":0.1} -target=bg22 -duration= -next;
+setTransform:{"position":{"y":-200},"scale":{"x":2.6,"y":2.6},"alpha":1} -target=bg2U -duration= -next;
+setTransform:{"position":{"x":-780},"scale":{"x":0.02,"y":0.72},"alpha":1,"rotation":0.16} -target=w21 -duration= -next;
+setTransform:{"position":{"x":-1005,"y":-540},"scale":{"x":0.45,"y":0.02},"alpha":1,"rotation":0.09} -target=w22 -duration= -next;
+setTransform:{"position":{"x":-760,"y":-80},"scale":{"x":0.76,"y":0.76},"alpha":1} -target=nyanya -duration= -next;
+setTransform:{"position":{"y":-200},"scale":{"x":2.6,"y":2.6},"alpha":1} -target=bg2D -duration= -next;
+setTransform:{"position":{"x":-1100,"y":-110},"scale":{"x":0.5,"y":0.02},"alpha":1,"rotation":-0.15} -target=w24 -duration= -next;
+;;;;;;;;;;;;;;;;;;;
+若麦:什么嘛，这孩子还是会笑的嘛。
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nyanya -next -motion=nf03_anon;
+changeFigure:341_mashiro/model.json -id=sk2 -next -motion=odoodo01 -expression=smile06;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=smile04 -expression=default;
+setTransform:{"position":{"x":400},"scale":{"x":0.9,"y":0.9}} -target=an2 -duration=0 -next;
+:远远地注视着蓝发双马尾少女的侧脸、欣赏着那发自内心的笑容，紫发女性的嘴角也微微上扬：
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nyanya -next -motion=nf01_anon -expression=smile03;
+若麦:……小孩子，果然还是要多笑笑比较好呢。
+setTransform:{"position":{"x":-1100,"y":-200},"scale":{"x":0.6,"y":0.6},"alpha":0,"rotation":0.1} -target=bg22 -duration= -next;
+setTransform:{"position":{"y":-200},"scale":{"x":2.6,"y":2.6},"alpha":0} -target=bg2U -duration= -next;
+setTransform:{"position":{"x":-780},"scale":{"x":0.02,"y":0.72},"alpha":0,"rotation":0.16} -target=w21 -duration= -next;
+setTransform:{"position":{"x":-1005,"y":-540},"scale":{"x":0.45,"y":0.02},"alpha":0,"rotation":0.09} -target=w22 -duration= -next;
+setTransform:{"position":{"x":-760,"y":-80},"scale":{"x":0.76,"y":0.76},"alpha":0} -target=nyanya -duration= -next;
+setTransform:{"position":{"y":-200},"scale":{"x":2.6,"y":2.6},"alpha":0} -target=bg2D -duration= -next;
+setTransform:{"position":{"x":-1100,"y":-110},"scale":{"x":0.5,"y":0.02},"alpha":0,"rotation":-0.15} -target=w24 -duration= -next;
+setTransform:{"position":{"x":400},"scale":{"x":0.9,"y":0.9},"alpha":0} -target=an2 -duration=0 -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":0.9,"y":0.9},"alpha":0,"rotation":0} -target=sk2 -next;
+;;;;;;;上面是爱祥，下面是大喵；
+setTransform:{"position":{"x":230,"y":-100},"scale":{"x":2.8,"y":2.8},"alpha":1} -target=f1 -duration=0 -next;
+setTransform:{"position":{"x":230,"y":-100},"scale":{"x":2.8,"y":2.8},"alpha":1} -target=bg1 -duration=0 -next;
+setTransform:{"position":{"x":520,"y":990},"scale":{"x":0.6,"y":0.6},"alpha":1,"rotation":0.26} -target=menu1 -duration=0 -next;
+setTransform:{"position":{"x":1100,"y":1200},"scale":{"x":1.21,"y":1.22},"alpha":0,"rotation":0.7} -target=stick1 -duration=0 -next;
+setTransform:{"position":{"x":600,"y":0},"alpha":1} -target=nya1 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya1 -next -motion=nf03;
+:看来，爱情的力量果然伟大，伟大到能让一座强撑着的冰山彻底融化。
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya1 -next -motion=surprised01 -expression=turn_L_Boby;
+:……什么，你说她们可能不是恋人？
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya1 -next -motion=angry01 -expression=thinking02_anon;
+:这都直接啵嘴了还能不是恋人，难道还会是丰川祥子借Oblivionis之名玩弄纯良小粉丝么—— -notend -fontSize=default;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya1 -next -motion=nf_right01 -expression=smile03;
+:感觉这种事更像是喵梦亲能干出来的…… -concat -fontSize=default;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya1 -next -motion=nf01 -expression=smile03;
+:咳，扯远了。 -fontSize=default;
+setTransform:{"position":{"x":230,"y":-100},"scale":{"x":2.8,"y":2.8},"alpha":0} -target=f1 -duration=0 -next;
+setTransform:{"position":{"x":230,"y":-100},"scale":{"x":2.8,"y":2.8},"alpha":0} -target=bg1 -duration=0 -next;
+setTransform:{"position":{"x":520,"y":990},"scale":{"x":0.6,"y":0.6},"alpha":0,"rotation":0.26} -target=menu1 -duration=0 -next;
+setTransform:{"position":{"x":1100,"y":1200},"scale":{"x":1.21,"y":1.22},"alpha":0,"rotation":0.7} -target=stick1 -duration=0 -next;
+setTransform:{"position":{"x":600,"y":0},"alpha":0} -target=nya1 -duration=0 -next;
+;;;;;;;
+changeFigure:341_mashiro/model.json -id=sk2 -next -motion=kime01_kokoro -expression=smile02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=smile04_mu -expression=smile04;
+setTransform:{"position":{"x":500},"scale":{"x":0.9,"y":0.9},"alpha":1} -target=an2 -duration=0 -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":0.9,"y":0.9},"alpha":1,"rotation":0} -target=sk2 -next;
+:总而言之，作为一位虽然不怎么靠谱但姑且成熟的成年女子，祐天寺若麦并不打算打扰正在享受约会的二人……
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nyanya -next -motion=surprised01_anon -expression=surprised01;
+setTransform:{"position":{"x":-1100,"y":-200},"scale":{"x":0.6,"y":0.6},"alpha":1,"rotation":0.1} -target=bg22 -duration= -next;
+setTransform:{"position":{"y":-200},"scale":{"x":2.6,"y":2.6},"alpha":1} -target=bg2U -duration= -next;
+setTransform:{"position":{"x":-780},"scale":{"x":0.02,"y":0.72},"alpha":1,"rotation":0.16} -target=w21 -duration= -next;
+setTransform:{"position":{"x":-1005,"y":-540},"scale":{"x":0.45,"y":0.02},"alpha":1,"rotation":0.09} -target=w22 -duration= -next;
+setTransform:{"position":{"x":-760,"y":-150},"scale":{"x":0.77,"y":0.77},"alpha":1} -target=nyanya -duration=0 -next;
+setTransform:{"position":{"y":-200},"scale":{"x":2.6,"y":2.6},"alpha":1} -target=bg2D -duration= -next;
+setTransform:{"position":{"x":-1100,"y":-110},"scale":{"x":0.5,"y":0.02},"alpha":1,"rotation":-0.15} -target=w24 -duration= -next;
+changeFigure:manga/herbnya.webp -id=herb2 -transform={"position":{"y":-1400},"scale":{"x":0.85,"y":0.85}} -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -motion=nf_left01_masking -expression=surprised01;
+changeFigure:341_mashiro/model.json -id=sk2 -next -motion=thinking01_anon -expression=angry01;
+: -fontSize=default;
+changeFigure:341_mashiro/model.json -id=sk2 -next -motion=smile01 -expression=R_boby;
+setTransform:{"position":{"x":75},"scale":{"x":0.9,"y":0.9}} -target=sk2 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an2 -next -expression=shame02;
+changeFigure: -id=herb2 -next;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nyanya -next -motion=angry01_anon -expression=smile03;
+setTransform:{"position":{"x":-760,"y":40},"scale":{"x":0.76,"y":0.76}} -target=nyanya -duration=0 -next;
+:此时此刻，祐天寺若麦非常庆幸自己有戴墨镜出门的习惯：不然的话，这不要钱的闪光弹早晚得损害她的视力、为她的工伤清单多添一笔。
+setTransform:{"position":{"x":-1100,"y":-200},"scale":{"x":0.6,"y":0.6},"alpha":0,"rotation":0.1} -target=bg22 -duration= -next;
+setTransform:{"position":{"y":-200},"scale":{"x":2.6,"y":2.6},"alpha":0} -target=bg2U -duration= -next;
+setTransform:{"position":{"x":-780},"scale":{"x":0.02,"y":0.72},"alpha":0,"rotation":0.16} -target=w21 -duration= -next;
+setTransform:{"position":{"x":-1005,"y":-540},"scale":{"x":0.45,"y":0.02},"alpha":0,"rotation":0.09} -target=w22 -duration= -next;
+setTransform:{"position":{"x":-760,"y":80},"scale":{"x":0.76,"y":0.76},"alpha":0} -target=nyanya -duration=0 -next;
+setTransform:{"position":{"y":-200},"scale":{"x":2.6,"y":2.6},"alpha":0} -target=bg2D -duration= -next;
+setTransform:{"position":{"x":-1100,"y":-110},"scale":{"x":0.5,"y":0.02},"alpha":0,"rotation":-0.15} -target=w24 -duration= -next;
+setTransform:{"position":{"x":400},"scale":{"x":0.9,"y":0.9},"alpha":0} -target=an2 -duration=0 -next;
+setTransform:{"position":{"x":75,"y":0},"scale":{"x":0.9,"y":0.9},"alpha":0,"rotation":0} -target=sk2 -next;
+;;;;;;;
+setTransform:{"position":{"x":230,"y":-100},"scale":{"x":2.8,"y":2.8},"alpha":1} -target=f1 -duration=0 -next;
+setTransform:{"position":{"x":230,"y":-100},"scale":{"x":2.8,"y":2.8},"alpha":1} -target=bg1 -duration=0 -next;
+setTransform:{"position":{"x":520,"y":990},"scale":{"x":0.6,"y":0.6},"alpha":0,"rotation":0.26} -target=menu1 -duration=0 -next;
+setTransform:{"position":{"x":1100,"y":1200},"scale":{"x":1.21,"y":1.22},"alpha":0,"rotation":0.7} -target=stick1 -duration=0 -next;
+setTransform:{"position":{"x":600,"y":0},"scale":{"x":1,"y":1},"alpha":1} -target=nya1 -duration=0 -next;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya1 -next -motion=thinking03_anon -expression=turn_L_Boby;
+:只是，再这样下去的话真的没问题么？姑且不谈Ave Mujica的世界观……
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya1 -next -motion=angry01 -expression=smile03;
+changeFigure:manga/himarilock.webp -id=himarilock -transform={"position":{"x":2500,"y":-600},"scale":{"x":0.85,"y":0.85},"alpha":0.7,"rotation":2} -next;
+若麦:……哪怕是无视世俗的目光也不能这么无视吧！？
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya1 -next -motion=nf01 -expression=smile03;
+setTransform:{"position":{"x":-2450,"y":-600},"scale":{"x":0.85,"y":0.85},"alpha":0.7,"rotation":0} -target=himarilock -duration=2400 -next;
+:鼓手低声地吐着槽：女孩子之间的恋爱在如今这个世道并非什么奇事，这也是大少女乐队时代的一个侧面。
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya1 -next -motion=nf05 -expression=thinking01_anon;
+:但做到丰川祥子和这位不知名粉毛这种地步的，饶是喵梦这位互联网大神也是头一次见。
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya1 -next -motion=smile04_anon -expression=smile04_anon;
+:……那么，该怎么做呢？
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya1 -next -motion=smile03 -expression=smile04_anon;
+:不靠谱成年人那极其不靠谱的好奇心开始燃烧了起来：明知道不应该打扰别人的私生活、明知道不应该干狗仔队才会干的事情——
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya1 -next -expression=smile01;
+:但是。
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya1 -next -motion=kime02 -expression=smile02;
+若麦:……真、真是的，我们的队长还真不让人省心呢……
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya1 -next -motion=kime02_anon -expression=smile02;
+:抱着“这两个孩子那么大胆很容易出事、我作为成年人一定要看好她们！”这样的心态，紫发女性的嘴角露出了一个邪恶的……呸，是温柔贴心的微笑，就像是什么猫科动物一样：
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya1 -next -motion=kime01_anon -expression=smile02;
+若麦:既然如此，那就别怪喵梦亲我稍微“冒犯”一下了呢……~ -fontSize=default;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya1 -next -motion=smile01 -expression=turn_L_Boby;
+setTransform:{"position":{"x":600,"y":-200},"scale":{"x":1,"y":1},"alpha":1} -target=nya1 -duration=0 -next;
+setTransform:{"position":{"x":520,"y":190},"scale":{"x":0.6,"y":0.6},"alpha":1,"rotation":0.24} -target=menu1 -duration=0 -next;
+:于是乎，举着萨O亚点餐菜单、挡在脸前的不靠谱成年女性，开始了她那不靠谱的跟踪——
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya1 -next -motion=surprised02 -expression=turn_R;
+setTransform:{"position":{"x":420,"y":690},"scale":{"x":0.6,"y":0.6},"alpha":0,"rotation":0.2} -target=menu1 -duration=0 -next;
+^~^:啊，不好意思，这位客人，那个……菜单、是不能带走的……
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya1 -next -motion=kime01 -expression=turn_R;
+若麦:嗯？啊——抱歉抱歉~
+changeFigure: -id=bg1 -next;
+changeFigure: -id=f1 -next;
+changeFigure: -id=nya1 -next;
+changeFigure: -id=menu -next;
+changeFigure: -id=stick -next;
+;;;;;;
+changeFigure: -id=bg22 -next;
+changeFigure: -id=bg2U -next;
+changeFigure: -id=bg2D -next;
+changeFigure: -id=w21 -next;
+changeFigure: -id=w22 -next;
+changeFigure: -id=w24 -next;
+changeFigure: -id=nyanya -next;
+changeFigure: -id=sk2 -next;
+changeFigure: -id=an2 -next;
+changeFigure: -id=himarilock -next;
+;;;;;
+changeBg:a台场/seria_out2.jpg -next -transform={"scale":{"x":1.2,"y":1.2}};
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya1 -transform={"position":{"x":0,"y":0},"scale":{"x":1,"y":1}} -next -motion=smile02 -expression=smile02;
+changeFigure:manga/brochure.webp -id=illu -transform={"position":{"y":100},"scale":{"x":0.6,"y":0.7}} -next;
+:重来一遍。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_glass/model.json -id=nya1 -next -expression=turn_L_Boby;
+setTransform:{"position":{"x":-900},"scale":{"x":1.1,"y":1.1},"alpha":0} -target=nya1 -duration=1000 -next;
+setTransform:{"position":{"x":-900,"y":140},"scale":{"x":0.66,"y":0.77},"alpha":0} -target=illu -duration=1000 -next;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk1 -transform={"position":{"x":1700,"y":-60},"scale":{"x":0.96,"y":0.96}} -next;
+:——于是乎，举着《台场海滨公园旅游观光指南》、挡在脸前的不靠谱成年女性，开始了她那极其不靠谱的跟踪。 -fontSize=default;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk1 -next -motion=nnf_left01 -expression=K_worry01;
+setTransform:{"position":{"x":1300,"y":-10},"scale":{"x":0.98,"y":0.98}} -target=uk1 -duration=1400 -next;
+:而将注意力完全投放在不知名粉发少女与丰川祥子身上的她，自然也没能察觉到……
+bgm:none -enter=1600;
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk1 -next -motion=K_nnf03 -expression=K_kaoru_surprised;
+setTransform:{"position":{"x":900,"y":0},"scale":{"x":1,"y":1}} -target=uk1 -duration=0 -next;
+初华:嗯？那是……
+changeFigure:mygo_avemujica_v6/uika/337_casual-2023_rip/model.json -id=uk1 -next -motion=smile01 -expression=smile02;
+setTransform:{"position":{"x":0,"y":60},"scale":{"x":1.2,"y":1.2},"alpha":0} -target=uk1 -duration=0 -next;
+setTransform:{"scale":{"x":1.2,"y":1.2},"alpha":0} -target=bg-main -duration=0 -next;
+:……没能察觉到，一位【戴着鸭舌帽、留着金色短发】的少女，正好看见了她的背影。
+changeBg:none -next;
+changeFigure:选择立绘文件 -id=uk1 -next;
+changeFigure:none -id=nya1 -next;
+changeFigure:none -id=illu -next;
+:………………………………
+changeScene:2_10/only one.txt

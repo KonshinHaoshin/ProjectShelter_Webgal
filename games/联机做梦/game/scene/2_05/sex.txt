@@ -1,0 +1,125 @@
+changeBg:bg00879.webp -next -transform={"position":{"x":-400,"y":-250},"scale":{"x":1.32,"y":1.32}};
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -id=sk -next -motion=zb_thinking01 -expression=R_boby;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -id=an -transform={"position":{"x":0,"y":0}} -next -motion=thinking03 -expression=thinking02;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1,"y":1}} -target=an -duration=0 -next;
+爱音:啊，糟糕，这里没有纸笔——我想想……
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=smirk -expression=smirk;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=smile06 -expression=R_boby;
+:然而，千早爱音似乎完全没有这方面的想法。她只是模仿着祥子平时的动作打了个响指——然后发现自己打的响指 -fontSize=default -notend;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -expression=smile03;
+:没声。 -fontSize=default -concat;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=smile02 -expression=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=angry03 -expression=shame01;
+爱音:……咳、咳咳！
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=kime01_soyo;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=nf_right01 -expression=smile01;
+changeFigure:rubber/pen2.webp -id=pen -transform={"position":{"x":600,"y":-700},"scale":{"x":0.8,"y":0.8},"alpha":0,"rotation":-0.6} -next;
+changeFigure:rubber/paper.webp -id=paper -transform={"position":{"x":300,"y":-600},"scale":{"x":0.4,"y":0.5},"alpha":0} -next;
+changeFigure:rubber/stars.webp -id=star -transform={"position":{"x":200,"y":-600},"scale":{"x":0.9,"y":0.9},"alpha":0,"rotation":0} -next;
+changeFigure:rubber/stars.webp -id=star2 -transform={"position":{"x":300,"y":-200},"alpha":0,"rotation":-1.6} -next;
+:爱音红着脸、将动作改成了拍手——很快，崭新的文具和纸张伴 -notend;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -expression=surprised01;
+setTransform:{"position":{"x":500,"y":-600},"rotation":-0.9} -target=star -duration=0 -next;
+setTransform:{"position":{"x":180,"y":-300},"rotation":-1.8} -target=star2 -duration=0 -next;
+setTransform:{"position":{"x":400,"y":-200},"scale":{"x":0.4,"y":0.5},"alpha":1,"rotation":0.4} -target=paper -duration=0 -next;
+setTransform:{"position":{"x":600,"y":-400},"scale":{"x":0.8,"y":0.8},"alpha":1,"rotation":-1.2} -target=pen -duration=0 -next;
+:随着非常卡通的星星特效，“砰” -fontSize=default -notend -concat;
+setTransform:{"position":{"x":480,"y":-700},"alpha":0,"rotation":-1.1} -target=star -duration=0 -next;
+setTransform:{"position":{"x":120,"y":-350},"alpha":0,"rotation":-2} -target=star2 -duration=0 -next;
+setTransform:{"position":{"x":400,"y":100},"scale":{"x":0.4,"y":0.5},"alpha":0} -target=paper -duration=0 -next;
+setTransform:{"position":{"x":600,"y":-200},"scale":{"x":0.8,"y":0.8},"alpha":0,"rotation":-1.2} -target=pen -duration=0 -next;
+:地一声出现在了桌面上。 -fontSize=default -concat;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=surprised01_eve -expression=Down_look;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=nf04 -expression=smile02;
+爱音:喔噢！居然真的可以诶！
+changeFigure:none -id=pen -next;
+changeFigure:none -id=paper -next;
+changeFigure: -id=star -next;
+changeFigure: -id=star2 -next;
+changeBg:none -next;
+changeFigure:none -id=an -next;
+changeFigure:none -id=sk -next;
+bgm: -enter=1100;
+:——这是丰川祥子和千早爱音的【共通梦】。|所以，梦境的主人并非只有祥子一人。changeBg:bg00879.webp  -next -transform={"position":{"x":-400,"y":-300},"scale":{"x":1.4,"y":1.4}};
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -id=an -transform={"position":{"x":-150,"y":-100},"scale":{"x":1.1,"y":1.1}} -next -motion=smile04_sk -expression=smile04;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -left -id=sk -transform={"position":{"x":-500,"y":-100},"scale":{"x":1.1,"y":1.1}} -next -motion=zb_odoodo01 -expression=sigh01;
+:意识到这点的瞬间，爱音就像个拿到新玩具的孩童一样开心得不行；
+setTransform:{"position":{"x":520,"y":-300},"scale":{"x":1.4,"y":1.4}} -target=bg-main -duration=0 -next;
+setTransform:{"position":{"x":0,"y":-100},"scale":{"x":1.1,"y":1.1}} -target=sk -duration=0 -next;
+setTransform:{"position":{"x":450,"y":-100},"scale":{"x":1.1,"y":1.1}} -target=an -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=smile01_soyo -expression=shame02;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_rip/model.json -id=nya -transform={"position":{"x":2500,"y":0},"alpha":0,"rotation":1.4} -next;
+bgm:16.reaching_out_hands.mp3 -volume=1100;
+:而意识到这点的瞬间，祥子则是开始幻想爱音利用这一点强迫她做一些不健全的事情——
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=zb_angry01 -expression=angry07;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf_left01 -expression=surprised01;
+changeFigure:mygo_avemujica_v6/nyamu/340_casual-2023_rip/model.json -id=nya -next -motion=surprised01 -expression=default;
+setTransform:{"position":{"x":2500,"y":-2200},"alpha":0.7,"rotation":1.4} -target=nya -duration=900 -next;
+playEffect:fist-hitting-wood-table.wav;
+:砰！
+changeFigure:none -id=nya -next;
+setTransform:{"position":{"x":200,"y":-100},"scale":{"x":1.1,"y":1.1}} -target=an -duration=0 -next;
+:——蓝色小章鱼，握拳用力砸在了桌面上。不知道多少公里外的某处公寓，睡得不太安稳的佑天寺若麦小姐再次感觉到了一股杀气、整个人都震了一下。
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=zb_nnf_left01 -expression=surprised02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=angry04;
+爱音:祥、祥祥！？
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -expression=thinking02;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=thinking02 -expression=default;
+祥子:啊，抱歉，我刚刚在想新曲的鼓点。
+:前略，丰川祥子不擅长说谎，所以她现在的脸红得像是若叶睦种的小番茄。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf_left01_soyo -expression=smile03;
+爱音:是、是这样么……？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=shame02 -expression=smile04;
+:中略，千早爱音总是很容易相信别人，但她也不至于笨到看不明白祥子现在的窘迫。|粉发的少女似乎想到了什么，眯起了眼睛、用开玩笑的语气问道： -fontSize=default;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=zb_nf_left01 -expression=surprised01;
+setTransform:{"position":{"x":-75,"y":-100},"scale":{"x":1.1,"y":1.1}} -target=sk -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -id=an -next -motion=nf_left01;
+爱音:难道说……这才第一天，祥祥就已经忍不住在想些奇怪的事情了~？
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf_left01;
+祥子:……！？
+setTransform:{"position":{"x":0,"y":-100},"scale":{"x":1.1,"y":1.1}} -target=an -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=zb_sigh01 -expression=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=nf03;
+爱音:诶，不会真说中了吧……？
+祥子:……。
+:后略——哦，没有后略。
+changeBg:none -next;
+changeFigure:none -id=an -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=sigh01_rui -expression=shame01;
+:丰川祥子咬紧牙关、拼尽全力地压抑着内心升腾的欲望——吸、吸、呼。
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=zb_kime01 -expression=default;
+:没事的。|自己已经准备好了对策，哪、哪怕爱音要霸王硬上弓，自己也有办法……
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -expression=thinking02;
+:嗯changeBg:bg00879.webp g -next -transform={"position":{"x":520,"y":-300},"scale":{"x":1.4,"y":1.4}};
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -id=an -transform={"position":{"x":60,"y":-100},"scale":{"x":1.1,"y":1.1}} -next -motion=smile04 -expression=default;
+爱音:噗噗，我只是开个玩笑而已啦~
+setTransform:{"scale":{"x":1,"y":1}} -target=bg-main -duration=0 -next;
+setTransform:{"position":{"x":100,"y":0},"scale":{"x":1,"y":1}} -target=an -duration=0 -next;
+setTransform:{"position":{"y":0},"scale":{"x":1,"y":1}} -target=sk -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=serious01_soyo -expression=smile02;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=nnf_right01 -expression=thinking01;
+:——并没有那样的霸王、也没有那样的硬上弓。
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -id=an -next -motion=thinking03 -expression=thinking02;
+:千早爱音只是跟往常一样与祥子保持着舒适的距离，开始了自己的工作。
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=ando01_soyo -expression=sad02;
+:|祥子突然感到一阵恍惚：这样的相处方式，跟【现实】又有何区别呢？ -concat;
+changeBg:none -next;
+changeFigure:none -id=an -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=nf01 -expression=thinking02;
+:但是，这是她自己做的决定。
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=sigh02 -expression=thinking01;
+:梦境的时间非常宝贵，她在这里不会感觉到任何的疲惫、头脑也异常清晰——
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -expression=smile02;
+:尽管梦里完成的作业、剧本、曲谱都不能带出去，但只要将这些记在脑子里，等醒来再重新照着记忆“临摹”一遍，就能节省大量的现实时间。
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=nnf_left01 -expression=shame01;
+:这么好的机会不拿来干正事、而是沉溺于荒淫无度的——咳，【同性不健全关系】的话，可就太浪费了。
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk -next -motion=thinking02 -expression=default;
+:……没错，就是这样。|祥子通过极其健全的正论说服了自己，也开始了今夜的工作——
+changeFigure: -id=sk -next;
+:没问题的，她能忍住。
+:只要不去想就好了。 -fontSize=default;
+bgm: -enter=900;
+:…………
+:……
+:…
+changeScene:2_05/soox.txt

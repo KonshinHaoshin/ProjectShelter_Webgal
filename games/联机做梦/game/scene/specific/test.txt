@@ -1,0 +1,21 @@
+changeFigure:mygo_avemujica_v6/rana/038_school_summer-2023_rip/model.json -id=rn -transform={"position":{"x":-550,"y":250},"scale":{"x":0.85,"y":0.85},"rotation":-0.3};
+changeFigure:ring_cafe_table_only.webp -id=t -transform={"position":{"y":360},"scale":{"x":1.7,"y":1.7}} -next;
+changeFigure:cake/cake1.webp -id=k -transform={"position":{"y":-180},"scale":{"x":0.9,"y":0.9}} -next;
+changeFigure:ring_cafe_chair_only.webp -id=c -transform={"position":{"y":220},"scale":{"x":1.7,"y":1.7}};
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an -transform={"position":{"y":-200}} -next -motion=kandou02 -expression=default;
+changeFigure:hat_uk/model.json -id=hat -transform={"position":{"x":-520,"y":-450},"scale":{"x":1.4,"y":1.4}} -next -motion=kandou02_anon;
+: -fontSize=default;
+changeFigure:mygo_avemujica_v6/tomoli/036_school_summer-2023_rip/model.json -motion=bye01;
+changeFigure:青叶 摩卡/007_school_summer-2023model.json -motion=shake02 -expression=smile01;
+changeFigure:魔法纪录-路人Live2D包/800203/model.json -motion=Motion -expression=mtn_ex_011.exp3.json;
+changeFigure:anon_birthday/model.json -transform={"position":{"y":-300},"scale":{"x":0.8,"y":0.8}} -next -motion=bye01_anon_birthday -expression=default;
+changeFigure:mygo_avemujica_v6/anon/037_casual-2023_rip/model.json -right -transform={"position":{"x":300,"y":-300},"scale":{"x":0.8,"y":0.8}} -motion=sad01 -expression=default;
+changeFigure:mygo_avemujica_v6/sakiko/无高光_冬季/model.json -transform={"position":{"y":-200},"scale":{"x":0.9,"y":0.9}} -motion=nf05_mu -expression=smile03;
+changeFigure:mygo_avemujica_v6/mutsumi/338_school_summer-2023_rip/model.json -transform={"scale":{"x":0.73,"y":0.73}} -motion=smile02_mu -expression=default;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -left -next -motion=nnf01 -expression=smile04;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -right -motion=nf01 -expression=smile05;
+changeFigure:Ring天台/栏杆下.webp -id=bg1 -transform={"position":{"y":250},"scale":{"x":1.8,"y":1.8}} -next;
+changeFigure:mygo_avemujica_v6/sakiko/341_casual-2023_rip/model.json -id=sk7 -transform={"position":{"x":500,"y":-180},"scale":{"x":0.68,"y":0.68},"alpha":0.3} -next -motion=serious01_rui -expression=serious02 -bounds=-100,-100,500,500;
+changeFigure:mygo_avemujica_v6/soyo/039_casual-2023_rip/model.json -id=sy7 -transform={"position":{"x":670,"y":-200},"scale":{"x":0.85,"y":0.85}} -next -motion=nf_left01 -expression=thinking01;
+changeFigure:Ring天台/栏杆下_front.webp -id=f7 -transform={"position":{"x":10,"y":375},"scale":{"x":1.8,"y":1.8}} -next;
+:丰川祥子居高临下地站在楼梯上，广告屏的光亮只能照出她的半张侧脸、让她能将自己的另一面藏在阴影之中。

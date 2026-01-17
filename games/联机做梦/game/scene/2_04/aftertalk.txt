@@ -1,0 +1,63 @@
+changeBg:bg00069.webp -next;
+bgm:19. Passing_by.mp3 -enter=1200;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -transform={"position":{"x":500},"scale":{"x":0.8,"y":0.8}} -next -motion=idle01 -expression=thinking02;
+OvO:——呐呐，听说了么。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -right -id=sk -next -motion=nf01;
+setTransform:{"alpha":0} -target=bg-main -duration=1200 -next;
+setTransform:{"position":{"x":600,"y":0},"scale":{"x":0.73,"y":0.73},"alpha":0} -target=sk -duration=1200 -next;
+:蓝发双马尾的少女，板着脸走在走廊上。
+changeBg:lane2.webp -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an -transform={"position":{"x":-200},"scale":{"x":0.9,"y":0.9}} -next -motion=nnf_right01 -expression=smile01;
+changeFigure: -id=sk -next;
+O_o:——听说什么？
+changeBg:none -next;
+changeFigure:none -id=an -next;
+:粉色长发的少女，在教室门外跟几位学生欢声笑语地交谈着。
+changeBg:lane1.webp -next -transform={};
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1,"y":1}} -target=bg-main -duration=0 -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -transform={"position":{"x":200},"scale":{"x":0.8,"y":0.8}} -next -motion=nnf_left01 -expression=angry01;
+OwO:——我们学校有两个女孩子……在吹奏部的部活室接吻了哦！
+changeBg:none -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -next -expression=sigh02;
+setTransform:{"position":{"x":150},"scale":{"x":0.8,"y":0.8},"alpha":0} -target=sk -duration=0 -next;
+:窗外的阳光洒进了走廊，蓝发的少女保持着固定的步伐与节奏、交错的阴晴没能动摇她那紧绷的表情。changeBg:lane2.webp  -next;
+setTransform:{"scale":{"x":1.1,"y":1.1}} -target=bg-main -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an -next -motion=surprised01 -expression=smile01;
+changeFigure:none -id=sk -next;
+O_o:——呜哇，玩这么大……是谁是谁？
+changeBg:none -next;
+changeFigure:none -id=an -next;
+:或许是聊到了什么有趣的话题，粉发的少女笑得咧开嘴角、露出了那可爱的小虎牙。changeBg:lane1.webp  -next -transform={"position":{"x":200,"y":-100},"scale":{"x":1.2,"y":1.2}};
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=sk -transform={"position":{"x":400},"scale":{"x":0.8,"y":0.8},"alpha":1} -next -motion=idle01 -expression=thinking02;
+OvO:——不知道，据目击者称是不认识的孩子，但其中一个经常在那边弹琴……
+setTransform:{"position":{"y":-100},"scale":{"x":1.2,"y":1.2},"alpha":0} -target=bg-main -duration=1200 -next;
+setTransform:{"position":{"x":300,"y":100},"scale":{"x":0.73,"y":0.73},"alpha":0} -target=sk -duration=1200 -next;
+:蓝发的少女走向了自己的教室门口changeBg:lane2.webp g -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an -next -motion=bye01 -expression=smile02;
+setTransform: -target=an -duration=0 -next;
+OwO:——哎，那她们有什么特征么？
+setTransform:{"alpha":0} -target=bg-main -duration=1200 -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=an -next -motion=nf_left01;
+setTransform:{"alpha":0} -target=an -duration=1200 -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=skk -transform={"position":{"x":200},"scale":{"x":0.9,"y":0.9},"alpha":0} -next;
+:粉发的少女突然想起了什么，跟自己的友人们挥了挥手、转过身来changeBg:lane1.webp g -next;
+setTransform:{"position":{"x":300,"y":-300},"scale":{"x":1.6,"y":1.6}} -target=bg-main -duration=0 -next;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -id=ann -next -motion=nf_left01 -expression=smile02;
+setTransform:{"position":{"x":-550,"y":100},"scale":{"x":0.8,"y":0.8},"alpha":1} -target=ann -duration=600 -next;
+changeFigure:none -id=sk -next;
+changeFigure:none -id=an -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -id=skk -next -motion=idle01 -expression=serious01_rui;
+setTransform:{"position":{"y":100},"scale":{"x":0.8,"y":0.8}} -target=skk -duration=600 -next;
+OvO:——唔，好像一个是粉头发、一个是蓝头发的？然后有个好像留着双马尾之类的发型……
+setTransform:{"position":{"x":-60,"y":140},"scale":{"x":0.73,"y":0.73},"alpha":0} -target=skk -duration=0 -next;
+:转身的少女与刚要走进教室的少女，擦肩而过——二人之间，没有任何的视线接触。
+changeBg:none -next;
+changeFigure:none -id=ann -next;
+OwO:哎，那不就是——
+:——就像是，什么也没有发生过一样。
+changeBg:none -next;
+changeFigure: -id=skk -next;
+bgm: -enter=1200;
+:【千早爱音禁欲天数：1】|【丰川祥子禁欲天数：1】
+:………………………………
+changeScene:2_04/aftertalk2.txt

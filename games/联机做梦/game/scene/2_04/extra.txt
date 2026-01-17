@@ -1,0 +1,5 @@
+changeBg:bg00394.webp -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -left -transform={"position":{"x":-100},"scale":{"x":0.9,"y":0.9}} -next -motion=zb_nnf_left01 -expression=thinking02;
+changeFigure:mygo_avemujica_v6/anon/037_school_summer-2023_rip/model.json -right -transform={"position":{"x":200},"scale":{"x":0.9,"y":0.9}} -next -motion=zb_nf_left01 -expression=smile03;
+changeFigure:sakiko_small/model.json -transform={"position":{"x":100,"y":100},"scale":{"x":0.9,"y":0.886},"alpha":0.7} -next -motion=angry03 -expression=default;
+changeFigure:anon_small.webp -id=cute -transform={"position":{"x":-50,"y":-325},"scale":{"x":0.45,"y":0.45},"alpha":0.7,"rotation":-0.1} -next;

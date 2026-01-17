@@ -1,0 +1,5 @@
+changeBg:green.webp -next;
+changeFigure:distance/anon_naked/model.json -id=1 -transform={"position":{"x":300,"y":750},"scale":{"x":0.8,"y":0.8},"rotation":-0.7} -next -motion=shame02 -expression=turn_R_Body -bounds=-100,-100,100,300;
+changeFigure:distance/sakiko_long/千早爱音_祥子代餐_v1/Anon_2023常服_祥子代餐版_v0.7.model.json -id=4 -transform={"position":{"x":-650,"y":590},"scale":{"x":0.75,"y":0.75},"alpha":1,"rotation":-0.5} -next -motion=Sk_shame02 -expression=左低头 -bounds=-100,-100,100,300;
+changeFigure:distance/sakiko_long/睦头~祥子代餐/后发/model.json -id=3 -transform={"position":{"x":-650,"y":590},"scale":{"x":0.77,"y":0.77},"alpha":1,"rotation":-0.5} -next -motion=shame02_sk -expression=turn_L_Body_Down -bounds=-100,-100,100,300;
+changeFigure:distance/sakiko_naked_long/model.json -id=2 -transform={"position":{"x":-700,"y":550},"scale":{"x":0.8,"y":0.8},"rotation":-0.5} -next -motion=shame02 -expression=L_Boby_Down -bounds=-100,-100,100,300;

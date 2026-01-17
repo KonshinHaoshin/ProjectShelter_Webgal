@@ -1,0 +1,155 @@
+changeBg:bed.webp -next -transform={"blur":25};
+changeFigure:sakiko_naked_long/model.json -left -transform={"position":{"y":150}} -next -motion=sad02 -expression=cry03;
+changeFigure:anon_naked/model.json -right -next -motion=nf_left01 -expression=surprised01;
+changeFigure:pillow2.webp -transform={"position":{"x":-325,"y":1200},"scale":{"x":0.45,"y":0.45},"alpha":1} -next;
+祥子:……为什么。 ;
+:一夜过去。
+changeFigure:sakiko_naked_long/model.json -left -next -motion=nnf_right01;
+:The·祥子·Oblivionis·丰川=桑，流下悔恨的泪水——|然后，抓狂地吼道：
+changeFigure:sakiko_naked_long/model.json -left -next -motion=angry07 -expression=cry04;
+setTransform:{"position":{"x":55,"y":-100},"alpha":1} -target=fig-left -duration=200 -next;
+changeFigure:anon_naked/model.json -right -next -motion=smile03 -expression=default;
+祥子:——为什么你这么熟练啊！？  -fontSize=default -left;
+changeFigure:sakiko_naked_long/model.json -left -next -motion=nf_right01;
+changeFigure:anon_naked/model.json -right -next -motion=nf_left01 -expression=smile03;
+setTransform:{"position":{"y":100}} -target=fig-right -duration=0 -next;
+爱音:呜哦，好强的既视感。  -fontSize=default;
+changeFigure:sakiko_naked_long/model.json -left -next -motion=smile03;
+setTransform:{"position":{"x":-300,"y":500},"scale":{"x":0.45,"y":0.45},"alpha":1} -target=fig-center -duration=500 -next;
+changeFigure:anon_naked/model.json -right -next -motion=nf_left01 -expression=surprised01;
+changeFigure:anon_naked/model.json -id=anon -transform={"position":{"y":200},"alpha":0} -next -motion=nf04 -expression=sad01;
+setTransform:{"position":{"y":200}} -target=fig-right -duration=700 -next;
+changeFigure:pillow2.webp -id=pillow2 -transform={"position":{"x":-400,"y":-300},"scale":{"x":0.45,"y":0.45},"alpha":0} -next;
+:躺在一旁的爱音有些不好意思地缩了缩身子，但祥子并不打算就这么放过她、而是气鼓鼓地拿起粉色的枕头、 -fontSize=default -notend;
+changeFigure:none -left -next;
+changeFigure:none -next;
+changeFigure:none -right -next;
+changeFigure:anon_naked/model.json -id=anon -next -motion=angry01 -expression=cry02;
+setTransform:{"position":{"x":-300,"y":-100},"scale":{"x":0.45,"y":0.45},"alpha":1} -target=pillow2 -duration=700 -next;
+setTransform:{"position":{"y":400}} -target=anon -duration=700 -next;
+:一下又一下地砸在对方身上： -fontSize=default -concat;
+setTransform:{"position":{"x":-250,"y":100},"scale":{"x":0.45,"y":0.4},"rotation":-0.1} -target=pillow2 -duration=800 -next;
+setTransform:{"position":{"y":500}} -target=anon -duration=800 -next;
+祥子:为什么！ ;
+changeFigure:none -id=pillow2 -next;
+changeFigure:none -id=anon -next;
+changeFigure:sakiko_naked_long/model.json -left -next -motion=cry04 -expression=cry04;
+changeFigure:anon_naked/model.json -right -transform={"position":{"y":700}} -next -motion=nf04 -expression=smile03;changeFigure:pillow2.webp -id==pillow -transform={"position":{"x":400,"y":300},"scale":{"x":0.45,"y":0.4}} -next;
+祥子:为什么！为什么每次都会是这样的结局！ ;
+setTransform:{"position":{"x":-700,"y":-1100},"scale":{"x":0.45,"y":0.45}} -target=pillow -duration=700 -next;
+changeFigure:anon_naked/model.json -right -next -motion=nf_left01;
+setTransform:{"position":{"y":0}} -target=fig-right -duration=1100 -next;
+爱音:诶、诶……呃，对不起？ ;
+setTransform:{"position":{"x":-700,"y":600},"scale":{"x":0.45,"y":0.45},"rotation":-0.3} -target=pillow -duration=600 -next;
+changeFigure:sakiko_naked_long/model.json -left -next -motion=angry04;
+changeFigure:anon_naked/model.json -right -next -motion=smile03;
+祥子:不许道歉！！ ;
+changeFigure:none -right -next;
+changeFigure:sakiko_naked_long/model.json -left -next -motion=smirk -expression=cry01;
+changeFigure: -id=pillow -next;
+:——想不通。
+changeFigure:sakiko_naked_long/model.json -left -next -motion=cry02 -expression=sad02;
+:为什么，梦中的千早爱音、这方面的“技术”会这么好……而且还是越来越好！
+changeFigure:sakiko_naked_long/model.json -left -next -motion=shame02;
+:难道说，千早爱音其实是个天才（意味深）——
+changeFigure:sakiko_naked_long/model.json -left -next -motion=angry07 -expression=serious02;
+:也不对啊！
+changeFigure:none -left -next;
+changeFigure:anon_naked/model.json -transform={"alpha":0.8} -next -motion=smile04 -expression=smile04;
+祥子无法理解，为什么【梦里虚构出来的粉发少女】会掌握那么多她不知道的“知识”和“技巧”……
+changeFigure:none -next;
+changeFigure:sakiko_naked_long/model.json -left -next -motion=thinking01 -expression=shame01;
+身为梦境主人的她都不懂的事情，难道不应该因为缺乏渲染素材而无法在梦中成立么？
+changeFigure:anon_naked/model.json -right -next -motion=nf_left01 -expression=sigh02;
+changeFigure:sakiko_naked_long/model.json -left -next -motion=nf_left01 -expression=angry01;
+changeFigure:pillow2.webp -transform={"position":{"x":-400,"y":600},"scale":{"x":0.35,"y":0.45},"rotation":0.1} -next;
+解开马尾辫、披头散发的蓝发少女越想越气，紧紧抱住了怀中的枕头—— -fontSize=default -notend;
+changeFigure:sakiko_naked_long/model.json -left -next -motion=nf_left01 -expression=L_Boby_Down_surprised;
+:低头望去，粉色的枕头上还印着“YES”的字样，这让她莫名地更加 -fontSize=default -notend -concat;
+changeFigure:sakiko_naked_long/model.json -left -next -motion=angry06 -expression=angry07;
+setTransform:{"position":{"x":-400},"scale":{"x":0.35,"y":0.45},"rotation":-0.2} -target=fig-center -duration=0 -next;
+:生气、咬着牙将枕头翻了个面…… -fontSize=default -concat;
+changeFigure:sakiko_naked_long/model.json -left -next -motion=angry03;
+changeFigure:anon_naked/model.json -right -next -motion=nf04 -expression=smile03;
+祥子:……。 ;
+:……看到反面依旧印着“YES”的枕头，丰川祥子气炸了，好像那么个生气小章鱼。
+changeFigure:anon_naked/model.json -right -next -motion=nf_left01_sk;
+爱音:那个，祥祥……？
+changeFigure:sakiko_naked_long/model.json -left -next -motion=nnf_right01 -expression=angry07;
+setTransform:{"position":{"x":-1600},"scale":{"x":0.45,"y":0.45},"rotation":1} -target=fig-center -duration=0 -next;
+changeFigure:anon_naked/model.json -right -next -expression=surprised01;
+祥子:不许叫我祥祥！
+changeFigure:anon_naked/model.json -right -next -motion=nf04;
+爱音:哎！？那……
+changeFigure:anon_naked/model.json -right -next -motion=sad02 -expression=default;
+setTransform:{"position":{"y":300}} -target=fig-right -duration=1300 -next;
+changeFigure:sakiko_naked_long/model.json -left -next -expression=sad02;
+爱音:呃，唔……
+changeFigure:sakiko_naked_long/model.json -left -next -motion=nf_left01 -expression=serious02;
+祥子:……别当真，气话而已。
+changeFigure:sakiko_naked_long/model.json -left -next -motion=odoodo01 -expression=odoodo01;
+changeFigure:anon_naked/model.json -right -next -motion=nf_left01 -expression=smile03;
+setTransform:{"position":{"y":200}} -target=fig-right -duration=1000 -next;
+:看着粉发少女有些委屈地把脑袋缩进被窝里、像是什么被发怒的主人吓到的小宠物一样，祥子那股不服输的气顿时消去了大半——
+changeFigure:sakiko_naked_long/model.json -left -next -motion=nf01;
+changeFigure:none -right -next;
+唉，自己也太丢人了，居然还会对梦里【虚构出来的千早爱音】生气。
+changeFigure:sakiko_naked_long/model.json -left -next -expression=smile03;
+还好是梦里呢。
+changeFigure:sakiko_naked_long/model.json -left -next -motion=nf_right01 -expression=thinking01;
+setTransform:{"position":{"x":100}} -target=fig-left -duration=0 -next;
+changeFigure:anon_naked/model.json -right -next -motion=nf01 -expression=shame01;
+祥子:……不过，爱音到底为什么那么熟练呢？
+changeBg: -next;
+changeFigure:sakiko_naked_long/model.json -left -next -motion=thinking01 -expression=thinking01;
+changeFigure: -next;
+changeFigure:none -right -next;
+:难道说，自己对千早爱音这个人的印象就是……呃，嗯，就是这种感觉……？
+changeFigure:sakiko_naked_long/model.json -left -next -expression=surprised02;
+:不可能吧？
+changeFigure:sakiko_naked_long/model.json -left -next -motion=angry03 -expression=thinking02;
+:现实里的爱音同学，看着不像是很擅长这种事情的样子啊……
+changeFigure:sakiko_naked_long/model.json -left -next -motion=nf_right01 -expression=smile03;
+:不如说，会这样去揣测别人什么的，也太失礼了一点。changeBg:bed.webp  -next -transform={"blur":15};
+changeFigure:anon_naked/model.json -right -next -motion=nf_left01 -expression=surprised01;
+changeFigure:pillow2.webp -transform={"position":{"x":-1600,"y":550},"scale":{"x":0.45,"y":0.45},"rotation":1} -next;
+爱音:哎，熟练么？我也不是很懂自己这样算不算熟练啦……| -fontSize=default;
+changeFigure:anon_naked/model.json -right -next -motion=nnf05 -expression=kime01;
+changeFigure:sakiko_naked_long/model.json -left -next -motion=nf03 -expression=surprised01;
+:不过，呃，为了让祥祥开心，我姑且还是有在好好做功课的哦！ -fontSize=default;
+changeFigure:sakiko_naked_long/model.json -left -next -motion=thinking01 -expression=default;
+changeFigure:anon_naked/model.json -right -next -expression=shame01;
+祥子:功课？
+changeFigure:anon_naked/model.json -right -next -motion=nf_right01_sk;
+爱音:嗯，就是……咳，
+changeFigure:anon_naked/model.json -right -next -motion=sigh_02;
+setTransform:{"position":{"y":400}} -target=fig-right -duration=1400 -next;
+上网找一些“学习资料”什么的，然后……刻苦练习……？ ;
+changeFigure:sakiko_naked_long/model.json -left -next -motion=sigh01;
+:爱音越说脸越红，但祥子却若有所思地点了点头。
+changeFigure:sakiko_naked_long/model.json -left -next -expression=smile06;
+changeFigure:anon_naked/model.json -right -next -motion=nnf_left01 -expression=kime01;
+setTransform:{"position":{"x":-600,"y":800},"rotation":-0.2} -target=fig-right -duration=2000 -next;
+祥子:……原来如此。
+changeBg:none -next;
+setTransform:{"blur":0} -target=bg-main -duration=0 -next;
+changeFigure: -next;
+changeFigure:none -right -next;
+changeFigure:none -left -next;
+:学习、然后练习么。
+changeBg:SakiKo_Home_Night_02.webp -next;
+changeFigure:white.webp -id=white -transform={"scale":{"x":2},"alpha":0.11} -next;
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=thinking01 -expression=default;
+:从梦中醒来之后，祥子陷入了沉思。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=nf_left01 -expression=odoodo01;
+:家里已不再像早些时候一团乱麻，什么酒精的气味、什么满地啤酒罐，都像是一场转眼即逝的噩梦，过去就过去了——
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=smile06 -expression=smile03;
+混账老爹最近变得没有那么混账，不光下定决心出去打工赚钱、甚至还特地选了夜班，为的是尽可能减少跟祥子在家中见面的机会……或者说，是为了避免自己坏了祥子的心情。
+changeFigure:mygo_avemujica_v6/sakiko/丰川祥子_娇羞版_夏季校服_V1/model.json -next -motion=nf01;
+祥子:……笨蛋老爹。
+:起床的祥子，隐约能隔着房间门听到男人的呼噜声、苦笑着摇了摇头。
+changeBg:none -next;
+changeFigure:none -next;
+changeFigure:none -id=white -next;
+:他确实没有影响祥子的心情，但祥子的烦恼却始终挥之不去：尤其是，当她在洗漱的时候发现镜中的自己好像长胖了一点。
+changeScene:2_03/sakiko_thinking!.txt
