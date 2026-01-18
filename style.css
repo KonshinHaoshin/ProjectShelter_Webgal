@@ -55,7 +55,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* background-image: url('https://game.shelter.net.cn/manosaba/game/background/Still_001_001.webp'); */
+    background-image: url('cover.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
