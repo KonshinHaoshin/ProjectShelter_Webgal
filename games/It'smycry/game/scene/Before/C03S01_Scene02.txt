@@ -1,0 +1,118 @@
+changeFigure:MyExtra/SoyoMama_FromLayer/model.json -id=mama -transform={"position":{"x":200,"y":-300},"alpha":0,"blur":30} -motion=sad01 -expression=sad01;
+playEffect:1_效果音/02_环境音/シーンと静まり返る教室.mp3 -volume=10 -id=env;
+changeBg:保健室.png -next -transform={"position":{"x":0,"y":-200},"scale":{"x":1.1,"y":1.1}};
+:
+:眼前是空荡荡的天花板 -fontSize=default;
+:喉咙有些干，也没到难以忍受的程度
+:我是谁？
+:我大概是长崎素世，我大概不是长崎素世
+:微风扰动着身边的窗帘，坐起身来向外望去，月之森校园披着一层金色夕阳的余晖
+:真是宁静的一刻——接着注意到袖口上，残留着斑斑点点的污渍
+:大概是刚才吐的时候沾上去的吧，伸出手指，搓着那片已经干燥，微微发硬的布料表面
+playEffect:1_效果音/01_常用效果音/ドアを開ける1.mp3 -volume=40;
+:然后门开了
+playEffect:1_效果音/01_常用效果音/疾步-高跟.mp3 -volume=80;
+:急促的脚步声向我接近
+setTransform:{"position":{"x":0,"y":-300},"alpha":1, "blur":30} -target=mama -duration=300 -next;
+playEffect:1_效果音/01_常用效果音/衣擦れ3.mp3 -volume=40;
+changeFigure:MyExtra/SoyoMama_FromLayer/model.json -id=mama -next -motion=surprised01 -expression=sad01;
+:面前的隔帘被掀开，一个焦急的女人出现在那后面 -fontSize=default;
+playEffect:1_效果音/01_常用效果音/布団に倒れ込む.mp3 -volume=40;
+changeFigure:MyExtra/SoyoMama_FromLayer/model.json -id=mama -next -motion=cry01 -expression=cry01;
+setTransform:{"position":{"x":-800,"y":-400},"scale":{"x":1.7,"y":1.7},"alpha":1,"blur":30} -target=mama -duration=500 -next;
+:然后，她几乎是跌在床上，将我一把揽入怀中
+？？？:素世？素世你没事吧？
+？？？:天啊，吓死妈妈了。我正开会呢，保健老师突然打电话过来，我都差点没接到……
+？？？:……
+？？？:……素世？
+setTransform:{"position":{"x":-800,"y":-400},"scale":{"x":1.7,"y":1.7},"alpha":1,"blur":0} -target=mama -duration=500 -next;
+素世:妈妈？
+bgm:clock.mp3 -volume=5;
+:是的，面前双眼噙着泪水的女人，是长崎素世的妈妈
+:我感到有点奇怪，为什么自己需要那么长的时间来确认这一点
+素世妈妈:怎么样，现在还感觉不舒服吗？
+素世妈妈:老师说你还吐了，是吃坏肚子了还是着凉了？
+素世妈妈:——嗯……感觉你的额头也不烫……不对，是有一点烫吗？……
+changeFigure:MyExtra/SoyoMama_FromLayer/model.json -id=mama -next -motion=cry01 -expression=serious01;
+素世妈妈:……素世，和妈妈说句话呀？别吓妈妈……
+素世:……抱歉？
+:妈妈看起来十分着急，但我不知道说什么好
+:不，也不尽然
+:是长崎素世不知道说什么好，而我应该不是长崎素世
+:我只是黏在她双眼之后的颅骨背面，无数的细线将我高高挂起
+:透过那两个洞，外界的一切迎面而来，弄得我仿佛就是她似的
+:但我不该会是她
+:毕竟如果我是她，我应该要在此时此刻说些什么
+:……
+:如果是长崎素世……会说什么呢？
+素世:……我有点饿了
+changeFigure:MyExtra/SoyoMama_FromLayer/model.json -id=mama -next -motion=cry01 -expression=surprised01;
+素世妈妈:诶？
+素世:我们回家吧 -fontSize=default;
+changeFigure:MyExtra/SoyoMama_FromLayer/model.json -id=mama -next -motion=cry01 -expression=serious01;
+素世妈妈:……呃，素世，你没事了吗？要不要再躺会儿？
+素世:不用吧？
+素世:或者，可以先去吃饭吗？ -fontSize=default;
+素世:我有点饿
+素世妈妈:……
+素世妈妈:好的……好的素世
+素世妈妈:我们先去吃饭，就先去……先去以前经常给你过生日的那家餐厅？
+素世妈妈:记得素世最喜欢那里的蔬菜通心粉汤了吧？还有炸蟹角也不错，不过好像只是妈妈喜欢而已呢……
+setTransform:{"position":{"x":-1000,"y":-400},"scale":{"x":1.8,"y":1.8},"alpha":0,"blur":0} -target=mama -duration=500 -next;
+setTransform:{"position":{"x":0,"y":200},"scale":{"x":1.1,"y":1.1}} -target=bg-main -duration=500 -next;
+:我只是顺从地答应着妈妈说的，顺从地被她从床上扶起来
+playEffect:1_效果音/01_常用效果音/靴を履く.mp3 -volume=40;
+:穿上鞋子，脚后跟有一点点紧
+:妈妈叫我，我把手指从里面抽出来，就不紧了
+playEffect:1_效果音/01_常用效果音/ドアを開ける1.mp3 -volume=40;
+changeBg:月森走廊黄昏.png -next -transform={"scale":{"x":1.1,"y":1.1}};
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_winter-2023_rip/model.json -id=muts -transform={"position":{"x":1200},"scale":{"x":0.7,"y":0.7}} -next -motion=idle01 -expression=default;
+changeFigure:mygo_avemujica_v5/sakiko/341_jh_school_winter-2023_rip/model.json -id=saki -transform={"position":{"x":800},"scale":{"x":0.7,"y":0.7}} -next -motion=sad02 -expression=sad01;
+:走出门，看到丰川祥子和若叶睦站在门外不远处 -fontSize=default;
+playEffect:1_效果音/01_常用效果音/普通走路过场.mp3 -volume=40;
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_winter-2023_rip/model.json -id=muts -next -motion=surprised01 -expression=default;
+changeFigure:mygo_avemujica_v5/sakiko/341_jh_school_winter-2023_rip/model.json -id=saki -next -motion=surprised01 -expression=sad02;
+setTransform:{"position":{"x":600,"y":-300},"scale":{"x":1,"y":1}} -target=muts -duration=2000 -next;
+setTransform:{"position":{"x":0,"y":-300},"scale":{"x":1,"y":1}} -target=saki -duration=2000 -next;
+setTransform:{"position":{"x":-400,"y":-100},"scale":{"x":1.4,"y":1.4}} -target=bg-main -duration=2000 -next;
+:她们也往这边看过来，好像是要找我。所以我让妈妈先等着我，自己向她们走过去 -fontSize=default;
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_winter-2023_rip/model.json -id=muts -next -motion=nnf_left01 -expression=idle01;
+changeFigure:mygo_avemujica_v5/sakiko/341_jh_school_winter-2023_rip/model.json -id=saki -next -motion=nnf_left01 -expression=sad02;
+:对上眼神的一刻，丰川祥子似乎立即有些退缩
+素世:请问有什么事吗？
+changeFigure:mygo_avemujica_v5/sakiko/341_jh_school_winter-2023_rip/model.json -id=saki -next -motion=serious02 -expression=sad01;
+祥子:……那个，长崎同学，不要紧吧？
+素世:不要紧吧
+素世:我有点饿
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_winter-2023_rip/model.json -id=muts -next -motion=idle01 -expression=surprised01;
+changeFigure:mygo_avemujica_v5/sakiko/341_jh_school_winter-2023_rip/model.json -id=saki -next -motion=surprised01 -expression=sad02;
+祥子:……
+素世:还有什么事吗？
+素世:……如果没有的话，我就先回去了
+changeFigure:mygo_avemujica_v5/sakiko/341_jh_school_winter-2023_rip/model.json -id=saki -next -motion=surprised02 -expression=sad02;
+changeFigure:black.png -id=dark -transform={"alpha":0} -next;
+:我有些拿不准丰川祥子现在的表情，一旁的若叶睦倒是比较好懂，她一直没什么表情
+setTransform:{"position":{"x":600,"y":-400},"scale":{"x":1,"y":1}} -target=muts -duration=500 -next;
+setTransform:{"position":{"x":0,"y":-400},"scale":{"x":1,"y":1}} -target=saki -duration=500 -next;
+setTransform:{"position":{"x":-400,"y":-200},"scale":{"x":1.4,"y":1.4}} -target=bg-main -duration=500 -next;
+setTransform:{"alpha":0.2} -target=dark -duration=500 -next;
+:所以我最终微微鞠了一躬
+setTransform:{"position":{"x":600,"y":-300},"scale":{"x":1,"y":1}} -target=muts -duration=500 -next;
+setTransform:{"position":{"x":0,"y":-300},"scale":{"x":1,"y":1}} -target=saki -duration=500 -next;
+setTransform:{"position":{"x":-400,"y":-100},"scale":{"x":1.4,"y":1.4}} -target=bg-main -duration=500 -next;
+setTransform:{"alpha":0} -target=dark -duration=500 -next;
+素世:贵安
+:她们还是没什么反应
+changeFigure: -id=muts -next;
+changeFigure: -id=saki -next;
+changeFigure: -id=mama -next;
+changeBg: -next;
+playEffect:1_效果音/01_常用效果音/普通走路过场.mp3 -volume=40;
+:所以我直接转身走回妈妈身边
+:直到我和妈妈离开走廊，身后的两人也没有说话
+:那大概就是没事吧
+bgm: -volume=5 -enter=3000;
+playEffect:none -volume=10 -id=env;
+:……既然如此，一开始直说不就好了
+:
+changeScene:Before/C03S01_Scene03.txt

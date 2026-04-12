@@ -1,0 +1,127 @@
+bgm:耳鸣.mp3 -volume=40;
+changeBg:特殊意义场景/C04S03_素死舞台_BG.png -next -transform={"scale":{"x":1,"y":1}};
+changeFigure:none -id=black -next;
+changeFigure:black.png -id=black -transform={"alpha":1} -next;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1 -next;
+:
+:手腕上火辣辣地痛
+:应该是因为……摔在舞台上，与地面摩擦的缘故
+:我从地面上坐起来，刚才的巨大声响，震得我有些发懵
+:身周扬起一片灰尘，首先在视野中变得清晰的……是祥子
+:她和我一样跪坐着
+:那个满载众人心意的蛋糕七零八落，四散在地面，星星点点地沾在祥子身上
+爱音:好可惜啊——
+爱音:——不是，小祥？没事吧？
+:我立即挪过去，同时叫着她的名字
+:明明离我很近，但她好像没听到似的，而是一动不动地望着左边的什么
+祥子:素……世？
+:素世？……
+setTransform:{"alpha":0,"blur":0} -target=black -duration=2000 -next;
+:
+:在素世本应在的地方，现在只能见到一些扭曲的轮廓 -fontSize=default;
+:断裂的钢架、碎掉的舞台灯—— -fontSize=default;
+:——紧接着，双眼捕捉到了属于素世长裙的黄白色 -fontSize=default;
+:它从这些轮廓下面流泻出来——伴随着缓缓蔓延的猩红
+:一寸寸地吞噬着舞台地面，一寸寸吞噬着那片黄白色 -fontSize=default;
+:…… -fontSize=default;
+:……肩膀上被什么东西撞了一下 -fontSize=default;
+:是祥子 -fontSize=default;
+立希:素世？祥子？爱音？
+bgm: -volume=40 -enter=2000;
+:立希的叫声传入耳中，我终于重新抓住了仅剩的些须理智 -fontSize=default;
+bgm:広がる不安-前奏部分.mp3 -volume=20;
+爱音:这里这里！
+:我赶紧回应道，祥子落在我身上，像是失去丝线的玩偶 -fontSize=default;
+:我伸手探向她的鼻息——微弱的气流在指尖拂动 -fontSize=default;
+:与此同时，众人来到了身边
+立希:没事吗？——怎么了！
+睦:……祥？
+:我将祥子交给立希 -fontSize=default;
+爱音:没事，她应该只是晕过去了——
+爱音:——先拜托你了，我要去素世那边 -fontSize=default;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+:无暇顾及众人的反应，我起身绕过那片扭曲的钢架 -fontSize=default;
+changeBg:CG/C04S03_素死_00.png -next -transform={"scale":{"x":1,"y":1}};
+:立即——见到了躺倒在地的素世 -fontSize=default;
+:我跪到她身前 -fontSize=default;
+爱音:素世！素世！能听到我说话吗？
+bgm: -volume=20 -enter=2000;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+:
+:刺入眼帘的——是那片猩红
+:它正以肉眼可见的速度，爬上她青绿的上衣 -fontSize=default;
+:……看上去，显然不太妙
+立希:爱音！素世！
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+:大概是安置好了祥子，立希此刻也赶到了身边
+立希:骗人……的吧？这……这搞什么啊？
+爱音:——立希，手机在吗？ -fontSize=default;
+:她只是愣在原地，我索性掏出自己的手机，拨下急救电话 -fontSize=default;
+爱音:手机！医院！
+立希:啊！
+:我将手机一把塞到她手中，她终于反应过来了，将手机凑到耳边
+立希:喂……？喂？喂？
+立希:……对了，信号，信号！
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+:立希起身跑开，我回身试图处理素世的伤口
+:第一反应是——试着用自己的裙子，去按压止血
+:然而找到伤口的瞬间，动作僵住了 -fontSize=default;
+:残存的理智告诉我：没有用的
+:钢架刺穿她身前的贝斯，深深刺入腹中
+:碎片、破布、鲜血……全部混在一起
+:耳边突然传来素世轻轻的呻吟，我立即看向她的脸 -fontSize=default;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+changeBg:CG/C04S03_素死_01.png -next -transform={"scale":{"x":1,"y":1}};
+:
+setTransform:{"alpha":0,"blur":0} -target=black -duration=2000 -next;
+:
+bgm:ギュ、ギュ.mp3 -volume=40;
+:她看上去还有意识，然而，那双眼睛似乎无法在我身上聚焦
+:不知为何，素世又缓缓举起了右手
+:和刚才我下舞台之前一样——她在空中，颤抖着捏住指尖，捏住指尖那片刺眼的猩红
+:就像是……尽力想要抓住什么一般
+:也正是此刻，她的瞳孔中恢复了一丝光亮
+changeBg:CG/C04S03_素死_02.png -next -transform={"scale":{"x":1,"y":1}};
+:
+:那对群青色的眼眸，似乎终于注意到了我
+素世:小……爱音……
+:我手足无措，不知如何是好
+:她松开指尖，向我伸出手掌
+changeBg:CG/C04S03_素死_03.png -next -transform={"scale":{"x":1,"y":1}};
+:
+:我紧紧将其握住
+:依靠在掌心中的那只手，透过黏腻的血，传来微凉的触感
+:素世突然一阵咳嗽，我感到有什么东西溅到了脸上
+changeBg:CG/C04S03_素死_04.png -next -transform={"scale":{"x":1,"y":1}};
+:
+:当然是血
+:更多的血，正从她的嘴角渗出来
+:我更紧更紧地握住那只手
+素世:祥……子？大家……？ -fontSize=default;
+爱音:祥子没事 -fontSize=default;
+爱音:大家也没事哟，反倒是素世你——
+素世:抱……歉……
+素世:抱歉……妈妈……
+爱音:素世！不要再说话了，省点力气，等医生过来……
+爱音:……不对不对，和我说话，和我说话吧！不要睡过去啊！
+素世:……爱……音
+素世:お……お……しあ……
+:她的声音越来越微弱，但是泛白的嘴唇还在动
+:我低头将耳朵凑到那对嘴唇边上
+playEffect:1_效果音/01_常用效果音/衣擦れ1.mp3 -volume=40;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=2000 -next;
+setTransform:{"position":{"x":-300,"y":300},"scale":{"x":1.4,"y":1.4},"alpha":1,"blur":0} -target=bg-main -duration=2000 -next;
+:等待着……等待着她 -fontSize=default;
+changeBg:CG/C04S03_素死_05.png -next -transform={"position":{"x":-300,"y":300},"scale":{"x":1.4,"y":1.4},"alpha":1,"blur":0};
+:等待着……更多未能传达的话语
+:然而——
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1,"y":1},"alpha":1,"blur":0} -target=bg-main -duration=5000 -next;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=5000 -next;
+bgm:none -volume=40 -enter=5000;
+:
+:——我……最终什么都没等到 -fontSize=default;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=5000 -next;
+:
+changeBg:none -next;
+changeFigure:none -id=anon -next;
+changeScene:C04S03/C04S03_Scene07.txt

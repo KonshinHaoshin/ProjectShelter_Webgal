@@ -1,0 +1,34 @@
+;changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -transform={"position":{"y":-500},"scale":{"x":0.8,"y":0.8},"alpha":1} -next -motion=idle01 -expression=smile01;
+;changeFigure:mygo_avemujica_v5/sakiko/341_school_winter-2023_rip/model.json -id=saki -transform={"position":{"x":-800,"y":-500},"scale":{"x":0.8,"y":0.8}} -next -motion=idle01 -expression=smile01;
+playEffect:1_效果音/02_环境音/地震.mp3 -volume=40;
+changeBg:CG/素舞台_表情差分_0003.png -transform={"scale":{"x":1.2,"y":1.2}} -next;
+setAnimation:earthquake -target=bg-main -next;
+:
+:发生了什么？ -fontSize=default;
+changeBg:CG/爱头顶-01.png -next -transform={"position":{"x":200,"y":-1700},"scale":{"x":1.2,"y":1.2},"alpha":0};
+:在刚刚的震动中，我把素世拉得更近，得以维持着两人站立的平衡
+:环顾四周，在场的所有人都有些慌乱。演出场内的广播适时响起 -fontSize=default;
+工作人员:只是一场短暂的突发小地震，请大家不要惊慌 -fontSize=default;
+工作人员:以防万一，本次Live将暂时中止，请大家有序退出会场，前往预定的避难场所稍作等候——
+爱音:呼——
+setTransform:{"position":{"x":0,"y":-1500},"scale":{"x":1.2,"y":1.2},"alpha":1} -target=bg-main -duration=1000 -next;
+:我看向素世，她似乎有些惊魂未定
+爱音:没关系的soyorin~你看，幸好是我们的演出刚结束才地震了，要不然的话—— -fontSize=default;
+playEffect:1_效果音/03_重要剧情音效/金属-不妙应力.mp3 -volume=60;
+: -fontSize=default;
+爱音:……？ -fontSize=default;
+:……怪异的声音，从头顶上传来 -fontSize=default;
+playEffect:1_效果音/03_重要剧情音效/金属-不妙应力-2.mp3 -volume=40;
+setTransform:{"position":{"y":1800},"scale":{"x":1.6,"y":1.6},"alpha":1} -target=bg-main -duration=2000 -next;
+:
+playEffect:1_效果音/03_重要剧情音效/即将断裂.mp3 -volume=40;
+changeBg:CG/爱头顶-02.png -next -transform={"position":{"y":1500},"scale":{"x":1.6,"y":1.6},"alpha":1};
+setAnimation:C3_shock -target=bg-main;
+:
+setTransform:{"position":{"x":0,"y":-1500},"scale":{"x":1.2,"y":1.2},"alpha":1} -target=bg-main -duration=300 -next;
+:
+playEffect:1_效果音/03_重要剧情音效/推开.mp3 -volume=40;
+changeBg:CG/推素.png -next -transform={"scale":{"x":2,"y":2}};
+setAnimation:C3_push -target=bg-main;
+playEffect:1_效果音/03_重要剧情音效/金属砸下.mp3 -volume=40;
+setTransform:{"position":{"y":0},"scale":{"x":1,"y":1},"alpha":0} -target=bg-main -duration=100 -next;

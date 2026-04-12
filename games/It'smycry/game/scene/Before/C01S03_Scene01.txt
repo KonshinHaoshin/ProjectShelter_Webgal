@@ -1,0 +1,50 @@
+祥子:我回来了—— -自制剧本台词/C3_祥_回来_good1.mp3 -volume=10 -fontSize=default;
+素世:欢迎回家—— -自制剧本台词/C301_素世_欢迎回来.mp3 -volume=10 -fontSize=default;
+祥子:哇，好香啊，晚饭是什么？ -自制剧本台词/C3_祥_香_good1.mp3 -volume=10 -fontSize=default;
+素世:是咖喱炖菜，已经在放凉了，马上就可以吃了哦~ -自制剧本台词/C301_素世_咖喱炖菜.mp3 -volume=10 -fontSize=default;
+setTextbox:hide;
+bgm:冬日.mp3 -volume=10 -enter=0 -next;
+changeBg:廉价公寓_厨房_午后傍晚.png -next;
+:细小的泡泡，从锅中褐色咖喱的底部一路向上，经过蔬菜与鸡肉，在表面破裂开来
+setTextbox:on;
+:令人幸福的香气从中溢出，毫不费力便充满了这间狭窄的公寓
+:米饭则在餐桌旁的电饭煲中，早在十几分钟前就已经做好 -fontSize=default;
+:处在保温状态继续焖煮一会儿，米粒就会变得更加美味
+素世:打工辛苦了，今天怎么样？
+祥子:没什么特别的，无非就是“在此之后会有专人上门”之类
+祥子:越说越觉得饿了，果然还是因为素世的手艺太好了吗
+素世:好了哟——真是的，也不用每一次都夸我
+:我戴好隔热手套，端起锅子往餐桌走去
+changeBg:廉价公寓_主室_午后傍晚.png -next;
+:所谓餐桌也只是一张跪式木桌，下面压着陈旧的榻榻米，旁边就是被褥
+:再加上一些简单的家具，整间公寓进门就一眼望到头，不可谓不简陋
+:虽然简陋，但我丝毫不会觉得不满意
+changeFigure:mygo_avemujica_v5/sakiko/341_casual-2023_rip/model.json -id=sakiko -transform={"position":{"y":-300}} -next -motion=smile04 -expression=smile02;
+:因为——祥子在这里
+:她正端坐在饭桌前，满怀期待地看着我
+:……
+changeFigure:mygo_avemujica_v5/sakiko/341_casual-2023_rip/model.json -id=sakiko -transform={"position":{"y":-300}} -next -motion=smile02 -expression=surprised02;
+祥子:唔啊……烫烫烫！
+素世:不要那么急，要水吗？
+changeFigure:mygo_avemujica_v5/sakiko/341_casual-2023_rip/model.json -id=sakiko -transform={"position":{"y":-300}} -next -motion=nf04 -expression=smile05;
+祥子:拜托了！
+playEffect:效果音/布料_开始.mp3 -volume=10;
+setTransform:{"alpha":0} -target=sakiko -duration=1000;
+playEffect:效果音/布料_结束.mp3 -volume=10;
+setTransform:{"position":{"y":-300},"alpha":1} -target=sakiko -duration=1000 -next;
+素世:……水来了——嘴角，沾上饭粒了哦
+changeFigure:mygo_avemujica_v5/sakiko/341_casual-2023_rip/model.json -id=sakiko -transform={"position":{"y":-300}} -motion=surprised01 -expression=idle01;
+changeFigure:mygo_avemujica_v5/sakiko/341_casual-2023_rip/model.json -id=sakiko -transform={"position":{"y":-300}} -next -motion=idle01 -expression=smile05;
+setTransform:{"position":{"x":-800,"y":-800},"scale":{"x":1.8,"y":1.8}} -target=sakiko -duration=1000 -next;
+:听到这话的祥子闭上眼睛凑向我。我把水放到她的餐盘旁，顺手摘下饭粒 -fontSize=default;
+changeFigure:mygo_avemujica_v5/sakiko/341_casual-2023_rip/model.json -id=sakiko -transform={"position":{"y":-300}} -next -motion=nf04 -expression=smile06;
+setTransform:{"position":{"x":0,"y":-300},"alpha":1} -target=sakiko -duration=1000 -next;
+祥子:——谢谢你，素世
+:对于原本是大小姐的祥子来说，这样的吃相算得上是狼吞虎咽了吧
+:然而对我来说，只是在旁边看着……就觉得很安心
+:因为，现在的祥子，和半年前相比起来——
+bgm: -volume=10 -enter=500;
+changeBg:none -next;
+changeFigure: -id=sakiko -next;
+setTextbox:hide;
+choose:半年前，廉价公寓:c03_s02.txt;

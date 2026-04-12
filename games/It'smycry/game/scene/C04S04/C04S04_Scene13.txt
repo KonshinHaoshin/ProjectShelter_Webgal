@@ -1,0 +1,145 @@
+changeBg:普通背景/夜晚无人街道.png -next -transform={"scale":{"x":1.2,"y":1.2}};
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tmr -next -motion=serious01 -expression=sad01;
+changeFigure:none.png -id=black -next;
+changeFigure:black.png -id=black -transform={"alpha":1} -next;
+bgm:20. 真実.mp3 -volume=60 -enter=0;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1 -next;
+setTransform:{"position":{"x":0,"y":-300},"scale":{"x":1,"y":1},"alpha":0} -target=muts -duration=1 -next;
+setTransform:{"position":{"x":0,"y":-300},"scale":{"x":1,"y":1},"alpha":0} -target=tmr -duration=1 -next;
+:天色变暗了，一个个行人与我擦肩而过
+setTransform:{"alpha":0.6,"blur":0} -target=black -duration=1000 -next;
+:这里是哪里？
+:或许是车站附近，或许是RiNG附近，我有点弄不清楚
+:我为什么在这里？
+:……因为……我被素世拒绝了
+:被拒绝后，我逃走了
+:逃避素世，逃避睦，逃避一切即成事实……一个人，失魂落魄地逃到了这里
+:为什么……被拒绝？
+:大概是因为……我从来没有成为太阳
+:但或许并非如此，这些理由都只是在考虑我自己的事
+:或许素世说得对
+:放弃了骄傲又如何，我依旧没有真正学会爱，依旧真正没有学会顾及他人的感受
+:不求回报的爱，也会伤人
+:我还是那个冰冷的月亮，我还是渴求太阳
+:此前我所能给予他人的一切温柔，不过是从太阳借来的余晖
+:母亲曾是太阳，她离我而去，我找到了Crychic，借此温暖自己
+:Crychic曾是太阳，我差点将其亲手毁掉，素世的温暖又救了我
+:父亲曾是太阳，他黯淡下去，我用从素世那里借来的阳光，照亮了他
+:然而……素世要离我而去了
+:她离开了，我会怎样？
+:我会又一次……陷入黑暗之中吗？
+playEffect:1_效果音/01_常用效果音/衣擦れ1.mp3 -volume=40;
+setTransform:{"alpha":0.8,"blur":0} -target=black -duration=500 -next;
+setTransform:{"position":{"x":0,"y":-100},"scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=500 -next;
+:脚下一个趔趄，我跌倒在地上
+:泪水又一次涌出，被浸到发红的眼角，与破皮的膝盖一同刺痛着
+:我要如何面对大家？
+:我又要……如何面对现在的Crychic？
+:没有了素世的Crychic……究竟还是Crychic吗？
+:……既然如此，不如……就把它解散掉吧——
+:——果然是这样，我又想要逃了
+:我这个人，真是差劲……
+祥子:我……讨厌我自己
+灯:……小……祥？
+setTransform:{"position":{"x":0,"y":-600},"scale":{"x":1,"y":1},"alpha":0} -target=tmr -duration=500 -next;
+:突然，面前响起熟悉的嗓音，扎入我的耳膜中
+setTransform:{"position":{"x":0,"y":-400},"scale":{"x":1,"y":1},"alpha":1} -target=tmr -duration=500 -next;
+setTransform:{"position":{"x":0,"y":100},"scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=500 -next;
+setTransform:{"alpha":0.2,"blur":0} -target=black -duration=500 -next;
+:
+setTransform:{"position":{"x":200,"y":-600},"scale":{"x":1.1,"y":1.1},"alpha":1} -target=tmr -duration=500 -next;
+setTransform:{"position":{"x":200,"y":-100},"scale":{"x":1.3,"y":1.3}} -target=bg-main -duration=500 -next;
+setTransform:{"alpha":0.6,"blur":0} -target=black -duration=500 -next;
+祥子:……不要
+祥子:我……
+:我真差劲，我还是和从前一样
+:即便认识到这一点，依旧还是想逃
+playEffect:1_效果音/03_重要剧情音效/跪地.mp3 -volume=80;
+bgm: -volume=60 -enter=2000;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=500 -next;
+:转身想要逃走，然而——却一下撞倒了身后的人，我们一起跌倒在地上，后者发出微弱的呻吟声
+祥子:……睦？
+:这一下显然摔得不轻，睦的表情看上去很痛苦，然而——她却伸出双臂，紧紧环抱住了我
+睦:……
+睦:祥……不能逃走
+:身后传来温暖的触感——于此同时，灯颤抖的声音也在耳边响起
+灯:……我看到……素世在群里说的事情了
+灯:我也知道了——大家曾经差点失去小祥
+灯:上一次，小祥逃走的时候，我什么都做不到
+灯:所以这次……
+灯:这次，我不会……再让小祥逃走了！
+changeFigure:none -id=tmr -next;
+changeBg:过场/C04S04_地板.png -next;
+:
+bgm:12. もう大丈夫.mp3 -volume=60;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=500 -next;
+:
+:又一次坐在了公园的阶梯上，不过这一次，身边坐着的是灯和睦
+:一左一右，两人牢牢地抓住我的手
+祥子:……
+祥子:不用……抓那么紧的
+祥子:我……不会再逃跑了
+睦:……不
+祥子:没关系的……膝盖很痛，我也不想再逃了……
+睦:不是……怕祥逃跑
+祥子:诶……？
+changeBg:过场/C04S04_灯祥睦_睦.png -next;
+:不由得抬头看向睦
+睦:就算不逃跑，我也想要……牵着祥的手
+祥子:……想要……牵着我的手？
+:心中某根被遗忘的弦，仿佛被轻轻拨动了一下
+changeBg:过场/C04S04_灯祥睦_灯_01.png -next;
+:转向灯，她也点了点头
+灯:……我也是这样
+:弦的波动……在心中荡漾开来
+祥子:……他人的……感受？
+灯:……嗯
+灯:……他人的感受……人类的……感受
+:是的
+:一切并非完全与我有关
+:一切……又并非完全与我无关
+:灯和睦牵着我的手——并不仅仅是怕我逃跑，也因为……她们想要牵着我的手
+:如此简单的道理
+:我……为什么却直至此刻才察觉
+祥子:所以，素世想要离开……或许也并不是……因为我
+灯:……大概是的
+灯:素世说，是因为——
+:因为Crychic对她而言，已经结束了
+:因为她想要休息
+:仅此而已，她早已经告诉我了，只是我没听进去
+:我……满脑子想着自己的事情，忽视了他人的感受
+灯:小祥，也一直在迷路呢……
+祥子:……是的
+changeBg:过场/C04S04_灯祥睦_灯_02.png -next;
+灯:但即便是这样的小祥……也拯救了我
+祥子:……拯救了……灯？
+灯:嗯
+灯:那天……是小祥拉着我，在天桥上和我……
+灯:和我一起……喊出了“想要成为人类”这句话
+灯:小祥和大家一起……将我带回了世界的正轨，让我成为了人类
+灯:让我能一直前进至今
+灯:让我能有勇气……像之前那样，追回了小爱音
+灯:小祥照亮了我，我照亮了小爱音
+灯:大家……都像星星一样，在互相照耀着
+祥子:星星……吗？
+changeBg:过场/C04S04_灯祥睦星空.png -next;
+:
+:原来如此
+:或许从来没有什么太阳和月亮
+:只是一颗颗的星星……聚在一起
+:聚在一起……彼此献出微弱的光
+灯:……之前，我和小爱音许下了约定
+祥子:约定……？
+灯:嗯
+changeBg:过场/C04S04_灯祥睦_灯_03.png -next;
+:
+:灯的手握紧了，她望向我的脸庞，倔强的星光，闪耀在那双柔弱的眼中
+灯:我也想，和小祥许下同样的约定
+灯:所以，小祥
+灯:无论遇到什么问题，都请和大家在一起……
+灯:……和大家一起前进、一起迷路——
+灯:——一起……呐喊吧！
+bgm:none -volume=60 -enter=2000;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=2000 -next;
+:
+changeScene:C04S04/C04S04_Scene14.txt

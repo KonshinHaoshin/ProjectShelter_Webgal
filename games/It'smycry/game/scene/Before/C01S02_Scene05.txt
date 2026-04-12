@@ -1,0 +1,125 @@
+bgm:ビニール傘に雨が当たる音.mp3 -volume=20 -enter=2000;
+changeBg:廉价公寓.png;
+:雨天总是一副不怀好意的样子
+setTextbox:on;
+:窗外淅淅沥沥。比起豪华大平层，雨声在这间廉价公寓里要明显得多
+:一个谎言，往往需要用更多更大的谎言去掩盖
+:因而我和母亲说，“想要锻炼自己的意志，和独立生活的能力”，而独自从家里搬了出来
+素世:如果我生活在普通的家庭里……一定会被好好说教吧
+素世:为了这种理由，就花钱搬出家里，既不经济又显得无理取闹
+素世:但……
+素世:……
+bgm:clock.mp3 -volume=10 -enter=0;
+素世:……有钱却又听我话的妈妈……真有用呢……
+:说到底，这套公寓的租金，都不到大平层租金零头的零头
+:当然，她很不舍，偶尔还是要回去陪陪她。这套公寓与其说是我的新住所，不如说是舞台
+:用来好好扮演“贫穷的长崎素世”——这个角色的舞台
+素世:虽然依旧不知道为什么祥子要退出乐队
+素世:但如此一来，我总算有了更多的筹码
+:在名为友情的系带上，挂上更沉重的事物，使其几乎成为脚镣
+:多少显得……有些卑鄙
+素世:没事的……
+素世:我不是那种只考虑自己的人
+素世:只要能拯救Crychic——不过是卑鄙小人这种负担，让我承担多少都行
+playEffect:效果音/携帯バイブレーション.mp3 -volume=10;
+:榻榻米上的手机突然振动起来 -fontSize=default;
+立希（Line）:你还来练习室吗？
+立希（Line）:虽然来不来都无所谓
+立希（Line）:祥子那家伙，今天也翘了
+立希（Line）:真不爽
+素世（Line）:我马上就到
+:……
+:怎么可能会不去呢
+:毕竟今天，又到了小祥宣布退出的日子。也就是，检验我迄今为止的努力的日子
+:虽然这次循环里，初次LIVE过后，祥子在接下来的日子里依旧缺席
+:但相比之前来说——
+素世（Line，历史消息）:祥子？发生什么事了？
+素世（Line，历史消息）:LIVE之后你就没有来练习室了
+素世（Line，历史消息）:我好担心你
+素世（Line，历史消息）:无论是什么事，如果可以的话，我想陪在祥子身边
+祥子（Line，历史消息）:真的很对不起，素世
+祥子（Line，历史消息）:请给我一点时间
+:这也算是……一个突破口吧
+:事到如今，我反倒有些释然。如果即便我做到了这种程度，结局也没有变化的话
+:要考虑放弃吗？……无论如何，我都需要休息一段时间了
+:梳洗整齐，穿上故意磨破了袖口的校服，背上贝斯
+素世:……我出门了
+:理所当然，无人回应，于是，我将那片安静的空气锁在了门后——与“真实的长崎素世”一起
+setTextbox:hide -next;
+playEffect:效果音/玄関のドアが閉まる音.mp3 -volume=10;
+changeBg:;
+changeBg:公园雨天.png -next;
+playEffect:效果音/ビニール傘に雨が当たる音.mp3 -volume=10 -id=ame;
+:为了避免一些麻烦，租公寓的地方离本家有些距离 -fontSize=default;
+setTextbox:on;
+:这也导致，我仍旧不太熟悉新的路况，电车的方向也坐反了一站
+立希（Line）:你在路上吗？
+立希（Line）:我是无所谓，但是再少一个人，灯会更加消沉的
+素世（Line）:抱歉，耽搁了点时间，电车方向搭反了
+素世（Line）:但我现在已经下车了，再走过去大约十五分钟，很快就到
+立希（Line）:哈？
+立希（Line）:无所谓了。你赶紧，来露个脸都好
+素世:……什么叫，露个脸都好
+素世:立希这家伙，比起Crychic，其实脑子里完全都只是灯的事情吧
+素世:虽然我也早就知道这一点就是了
+playEffect:效果音/车溅水.mp3 -volume=10;
+:正想着随便回个什么，一阵引擎声却突然从身后响起，紧接着立即从身边擦过，激起一片巨大的水花
+setTransform:{"position":{"y":-500},"alpha":0.3} -target=bg-main -duration=300 -next;低头抬头通用卡
+素世:啊！ -fontSize=default;
+:根本来不及躲，不仅溅了半身的水，还因此摔了一跤 -fontSize=default;
+:虽然身体条件反射性地保护了贝斯，但其他部位也因此摔得更重了。比如膝盖上，出现了无法掩饰的擦伤
+setTransform:{"alpha":1} -target=bg-main -duration=2000 -next;低头抬头通用卡
+素世:……什么啊，搞得比之前的小祥还要惨 -素世/…………はぁ（叹气）.mp3 -volume=10 -fontSize=default;
+素世:要是用这幅模样去到练习室，她们得以为是我也要一起退队
+素世:等等
+素世:……小祥该不会比我先到吧？
+:糟糕
+:耽误的时间有点太久了
+:要是小祥已经到了，宣布退队的消息，然后离开——这花不了多长时间
+:结果我还没到的话……就又要重来了
+changeBg: -next;
+playEffect:效果音/雨中跑步.mp3 -volume=10;
+:于是干脆把伞收好，冒着雨开始跑起来
+bgm: -volume=10 -enter=0;
+:……
+:膝盖好痛
+:湿漉漉的衣服，混合着泥水黏在身上，好难受
+:不是在意这种小事的时候
+:避开打伞的行人，拐过街角，已经可以远远看到练习室的玻璃窗
+素世:……？！
+:只有数十步之遥
+:但我……停了下来…… -fontSize=default;
+:没有必要再加快脚步了 -fontSize=default;
+:因为祥子—— -fontSize=default;
+bgm:none -volume=10 -enter=0;
+changeBg:CG/CG_雨中祥_01.png -next -transform={"alpha":0};
+setTransform:{"alpha":1} -target=bg-main -duration=2000;
+bgm:悲伤_01.mp3 -volume=20 -enter=0;
+:祥子她——与我一样淋着雨，站在练习室的楼下 -fontSize=default;
+:就在我的面前，抬着头，呆呆凝望着练习室
+素世:祥……子？
+:小心翼翼地——向着她接近
+changeBg:CG/CG_雨中祥_02.png -next -transform={};
+祥子:……素……世？
+素世:祥子……我……
+:我几乎不敢呼吸
+:慌乱地，在心中四处摸索着话语……
+:……就像是……害怕一开口，就会把她吓跑了似的
+changeBg: -next -transform={};
+playEffect:效果音/雨中跑步.mp3 -volume=10;
+:但——还没等我开口，祥子就奔向了我
+changeBg:CG/CG_雨中祥_03_拥抱.png -next -transform={"alpha":0};
+playEffect:效果音/拥抱_01.mp3 -volume=10;
+setTransform:{"alpha":1} -target=bg-main -duration=4000;
+:她又一次将我拥入怀中——生怕我跑了似的，紧紧环抱着
+祥子:……素……素世……对不起……对不起…… -fontSize=default;
+祥子:我已经……什么都想不明白了…… -fontSize=default;
+祥子:拜托了……我……我要怎么办才好…… -fontSize=default;
+素世:…… -fontSize=default;
+:……可以确认的事情又多了一件
+:这一天的雨，确实是在越下越大
+setTextbox:hide;
+bgm:none -volume=10 -enter=0 -next;
+setTransform:{"alpha":0} -target=bg-main -duration=4000;
+changeBg: -next;
+intro:to be continued... -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500 -hold;

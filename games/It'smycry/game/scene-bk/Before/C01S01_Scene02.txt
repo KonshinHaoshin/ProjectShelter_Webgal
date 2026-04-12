@@ -1,0 +1,36 @@
+playEffect:效果音/月之森礼堂欢呼_加长.mp3 -volume=10;
+:首先传入耳中的——是交响乐的激昂收尾|紧着最后一个音符的消失，掌声与欢呼扑面而来 -fontSize=default;
+setTextbox:on;
+:素世没有忘记，“此时”的她，应当正闭着眼，沉浸于音乐的余韵之中|仿佛是对这段回忆作出回应似的，琴弦……以及琴弓，熟悉的触感，分别从双手传来 -fontSize=default;
+:于是，她睁开双眼—— -fontSize=default;
+changeBg:月之森礼堂.png -next;
+:——月之森礼堂，展现在她的面前 -fontSize=default;
+素世:呼——
+:这是月之森音乐祭结束的那天 -fontSize=default;
+:也即是，小祥邀请她加入Crychic的那天 -fontSize=default;
+:掌声平息，随着主持人宣布音乐祭圆满结束，观众们开始陆续退场 -fontSize=default;
+changeBg: -next;
+素世:（会是梦吗……）
+素世:（要说是梦，未免过于真实了）
+素世:（我记得很清楚，现在，我应该搬起这个谱架，然后离开舞台——）
+祥子:长崎同学？ -祥/素祥初见_1.mp3 -volume=10 -fontSize=default;
+bgm:冬日.mp3 -volume=10 -enter=2000;
+素世:…… -fontSize=default;
+祥子:长崎素世同学？ -祥/素祥初见_2.mp3 -volume=10 -fontSize=default;
+祥子:我是C班的丰川祥子 -祥/素祥初见_3.mp3 -volume=10 -fontSize=default;
+祥子:问您一件小事，您对乐队有兴趣吗？ -祥/素祥初见_4.mp3 -volume=10 -fontSize=default;
+素世:……成功了
+素世:……真的成功了
+:即便此前，她心中还残存哪怕一丝的怀疑—— -fontSize=default;
+changeBg:特殊意义场景/素祥初见.png -next;
+:在此刻，也必定会烟消云散 -fontSize=default;
+:毕竟，这是她绝不可能忘记的时刻 -fontSize=default;
+:阳光穿过落地窗，洒落在两名少女的身上 -fontSize=default;
+素世:…………嗯，我很有兴趣 -fontSize=default;
+素世:……丰川同学 -fontSize=default;
+祥子:是的？ -fontSize=default;
+素世:阳光……很温暖呢 -fontSize=default;
+bgm: -volume=10 -enter=1000;
+changeBg: -next;
+setTextbox:hide;
+choose:羽泽咖啡店:C01S01_Scene03.txt.txt;

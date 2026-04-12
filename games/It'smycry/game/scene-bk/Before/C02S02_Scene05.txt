@@ -1,0 +1,102 @@
+素世:两张票，谢谢
+工作人员:好的，两张票——请收好票据和零钱~祝游览愉快~
+bgm:;
+playEffect:效果音/02_环境音/街の道路.mp3 -volume=10 -id=michi;
+changeBg:特殊意义场景/空之森水族馆.png -next;
+:
+:素世将我带到了附近的一家水族馆
+:我们穿过长长的走廊，经过热带鱼，经过蝠鲼、海马、银色漩涡般的鱼群，一路向上
+changeBg:过场/天空企鹅池.png;
+:最终——素世与我的脚步，停在了仿佛与紫红晚霞融为一体的天空企鹅池下
+:直到此时，她仍然没有放开我的手
+爱音:……立希和你说了吗？
+素世:算是吧
+素世:我大概也猜得到
+爱音:……谢谢你，素世。以及……抱歉
+爱音:你看，我入学的时间……不是很奇怪吗
+素世:先坐下来，再说吧
+爱音:嗯……
+playEffect:效果音/布料_结束.mp3 -volume=20;
+changeBg:CG/水族馆爱素_01.png -next -transform={"position":{"x":-1550}};
+: -fontSize=default;
+:于是
+setTransform:{"position":{"x":-1550,"y":0},"alpha":0} -target=bg-main -duration=4000 -next;
+:我向素世诉说了过去的自己
+:那个曾经担任学生会会长、众星捧月的自己
+:那个爱慕虚荣、喜好攀比、自命不凡的自己
+:以及那个……
+:……灰溜溜夹着尾巴，从英国逃回来的自己
+爱音:刚才那两位……是我初中时的同学
+爱音:虽然素世替我把留学失败的事情圆了过去——但我自己知道，我其实……
+爱音:……我这个人，只是看起来很光鲜，但一旦碰到困难和压力……就总是会想要妥协，选择最轻松的方法，把事情混过去
+爱音:说到底，我的人生总是在逃避呢……
+爱音:本来想要重新来过的，但……我这种人，已经算是完蛋了吧
+素世:重新来过……吗……
+:手上传来的力度，似乎重了几分
+bgm:悲伤_01.mp3 -volume=20;
+changeBg:CG/水族馆爱素_02.png -next -transform={"position":{"x":1550},"alpha":0};
+setTransform:{"position":{"x":1550,"y":0},"alpha":1} -target=bg-main -duration=3000 -next;
+:我有些讶异，便望向素世
+:她并没有看我，而是将目光投向远方
+setTransform:{"position":{"x":-1550,"y":0},"alpha":1} -target=bg-main -duration=3000 -next;
+:绮丽而短暂的晚霞稍纵即逝，夜晚正在被重新创造，仿佛正将周遭的一切缓缓沉入幽蓝的水面
+setTransform:{"position":{"x":1550,"y":0},"alpha":1} -target=bg-main -duration=3000 -next;
+:我这才注意到，素世那双温柔宁静的瞳中，似乎缺少了什么
+setTransform:{"position":{"x":1850,"y":100},"scale":{"x":1.2,"y":1.2},"alpha":1} -target=bg-main -duration=3000 -next;
+:不……不如说，是原本存在着的什么，被另一种事物遮蔽了
+:在那层遮蔽之下——那双瞳仁的深处，潜伏着一些未知的朦胧感情
+:那些感情，就像是……像是方才在一楼走廊中所见的，暗色水箱中安静游弋的发光水母
+:如果未曾有人潜入过漆黑的海，我或许一生都不会与它们相见
+:但见到了又如何
+:我仅能看着那四处散落的、隐约的点点微光
+:即使伸手想要触摸，也只会碰到厚重冰冷的玻璃
+:……
+爱音:素世……你没事吧？
+changeBg:CG/水族馆爱素_02_2.png -next -transform={"position":{"x":1850,"y":100},"scale":{"x":1.2,"y":1.2},"alpha":1};
+素世:诶？我……我怎么了吗？ -fontSize=default;
+setTransform:{"position":{"x":1550,"y":0},"alpha":1} -target=bg-main -duration=2000 -next;
+爱音:……不，没什么
+changeBg:CG/水族馆爱素_02.png -next -transform={"position":{"x":1550,"y":0},"alpha":1};
+素世:……
+素世:并没有完蛋哦
+爱音:……
+素世:只要重来，总是有机会的
+素世:如果犯错了，就改正错误；如果碰到了困难，就找到解决办法
+素世:如果……在庞大繁杂的迷宫中迷路了……
+素世:……回头，也并不是意味着逃避……
+素世:………………请，相信我
+:手上传来的力度越来越重，已经到了会痛的程度
+爱音:素世？…… -fontSize=default;
+素世:……回头，也意味着发现了新的一条走不通的路，意味着新的前进方向
+changeBg:CG/水族馆爱素_03.png -next -transform={"position":{"x":1550,"y":0},"alpha":1};
+:她突然转头望向我——水母们聚在了一起，攒集着点点微光，正试图穿透那片黏腻厚重的深海
+素世:所以，小爱音，可以与我一起前进吗……
+素世:即使会迷路，也——
+爱音:——我答应你
+:要问为什么，因为就在刚才——那丝微小但夺目的光，已经刺入了我的心间
+爱音:即使迷路，我们也一起前进吧！——
+bgm: -volume=20;
+爱音:——sokyo！
+changeBg:CG/水族馆爱素_04.png -next -transform={"position":{"x":1550,"y":0},"alpha":1};
+素世:……………………sokyo？？？？？？
+爱音:呃，啊哈哈哈……
+:感觉……像是大脑抽了一下，然后它就随地吐词
+素世:不是，那个，sokyo是什么东西？
+爱音:呃……大概是……素世与东京，混在一起的……很时髦……的感觉？
+爱音:不喜欢吗？那要不……soyoko？soyoyo？soyorin？
+changeBg:CG/水族馆爱素_05.png -next -transform={"position":{"x":1550,"y":0},"alpha":1};
+素世:我……非得选一个吗？
+爱音:毕竟是昵称，很重要的嘛~要不，就soyorin吧？
+素世:……还是不要比较好——你说对吧，anone？
+爱音:anone？？？
+爱音:……总觉得，soyorin起名的品味好差
+changeBg: -next;
+:不知为何，素世掷地有声地叹了口气。然后，她整理好裙摆，站起身来 -素世/…………はぁ（叹气）.mp3 -volume=20 -fontSize=default;
+素世:总之……一起加油吧，小爱音 -fontSize=default;
+素世:立希也很愧疚，她也知道自己说错话了。所以明天，我们一起去找她把话说开吧
+素世:之后大家碰个头，再好好商量商量接下来的事情，毕竟—— -fontSize=default;
+:她转身向我伸出手，脸上浮现出令人安心的微笑
+素世:——要是赶不上新Crychic的第一次Live，可就难办了
+playEffect: -volume=10 -id=michi;
+:
+intro:to be continued... -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500 -hold;

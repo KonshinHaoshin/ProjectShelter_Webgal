@@ -1,0 +1,160 @@
+changeBg:普通背景/ring录音室.png -next -transform={"scale":{"x":1.2,"y":1.2}};
+changeFigure:mygo_avemujica_v5/rana/038_school_winter-2023_rip/model.json -id=rana -transform={"position":{"x":2000,"y":-300},"alpha":1} -next -motion=smile01 -expression=smile02;
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -transform={"position":{"y":-300},"alpha":1} -next -motion=thinking01 -expression=thinking01;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -transform={"position":{"x":-2000,"y":-300},"alpha":1} -next -motion=nf_right01 -expression=smile04;
+changeFigure:mygo_avemujica_v5/soyo/039_hnok_school_winter-2023_rip_normal/model.json -id=soyo -transform={"position":{"x":2000,"y":-500},"scale":{"x":1.4,"y":1.4},"alpha":1} -next -motion=smile01 -expression=idle01;
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_winter-2023_rip/model.json -id=mutsumi -transform={"position":{"x":0,"y":-300},"alpha":0} -next -motion=smile01 -expression=idle01;
+changeFigure:black.png -id=black -transform={"alpha":1} -next;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1 -next;
+: -fontSize=default;
+:最近……素世似乎有些奇怪
+:虽然隐约产生了这种想法，但我并没有太在意——
+bgm:日常2.mp3 -volume=60;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+:
+立希:新曲的鼓点，会不会有点太简单了？
+祥子:确实……抱歉呢，毕竟是初稿
+:——毕竟，要兼顾学业、打工和乐队活动，就已经占用了我绝大部分的精力
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=bye01 -expression=sigh02;
+立希:那个……我不是想要催小祥之类的
+立希:呃，应该说……我也想要……和小祥一起作曲试试？
+祥子:诶？那太好了，真是帮大忙了！
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=nf04 -expression=smile03;
+:立希肉眼可见地舒了一口气
+:虽然立希给我留下的第一印象，是冷酷干练的样子
+:但一直相处下来就发现……一旦穿过那层外壳，她其实还蛮笨拙的
+setTransform:{"position":{"x":-800,"y":-300},"alpha":1} -target=tomori -duration=3000 -next;
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=nf_left01 -expression=surprised01;
+灯:小立希 -fontSize=default;
+灯:上次去动物园的照片，发给你了
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=nf_left01 -expression=smile02;
+立希:谢谢！那……那我也把我这边的——
+灯:嗯！感觉，这张非常不错呢……
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -transform={"position":{"x":-2000,"y":-300},"alpha":1} -next -motion=nnf_right01 -expression=smile02;
+setTransform:{"position":{"x":-500,"y":-300},"alpha":1} -target=tomori -duration=1000 -next;
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=shame02 -expression=smile03;
+:随着灯将脸和手机一起凑向立希，立希肉眼可见地变红了
+changeFigure:mygo_avemujica_v5/soyo/039_hnok_school_winter-2023_rip_normal/model.json -id=soyo -transform={"position":{"x":2000,"y":-300},"alpha":0} -next -motion=nnf_left01 -expression=smile01;
+素世:啊，睦也来啦
+setTransform:{"position":{"x":-2500,"y":-300},"alpha":1} -target=tomori -duration=2000 -next;
+setTransform:{"position":{"x":-2000,"y":-300},"alpha":1} -target=taki -duration=2000 -next;
+:
+setTransform:{"position":{"x":0,"y":-300},"alpha":1} -target=mutsumi -duration=1000 -next;
+睦:大家，下午好
+:睦一到场，一直在角落里摆弄失真模块的乐奈就蹦了起来
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_winter-2023_rip/model.json -id=mutsumi -transform={"position":{"x":0,"y":-300},"alpha":0} -next -motion=nnf_right01 -expression=surprised01;
+setTransform:{"position":{"x":-300,"y":-300},"alpha":1} -target=mutsumi -duration=1000 -next;
+setTransform:{"position":{"x":300,"y":-300},"alpha":1} -target=rana -duration=2000 -next;
+乐奈:小睦，今天有巧克力吗？
+睦:……有一盒
+乐奈:给我
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_winter-2023_rip/model.json -id=mutsumi -transform={"position":{"x":0,"y":-300},"alpha":0} -next -motion=nf_left01 -expression=angry01;
+睦:……不行，要大家一起吃
+changeFigure:mygo_avemujica_v5/rana/038_school_winter-2023_rip/model.json -id=rana -transform={"position":{"x":2000,"y":-300},"alpha":1} -next -motion=nnf_right01 -expression=smile02;
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_winter-2023_rip/model.json -id=mutsumi -transform={"position":{"x":0,"y":-300},"alpha":0} -next -motion=nnf_left01 -expression=angry01;
+setTransform:{"position":{"x":300,"y":-300},"alpha":1} -target=mutsumi -duration=1000 -next;
+setTransform:{"position":{"x":-300,"y":-300},"alpha":1} -target=rana -duration=1000 -next;
+乐奈:给我
+changeFigure:mygo_avemujica_v5/rana/038_school_winter-2023_rip/model.json -id=rana -transform={"position":{"x":2000,"y":-300},"alpha":1} -next -motion=nnf_left01 -expression=smile02;
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_winter-2023_rip/model.json -id=mutsumi -transform={"position":{"x":0,"y":-300},"alpha":0} -next -motion=nnf_right01 -expression=angry01;
+setTransform:{"position":{"x":-400,"y":-300},"alpha":1} -target=mutsumi -duration=1000 -next;
+setTransform:{"position":{"x":300,"y":-300},"alpha":1} -target=rana -duration=1000 -next;
+:乐奈在睦身边绕来绕去，不断伺机伸手想要夺走巧克力
+:这弄得睦有些手足无措，她一边将巧克力举高，一边尽量摆出一副严厉的表情
+setTransform:{"position":{"x":-2400,"y":-300},"alpha":1} -target=mutsumi -duration=2000 -next;
+setTransform:{"position":{"x":-1700,"y":-300},"alpha":1} -target=rana -duration=2000 -next;
+setTransform:{"position":{"x":400,"y":-500},"scale":{"x":1.4,"y":1.4},"alpha":1} -target=soyo -duration=2000 -next;
+:
+素世:这不是很好吗
+changeFigure:mygo_avemujica_v5/soyo/039_hnok_school_winter-2023_rip_normal/model.json -id=soyo -transform={"position":{"x":2000,"y":-500},"scale":{"x":1.4,"y":1.4},"alpha":1} -next -motion=angry01 -expression=ando01;
+素世:大家这样在一起……仅仅只是在一起……
+:素世突然又一次低声说道，像是在自言自语
+setTransform:{"position":{"x":-500,"y":-500},"scale":{"x":1.4,"y":1.4},"alpha":1} -target=soyo -duration=1000 -next;
+祥子:素世？
+changeFigure:mygo_avemujica_v5/soyo/039_hnok_school_winter-2023_rip_normal/model.json -id=soyo -transform={"position":{"x":2000,"y":-500},"scale":{"x":1.4,"y":1.4},"alpha":1} -next -motion=nf04 -expression=ando01;
+素世:嗯？怎么了？
+祥子:感觉你好像在出神呢
+素世:啊，只是突然想起一点学习上的事情
+祥子:这样吗……
+:是的……又一次
+:最近素世有些奇怪——这种想法变得更清晰了一些
+:也许是我多心了，但自从高一开学，Crychic恢复了活动之后——
+:——时不时，就会听到素世发出这样的感慨
+setTransform:{"alpha":0.7,"blur":0} -target=black -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":-100},"scale":{"x":1.2,"y":1.2},"alpha":1} -target=bg-main -duration=1000 -next;
+setTransform:{"position":{"x":-500,"y":-700},"scale":{"x":1.4,"y":1.4},"alpha":1} -target=soyo -duration=1000 -next;
+:是她最近太累了吗……也难怪
+bgm:none -volume=60 -enter=1000;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+:毕竟……我自认为很了解，素世为了Crychic付出了多少
+:我自认为很了解……素世为我付出了多少
+:
+setTransform:{"position":{"x":-1000,"y":-300},"alpha":0} -target=tomori -duration=2000 -next;
+setTransform:{"position":{"x":-600,"y":-300},"alpha":0} -target=taki -duration=2000 -next;
+setTransform:{"position":{"x":-600,"y":-700},"scale":{"x":1.4,"y":1.4},"alpha":0} -target=mutsumi -duration=2000 -next;
+setTransform:{"position":{"x":1000,"y":-300},"alpha":0} -target=rana -duration=2000 -next;
+setTransform:{"position":{"x":200,"y":-400},"scale":{"x":1.2,"y":1.2},"alpha":0} -target=soyo -duration=2000 -next;
+setTransform:{"position":{"x":0,"y":-100},"scale":{"x":1.2,"y":1.2},"alpha":1} -target=bg-main -duration=1000 -next;
+changeBg:普通背景/C03S02_Crychic旧练习室下雨.png -next -transform={"scale":{"x":1.2,"y":1.2}};
+:我大概永远忘不了那一天
+bgm:完蛋.mp3 -volume=60 -enter=1000;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=3000 -next;
+:
+:那一天，我冒着冰冷的雨，仰望向练习室的窗口。窗口的另一侧，看不见的室内，是我挚爱的乐队
+:我亲手组建，如同我的孩子一般的——
+:——我的……Crychic
+:除了它，我几乎已经一无所有。然而我此行前来，却是要与它诀别
+:对于搬出丰川家与父亲生活这一决定，我并不后悔
+:然而当时不谙世事的我，确实远远低估了其代价——又或者，更多地是在欺骗自己，欺骗自己不会顾此失彼
+:到头来，警署的一通电话，便轻易击碎了这脆弱的美梦
+:正因如此，在上楼之前我短暂犹豫了一会儿
+:并不是在退缩，只是在……在贪恋梦醒之前的最后一丝温暖
+setTransform:{"alpha":1,"blur":0} -target=black -duration=2000 -next;
+:
+:我十分感谢当时短暂犹豫的自己
+changeBg:CG/C04S01_雨中素.png -next -transform={};
+:因为——
+setTransform:{"alpha":0,"blur":0} -target=black -duration=5000 -next;
+:
+素世:祥……子？
+:我不知道那天为什么素世会晚到，她兀然出现在雨中，与我一样浑身湿透，或许也一样伤痕累累
+:素世一瘸一拐地向我接近
+:我突然不想醒来
+:我想让这个美梦延续下去，哪怕再多一秒
+playEffect:1_效果音/雨中跑步.mp3 -volume=20;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+:
+changeFigure:mygo_avemujica_v5/rana/038_school_winter-2023_rip/model.json -id=rana -next -motion=smile01 -expression=smile02;
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=smile01 -expression=smile01;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -next -motion=smile01 -expression=smile01;
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_winter-2023_rip/model.json -id=mutsumi -next -motion=smile01 -expression=idle01;
+setTransform:{"position":{"x":-1000,"y":-300},"alpha":1} -target=tomori -duration=2000 -next;
+setTransform:{"position":{"x":-600,"y":-300},"alpha":1} -target=taki -duration=2000 -next;
+setTransform:{"position":{"x":-600,"y":-800},"scale":{"x":1.4,"y":1.4},"alpha":1} -target=mutsumi -duration=2000 -next;
+setTransform:{"position":{"x":1000,"y":-300},"alpha":1} -target=rana -duration=2000 -next;
+setTransform:{"position":{"x":200,"y":-450},"scale":{"x":1.2,"y":1.2},"alpha":1} -target=soyo -duration=2000 -next;
+changeBg:普通背景/ring录音室.png -next -transform={"scale":{"x":1.2,"y":1.2}};
+:于是——我立即紧紧抱住那最后的一丝温暖，生怕它在我不经意之间就消失不见
+:它没有
+:它留了下来，并在将近一年之后——
+setTransform:{"alpha":0,"blur":0} -target=black -duration=2000 -next;
+:
+睦:来，祥的份
+祥子:啊——唔！
+setTransform:{"position":{"x":-400,"y":-550},"scale":{"x":1.2,"y":1.2},"alpha":1} -target=mutsumi -duration=2000 -next;
+祥子:睦，谢谢~
+:大家仍在我身边
+:素世仍在我身边
+setTransform:{"alpha":1,"blur":0} -target=black -duration=3000 -next;
+:巧克力在嘴中化作甜蜜的香气，如同那份愈发茁壮的温暖般，热切而温柔地围绕着我
+changeBg:none -next;
+changeFigure:none -id=rana -next;
+changeFigure:none -id=taki -next;
+changeFigure:none -id=tomori -next;
+changeFigure:none -id=mutsumi -next;
+changeFigure:none -id=soyo -next;
+bgm: -volume=60 -enter=3000;
+:我的队友们，与我命运相连的重要同伴们
+changeFigure:none -id=black -next;
+:我的……家人
+changeScene:C04S01/C04S01_Scene03.txt

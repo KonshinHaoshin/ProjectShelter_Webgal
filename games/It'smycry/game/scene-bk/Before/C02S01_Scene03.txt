@@ -1,0 +1,151 @@
+;撞击声
+路人:Sorry
+爱音:……
+爱音:……回去吧
+:反正我就是个……逃跑的失败者而已……
+:……只要回去，重新来过……
+:重新来过，我一定能做得更好……
+setTextbox:hide -next;
+: -fontSize=default;
+setTextbox:on;
+？？？:我是……高松灯 -灯爱初见_1.mp3 -volume=30 -fontSize=default;
+灯:……请多……多多指教 -灯爱初见_2.mp3 -volume=30 -fontSize=default;
+爱音:嗯…… -灯爱初见_3.mp3 -volume=30 -fontSize=default;
+setTextbox:hide -next;
+changeBg:羽丘无人教室.png;
+:我，千早爱音，刚刚转学到这所羽丘女子学园 -fontSize=default;
+bgm:日常2.mp3 -volume=20;
+setTextbox:on;
+:怯生生地和我打招呼的这位前桌……除了面试结束后，与我有一面之缘外
+:就和班上所有其他同学一样，之前与我毫无交集
+:简而言之就是，非常适合从头再来的环境
+:……
+女生A:——小灯不愧是羽丘的小天然妹，有种小动物的感觉——
+:……
+女生C:——但是二年级中也有Roselia的亚子学姐，和RAS的LOCK学姐哦~
+爱音:……真的，大家都在玩乐队耶
+女生B:小灯应该没有在玩乐队吧？——
+:……
+:很快就和班上的其他几个女生混熟了
+:大家都在玩乐队……与其说是跟风或者榜样作用，看起来更像是一种……社会习俗
+:既然如此，那么遵守这一习俗，自然就能更快速地融入集体吧
+:但是——
+女生B:——我们想演奏Afterglow的歌，想要再找一个吉他手呢
+爱音:吉他？……
+爱音:……谢谢你们，我再考虑一下吧
+bgm: -volume=10 -enter=2000;
+changeBg:none;
+爱音:（毕竟……我千早爱音可不想待在角落里）
+爱音:（即使考虑到合群的问题……但就算真的要玩乐队，也一定要作为乐队的焦点才行）
+爱音:（唯独这点，我是不会妥协的！）
+:——于是，到了第二天早上，我还是婉拒了她们的邀请
+setTextbox:hide -next;
+changeBg:过场/公告板.png;
+:午休时分，我正在中庭的公告板，浏览着一张张社团海报
+setTextbox:on;
+爱音:（话虽如此……居然没有轻音部吗？还是说应该看看吹奏部……）
+bgm:亜麻色の髪の乙女.mp3 -volume=5;
+爱音:……？
+爱音:（这是，钢琴？）
+:那种若有如无的旋律，仿佛是精灵在地平线上传唱的歌谣
+:然而仔细一听，钢琴声的来源，似乎是头顶上的某间教室
+:是从……吹奏部的部室传出来的吗？
+:过去看看吧
+changeBg:none -next;
+setTextbox:hide;
+bgm:亜麻色の髪の乙女.mp3 -volume=15;
+changeBg:过场/音乐室外.png -next;
+:不知不觉，循着钢琴声，就来到了一扇双开门前 -fontSize=default;
+setTextbox:on;
+:门框上方写着“音乐室”，这么说来，会是吹奏部在活动吗？ -fontSize=default;
+bgm:亜麻色の髪の乙女.mp3 -volume=50;
+playEffect:效果音/玄関のドアが閉まる音.mp3 -volume=20;
+changeBg:过场/音乐室开门过场.png -next;
+:打开门的一瞬间，悦耳的琴声首先变得清晰 -fontSize=default;
+changeBg:none -next;
+:但紧接着映入眼帘的那幅画面…… -fontSize=default;
+:……几乎让我忘记了琴声的存在—— -fontSize=default;
+setTextbox:hide;
+changeBg: -next;
+changeBg:CG/音乐室素祥.png -transform={"alpha":0};
+setTransform:{"alpha":1} -target=bg-main -duration=4000;
+:浅蓝发的少女端坐于窗边，正一心一意，以十指在琴键之间起舞。在她身后，另一名少女双目低垂，亚麻色的头发熠熠生辉
+setTextbox:on;
+:阳光穿过树影与玻璃窗，为两人涂抹出白金色的轮廓
+:这一切温柔地灼伤着我的双眼——
+:——如同……
+bgm:none -volume=50;
+changeBg:CG/音乐室素祥-睁眼.png -next;
+setTextbox:hide;
+setTransform:{"alpha":0} -target=bg-main -duration=100;
+;[插入OP]
+changeBg: -next;
+？？？:这位同学，请问，是有什么事情吗？ -fontSize=default;
+setTextbox:on;
+爱音:哇！ -fontSize=default;
+changeBg:羽丘音乐教室.png -transform={"scale":{"x":1.4,"y":1.4}};
+bgm:午后.mp3 -volume=20;
+changeFigure:mygo_avemujica_v5/soyoWW/039_hnok_school_winter-2023_rip/model.json -id=soyo -transform={"position":{"x":-300,"y":-200},"scale":{"x":0.8,"y":0.8}} -next -motion=smile01 -expression=smile01;
+:说话的是那名亚麻色头发的女孩 -fontSize=default;
+:似乎是个感觉敏锐的人，一下就注意到了悄悄进门的我 -fontSize=default;
+爱音:……没，没什么。就是听到了钢琴声，跟了过来……
+爱音:……那个，弹得真棒呢！ -fontSize=default;
+changeFigure:mygo_avemujica_v5/sakiko/341_school_winter-2023_rip/model.json -id=sakiko -transform={"position":{"x":400,"y":0},"scale":{"x":0.8,"y":0.8}} -next -motion=bye01 -expression=smile01;
+:浅蓝发少女正合上琴盖，听到我的夸赞，她报以微笑
+changeFigure:mygo_avemujica_v5/sakiko/341_school_winter-2023_rip/model.json -id=sakiko -transform={"position":{"x":400,"y":0},"scale":{"x":0.8,"y":0.8}} -next -motion=nf_left01 -expression=smile01;
+:然后，她回望向身旁的亚麻发少女 -fontSize=default;
+:……不知为啥，总感觉有种负罪感
+:好像自己的出现，打扰了面前这片美好似的
+setTransform:{"position":{"x":300}, "scale":{"x":1.4,"y":1.4}} -target=bg-main -duration=1500 -next;
+setTransform:{"position":{"x":0,"y":-200},"scale":{"x":0.8,"y":0.8}} -target=soyo -duration=1500 -next;
+setTransform:{"position":{"x":700,"y":0},"scale":{"x":0.8,"y":0.8}} -target=sakiko -duration=1500 -next;
+爱音:总……总之打扰了！
+？？？:啊，稍等一下
+:因此准备关门离去，那名亚麻色头发的少女却叫住了我
+？？？:我是一年B班的长崎素世，这位是与我同班的丰川祥子，请问你是？
+setTransform:{"position":{"x":0}, "scale":{"x":1.4,"y":1.4}} -target=bg-main -duration=1500 -next;
+setTransform:{"position":{"x":-300,"y":-200},"scale":{"x":0.8,"y":0.8}} -target=soyo -duration=1500 -next;
+setTransform:{"position":{"x":400,"y":0},"scale":{"x":0.8,"y":0.8}} -target=sakiko -duration=1500 -next;
+爱音:……那个，我是一年A班的千早，这几天才刚刚转学过来。啊！叫我爱音就好
+changeFigure:mygo_avemujica_v5/soyoWW/039_hnok_school_winter-2023_rip/model.json -id=soyo -transform={"position":{"x":-300,"y":-200},"scale":{"x":0.8,"y":0.8}} -next -motion=nf02 -expression=smile01;
+changeFigure:mygo_avemujica_v5/sakiko/341_school_winter-2023_rip/model.json -id=sakiko -transform={"position":{"x":400,"y":0},"scale":{"x":0.8,"y":0.8}} -next -motion=smile01 -expression=smile01;
+素世:初次见面，爱音同学 -fontSize=default;
+祥子:初次见面。咦，A班的话——与灯在同一班呢~
+:灯？啊……是我前桌那个玩石头的女孩子吧
+爱音:你们说的灯，是高松灯同学吗？
+changeFigure:mygo_avemujica_v5/soyoWW/039_hnok_school_winter-2023_rip/model.json -id=soyo -transform={"position":{"x":-300,"y":-200},"scale":{"x":0.8,"y":0.8}} -next -motion=smile02 -expression=smile01;
+素世:是呢~灯是个很可爱的孩子吧？
+爱音:确实很可爱呢~有种小动物的感觉
+:这评价也算是现学现卖了，不过可爱方面的感受确实没掺假
+changeFigure:mygo_avemujica_v5/soyoWW/039_hnok_school_winter-2023_rip/model.json -id=soyo -transform={"position":{"x":-300,"y":-200},"scale":{"x":0.8,"y":0.8}} -next -motion=smile01 -expression=smile01;
+素世:总之，很高兴认识你
+爱音:啊啊，这边才是……
+changeFigure:mygo_avemujica_v5/soyoWW/039_hnok_school_winter-2023_rip/model.json -id=soyo -transform={"position":{"x":-300,"y":-200},"scale":{"x":0.8,"y":0.8}} -next -motion=nf_right01 -expression=smile01;
+素世:说起来，吹奏部的活动时间快到了，我们走吧小祥——千早同学，很高兴认识你，但你也还是先行离开为好 -fontSize=default;
+changeFigure:mygo_avemujica_v5/sakiko/341_school_winter-2023_rip/model.json -id=sakiko -transform={"position":{"x":400,"y":0},"scale":{"x":0.8,"y":0.8}} -next -motion=nf_left01 -expression=smile01;
+setTransform:{"position":{"x":400,"y":-200},"scale":{"x":0.8,"y":0.8}} -target=sakiko -duration=1500 -next;
+changeFigure:mygo_avemujica_v5/soyoWW/039_hnok_school_winter-2023_rip/model.json -id=soyo -transform={"position":{"x":-300,"y":-200},"scale":{"x":0.8,"y":0.8}} -next -motion=bye01 -expression=smile01;
+changeFigure:mygo_avemujica_v5/sakiko/341_school_winter-2023_rip/model.json -id=sakiko -transform={"position":{"x":400,"y":0},"scale":{"x":0.8,"y":0.8}} -next -motion=bye01 -expression=smile01;
+爱音:好的~谢谢提醒 -fontSize=default;
+setTextbox:hide -next;
+changeFigure: -id=soyo -next;
+changeFigure: -id=sakiko -next;
+changeBg:none.png -next;
+:于是，我跟在两人身后，离开了这间教室
+setTextbox:on;
+changeBg:羽丘走廊.png -transform={"scale":{"x":1.2,"y":1.2}};
+:本来还想搭讪，然而两人之间那种紧密的氛围，让我感觉完全插不上话 -fontSize=default;
+:不过，似乎两人也在刻意地加快脚步，很快就拉开了距离 -fontSize=default;
+setTransform:{"position":{"y":200},"scale":{"x":1.2,"y":1.2},"alpha":0.7} -target=bg-main -duration=1000 -next;
+爱音:（原来，这两人不是吹奏部的吗……但丰川同学的钢琴水平，真棒呢）
+爱音:（如果能同她组乐队，她来当键盘手就好了）
+爱音:（……然而，完全没有邀请时机的样子……）
+爱音:（真可惜……）
+bgm: -volume=20 -enter=4000;
+changeBg:none -next;
+:……
+:一天很快过去了。可我还是没有找到组乐队的突破口 -fontSize=default;
+:不管了，已经眼皮子打架了……
+:明天再去……去问问那些同班女生吧
+setTextbox:hide;
+choose: 第二天:C02S01_Scene04.txt;

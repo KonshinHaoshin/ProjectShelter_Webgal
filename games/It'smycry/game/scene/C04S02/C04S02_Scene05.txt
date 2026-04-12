@@ -1,0 +1,215 @@
+: -fontSize=default;
+changeBg:普通背景/咖啡馆.png -next -transform={"position":{"x":-200}, "scale":{"x":1.2,"y":1.2}};
+changeFigure:mygo_avemujica_v5/sakiko/341_school_winter-2023_rip/model.json -id=saki -transform={"position":{"x":1000,"y":-100},"scale":{"x":1,"y":1},"alpha":0} -next -motion=surprised01 -expression=sad01;
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_winter-2023_rip/model.json -id=muts -transform={"position":{"x":1600,"y":-100},"scale":{"x":1,"y":1},"alpha":0} -next -motion=surprised01 -expression=idle01;
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -transform={"position":{"x":-200,"y":-100},"scale":{"x":1.2,"y":1.2},"alpha":0} -next -motion=angry01 -expression=angry01;
+changeFigure:mygo_avemujica_v5/soyoWW/039_casual-2023_rip/model.json -id=soyo -transform={"position":{"x":-300,"y":-300},"scale":{"x":1,"y":1},"alpha":0} -next -motion=smile01 -expression=smile01;
+changeFigure:MyExtra/SoyoMama_FromLayer/model.json -id=symm -transform={"position":{"x":0,"y":-300},"scale":{"x":1,"y":1},"alpha":0} -next -motion=smile01 -expression=smile01;
+changeFigure:none -id=black -transform={"alpha":1} -next;
+changeFigure:black.png -id=black -transform={"alpha":1} -next;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1 -next;
+: -fontSize=default;
+; see taki
+setTransform:{"position":{"x":1000,"y":-100},"scale":{"x":1,"y":1},"alpha":1} -target=saki -duration=1 -next;
+setTransform:{"position":{"x":1600,"y":-100}, "scale":{"x":1,"y":1}, "alpha":1,"blur":0} -target=muts -duration=1 -next;
+setTransform:{"position":{"x":-200,"y":-200},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=taki -duration=1 -next;
+setTransform:{"position":{"x":200,"y":0},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=1000 -next;
+立希:哈？？？ -立希/はあ！？（哈？）.mp3
+立希:什么叫，你下午跟踪素世然后被她发现了？？？
+爱音:等一下等一下，别着急……
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+:
+:感觉立希都快扑到我身上了，我赶紧安抚道
+; see saki
+setTransform:{"position":{"x":0,"y":-100},"scale":{"x":1,"y":1},"alpha":1} -target=saki -duration=1000 -next;
+setTransform:{"position":{"x":600,"y":-100}, "scale":{"x":1,"y":1}, "alpha":1,"blur":0} -target=muts -duration=1000 -next;
+setTransform:{"position":{"x":-1200,"y":-200},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=taki -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=1000 -next;
+:桌对面的祥子和睦两人的脸色也很微妙——毕竟，是我发了消息叫大家晚上出来紧急集合，结果上来就是这种坏消息
+爱音:那个，其实也不完全是坏消息，因为——
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+:
+changeFigure:mygo_avemujica_v5/soyoWW/039_casual-2023_rip/model.json -id=soyo -next -motion=smile01 -expression=smile01;
+changeFigure:MyExtra/SoyoMama_FromLayer/model.json -id=symm -next -motion=sing01 -expression=smile02;
+setTransform:{"position":{"x":0,"y":-100},"scale":{"x":1,"y":1},"alpha":0} -target=saki -duration=1 -next;
+setTransform:{"position":{"x":600,"y":-100}, "scale":{"x":1,"y":1}, "alpha":0,"blur":0} -target=muts -duration=1 -next;
+setTransform:{"position":{"x":-1400,"y":-200},"scale":{"x":1.2,"y":1.2},"alpha":0,"blur":0} -target=taki -duration=1 -next;
+setTransform:{"position":{"x":400,"y":-100},"scale":{"x":1,"y":1},"alpha":1} -target=soyo -duration=1 -next;
+setTransform:{"position":{"x":-400,"y":-100},"scale":{"x":1,"y":1},"alpha":1} -target=symm -duration=1 -next;
+changeBg:普通背景/素家大楼内大堂.png -next -transform={"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0};
+素世妈妈:啊~你就是小爱音吗？素世之前刚和我提起过你呢~
+素世妈妈:好可惜呢，第一次和素世的队友见面是在这种地方……
+bgm:日常嘟嘟嘟.mp3 -volume=60;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+:
+:话虽如此，她看上去还是十分开心
+爱音:啊哈哈……
+setTransform:{"position":{"x":400,"y":-200},"scale":{"x":1,"y":1},"alpha":1} -target=soyo -duration=1000 -next;
+setTransform:{"position":{"x":-400,"y":-200},"scale":{"x":1,"y":1},"alpha":1} -target=symm -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":-100},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=1000 -next;
+setTransform:{"alpha":0.6,"blur":0} -target=black -duration=1000 -next;
+:就在刚刚，在电梯井被素世抓了个正着，甚至都不知道是什么时候被她发现了
+:然而就在我张口结舌，一片混乱的时候，素世却只是微微叹了口气
+素世:小爱音可以在这里等一下吗，就在那边的沙发上，稍微坐一会儿
+:我乖乖就范，素世上了电梯，过了一会儿，带着之前那个成年女性下来了
+:她一见到我就两眼放光
+changeFigure:mygo_avemujica_v5/soyoWW/039_casual-2023_rip/model.json -id=soyo -next -motion=nnf_left01 -expression=smile01;
+setTransform:{"position":{"x":400,"y":-100},"scale":{"x":1,"y":1},"alpha":1} -target=soyo -duration=1000 -next;
+setTransform:{"position":{"x":-400,"y":-100},"scale":{"x":1,"y":1},"alpha":1} -target=symm -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=1000 -next;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+素世:等到时机成熟，就带妈妈和其他队友们见面吧
+changeFigure:MyExtra/SoyoMama_FromLayer/model.json -id=symm -next -motion=nf_right01 -expression=smile01;
+素世妈妈:好啊！
+changeFigure:MyExtra/SoyoMama_FromLayer/model.json -id=symm -next -motion=surprised01 -expression=smile01;
+素世妈妈:不过，为什么会突然碰到小爱音呢？难道小爱音也住在这里吗？ -fontSize=default;
+爱音:呃，那个……
+素世:也没有，她就是刚好路过而已
+素世:看到我们往这里面走，就跟上来了，小爱音她好奇心一直很重呢
+changeFigure:MyExtra/SoyoMama_FromLayer/model.json -id=symm -next -motion=smile02 -expression=smile02;
+素世妈妈:噗噗，真是个可爱的孩子
+setTransform:{"position":{"x":400,"y":-200},"scale":{"x":1,"y":1},"alpha":1} -target=soyo -duration=1000 -next;
+setTransform:{"position":{"x":-400,"y":-200},"scale":{"x":1,"y":1},"alpha":1} -target=symm -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":-100},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=1000 -next;
+setTransform:{"alpha":0.6,"blur":0} -target=black -duration=1000 -next;
+:感觉自己完全插不上话，整个人都在被素世牵着鼻子走
+:本来就是莽撞地跟了上来，根本没有想过遇到这种情况该怎么办
+:但木已成舟，考验临场反应的时候到了
+:我鼓起勇气，酝酿了一下措辞
+setTransform:{"position":{"x":400,"y":-100},"scale":{"x":1,"y":1},"alpha":1} -target=soyo -duration=1000 -next;
+setTransform:{"position":{"x":-400,"y":-100},"scale":{"x":1,"y":1},"alpha":1} -target=symm -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=1000 -next;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+爱音:那个，我其实刚刚是和朋友出来玩来着
+changeFigure:mygo_avemujica_v5/soyoWW/039_casual-2023_rip/model.json -id=soyo -next -motion=smile01 -expression=smile01;
+changeFigure:MyExtra/SoyoMama_FromLayer/model.json -id=symm -next -motion=smile01 -expression=smile01;
+爱音:结果偶然见到伯母和素世，我还以为是自己看错了，自顾自跟上来，真的很抱歉！
+素世妈妈:没关系没关系~
+素世妈妈:素世这孩子也是调皮，说什么“妈妈先上去吧，我有一点事”。
+素世妈妈:原来是早就发现了小爱音吗，真是的，一开始和妈妈说一声也好嘛
+setTransform:{"position":{"x":200,"y":-100},"scale":{"x":1,"y":1},"alpha":1} -target=soyo -duration=1000 -next;
+setTransform:{"position":{"x":-600,"y":-100},"scale":{"x":1,"y":1},"alpha":1} -target=symm -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=1000 -next;
+setTransform:{"alpha":0.2,"blur":0} -target=black -duration=1000 -next;
+:果然吗……我偷偷瞄向素世
+changeFigure:mygo_avemujica_v5/soyoWW/039_casual-2023_rip/model.json -id=soyo -next -motion=smile01 -expression=kime01;
+:眼神对上的一刻，她挤挤眼角
+changeFigure:mygo_avemujica_v5/soyoWW/039_casual-2023_rip/model.json -id=soyo -next -motion=nnf_left01 -expression=smile01;
+:然后装作没事人似的，又微笑着看向妈妈
+:可恶，素世这家伙……
+:我颇有些不甘心，但该问的问题还是得问出来，总不能毫无收获吧
+setTransform:{"position":{"x":400,"y":-100},"scale":{"x":1,"y":1},"alpha":1} -target=soyo -duration=1000 -next;
+setTransform:{"position":{"x":-400,"y":-100},"scale":{"x":1,"y":1},"alpha":1} -target=symm -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=1000 -next;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+爱音:说起来，这个地方看起来好高级啊
+爱音:素世和伯母，是住在这里吗？
+changeFigure:MyExtra/SoyoMama_FromLayer/model.json -id=symm -next -motion=nnf_right01 -expression=smile03;
+素世妈妈:这个嘛——
+changeFigure:MyExtra/SoyoMama_FromLayer/model.json -id=symm -next -motion=smile01 -expression=smile01;
+素世妈妈:——其实，是和伯母的工作有关系
+爱音:工作？
+素世妈妈:嗯，类似于家政服务，伯母做的是管家类型的工作，给这里的有钱人打理房间和生活之类~
+changeFigure:mygo_avemujica_v5/soyoWW/039_casual-2023_rip/model.json -id=soyo -next -motion=smile01 -expression=smile01;
+素世:是的，所以趁着周末，我来给妈妈帮忙了
+爱音:原来如此……
+playEffect:1_效果音/01_常用效果音/衣擦れ2.mp3 -volume=40;
+changeFigure:MyExtra/SoyoMama_FromLayer/model.json -id=symm -next -motion=nnf04 -expression=smile03;
+setTransform:{"position":{"x":-600,"y":-400},"scale":{"x":1,"y":1},"alpha":1} -target=symm -duration=1000 -next;
+: -fontSize=default;
+素世妈妈:抱歉，伯母还有工作……
+changeFigure:MyExtra/SoyoMama_FromLayer/model.json -id=symm -next -motion=nnf_right01 -expression=smile02;
+changeFigure:mygo_avemujica_v5/soyoWW/039_casual-2023_rip/model.json -id=soyo -next -motion=nnf_left01 -expression=smile02;
+素世妈妈:见到小爱音很高兴~素世等下再上来也可以哟，再陪队友聊一会儿吧？
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+爱音:啊！这边也是，很高兴见到您！
+changeFigure:mygo_avemujica_v5/soyoWW/039_casual-2023_rip/model.json -id=soyo -next -motion=smile01 -expression=kime01;
+bgm:none -volume=60 -enter=3000;
+changeFigure: -id=symm -next;
+setTransform:{"position":{"x":0,"y":100},"scale":{"x":1,"y":1},"alpha":1} -target=soyo -duration=1000 -next;
+:我起身鞠躬，目送着对方走进电梯里
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+:转过头，果不其然素世正半眯着眼睛盯着我
+素世:……所以，你到底干什么来了？
+爱音:诶？素世在说什么啦？
+:这种时候，最重要的就是装傻的功力
+爱音:就和刚刚说的一样，我路过的时候偶然看到素世和妈妈在一起，有些好奇而已
+素世:这样嘛……
+:嘴上说着，但她一动不动，我被那种眼神弄得有些心里发毛
+:就这样过了得有十秒钟，她终于眨眨眼
+changeFigure:mygo_avemujica_v5/soyoWW/039_casual-2023_rip/model.json -id=soyo -next -motion=smile01 -expression=smile02;
+素世:怎么不坐下呢，小爱音？
+爱音:啊哈哈……
+playEffect:1_效果音/01_常用效果音/衣擦れ1.mp3 -volume=40;
+setTransform:{"position":{"x":0,"y":-100},"scale":{"x":1,"y":1},"alpha":1} -target=soyo -duration=1000 -next;
+:这下感觉更尴尬了，我赶紧赔着笑坐回沙发上
+:素世就这样安静地坐在对面，和我之前见过的几乎没什么两样，依旧是一副温柔的笑容
+:然而正因如此，结合方才发生的一系列事情，我只觉得那副笑容散发出了强烈的违和感
+changeFigure:mygo_avemujica_v5/soyoWW/039_casual-2023_rip/model.json -id=soyo -next -motion=thinking01 -expression=smile01;
+素世:虽然也没有很讨厌……
+changeFigure:mygo_avemujica_v5/soyoWW/039_casual-2023_rip/model.json -id=soyo -next -motion=thinking01 -expression=smile03;
+素世:……但这种跟踪狂一样的行为，可以不要再做了嘛
+爱音:抱歉……
+爱音:那个，我也没有想到会在这里碰到そよりん，情不自禁就……
+changeFigure:mygo_avemujica_v5/soyoWW/039_casual-2023_rip/model.json -id=soyo -next -motion=smile05 -expression=smile02;
+素世:没想到，小爱音会喜欢玩这种侦探游戏呢……
+changeFigure:mygo_avemujica_v5/soyoWW/039_casual-2023_rip/model.json -id=soyo -next -motion=smile01 -expression=smile01;
+素世:还是说……有谁对你说了什么？
+爱音:诶？
+setTransform:{"position":{"x":100,"y":-100},"scale":{"x":1,"y":1},"alpha":1} -target=soyo -duration=1000 -next;
+setTransform:{"position":{"x":100,"y":0},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=1000 -next;
+setTransform:{"alpha":0.2,"blur":0} -target=black -duration=1000 -next;
+爱音:没有呀，没人和我说过什么呢
+setTransform:{"position":{"x":0,"y":-100},"scale":{"x":1,"y":1},"alpha":1} -target=soyo -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=1000 -next;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+爱音:该不会是，最近有什么不好的流言吧？放心放心，即便是有，我也绝对不会信的
+爱音:毕竟，我们约好了要一起前进的嘛~
+changeFigure:mygo_avemujica_v5/soyoWW/039_casual-2023_rip/model.json -id=soyo -next -motion=smile01 -expression=smile02;
+素世:嗯……确实是约好了的……
+playEffect:1_效果音/01_常用效果音/衣擦れ2.mp3 -volume=40;
+setTransform:{"position":{"x":0,"y":-400},"scale":{"x":1,"y":1},"alpha":1} -target=soyo -duration=1000 -next;
+:她从沙发上站起来，双手掸掸裙子
+changeFigure:mygo_avemujica_v5/soyoWW/039_casual-2023_rip/model.json -id=soyo -next -motion=smile01 -expression=smile01;
+素世:总之，这次没能好好招待一下小爱音，还是挺可惜的
+素世:我也要上去帮妈妈的忙了，小爱音回去的时候，要注意安全哟
+setTransform:{"position":{"x":0,"y":-300},"scale":{"x":1,"y":1},"alpha":1} -target=soyo -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":150},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=1000 -next;
+:再耽搁下去确实也不太好，毕竟立希还在等我，于是我也起身向她道别
+爱音:嗯，そよりん也辛苦了，工作加油哟~
+changeFigure:mygo_avemujica_v5/soyoWW/039_casual-2023_rip/model.json -id=soyo -next -motion=smile01  -expression=smile02;
+素世:好好
+changeFigure:mygo_avemujica_v5/soyoWW/039_casual-2023_rip/model.json -id=soyo -next -motion=nnf_left01 -expression=smile02;
+playEffect:1_效果音/01_常用效果音/普通走路过场.mp3 -volume=40;
+setTransform:{"position":{"x":-800,"y":-300},"scale":{"x":1,"y":1},"alpha":1} -target=soyo -duration=2000 -next;
+:
+changeFigure:mygo_avemujica_v5/soyoWW/039_casual-2023_rip/model.json -id=soyo -next -motion=smile01 -expression=smile01;
+素世:顺便，麻烦小爱音和小祥她们说一声，就说我很好，不用担心
+爱音:好的，我会转告她们——
+爱音:啊
+:反应过来的我立即捂住嘴，然而已经太迟了
+setTransform:{"position":{"x":0,"y":-300},"scale":{"x":1,"y":1},"alpha":1} -target=soyo -duration=500 -next;
+setTransform:{"position":{"x":200,"y":150},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=500 -next;
+changeFigure:mygo_avemujica_v5/soyoWW/039_casual-2023_rip/model.json -id=soyo -next -motion=smile01 -expression=wink01;
+:再看向素世，她向我眨了眨眼
+changeFigure:mygo_avemujica_v5/soyoWW/039_casual-2023_rip/model.json -id=soyo -next -motion=smile05 -expression=smile03;
+素世:噗
+素世:小爱音，你还是那么有意思呢
+playEffect:1_效果音/01_常用效果音/普通走路过场.mp3 -volume=40;
+setTransform:{"position":{"x":-2000,"y":-300},"scale":{"x":1,"y":1},"alpha":1} -target=soyo -duration=4000 -next;
+setTransform:{"position":{"x":250,"y":150},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=2000 -next;
+changeFigure:mygo_avemujica_v5/soyoWW/039_casual-2023_rip/model.json -id=soyo -next -motion=bye01 -expression=smile02;
+爱音:……不是，等下，我……
+:没有理会我的窘态，素世挥挥手，飘然走进了电梯里
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+:
+changeBg:none -next;
+changeFigure: -id=soyo -next;
+changeFigure: -id=taki -next;
+changeFigure: -id=saki -next;
+changeFigure: -id=muts -next;
+:看来，我大概是被狠狠捉弄了一番
+爱音:……
+爱音:そよりん……
+爱音:……意外地……是个坏心眼的家伙啊
+changeScene:C04S02/C04S02_Scene06.txt

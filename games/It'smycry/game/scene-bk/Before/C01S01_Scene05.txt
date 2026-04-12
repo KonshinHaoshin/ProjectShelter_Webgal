@@ -1,0 +1,86 @@
+祥子:灯笑起来好可爱喔
+setTextbox:on;
+素世:多让我们看看你的笑容吧
+bgm:KTV もういちど ルミナス [instrumental].mp3 -volume=100 -enter=1000;
+changeBg:KTV.png -next;
+:卡拉OK中的氛围十分融洽，某种意义上来说，这次活动可以认为是Crychic真正的破冰之旅
+素世:（在这之后，灯很快写出了《春日影》。大家一起排练，到熟练掌握）
+素世:（这中间大概有数周的时间）
+bgm:KTV もういちど ルミナス [instrumental].mp3 -volume=20 -enter=1000;
+setTransform:{"position":{"y":-300},"alpha":0.3} -target=bg-main -duration=1000;
+素世:（然后就是……第一次LIVE）
+:回想到这一步，心口不由得一紧 -fontSize=default;
+:毕竟在那次LIVE之后……祥子就消失了很长的一段时间。虽然最后，再度出现在练习室的祥子亲口宣布退团，发生争吵，众人四散——
+:——然而Crychic毁灭的种子，早在LIVE结束后就种下了
+祥子:……素世？
+changeFigure:mygo_avemujica_v5/sakiko/341_jh_school_winter-2023_rip/model.json -id=sakiko -transform={"position":{"y":-300}} -next -motion=smile03 -expression=smile01;
+bgm:KTV もういちど ルミナス [instrumental].mp3 -volume=100 -enter=1000;
+setTransform:{"alpha":1} -target=bg-main -duration=1000 -next;
+素世:啊！
+changeFigure:mygo_avemujica_v5/sakiko/341_jh_school_winter-2023_rip/model.json -id=sakiko -transform={"position":{"y":-300}} -next -motion=smile05 -expression=smile03;
+祥子:素世总是发呆呢~ -fontSize=default;
+changeFigure:mygo_avemujica_v5/sakiko/341_jh_school_winter-2023_rip/model.json -id=sakiko -transform={"position":{"y":-300}} -next -motion=smile01 -expression=default;
+祥子:可以把话筒递我一下吗？灯都笑了，我再不唱一曲可不行哦 -fontSize=default;
+setTransform:{"position":{"y":-200}} -target=bg-main -duration=300 -next;
+setTransform:{"position":{"y":-500}} -target=sakiko -duration=300 -next;
+素世:好~;
+setTransform:{"position":{"y":0}} -target=bg-main -duration=300 -next;
+setTransform:{"position":{"y":-300}} -target=sakiko -duration=300;
+setTransform:{"position":{"y":-600},"scale":{"x":1.3,"y":1.3}} -target=sakiko -duration=1000 -next;
+changeFigure:mygo_avemujica_v5/sakiko/341_jh_school_winter-2023_rip/model.json -id=sakiko -transform={"position":{"y":-300}} -next -motion=surprised02 -expression=smile02;
+:回到之前的位置上，将话筒递到祥子的手中。看着祥子雀跃着起身，挨到灯旁边开始点歌，我为自己挂上微笑，拿起祥子留在座位上的沙锤
+setTransform:{"position":{"x":2000,"y":-600},"scale":{"x":1.3,"y":1.3}} -target=sakiko -duration=1000;
+素世:（总之，我有几个星期的时间）
+素世:（要拉近和祥子的关系的话……）
+素世:（……啊，有了。）
+素世:（如果，我这样做的话……） -fontSize=default;
+changeBg:;
+:……
+changeFigure: -id=sakiko;
+bgm: -volume=100 -enter=1000;
+changeBg:火车站门口.png -next;
+:卡拉OK的包时结束了，和之前一样，大家都玩得很尽兴的样子 -fontSize=default;
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_winter-2023_rip/model.json -id=mutsumi -transform={"position":{"x":-800,"y":-200},"scale":{"x":0.8,"y":0.8}} -next -motion=bye01 -expression=smile01;
+changeFigure:mygo_avemujica_v5/sakiko/341_jh_school_winter-2023_rip/model.json -id=sakiko -transform={"position":{"x":-400,"y":-200},"scale":{"x":0.8,"y":0.8}} -next -motion=bye01 -expression=smile01;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -transform={"position":{"x":1400,"y":-200},"scale":{"x":0.8,"y":0.8}} -next -motion=bye01 -expression=smile01;
+changeFigure:mygo_avemujica_v5/taki/040_school_winter-2023_rip/model.json -id=taki -transform={"position":{"x":1000,"y":-200},"scale":{"x":0.8,"y":0.8}} -next -motion=bye01 -expression=smile01;
+bgm:冬日.mp3 -volume=10;
+:我、灯与立希的家在同一方向，因而，我们本应乘同一方向的电车与祥子、睦分别
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -transform={"position":{"x":1200,"y":-200},"scale":{"x":0.8,"y":0.8}} -next -motion=nf_left01 -expression=smile01;
+changeFigure:mygo_avemujica_v5/taki/040_school_winter-2023_rip/model.json -id=taki -transform={"position":{"x":800,"y":-200},"scale":{"x":0.8,"y":0.8}} -next -motion=kime01 -expression=smile01;
+:但是——
+素世:祥子，这边
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_winter-2023_rip/model.json -id=mutsumi -transform={"position":{"x":-800,"y":-200},"scale":{"x":0.8,"y":0.8}} -next -motion=idle01 -expression=surprised01;
+changeFigure:mygo_avemujica_v5/sakiko/341_jh_school_winter-2023_rip/model.json -id=sakiko -transform={"position":{"x":-400,"y":-200},"scale":{"x":0.8,"y":0.8}} -next -motion=surprised01 -expression=surprised01;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -transform={"position":{"x":1400,"y":-200},"scale":{"x":0.8,"y":0.8}} -next -motion=idle01 -expression=surprised01;
+changeFigure:mygo_avemujica_v5/taki/040_school_winter-2023_rip/model.json -id=taki -transform={"position":{"x":1000,"y":-200},"scale":{"x":0.8,"y":0.8}} -next -motion=idle01 -expression=surprised01;
+祥子:素世？有什么事吗？ -fontSize=default;
+changeFigure: -id=taki -next;
+changeFigure: -id=tomori -next;
+changeFigure: -id=mutsumi -next;
+setTransform:{"position":{"x":-600,"y":-600},"scale":{"x":1.3,"y":1.3}} -target=sakiko -duration=1000;
+祥子:……诶，真意外呢……
+祥子:……嗯，那我和睦……啊——这样吗……
+changeFigure:mygo_avemujica_v5/sakiko/341_jh_school_winter-2023_rip/model.json -id=sakiko -transform={"position":{"x":-600,"y":-600},"scale":{"x":1.3,"y":1.3}} -next -motion=nf_right01 -expression=smile01;
+;背后三人
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_winter-2023_rip/model.json -id=mutsumi -transform={"position":{"x":-800,"y":-200},"scale":{"x":0.8,"y":0.8}} -next -motion=idle01 -expression=surprised01;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -transform={"position":{"x":1400,"y":-200},"scale":{"x":0.8,"y":0.8}} -next -motion=idle01 -expression=surprised01;
+changeFigure:mygo_avemujica_v5/taki/040_school_winter-2023_rip/model.json -id=taki -transform={"position":{"x":1000,"y":-200},"scale":{"x":0.8,"y":0.8}} -next -motion=idle01 -expression=surprised01;
+祥子:不好意思，灯和立希先走吧。素世好像有什么事情，想要和我单独聊聊……
+changeFigure:mygo_avemujica_v5/sakiko/341_jh_school_winter-2023_rip/model.json -id=sakiko -transform={"position":{"x":-600,"y":-600},"scale":{"x":1.3,"y":1.3}} -next -motion=nf_left01 -expression=smile01;
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_winter-2023_rip/model.json -id=mutsumi -transform={"position":{"x":-800,"y":-200},"scale":{"x":0.8,"y":0.8}} -next -motion=odoodo01 -expression=surprised01;
+睦:……单独？
+祥子:是的，不过她说还有时间。所以我会先送小睦回去，然后再和她出去走走
+素世:实在抱歉……
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_winter-2023_rip/model.json -id=mutsumi -transform={"position":{"x":-800,"y":-200},"scale":{"x":0.8,"y":0.8}} -next -motion=nf01 -expression=default;
+睦:……不会
+changeFigure: -id=taki -next;
+changeFigure: -id=sakiko -next;
+changeFigure: -id=tomori -next;
+changeFigure: -id=mutsumi -next;
+bgm: -volume=10 -enter=1000;
+changeBg: -next;
+:于是，众人按预定各自踏上归途
+:祥子把睦送进了一间豪华独栋里，出来之后，说她知道一个“方便谈话的地方”——
+setTextbox:hide;
+choose:飞鸟山公园:C01S01_Scene05.txt;

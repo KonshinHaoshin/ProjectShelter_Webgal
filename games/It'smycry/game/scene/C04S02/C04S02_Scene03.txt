@@ -1,0 +1,80 @@
+: -fontSize=default;
+changeBg:普通背景/爱音卧室晚.png -next -transform={"position":{"x":0,"y":-200},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0};
+changeFigure:none -id=black -transform={"alpha":1} -next;
+changeFigure:black.png -id=black -transform={"alpha":1} -next;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1 -next;
+: -fontSize=default;
+初中同学A(Line):一之濑？
+初中同学A(Line):好像没什么印象呢……
+初中同学B(Line):啊，我小学是在千叶县读的
+初中同学C(Line):千早！好久不见！
+初中同学C(Line):我前段时间刚听别人说，你从英国回来了
+初中同学C(Line):我试着去问一下其他人吧！
+:……
+playEffect:1_效果音/01_常用效果音/携帯バイブレーション.mp3 -volume=20;
+:
+初中同学C(Line):还真的问到有诶！
+爱音(Line):诶？
+爱音:诶？
+setTransform:{"position":{"x":0,"y":200},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=500 -next;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=500 -next;
+:本来在沙发上躺着，一下挺起身来
+playEffect:爱音/いったー（好痛！短纯净）.mp3 -volume=40;
+爱音:啊啊啊啊！痛痛痛痛痛！
+setTransform:{"position":{"x":0,"y":-200},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=500 -next;
+setTransform:{"alpha":0.4,"blur":0} -target=black -duration=500 -next;
+:结果因此好像把腹筋扯到了，在沙发上像只虾一样蜷缩起来
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=500 -next;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=500 -next;
+:待到那份疼痛感稍有缓解，我重新拿起手机
+初中同学C(Line):详细部分我会再问问看的
+初中同学C(Line):比起这个，千早，周六要出来见一面吗？
+初中同学C(Line):我恰好想去六本木那边玩呢，到时候也可以聊聊这件事
+爱音(Line):可以哟！那周末见！
+初中同学C(Line):太好了！周末见！
+:和初中同学见面吗……
+playEffect:爱音/は～～～～～（长叹气）.mp3 -volume=40;
+setTransform:{"position":{"x":0,"y":200},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=2000 -next;
+setTransform:{"alpha":0.6,"blur":0} -target=black -duration=2000 -next;
+:我放下手机，感到有些茫然，不知道是因为刚才疼痛的后劲，还是因为答应了这个请求
+:如果没有这件事，我可能根本想不到要联系她们吧
+:再回想起，昨天见面时脆弱的祥子，哭鼻子的立希，主动说了好几次话的睦……
+:……大家，都或多或少地因为素世，而做了平时不太可能会做的事呢
+:也难怪
+:毕竟，想必大家也都曾经因为素世的温柔而得救过
+playEffect:1_效果音/01_常用效果音/携帯バイブレーション.mp3 -volume=20;
+:
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=1000 -next;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+立希(Line):爱音，周六有时间吗？
+:居然是立希吗
+爱音(Line):刚刚才有人约我，但说不定时间会错开
+爱音(Line):小立希有什么事吗？
+立希(Line):我这边也问到了一些情报，想和大家对一下，你这边有消息吗？
+爱音(Line):有的，刚才约我的人，就是想在周六聊这件事
+爱音(Line):我先问清楚具体时间，然后再和你确认吧
+立希(Line):我明白了
+立希(Line):刚刚知道祥子有排班，睦家里也有安排，到时候应该只有我们两个人
+立希(Line):既然这样，要不等下周放学，人齐了再说？
+爱音(Line):我们先对一下也好，毕竟放学大概率要合练的
+爱音(Line):要不，就还是暂定周六见吧
+立希(Line):行，周六见
+setTransform:{"position":{"x":0,"y":200},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=2000 -next;
+setTransform:{"alpha":0.6,"blur":0} -target=black -duration=2000 -next;
+:
+:我又一次放下手机，望着天花板胡思乱想
+:会面时，大家对于素世的处境提出了好几个猜想
+:比如，祥子猜测素世家的债务情况或许并未好转，甚至可能恶化了
+:并且祥子提到，自己从未见过素世的母亲
+:因此睦之前猜想的，素世母亲或许已经过世这一可能，也无法排除
+:立希则提到，是否是素世的父亲又回来纠缠她们母女
+:在此之后，还有患病论、黑社会胁迫论等等……
+:然而最终大家的共识是——如果是以上这些可能之一，在不借助外力的情况下，大家能为素世做的事情都少之又少
+爱音:毕竟……大家都只不过是高中生而已……
+爱音:果然，借助丰川家的力量，虽然是所谓的最后手段
+爱音:但无论怎么看，反倒都是最为现实的吗……
+爱音:成年人的世界，真可怕呀……
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+:
+changeBg:none -next;
+changeScene:C04S02/C04S02_Scene04.txt

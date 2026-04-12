@@ -1,0 +1,261 @@
+: -fontSize=default;
+电视新闻:接下来插播一条寻人启事——
+便利店店员:不好意思，请您稍等一下，我这边正在理货……
+电视新闻:——长崎素世，女，15岁，栗褐色长发，穿青白色上衣，淡黄色长裙。最后一次被目击是在五日前，于东京池袋区的LIVE HOUSE RiNG附近——
+bgm:蟋蟀叫.mp3 -volume=20;
+playEffect:1_效果音/02_环境音/シーンと静まり返る教室.mp3 -volume=10 -id=env;
+changeBg:普通背景/夜晚便利店.png -next;
+:
+便利店店员:来了来了……晚上好，您久等了，请问这些就是全部吗？
+电视新闻:——该名失踪者可能情绪不稳，具有一定的自杀风险，如有市民目睹其行踪或有相关讯息，恳请联系——
+顾客:能上电视的失踪案？15岁，我就知道是未成年人……小屁孩又在玩离家出走那一套吧？
+便利店店员:请问这个饭团要加热吗？——好的，那这边收您五千日元，我给您加热和找零……
+电视新闻:——另外，失踪者家属表示愿意提供一百万日元，作为关键情报提供者的酬金——
+顾客:一百万日元？？？……东京这班人真有钱啊，相比之下我们鹿岛这边…… -fontSize=default;
+便利店店员:久等了，这里是您的找零，饭团还请稍等一分钟——
+便利店店员:——咦？客人？……
+便利店店员:不好意思，这位客人，刚才来结账的那个女孩，你有看到吗？
+顾客:啊？抱歉，我刚一直在看电视……
+便利店店员:……奇怪了，饭团和找零都不要了吗？……
+playEffect:none -volume=10 -id=env;
+changeBg:none -next;
+:
+playEffect:1_效果音/02_环境音/海岸4.mp3 -volume=20 -id=wave;
+: -fontSize=default;
+:走下堤坝，我脱掉鞋子，将其随意丢在一旁，赤脚踩入沙滩之中
+:沙滩被月光照得惨白，尽头的黑色潮水，正缓缓将其吞入腹中
+changeBg:普通背景/满月海边.png -next -transform={"scale":{"x":1.1,"y":1.1}};
+:今晚大概是盈凸月，又或是满月，我看不出来
+:兜的最后一张钞票，也已经在刚刚花掉了
+playEffect:1_效果音/02_环境音/海岸4.mp3 -volume=30 -id=wave;
+playEffect:1_效果音/03_重要剧情音效/沙滩行走到海中_缩混.mp3 -volume=40;
+setTransform:{"scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=10000 -next;
+:一步步走着，脚下混杂着碎贝壳的粗粝沙面，每迈出一步，都更柔软湿润一分
+playEffect:1_效果音/02_环境音/海岸4.mp3 -volume=40 -id=wave;
+:直到海浪冰冷地拍在了脚背上——
+:——我才停了下来，驻足于这白与黑的暧昧分界线之上
+素世:……真美啊
+changeFigure:满月海边.png -transform={"scale":{"x":1.2,"y":1.2}} -id=shock -next;
+changeFigure:海岸素手.png -id=hand -transform={"position":{"x":400,"y":1100}} -next;
+:洁白而圆满的明月，高悬于天际之上，闪耀于夜幕之中
+setTransform:{"position":{"x":50,"y":100},"blur":3} -target=hand -duration=4000 -next;
+:我不由得伸出手，妄想着只要将指尖放在月面上，就能触及那份完美 -fontSize=default;
+playEffect:素世/素食_痛苦_01.mp3 -volume=40;
+setTransform:{"position":{"y":-100},"scale":{"x":1.2,"y":1.2},"alpha":0.5,"rgbFilm":1} -target=bg-main -duration=200 -next;
+setTransform:{"position":{"x":400,"y":1100}} -target=hand -duration=200 -next;
+setTransform:{"scale":{"x":4,"y":4},"alpha":0} -target=shock -duration=200 -next;
+:然而就在与月面重叠的瞬间，剧痛便再次浮现于指尖，骇得我缩回手
+素世:对不起……
+素世:对不起，对不起，小祥！
+素世:为什么……
+素世:我仅仅……仅仅只是想和大家在一起而已……我只是想组个乐队而已……
+素世:为什么会这样？
+素世:我……我真的——
+素世:——我真的……受够了……
+setTransform:{"scale":{"x":1.2,"y":1.2},"alpha":1,"rgbFilm":0} -target=bg-main -duration=4000 -next;
+:
+:天上的月亮，遥不可及
+:……漆黑水面中的倒影，会更近些吗？
+playEffect:1_效果音/03_重要剧情音效/水中行走01.mp3 -volume=40;
+setTransform:{"position":{"x":-200},"scale":{"x":1.3,"y":1.3},"alpha":1} -target=bg-main -duration=2000 -next;
+:被这种想法驱使着，我重新迈开脚步
+setTransform:{"position":{"x":-300},"scale":{"x":1.4,"y":1.4},"alpha":1} -target=bg-main -duration=2000 -next;
+playEffect:1_效果音/03_重要剧情音效/水中行走02.mp3 -volume=40;
+:没错的，如果只是倒影的话，一定……一定……
+playEffect:none -volume=40 -id=wave;
+setTransform:{"position":{"x":-300,"y":-1000},"scale":{"x":1.4,"y":1.4},"alpha":0} -target=bg-main -duration=200 -next;
+bgm:none -volume=20;
+playEffect:1_效果音/03_重要剧情音效/溺水_缩混.mp3 -volume=40;
+:脚下突然一滑 -fontSize=default;
+:咸苦的海水灌入口中的一刹那，巨大的恐惧与求生欲，压倒性地占据了整个脑海 -fontSize=default;
+playEffect:1_效果音/03_重要剧情音效/溺水_水中_缩混.mp3 -volume=40;
+:我慌乱地挣扎着，然而被海水浸透的衣服，如同灌了铅般沉重地挂在四肢上，仅仅是扑腾了几下，便几乎耗尽了我的力气
+playEffect:1_效果音/03_重要剧情音效/溺水_露头_缩混.mp3 -volume=40;
+:所幸的是，我凑巧翻过身来，虽然又呛了一嘴泥沙，但也因此触到了水底，从而得以将头露出水面 -fontSize=default;
+bgm:蟋蟀叫.mp3 -volume=20;
+playEffect:1_效果音/02_环境音/海岸4.mp3 -volume=40 -id=wave;
+playEffect:1_效果音/03_重要剧情音效/爬回沙滩_缩混.mp3 -volume=40;
+:于是，在滑溜溜的滩涂上竭力抓挖着，一阵狼狈的混乱之后——我终于拖着湿漉漉的身体，爬回了干燥的沙滩上 -fontSize=default;
+:吐掉口中的泥沙，贪婪地大口呼吸着空气
+:短暂的宁静过后——终于不争气地捂脸痛哭起来 -fontSize=default;
+素世:我想回家！ -1_效果音/03_重要剧情音效/想回家.mp3 -fontSize=default;
+素世:我想吃妈妈做的曲奇！ -1_效果音/03_重要剧情音效/想吃饼干.mp3 -fontSize=default;
+素世:……妈妈，妈妈！ -1_效果音/03_重要剧情音效/素哭_缩混.mp3 -fontSize=default;
+:
+changeBg:过场/C03S02_夜空01.png -next;
+:
+:最终哭累了，放任自己无力地啜泣着
+:夜空向我沉沉压下
+:是的
+:长崎素世一向如此软弱
+:如同婴儿般，无论眼前是什么，她都只懂得伸手抓住
+:软弱地撒谎、挽留、崩溃，软弱地不愿放手，软弱地铸成大错
+:甚至连结束这一切，都软弱地半途而废
+:我根本……什么都做不好
+:还说什么“他们全都是赝品”……
+:但这个世界里最大的、唯一的赝品，不应该是长崎素世才对吗？
+:一直戴着虚伪面具，假扮成过去自己的，不就是我吗？
+changeBg:过场/C03S02_夜空02.png -next;
+？？？:喂——这位小姐，请问你还好吗？
+？？？:我是本地的巡警，刚才接到有人报告，说海滩这边有人在大哭——
+:手电筒的光很刺眼，但我却没有避开，甚至想要就此迎上去
+:相比高不可攀的月亮，这才是我触手可及的光
+:我……已经不想当赝品了
+:我不想再回到过去了
+:背负杀人凶手的骂名也好，付出后半段人生也罢
+:无论最后的代价是什么，我都全盘接受 -fontSize=default;
+:只要……能让我回到妈妈的身边
+:是的，只要妈妈还在等我回去，我就不会是赝品，我就还是我自己——
+素世:……巡警先生
+素世:巡警先生！请帮帮我——
+bgm:none -volume=20;
+playEffect:none -volume=40 -id=wave;
+playEffect:1_效果音/01_常用效果音/画面崩坏并消失音效.mp3 -volume=40;
+setTransform:{"scale":{"x":2,"y":2},"alpha":0,"glitchFilm":1,"rgbFilm":1} -target=bg-main -duration=4000 -next;
+:
+playEffect:1_效果音/03_重要剧情音效/月之森礼堂欢呼_加长.mp3 -volume=40;
+: -fontSize=medium;
+changeBg:CG/C03S01_素世舞台恍惚.png -next -transform={"position":{"x":1400},"scale":{"x":1.2,"y":1.2},"alpha":0,"blur":40};
+:
+setTransform:{"position":{"x":1200,"y":0},"scale":{"x":1,"y":1},"alpha":1,"blur":0} -target=bg-main -duration=200 -next;
+:……诶？ -素世/え？（诶？-更惊讶）.mp3 -volume=40;
+playEffect:1_效果音/01_人物音效/「えー…」.mp3 -volume=5;
+周围的学生A:诶？
+周围的学生B:素世同学？……现在还在谢幕中呀！
+:为什么？我明明什么都没做，为什么会回来？
+:不要这样，让我回去
+playEffect:1_效果音/FINGER_SNAP.mp3 -volume=100;
+:伸手打响响指，妄想着能再回到那片沙滩上 -fontSize=default;
+playEffect:1_效果音/01_常用效果音/画面崩坏并消失音效.mp3 -volume=40;
+setTransform:{"position":{"x":1200,"y":0},"scale":{"x":2,"y":2},"alpha":0,"blur":0,"glitchFilm":1,"rgbFilm":1} -target=bg-main -duration=4000 -next;
+:然而——
+setTransform:{"position":{"x":1200,"y":0},"scale":{"x":1,"y":1},"alpha":1,"blur":0,"glitchFilm":0,"rgbFilm":0} -target=bg-main -duration=200 -next;
+:
+playEffect:1_效果音/01_人物音效/「えー…」.mp3 -volume=5;
+周围的学生A:诶？
+周围的学生B:素世同学？……现在还在谢幕中呀！
+setTransform:{"position":{"x":1200,"y":0},"scale":{"x":1,"y":1},"alpha":0.5,"blur":0,"rgbFilm":1} -target=bg-main -duration=300 -next;
+:不要，讨厌，不要这样
+:又没了，又没了
+:曲奇，会做曲奇的妈妈，一起度过的过去每一天，想要一起度过的未来每一天
+:刚刚才决定下来，要一直珍视的这一切 -fontSize=default;
+:顷刻间，又化作乌有了 -fontSize=default;
+:……
+:开什么玩笑？
+:……这是在耍我吗？ -fontSize=default;
+playEffect:1_效果音/01_人物音效/黄色い悲鳴_Short.mp3 -volume=40;
+周围的学生C:——呀啊啊啊！
+:我猛地起身，试图抡起手中的低音提琴——抡不动，它太沉了
+:所以取而代之的，我直接抓起谱架往身前砸去
+:当然砸到东西了。所谓东西当然是个人。还能是什么？她都惨叫起来了
+playEffect:1_效果音/FINGER_SNAP.mp3 -volume=100;
+素世:赝品……
+playEffect:1_效果音/01_人物音效/「えー…」.mp3 -volume=5;
+周围的学生A:诶？
+周围的学生B:素世同学？……现在还在谢幕中呀！
+playEffect:1_效果音/01_人物音效/黄色い悲鳴.mp3 -volume=40;
+changeFigure:C03S02_素世倒影.png -id=me -transform={"alpha":0} -next;
+:将琴弓远远地丢向观众席，好像把石头丢进水中一样，人群绽出阵阵波浪
+playEffect:1_效果音/FINGER_SNAP.mp3 -volume=100;
+素世:你们这些赝品！
+playEffect:1_效果音/01_人物音效/「えー…」.mp3 -volume=5;
+周围的学生A:诶？
+周围的学生B:素世同学？……现在还在谢幕中呀！
+setTransform:{"alpha":0.1,"blur":0,"rgbFilm":1} -target=me -duration=2000 -next;
+bgm:06. 壁の先.mp3 -volume=40;
+:素世，没有必要这样，从头再来不好吗？
+:当然，非要这么做也无所谓。反正只要重来，一切就会恢复原状——
+素世:……别说了
+setTransform:{"alpha":0.3,"blur":0,"rgbFilm":1} -target=me -duration=2000 -next;
+:她们本来就都是赝品，用之即弃，我不是很早就认清了这一点吗？我不是很早就这么做过无数次了吗？
+:从头再来，就可以又一次得到祥子的爱，或者又一次得到妈妈的爱，一次一次又一次——
+素世:别再说了，我告诉你别再说了！
+:然而没有回应，只有我的怒吼在礼堂中回荡
+setTransform:{"alpha":0.5,"blur":0,"rgbFilm":1} -target=me -duration=2000 -next;
+:哪里有什么“你”？
+:没有“你”，从来都只有“我”，从来都只有长崎素世
+素世:闭嘴
+素世:我要回去……求你了，让我回去
+setTransform:{"alpha":0.7,"blur":0,"rgbFilm":1} -target=me -duration=2000 -next;
+:但如果我愿意——把我叫作“你”，也并不是不行
+:一切都如你所愿
+:一切都如我所愿
+:我看，你又回来了
+素世:骗子
+素世:我根本就不想回来！
+:骗子
+:我明明很想回来
+setTransform:{"alpha":1,"blur":0,"rgbFilm":1} -target=me -duration=3000 -next;
+:因为正是同一天晚上，正是同一瞬间，我在同样的满月下，打破了那颗珠子
+:不可笑吗？
+changeBg: -next;
+:执着过去，又贪恋眼前
+:许下愿望，又擅自后悔
+素世:这有什么可笑的？
+素世:为了大家着想，有什么不对吗？
+素世:为了自己着想，又有什么不对吗？
+:我不知道，不要问自己这种自己都在等待答案的问题
+setTransform:{"alpha":0,"blur":0,"rgbFilm":1} -target=me -duration=5000 -next;
+:
+:规则四
+:我会一直回到月之森音乐祭的这一刻
+:即使我可能根本不想回来
+:当指针指向那晚月圆之际
+:我便会归来
+素世:是我的错吗？
+素世:是因为许了愿却没有保密，就会不灵吗？
+素世:……怎么可能，真是孩子气的想法
+素世:这种傻话，扮可爱的时候说说就得了
+:冷静下来，素世，冷静 
+:避免无意义的慌乱，尝试把握一些……可以确定的东西
+:比如，深呼吸
+:把握住那些可以确定的东西
+:分辨出那些不可改变的东西
+:着眼于那些能被改变的东西
+:正如……我很久以前所做过的那样
+素世:我的愿望是……改变过去
+:……不，并非如此 -fontSize=default;
+:我想要的东西，怎么可能只有那么简单 -fontSize=default;
+:……
+:“满脑子想的都是自己的事”吗……
+:……小祥，这你可就大错特错了
+:我怎么会是那种只为自己着想的人？
+:正相反，我满脑子想的都是大家
+:所以我才要回来找到你们
+:所以我才要回来纠正你们
+:所以我才要回来，创造大家都能幸福的世界
+:没错，这才该是我一开始的愿望
+:如果没有实现这个愿望，我就只能一直回来——
+:——不，我会一直回来
+:直到，它实现为止
+:
+:渊面渐渐归于平静，素世不再挣扎，于是素世松开双手
+changeBg:CG/C03S02_素世倒影_02.png -next -transform={"scale":{"x":1.8,"y":1.8},"alpha":0};
+:我站起身，披上那件漆黑的礼服，向渊面之下凝视着
+setTransform:{"scale":{"x":1.6,"y":1.6},"alpha":1} -target=bg-main -duration=3000 -next;
+:
+setTransform:{"scale":{"x":1,"y":1},"alpha":0} -target=bg-main -duration=5000 -next;
+:
+:正默默沉入深处的我——
+:微笑着向我回以同样的凝视 -fontSize=default;
+:
+bgm:亜麻色の髪の乙女.mp3 -volume=60;
+:人们常说，时间总会抚平一切
+:那么，手握时间的我，扼住时间喉咙的我
+:是否早就已经，被排除在了“一切”之外呢？
+changeBg:特殊意义场景/素祥初见.png -next -transform={"alpha":0};
+:不要问自己这种不可能有答案的问题
+setTransform:{"alpha":1} -target=bg-main -duration=3000 -next;
+:
+祥子:长崎同学？ 长崎素世同学？ -1_效果音/03_重要剧情音效/素祥初见_1+2.mp3 -fontSize=default -volume=40;
+祥子:我是C班的丰川祥子。问您一件小事，您对乐队有兴趣吗？ -1_效果音/03_重要剧情音效/素祥初见_3+4.mp3 -fontSize=default -volume=40;
+:又一个赝品
+:虽然对于这个世界来说，她们就是真品
+:但我不在乎
+:世界本身便是赝品，我是唯一的真品
+:我会竭尽所能，亲手将世界，变成我想要的真品 -fontSize=default;
+:所以——
+changeBg:none -next
+素世:是的，我很有兴趣！ -1_效果音/03_重要剧情音效/很有兴趣.mp3 -volume=60 -fontSize=default;
+:
+choose:NEXT:C03S03/C03S03_Scene01.txt;

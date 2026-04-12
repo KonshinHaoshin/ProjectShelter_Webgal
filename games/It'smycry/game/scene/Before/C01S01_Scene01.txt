@@ -1,0 +1,73 @@
+changeBg:特殊意义场景/飞鸟山公园.png -next;
+bgm:悲伤_02.mp3 -volume=20 -enter=2000;
+changeFigure:mygo_avemujica_v5/sakiko/341_casual-2023_rip/model.json -id=sakiko -transform={"position":{"x":200,"y":-300}} -next -motion=angry03 -expression=odoodo01;
+changeFigure:mygo_avemujica_v5/soyo/039_school_winter-2023_rip/model.json -id=soyo -transform={"position":{"x":-200,"y":100}} -next -motion=sad02 -expression=sad01;
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_winter-2023_rip/model.json -id=mutsumi -transform={"position":{"x":-1000,"y":-300}} -motion=kime01 -expression=sad01;
+祥子:……你这个人 | 满脑子都只想到自己呢 -祥/あなた、ご自分のことばかりですのね（你满脑子想着自己呢）.mp3 -volume=10 -fontSize=default -id -figureId=sakiko;
+setTextbox:on;
+changeFigure:mygo_avemujica_v5/soyo/039_school_winter-2023_rip/model.json -id=soyo -motion=sad03 -expression=sad03;
+setTransform:{"position":{"x":2000,"y":-300}} -target=sakiko -duration=1000 -next;
+:抛下这句话后，祥子转身，头也不回地离开了 -next
+changeFigure:mygo_avemujica_v5/soyo/039_school_winter-2023_rip/model.json -id=soyo -motion=odoodo01 -expression=sad03;
+:在那之后，只剩下冰冷的雨滴，一点点将依旧跪在地上的长崎素世浸湿
+changeFigure:mygo_avemujica_v5/soyo/039_school_winter-2023_rip/model.json -id=soyo -motion=idle01 -expression=sad03;
+changeFigure: -id=sakiko -next;
+睦:……素世 -睦/そよ……（素世...）.mp3 -fontSize=default -volume=10 -id -figureId=mutsumi;
+setTransform:{"position":{"x":-1200,"y":-300}} -target=mutsumi -duration=1000 -next;
+睦:……
+睦:……我回去了 -fontSize=default;
+:说完这话，睦犹豫了一会儿。但素世只是保持着那种颓丧的跪姿，并没有作出回应
+setTransform:{"position":{"x":-2000,"y":-300}} -target=mutsumi -duration=1000 -next;
+:于是最终，偌大的公园中只剩下素世一人
+changeFigure: -id=mutsumi -next;
+素世:……为什么…… -素世/なんでよ（为什么）.mp3 -volume=10 -fontSize=default;
+素世:我只是……真的很喜欢Crychic…… -fontSize=default;
+素世:真的……很喜欢小祥而已……
+setTransform:{"position":{"x":0,"y":-300}} -target=soyo -duration=1000 -next;
+:最终还是如机械般站起身来的素世，拖着脚步走向家的方向 -fontSize=default;
+素世:我……不是那种只想到自己的人
+素世:因为……因为……小祥能回来的话，小灯一定会很高兴的
+changeFigure:mygo_avemujica_v5/soyo/039_school_winter-2023_rip/model.json -id=soyo -next -motion=kandou01 -expression=sad03 -next;
+:她一边喃喃自语，一边下意识地啃起了自己拇指的指甲 -fontSize=default;
+:一步，又一步，素世终于离开了公园，来到附近的住宅区内
+changeBg:街道晚.png;
+素世:小灯，还有立希，还有——
+素世:（沉默）
+素世:——我为了大家……一直在努力……一直……
+素世:……如果，如果从一开始，我能更努力的话……
+bgm: -volume=20 -enter=2000;
+changeFigure:mygo_avemujica_v5/soyo/039_school_winter-2023_rip/model.json -id=soyo -next -motion=surprised01 -expression=sad03 -next;
+playEffect:效果音/黏稠怪异音效.mp3 -volume=10 -id=wired;
+:一种如同利齿轻轻划过皮肤的感觉，突然向素世袭来，令她不禁打了个冷战
+setTransform:{"alpha":0.3,"glitchFilm":1} -target=bg-main -duration=0 -next;
+素世:……什么？ -fontSize=default;
+bgm:怖い音楽2.mp3 -volume=10 -enter=6000;
+:这种感觉带有明确的“方向性”，因而素世抬头向那边看去
+:小巷的尽头，一堆无法辨认的杂物中，有什么东西正散发出微光——
+:——黏糊糊的、肮脏的虹色微光，仿佛是浮在漆黑水面上的汽油
+素世:……
+:换作平时，面对这种令人不安的小巷，素世一定会选择一走了之
+changeFigure:mygo_avemujica_v5/soyo/039_school_winter-2023_rip/model.json -id=soyo -motion=angry03 -expression=angry01;
+playEffect:效果音/急ぐ足音_2.mp3 -volume=10;
+setTransform:{"position":{"x":-800,"y":-800},"scale":{"x":2,"y":2},"alpha":0} -target=soyo -duration=2000 -next;
+:然而此时此地，在短暂的犹豫后，她仿佛自暴自弃似的，加快脚步向光源走去
+changeFigure: -id=soyo -transform={"alpha":0} -duration=2000;
+changeBg:CG/弹珠_1.png -next -duration=0 -transform={};
+素世:…… | 这是……弹珠？
+:一颗弹珠，静静地躺在垃圾箱后面，虹色在其内部不安涌动着，向四周投射出混乱的光影
+:素世不由地向它伸出手去
+setTransform:{"position":{"y":-300},"scale":{"x":2,"y":2},"rgbFilm":1} -target=bg-main -duration=2000;
+:在接触到弹珠的一刹那——那种光芒急剧地向内收缩，染上了素世的指尖
+:一个强烈的念头，立即在她的脑海中涌现——
+intro:很有意思的愿望 | 想让它实现的话 | 就打破我吧 -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500 -hold;
+bgm:none -volume=10 -enter=3000;
+素世:……原来如此
+:没有任何犹豫，素世狠狠将弹珠掷向地面
+playEffect: -volume=10 -id=wired;
+playEffect:效果音/碎玻璃.mp3 -volume=10;
+:弹珠发出清脆的破裂声——
+setTransform:{"position":{"y":-300},"scale":{"x":4,"y":4},"alpha":0,"rgbFilm":1} -target=bg-main -duration=500 -next;
+:——其内部的虹色喷涌而出，如海啸般立即吞没了一切
+changeBg: -next;
+setTextbox:hide;
+choose:（？？？）:Before/C01S01_Scene02.txt;

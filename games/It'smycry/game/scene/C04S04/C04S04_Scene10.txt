@@ -1,0 +1,136 @@
+changeFigure:mygo_avemujica_v5/anon/037_school_winter-2023_rip/model.json -id=anon -next -motion=surprised01 -expression=surprised01;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tmr -next -motion=idle01 -expression=smile01;
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_winter-2023_rip/model.json -id=muts -next -motion=idle01 -expression=smile01;
+changeFigure:mygo_avemujica_v5/rana/038_school_winter-2023_rip/model.json -id=rana -next -motion=idle01 -expression=idle01;
+changeFigure:mygo_avemujica_v5/umiri/339_school_winter-2023_rip/model.json -id=umiri -next -motion=surprised01 -expression=surprised01;
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=idle01 -expression=idle01;
+changeBg:普通背景/ring录音室.png -next -transform={"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2}};
+changeFigure:none.png -id=black -next;
+changeFigure:black.png -id=black -transform={"alpha":1} -next;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1 -next;
+:
+:人们常说，当你向着一件事专心努力的时候，好事都会向你自动靠过来
+:这当然有些夸张，但在大家的努力下，重启Crychic确实尤为顺利
+:灯追回了爱音，爱音与立希也和解了，在这之后，顺利预约了Live
+:接着，灯很快写出了一篇新词，令我惊讶的是，立希主动提出想要为这篇词作曲
+:这才知道，原来在此之前，立希就已经一直在自学作曲和编曲了
+立希:所以，明天我会把小样和乐谱拿过来的
+立希:希望祥子能……能指导我一下，看看有什么需要改进的地方
+祥子:指导什么的，说得太夸张啦……
+setTransform:{"position":{"x":-200,"y":-300},"scale":{"x":1,"y":1},"alpha":1} -target=anon -duration=1 -next;
+setTransform:{"position":{"x":-800,"y":0},"scale":{"x":1,"y":1},"alpha":1} -target=tmr -duration=1 -next;
+setTransform:{"position":{"x":-1800,"y":-300},"scale":{"x":1,"y":1},"alpha":1} -target=muts -duration=1 -next;
+setTransform:{"position":{"x":-2400,"y":-300},"scale":{"x":1,"y":1},"alpha":1} -target=rana -duration=1 -next;
+setTransform:{"position":{"x":1600,"y":-300},"scale":{"x":1,"y":1},"alpha":1} -target=umiri -duration=1 -next;
+setTransform:{"position":{"x":2400,"y":-500},"scale":{"x":1.2,"y":1.2},"alpha":1} -target=taki -duration=1 -next;
+海铃:啊~在说新曲的事吗？
+changeFigure:mygo_avemujica_v5/anon/037_school_winter-2023_rip/model.json -id=anon -next -motion=thinking03 -expression=angry04;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tmr -next -motion=thinking01 -expression=smile01;
+bgm:午后.mp3 -volume=60;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+:
+:又是一天的合练，大家聚在练习室内，刚刚结束了春日影的合奏
+:爱音龇牙咧嘴地继续练着吉他——那副表情，或许就是所谓的“吉他脸”吧
+:灯则正坐在爱音身旁的地上，往本子上写写画画
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_winter-2023_rip/model.json -id=muts -next -motion=odoodo01 -expression=surprised01;
+changeFigure:mygo_avemujica_v5/rana/038_school_winter-2023_rip/model.json -id=rana -next -motion=nnf_right01 -expression=smile02;
+setTransform:{"position":{"x":1300,"y":-300},"scale":{"x":1,"y":1},"alpha":1} -target=anon -duration=1000 -next;
+setTransform:{"position":{"x":700,"y":0},"scale":{"x":1,"y":1},"alpha":1} -target=tmr -duration=1000 -next;
+setTransform:{"position":{"x":-300,"y":-300},"scale":{"x":1,"y":1},"alpha":1} -target=muts -duration=1000 -next;
+setTransform:{"position":{"x":-900,"y":-300},"scale":{"x":1,"y":1},"alpha":1} -target=rana -duration=1000 -next;
+setTransform:{"position":{"x":3100,"y":-300},"scale":{"x":1,"y":1},"alpha":1} -target=umiri -duration=1000 -next;
+setTransform:{"position":{"x":3900,"y":-500},"scale":{"x":1.2,"y":1.2},"alpha":1} -target=taki -duration=1000 -next;
+:
+:名叫乐奈的那孩子好像黏上了睦，大概是因为这样，她最近几次合练都会过来一起
+:以至于，我也有点搞不清楚，乐奈究竟是不是已经算作Crychic的一员了
+bgm:none -volume=60 -enter=2000;
+changeFigure:mygo_avemujica_v5/umiri/339_school_winter-2023_rip/model.json -id=umiri -next -motion=nnf_right01 -expression=idle01;
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=nf_left01 -expression=idle01;
+setTransform:{"position":{"x":-1900,"y":-300},"scale":{"x":1,"y":1},"alpha":1} -target=anon -duration=1000 -next;
+setTransform:{"position":{"x":-2500,"y":0},"scale":{"x":1,"y":1},"alpha":1} -target=tmr -duration=1000 -next;
+setTransform:{"position":{"x":-3500,"y":-300},"scale":{"x":1,"y":1},"alpha":1} -target=muts -duration=1000 -next;
+setTransform:{"position":{"x":-4100,"y":-300},"scale":{"x":1,"y":1},"alpha":1} -target=rana -duration=1000 -next;
+setTransform:{"position":{"x":-200,"y":-300},"scale":{"x":1,"y":1},"alpha":1} -target=umiri -duration=1000 -next;
+setTransform:{"position":{"x":600,"y":-500},"scale":{"x":1.2,"y":1.2},"alpha":1} -target=taki -duration=1000 -next;
+:总之——我和立希正商量着新曲的事，海铃一晃身凑了过来
+bgm:11. クールな奇人.mp3 -volume=60;
+立希:嗯哼
+海铃:看起来，乐队活动很顺利呢，可喜可贺
+祥子:海铃的支援帮大忙了，谢谢你呀
+changeFigure:mygo_avemujica_v5/umiri/339_school_winter-2023_rip/model.json -id=umiri -next -motion=nnf01 -expression=idle01;
+海铃:没什么，小事一桩 -fontSize=default;
+playEffect:1_效果音/01_常用效果音/衣擦れ1.mp3 -volume=80;
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=nf_right01 -expression=idle01;
+setTransform:{"position":{"x":600,"y":-200},"scale":{"x":1.2,"y":1.2},"alpha":1} -target=taki -duration=1000 -next;
+立希:啊，说起来——
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=nf_left01 -expression=smile01;
+changeFigure:mygo_avemujica_v5/umiri/339_school_winter-2023_rip/model.json -id=umiri -next -motion=nnf_right01 -expression=idle01;
+setTransform:{"position":{"x":600,"y":-500},"scale":{"x":1.2,"y":1.2},"alpha":1} -target=taki -duration=500 -next;
+setTransform:{"position":{"x":-300,"y":-300},"scale":{"x":1,"y":1},"alpha":1} -target=umiri -duration=500 -next;
+立希:嘿——咻
+:立希俯下身，从挎包中掏出一盒饮料，向海铃抛去，后者单手将其稳稳接住
+setTransform:{"position":{"x":-200,"y":-300},"scale":{"x":1,"y":1},"alpha":1} -target=umiri -duration=1000 -next;
+立希:谢礼
+海铃:哦~巧克力味的吗
+立希:蜜柑味卖完了
+海铃:真亏你还记得呢，多谢了
+:她立即拆出吸管，插入盒身内喝起来
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=nf_left01 -expression=idle01;
+立希:听别人说，你推掉了好几个其他乐队的支援联络呢
+海铃:没关系，这边的活动也比较稳定，我挺喜欢的
+海铃:有些乐队，过去之后也尽是在吵架呢
+祥子:诶——会有那么多吵架的乐队吗
+海铃:这个嘛……不吵架的乐队反而更少见，之前说过吧，我跑过30多个乐队——
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=nf_left01 -expression=sigh02;
+立希:——但还在活动的只剩下10个左右了，好好，我已经背熟了
+海铃:真亏你还记得呢
+changeFigure:mygo_avemujica_v5/umiri/339_school_winter-2023_rip/model.json -id=umiri -next -motion=nnf03 -expression=idle01;
+海铃:所以，或许我有些多嘴——
+:海铃顿了顿，她转头面向我
+海铃:但……你们原本的贝斯手呢？她还没能来吗？
+祥子:……嗯
+祥子:……有些……状况呢
+海铃:这样吗
+:她一口喝空了饮料，变扁的盒身中因此发出唆唆声
+海铃:只要提前打招呼，我就可以来
+海铃:换言之，如果没打招呼，也有很多乐队等我救火
+海铃:所以，如果原本的贝斯手来了，不用顾忌我这边
+祥子:嗯，真的很感谢你
+changeFigure:mygo_avemujica_v5/umiri/339_school_winter-2023_rip/model.json -id=umiri -next -motion=bye01 -expression=idle01;
+海铃:没什么——那，今天我就到这里了，再会
+changeFigure:mygo_avemujica_v5/umiri/339_school_winter-2023_rip/model.json -id=umiri -next -motion=nnf_left01 -expression=idle01;
+setTransform:{"position":{"x":-2000,"y":-300},"scale":{"x":1,"y":1},"alpha":1} -target=umiri -duration=2000 -next;
+:她叼起空饮料盒，走回到自己的贝斯箱那边，收拾乐器去了
+bgm:none -volume=60 -enter=2000;
+立希:所以——
+setTransform:{"position":{"x":200,"y":-700},"scale":{"x":1.4,"y":1.4},"alpha":1} -target=taki -duration=1000 -next;
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=nnf03 -expression=sigh02;
+:立希瞥了一眼灯，向我凑近，压低了声音
+立希:素世那边，怎么样了？
+祥子:……嗯，老实说，我之前一直没怎么下定决心……
+:我深吸一口气
+:经过那晚和立希的对谈后，愈发觉得……我想要素世回来
+:想要让她也看看现在的Crychic，看看……现在的我
+:想要一起……回到过去那种幸福中去
+:所以——
+祥子:不过现在，我已经决定了，明天我会直接去月之森一趟，找素世面对面聊聊
+祥子:我想……把素世带回来
+立希:呃，不要紧吗，居然要做到这个份上……
+祥子:嗯……毕竟，已经试着让睦联系过好几次了，但都没有回应……
+祥子:睦好像也不太愿意的样子，我不想一直把睦当作传声筒
+立希:我陪你一起吧？
+祥子:嗯嗯……不用了
+祥子:毕竟，乐队合练这边，更需要立希在场呢
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=sigh02 -expression=sigh02;
+立希:……这样……吗
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=serious01 -expression=serious01;
+立希:总之……加油
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+:
+:合练结束了，我与大家告别，走出RiNG的大门
+:熙熙攘攘的街道，与往日并没有什么不同
+:我深吸一口气，望向被城市灯火浸染的夜空，试着压下心头的丝丝不安
+changeFigure: -id=taki -next;
+:只希望——明天能一切顺利
+:
+changeScene:C04S04/C04S04_Scene11.txt

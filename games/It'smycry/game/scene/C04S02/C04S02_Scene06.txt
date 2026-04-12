@@ -1,0 +1,160 @@
+changeBg:普通背景/咖啡馆.png -next -transform={"position":{"x":-200}, "scale":{"x":1.2,"y":1.2}};
+changeFigure:mygo_avemujica_v5/sakiko/341_school_winter-2023_rip/model.json -id=saki -transform={"position":{"x":1200,"y":-100},"scale":{"x":1,"y":1},"alpha":0} -next -motion=sigh01 -expression=sad01;
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_winter-2023_rip/model.json -id=muts -transform={"position":{"x":1800,"y":-100},"scale":{"x":1,"y":1},"alpha":0} -next -motion=nnf_left01 -expression=idle01;
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -transform={"position":{"x":-200,"y":-100},"scale":{"x":1.2,"y":1.2},"alpha":0} -next -motion=thinking01 -expression=thinking01;
+changeFigure:none -id=black -transform={"alpha":1} -next;
+changeFigure:black.png -id=black -transform={"alpha":1} -next;
+: -fontSize=default;
+立希:……这样吗……
+; see saki
+setTransform:{"position":{"x":0,"y":-100},"scale":{"x":1,"y":1},"alpha":1} -target=saki -duration=1 -next;
+setTransform:{"position":{"x":600,"y":-100}, "scale":{"x":1,"y":1}, "alpha":1} -target=muts -duration=1 -next;
+setTransform:{"position":{"x":-1200,"y":-200},"scale":{"x":1.2,"y":1.2},"alpha":1} -target=taki -duration=1 -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=1000 -next;
+祥子:原来如此，确实算得上是好消息呢……
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1 -next;
+:
+:听我说完下午发生的事，立希看起来若有所思，祥子则显得像是终于松了一口气
+:当然，我还是隐瞒了最后那个部分
+:也就是……素世成功从我身上套到话，从而得知祥子也参与此事的那个部分
+:……因为，实在是太丢脸了嘛！
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_winter-2023_rip/model.json -id=muts -next -motion=nnf_left01 -expression=smile01;
+睦:太好了
+睦:素世的妈妈……没有死
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=nf_right01 -expression=smile03;
+changeFigure:mygo_avemujica_v5/sakiko/341_school_winter-2023_rip/model.json -id=saki -next -motion=thinking01 -expression=cry01;
+祥子:……而且，债务正在慢慢还清应该也是真的
+祥子:给六本木的富人做管家，报酬应该不少吧
+:没错没错
+:既然大家最担心的两种可能都被证伪了，就算我暴露了，也没什么大不了的嘛——我如此自我安慰道
+bgm:完蛋.mp3 -volume=60;
+changeFigure:mygo_avemujica_v5/sakiko/341_school_winter-2023_rip/model.json -id=saki -next -motion=nf04 -expression=cry01;
+祥子:太好了……
+changeFigure:mygo_avemujica_v5/sakiko/341_school_winter-2023_rip/model.json -id=saki -next -motion=cry01 -expression=cry02;
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_winter-2023_rip/model.json -id=muts -next -motion=nnf_left01 -expression=idle01;
+祥子:如果我……我的……
+changeFigure:mygo_avemujica_v5/sakiko/341_school_winter-2023_rip/model.json -id=saki -next -motion=cry03 -expression=cry03;
+祥子:但……素世没事……真的是太好了……
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_winter-2023_rip/model.json -id=muts -next -motion=nnf_left01 -expression=sad01;
+playEffect:1_效果音/01_常用效果音/衣擦れ1.mp3 -volume=40;
+setTransform:{"position":{"x":500,"y":-100}, "scale":{"x":1,"y":1}, "alpha":1} -target=muts -duration=1000 -next;
+睦:祥……
+:祥子似乎有些情绪失控，她哽咽起来
+:一旁的睦递上手帕，抚着她的背
+:我显然无法理解祥子此刻的心情——但，由衷地感到高兴
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=nf04 -expression=smile03;
+; see taki
+setTransform:{"position":{"x":1000,"y":-100},"scale":{"x":1,"y":1},"alpha":1} -target=saki -duration=1000 -next;
+setTransform:{"position":{"x":1600,"y":-100}, "scale":{"x":1,"y":1}, "alpha":1,"blur":0} -target=muts -duration=1000 -next;
+setTransform:{"position":{"x":-200,"y":-200},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=taki -duration=1000 -next;
+setTransform:{"position":{"x":200,"y":0},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=1000 -next;
+:望向立希，她大概也是如此
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=nf_right01 -expression=smile03;
+; see saki
+setTransform:{"position":{"x":0,"y":-100},"scale":{"x":1,"y":1},"alpha":1} -target=saki -duration=2000 -next;
+setTransform:{"position":{"x":600,"y":-100}, "scale":{"x":1,"y":1}, "alpha":1} -target=muts -duration=2000 -next;
+setTransform:{"position":{"x":-1200,"y":-200},"scale":{"x":1.2,"y":1.2},"alpha":1} -target=taki -duration=2000 -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=1000 -next;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+bgm:none -volume=60 -enter=2000;
+:于是，我们安静地等着祥子，等着她将该流的泪全部流光，将该发泄的心情全部发泄出来
+立希:……总之
+changeFigure:mygo_avemujica_v5/sakiko/341_school_winter-2023_rip/model.json -id=saki -next -motion=nf_left01 -expression=smile03;
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_winter-2023_rip/model.json -id=muts -next -motion=nnf_left01 -expression=smile01;
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=nf_right01 -expression=smile01;
+立希:刚刚大家也已经对过情报了
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+:
+:等到祥子平静下来，立希开口道
+立希:素世曾经姓一之濑，小学的时候父母离婚了
+changeFigure:mygo_avemujica_v5/sakiko/341_school_winter-2023_rip/model.json -id=saki -next -motion=idle01 -expression=thinking01;
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_winter-2023_rip/model.json -id=muts -next -motion=idle01 -expression=idle01;
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=idle01 -expression=idle01;
+爱音:没错，根据我这边同学的说法，小学时的素世似乎不太起眼，难听点说可能……很好欺负的样子？
+changeFigure:mygo_avemujica_v5/sakiko/341_school_winter-2023_rip/model.json -id=saki -next -motion=nf_left01 -expression=idle01;
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_winter-2023_rip/model.json -id=muts -next -motion=nnf_left01 -expression=idle01;
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=nf_right01 -expression=idle01;
+立希:而根据睦那边的说法，升上月之森初中部时，素世就已经姓长崎了
+changeFigure:mygo_avemujica_v5/sakiko/341_school_winter-2023_rip/model.json -id=saki -next -motion=nf_right01 -expression=idle01;
+睦:大家都说，素世……很温柔
+睦:而且，很完美
+changeFigure:mygo_avemujica_v5/sakiko/341_school_winter-2023_rip/model.json -id=saki -next -motion=thinking01 -expression=idle01;
+祥子:嗯……
+祥子:和现在大家熟知的素世差不多，但也不完全相像
+祥子:不如说，大家熟知的素世似乎更完美一些，但又更……孤僻一些？
+立希:我的看法也差不多……
+changeFigure:mygo_avemujica_v5/sakiko/341_school_winter-2023_rip/model.json -id=saki -next -motion=nf_left01 -expression=idle01;
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=nnf_right01 -expression=sigh02;
+立希:再然后，就是爱音下午那个歪打正着的见面了
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=nnf_right01 -expression=idle01;
+立希:按照爱音描述的状态来看，之前很多比较离谱的假说，大概也可以推翻了吧？
+爱音:应该是的，素世和妈妈在一起的时候，看起来还挺放松的
+立希:所以，说不定素世她，就真的只是最近太累了而已？
+爱音:嗯……或许就是这样
+changeFigure:mygo_avemujica_v5/sakiko/341_school_winter-2023_rip/model.json -id=saki -next -motion=thinking01 -expression=thinking01;
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_winter-2023_rip/model.json -id=muts -next -motion=thinking01 -expression=idle01;
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=thinking01 -expression=thinking01;
+; see saki head down
+setTransform:{"position":{"x":0,"y":-200},"scale":{"x":1,"y":1},"alpha":1} -target=saki -duration=1000 -next;
+setTransform:{"position":{"x":600,"y":-200}, "scale":{"x":1,"y":1}, "alpha":1} -target=muts -duration=1000 -next;
+setTransform:{"position":{"x":-1200,"y":-300},"scale":{"x":1.2,"y":1.2},"alpha":1} -target=taki -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":-100},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=1000 -next;
+setTransform:{"alpha":0.4,"blur":0} -target=black -duration=1000 -next;
+:短暂的沉默
+:大概是，所有人都松了一口气的缘故
+:不过，我们临时组成的这个小团体因此也一下失去了目标
+:怎么说呢
+:总觉得有种……意犹未尽的感觉……
+爱音:说起来……
+changeFigure:mygo_avemujica_v5/sakiko/341_school_winter-2023_rip/model.json -id=saki -next -motion=idle01 -expression=thinking01;
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_winter-2023_rip/model.json -id=muts -next -motion=idle01 -expression=idle01;
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=idle01 -expression=idle01;
+; see saki
+setTransform:{"position":{"x":0,"y":-100},"scale":{"x":1,"y":1},"alpha":1} -target=saki -duration=1000 -next;
+setTransform:{"position":{"x":600,"y":-100}, "scale":{"x":1,"y":1}, "alpha":1} -target=muts -duration=1000 -next;
+setTransform:{"position":{"x":-1200,"y":-200},"scale":{"x":1.2,"y":1.2},"alpha":1} -target=taki -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=1000 -next;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+:
+爱音:会不会我们一开始，就有点搞错方向了？
+立希:嗯？怎么说？
+爱音:因为回想起来，我们提出的那些可能即便成真，也尽都是些我们无力插手的事情呢
+爱音:但把我们聚在一起的，我们最开始的目的——
+爱音:不就是因为我们都受到过素世的照顾，从而想要为素世做些什么吗？
+changeFigure:mygo_avemujica_v5/sakiko/341_school_winter-2023_rip/model.json -id=saki -next -motion=nnf_left01 -expression=thinking01;
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_winter-2023_rip/model.json -id=muts -next -motion=nnf_left01 -expression=idle01;
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=surprised01 -expression=idle01;
+立希:对哦，换句话说，重点是——
+爱音:重点是，我们应该怎么去回报素世！
+changeFigure:mygo_avemujica_v5/sakiko/341_school_winter-2023_rip/model.json -id=saki -next -motion=surprised01 -expression=surprised01;
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_winter-2023_rip/model.json -id=muts -next -motion=nnf_left01 -expression=surprised01;
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=nnf_right01 -expression=surprised01;
+bgm:希望.mp3 -volume=60;
+祥子:……确实是呢！
+祥子:与其去纠结那些我们无力改变的事情，不如去做一些我们力所能及的事……
+changeFigure:mygo_avemujica_v5/sakiko/341_school_winter-2023_rip/model.json -id=saki -next -motion=smile04 -expression=smile01;
+祥子:对了！大家知道吗，素世的生日，恰好就在Live那周哦
+爱音:诶！是这样吗？
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_winter-2023_rip/model.json -id=muts -next -motion=nnf_left01 -expression=smile01;
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=nnf_right01 -expression=smile01;
+立希:……原来如此！祥子的意思是，一起为素世—— -fontSize=default;
+changeFigure:mygo_avemujica_v5/sakiko/341_school_winter-2023_rip/model.json -id=saki -next -motion=smile04 -expression=smile01;
+祥子:——是的！
+changeFigure:mygo_avemujica_v5/sakiko/341_school_winter-2023_rip/model.json -id=saki -next -motion=nnf_left01 -expression=smile01;
+祥子:并且，可以不是在素世生日那天
+changeFigure:mygo_avemujica_v5/sakiko/341_school_winter-2023_rip/model.json -id=saki -next -motion=nnf_right01 -expression=smile01;
+祥子:而是，叫上灯和乐奈，大家一起——
+changeFigure:mygo_avemujica_v5/sakiko/341_school_winter-2023_rip/model.json -id=saki -next -motion=smile03 -expression=smile01;
+setTransform:{"position":{"x":0,"y":-300},"scale":{"x":1,"y":1},"alpha":1} -target=saki -duration=1000 -next;
+setTransform:{"position":{"x":600,"y":0}, "scale":{"x":1,"y":1}, "alpha":1} -target=muts -duration=1000 -next;
+setTransform:{"position":{"x":-1200,"y":-100},"scale":{"x":1.2,"y":1.2},"alpha":1} -target=taki -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":100},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=1000 -next;
+:祥子站起身来，环视着我们
+:从她身上已经看不到之前的那种脆弱，取而代之的是——我们熟悉的祥子
+:成竹在胸、充满干劲的祥子
+changeFigure:mygo_avemujica_v5/sakiko/341_school_winter-2023_rip/model.json -id=saki -next -motion=smile03 -expression=smile02;
+祥子:——在Live那天，为素世准备一场最棒的生日惊喜吧！
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+bgm:none -volume=60 -enter=2000;
+:
+choose:NEXT:C04S03/C04S03_Scene01.txt;

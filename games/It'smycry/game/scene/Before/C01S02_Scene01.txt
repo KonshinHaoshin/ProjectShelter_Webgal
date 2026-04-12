@@ -1,0 +1,91 @@
+playEffect:效果音/月之森礼堂欢呼_加长.mp3 -volume=10;
+setTextbox:hide;
+:又一次传入耳中的掌声与欢呼——
+setTextbox:on;
+:——以及，双手传来的，琴弦琴弓的触感
+素世:……诶？ -素世/え？（诶？-更惊讶）.mp3 -volume=10 -fontSize=default;
+素世:……发生了什么？ -fontSize=default;
+:犹豫再三，还是睁开了眼
+changeBg:月之森礼堂.png;
+:月之森礼堂展现在面前 
+bgm:重悬疑.mp3 -volume=10 -enter=2000;
+setTransform:{"scale":{"x":1.2,"y":1.2},"alpha":0.8,"rgbFilm":1} -target=bg-main -duration=1000 -next;
+素世:……哈……哈……
+:呼吸急促起来
+素世:（我明明……明明刚才还在和小祥说话）
+素世:（为什么，突然之间……）
+素世:（我……还在梦里吗？）
+:于是，狠狠地掐向左手的虎口
+setAnimation: -target=bg-main -next;
+素世:好痛！
+setTransform:{"scale":{"x":1,"y":1}, "rgbFilm":0} -target=bg-main -duration=500 -next;
+素世:没有醒来……不是梦吗？
+:不，如果是梦大概会更轻松一些。完全搞不清现在的状况，甚至让人怀疑自己是不是疯了
+:……
+bgm:思考.mp3 -volume=10 -enter=2000;
+同学A:素世同学？
+同学A:已经结束了，大家都在收拾了哟——
+同学A:——诶？脸色好差！素世同学还好吗？
+素世:……啊，没事没事~ -fontSize=default;
+素世:演出结束有一点点激动，大概是牵扯到胃了吧，稍微有点不舒服而已~ -fontSize=default;
+素世:不用顾虑我——你看，B子在叫你了哦？
+同学A:啊！等等我——那，回头见，素世同学！ -效果音/急促脚步跑远_木地板.mp3 -volume=10 -fontSize=default;
+素世:嗯，回头见
+:……没关系的，没什么大不了的 -fontSize=default;
+:不是梦，我也没疯，这仅仅只是现实——又一次回到了过去的现实
+:冷静下来，素世，冷静 -fontSize=default;
+:避免无意义的慌乱，尝试把握一些……可以确定的东西 -fontSize=default;
+:比如，深呼吸
+setTransform:{"position":{"y":150},"alpha":1} -target=bg-main -duration=500;
+setTransform:{"position":{"y":0},"alpha":1} -target=bg-main -duration=500;
+:拿起谱架
+changeBg: -next;
+:走向门口
+:然后，因为这次耽搁了一点时间—— -fontSize=default;
+bgm: -volume=10 -enter=2000;
+changeBg:月之森礼堂后台走廊.png;
+祥子:长崎同学？ 长崎素世同学？ -祥/素祥初见_1+2.mp3 -volume=10 -fontSize=default;
+changeFigure:mygo_avemujica_v5/sakiko/341_jh_school_winter-2023_rip/model.json -id=sakiko -transform={"position":{"y":-300}} -motion=idle01 -expression=smile01;
+祥子:我是C班的丰川祥子。问您一件小事，您对乐队有兴趣吗？ -祥/素祥初见_3+4.mp3 -volume=10 -fontSize=default;
+:——所以果然，祥子已经在后台出口等着我了 -fontSize=default;
+素世:嗯，我有兴趣哦！ -fontSize=default;
+setTransform:{"position":{"y":-200},"alpha":0.3} -target=bg-main -duration=500 -next;低头抬头通用卡
+setTransform:{"position":{"y":-500},"blur":10} -target=sakiko -duration=500 -next;
+:是的，把握住可以确定的东西
+:就可以更明白——哪些，才是应该改变的东西
+:以及哪些，又是不能被改变的东西——
+setTransform:{"alpha":1} -target=bg-main -duration=500 -next;低头抬头通用卡
+setTransform:{"position":{"y":-300}} -target=sakiko -duration=500 -next;低头抬头通用卡
+素世:丰川同学
+bgm:思考する眼球.mp3 -volume=10 -enter=1000;
+祥子:嗯？什么事，长崎同学
+素世:丰川同学，可以做我的朋友吗？
+changeFigure:mygo_avemujica_v5/sakiko/341_jh_school_winter-2023_rip/model.json -id=sakiko -transform={"position":{"y":-300}} -motion=surprised01 -expression=surprised01;
+祥子:……诶？
+祥子:这个……可以……的吧？ -fontSize=default;
+祥子:只是感觉，是不是有一点……
+素世:如果乐队遇到危机了，丰川同学会怎么做？
+changeFigure:mygo_avemujica_v5/sakiko/341_jh_school_winter-2023_rip/model.json -id=sakiko -transform={"position":{"y":-300}} -motion=surprised02 -expression=surprised01;
+祥子:呃？
+祥子:那个，我……我会……努力去面对？
+changeFigure:mygo_avemujica_v5/sakiko/341_jh_school_winter-2023_rip/model.json -id=sakiko -transform={"position":{"y":-300}} -motion=serious02 -expression=surprised01;
+祥子:长崎同学，为什么——
+素世:我是从未来回来的
+bgm: -volume=10 -enter=2000;
+changeFigure:mygo_avemujica_v5/sakiko/341_jh_school_winter-2023_rip/model.json -id=sakiko -transform={"position":{"y":-300}} -motion=surprised02 -expression=surprised02;
+祥子:？？？
+setTextbox:hide;
+playEffect:效果音/画面崩坏并消失音效.mp3 -volume=10;
+setTransform:{"scale":{"x":2,"y":2},"alpha":0,"reflectionFilm":1,"glitchFilm":1,"rgbFilm":1} -target=bg-main -duration=4000 -next;
+setTransform:{"position":{"x":800,"y":200},"scale":{"x":0.4,"y":0.4},"alpha":0,"reflectionFilm":1,"glitchFilm":1,"rgbFilm":1} -target=sakiko -duration=4000 -next;
+:………… -fontSize=default;
+changeBg: -next;
+changeFigure: -id=sakiko;
+playEffect:效果音/月之森礼堂欢呼_加长.mp3 -volume=10;
+:掌声与欢呼
+setTextbox:on;
+:琴弓与琴弦
+素世:……很好
+素世:这些就是，我想要确定的东西
+setTextbox:hide;
+choose:素世宅:c02_s02.txt;

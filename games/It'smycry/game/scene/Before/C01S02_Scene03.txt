@@ -1,0 +1,89 @@
+bgm:ビニール傘に雨が当たる音.mp3 -volume=20 -enter=2000;
+:雨打在玻璃上的声音零零落落。本应是令人舒缓的白噪声，现在却令人烦躁
+changeBg:特殊意义场景/Crychic练习室-素主视角_01.png;
+setTextbox:on;
+playEffect:效果音/玄関のドアが閉まる音.mp3 -volume=30;
+:很快，“咔哒——”的开门声从身后传来
+灯:……小祥！
+changeBg:特殊意义场景/Crychic练习室-素主视角_02.png -transform={"scale":{"x":1.2,"y":1.2}};
+祥子:……|我今天是来讲一件事的 -fontSize=default;
+bgm: -volume=20 -enter=2000;
+祥子:我……要退出Crychic……
+素世:……（叹气） -素世/…………はぁ（叹气）.mp3 -volume=10 -fontSize=default;
+素世:（又来了……）
+bgm:推理.mp3 -volume=20 -enter=2000;
+:如果是以往，最先迎上去的当然是我
+setTransform:{"position":{"y":300},"scale":{"x":1,"y":1},"alpha":0.6,"blur":5} -target=bg-main -duration=2000;抬头兼用卡-1
+:但这次，我只是把身体的重量全部放到背后，感受着玻璃窗上传来的冰凉触感 -fontSize=default;
+立希:退出？ -fontSize=default;
+祥子:嗯，对不起，是我自己的问题 -fontSize=default;
+立希:我们每天等你，等了这么多天…… -fontSize=default;
+立希:……灯等了这么多天，你上来第一句话，就是说这个？ -fontSize=default;
+祥子:……就算我不在你们也能练习吧 -fontSize=default;
+立希:哈？ -立希/は？（单哈, 不爽）.mp3 -volume=30 -fontSize=large;
+祥子:想练习的话自己练习不就好了，没有规定一定要全员到齐才能练习吧？ -fontSize=default;
+祥子:请不要随便就怪到别人身上
+灯:可是，要是小祥退出的话……
+祥子:不要撒娇了，尤其是你，灯。你才最需要多加练习，但到刚刚为止你都在干嘛？
+立希:灯就是在等你啊！
+playEffect:效果音/急促脚步跑远_木地板.mp3 -volume=10;
+changeBg:特殊意义场景/Crychic练习室-素主视角_03_没希.png -transform={"position":{"y":300},"scale":{"x":1,"y":1},"alpha":0.6,"blur":5};
+:立希从鼓椅上弹起来，一把揪住祥子的肩膀。没有人隔在中间，直面对方的两人更显得剑拔弩张 -fontSize=default;
+: 但是……没有所谓了 |这次……就作为一个旁观者。因为在这之前 -fontSize=default;
+setTransform:{"position":{"y":500},"scale":{"x":1,"y":1},"alpha":0.3,"blur":10} -target=bg-main -duration=2000;抬头兼用卡-2出神无视现状
+:已经……试过很多次了
+:说什么：“灯等了这么多天”
+:我可是——等了四倍以上的时间，和祥子做了四次的“朋友”
+:但每一次，每一次……
+祥子:请你放开我！ -fontSize=small;
+立希:好啊！但你要先向灯道歉，为你不负责任的言行道歉！ -fontSize=small;
+祥子:所以我说了，不要随便就怪到别人身上！ -fontSize=small;
+灯:立希！ -fontSize=medium;
+setTransform:{"position":{"y":300},"scale":{"x":1,"y":1},"alpha":0.6,"blur":5} -target=bg-main -duration=2000;抬头兼用卡-1
+changeFigure:mygo_avemujica_v5/taki/040_school_winter-2023_rip/model.json -id=taki -transform={"position":{"x":100,"y":0},"scale":{"x":0.6,"y":0.6}} -motion=angry03 -expression=angry03;
+立希:……
+changeFigure:mygo_avemujica_v5/taki/040_school_winter-2023_rip/model.json -id=taki -transform={"position":{"x":100,"y":0},"scale":{"x":0.6,"y":0.6}} -motion=nf_left01 -expression=sad02;
+:从这边看不清灯的表情，但立希脸上那种动摇的神色说明了一切
+:她回过头去，祥子在此时抓住其手腕，一把甩开
+changeFigure:mygo_avemujica_v5/taki/040_school_winter-2023_rip/model.json -id=taki -transform={"position":{"x":100,"y":0},"scale":{"x":0.6,"y":0.6}} -motion=nf01 -expression=sad03;
+:立希欲言又止
+setTransform:{"position":{"x":300,"y":200},"scale":{"x":0.6,"y":0.6}} -target=taki -duration=2000;
+:最后她还是什么都没说，只是来到灯面前，俯身擦拭她的面庞 -fontSize=default;
+changeFigure:mygo_avemujica_v5/taki/040_school_winter-2023_rip/model.json -id=taki -next -motion=angry04 -expression=angry04;
+setTransform:{"position":{"x":0,"y":-200},"scale":{"x":0.9,"y":0.9}} -target=taki -duration=2000;
+:然后，立希瞪向我
+立希:……素世，你又在搞什么？你不是最喜欢扮妈妈吗，怎么现在一副置身事外的样子？
+立希:……
+立希:你耳朵听不见了吗？给我说句话呀？
+setTransform:{"position":{"y":-200},"alpha":0.3} -target=bg-main -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":-500},"scale":{"x":0.9,"y":0.9},"blur":10} -target=taki -duration=1000 -next;
+素世:呼……
+素世:（小声）……能有什么区别？
+立希:什么？你大声点行吗？
+setTransform:{"position":{"x":-100},"alpha":1} -target=bg-main -duration=2000 -next;
+setTransform:{"position":{"x":-100,"y":-100},"scale":{"x":0.9,"y":0.9},"blur":0} -target=taki -duration=2000;
+changeFigure:mygo_avemujica_v5/taki/040_school_winter-2023_rip/model.json -id=taki -next -motion=nnf_right01 -expression=angry04;
+素世:（提高音量）我说，不如问问，睦是怎么想的吧。 -fontSize=default;
+:行了，快点结束吧——
+:——结束这出闹剧——
+睦:我……
+睦:……从来都没觉得，玩乐队开心过
+changeFigure: -id=taki -next;
+setTransform:{"position":{"y":500},"scale":{"x":1,"y":1},"alpha":0.3,"blur":10} -target=bg-main -duration=2000 -next;
+素世:（——很好）
+playEffect:效果音/ビニール傘に雨が当たる音.mp3 -volume=20;
+:雨声渐渐变得又亮又密——也不知是因为雨变大了，还是因为室内变得更安静了
+:眯起双眼，举起右手—— -fontSize=default;
+bgm: -volume=20 -enter=2000;
+playEffect:效果音/FINGER_SNAP.mp3;
+:清晰的响指声孤独地回荡在这个狭小的空间内——它很快就将会变得无处可去 -fontSize=default;
+:毕竟，这片空间在我离开之后是否还存在—— -fontSize=default;
+setTextbox:hide;
+playEffect:效果音/画面崩坏并消失音效.mp3 -volume=10;
+setTransform:{"scale":{"x":2,"y":2},"alpha":0,"reflectionFilm":1,"glitchFilm":1,"rgbFilm":1} -target=bg-main -duration=2000;
+:——首先就是个问题 -fontSize=default;
+setTextbox:on;
+changeBg:;
+ -fontSize=default;
+setTextbox:hide;
+choose:飞鸟山公园:c02_s04.txt;

@@ -1,0 +1,1 @@
+choose:C01S01:C01S01_Index.txt|C01S02:C01S02_Index.txt|C01S03:C01S03_Index.txt;

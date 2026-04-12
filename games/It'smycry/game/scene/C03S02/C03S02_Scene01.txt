@@ -1,0 +1,96 @@
+:
+changeFigure:MyExtra/SoyoMama_FromLayer/model.json -id=mama -transform={"position":{"x":-1000,"y":-300},"alpha":0} -motion=idle01 -expression=idle01;
+playEffect:1_效果音/02_环境音/シーンと静まり返る教室.mp3 -volume=20 -id=env;
+changeBg:普通背景/月教室.png -transform={"scale":{"x":1.1,"y":1.1}};
+同班同学:——打扫得也差不多了，素世同学就先回去吧，剩下的交给我们就好啦
+同班同学:明天见咯~
+素世:……嗯，明天见
+:手里的扫把和簸箕几乎是被同学抢走了
+:没有办法，我只好收拾好东西，从教室离开
+playEffect:1_效果音/01_常用效果音/普通走路过场.mp3 -volume=40;
+changeBg:月之森内.png -next -transform={"scale":{"x":1.1,"y":1.1}};
+:
+同校女生A:……诶？那边那位就是？…… -fontSize=small;
+同校女生B:对呀，前不久在音乐祭结束的时候，她突然就大叫着“さきちゃん”，从舞台上跑下来……
+同校女生B:……好像说昏倒之前还吐得很厉害。我有认识的朋友在她班上，据说她之后状态很奇怪，休学了半个月才……
+同校女生A:诶，好可怜——那个，她好像在往这边看诶，先不要说这个吧……
+:诸如此类的背后议论、甚至是一些比较奇怪的流言，我已经听到过好几次了 -fontSize=medium;
+:没有理会这些，我信步走出校门 -fontSize=default;
+playEffect:1_效果音/01_常用效果音/普通走路过场.mp3 -volume=40;
+playEffect:1_效果音/02_环境音/駅前広場.mp3 -volume=40 -id=env;
+changeBg:普通背景/月之森校门.png -next;
+:
+:妈妈正靠在车上向校门张望，我刚和她对上视线，她便小跑着过来牵住我的手
+changeFigure:MyExtra/SoyoMama_FromLayer/model.json -id=mama -next -motion=smile03 -expression=smile02;
+setTransform:{"position":{"x":0,"y":-300}} -target=mama -duration=1000 -next;
+妈妈:素世~辛苦了~
+素世:嗯，妈妈，你也辛苦了
+素世:我真的已经没事啦，也不用每次都……
+changeFigure:MyExtra/SoyoMama_FromLayer/model.json -id=mama -next -motion=serious01 -expression=smile01;
+妈妈:不行哦，这段时间妈妈都会来接你的
+changeFigure:MyExtra/SoyoMama_FromLayer/model.json -id=mama -next -motion=smile03 -expression=smile02;
+妈妈:先不说这些。妈妈刚学了一个新的菜谱，等下我们就先顺路去一趟超市——
+setTransform:{"position":{"x":0,"y":-300}, "alpha":0} -target=mama -duration=300 -next;
+changeBg:none -next;
+:;车门声
+playEffect:1_效果音/01_常用效果音/車のドアを閉める.mp3 -volume=40;
+playEffect:none -volume=40 -id=env;
+bgm:午後の陽だまり.mp3 -volume=40;
+:关上车门，耳中便只剩下轻柔的车载音乐
+playEffect:1_效果音/02_环境音/車の中1.mp3 -volume=80 -id=env;
+changeBg:CG/C03S02_素世看窗外.png;
+:树木、行人、建筑——外界的一切隔着车窗玻璃，从我面前静静流过
+:从那以后，已经过了快一个月
+:先是在家好好休息了整整一星期
+:恢复上学后，上学日的每一天早晨，妈妈都会把我送到校门口，和守在那里的老师们打过招呼，亲眼看着我走进学校后才会离开
+:放学时也一定等在门口，亲自把我接回家里。等到周末，就更是寸步不离
+妈妈:说起来，周末要再试试做曲奇吗？
+妈妈:这次，妈妈已经精心准备过，不会再烤焦了哦
+changeBg:CG/C03S02_素世看窗外_笑.png -next;
+素世:哇，真期待呢~
+素世:说起来，妈妈的工作那边……不要紧吗？
+妈妈:又说这种傻话了
+妈妈:妈妈已经是大人了，这种事情当然会处理好的
+妈妈:挣那么多钱，说到底不就是为了这个家嘛
+妈妈:而所谓的家，最重要的不就是家人吗？和家人在一起，比什么都重要
+changeBg:CG/C03S02_素世看窗外.png -next;
+素世:……确实是这样呢……
+:很难否认，对我来说，这是曾经求之不得的一种幸福
+:……但我甚至有些不习惯
+:不，并不是说我在抗拒
+:在这种陌生的幸福面前，妈妈和我都表现得像新手，手足无措地适应着
+playEffect:none -volume=80 -id=env;
+changeBg:none -next;
+:
+:车流被红灯截断，窗外的流动暂时放缓了
+:紧接着，在街道的对侧，一幅似曾相识的光景闯入我的眼中
+:祥子、睦、灯、立希
+:Crychic的众人，如记忆中一般，正有说有笑地走在前往练习室的路上
+:但——
+素世:不属于我的……Crychic
+:我给这个世界的祥子，应该没有留下什么好印象吧
+:更别提加上缺席造成的空档……对于这种情况，我早有心理准备。只是……亲眼所见，未免还是会感到心口发紧 -fontSize=default;
+:尤其是——当看到到本属于我的那个位置，被其他人替代的时候 -fontSize=default;
+changeBg:CG/C03S02_短发海铃经过.png -next;
+:
+:替代了我走在众人身旁的，是一个冷峻飒爽的短发女孩
+:那头黑发堪堪刚过耳垂，以至于刚开始我甚至以为那是一个男孩 -fontSize=default;
+:她与众人有些若即若离，只是吸着手里的盒装饮料，侧头倾听着对话，不时眨巴那双锐利的碧绿双瞳
+妈妈:素世？你刚才说了什么吗？
+素世:啊！没什么吧？
+妈妈:……这样吗
+changeBg:none -next;
+playEffect:1_效果音/02_环境音/車の中1.mp3 -volume=80 -id=env;
+:交通灯转绿，车流重新启动
+:于是，如今的Crychic以相反的方向，与我渐行渐远
+:闭上眼睛，车载的波萨诺瓦爵士乐轻轻敲打在眉心
+:我的祥子，我的Crychic——
+:——不，已经无所谓了，已经与我没有任何关系了
+:因为存在于此时此刻的
+:早已不是我的Crychic，也早已不是我的祥子
+:我深吸一口气，将这一切抛到脑后
+:就这样结束吧
+:就这样……顺其自然就好……
+playEffect:none -volume=80 -id=env;
+bgm:none -volume=40 -enter=3000;
+changeScene:C03S02/C03S02_Scene02.txt

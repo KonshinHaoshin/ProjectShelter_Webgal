@@ -1,0 +1,73 @@
+: -fontSize=default;
+:最开始，我只觉得是我需要做得更好
+:我把这一切当作某种考试，我要做的就是摸索正确答案
+:所以——
+changeBg:普通背景/RING楼梯.png -next -transform={"scale":{"x":1.2,"y":1.2}};
+changeFigure:MyExtra/SoyoMama_FromLayer_Noblush/model.json -id=mama -transform={"position":{"x":0,"y":-300}} -next -motion=serious01 -expression=sad01;
+changeFigure:MyExtra/sakiko_noeyes/341_casual-2023_rip/model.json -id=saki -transform={"position":{"x":2000,"y":-300}} -next -motion=nnf_left01 -expression=sad01;
+changeFigure:black.png -id=black -transform={"alpha":0} -next;
+: -fontSize=default;
+素世:——所以，真的不要进去。一直以来瞒着妈妈，真的很抱歉
+素世妈妈:……妈妈知道了。虽然有点惊讶，但——
+changeFigure:MyExtra/SoyoMama_FromLayer_Noblush/model.json -id=mama -next -motion=surprised01 -expression=surprised01;
+: -fontSize=default;
+素世:……怎么了？妈妈？
+bgm:04. 引き裂かれる心.mp3 -volume=60;
+setTransform:{"position":{"x":-2000,"y":-300}, "alpha":"1"} -target=mama -duration=500 -next;
+setTransform:{"position":{"x":-0,"y":-300}, "alpha":"1"} -target=saki -duration=500 -next;
+: -fontSize=default;
+:祥子低着头，杵在那里
+:在一个……很显然能完整听到我们对话的距离之内
+:不管出于什么理由——不，用脚趾头也能猜到，无非就是“素世出去很久了，有点担心”这种理由
+:祥子从演出室来到大厅，不知道什么时候就已经站在我和妈妈身后
+changeFigure:MyExtra/SoyoMama_FromLayer_Noblush/model.json -id=mama -transform={"position":{"x":0,"y":-300}} -next -motion=nnf_left01 -expression=surprised01;
+setTransform:{"position":{"x":0,"y":-300}, "alpha":"1"} -target=mama -duration=500 -next;
+setTransform:{"position":{"x":-2000,"y":-300}, "alpha":"1"} -target=saki -duration=1000 -next;
+playEffect:1_效果音/01_常用效果音/急促脚步跑远_硬地板.mp3 -volume=60;
+:接着，在我和妈妈有机会开口之前——她与我们擦肩而过，奔向门外
+:然而在生理性的惊吓过后，随之而来的并非焦急、羞愧，又或是后悔
+setTransform:{"alpha":0.6,"blur":0} -target=black -duration=500 -next;
+setTransform:{"position":{"x":0,"y":-400},"alpha":1,"blur":10} -target=mama -duration=500 -next;
+setTransform:{"position":{"x":0,"y":-50},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":20} -target=bg-main -duration=500 -next;
+:只不过是:“果然？”，这样的感慨
+:果然不会那么轻松 -fontSize=default;
+:这是我逃离那晚的圆月，下定决心之后的第一次尝试——在留存下来的Crychic的第二次Live当晚，赶在妈妈进入后台之前，截住她并和她解释一切
+:现在想来，完全是浪费时间
+changeFigure:MyExtra/SoyoMama_FromLayer_Noblush/model.json -id=mama -transform={"position":{"x":0,"y":-300}} -next -motion=shame01 -expression=sad01;
+素世妈妈:那个……素世……？
+setTransform:{"alpha":0,"blur":0} -target=black -duration=500 -next;
+setTransform:{"position":{"x":0,"y":-300},"alpha":1,"blur":0} -target=mama -duration=500 -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=500 -next;
+素世:……是的
+素世:这位就是我和妈妈提到的，丰川祥子
+素世妈妈:……要追上去吗？
+素世:不
+:上次因为我的拉扯，让祥子跌下舞台，被锐物刺穿了喉咙
+:那么这次，如果我不追上去的话，祥子大概就不会死吧？
+:虽然……这大概无所谓了
+素世妈妈:抱、抱歉呀素世……妈妈是不是……是不是不应该来的……？
+素世:不
+playEffect:1_效果音/01_常用效果音/衣擦れ2.mp3;
+changeFigure:MyExtra/SoyoMama_FromLayer_Noblush/model.json -id=mama -next -motion=surprised01 -expression=surprised01;
+setTransform:{"position":{"x":-3000,"y":-2000},"scale":{"x":3,"y":3},"alpha":1,"blur":30} -target=mama -duration=1000 -next;
+setTransform:{"alpha":0.6,"blur":0} -target=black -duration=500 -next;
+:我轻轻抱紧了妈妈
+素世:没关系的，妈妈，我只是想告诉你……
+素世:一直以来，谢谢你
+素世妈妈:……素世？
+素世:妈妈，我会一直一直爱你——
+:——即使，你只是个赝品也罢
+:我大概永远不会忍心将这句话对她说出口
+setTransform:{"alpha":1,"blur":0} -target=black -duration=500 -next;
+playEffect:1_效果音/FINGER_SNAP.mp3;
+bgm:none -volume=60 -enter=1000;
+: -fontSize=default;
+:谎言会自我膨胀 -fontSize=default;
+:越晚将其戳破，后果就越可怕——又或者，用更温和的一些谎言去逐渐掩盖它，会更好些吗？ -fontSize=default;
+:然而如果选择了不戳破，那自然又会是一个接一个的谎言
+:真物永远不能变为伪物，谎言将在说谎者的心头堆积如山
+:但我不在乎，事到如今，说谎大概已经是我最不在乎的事
+changeFigure:none -id=mama -next;
+changeFigure:none -id=black -next;
+changeBg:none -next;
+changeScene:C03S03/C03S03_Scene03.txt

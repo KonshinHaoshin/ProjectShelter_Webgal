@@ -1,0 +1,246 @@
+changeFigure:mygo_avemujica_v5/taki_haneoka_jc/040_school_winter-2023_rip/model.json -id=taki -transform={"position":{"x":900,"y":-300},"scale":{"x":1,"y":1},"alpha":0} -next -motion=nnf_left01 -expression=smile01;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_jc/model.json -id=tmr -transform={"position":{"x":400,"y":-300},"scale":{"x":1,"y":1},"alpha":0} -next -motion=nf_left01 -expression=smile01;
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_C_winter-2023_rip/model.json -id=muts -transform={"position":{"x":-800,"y":-300},"scale":{"x":1,"y":1},"alpha":0} -next -motion=nnf_right01 -expression=smile01;
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -transform={"position":{"x":300,"y":-300},"scale":{"x":1,"y":1},"alpha":0} -next -motion=surprised01 -expression=sad01;
+changeBg:普通背景/C03S02_Crychic旧练习室下雨.png -next;
+changeFigure:none.png -id=black -next;
+changeFigure:black.png -id=black -transform={"alpha":1} -next;
+setTransform:{"alpha":1} -target=black -duration=1 -next;
+playEffect:1_效果音/02_环境音/雨が降る1.mp3 -volume=40 -id=env;
+bgm:01. ショパン「雨だれ」.mp3 -volume=60;
+:
+:我没有带伞，大概只是在和自己赌气
+:随着雨点累积在身上，衣服变得越来越重。我穿过冷漠的人群，来到那间练习室所在的大楼面前 -fontSize=default;
+setTransform:{"alpha":0} -target=black -duration=500 -next;
+:
+:“我要退出Crychic”
+:在心中反复默念着这句话，一点点积攒着勇气
+:当下，我已经没有时间和精力参与乐队活动了 -fontSize=default;
+:那么退出乐队……无论是对于大家而言、还是对于我而言，都是更好的选择吧
+:我不知道要怪谁
+:或许是命运吧，命运给了我完美的家，毁了它
+:接着它给了我最棒的乐队，又故技重施
+:那又如何
+:和命运讲求公平，本身就很可笑
+:唯二的选择，不过是顺从它成为任其操纵的人偶
+:或是……抗争到底
+:抱着这样的想法，我深吸一口气，抬手推开楼下大堂的门——
+playEffect:1_效果音/玄関のドアが閉まる音.mp3 -volume=100;
+playEffect:1_效果音/02_环境音/雨が降る1.mp3 -volume=10 -id=env;
+changeBg:普通背景/建筑大厅_雨天.png -next -transform={"scale":{"x":1.2,"y":1.2}};
+:
+素世:……小祥？
+:一名亚麻色长发的少女，独自一人，靠在一旁的墙壁上
+setTransform:{"position":{"x":100,"y":-300},"alpha":1} -target=soyo -duration=800 -next;
+:大概是听到了我推门的声音，少女抬起头来望向我，脸上露出些须担忧
+:长崎素世……我乐队里的队友 -fontSize=default;
+祥子:素世……？你在这里做什么？
+:我有些惊讶，毕竟她这种姿态，仿佛是在等着我似的
+:她没有正面回答，而是从口袋中掏出一方手帕，向我递来
+playEffect:1_效果音/01_常用效果音/衣擦れ2.mp3 -volume=100;
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -next -motion=odoodo01 -expression=sad01;
+setTransform:{"position":{"x":-100,"y":-400},"scale":{"x":1.2,"y":1.2},"alpha":1} -target=soyo -duration=2000 -next;
+素世:怎么弄得全身都湿了——要擦一下吗？
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -next -motion=sad02 -expression=surprised01;
+setTransform:{"position":{"x":-50,"y":-350},"scale":{"x":1.1,"y":1.1},"alpha":1} -target=soyo -duration=1000 -next;
+:我犹豫了一下，还是狠下心，推开那只手 -fontSize=default;
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -next -motion=nf04 -expression=sad02;
+:我不能表现得软弱
+:一旦软弱起来，我就会连说服自己都做不到
+祥子:不必了
+祥子:我今天来是有事要说，说完我就走
+素世:什么事？
+祥子:……上去见到其他人之后，我会一起说的
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -next -motion=serious02 -expression=sad02;
+素世:这样吗……
+playEffect:1_效果音/01_常用效果音/衣擦れ1.mp3 -volume=100;
+:她把手帕收了起来
+playEffect:1_效果音/01_常用效果音/普通走路过场.mp3 -volume=100;
+changeBg:普通背景/电梯.png -next -transform={"position":{"y":200},"scale":{"x":1.2,"y":1.2}};
+setTransform:{"position":{"x":-50,"y":-800},"scale":{"x":1.6,"y":1.6},"alpha":0} -target=soyo -duration=1000 -next;
+:我与她擦肩而过，走到电梯前按下按钮，看着上面跳动的数字 -fontSize=default;
+playEffect:1_效果音/01_常用效果音/衣擦れ3.mp3 -volume=100;
+setTransform:{"position":{"x":300,"y":-500},"scale":{"x":1.4,"y":1.4},"alpha":0} -target=soyo -duration=1000 -next;
+:突然间——掌心被一阵淡淡的体温包裹住了
+setTransform:{"position":{"x":-200,"y":-500},"scale":{"x":1.4,"y":1.4},"alpha":1} -target=soyo -duration=1000 -next;
+setTransform:{"position":{"x":-200,"y":200},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=1000 -next;
+:我吓了一跳，转过头去，撞上素世的目光
+祥子:……这是在干嘛？
+素世:陪你一起上去
+祥子:不……我是说……
+素世:啊……
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -next -motion=serious01 -expression=smile03;
+:她抬起那只牵住我的手
+素世:……毕竟，我们是朋友嘛
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+playEffect:none -volume=10 -id=env;
+:
+:我们确实是朋友，这是我亲口答应下来的
+setTransform:{"position":{"x":900,"y":-300},"scale":{"x":1,"y":1},"alpha":1,"blur":0} -target=taki -duration=1 -next;
+setTransform:{"position":{"x":400,"y":-300},"scale":{"x":1,"y":1},"alpha":1,"blur":0} -target=tmr -duration=1 -next;
+setTransform:{"position":{"x":-800,"y":-300},"scale":{"x":1,"y":1},"alpha":1,"blur":0} -target=muts -duration=1 -next;
+setTransform:{"position":{"x":-300,"y":-400},"scale":{"x":1.2,"y":1.2},"alpha":1} -target=soyo -duration=1 -next;
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -next -motion=nf_left01 -expression=smile01;
+changeBg:普通背景/火车站门口.png -next -transform={"scale":{"x":1.2,"y":1.2},"blur":20};
+:那是在Crychic结成后不久，大家一起去唱了卡拉OK之后的事
+playEffect:1_效果音/02_环境音/街の道路.mp3 -volume=40 -id=env;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+:
+立希:真开心呢 -fontSize=default;
+灯:嗯……
+素世:灯能唱出声……真是太好了
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -next -motion=serious01 -expression=smile01;
+:那时，大家正有说有笑地走向返程的车站
+setTransform:{"position":{"x":900,"y":-300},"scale":{"x":1,"y":1},"alpha":1,"blur":10} -target=taki -duration=1000 -next;
+setTransform:{"position":{"x":400,"y":-300},"scale":{"x":1,"y":1},"alpha":1,"blur":10} -target=tmr -duration=1000 -next;
+setTransform:{"position":{"x":-800,"y":-300},"scale":{"x":1,"y":1},"alpha":1,"blur":10} -target=muts -duration=1000 -next;
+setTransform:{"position":{"x":-400,"y":-600},"scale":{"x":1.4,"y":1.4},"alpha":1} -target=soyo -duration=1000 -next;
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -next -motion=smile04 -expression=smile03;
+素世:那个，小祥子……等一下有时间吗？
+:素世突然赶上几步，凑到我跟前
+祥子:诶？怎么了吗？ -fontSize=default;
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -next -motion=smile03 -expression=smile01;
+素世:我有点事……想和你聊聊
+祥子:这样吗……
+setTransform:{"position":{"x":700,"y":-300},"scale":{"x":1,"y":1},"alpha":1} -target=taki -duration=1000 -next;
+setTransform:{"position":{"x":200,"y":-300},"scale":{"x":1,"y":1},"alpha":1} -target=tmr -duration=1000 -next;
+setTransform:{"position":{"x":-1000,"y":-300},"scale":{"x":1,"y":1},"alpha":1} -target=muts -duration=1000 -next;
+setTransform:{"position":{"x":800,"y":-700},"scale":{"x":1.5,"y":1.5},"alpha":1,"blur":10} -target=soyo -duration=1000 -next;
+setTransform:{"position":{"x":-100,"y":0},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=1000 -next;
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -next -motion=nf_left01 -expression=smile01;
+祥子:那个，已经到车站了呢，大家回家要注意安全哟
+changeFigure:mygo_avemujica_v5/taki_haneoka_jc/040_school_winter-2023_rip/model.json -id=taki -next -motion=nf02 -expression=smile01;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_jc/model.json -id=tmr -next -motion=nnf02 -expression=smile01;
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_C_winter-2023_rip/model.json -id=muts -next -motion=nnf02 -expression=smile01;
+祥子:素世她好像说有点事，想要和我聊聊呢
+立希:这样吗……那我和灯先回去了
+祥子:好的，一路平安哟？
+灯:嗯……一路平安
+playEffect:1_效果音/01_常用效果音/普通走路过场.mp3 -volume=40;
+changeFigure:mygo_avemujica_v5/taki_haneoka_jc/040_school_winter-2023_rip/model.json -id=taki -next -motion=bye01 -expression=smile01;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_jc/model.json -id=tmr -next -motion=bye01 -expression=bye01;
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_C_winter-2023_rip/model.json -id=muts -next -motion=nnf_right01 -expression=smile01;
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -next -motion=nnf_right01 -expression=smile01;
+setTransform:{"position":{"x":2500,"y":-300},"scale":{"x":1,"y":1},"alpha":1} -target=taki -duration=3000 -next;
+setTransform:{"position":{"x":2000,"y":-300},"scale":{"x":1,"y":1},"alpha":1} -target=tmr -duration=4000 -next;
+setTransform:{"position":{"x":-300,"y":-300},"scale":{"x":1,"y":1},"alpha":1} -target=muts -duration=3000 -next;
+:
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=1000 -next;
+setTransform:{"position":{"x":-600,"y":-300},"scale":{"x":1,"y":1},"alpha":1} -target=muts -duration=1000 -next;
+setTransform:{"position":{"x":400,"y":-700},"scale":{"x":1.5,"y":1.5},"alpha":1,"blur":0} -target=soyo -duration=1000 -next;
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_C_winter-2023_rip/model.json -id=muts -next -motion=nnf02 -expression=smile01;
+祥子:那接下来，我们就先送睦回去，然后……
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -next -motion=nnf_left01 -expression=smile01;
+素世:啊，说起来，睦和祥子是一起回家的吧？
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_C_winter-2023_rip/model.json -id=muts -next -motion=nnf_right01 -expression=surprised01;
+素世:不会聊很久，所以，小睦方便的话，也可以一起
+祥子:诶——
+祥子:那，睦要一起来吗？
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_C_winter-2023_rip/model.json -id=muts -next -motion=nnf02 -expression=idle01;
+睦:……嗯
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+:
+playEffect:none -volume=40 -id=env;
+setTransform:{"position":{"x":-800,"y":-400},"scale":{"x":1.2,"y":1.2},"alpha":1} -target=muts -duration=1 -next;
+setTransform:{"position":{"x":200,"y":-600},"scale":{"x":1.4,"y":1.4},"alpha":1,"blur":0} -target=soyo -duration=1 -next;
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_C_winter-2023_rip/model.json -id=muts -next -motion=nnf_right01 -expression=smile01;
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -next -motion=nnf04 -expression=smile01;
+changeBg:普通背景/住宅区公园夜晚.png -next -transform={"scale":{"x":1.2,"y":1.2}};
+:在车站附近，我们就近找了片公园
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+祥子:那，素世同学想要聊的事情是？
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -next -motion=smile03 -expression=smile01;
+素世:小祥子……对乐队这件事，是怎么看的呢？
+祥子:诶，怎么看是指……？
+素世:因为，之前小祥子说过，乐队是一同演奏音乐的共同体
+素世:所以我在想，小祥子是不是对音乐很有兴趣……之类的
+素世:就比如，会想要让乐队长久地运营下去，成为职业化乐队吗？
+祥子:唔……好问题呢……
+;head down
+setTransform:{"position":{"x":-800,"y":-500},"scale":{"x":1.2,"y":1.2},"alpha":1} -target=muts -duration=1000 -next;
+setTransform:{"position":{"x":200,"y":-700},"scale":{"x":1.4,"y":1.4},"alpha":1,"blur":0} -target=soyo -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":-50},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=1000 -next;
+setTransform:{"alpha":0.6,"blur":0} -target=black -duration=1000 -next;
+:确实，我并没有考虑到这个层面
+:最初组乐队的动机，只是因为被Morfonica的演出感动了
+:要说是一时兴起，也不为过
+;head up
+setTransform:{"position":{"x":-800,"y":-400},"scale":{"x":1.2,"y":1.2},"alpha":1} -target=muts -duration=1000 -next;
+setTransform:{"position":{"x":200,"y":-600},"scale":{"x":1.4,"y":1.4},"alpha":1,"blur":0} -target=soyo -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=1000 -next;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+祥子:其实，我还没有考虑那么多
+祥子:不愧是素世同学，想得很长远呢……
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -next -motion=smile03 -expression=smile03;
+素世:也没有啦……
+素世:之所以这么问，是因为……
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -next -motion=thinking01 -expression=serious02;
+素世:……其实我自己，也不是很清楚乐队究竟意味着什么
+祥子:诶……这样吗
+素世:不过——
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -next -motion=nnf_left01 -expression=smile01;
+:素世将垂在双眼前的头发撩起
+:她抬头，穿过漆黑的树影，望向被城市灯火微微照亮的夜空
+素世:——感觉和乐队的大家在一起，会很开心
+祥子:说得是呢……
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_C_winter-2023_rip/model.json -id=muts -next -motion=nnf02 -expression=smile01;
+祥子:就好比刚才，大家就都露出了笑容……
+祥子:无论怎样，组乐队都确实是一件开心的事呢~
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -next -motion=smile03 -expression=smile01;
+素世:嗯，所以，不由得产生了——“如果能长远下去就好了呢”，这样的想法
+素世:想要和大家成为伙伴，一直一直在一起
+:素世说着，低头转向我，露出拘谨的微笑
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -next -motion=smile04 -expression=smile03;
+素世:所以……
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_C_winter-2023_rip/model.json -id=muts -next -motion=nnf_right01 -expression=surprised01;
+素世:所以小祥子，和小睦，能和我成为朋友吗？
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+:
+changeFigure:none -id=soyo -next;
+changeFigure:none -id=muts -next;
+changeBg:普通背景/旧练习室_走廊.png -next -transform={"scale":{"x":1.2,"y":1.2}};
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -next -motion=nf_left01 -expression=serious02;
+setTransform:{"position":{"x":-200,"y":-500},"scale":{"x":1.4,"y":1.4},"alpha":1} -target=soyo -duration=1 -next;
+:微微作响的电梯门，将我从思绪中拉回到现实
+:顺着那样的氛围，我当然答应了——不，这并不是在说，我其实不想答应
+:能和素世成为朋友……我很开心
+:但——
+:电梯平稳地向上运行着，我从眼前余光偷偷瞥向身旁的素世，她一直没有放开我的手
+:身上的雨水顺着我的手臂，渗入手掌之间的缝隙
+:雨水带来的凉意，与掌心传来的温暖交杂在一起
+:这令我稍稍冷静了一些
+:温暖令我不安，它和她的主人仿佛在无声地挽留我
+:而朋友这个身份，让我必须付出更大的努力……才能强迫自己，从这种温暖中抽身而出
+:电梯门再次打开，素世往外走去
+:我停在原地，试图让我们的双手就此分开——成功了，素世回过头来看着我
+素世:怎么了吗？
+祥子:……不，没什么
+:我伸手挡着电梯的门，也走了出去，不远处就是练习室的门了
+playEffect:1_效果音/01_常用效果音/普通走路过场.mp3 -volume=40;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+:
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -next -motion=serious01 -expression=smile01;
+:我们来到门前，素世再次将手帕递向我，我顺手接下——然后才意识到，自己本来是决定不这么做的
+:然而再还回去，多少有点过分了
+祥子:……谢谢
+playEffect:1_效果音/01_常用效果音/衣擦れ1.mp3 -volume=40;
+;head down
+setTransform:{"position":{"x":-200,"y":-600},"scale":{"x":1.4,"y":1.4},"alpha":1} -target=soyo -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":-50},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=1000 -next;
+setTransform:{"alpha":0.6,"blur":0} -target=black -duration=1000 -next;
+:我迟疑着擦干头发，擦干被雨水沁得冰冷的脸
+素世:好了吗？
+;head up
+setTransform:{"position":{"x":-200,"y":-500},"scale":{"x":1.4,"y":1.4},"alpha":1} -target=soyo -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=1000 -next;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+祥子:……嗯
+素世:那，我们进去吧
+:她收起手帕，再次牵起我的手
+playEffect:1_效果音/01_常用效果音/ドアを開ける1.mp3 -volume=40;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+:在我有所反应之前——拧动把手，打开了练习室的门
+bgm:none -enter=1000;
+changeFigure:none -id=soyo -next;
+:
+changeScene:C04S04/C04S04_Scene03.txt

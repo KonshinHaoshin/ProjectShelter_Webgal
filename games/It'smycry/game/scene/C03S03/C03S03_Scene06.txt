@@ -1,0 +1,157 @@
+playEffect:1_效果音/祥子跌倒.mp3 -volume=40;
+changeBg:普通背景/住宅区公园黄昏.webp -next;
+changeFigure:mygo_avemujica_v5/sakiko/341_casual-2023_rip/model.json -id=saki -transform={"position":{"x":100,"y":-300},"alpha":0} -next -motion=serious01 -expression=serious01;
+changeFigure:mygo_avemujica_v5/rana/038_casual-2023_rip/model.json -id=rana -transform={"position":{"y":-300},"alpha":0} -next -motion=serious01 -expression=serious01;
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -transform={"position":{"y":-300}} -next -motion=surprised01 -expression=surprised01;
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip_pandaeye/model.json -id=taki2 -transform={"position":{"y":-300},"alpha":0} -next -motion=nf_left01 -expression=smile01;
+changeFigure:black.png -id=black -transform={"alpha":1} -next;
+: -fontSize=default;
+:恍然间，祥子再次摔倒在我面前，虽然这一次与我无关
+:原因简单得有些可笑，她真的只是太累了，然后在MC环节突然被线材绊倒，摔下舞台
+playEffect:1_效果音/01_人物音效/黄色い悲鳴_Short.mp3 -volume=40;
+: -fontSize=default;
+playEffect:1_效果音/FINGER_SNAP.mp3;
+:在观众的尖叫中，我麻木地打响响指，接着开始思考，怎样才能让祥子不那么劳累
+:这是否是关键因素并不重要，我要做的，只是穷尽清单上的一切 -fontSize=default;
+:即便这份清单，或许永无尽头 -fontSize=default;
+: -fontSize=default;
+playEffect:1_效果音/02_环境音/街の道路.mp3 -volume=40 -id=michi;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+: -fontSize=default;
+立希:——等等，让我消化一下……
+立希:……也就是说，祥子她是因为……
+:在又一次成功挽救Crychic的半年后——我在羽丘开学典礼的那天傍晚，单独把立希约出来，和她详细说明了前因后果 -fontSize=default;
+:当然，我没有坦白自己在对祥子说谎
+:我不想冒这种风险 -fontSize=default;
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -transform={"position":{"y":-300}} -next -motion=sad02 -expression=sad02;
+立希:天啊，我之前差点要为这个吼她，我…… -fontSize=default;
+素世:没关系的
+素世:总之，一系列巧合之下……我才能找到并稳住祥子
+素世:请不要把这些事情对灯说。至于睦，睦她……毕竟是祥子的发小，早就已经知道了…… -fontSize=default;
+立希:……
+立希:仅仅瞒着灯，真的好吗……
+素世:……我也不知道
+素世:真的很抱歉，突然和立希说这些事…… -fontSize=default;
+setTransform:{"position":{"x":-400,"y":-400},"scale":{"x":1.2,"y":1.2}} -target=taki -duration=500 -next;
+playEffect:1_效果音/01_常用效果音/衣擦れ1.mp3;
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -transform={"position":{"y":-300}} -next -motion=serious01 -expression=serious01;
+: -fontSize=default;
+:我起身准备离开，然而立希扯住了我
+立希:不……我明白了
+立希:我……也会加油的
+playEffect: -volume=10 -id=michi;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+: -fontSize=default;
+:立希很笨拙
+changeFigure:none -id=taki -transform={"position":{"y":-300}} -next ;
+changeBg:普通背景/ring录音室.png -next -transform={"position":{"y":-300},"scale":{"x":1.2,"y":1.2}};
+:她从来没有告诉我，她明白了什么，又或者，她根本不知道要怎么告诉我
+:我能看到的，只是她总会默默地站在大家身边
+:站在弹琴的祥子身边，看她琴键上跃动的手指；
+:站在作词的灯身边，看她在纸张上的一笔一划；
+:站在乐奈、睦和我身边，聆听一个又一个音符；
+changeFigure:mygo_avemujica_v5/sakiko/341_casual-2023_rip/model.json -id=saki -transform={"position":{"x":100,"y":-300},"alpha":0} -next -motion=surprised01 -expression=surprised01;
+changeFigure:mygo_avemujica_v5/rana/038_casual-2023_rip/model.json -id=rana -transform={"position":{"y":-300},"alpha":0} -next -motion=nnf_left01 -expression=default;
+changeFigure:black.png -id=black -transform={"alpha":1} -next;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=100 -next;
+setTransform:{"position":{"x":0,"y":-300},"scale":{"x":1,"y":1}} -target=taki2 -duration=500 -next;
+setTransform:{"position":{"x":-800,"y":-300},"scale":{"x":1,"y":1}} -target=saki -duration=500 -next;
+setTransform:{"position":{"x":1800,"y":-300},"scale":{"x":1,"y":1}} -target=rana -duration=500 -next;
+:——然后，时不时于练习的间隙，睡着在鼓凳上
+bgm:冬日.mp3 -volume=40;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+: -fontSize=default;
+祥子:诶？
+祥子:确实……在这里把拍子略微错开——
+立希:——是的，然后加入这个装饰音色，听感或许会更抓耳一些
+changeFigure:none -id=black -transform={"alpha":0} -next;
+: -fontSize=default;
+祥子:……呜哇，确实感觉完全不一样了
+setTransform:{"position":{"x":800,"y":-300},"scale":{"x":1,"y":1}} -target=rana -duration=2000 -next;
+: -fontSize=default;
+乐奈:立希，像熊猫一样
+changeFigure:mygo_avemujica_v5/sakiko/341_casual-2023_rip/model.json -id=saki -transform={"position":{"x":100,"y":-300},"alpha":0} -next -motion=nnf_right01 -expression=surprised01;
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip_pandaeye/model.json -id=taki2 -transform={"position":{"y":-300}} -next -motion=nnf_right01 -expression=surprised01;
+changeFigure:black.png -id=black -transform={"alpha":0} -next;
+立希:呃？
+祥子:真的耶……
+祥子:最近睡眠不好吗？感觉你黑眼圈好重
+祥子:对乐队很上心固然很好，但也要以保重身体为前提呀
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip_pandaeye/model.json -id=taki2 -transform={"position":{"y":-300}} -next -motion=nnf_left01 -expression=surprised01;
+立希:……没有，只是天气变化睡不着而已
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip_pandaeye/model.json -id=taki2 -transform={"position":{"y":-300}} -next -motion=nnf_right01 -expression=surprised02;
+立希:我说，你这野猫，别老乱讲这些有的没的
+乐奈:嗯……
+乐奈:立希，要好好保重
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip_pandaeye/model.json -id=taki2 -transform={"position":{"y":-300}} -next -motion=nnf_right01 -expression=shame01;
+立希:……真少见，怎么反倒关心起我来了，都说没事啦
+灯:我来晚了，不好意思大家，今天是我值日，所以——
+changeFigure:mygo_avemujica_v5/sakiko/341_casual-2023_rip/model.json -id=saki -transform={"position":{"x":100,"y":-300},"alpha":0} -next -motion=smile01 -expression=smile01;
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip_pandaeye/model.json -id=taki2 -transform={"position":{"y":-300}} -next -motion=smile01 -expression=smile01;
+changeFigure:mygo_avemujica_v5/rana/038_casual-2023_rip/model.json -id=rana -transform={"position":{"y":-300},"alpha":0} -next -motion=smile01 -expression=smile01;
+立希:来得正好，今天人很齐，大家可以合一遍——
+bgm:none -volume=40 -enter=2000;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+: -fontSize=default;
+:我站在一旁，看着顶着黑眼圈的立希坐上鼓凳，像是逞强般在军鼓上打出一串拍子
+:她很努力
+:她是赝品吗？
+:她最好是
+:否则，她或许就会和做曲奇的妈妈、有点吃胖的祥子——和几乎要成为真品的她们一样，最终离我而去
+:不，没准还真会这样
+changeFigure:none -id=saki -transform={"position":{"x":100,"y":-300},"alpha":0} -next -motion=smile01 -expression=smile01;
+changeFigure:none -id=taki2 -transform={"position":{"y":-300}} -next -motion=smile01 -expression=smile01;
+changeFigure:none -id=rana -transform={"position":{"y":-300},"alpha":0} -next -motion=smile01 -expression=smile01;
+changeBg:普通背景/羽丘无人教室.png -next -transform={"position":{"y":0},"scale":{"x":1.2,"y":1.2}};
+:我沉稳地拨动琴弦，与立希一同为整首曲子铺开最根本的律动
+:她……又会以怎样的方式退场呢？
+:不知不觉，我已经以此为前提去思考未来了
+:更荒谬的是……我甚至开始有点好奇起来
+playEffect:1_效果音/02_环境音/シーンと静まり返る教室.mp3 -volume=40 -id=env;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+: -fontSize=default;
+老师:由于……由于最近，周边发生了一些治安事件，所以请同学们近期放学后尽量早归
+老师:如果要外出活动，也请以尽量多的人数结伴而行……
+:老师的声音有些发抖
+:Live上什么都没有发生
+setTransform:{"position":{"y":-200},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=1000 -next;
+setTransform:{"alpha":0.6,"blur":0} -target=black -duration=1000 -next;
+playEffect:none -volume=40 -id=env;
+bgm:20. 真実.mp3 -volume=60;
+:
+:因为——Live本身就没有发生
+:昨天晚上，乐奈到了，睦到了，我和祥子早就在了
+:接着，是灯发来信息，说她已经接到立希，这家伙居然在家睡过头，两人正往这边赶来
+立希(Line):“抱歉各位，我们很快就到啦”
+:这是灯和立希留给我们的最后一句话
+同学A:——无差别杀人犯？——
+同学B:——太可怕了……听说遇害的是——
+同学C:——骗人吧？灯？隔壁班那个……像小动物一样的高松灯？——
+同学B:——而且，说是C班和灯走得很近的那个女生也——
+同学A:——过分……太过分了……
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+:
+:我没有理会在一旁泣不成声的祥子，而是起身走向一旁的窗户
+:我不想听到这些，不想去抱紧她
+changeBg:普通背景/蓝天.png -next -transform={"position":{"y":0},"scale":{"x":1.2,"y":1.2}};
+:我已经变得害怕拥抱
+:不——转念一想，这些又算得上什么呢？
+:我见到过被高空坠落的幕墙拦腰截断的睦，而她只不过是想绕路去买大家爱吃的巧克力
+:我见到过在被吊在空中的乐奈，Live的结尾突发地震，崩落钢架带起的线材将她卷起，扯断了颈椎
+:等下，我可能记混了
+:是在那之前？是在那之后？是在那之前的之前？还是在之后的之后？还是在之后的之后的之后？
+:我记不清了
+:不过我记得很清楚，那一次，我大笑着坐在教室窗边，向后仰倒
+playEffect:1_效果音/01_人物音效/黄色い悲鳴_Short.mp3 -volume=40;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+:
+:打响响指之际，在我面前闪过的那片蓝天——它真蓝啊
+:它晴朗得就像假的一样
+playEffect:1_效果音/FINGER_SNAP.mp3;
+bgm:none -volume=60 -enter =2000;
+changeBg:none -next;
+changeFigure:none -id=rana -transform={"position":{"y":-300},"alpha":0} -next -motion=smile01 -expression=smile01;
+changeFigure:none -id=saki -transform={"position":{"x":100,"y":-300},"alpha":0} -next -motion=smile01 -expression=smile01;
+changeFigure:none -id=taki2 -transform={"position":{"y":-300}} -next -motion=smile01 -expression=smile01;
+changeFigure: -id=black -transform={"position":{"y":-300},"alpha":0} -next -motion=smile01 -expression=smile01;
+changeScene:C03S03/C03S03_Scene07.txt

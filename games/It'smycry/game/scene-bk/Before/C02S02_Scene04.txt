@@ -1,0 +1,278 @@
+立希:……
+立希:……不行啊
+爱音:…………抱歉 -fontSize=default;
+bgm:手探り-不安气氛.mp3 -volume=10;
+changeBg:ring录音室.png -next -transform={"position":{"y":-300},"scale":{"x":1.2,"y":1.2}};
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -transform={"position":{"x":-800,"y":-300}} -next -motion=idle01 -expression=angry01;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -transform={"position":{"x":200,"y":-600}} -next -motion=nf04 -expression=sad01;
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_winter-2023_rip/model.json -id=mutsumi -transform={"position":{"x":2000,"y":-300}} -next -motion=nnf_left01 -expression=idle01;
+changeFigure:mygo_avemujica_v5/soyoW/039_hnok_school_winter-2023_rip/model.json -id=soyo -transform={"position":{"x":2000,"y":-300}} -next -motion=nnf_left01 -expression=idle01;
+changeFigure:睦吉他.png -id=guitar -transform={"position":{"x":300,"y":1200},"scale":{"x":1.3,"y":1.3},"rotation":1} -next;
+changeFigure:black.png -id=black -transform={"alpha":0.7} -next;
+:
+:素世今天也要晚点来，练习室只有立希、灯和我在
+:我低头以左手拇指搓着食指的指尖，那里贴着一圈帝企鹅图案的创可贴
+:之前练习的时候，有点急于求成了，结果食指不小心被弦割了一下。理所当然，伤口严重影响了我的发挥
+灯:小爱音，没关系吗？
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=nf_right01 -expression=angry01;
+setTransform:{"position":{"y":-100},"scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=1000 -next;
+setTransform:{"position":{"x":200,"y":-400}, "alpha":1} -target=tomori -duration=1000 -next;
+setTransform:{"position":{"x":-800,"y":-100}} -target=taki -duration=1000 -next;
+setTransform:{"alpha":0} -target=black -duration=1000 -next;
+:
+爱音:还好还好，只是小伤而已……
+灯:如果创可贴用完了的话，可以再从我这里拿哦，我还有很多种类的——
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=angry03 -expression=angry02;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -next -motion=nf_left01 -expression=sad02;
+立希:这种小伤不能当做借口吧
+立希:每次演出前都肯定有很多小问题，动不动就被这些琐事缠住，还怎么上台？
+立希:最重要的一点还是，你这个进度，能赶上之后的Live吗？ -fontSize=default;
+setTransform:{"position":{"x":200,"y":-100},"scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=1000 -next;
+setTransform:{"position":{"x":700,"y":-400}, "alpha":1} -target=tomori -duration=1000 -next;
+setTransform:{"position":{"x":-300,"y":-100}} -target=taki -duration=1000 -next;
+爱音:Live？什么时候——
+: -next
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=nf_right01 -expression=idle01;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -motion=nnf_left01 -expression=surprised01;
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=angry02 -expression=angry02;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -motion=thinking01 -expression=sad02;
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -motion=nnf_left01 -expression=sigh01;
+立希:唉……你来之前大家就预约好了，三周后 -fontSize=default;
+立希:本来这场Live，是要和大家一起上一首准备了很久的新曲的
+立希:但今天素世又和我商量说，是不是考虑继续上《春日影》，和另一首更简单的新曲……
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=sigh01 -expression=angry01;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -next -motion=nnf_right01 -expression=sad03;
+立希:真是的……哪能突然就冒出来一首新曲啊
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=nnf_left01 -expression=sigh02;
+立希:祥子的时间本来就不多…… -fontSize=small;
+爱音:…… -fontSize=medium;
+:总觉得，很对不起大家
+:似乎因为我的加入，把不少安排打乱了
+playEffect:效果音/木のドアをノック1.mp3 -volume=20;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -next -motion=nf_right01 -expression=surprised01;
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=nf_right01 -expression=surprised01;
+:
+playEffect:效果音/玄関のドアが閉まる音.mp3 -volume=20;
+setTransform:{"position":{"x":-200,"y":-100},"scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=1000 -next;
+setTransform:{"position":{"x":-1000,"y":-400},"alpha":1} -target=tomori -duration=1000 -next;
+setTransform:{"position":{"x":-2000,"y":-100}} -target=taki -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":-400}} -target=mutsumi -duration=3000 -next;
+:
+:进门的是我从没见过的女孩，浅绿的长发从面前飘过
+:像是没有注意到我一样，她面无表情地走到音箱位置，取下背后的琴盒
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -next -motion=nf_right01 -expression=smile01;
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=nf_right01 -expression=smile01;
+立希:啊……小睦，今天有空了嘛
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_winter-2023_rip/model.json -id=mutsumi -next -motion=nf_left01 -expression=idle01;
+:来人只是无声地点了点头——原来她就是睦吗……
+:睦……若叶睦……
+:难道是……那个若叶睦？就是那个人气很高的、搞笑艺人若叶的女儿？
+setTransform:{"position":{"x":-200,"y":100},"scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=500 -next;
+setTransform:{"position":{"x":-1000,"y":-300},"alpha":1} -target=tomori -duration=500 -next;
+setTransform:{"position":{"x":-2000,"y":0}} -target=taki -duration=500 -next;
+setTransform:{"position":{"x":0,"y":-300}} -target=mutsumi -duration=500 -next;
+:我不由得有些兴奋，下意识地想站起来上前打招呼，然而——立即又想到眼前更重要的事
+:据大家说，睦的吉他水平很高……
+:……而我的吉他水平很差
+:而且我还……在这种最需要练习的时候，割伤了手指……
+setTransform:{"position":{"x":-200,"y":-100},"scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=2000 -next;
+setTransform:{"position":{"x":-1000,"y":-400},"alpha":1} -target=tomori -duration=2000 -next;
+setTransform:{"position":{"x":-2000,"y":-100}} -target=taki -duration=2000 -next;
+setTransform:{"position":{"x":0,"y":-400}} -target=mutsumi -duration=2000 -next;
+setTransform:{"alpha":0.5} -target=black -duration=2000 -next;
+:
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -next -motion=idle01 -expression=smile01;
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=idle01 -expression=idle01;
+立希:……对了，小睦，这是千早爱音，她是—— -fontSize=default;
+setTransform:{"position":{"x":200,"y":-100},"scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=1000 -next;
+setTransform:{"position":{"x":700,"y":-400}, "alpha":1} -target=tomori -duration=1000 -next;
+setTransform:{"position":{"x":-300,"y":-100}} -target=taki -duration=1000 -next;
+setTransform:{"position":{"x":1700,"y":-400}} -target=mutsumi -duration=1000 -next;
+setTransform:{"alpha":0} -target=black -duration=1000 -next;
+立希:……
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -next -motion=nnf_left01 -expression=surprised01;
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=sigh01 -expression=sad01;
+:立希最终没有说完
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -next -motion=nnf_right01 -expression=sad01;
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=nf_left01 -expression=sad01;
+bgm:none -volume=5 -enter=1000;
+立希:总之，素世来之前，先个人练吧
+setTransform:{"position":{"x":-200,"y":-100},"scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=1000 -next;
+setTransform:{"position":{"x":-1000,"y":-400},"alpha":1} -target=tomori -duration=1000 -next;
+setTransform:{"position":{"x":-2000,"y":-100}} -target=taki -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":-400}} -target=mutsumi -duration=1000 -next;
+:
+playEffect:效果音/布料_开始.mp3 -volume=20;
+setTransform:{"position":{"x":0,"y":-200}} -target=mutsumi -duration=1000 -next;
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_winter-2023_rip/model.json -id=mutsumi -transform={"position":{"x":3}} -next -motion=thinking01 -expression=idle01;
+:
+playEffect:效果音/布料_结束.mp3 -volume=20;
+setTransform:{"position":{"x":0,"y":-400}} -target=mutsumi -duration=2000 -next;
+setTransform:{"position":{"x":300,"y":300},"scale":{"x":1.3,"y":1.3},"rotation":1} -target=guitar -duration=2000 -next;
+:
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_winter-2023_rip/model.json -id=mutsumi -transform={"position":{"x":3}} -next -motion=nf04 -expression=idle01;
+playEffect:效果音/01_人物音效/睦爬格子.mp3 -volume=60;
+:
+setTransform:{"position":{"x":-200,"y":-200},"scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=3000 -next;
+setTransform:{"position":{"x":-1000,"y":-700},"alpha":1} -target=tomori -duration=3000 -next;
+setTransform:{"position":{"x":-2000,"y":-400}} -target=taki -duration=3000 -next;
+setTransform:{"position":{"x":0,"y":-700}} -target=mutsumi -duration=3000 -next;
+setTransform:{"position":{"x":300,"y":-50},"scale":{"x":1.3,"y":1.3},"rotation":1} -target=guitar -duration=3000 -next;
+setTransform:{"alpha":0.6} -target=black -duration=2000 -next;
+爱音:……
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=nf_right01 -expression=sad01;
+立希:……
+setTransform:{"position":{"x":200,"y":-100},"scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=2000 -next;
+setTransform:{"position":{"x":700,"y":-400}, "alpha":1} -target=tomori -duration=2000 -next;
+setTransform:{"position":{"x":-300,"y":-100}} -target=taki -duration=2000 -next;
+setTransform:{"position":{"x":2400,"y":-400}} -target=mutsumi -duration=2000 -next;
+setTransform:{"position":{"x":2700,"y":300},"scale":{"x":1.3,"y":1.3},"rotation":1} -target=guitar -duration=2000 -next;
+setTransform:{"alpha":0} -target=black -duration=2000 -next;
+爱音:……要不
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -next -motion=sad02 -expression=sad01;
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=angry02 -expression=angry03;
+立希:什么？ -fontSize=default;
+爱音:要不，这次Live我就先不参加了？
+立希:哈？什么啊？
+爱音:毕竟，本来我也是新来的嘛……
+爱音:我先稍加练习，能赶上大家了，再一起Live，会不会比较好……
+立希:……也就是说，你要逃吗？
+爱音:诶？
+爱音:没有，我只是——
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=angry03 -expression=angry04;
+立希:被人偏爱，真轻松呢
+bgm:広がる不安-前奏部分.mp3 -volume=10;
+setTransform:{"position":{"x":0,"y":-50},"scale":{"x":1,"y":1},"blur":20,"rgbFilm":1} -target=bg-main -duration=3000 -next;
+setTransform:{"position":{"x":700,"y":-400},"alpha":1,"rgbFilm":1} -target=tomori -duration=3000 -next;
+setTransform:{"position":{"x":-300,"y":-100},"rgbFilm":1} -target=taki -duration=3000 -next;
+setTransform:{"position":{"x":2400,"y":-400},"rgbFilm":1} -target=mutsumi -duration=3000 -next;
+setTransform:{"position":{"x":2700,"y":300},"scale":{"x":1.3,"y":1.3},"rotation":1,"rgbFilm":1} -target=guitar -duration=3000 -next;
+setTransform:{"alpha":0} -target=black -duration=3000 -next;
+爱音:……？
+爱音:小立希……在说什么啊？
+爱音:……偏爱……什么的……
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -next -motion=sad03 -expression=surprised01;
+立希:难道不是吗？灯一开始就很中意你，素世也不知道为什么很想要你入队，还要为了你和小祥赶一首新曲
+立希:被偏爱的人真好，即使逃避也不要紧，不负责任也不要紧嘛。反正大家都很喜欢你，素世也是，灯也是……如果你水平很好倒也罢了
+立希:但比起小睦，你—— -fontSize=default;
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=surprised01 -expression=sad01;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -next -motion=sad04 -expression=sad04;
+立希:……
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=nf_left01 -expression=sad01;
+爱音:……
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -motion=nnf_right01 -expression=sad01;
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=sad01 -expression=sad01;
+立希:那个，抱歉，我……我只是…… -fontSize=default;
+爱音:……不 -fontSize=default;
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=nf01 -expression=sad02;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -next -motion=nf01 -expression=sad04;
+爱音:立希并没有说错什么
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -next -motion=kandou01 -expression=sad04;
+灯:小爱音……
+setTransform:{"position":{"x":200,"y":-400}, "alpha":1} -target=tomori -duration=1000 -next;
+setTransform:{"position":{"x":-800,"y":-100}} -target=taki -duration=1000 -next;
+setTransform:{"alpha":0} -target=black -duration=1000 -next;
+爱音:小灯，我…… -fontSize=default;
+playEffect:效果音/椅子に座る3.mp3 -volume=60;
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=surprised01 -expression=sad02;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -next -motion=surprised01 -expression=sad04;
+setTransform:{"position":{"x":200,"y":-300},"blur":5} -target=tomori -duration=300 -next;
+setTransform:{"position":{"x":-800,"y":100},"blur":5} -target=taki -duration=300;
+playEffect:效果音/急促脚步跑远_木地板.mp3 -volume=30;
+setTransform:{"position":{"x":-400,"y":-100},"scale":{"x":1.6,"y":1.6},"alpha":0,"blur":20,"rgbFilm":1} -target=bg-main -duration=1000 -next;
+setTransform:{"position":{"x":-2000,"y":-300},"blur":30} -target=tomori -duration=1000 -next;
+setTransform:{"position":{"x":-2800,"y":100},"alpha":0,"blur":30} -target=taki -duration=1000 -next;
+爱音:抱歉！我先走了
+:
+changeFigure: -id=tomori -next
+changeFigure: -id=taki -next
+changeBg: -next;
+:我真差劲
+:说什么要抓住机会，证明自己
+:结果……还是控制不住想要逃
+playEffect:效果音/撞镜子.mp3 -volume=20;
+changeBg:CG/爱音逃跑.png -transform={"alpha":0};
+setTransform:{"position":{"x":0,"y":-0},"scale":{"x":1,"y":1},"blur":0,"rgbFilm":0} -target=bg-main -duration=1500 -next;
+:
+:推开门——正巧迎面碰上门外的素世
+素世:咦？小爱音？ -素世/愛音ちゃん……？（爱音）.mp3 -volume=15 -fontSize=default;
+爱音:……！！！ -fontSize=default;
+setTransform:{"position":{"x":0,"y":-0},"scale":{"x":1,"y":1},"blur":0,"rgbFilm":1, "alpha":0} -target=bg-main -duration=1000;
+playEffect:效果音/急促脚步跑远_木地板.mp3 -volume=30;
+:一瞬间，身体仿佛不受控制似地狂奔起来
+:被抛在身后的素世，叫了我的名字好几次，想必她很困惑吧
+playEffect:效果音/急促脚步跑远_木地板.mp3 -volume=20;
+:但是……她越这样叫我，我的脚步就越发急促
+:……我不敢面对她
+:……我不敢面对……我自己
+playEffect:效果音/急促脚步跑远_木地板.mp3 -volume=10;
+bgm:広がる不安-前奏部分.mp3 -volume=5;
+:我害怕失败……我害怕再一次失败……
+:所以……只要在再次失败之前逃掉，大概就好了吧——
+？？？:咦？……千早？
+？？？:真的耶！真的是千早呢！
+爱音:……诶？
+changeBg:特殊意义场景/东池袋公园.png -transform={"alpha":0};
+setTransform:{"position":{"x":0,"y":-0},"scale":{"x":1,"y":1},"blur":0,"rgbFilm":0} -target=bg-main -duration=500 -next;
+:回过神来，就已经逃到了外面的公园。然而面前出现的两人却令我如坠冰窖
+:我初中时的同学
+changeBg:过场/爱音破防二人组.png;
+:我最不想见到——我此时最不想见到的人
+初中同学A:真的好久不见了呢？
+初中同学B:英国怎么样？那边已经放假了吗——咦？
+bgm: -volume=5 -enter=2000;
+初中同学B:诶？这套校服是……羽丘的校服……？ -fontSize=default;
+初中同学A:你不是……去留学了吗？ -fontSize=default;
+playEffect:效果音/02_音乐切片/広がる不安-爆发部分.mp3 -volume=10;
+changeBg:过场/爱音破防二人组_2.png -next -transform={"scale":{"x":1.3,"y":1.3}};
+爱音:那个，我……是因为……
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1,"y":1},"alpha":0.6,"blur":20,"rgbFilm":1} -target=bg-main -duration=5000 -next;
+:无处可藏
+:无路可逃
+:声音和大脑都已经不受控制了
+:曾经逃避的一切，仿佛从过去一跃而起
+:如猛兽般扑来，向我所剩无几的意志大口咬下
+:感觉几乎无法站立——不，大概只是残存在这具肉体内的本能，仍在恪尽职守
+setTransform:{"position":{"x":0,"y":-200},"scale":{"x":1,"y":1},"alpha":0,"blur":20,"rgbFilm":1} -target=bg-main -duration=5000 -next;
+:然而，在已然濒临崩溃的精神面前，这种本能又能支撑多久呢——
+素世:啊~小爱音在这里呀
+changeBg:CG/素世公园救场_01.png -transform={"position":{"x":-1150,"y":-200},"alpha":0};
+setTransform:{"position":{"x":-1150,"y":0},"alpha":1,"blur":0} -target=bg-main -duration=500 -next;
+playEffect:效果音/布料_结束.mp3 -volume=20;
+:手心突然一暖，仿佛刺入了一支火炬，将那头猛兽吓得退入黑暗之中
+初中同学A:咦？那个，请问你是——
+bgm:冬日.mp3 -volume=20;
+setTransform:{"position":{"x":1280,"y":0},"alpha":1,"blur":0} -target=bg-main -duration=1000 -next;
+素世:你们好~我是小爱音的队友
+初中同学B:队友……诶？是指乐队的队友吗？
+初中同学A:原来千早还在继续玩乐队呀！
+changeBg:CG/素世公园救场_02.png -next -transform={"position":{"x":1280,"y":0}};
+素世:是哟~我家的小爱音，吉他水平很棒哦！
+初中同学B:诶~好厉害~
+setTransform:{"position":{"x":1480,"y":0},"scale":{"x":1.1,"y":1.1}} -target=bg-main -duration=1000 -next;
+:说话间，素世同时手上用力，将我向她拉近
+changeBg:CG/素世公园救场_03.png -next -transform={"position":{"x":1480,"y":0},"scale":{"x":1.1,"y":1.1}};
+:并向我递了个眼色 -fontSize=default;
+:于是我又清醒了几分，赶紧强迫自己调匀呼吸，从心底拾起那张掉落的微笑面具
+setTransform:{"position":{"x":-1150,"y":0},"scale":{"x":1,"y":1}} -target=bg-main -duration=2000;
+爱音:嗯嗯~那个……有些比较复杂的原因啦，总之，我又回到羽丘读书了
+素世:搞不好，小爱音是因为舍不得乐队的大家哦~
+爱音:……啊哈哈，别直接这样说嘛，怪难为情的
+初中同学A:原来如此啊~居然因为这个原因放弃了留学……
+初中同学B:不愧是千早！很重视伙伴呢……
+素世:不好意思，其实，我们待会儿还有点事…… -fontSize=default;
+初中同学A:啊！耽误你们很抱歉，那下次见！
+初中同学B:乐队要加油哦！千早！
+爱音:啊哈哈……下次见！
+bgm: -volume=20 -enter=2000;
+changeBg: ;
+playEffect:效果音/普通走路过场.mp3 -volume=20;
+:素世立即将我向另一个方向带去，很快从那种气氛中脱离 -fontSize=default;
+:总算是……得救了 -fontSize=default;
+playEffect:效果音/普通走路过场.mp3 -volume=20;
+:不过，即使已经走了好一段距离，素世还是没有放开我的手
+爱音:——那个，素世，我们这是要去哪儿？ -fontSize=default;
+素世:…… -fontSize=default;
+素世:……跟我来就好
+:
+choose:空之森水族馆:C02S02_Scene05.txt;

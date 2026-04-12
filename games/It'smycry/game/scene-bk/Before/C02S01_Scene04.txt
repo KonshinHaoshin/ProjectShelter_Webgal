@@ -1,0 +1,321 @@
+爱音:那个~高松同学——啊呀！
+setTextbox:on;
+灯:啊！你跌倒了！
+爱音:没事没事……
+爱音:痛痛痛……
+灯:创可贴……创可贴……
+爱音:诶？等一下……
+setTextbox:hide -next;
+: -fontSize=default;
+setTextbox:on;
+bgm:日常嘟嘟嘟.mp3 -volume=20;
+changeBg:羽丘内.png -next;
+:小灯一下跑没影了，看着被她留在一旁的两大袋垃圾，我一时有点摸不着头脑
+:这就是羽丘的小天然妹吗……
+setTextbox:hide -next;
+: -fontSize=default;
+setTextbox:on;
+playEffect:效果音/普通走路过场.mp3 -volume=40;
+changeBg:羽丘楼梯间.png;
+爱音:喂~小灯？你在哪里？
+爱音:垃圾我帮你丢掉了噢~小灯？
+playEffect:效果音/普通走路过场.mp3 -volume=40;
+changeBg:部活走廊.png;
+:不知不觉来到了最上面一层，放眼整个走廊，可以看到不少杂物，大部分房间是社团活动室
+:现在不是活动时间，楼内一片寂静，只有天文部的部室开着门，里面传来窸窸窣窣的响声
+playEffect:效果音/普通走路过场.mp3 -volume=40;
+changeBg:天文部.png -next;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -transform={"position":{"y":-300}} -motion=nf_right01 -expression=idle;
+:于是我走到门前向里张望——果不其然灯在里面，正翻找着什么东西
+爱音:高松同学？
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -transform={"position":{"y":-300}} -next -motion=nf02 -expression=idle;
+灯:你想用哪一个？
+changeFigure: -id=tomori -next;
+changeBg:过场/创可贴盒.png -next;
+:她双手向我捧出一个盒子，里面琳琅满目，是各种图案的创可贴
+爱音:……好厉害，这里面全都是创可贴吗？我可以用吗？
+:看到灯微微地点了点头，我把目光投回盒内，一眼便相中了最上面企鹅图案的一款
+changeBg:天文部.png -next;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -transform={"position":{"y":-300}} -next -motion=nf02 -expression=idle;
+爱音:哇~我喜欢企鹅——
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -transform={"position":{"y":-300}} -next -motion=nf02 -expression=smile01;
+灯:——是纹颊企鹅！
+爱音:……胡须？
+setTransform:{"position":{"x":-300,"y":-400},"scale":{"x":1.2,"y":1.2},"alpha":1} -target=tomori -duration=500 -next;
+灯:嗯嗯，你看……
+:灯如数家珍地向我介绍起企鹅的品种来，而且每说一个品种，她都能指出对应的创可贴
+爱音:呃，高松同学也喜欢企鹅吗？
+setTransform:{"position":{"x":0,"y":-300},"scale":{"x":1,"y":1},"alpha":1} -target=tomori -duration=1000 -next;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -transform={"position":{"y":-300}} -next -motion=nf03 -expression=sad01;
+灯:……嗯，我觉得它们……很可爱
+爱音:啊~好像也能懂
+爱音:我碰到可爱的文具什么的，也会忍不住想买
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -transform={"position":{"y":-300}} -next -motion=nf02 -expression=kandou01;
+setTransform:{"position":{"x":-300,"y":-400},"scale":{"x":1.2,"y":1.2},"alpha":1} -target=tomori -duration=500 -next;
+灯:这样吗！那——
+:灯的眼睛一下亮了起来，她从盒子里又挑出好几个创可贴递向我
+灯:——这里还有斑嘴环企鹅和冠企鹅，还有帝企鹅的……
+爱音:那个，我一下也用不了这么多了啦
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -transform={"position":{"y":-300}} -motion=nf04 -expression=sad01;
+爱音:……
+爱音:好吧，那我就先收下吧
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -transform={"position":{"y":-300}} -next -motion=nf02 -expression=smile01;
+:毕竟拒绝的时候……灯露出的那种落寞表情，我根本无法抵抗
+changeFigure: -id=tomori -next;
+changeBg:none -next;
+playEffect:效果音/布料_搜索.mp3 -volume=20;
+setTextbox:hide -next;
+: -fontSize=default;
+setTextbox:on;
+changeBg:天文部.png;
+:在沙发上贴好创可贴后，我环顾整个房间。虽说是天文部，天文海报之间却又夹杂着一些乐队海报
+爱音:呃，这些是……
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -transform={"position":{"y":-300}} -next -motion=nf02 -expression=smile01;
+灯:之前的部长好像很喜欢……给，这是之前部员们的笔记本
+:翻开笔记，上面是一些观测日记之类的——“一片非常噜的星空”又是什么东西？
+:总觉得没什么有意思的……于是我合上笔记，接着注意到桌面上有另一本绿色封皮的笔记
+爱音:啊，这种笔记本—— -fontSize=default;
+playEffect:效果音/普通走路过场.mp3 -volume=30;
+setTransform:{"position":{"x":-2200,"y":-400},"scale":{"x":1.2,"y":1.2},"alpha":1} -target=tomori -duration=1500 -next;
+changeBg:  -next;
+:走过去一看，上面是令人怀念的品红色花朵图案
+爱音:好怀念……我小学的时候也有用过——
+changeBg:过场/春日影.png -next;
+爱音:——嗯？《春日影》……这是，乐谱？
+灯:啊！那个是……我们乐队的原创曲
+爱音:诶？原来灯有在玩乐队吗？
+灯:嗯，有的，我有乐队
+爱音:这样嘛……好可惜……其实，本来我想邀请高松同学一起组乐队的……
+changeBg:天文部.png -next;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -transform={"position":{"y":-300}} -next -motion=nf02 -expression=kandou01;
+setTransform:{"position":{"x":-400,"y":-500},"scale":{"x":1.3,"y":1.3},"alpha":1} -target=tomori -duration=1000 -next;
+:一瞬间有些失落，然而灯却立即变得热情高涨，她一下握住我的双手
+灯:原来如此！千早同学……小爱音，也对乐队有兴趣吗？
+爱音:诶？确实是有——
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -transform={"position":{"y":-300}} -next -motion=kandou01 -expression=smile04;
+灯:这样吗？
+:称呼立即超进化了。灯滔滔不绝地说起来，以至于我根本没有空作出情绪反应
+灯:——那个，我们的乐队很棒的，大家都很温柔。我从初三开始就在乐队里了，平时大家也会聚在一起练习，虽然最近因为一些原因活动时间少了点，但是每次练习大家都会很努力—— -fontSize=small;
+——啊对了，乐队里有sakijan、takijan、soyomama，还有mutsumijan，还有ranajan……啊，ranajan大概不算，我也不是很清楚，但是ranajan她也经常来和我们在一起，所以—— -fontSize=small;
+:语速有点太快了，以至于根本听不清她在说啥……完全不像是我认知中的灯能达到的速度 -fontSize=medium;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -transform={"position":{"y":-300}} -next -motion=nf02 -expression=smile04;
+:最后，一锤定音——她郑重地看向我的双眼，向我说道
+灯:小爱音，来参观我们的乐队吧！
+bgm: -volume=20 -enter=1000;
+changeBg: -next;
+changeFigure: -id=tomori -next;
+setTextbox:hide -next;
+: -fontSize=default;
+setTextbox:on;
+
+bgm:午后.mp3 -volume=20;
+changeBg:ring咖啡店黄昏.png -next -transform={"scale":{"x":1.2,"y":1.2}};
+:——这就是我坐在这里的原因
+:这里是RiNG，早上从同班女生口中得知的Livehouse
+:比我意料之中的要大很多，占据了街角的整个建筑，这间咖啡馆也不过只是二楼的铺面之一
+:说到咖啡馆，自然就想到彬彬有礼的店员和香喷喷的咖啡
+:然而——
+changeFigure:mygo_avemujica_v5/taki/040_arbeit_rip/model.json -id=taki -transform={"position":{"x":500,"y":-300}} -next -motion=idle01 -expression=serious01;
+setTransform:{"position":{"x":700,"y":-500}} -target=taki -duration=1000 -next;
+立希:……我是椎名立希。初次见面，千 早 爱 音 同 学
+:……？
+:不知道是不是错觉，这位椎名立希似乎在生气……板着的脸上看不出一丝的服务精神
+:刚刚得知她的名字，看起来是灯的朋友，但除此之外，我就对她一无所知了
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -transform={"position":{"x":0,"y":-200},"scale":{"x":0.9,"y":0.9},"alpha":0} -motion=idle01 -expression=smile01;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":0.9,"y":0.9},"alpha":1} -target=tomori -duration=1000 -next;
+:还在想怎么回事，刚刚不知跑出去做什么的灯，就坐到了我对面
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -transform={"position":{"x":0,"y":-200},"scale":{"x":0.9,"y":0.9},"alpha":0} -motion=nf_right01 -expression=smile01;
+灯:那个，小立希，麻烦和之前一样的 -fontSize=default;
+changeFigure:mygo_avemujica_v5/taki/040_arbeit_rip/model.json -id=taki -transform={"position":{"x":500,"y":-300}} -next -motion=nf_left01 -expression=smile02;
+setTransform:{"position":{"x":500,"y":-400}, "scale":{"x":0.9,"y":0.9}} -target=taki -duration=1000 -next;
+立希:好的，摩卡咖啡一杯。
+setTransform:{"position":{"x":700,"y":-500}, "scale":{"x":1,"y":1}} -target=taki -duration=1000 -next;
+changeFigure:mygo_avemujica_v5/taki/040_arbeit_rip/model.json -id=taki -transform={"position":{"x":500,"y":-300}} -next -motion=idle01 -expression=serious01;
+立希: 那么千 早 爱 音 同 学呢？
+爱音:呃……我可以再看看菜单吗
+立希:你看好了叫我
+setTransform:{"position":{"x":2000,"y":-300},"scale":{"x":0.8,"y":0.8}} -target=taki -duration=1000 -next;
+:她撂下这句话，直接就回柜台后边去了。好吧，显然不是错觉
+:本来我还以为，是立希不喜欢灯……然而很明显不是
+:所以大概是我哪里惹到她了……？但我们明明才刚见面，话都没说上几句……
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -transform={"position":{"x":0,"y":-200},"scale":{"x":0.9,"y":0.9},"alpha":0} -next -motion=surprised01 -expression=surprised01;
+？？？:啊——是小灯和千早同学
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -transform={"position":{"x":0,"y":-200},"scale":{"x":0.9,"y":0.9},"alpha":0} -next -motion=nf_left01 -expression=smile01;
+changeFigure:mygo_avemujica_v5/soyoWW/039_hnok_school_winter-2023_rip/model.json -id=soyo -transform={"position":{"x":-1800,"y":-300},"alpha":1} -next -motion=idle01 -expression=smile01;
+爱音:啊！是昨天中午，在吹奏部的……
+？？？:长崎素世 -fontSize=default;
+setTransform:{"position":{"x":-1000,"y":-300},"scale":{"x":1.1,"y":1.1}} -target=soyo -duration=2000 -next;
+:来人与灯相互点头致意，然后她走到我们桌旁，从我和灯之间拖出椅子
+playEffect:效果音/椅子に座る3.mp3 -volume=100;
+素世:又见面了，千早同学——叫我素世就可以
+:我突然颇有些感激涕零
+:毕竟——先是情绪大起大落的灯，接着是莫名有些敌意的立希
+:比起这两人，名为长崎素世的少女及时出现，加上这种镇定自若的气场……
+:有种……终于碰到了常识人的感觉
+:素世同学，帮大忙了！ -fontSize=default;
+爱音:那……也请叫我爱音就好 -fontSize=default;
+changeFigure:mygo_avemujica_v5/soyoWW/039_hnok_school_winter-2023_rip/model.json -id=soyo -transform={"position":{"x":-1800,"y":-300},"alpha":1} -next -motion=nf_right01 -expression=smile01;
+素世:嗯。小立希在的吧？麻烦点单
+立希:在做灯的摩卡咖啡，直接告诉我要什么吧 -fontSize=small;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -transform={"position":{"x":0,"y":-200},"scale":{"x":0.9,"y":0.9},"alpha":0} -next -motion=nf_right01 -expression=smile01;
+素世:好，那和之前一样——爱音同学，要喝和我一样的吗？ -fontSize=medium;
+爱音:和素世一样的是指？
+changeFigure:mygo_avemujica_v5/soyoWW/039_hnok_school_winter-2023_rip/model.json -id=soyo -transform={"position":{"x":-1800,"y":-300},"alpha":1} -next -motion=smile01 -expression=smile01;
+素世:热伯爵红茶
+爱音:啊，好棒~那我也一样吧
+素世:和我之前一样的，两杯
+changeFigure:mygo_avemujica_v5/soyoWW/039_hnok_school_winter-2023_rip/model.json -id=soyo -transform={"position":{"x":-1800,"y":-300},"alpha":1} -next -motion=nf_right01 -expression=idle01;
+立希:行，热伯爵红茶两杯 -fontSize=small;
+changeFigure:mygo_avemujica_v5/soyoWW/039_hnok_school_winter-2023_rip/model.json -id=soyo -transform={"position":{"x":-1800,"y":-300},"alpha":1} -next -motion=angry01 -expression=ando01;
+setTransform:{"position":{"x":-1000,"y":-150},"scale":{"x":1.1,"y":1.1}} -target=soyo -duration=2000 -next;
+:素世点完单便坐下了，她倚在椅背上，似乎有点心不在焉 -fontSize=medium;
+素世:爱音同学来这里做什么呢？ -fontSize=default;
+爱音:啊，我——
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -transform={"position":{"x":0,"y":-200},"scale":{"x":0.9,"y":0.9},"alpha":0} -next -motion=nf_left01 -expression=smile01;
+灯:小爱音，对乐队很有兴趣
+灯:今天我们正好有练习，所以，我就带她来参观了
+素世:这样吗……
+:虽然在回应灯，但不知为什么，素世似乎谁都没在看着，只是盯着空空的桌面发呆
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -transform={"position":{"x":0,"y":-200},"scale":{"x":0.9,"y":0.9},"alpha":0} -next -motion=nf_left01 -expression=idle;
+灯:那个，小素世……今天，小祥会来吗？ -fontSize=default;
+changeFigure:mygo_avemujica_v5/soyoWW/039_hnok_school_winter-2023_rip/model.json -id=soyo -transform={"position":{"x":-1800,"y":-300},"alpha":1} -next -motion=nf_right01 -expression=smile01;
+:不过，在灯提到“小祥”时，素世立即转向了她 -fontSize=default;
+素世:抱歉呢小灯，今天小祥和小睦都来不了
+素世:不过没关系，之前小祥给我们发了录音的
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -transform={"position":{"x":0,"y":-200},"scale":{"x":0.9,"y":0.9},"alpha":0} -next -motion=sad01 -expression=sad01;
+:小祥？是指……丰川祥子吗？也就是，在昨天中午，吹奏部教室里一同遇到的……淡蓝色长发的那位少女……
+:……原来如此，这样看来，她们大概都是同一个乐队的吧
+:而且，从昨天中午那种气氛来看，素世和祥子的关系，应该非常好
+:一边想着，一边望向灯——果不其然她又变得有些消沉起来
+素世:……
+素世:小灯，即使祥子暂时不在，大家也要一起加油哦~
+素世:毕竟Crychic对大家来说，都非常重要呢
+爱音:那个……素世…… -fontSize=default;
+changeFigure:mygo_avemujica_v5/soyoWW/039_hnok_school_winter-2023_rip/model.json -id=soyo -transform={"position":{"x":-1800,"y":-300},"alpha":1} -next -motion=idle01 -expression=ando01;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -transform={"position":{"x":0,"y":-200},"scale":{"x":0.9,"y":0.9},"alpha":0} -next -motion=idle01 -expression=surprised01;
+:我举起手，插入两人的对话
+爱音:……之前就有点好奇，“Crysick”……到底是什么呢？ -fontSize=default;
+素世:是我们乐队的名字。Cry，和Chic，C H I C。是呐喊，与优雅的意思
+爱音:……这样吗
+:看来……因为片假名的缘故，我对乐队名产生了误解
+素世:对了，之前在活动室的时候，小爱音提到过自己刚转学过来……也就是说，还没有参加任何社团吧
+爱音:是的，说起这个，我本来其实是想——
+bgm: -volume=20 -enter=1000;
+changeFigure:mygo_avemujica_v5/soyoWW/039_hnok_school_winter-2023_rip/model.json -id=soyo -transform={"position":{"x":-1800,"y":-300},"alpha":1} -next -motion=serious01 -expression=smile01;
+素世:——那，小爱音要不要加入我们？
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -transform={"position":{"x":0,"y":-200},"scale":{"x":0.9,"y":0.9}} -next -motion=nnf_left01 -expression=surprised01;
+changeFigure:mygo_avemujica_v5/taki/040_arbeit_rip/model.json -id=taki -transform={"position":{"x":800,"y":-500},"scale":{"x":1.1,"y":1.1},"alpha":1} -next -motion=nf_left01 -expression=surprised02;
+setTransform:{"position":{"x":800,"y":-500},"scale":{"x":1.1,"y":1.1},"alpha":1} -target=taki -duration=500 -next;
+灯、爱音、立希:诶？/哈？？？ -立希/は？（单哈, 不爽）.mp3 -volume=40 -fontSize=default;
+:……似乎三个人里面最最吃惊的，反而是刚端着托盘走到我身边的立希
+:不如说，看得出来她十分动摇，突然就停下了脚步，以至于大家的饮料都在托盘上洒出来了一点 -fontSize=default;
+立希:你……突然说什么啊？
+立希:什么叫“加入Crychic怎么样”？突然就邀请这种女人加入吗？
+setTransform:{"position":{"x":-250},"scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=500 -next;
+setTransform:{"position":{"x":-1250,"y":-150},"scale":{"x":1.1,"y":1.1},"blur":10} -target=soyo -duration=500 -next;
+setTransform:{"position":{"x":-250,"y":0},"scale":{"x":0.9,"y":0.9},"blur":10} -target=tomori -duration=500 -next;
+setTransform:{"position":{"x":550,"y":-500},"scale":{"x":1.1,"y":1.1},"alpha":1} -target=taki -duration=500 -next;
+changeFigure:mygo_avemujica_v5/taki/040_arbeit_rip/model.json -id=taki -transform={"position":{"x":800,"y":-500},"scale":{"x":1.1,"y":1.1}} -next -motion=idle01 -expression=angry01;
+爱音:喂
+:什么叫这种女人
+bgm:思考する眼球.mp3 -volume=20 -enter=1000;
+:作为回报，我干脆直接瞪向立希。果不其然这家伙也瞪着我，于是开始对峙 -fontSize=default;
+changeFigure:mygo_avemujica_v5/soyoWW/039_hnok_school_winter-2023_rip/model.json -id=soyo -transform={"position":{"x":-1800,"y":-300},"alpha":1} -next -motion=angry01 -expression=ando01;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -transform={"position":{"x":0,"y":-200},"scale":{"x":0.9,"y":0.9}} -next -motion=surprised01 -expression=surprised01;
+立希:先不说我们，就算是灯，也和这个女人才认识没多久吧？我们还一点都不了解她，怎么能随便…… -fontSize=default;
+:好好好，你莫名其妙对我产生了敌意，而且毫不掩饰地展现给我看，我已经完全了解了
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -transform={"position":{"x":0,"y":-200},"scale":{"x":0.9,"y":0.9}} -next -motion=sad01 -expression=sad02;
+灯:……抱歉
+setTransform:{"position":{"x":-250,"y":0},"scale":{"x":0.9,"y":0.9},"blur":0} -target=tomori -duration=500 -next;
+灯:是我擅自……把小爱音带过来的…… -fontSize=default;
+changeFigure:mygo_avemujica_v5/taki/040_arbeit_rip/model.json -id=taki -transform={"position":{"x":800,"y":-500},"scale":{"x":1.1,"y":1.1}} -next -motion=nf_left01 -expression=sad01;
+立希:啊不是……我不是在责怪灯……
+:……是我胜利了吗？不对，感觉是因为这家伙十分顾虑灯才……
+setTransform:{"position":{"x":-0},"scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=500 -next;
+setTransform:{"position":{"x":-1000,"y":-150},"scale":{"x":1.1,"y":1.1}, "blur":0} -target=soyo -duration=500 -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":0.9,"y":0.9}} -target=tomori -duration=500 -next;
+setTransform:{"position":{"x":800,"y":-500},"scale":{"x":1.1,"y":1.1},"alpha":1} -target=taki -duration=500 -next;
+:可恶，总感觉很不甘心
+changeFigure:mygo_avemujica_v5/taki/040_arbeit_rip/model.json -id=taki -transform={"position":{"x":800,"y":-500},"scale":{"x":1.1,"y":1.1}} -next -motion=sigh02 -expression=sigh01;
+bgm:none -volume=20 -enter=1000;
+立希:唉，总而言之——
+setTransform:{"position":{"x":500,"y":-400}, "scale":{"x":0.9,"y":0.9}} -target=taki -duration=1000;
+playEffect:效果音/グラスを置く.mp3 -volume=40;
+setTransform:{"position":{"x":600,"y":-500},"scale":{"x":1.1,"y":1.1}} -target=taki -duration=1000;
+playEffect:效果音/グラスを置く.mp3 -volume=40;
+changeFigure:mygo_avemujica_v5/taki/040_arbeit_rip/model.json -id=taki -transform={"position":{"x":800,"y":-500},"scale":{"x":1.1,"y":1.1}} -next -motion=angry04 -expression=angry04;
+setTransform:{"position":{"x":400,"y":-700},"scale":{"x":1.4,"y":1.4}} -target=taki -duration=700;
+playEffect:效果音/コーヒーのソーサーを置く.mp3 -volume=100;
+setTransform:{"position":{"x":400,"y":-700},"scale":{"x":1.4,"y":1.4}} -target=taki -duration=700;
+setTransform:{"position":{"x":2000,"y":-500},"scale":{"x":1.1,"y":1.1}} -target=taki -duration=1000;
+:真令人不爽
+setTransform:{"position":{"x":600,"y":-500},"scale":{"x":1.1,"y":1.1}} -target=taki -duration=1000;
+setTransform:{"position":{"x":600,"y":-180},"scale":{"x":1.1,"y":1.1}} -target=taki -duration=1000 -next;
+playEffect:效果音/椅子に座る3.mp3 -volume=100;
+:本来以为这家伙终于上完饮料走人了 | 没想到她转回柜台后，居然端着一杯冰水又回到桌旁，扯出最后一张椅子坐了下来
+bgm:优雅.mp3 -volume=20 -enter=1000;
+立希:——再怎么说，我也是乐队的一员啊。这种事，不应该大家一起商量好吗？
+:啊？
+:不行不行……本来惊讶之余还真的有兴趣。毕竟从一开始，我就是想和灯组乐队来着
+:但一想到加入乐队后，要和立希这家伙相处……多少就有点打退堂鼓了
+:虽然有点可惜，要不就……先拒绝掉？
+爱音:那个……其实我也不是那么……
+changeFigure:mygo_avemujica_v5/soyoWW/039_hnok_school_winter-2023_rip/model.json -id=soyo -transform={"position":{"x":-1800,"y":-300},"alpha":1} -next -motion=nnf_right01 -expression=smile01;
+素世:关于招新这件事，之前我和祥子商量过了——首先，我、祥子、睦，都很难保证时常就位
+素世:我是贝斯手，没有我也还勉勉强强。但键盘和吉他经常不在，乐队的活动就很难展开了
+changeFigure:mygo_avemujica_v5/taki/040_arbeit_rip/model.json -id=taki -transform={"position":{"x":800,"y":-500},"scale":{"x":1.1,"y":1.1}} -next -motion=nf_left01 -expression=angry01;
+立希:……虽然确实是这样……
+立希:不过，小乐奈她有时候也——
+素世:小乐奈过于自由，立希现在根本没法找到她吧？
+changeFigure:mygo_avemujica_v5/taki/040_arbeit_rip/model.json -id=taki -transform={"position":{"x":800,"y":-500},"scale":{"x":1.1,"y":1.1}} -next -motion=sigh02 -expression=sigh02;
+素世:灯怎么看呢？ -fontSize=default;
+changeFigure:mygo_avemujica_v5/taki/040_arbeit_rip/model.json -id=taki -transform={"position":{"x":800,"y":-500},"scale":{"x":1.1,"y":1.1}} -next -motion=nf_left01 -expression=sigh02;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -transform={"position":{"x":0,"y":-200},"scale":{"x":0.9,"y":0.9}} -next -motion=nnf_left01 -expression=surprised01;
+灯:……诶？我的看法……吗？
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -transform={"position":{"x":0,"y":-200},"scale":{"x":0.9,"y":0.9}} -next -motion=idle01 -expression=idle;
+灯:那个，那个……小爱音如果能成为新同伴的话……
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -transform={"position":{"x":0,"y":-200},"scale":{"x":0.9,"y":0.9}} -next -motion=shame02 -expression=idle;
+changeFigure:mygo_avemujica_v5/taki/040_arbeit_rip/model.json -id=taki -transform={"position":{"x":800,"y":-500},"scale":{"x":1.1,"y":1.1}} -next -motion=nf_left01 -expression=surprised01;
+灯:……我也……挺高兴的……
+changeFigure:mygo_avemujica_v5/taki/040_arbeit_rip/model.json -id=taki -transform={"position":{"x":800,"y":-500},"scale":{"x":1.1,"y":1.1}} -next -motion=sigh02 -expression=sigh02;
+立希:……
+changeFigure:mygo_avemujica_v5/soyoWW/039_hnok_school_winter-2023_rip/model.json -id=soyo -transform={"position":{"x":-1800,"y":-300},"alpha":1} -next -motion=angry01 -expression=ando01;
+changeFigure:mygo_avemujica_v5/taki/040_arbeit_rip/model.json -id=taki -transform={"position":{"x":800,"y":-500},"scale":{"x":1.1,"y":1.1}} -next -motion=sigh01 -expression=sigh02;
+立希:……如果灯这么想的话…… -fontSize=default;
+:立希的神情软了下来，虽然还是不情不愿的样子
+:虽然说服对象并不是我，不过素世那种几乎有些斩铁截钉的态度，甚至令我有些害怕
+:以至于早已到嘴边的拒绝，不知什么时候又溜回了肚子里
+setTransform:{"position":{"x":-1000,"y":-250},"scale":{"x":1.2,"y":1.2},"blur":0} -target=soyo -duration=1500 -next;
+changeFigure:mygo_avemujica_v5/soyoWW/039_hnok_school_winter-2023_rip/model.json -id=soyo -transform={"position":{"x":-1800,"y":-300},"alpha":1} -next -motion=nf04 -expression=smile01;
+:此时，素世一边坐直了身子，双手放在桌面上，将整个上半身都侧向我
+:她歪了歪头
+素世:小爱音，怎么想呢？
+:但老实说……如果真的一下就同意入队，还是有点草率
+:毕竟我千早爱音，也是有慎重一面的呀
+爱音:……刚才素世说，经常缺席的……是键盘和吉他吗？
+素世:嗯嗯——爱音擅长的乐器是？
+爱音:呃？姑且是——吉他？
+changeFigure:mygo_avemujica_v5/soyoWW/039_hnok_school_winter-2023_rip/model.json -id=soyo -transform={"position":{"x":-1800,"y":-300},"alpha":1} -next -motion=angry01 -expression=smile01;
+素世:吉他吗？挺好的，这样一来，乐队也可以试试其他形式，比如吉他主唱，双主唱之类的
+爱音:我加入！！！ -fontSize=large;
+:素世同学，LOVE！ -爱音/そよさんラブ（soyo，love！）.mp3 -volume=20 -fontSize=large;
+setTransform:{"position":{"x":-1000,"y":-150},"scale":{"x":1.1,"y":1.1}} -target=soyo -duration=1500 -next;
+changeFigure:mygo_avemujica_v5/soyoWW/039_hnok_school_winter-2023_rip/model.json -id=soyo -transform={"position":{"x":-1800,"y":-300},"alpha":1} -next -motion=smile02 -expression=smile01;
+素世:太好了~那么欢迎小爱音的加入~ -fontSize=medium;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -transform={"position":{"x":0,"y":-200},"scale":{"x":0.9,"y":0.9}} -next -motion=idle01 -expression=smile01;
+灯:欢迎你，小爱音……
+changeFigure:mygo_avemujica_v5/taki/040_arbeit_rip/model.json -id=taki -transform={"position":{"x":800,"y":-500},"scale":{"x":1.1,"y":1.1}} -next -motion=idle01 -expression=sigh01;
+立希:……欢迎
+爱音:诶嘿嘿，谢谢~请大家多多指教哦~ -fontSize=default;
+setTextbox:hide -next;
+bgm: -volume=20 -enter=2000;
+changeFigure:none -id=soyo -next;
+changeFigure:none -id=tomori -next;
+changeFigure:none -id=taki -next;
+changeBg:none -next;
+:……于是，就这样
+setTextbox:on;
+:我，千早爱音，顺利找到了乐队
+:从今天起——正式成为了Crychic的一员
+setTextbox:hide;
+intro:to be continued... -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500 -hold;

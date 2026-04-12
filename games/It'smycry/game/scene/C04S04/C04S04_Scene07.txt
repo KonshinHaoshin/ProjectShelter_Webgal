@@ -1,0 +1,324 @@
+changeFigure:mygo_avemujica_v5/taki/040_casual-2023_rip/model.json -id=taki -transform={"position":{"x":200,"y":-100},"scale":{"x":1,"y":1},"alpha":1} -next -motion=idle01 -expression=idle01;
+changeFigure:mygo_avemujica_v5/tomoli/036_casual-2023_rip/model.json -id=tmr -transform={"position":{"x":900,"y":-100},"scale":{"x":1,"y":1},"alpha":1} -next -motion=idle01 -expression=idle;
+changeFigure:mygo_avemujica_v5/mutsumi/338_casual-2023_rip/model.json -id=muts -transform={"position":{"x":-2000,"y":-300},"scale":{"x":1,"y":1},"alpha":1} -next -motion=nnf_right01 -expression=idle;
+changeBg:普通背景/咖啡馆.png -next -transform={"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2}};
+changeFigure:none.png -id=black -next;
+changeFigure:black.png -id=black -transform={"alpha":1} -next;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1 -next;
+:还没走进咖啡馆，就隔着玻璃见到了灯和立希
+:她们坐在那里，就连位置都一模一样——恍然间，自己如同回到了数月前，组建Crychic的那一刻
+:先是一阵久别重逢的欣喜涌上心头
+:接着，丝丝的愧疚与不安慢慢缠绕上来
+:当初说“请给我一点时间”的时候，多多少少算是场面话，只是为了尽快脱身的权宜之计 -fontSize=default;
+:再然后，将自己投入那种忙碌的新生活中，没能注意到时光飞逝
+:直到现在，蓦然回首，真的选择了重新面对这一切、重新面对她们
+:只希望……一切都还来得及
+playEffect:1_效果音/01_常用效果音/shop_door_bell_openclose.wav -volume=40;
+bgm:优雅.mp3 -volume=60;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+:我鼓起勇气，推开咖啡馆的门，悦耳的铃铛声在耳边响起
+祥子:好久不见，灯，立希
+灯:啊！好久……不……
+立希:……好久不见，祥子
+:灯的声音有些发抖，直到我坐下为止都一直盯着我，立希则皱着眉头
+祥子:睦刚刚告诉我她快到了
+祥子:不过，素世一直没有回消息呢……她到了吗？有和你们联系吗？
+changeFigure:mygo_avemujica_v5/taki/040_casual-2023_rip/model.json -id=taki -next -motion=nf_right01 -expression=sad01;
+changeFigure:mygo_avemujica_v5/tomoli/036_casual-2023_rip/model.json -id=tmr -next -motion=nf_left01 -expression=sad01;
+:
+:不知为何，立希和灯面面相觑
+changeFigure:mygo_avemujica_v5/taki/040_casual-2023_rip/model.json -id=taki -next -motion=nf01 -expression=sad01;
+changeFigure:mygo_avemujica_v5/tomoli/036_casual-2023_rip/model.json -id=tmr -next -motion=nf02 -expression=sad01;
+立希:……没到呢
+祥子:诶——那，大家最近，有联系过素世吗？ -fontSize=default;
+立希:……没有
+changeFigure:mygo_avemujica_v5/tomoli/036_casual-2023_rip/model.json -id=tmr -next -motion=nf_right01 -expression=sad01;
+灯:我……也没有
+立希:确实好久……没有素世的消息了
+祥子:毕竟大家不同校呢
+祥子:说起来，睦和素世都在月之森，我之前有问过她关于素世的情况
+祥子:记得她说，素世挺好，和之前一样来着
+changeFigure:mygo_avemujica_v5/taki/040_casual-2023_rip/model.json -id=taki -next -motion=surprised01 -expression=sad01;
+立希:呃……这样……吗？
+changeFigure:mygo_avemujica_v5/taki/040_casual-2023_rip/model.json -id=taki -next -motion=nf03 -expression=sad01;
+changeFigure:mygo_avemujica_v5/tomoli/036_casual-2023_rip/model.json -id=tmr -next -motion=nf03 -expression=sad01;
+立希:……说起来还挺惊讶的，祥子你居然直接在乐队群聊里约人
+立希:群里都有两个多月没人说话了吧……
+祥子:这个……
+祥子:毕竟……毕竟Crychic，并没有解散呢……
+changeFigure:mygo_avemujica_v5/taki/040_casual-2023_rip/model.json -id=taki -next -motion=nnf04 -expression=surprised01;
+changeFigure:mygo_avemujica_v5/tomoli/036_casual-2023_rip/model.json -id=tmr -next -motion=nnf04 -expression=surprised01;
+:这话一出口，灯和立希的眼睛都亮了一下 -fontSize=default;
+灯:……小祥，也这样觉得吗？
+祥子:……嗯
+:稍微犹豫了一会儿，还是决定先道歉
+setTransform:{"position":{"x":200,"y":100},"scale":{"x":1,"y":1},"alpha":1} -target=taki -duration=1000 -next;
+setTransform:{"position":{"x":900,"y":100},"scale":{"x":1,"y":1},"alpha":1} -target=tmr -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":100},"scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=1000 -next;
+: -fontSize=default;
+changeFigure:mygo_avemujica_v5/taki/040_casual-2023_rip/model.json -id=taki -next -motion=surprised01 -expression=surprised01;
+changeFigure:mygo_avemujica_v5/tomoli/036_casual-2023_rip/model.json -id=tmr -next -motion=surprised01 -expression=surprised01;
+setTransform:{"position":{"x":200,"y":-200},"scale":{"x":1,"y":1},"alpha":1} -target=taki -duration=500 -next;
+setTransform:{"position":{"x":900,"y":-200},"scale":{"x":1,"y":1},"alpha":1} -target=tmr -duration=500 -next;
+setTransform:{"position":{"x":0,"y":-100},"scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=500 -next;
+setTransform:{"alpha":0.6,"blur":0} -target=black -duration=500 -next;
+: -fontSize=default;
+:因而从座位上站起来，向两人鞠躬
+祥子:之前……给大家添麻烦了，真的很抱歉
+祥子:是我当时的处理方式不好，没能顾及大家的感受
+立希:……
+changeFigure:mygo_avemujica_v5/taki/040_casual-2023_rip/model.json -id=taki -next -motion=nnf_left01 -expression=serious01;
+changeFigure:mygo_avemujica_v5/tomoli/036_casual-2023_rip/model.json -id=tmr -next -motion=smile01 -expression=smile01;
+立希:……没事啦，事情都已经已经过去了
+祥子:即便如此，我也还是需要道歉……
+灯:没……没关系的……
+灯:小祥能回来，我很开心……
+setTransform:{"position":{"x":200,"y":100},"scale":{"x":1,"y":1},"alpha":1} -target=taki -duration=1000 -next;
+setTransform:{"position":{"x":900,"y":100},"scale":{"x":1,"y":1},"alpha":1} -target=tmr -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":100},"scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=1000 -next;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+祥子:谢谢大家……
+立希:坐下再说吧
+立希:灯都接受了道歉，我也没啥意见了
+changeFigure:mygo_avemujica_v5/taki/040_casual-2023_rip/model.json -id=taki -next -motion=nf03 -expression=idle01;
+立希:说起来，我当时的态度也不好，算是扯平了吧
+setTransform:{"position":{"x":200,"y":-100},"scale":{"x":1,"y":1},"alpha":1} -target=taki -duration=1000 -next;
+setTransform:{"position":{"x":900,"y":-100},"scale":{"x":1,"y":1},"alpha":1} -target=tmr -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=1000 -next;
+:
+祥子:总之……
+祥子:也很感谢大家给了我时间……这次约大家出来，就是为了给大家一个迟到的解释
+祥子:具体的事情，就等素世和睦到了再——
+playEffect:1_效果音/01_常用效果音/shop_door_bell_openclose.wav -volume=40;
+changeFigure:mygo_avemujica_v5/taki/040_casual-2023_rip/model.json -id=taki -next -motion=nnf_left01 -expression=idle01;
+changeFigure:mygo_avemujica_v5/tomoli/036_casual-2023_rip/model.json -id=tmr -next -motion=nnf_left01 -expression=smile01;
+changeFigure:mygo_avemujica_v5/mutsumi/338_casual-2023_rip/model.json -id=muts -next -motion=nnf_right01 -expression=idle;
+setTransform:{"position":{"x":400,"y":-100},"scale":{"x":1,"y":1},"alpha":1} -target=taki -duration=2000 -next;
+setTransform:{"position":{"x":1100,"y":-100},"scale":{"x":1,"y":1},"alpha":1} -target=tmr -duration=2000 -next;
+setTransform:{"position":{"x":-800,"y":-400},"scale":{"x":1,"y":1},"alpha":1} -target=muts -duration=2000 -next;
+setTransform:{"position":{"x":200,"y":0},"scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=2000 -next;
+:铃铛声又响了，转头一看，睦从门外走了进来
+祥子:啊，睦！这边这边
+祥子:这样就还差素世了——睦，素世有联系你吗？
+changeFigure:mygo_avemujica_v5/mutsumi/338_casual-2023_rip/model.json -id=muts -next -motion=nnf01 -expression=idle;
+睦:……没有
+祥子:咦……睦在学校，应该有见到素世吧？
+changeFigure:mygo_avemujica_v5/mutsumi/338_casual-2023_rip/model.json -id=muts -next -motion=nf04 -expression=idle;
+睦:嗯……
+祥子:她有和你说什么吗？
+changeFigure:mygo_avemujica_v5/taki/040_casual-2023_rip/model.json -id=taki -next -motion=nf05 -expression=surprised01;
+changeFigure:mygo_avemujica_v5/tomoli/036_casual-2023_rip/model.json -id=tmr -next -motion=nf05 -expression=surprised01;
+changeFigure:mygo_avemujica_v5/mutsumi/338_casual-2023_rip/model.json -id=muts -next -motion=nf04 -expression=sad01;
+playEffect:1_效果音/01_常用效果音/携帯バイブレーション.mp3 -volume=40;
+:没等睦回答，大家的手机突然都震动起来
+:最大的可能性，就是素世在群聊里发消息了
+setTransform:{"position":{"x":400,"y":-200},"scale":{"x":1,"y":1},"alpha":1} -target=taki -duration=1000 -next;
+setTransform:{"position":{"x":1100,"y":-200},"scale":{"x":1,"y":1},"alpha":1} -target=tmr -duration=1000 -next;
+setTransform:{"position":{"x":-800,"y":-500},"scale":{"x":1,"y":1},"alpha":1} -target=muts -duration=1000 -next;
+setTransform:{"position":{"x":200,"y":-100},"scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=1000 -next;
+setTransform:{"alpha":0.6,"blur":0} -target=black -duration=1000 -next;
+:于是，我满怀期待地按亮屏幕，向消息栏看去——
+素世(Line):抱歉，大家 -fontSize=default;
+bgm:none -volume=60 -enter=2000;
+素世(Line):我不来 -fontSize=default;
+祥子:……诶？
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+:
+setTransform:{"position":{"x":400,"y":-200},"scale":{"x":1,"y":1},"alpha":0} -target=taki -duration=1 -next;
+setTransform:{"position":{"x":1100,"y":-200},"scale":{"x":1,"y":1},"alpha":0} -target=tmr -duration=1 -next;
+setTransform:{"position":{"x":-800,"y":-200},"scale":{"x":1,"y":1},"alpha":0} -target=muts -duration=1 -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=1 -next;
+setTransform:{"alpha":0.6,"blur":0} -target=black -duration=1000 -next;
+changeBg:普通背景/火车站门口.png -next -transform={"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2}};
+:睦和我走在去车站的路上，立希和灯去了另一个方向
+playEffect:1_效果音/01_常用效果音/普通走路过场.mp3 -volume=50;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+:回荡在人行道上的，只有我们轻轻的脚步声
+:我不知道说什么好，睦跟在身后，也没有说话
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+:
+changeBg:普通背景/咖啡馆.png -next -transform={"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2}};
+changeFigure:mygo_avemujica_v5/taki/040_casual-2023_rip/model.json -id=taki -next -motion=nf04 -expression=sad01;
+changeFigure:mygo_avemujica_v5/tomoli/036_casual-2023_rip/model.json -id=tmr -next -motion=nnf_right01 -expression=sad01;
+changeFigure:mygo_avemujica_v5/mutsumi/338_casual-2023_rip/model.json -id=muts -next -motion=nnf_left01 -expression=sad01;
+setTransform:{"position":{"x":400,"y":-200},"scale":{"x":1,"y":1},"alpha":1} -target=taki -duration=1 -next;
+setTransform:{"position":{"x":1100,"y":-200},"scale":{"x":1,"y":1},"alpha":1} -target=tmr -duration=1 -next;
+setTransform:{"position":{"x":-800,"y":-500},"scale":{"x":1,"y":1},"alpha":1} -target=muts -duration=1 -next;
+setTransform:{"position":{"x":0,"y":-100},"scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=1 -next;
+:方才在咖啡馆中，看到素世在群里说出“我不来”的那一刻，一下有些没反应过来
+setTransform:{"alpha":0.6,"blur":0} -target=black -duration=1000 -next;
+:刚准备发消息追问原因，立希却拦住了我
+立希:祥子，要不——
+setTransform:{"position":{"x":400,"y":-100},"scale":{"x":1,"y":1},"alpha":1} -target=taki -duration=1000 -next;
+setTransform:{"position":{"x":1100,"y":-100},"scale":{"x":1,"y":1},"alpha":1} -target=tmr -duration=1000 -next;
+setTransform:{"position":{"x":-800,"y":-400},"scale":{"x":1,"y":1},"alpha":1} -target=muts -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=1000 -next;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+祥子:诶？
+立希:——要不你，还是先对我们说说，之前都发生了什么吧
+:她吞吞吐吐地问我
+changeFigure:mygo_avemujica_v5/taki/040_casual-2023_rip/model.json -id=taki -next -motion=nnf_right01 -expression=sad01;
+:素世那边怎么办？我本来想这样问，却发现大家都目光躲闪，看向了别处
+:于是，临到嗓子眼的问话，硬生生咽了下去
+:接着，鼓起勇气，向大家解释了之前发生在我身上的一切
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+:
+bgm:05. 切なくて苦しくて.mp3 -volume=60 -enter=0;
+setTransform:{"position":{"x":400,"y":-100},"scale":{"x":1,"y":1},"alpha":1} -target=taki -duration=1 -next;
+setTransform:{"position":{"x":1100,"y":-100},"scale":{"x":1,"y":1},"alpha":1} -target=tmr -duration=1 -next;
+setTransform:{"position":{"x":-1400,"y":-500},"scale":{"x":1.4,"y":1.4},"alpha":1} -target=muts -duration=1 -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=1 -next;
+:母亲的过世、组建Crychic的理由、想要解散Crychic的原因
+:随着我的解释，立希的神色随之越来越复杂
+:到最后，我能清晰地看到泪水在她的眼眶中打转
+changeFigure:mygo_avemujica_v5/taki/040_casual-2023_rip/model.json -id=taki -next -motion=nnf_right01 -expression=cry01;
+changeFigure:mygo_avemujica_v5/tomoli/036_casual-2023_rip/model.json -id=tmr -next -motion=cry01 -expression=sad04;
+changeFigure:mygo_avemujica_v5/mutsumi/338_casual-2023_rip/model.json -id=muts -next -motion=sad02 -expression=sad01;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+:等到我说完，灯握紧双拳低着头，立希已经转头望向窗外
+:望向身旁的睦，她也低着头，双手放在膝上，右手拇指轻轻抠着左手食指的指甲
+changeFigure:mygo_avemujica_v5/taki/040_casual-2023_rip/model.json -id=taki -next -motion=nf04 -expression=cry01;
+立希:……乐队——
+changeFigure:mygo_avemujica_v5/taki/040_casual-2023_rip/model.json -id=taki -next -motion=sad01 -expression=shame01;
+changeFigure:mygo_avemujica_v5/tomoli/036_casual-2023_rip/model.json -id=tmr -next -motion=nf04 -expression=cry01;
+changeFigure:mygo_avemujica_v5/mutsumi/338_casual-2023_rip/model.json -id=muts -next -motion=nf_right01 -expression=sad01;
+立希:——咳咳咳
+:过了一会儿，立希开口道
+:然而声音明显不太对，她立即咳嗽了几下
+changeFigure:mygo_avemujica_v5/taki/040_casual-2023_rip/model.json -id=taki -next -motion=sad01 -expression=cry01;
+立希:抱歉……乐队是另一个家，乐队的成员们就是家人
+立希:素世当时……是这么说的吗？
+祥子:是的……
+祥子:而且，她告诉我，家不该是束缚，而是归宿——
+灯:——西瓜虫……
+setTransform:{"position":{"x":300,"y":-100},"scale":{"x":1,"y":1},"alpha":1} -target=taki -duration=1000 -next;
+setTransform:{"position":{"x":1000,"y":-100},"scale":{"x":1,"y":1},"alpha":1} -target=tmr -duration=1000 -next;
+setTransform:{"position":{"x":-1500,"y":-500},"scale":{"x":1.4,"y":1.4},"alpha":1} -target=muts -duration=1000 -next;
+setTransform:{"position":{"x":-100,"y":0},"scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=1000 -next;
+changeFigure:mygo_avemujica_v5/taki/040_casual-2023_rip/model.json -id=taki -next -motion=nnf_right01 -expression=cry01;
+changeFigure:mygo_avemujica_v5/mutsumi/338_casual-2023_rip/model.json -id=muts -next -motion=nnf_right01 -expression=sad01;
+:灯突然说话了，我们全都向她看去
+changeFigure:mygo_avemujica_v5/tomoli/036_casual-2023_rip/model.json -id=tmr -next -motion=cry01 -expression=sad04;
+:大概是意识到了这一点，她露出些须慌乱的神色，停下了话头
+灯:……那个，呃……
+changeFigure:mygo_avemujica_v5/taki/040_casual-2023_rip/model.json -id=taki -next -motion=nf_right01 -expression=surprised01;
+setTransform:{"position":{"x":400,"y":-100},"scale":{"x":1,"y":1},"alpha":1} -target=taki -duration=1000 -next;
+:很清楚地见到，立希已经把手伸向灯那边，明显是想要鼓励她
+changeFigure:mygo_avemujica_v5/taki/040_casual-2023_rip/model.json -id=taki -next -motion=nnf_left01 -expression=sad02;
+setTransform:{"position":{"x":300,"y":-100},"scale":{"x":1,"y":1},"alpha":1} -target=taki -duration=1000 -next;
+:但伸了一半，手又缩了回去 -fontSize=default;
+changeFigure:mygo_avemujica_v5/taki/040_casual-2023_rip/model.json -id=taki -next -motion=surprised01 -expression=surprised01;
+:实在有点看不下去，所以我轻轻在桌下踢了一脚立希
+:她有些疑惑地看过来，我向灯的方向使了使眼色
+changeFigure:mygo_avemujica_v5/taki/040_casual-2023_rip/model.json -id=taki -next -motion=cry01 -expression=surprised01;
+立希:诶？我……
+立希:呃
+changeFigure:mygo_avemujica_v5/taki/040_casual-2023_rip/model.json -id=taki -next -motion=nnf_right01 -expression=cry01;
+立希:那个，灯……如果，呃，如果有什么想说的……
+changeFigure:mygo_avemujica_v5/taki/040_casual-2023_rip/model.json -id=taki -next -motion=nnf_right01 -expression=cry02;
+立希:就……向大家说出来吧
+changeFigure:mygo_avemujica_v5/tomoli/036_casual-2023_rip/model.json -id=tmr -next -motion=nf_left01 -expression=cry01;
+:
+changeFigure:mygo_avemujica_v5/tomoli/036_casual-2023_rip/model.json -id=tmr -next -motion=nf04 -expression=cry01;
+灯:……好、好的
+灯:那个……以前，抓西瓜虫的时候……
+灯:翻开石头，西瓜虫会很慌乱，四处乱爬
+灯:看起来……就像迷路了一样
+灯:碰一下，它们就会卷起来
+灯:就像是……不想要被触碰
+祥子:不想被触碰……吗……
+灯:嗯……
+灯:会不会和小祥……有点像……
+祥子:……
+祥子:确实像……当时的我呢
+changeFigure:mygo_avemujica_v5/tomoli/036_casual-2023_rip/model.json -id=tmr -next -motion=cry02 -expression=smile01;
+灯:但是，现在的小祥……回到家了呢
+setTransform:{"position":{"x":300,"y":-200},"scale":{"x":1,"y":1},"alpha":1} -target=taki -duration=1000 -next;
+setTransform:{"position":{"x":1000,"y":-200},"scale":{"x":1,"y":1},"alpha":1} -target=tmr -duration=1000 -next;
+setTransform:{"position":{"x":-1500,"y":-600},"scale":{"x":1.4,"y":1.4},"alpha":1} -target=muts -duration=1000 -next;
+setTransform:{"position":{"x":-100,"y":-100},"scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=1000 -next;
+setTransform:{"alpha":0.6,"blur":0} -target=black -duration=1000 -next;
+祥子:……是的
+祥子:所以……所以我才渐渐意识到
+祥子:我的另一个家……我的另一个归宿，已经被我忽视得太久了……
+changeFigure:mygo_avemujica_v5/taki/040_casual-2023_rip/model.json -id=taki -next -motion=surprised01 -expression=cry01;
+changeFigure:mygo_avemujica_v5/tomoli/036_casual-2023_rip/model.json -id=tmr -next -motion=surprised01 -expression=cry01;
+changeFigure:mygo_avemujica_v5/mutsumi/338_casual-2023_rip/model.json -id=muts -next -motion=surprised01 -expression=sad01;
+setTransform:{"position":{"x":300,"y":-100},"scale":{"x":1,"y":1},"alpha":1} -target=taki -duration=500 -next;
+setTransform:{"position":{"x":1000,"y":-100},"scale":{"x":1,"y":1},"alpha":1} -target=tmr -duration=500 -next;
+setTransform:{"position":{"x":-1500,"y":-500},"scale":{"x":1.4,"y":1.4},"alpha":1} -target=muts -duration=500 -next;
+setTransform:{"position":{"x":-100,"y":0},"scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=500 -next;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=500 -next;
+祥子:我想……我想，把它找回来！
+祥子:如果大家也能……也能把这里当作归宿的话……
+祥子: 不，至少……至少必须向大家好好道歉才是
+changeFigure:mygo_avemujica_v5/taki/040_casual-2023_rip/model.json -id=taki -next -motion=sad03 -expression=cry01;
+立希:……我的错吗……
+changeFigure:mygo_avemujica_v5/tomoli/036_casual-2023_rip/model.json -id=tmr -next -motion=nf_left01 -expression=cry01;
+:立希突然开口道，她紧紧攥着拳头，低头抿着嘴唇
+祥子:诶？
+bgm:none -volume=60 -enter=2000;
+立希:因为……因为我——
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+:
+bgm:22. 苦い思い出.mp3 -volume=60;
+:立希讲述了那个雨天之后，在Crychic身上发生的一切
+:素世尝试聚起剩下的人，组织过几次合练
+:然而，没有键盘姑且还能活动……但没有作曲，就只能反复练习那首残缺的春日影，而这显然也不是什么好选择
+:最后一次合练，立希到场的时候，只看到素世一个人在窗边
+立希:素世说大概还要等等，但如果有事，先回去也可以
+立希:我……当时有点恼火来着
+立希:但转念一想，素世大概是不想把话挑明了说，毕竟这样下去，确实没意思
+changeFigure:mygo_avemujica_v5/mutsumi/338_casual-2023_rip/model.json -id=muts -next -motion=nf_right01 -expression=sad01;
+立希:所以，我真的扭头就走了……
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+:
+祥子:在那之后……大家就没聚起来过吗？
+立希:是的
+祥子:……也就是说，素世像是，放弃了？
+立希:大概，是的……
+changeFigure:mygo_avemujica_v5/tomoli/036_casual-2023_rip/model.json -id=tmr -next -motion=nnf_left01 -expression=cry01;
+灯:等一下
+灯:小立希那天……也去了练习室吗？
+changeFigure:mygo_avemujica_v5/taki/040_casual-2023_rip/model.json -id=taki -next -motion=nf_right01 -expression=cry01;
+立希:诶？也就是说，灯那天也……？
+灯:……是的
+changeFigure:mygo_avemujica_v5/mutsumi/338_casual-2023_rip/model.json -id=muts -next -motion=nf04 -expression=sad01;
+setTransform:{"position":{"x":400,"y":-100},"scale":{"x":1,"y":1},"alpha":1} -target=taki -duration=500 -next;
+setTransform:{"position":{"x":1100,"y":-100},"scale":{"x":1,"y":1},"alpha":1} -target=tmr -duration=500 -next;
+setTransform:{"position":{"x":-1400,"y":-500},"scale":{"x":1.4,"y":1.4},"alpha":1} -target=muts -duration=500 -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=500 -next;
+:我意识到了什么，转向睦，她微微点了点头
+changeFigure:mygo_avemujica_v5/taki/040_casual-2023_rip/model.json -id=taki -next -motion=nf_left01 -expression=cry01;
+睦:那时的素世
+bgm:none -volume=60 -enter=2000;
+睦:看起来……很寂寞
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+:
+:在这之后，大家沉默了很久
+:也就是说，那天三人都分别来到过练习室
+:然而接下来，又都抛下素世，自己回去了
+:很难再去揣测素世当时的心情，很难说清事到如今又是怎样的一种滋味
+:也很难说得上……Crychic是否还存续着
+:最后还是立希打破了沉默，大家稍微聊了聊最近的生活，和升学的话题
+:结果惊讶地得知，灯也准备转到羽丘。立希本来在直升和转花咲川间摇摆，结果也立即决定直升
+changeFigure:none -id=tmr -next;
+changeFigure:none -id=taki -next;
+changeBg:普通背景/火车站门口.png -next -transform={"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2}};
+setTransform:{"position":{"x":0,"y":-500},"scale":{"x":1.4,"y":1.4},"alpha":1} -target=muts -duration=500 -next;
+:这样一来，至少大家有更多机会重新聚在一起
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+睦:祥，电车
+:回过神来，已经到了车站的闸口，准备要和睦分别了
+:于是，向睦问了最后一个问题
+祥子:所以……素世和之前一样，是真的吗？
+睦:……嗯
+睦:对我也……很温柔
+祥子:……这样吗，那就好……吧？
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+:我不由得握紧了手中的伞——那把……未能归还的伞
+:抬头望向天上的月亮，它凭着借来的阳光，正从薄薄的云层中浮现，依旧纯净、洁白、明亮
+:只是……缺了一角
+changeFigure:none -id=muts -next;
+:
+changeScene:C04S04/C04S04_Scene08.txt

@@ -1,0 +1,49 @@
+: -fontSize=default;
+:我回到终点
+:我跨过起点
+:我是不知疲惫的钟
+:我是一条吞食自己尾巴的蛇
+:但……就在我即将再度坠入过去之时——
+？？？:啊，又找到你啦
+:——身后却传来了轻轻的呼唤
+: -fontSize=default;
+bgm:Angles_Full.mp3 -volume=60 -next;
+changeBg:绿幕.png -next;
+: -fontSize=default;
+:计划成功了 -fontSize=default;
+:祥子……小祥，在我身边 -fontSize=default;
+:大家……都在我的身边 -fontSize=default;
+:谁都没有死去
+:没有……遭遇过去那些不堪的惨剧
+:这不是很好吗？
+:这不就是我想要的吗？ -fontSize=default;
+:Crychic活了下来，Crychic赢得了未来
+:Crychic终于得以从过去的一切惨剧中解脱，得以谱写新的故事
+:这不就是我努力如此之久的理由
+:这不就是……我挣扎如此之久的理由吗？ -fontSize=default;
+:然而舞台惨白灯光之下，那片缓缓蔓延开来的猩红
+:无时无刻不在提醒着我，获得这一切的代价是什么——
+:——代价? -fontSize=default;
+:代价不就是千早爱音嘛 -fontSize=default;
+:不过就是……一个多余的人，计划中可以牺牲的一部分罢了 -fontSize=default;
+:不过是……小爱音罢了 -fontSize=default;
+:……不过就是，舍命救了我的小爱音罢了！ -fontSize=default;
+:去他个该死的计划！去你个该死的谎言！去我个该死的长崎素世！
+:不要，我不要这样！
+:我明明那么努力地为大家争取着幸福的未来
+:我明明……为大家争取到了如此幸福的过去……
+:我……明明可以——
+:——再次为大家争取到如此幸福的过去 -fontSize=large;
+;
+:……对啊，原来如此啊 -fontSize=medium;
+:我只要一遍又一遍地重来 -fontSize=default;
+:一遍又一遍地让大家幸福，不就好了？ -fontSize=default;
+:不再期待未来，转而拥抱过去
+:认清不可改变之物，支配可以改变之物 -fontSize=default;
+:我就能胜过这充满恶意的世界, 创造出永恒无暇的幸福 -fontSize=default;
+:杀死未来的自己
+:投身无限的过去
+:这样的我……
+:大概已经……不再有资格被称之为人类了吧
+:那么——
+:这样的我……这样的我，不就是—— -fontSize=default;

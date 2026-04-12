@@ -1,0 +1,94 @@
+changeFigure:MyExtra/SoyoMama_FromLayer/model.json -id=mama -transform={"position":{"x":-1000,"y":-300},"alpha":0} -motion=idle01 -expression=idle01;
+changeFigure:black.png -id=dark -transform={"alpha":0} -next;
+？？？:长崎女士，令嫒目前的表现，比较接近于……
+？？？:(含糊不清的说话声)| -fontSize=default;
+？？？:所以，最近令嫒她在生活中，或者说在校园里，是否……
+素世妈妈:……说来惭愧，我平时都一门心思扑在工作上 ……
+素世妈妈:小女也一直令我很放心，从来没有……所以我也不知道……
+素世妈妈:……可能就是因为这样，所以才……
+素世妈妈:(呜咽) -fontSize=default;
+？？？:我也很抱歉，长崎女士，请你平复一下情绪吧
+素世妈妈:……对不起，失礼了……
+素世妈妈:……我作为一个母亲，真是失败……
+？？？:最近，还请多多关注令嫒的状态，以免……
+:
+bgm:clock.mp3 -volume=5;
+changeBg:素世家_洗手间_黄昏.png -next -transform={"scale":{"x":1.2,"y":1.2}};
+:有一段距离，还隔着门板，因而不太容易听清他们的对话
+:于是干脆从门板上起身，伸手握住嘴里的牙刷柄，继续开始刷牙
+playEffect:1_效果音/04_非常用音效暂存/歯磨き.mp3 -volume=40;
+setTransform:{"alpha":0.4} -target=dark -duration=500 -next;
+setTransform:{"position":{"y":-100},"scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=500 -next;
+:前天和妈妈吃完饭回到家，觉得很困，于是就上床睡觉
+:然后被妈妈叫醒了
+:感觉还是很饿，所以把冰箱里的炖菜拿出来吃
+:不知为什么，妈妈突然把碗抢走，又塞过来一个面包 -fontSize=default;
+:还在吃面包呢，她又带来一个中年女人，说是请的医生
+:然后就和这个医生聊了会儿天，老实说挺没意思，问这问那的
+:最后，干脆找了个借口到卫生间来
+setAnimation:hurtAndRecoverDark -target=dark -next;
+:嘴里突然泛出一阵腥甜，接着传来隐隐的刺痛 -素世/灰素世_疼.mp3 -fontSize=default;
+playEffect:1_效果音/04_非常用音效暂存/洗面所の水道.mp3 -volume=20;
+:打开水龙头，把嘴里的泡沫吐在洗手盆中。白色之中混杂着的丝丝橘红顺着水流的螺旋，消失在排水口中 -fontSize=default;
+:或许是用力过度，牙龈有些出血吧……于是漱口，将一切冲洗干净，重新挤上牙膏，继续刷起来 -fontSize=default;
+playEffect:1_效果音/01_常用效果音/木のドアをノック1.mp3 -volume=40;
+ -fontSize=default;
+素世妈妈:……素世？
+素世妈妈:妈妈……可以进来吗？
+:我一嘴泡沫，还塞着牙刷，因此点了点头
+:好一会儿，没见门有动静，这才想起来，妈妈应该是看不到我点头的
+playEffect:1_效果音/01_常用效果音/ドアを開ける1.mp3 -volume=40;
+changeFigure:MyExtra/SoyoMama_FromLayer/model.json -id=mama -next -motion=sad01 -expression=sad01;
+setTransform:{"position":{"x":-600,"y":-300},"alpha":1} -target=mama -duration=300 -next;
+:于是打开门，妈妈差点跌进来
+素世:唔？
+素世妈妈:素世……在干什么呢？
+:我把牙刷从嘴里掏出来
+素世:……在刷牙
+changeFigure:MyExtra/SoyoMama_FromLayer/model.json -id=mama -motion=cry01 -expression=sad01;
+素世妈妈:为什么…… -fontSize=default;
+素世妈妈:起床的时候……不是已经刷过了吗？ -fontSize=default;
+素世:……
+素世:……对喔
+setTransform:{"position":{"x":-2000,"y":-600},"scale":{"x":1.4,"y":1.4},"alpha":0} -target=mama -duration=1000 -next;
+setTransform:{"position":{"x":600,"y":0},"scale":{"x":1.6,"y":1.6}} -target=bg-main -duration=1000 -next;
+:于是吐掉泡沫，漱口，把牙具清洗干净，摆好 -fontSize=default;
+:为什么要刷牙呢，我冥思苦想起来 -fontSize=default;
+:……或许是因为，礼堂里那股甜味，仍然在嘴中隐隐约约，挥之不去 -fontSize=default;
+:说来也奇怪，想通了理由之后，嘴里反倒只剩下凉丝丝的薄荷味了
+素世:……
+素世:……请假了吗？
+素世妈妈:……诶？
+素世妈妈:是的，妈妈……给老师打过电话了
+素世:这样吗……
+素世:明天……要上学吧？
+playEffect:1_效果音/01_常用效果音/布料_结束.mp3 -volume=40;
+changeBg:CG/C03S01伤心素妈_01.png -next -transform={"scale":{"x":1.2,"y":1.2},"alpha":0};
+setAnimation:grab -target=bg-main -next;
+:
+:妈妈一下抓住我的肩膀，我感到她的手指正陷入我的肉里
+素世妈妈:素世！你到底怎么了？ -fontSize=default;
+素世妈妈:你知道吗，你睡了两天，你知道吗？！
+素世妈妈:刚才也是，那个炖菜根本是冰的！……
+素世妈妈:为什么直接吃，为什么不热一下？你没感觉吗？
+素世:……对不起，妈妈
+素世:我不该吃凉的炖菜
+changeBg:CG/C03S01伤心素妈_02.png -transform={"position":{"x":-25,"y":-12},"scale":{"x":1.05,"y":1.05}} -next;
+:
+changeBg:CG/C03S01伤心素妈_03.png -transform={"position":{"x":-25,"y":-12},"scale":{"x":1.05,"y":1.05}};
+素世妈妈:对不起……素世，对不起……
+素世妈妈:妈妈错了，妈妈一直都没有好好关心过你……
+素世妈妈:你到底怎么了，求求你不要这样，妈妈好怕……
+素世:……对不起哦，妈妈 -fontSize=default;
+playEffect:1_效果音/01_常用效果音/衣擦れ2.mp3 -volume=40;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.3,"y":1.3},"alpha":0} -target=bg-main -duration=1000 -next;
+:
+:如果是长崎素世，应该会把妈妈轻轻抱住——所以我也这么做了 -fontSize=default;
+素世:……
+素世:……不过，明天是周几呢？
+素世妈妈:……
+bgm: -volume=5 -enter=2000;
+素世:要上学吧？
+changeBg: -next;
+:
+changeScene:C03S01_Scene04.txt

@@ -1,0 +1,115 @@
+changeBg:特殊意义场景/C04S03_终局空间_01.png -next;
+changeFigure:C04S03_终局空间_02.png -id=bgma -transform={"alpha":0} -next;
+changeFigure:none -id=black -next;
+changeFigure:black.png -id=black -transform={"alpha":1} -next;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1 -next;
+？？？:你的愿望是什么？
+？？？:告诉我吧，我来为你实现它
+爱音:愿……望？
+setTransform:{"alpha":0,"blur":0} -target=black -duration=3000 -next;
+bgm:閉ざされた海.mp3 -volume=40;
+: -fontSize=default;
+:意识回归的瞬间——
+:——漆黑虚无的海面
+:纯白的天空
+:除此之外，空无一物
+爱音:……素世
+爱音:素世？
+:我茫然若失地低下头——素世不在了
+:抬起头，环顾四周——舞台、大家、我身周的一切——都不在了
+:目光滑行在那片虚无上，渴求着阻碍，直至延伸到无尽的视界线上——
+:——依旧，空无一物
+？？？:你的愿望是什么？
+:然而，那道声音再度响起
+:没有经过耳道和鼓膜
+:而是……从双眼之后，充盈地响彻整片脑海
+爱音:……你是谁？快出来！
+setTransform:{"alpha":1,"blur":0} -target=bgma -duration=3000 -next;
+: -fontSize=default;
+:——于是，面前的空间裂出一道缝隙
+:某种……“事物”，出现在哪里 -fontSize=default;
+:如同一只眼，如同一滴漆黑的泪
+:那种虹色——在其中涌动
+爱音:……
+爱音:你是……什么？
+？？？:我……
+？？？:我是……实现愿望之物
+setTransform:{"alpha":1,"blur":0} -target=black -duration=3000 -next;
+: -fontSize=default;
+素世:实现……愿望？
+素世:虹色？
+素世:那……那不就是——
+爱音:是的
+爱音:就是——让素世许下的愿望成真的……
+爱音:……同样的事物
+素世:但……但是，为什么——
+setTransform:{"alpha":0,"blur":0} -target=black -duration=2000 -next;
+: -fontSize=default;
+爱音:实现……愿望？
+爱音:……你为什么……出现在了我面前？
+？？？:因为，容器被打破了
+爱音:……容器？什么容器？
+？？？:长崎素世
+爱音:素世……？
+爱音:这是什么烂玩笑？为什么素世是容器？
+？？？:她许下愿望，打破了上一个容器 -fontSize=default;
+？？？:所以，盛装了我 -fontSize=default;
+爱音:素世……许了愿？
+爱音:她许了什么愿？
+？？？:她的愿望是……
+？？？:改变过去
+setTransform:{"alpha":1,"blur":0} -target=black -duration=2000 -next;
+: -fontSize=default;
+素世:改变过去……？
+素世:它是……这么对你说的？
+爱音:是的
+素世:没有别的了吗？它没说其他什么？
+素世:比如，我必须让大家幸福，必须创造一个完美的世界，才能——
+爱音:没有了
+素世:怎么会……怎么会这样……
+爱音:噗
+爱音:そよりん就是因为这样，才迷路了呢
+爱音:不如说……是被困住了
+素世:被……困住？
+爱音:嗯
+素世:究竟……究竟是怎么回事……？
+爱音:一开始，我也很困惑
+爱音:所以——我问了它更多问题
+setTransform:{"alpha":0,"blur":0} -target=black -duration=2000 -next;
+: -fontSize=default;
+爱音:素世许愿要改变过去？她都做了什么？
+？？？:我不知道
+爱音:什么？你怎么会不知道呢？
+？？？:因为我只是实现愿望之物
+？？？:我只能实现愿望
+？？？:但如果，想要得知这一切是你的愿望的话 -fontSize=default;
+？？？:许下愿望，我便能实现它 -fontSize=default;
+爱音:哈？
+？？？:那么——千早爱音，你的愿望是什么？
+？？？:告诉我吧，我来为你实现它
+爱音:等一下等一下……
+爱音:是……那种陷阱对吗？
+爱音:就像恶魔契约一样，许下愿望，就会实现——
+爱音:——但是以扭曲的方式，或是惨重的代价？
+？？？:我不知道
+爱音:还是说，只能有一个愿望——我能许愿，再要一千个愿望吗？
+？？？:我不知道
+爱音:你是神吗？
+？？？:我不知道
+爱音:你在骗我吗？
+？？？:我不知道
+爱音:你会说谎吗？
+？？？:我不知道
+爱音:……
+爱音:我许下愿望的话，愿望会怎样实现？
+？？？:我不知道
+爱音:……我这样问好了
+爱音:如果我想要一亿日元的话，它们会马上出现在我面前吗？
+？？？:我不知道
+爱音:啧……你到底知道什么？
+？？？:我只能实现愿望
+？？？:你的愿望是什么？
+bgm: -volume=40 -enter=2000;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=2000 -next;
+: -fontSize=default;
+changeScene:C04S03/C04S03_Scene09.txt;

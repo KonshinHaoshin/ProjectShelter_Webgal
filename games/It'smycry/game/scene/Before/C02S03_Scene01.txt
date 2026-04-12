@@ -1,0 +1,94 @@
+:
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -transform={"position":{"x":-2000,"y":-300},"alpha":1} -next -motion=nf_left01 -expression=angry02;
+教师:……总之，即使是午修时间，在走廊上追逐也真的很危险
+教师:这次你们认错态度很好，以后可不能再犯了，知道了吗？好了，先回去吃午饭吧
+爱音、立希:是…
+playEffect:1_效果音/01_常用效果音/ドアを開ける1.mp3 -volume=40;
+: -fontSize=default;
+playEffect:1_效果音/01_常用效果音/普通走路过场.mp3 -volume=40;
+setTransform:{"position":{"x":0,"y":-300}} -target=taki -duration=3000 -next;
+changeBg:羽丘走廊.png;
+;门声，走廊CG
+立希:……真是啰嗦…… -fontSize=default;
+爱音:……噗
+bgm:日常2.mp3 -volume=40;
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=angry02 -expression=angry02;
+立希:你还笑得出来，要不是你……
+立希:……
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=nf_right01 -expression=serious02;
+立希:那个，昨天的事，很抱歉
+立希:我也不是有意……
+爱音:小立希，是因为想到姐姐了吧~
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=shame01 -expression=surprised01;
+立希:哈？ -立希/はあ！？（哈？）.mp3 -volume=40 -fontSize=default;
+立希:不是，这又是谁告诉——啊！
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=angry02 -expression=shame01;
+:椎名真希，立希的姐姐
+:曾经是羽丘的吹奏部部长，不过已经毕业了
+:对于立希来说，是长辈、是憧憬之人，也是……面前难以逾越的高山
+立希:可恶……素世那家伙，怎么什么都和你说……
+爱音:诶~害羞了害羞了
+立希:啊……这真是最差劲的情况了…… -立希/ほんっと最悪（真的糟透了）.mp3 -volume=40 -fontSize=default;
+playEffect:1_效果音/01_常用效果音/普通走路过场.mp3 -volume=40;
+changeBg:羽丘内.png -next -transform={"scale":{"x":1.2,"y":1.2}};
+:我们拌着嘴，慢慢走到了教学楼后的树荫之下
+:立希倚在树干上，长长出了口气，望着闪亮的蓝天出神 -fontSize=default;
+立希:……
+立希:算了，反正你都知道了……
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=nf_left01 -expression=sigh02;
+立希:总之……是我不好
+立希:毕竟，别人老拿我和优秀的姐姐对比，我本来就很讨厌
+立希:结果……我却对你做了一样的事，这样的我……也很差劲
+爱音:嗯嗯~小立希，意外的坦率呢~
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=angry02 -expression=angry02;
+立希:……本来就很难说出口啊！
+立希:要不然，我也不会跑了
+立希:谁知道你这家伙这么难缠。都看见我跑了，能不能不要追我？
+爱音:抱歉抱歉~
+爱音:因为，我也想和小立希道歉嘛~
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=angry02 -expression=sigh02;
+立希:……这你确实得好好道歉
+爱音:我吉他水平很烂，人也很轻浮，真的很对不起
+立希:嗯……后者我……算是接受了
+立希:手指好了，就继续练习 -fontSize=default;
+立希:否则，真的会赶不上Live的
+爱音:好好~不过话说回来，我可以提个问题吗？
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=idle01 -expression=idle01;
+立希:说吧 -fontSize=default;
+爱音:就是……事到如今，我也不是想要逃避啦，但为什么——
+爱音:——为什么，那么希望我能参与这次Live呢？
+立希:呃……老实说，我其实不是很有所谓，但……
+立希:但是素世，好像非常想要你参加
+爱音:诶——
+爱音:昨天，soyorin倒也确实是和我说，要好好努力，赶上Live什么的
+爱音:听她那个说法，就好像这场Live没有我不行一样……
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=surprised01 -expression=sigh02;
+立希:等一下，soyorin是什么？
+爱音:是昵称啦昵称~小立希要不要也起一个，让我想想……啊，要不就ri——
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=bye01 -expression=sigh02;
+立希:好好好我懂了——总之，昵称的事姑且放一边，先回到Live这个话题
+:不知怎么的，她突然显得有点害怕
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=sigh02 -expression=idle01;
+立希:总之，先不管这些杂七杂八的事。首先这场Live，本身确实挺重要的
+爱音:诶？为什么？
+立希:因为这场Live……是Crychic久违的第二场Live
+爱音:久违的……第二场？
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=nnf04 -expression=serious01;
+立希:肚子饿了，回去了
+playEffect:1_效果音/01_常用效果音/普通走路过场.mp3 -volume=40;
+setTransform:{"position":{"x":2000,"y":0},"scale":{"x":0.8,"y":0.8},"alpha":1} -target=taki -duration=2000 -next;
+:她直接起身向教学楼的方向走去
+:……诶？话还没说完呢，这人怎么这样？
+setTransform:{"position":{"x":-200,"y":0},"scale":{"x":1.2,"y":1.2},"alpha":1} -target=bg-main -duration=1000 -next;
+setTransform:{"position":{"x":1000,"y":0},"scale":{"x":0.8,"y":0.8},"alpha":1} -target=taki -duration=1000 -next;
+爱音:等等……为什么是——
+立希:话就先说到这里，你之后回去赶紧练习
+立希:……等下次试音，把决心证明给我看
+playEffect:1_效果音/01_常用效果音/普通走路过场.mp3 -volume=40;
+setTransform:{"position":{"x":2000,"y":0},"scale":{"x":0.8,"y":0.8},"alpha":1} -target=taki -duration=1000 -next;
+爱音:……
+爱音:诶—— -fontSize=default;
+bgm: -volume=40 -enter=1000;
+changeBg:  -next;
+:
+choose:放学后，Crychic练习室:C02S03_Scene02.txt;

@@ -1,0 +1,129 @@
+changeFigure:black.png -id=black -transform={"alpha":0} -next;
+playEffect:1_效果音/02_环境音/シーンと静まり返る教室.mp3 -volume=40 -id=env;
+: -fontSize=default;
+祥子:——那么，您的情况已经记录在案了
+祥子:很快就会有专人上门处理，感谢您的来电
+changeBg:过场/退勤.png -next;
+: -fontSize=default;
+:退勤的时间到了
+:客服的工作，将一整个下午，压缩成每一通重复枯燥的电话
+:每一通都稍有不同，每一通都如此相似，如同被困在某种循环中
+:但——相比我其他工作，要来得轻松
+:在心底舒了口气，收起椅子。没有必要和同事道别，大家不过是连点头之交都算不上的路人
+:不过是……为了生活和微薄薪水奔波的……一丘之貉
+playEffect:1_效果音/02_环境音/駅前広場.mp3 -volume=40 -id=env;
+changeBg: -next;
+: -fontSize=default;
+:下楼，投入汹涌的人流，挤上电车，被挤下电车
+changeBg:普通背景/公园.png -next;
+: -fontSize=default;
+:直到——面前出现那栋熟悉的二层公寓
+:我不由得加快了脚步
+playEffect:none -volume=40 -id=env;
+playEffect:1_效果音/01_常用效果音/ドアを開ける1.mp3 -volume=40;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+: -fontSize=default;
+祥子:素世~我回来了~
+changeBg:CG/素照镜子_1.png -next;
+祥子:好香啊，晚饭是？
+素世:今天是生姜烧肉哟
+bgm:冬日.mp3 -volume=60;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=3000 -next;
+:
+素世:以及——欢迎回来~
+setTransform:{"alpha":1,"blur":0} -target=black -duration=3000 -next;
+:
+changeBg:普通背景/廉价公寓_温暖.png -next;
+:随着香喷喷的饭菜下肚，整个下午的疲劳几乎一扫而空。
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+:我看不到在厨房中的素世，但锅碗瓢盆相撞的声音，随着暖黄色的灯光从门口飘出来，回荡在这狭小的空间中
+:嘈杂、响亮、令人安心
+playEffect:1_效果音/01_常用效果音/布団に倒れ込む.mp3 -volume=40;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=2000 -next;
+:身边的榻榻米上还残留着素世的体温，我向后躺倒，闭上眼睛
+:“幸福”
+:在我很小的时候，曾经拿着绘本，问父亲这两个汉字的读音
+:“しーあーわーせー”
+:他一字一顿地向我拼道，巨大落地窗投下的灿烂阳光，模糊了他的脸
+:“しーあーまーせー？是什么意思？”
+:“是しあわせ哟，しあわせ就是——爸爸、妈妈和祥子在一起的样子”
+:……是这样吗？
+素世:小祥，今天很累吗？
+祥子:啊——也没有非常累啦
+祥子:今天也辛苦你了，素世
+changeBg:CG/素照镜子_2.png -next;
+素世:没有的事
+setTransform:{"alpha":0,"blur":0} -target=black -duration=2000 -next;
+: -fontSize=default;
+:素世温柔地笑着，在裙子上掸了掸手，坐到我身边，很自然地将我的头置于膝上
+:她的手指上隐约散发着生姜味，混合着淡淡的茉莉香味
+:换做从前，我多少有些不好意思，但最近也渐渐习惯了
+素世:只要……有祥子陪在身边
+素世:我就已经很幸福了
+:幸福……吗
+:这么说来，父亲的说法即对也不对
+素世:说起来，今天没有合练呢
+祥子:嗯，之前看群聊里说，灯邀请立希去动物园了
+素世:是呀，很惊人对吧？
+祥子:我也吓了一跳呢
+祥子:不过，这反而是帮大忙了，今天正好想要休息一下
+:不对的部分是——母亲已经不在了，过去的那个父亲……也已经不在了
+素世:不要太勉强自己哟
+素世:毕竟，身体健康才是一切的基础——毕竟灯说过，要和大家组一辈子乐队的嘛
+祥子:没关系，我会……平衡好的……
+setTransform:{"alpha":0.7,"blur":0} -target=black -duration=2000 -next;
+:熟悉的体温从后脑传来，将我的眼皮渐渐黏在一起
+:对的部分则是——幸福……就是和家人在一起的样子
+setTransform:{"alpha":1,"blur":0} -target=black -duration=2000 -next;
+:现在和我在一起的，是长崎素世
+:我的乐队队友，我的挚友
+:我的……家人
+bgm:none -volume=60 -enter=3000;
+:
+changeBg:普通背景/破旧公寓.png -next;
+:稍晚的时候，我回到另一座低矮的二层公寓前
+setTransform:{"alpha":0,"blur":0} -target=black -duration=2000 -next;
+:
+:夜幕压在它身上，像是要把它挤碎
+:然而即便就这样放过它，它本身就早已经摇摇欲坠
+setTransform:{"alpha":1,"blur":0} -target=black -duration=2000 -next;
+playEffect:1_效果音/01_常用效果音/古びたドアを開ける.mp3 -volume=40;
+:我走上嘎吱作响的楼梯，打开那扇破门
+playEffect:1_效果音/01_常用效果音/引き戸を開ける2.mp3 -volume=40;
+:接着，拉开第二道浑浊的玻璃拉门
+:先是一股惯例的酒味撞在脸上
+changeBg:特殊意义场景/祥父_01.png -next;
+:接着是——那道似曾相识的身影
+setTransform:{"alpha":0,"blur":0} -target=black -duration=2000 -next;
+:
+:父亲躺在一堆易拉罐中，背对着我，任凭房内的昏暗向他沉沉压下
+祥子:我回来了……父亲……
+playEffect:1_效果音/01_常用效果音/衣擦れ1.mp3 -volume=40;
+:他没有说话，于是我放下手中的便当盒，把他从地面上扯起来
+:他睁着眼，显然醒着，于是我拨开他面前的空罐，将便当盒推到他面前
+祥子:这是晚饭，素世那边带回来的
+:我伸手掀开盒盖，把筷子塞到他手里
+:盒中的生姜烧肉和米饭，飘出带着余温的香气，赶走了些须空中弥散的酒味
+祥子:……
+祥子:请不要像上次那样了，吃完后可以把便当盒放好吗？我要洗干净还回去
+:他还是没有说话，只是狼吞虎咽起来
+:自从母亲离去后，父亲就再也没有像从前一样抬起过头
+:是，他一直都在嘴里念叨着“爸爸会努力的”，“爸爸会努力的”
+:从葬礼回来的时候也是
+:从警局出来的时候也是
+:醉倒在脏兮兮的榻榻米上，浑身散发着酒味时……也是
+:父亲的真诚是一种美德
+:母亲曾经这么说过，我也很爱曾经的父亲
+:正因如此……我只能反复说服自己，不去过于讨厌父亲现在这副模样
+:那副……满嘴谎言的模样
+playEffect:1_效果音/01_常用效果音/引き戸を開ける2.mp3 -volume=40;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+:
+:我拉上门，妄图切断自己与门另一侧的所有联系
+:然而……这是做不到的吧
+:毕竟，门对面的，是我的父亲
+changeBg:none -next;
+:曾经爱我的人，曾经被母亲深爱的人
+changeFigure:none -id=black -transform={"alpha":0} -next;
+:我的……家人
+changeScene:C04S01/C04S01_Scene02.txt

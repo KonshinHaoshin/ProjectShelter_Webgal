@@ -1,0 +1,84 @@
+changeBg:廉价公寓_主室_晚.png;
+changeFigure:mygo_avemujica_v5/sakiko/341_casual-2023_rip/model.json -id=sakiko -transform={"position":{"y":-300}} -next -motion=smile04 -expression=smile02;
+: -fontSize=default;
+祥子:——多谢款待
+setTextbox:on;
+bgm:冬日.mp3 -volume=10 -enter=0;
+素世:吃得真干净呢
+祥子:因为是素世做的嘛~
+playEffect:效果音/收拾晚饭.mp3 -volume=10;
+素世:真是的……我先收拾一下哦
+changeFigure: -id=sakiko -next;
+:总而言之
+changeBg:CG/洗碗.png -next;
+:谎言一直延续了下去|我升上高一，并与祥子一同转学到了羽丘 -fontSize=default;
+playEffect:效果音/放水.mp3 -volume=10;
+:升上高中之后，祥子开始去打工|我租公寓的地方，和祥子搬出来的地方，意外的很近 -fontSize=default;
+:先是以“一次性做两个人的饭会更节省”的理由，成功劝说了祥子每天下工之后，到这里一起吃晚饭
+:顺着这种劲头，她第二天中午的便当，很快也被我包圆了
+:只是没想到，祥子还会塞给我钱。毕竟不好推脱，所以我把这些钱都替她存了起来
+:渐渐地，当她想要逃避家中那个酒气熏天的老爸时，也会在这里住下—— -fontSize=default;
+playEffect:效果音/木のドアをノック1.mp3 -volume=20;
+:——咚咚 -fontSize=default;
+素世:稍等一下哦——
+:我一边答应着，一边忙不迭地将盘子放进水槽，在围裙上擦干手 -fontSize=default;
+changeBg: -next;
+:门外的人，如果不出意外的话，当然就是——
+changeFigure:mygo_avemujica_v5/mutsumi/338_casual-2023_rip/model.json -id=mutsumi -transform={"position":{"y":-300}} -next -motion=smile01 -expression=smile01;
+playEffect:效果音/玄関のドアが閉まる音.mp3 -volume=20;
+睦:……素世，晚上好 -fontSize=default;
+素世:小睦啊，今天很早呢
+睦:给，这是伴手礼
+素世:啊，Joseph D的巧克力~
+素世:先进来吧，祥子也在，等下大家一起吃吧 -fontSize=default;
+changeFigure: -id=mutsumi -transform={"position":{"y":-300}};
+setTextbox:hide;
+changeBg:廉价公寓_主室_晚.png;
+changeFigure:mygo_avemujica_v5/sakiko/341_casual-2023_rip/model.json -id=sakiko -transform={"position":{"x":500,"y":-200},"scale":{"x":0.8,"y":0.8}} -next -motion=smile01 -expression=smile01;
+changeFigure:mygo_avemujica_v5/mutsumi/338_casual-2023_rip/model.json -id=mutsumi -transform={"position":{"x":-200,"y":-200},"scale":{"x":0.8,"y":0.8}} -next -motion=smile01 -expression=smile01;
+:睦在祥子身边坐下，两人详谈甚欢。我让双手重新沾上泡沫，从厨房的水槽前望向这一切
+setTextbox:on;
+:无与伦比的安定感，在心中荡漾开来
+:……
+祥子:啊，洗完了吗。素世快来这里
+素世:好好~ -fontSize=default;
+setTransform:{"position":{"x":400,"y":-300}} -target=sakiko -duration=2000 -next;
+setTransform:{"position":{"x":-400,"y":-300}} -target=mutsumi -duration=2000;
+:祥子拍着榻榻米，我把手冲干净，解下围裙，走到她身边紧贴着坐下 -fontSize=default;
+:在经历了如此漫长的重复之后……眼前的光景，还有这半年的生活
+:简直就像……身处于天堂
+changeFigure:mygo_avemujica_v5/sakiko/341_casual-2023_rip/model.json -id=sakiko -transform={"position":{"x":500,"y":-200},"scale":{"x":0.8,"y":0.8}} -next -motion=thinking01 -expression=smile02;
+祥子:素世，张嘴~啊——
+素世:诶？真是的……啊——
+:巧克力的滋味在嘴中融化，首先是可可的苦，接着是细微的蜂蜜清甜
+:最终留在口腔中的……是令人回味的香气
+changeFigure:mygo_avemujica_v5/sakiko/341_casual-2023_rip/model.json -id=sakiko -transform={"position":{"x":500,"y":-200},"scale":{"x":0.8,"y":0.8}} -next -motion=nf_left01 -expression=smile06;
+祥子:这个味道……真令人怀念呢……
+祥子:……
+changeFigure:mygo_avemujica_v5/sakiko/341_casual-2023_rip/model.json -id=sakiko -transform={"position":{"x":500,"y":-200},"scale":{"x":0.8,"y":0.8}} -next -motion=nf05 -expression=smile03;
+祥子:……如果没有素世在的话，我…… -fontSize=default;
+素世:没什么，祥子能陪在身边，我也很开心
+changeFigure:mygo_avemujica_v5/mutsumi/338_casual-2023_rip/model.json -id=mutsumi -transform={"position":{"x":-200,"y":-200},"scale":{"x":0.8,"y":0.8}} -next -motion=smile04 -expression=smile02;
+睦:噗，噗噗
+changeFigure:mygo_avemujica_v5/mutsumi/338_casual-2023_rip/model.json -id=mutsumi -transform={"position":{"x":-200,"y":-200},"scale":{"x":0.8,"y":0.8}} -next -motion=smile04 -expression=smile01;
+睦:总觉得……像夫妇一样
+changeFigure:mygo_avemujica_v5/sakiko/341_casual-2023_rip/model.json -id=sakiko -transform={"position":{"x":500,"y":-200},"scale":{"x":0.8,"y":0.8}} -next -motion=surprised01 -expression=surprised01;
+祥子:？？？
+祥子:在说什么呀，小睦。我们可都是女孩子哦
+睦:好好
+changeFigure:mygo_avemujica_v5/mutsumi/338_casual-2023_rip/model.json -id=mutsumi -transform={"position":{"x":-200,"y":-200},"scale":{"x":0.8,"y":0.8}} -next -motion=idle01 -expression=smile01;
+睦:再过一会儿，一起去RiNG吧
+changeFigure:mygo_avemujica_v5/sakiko/341_casual-2023_rip/model.json -id=sakiko -transform={"position":{"x":500,"y":-200},"scale":{"x":0.8,"y":0.8}} -next -motion=idle01 -expression=smile01;
+祥子:啊，说的是呢。今天也和大家一起合一下吧 -fontSize=default;
+祥子:毕竟，下周的周末，就要久违地进行第二次LIVE了 -fontSize=default;
+祥子:就不用等一下了，巧克力也可以带过去大家一起吃
+changeFigure: -id=mutsumi -transform={"position":{"x":-200,"y":-200},"scale":{"x":0.8,"y":0.8}} -next -motion=idle01 -expression=smile01;
+setTransform:{"position":{"x":-300,"y":-400},"scale":{"x":1.2,"y":1.2}} -target=sakiko -duration=1000;
+:说着，祥子站起身，微笑着向我伸出手
+祥子:走吧，素世——
+祥子:到我们的——Crychic那里去
+setTextbox:hide -next;
+bgm: -volume=10 -enter=500;
+changeBg:none -next;
+changeFigure: -id=sakiko;
+choose:RiNG, Crychic录音室内:c03_s05.txt;

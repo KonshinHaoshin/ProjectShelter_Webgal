@@ -1,0 +1,135 @@
+changeBg:过场/演出结束欢呼.png -next;
+changeFigure:mygo_avemujica_v5/anonW/037_casual-2023_rip/model.json -id=anon -transform={"position":{"x":0,"y":-300},"alpha":0} -next -motion=nf02 -expression=smile04;
+changeFigure:none -id=black -next;
+changeFigure:black.png -id=black -transform={"alpha":1} -next;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1 -next;
+playEffect:1_效果音/01_常用效果音/演出结束欢呼.mp3 -volume=60;
+:
+:这一次的演出很成功，大家向台下挥着手，回应着观众们的欢呼
+:脸上流淌着喜悦的汗水，挂着幸福的笑容
+:是的，又一次
+:看向爱音，她正傻呵呵地向着台下挥手
+:谢谢你，小爱音
+:自从你加入乐团之后，我轻松了很多
+:我可以做很多以前不能做的事，而这些事曾导向的各种悲剧结局……都没再发生过
+:从而，我得以又一次，为大家带来了这无比幸福的一刻
+:只要……避免接下来会发生的事，便又是一次完美的谢幕
+:于是闭上眼，抬手，捏起指尖——
+playEffect:1_效果音/FINGER_SNAP.mp3 -volume=20;
+setTransform:{"position":{"x":0},"scale":{"x":0.8,"y":0.8},"alpha":1,"blur":10,"glitchFilm":1,"rgbFilm":1} -target=bg-main -duration=1000 -next;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+:
+changeBg:CG/C03S01_素世舞台恍惚.png -next -transform={"position":{"x":1400},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0,"oldFilm":1};
+:眼前的一切迅速褪去，如同退潮水面上碎掉的月影
+:它们失去光彩，隐入黑暗之中 -fontSize=default;
+:片刻后——
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+bgm:06. 壁の先.mp3 -volume=40;
+:
+:睁开眼，我仍在舞台上
+:只不过，是一年前的月之森音乐祭舞台
+:那个……我无比熟悉的——
+:——幸福的起点
+:
+:演出时的日常衣着，已经变回月之森的初中校服 -fontSize=default;
+:我早已经不去记这是第几次了
+:只是……在一次又一次的轮回中
+:磨掉每一个不幸福的棱角，抚平每一处不完美的瑕疵
+:一切的一切，经由我双手的打磨，从原本的粗糙璞石，渐渐化作无瑕美玉
+:虽然偶尔还是会失手，但……大家会越来越幸福吧
+:越来越幸福，直到那一刻来临之前
+:本应推动着命运之轮流转的神明，现在身在何方？
+:又或者……神明本身是否存在？
+:我不知道，我不在意
+:现在推动命运之轮的人，是我
+:即便它只是原地打转
+:我很满意
+:我没有什么不满
+:接下来，收拾乐器，去迎接小祥
+:我正准备站起身来
+playEffect:1_效果音/01_常用效果音/衣擦れ1.mp3 -volume=40;
+:
+:……
+:等等，有哪里不太对
+:那段一直迎接我归来的……演奏的结尾，最后与最初的那几个小节
+:它们……似乎并没有如约响起
+:不应有的寂静包裹住了我——这令我有些讶异，于是看向身边的同学
+setTransform:{"position":{"x":200,"y":0},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0,"oldFilm":1} -target=bg-main -duration=2000 -next;
+:
+:她们仍在演奏——应该说，她们仍保持着演奏的姿势
+:然而……纹丝不动
+:不仅如此，身周的一切……都蒙上了昏黄晦暗的一层
+:仿佛被遗忘在时间之外、凝固在时间之外
+:如同……一块浑浊的琥珀
+:迟疑着，我伸手触向旁人的身躯——手停了下来，它确实被什么东西阻碍住了
+:然而——却没有从指间传来任何触感
+素世:这是……怎么回事？
+:我有些紧张
+:这种心情，真是久违了
+setTransform:{"position":{"x":1400, "y":100},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0,"oldFilm":1} -target=bg-main -duration=1000 -next;
+:
+playEffect:1_效果音/01_常用效果音/布団に倒れ込む.mp3 -volume=10;
+setTransform:{"position":{"x":1400,"y":-150},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0,"oldFilm":1} -target=bg-main -duration=500 -next;
+:
+:我立即起身，差点为此摔了一跤，因为脚下的舞台也触若无物
+setTransform:{"position":{"x":1400, "y":100},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0,"oldFilm":1} -target=bg-main -duration=500 -next;
+:
+:稍微花了一些时间去习惯这种感觉，终于站稳脚跟
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+:于是，一点点向后台挪去
+changeBg:普通背景/月之森礼堂后台走廊.png -next -transform={"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0,"oldFilm":1};
+:
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+:
+:我再次站在那片巨大落地窗面前
+:小祥不在那里
+:该说是有些失望吗……不…… -fontSize=default;
+setTransform:{"position":{"x":0, "y":-150},"scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=500 -next;
+:我只是自嘲地笑笑，然后放松双腿，任由自己瘫坐在地上 -fontSize=default;
+:没有疼痛，没有身体与地面的碰撞，空若无物
+:既然时间已经不动了，小祥当然是和其他人一样，留在了观众席 -fontSize=default;
+:那么，也就是说，不仅是小祥
+:还有爱音、灯、立希、睦、乐奈
+:我珍视的她们，我珍视的一切
+:或许都已经——
+:——凝固成琥珀的一部分了
+playEffect:素世/…………はぁ（叹气）.mp3 -volume=10;
+素世:……呼
+:然而，我反倒一阵释然
+:如果这真的就是结局，那或许也不错
+:许下狂妄的愿望，只为了维持那泡沫般的自私幻梦 -fontSize=default;
+:为此，我不断欺骗身周所有人，不断欺骗着时间、不断欺骗着世界 -fontSize=default;
+:我不断迎合一切，向身上粉饰着谎言 -fontSize=default;
+:我……成为了赝品 -fontSize=default;
+:——终于，这样的我还是……被彻底抛弃了 -fontSize=default;
+:这不是理所当然的吗
+:我伸出手，抚摸着地面上那片凝固的阳光，掌心没有传来丝毫的温度
+:没关系
+:至少它看上去很温暖
+setTransform:{"position":{"x":-200,"y":-150},"scale":{"x":1.2,"y":1.2},"blur":5} -target=bg-main -duration=2000 -next;
+setTransform:{"alpha":0.4,"blur":0} -target=black -duration=2000 -next;
+:终于能休息一会儿了
+bgm:none -volume=40 -enter=2000;
+setTransform:{"position":{"x":-200,"y":-150},"scale":{"x":1.2,"y":1.2},"blur":10} -target=bg-main -duration=2000 -next;
+setTransform:{"alpha":0.8,"blur":0} -target=black -duration=2000 -next;
+:就……躺在这里——
+setTransform:{"alpha":1,"blur":0} -target=black -duration=2000 -next;
+:
+？？？:啊，又找到你啦—— -自制剧本台词/C04S04_Anon_Found_01.wav -fontSize=default;
+:——身后，传来了轻轻的呼唤
+素世:诶？？？
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2},"blur":10} -target=bg-main -duration=1 -next;
+:我猛地回过头去
+:一道身影，带着剧烈鲜明的色彩—— -fontSize=default;
+setTransform:{"position":{"x":0,"y":-300},"alpha":1} -target=anon -duration=1 -next;
+:——从晦涩的背景中，如同滚烫的阳光一般—— -fontSize=default;
+？？？:呐？ -自制剧本台词/C04S04_Anon_Found_02.wav -fontSize=default;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=500 -next;
+:——深深刺入我的双眼 -fontSize=default;
+爱音:そーよりん~ -自制剧本台词/C04S04_Anon_Found_03.wav -fontSize=default;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=500 -next;
+:
+changeBg:none -next;
+changeFigure:none -id=anon -next;
+:
+changeScene:C04S03/C04S03_Scene05.txt

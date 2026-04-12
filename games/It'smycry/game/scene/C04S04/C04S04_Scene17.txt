@@ -1,0 +1,158 @@
+changeBg:过场/RiNG外.png -next;
+changeFigure:mygo_avemujica_v5/sakiko/341_casual-2023_rip/model.json -id=saki -transform={"alpha":0} -next -motion=serious01 -expression=serious01;
+changeFigure:none.png -id=black -next;
+changeFigure:black.png -id=black -transform={"alpha":1} -next;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1 -next;
+:
+素世妈妈:素世？素世？
+素世:……啊！抱歉……
+素世妈妈:睡着了吗？你这孩子……
+素世妈妈:我们要到了哟
+bgm:午後の陽だまり.mp3 -volume=40 -enter=0;
+playEffect:1_效果音/02_环境音/車の中1.mp3 -volume=80 -id=env;
+:我揉揉眼睛，打了个哈欠
+:随着车流的启动，我们通过了前往RiNG的最后一个红绿灯
+:车内回响着轻柔的爵士乐，此时此刻，感到心中异常宁静
+素世妈妈:演出结束的时候和妈妈说一声吧？到时候我再过来接你
+素世:不用啦，我看完自己搭电车回去就可以了
+素世:妈妈不是还要去参加烘焙课吗？我还期待着回家能吃到新口味曲奇呢~
+素世妈妈:啊，原来是打着这个算盘——说起来……没关系吗？
+素世:什么？
+素世妈妈:……那些孩子，以前是素世的队友吧
+素世:啊，这个嘛
+素世:没关系的，已经是过去的事情了
+素世:现在她们在新乐队里过得很好，我只是来看演出，和大家道别而已
+素世妈妈:道别吗……你们这些孩子，总感觉把这些事情看得很重呢……
+素世妈妈:不要嫌妈妈多嘴……但大家往后的人生还很长
+素世妈妈:总还是有机会再见的哟，到了那时候，大家也会以全新的面貌和视角，来面对这些事情吧
+素世妈妈:所以，不用给自己太多压力哟，素世
+素世:嗯，我知道了~
+素世妈妈:——唔，就停这里吧？
+playEffect:1_效果音/01_常用效果音/車のドアを閉める.mp3 -volume=40;
+playEffect:none -volume=40 -id=env;
+bgm:none -volume=40 -enter=2000;
+:
+:下车后，我向妈妈挥挥手，目送着她远去
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+:接着——转向RiNG的方向，看着那副发光的巨大招牌
+:……是的，人生还很长，未来还很长
+:因而也是时候——为之前那一段漫长、反复、却又无可替代的过去，画上句号了
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+:
+:在Afterglow之后——Crychic上场了
+:首先上台的，是我熟悉的四人，以及顶替了我贝斯手位置的——八幡海铃
+:爱音一如既往的有些紧张，我看着她那副笨拙的样子，不由得偷偷笑了起来
+:这一次，她从来没认识我，也没有我的帮助
+:也不知道……她是怎样坚持到现在的呢——不，灯总会有办法的吧
+:就和……最初的那次一样
+:爱音很快克服紧张，五人成功演奏了《碧天伴走》，一曲终了，爱音和乐奈下场，换上祥子和睦
+:我并没有特意去挑选隐蔽的位置，不如说，站得还算蛮靠前的
+:所以，可以说是在祥子一出场的时候，就和她打了个照面
+:本来以为她会躲开我的目光，然而她只是怔了怔，并向我微笑着招了招手
+:有些意外，但我也报以微笑，目送着她走到键盘后
+:于是，《春日影》……奏响了
+:熟悉的旋律传入耳中，我闭上双眼，静静聆听着，左手不自觉地在空中一同按出贝斯的指法
+:之前在车站附近的公园里，对她说了很过分的话呢
+:轮到我扮了一次亦真亦假的恶人
+:轮到我从口中说出冠冕堂皇的话
+:轮到我……伤害她了
+:但那样或许更好，至少，那些话语——
+changeBg:过场/C04S04_舞台_01.png -next;
+:——全部全部，不再是谎言
+playEffect:1_效果音/01_常用效果音/演出结束欢呼.mp3 -volume=40;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=2000 -next;
+:伴随着最后一个音符落地，全场掌声响起，我睁开双眼，看到爱音与乐奈重新上台，台上的七人正在谢幕
+:这样就好——我深深叹了一口气，转身准备离开
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+:没有人死去，没有悲剧发生——
+:——一切都如我所愿
+:是的，这一次，我已经尽力做到最好，我也没有再撒谎
+:这或许……就是我能做到的……最好的结局了
+祥子:——请等一下，素世
+changeBg:过场/C04S04_舞台_02.png -next;
+setTransform:{"position":{"y":-600},"scale":{"x":1.4,"y":1.4},"alpha":1,"blur":0} -target=saki -duration=1 -next;
+playEffect:1_效果音/01_常用效果音/急促脚步跑远_硬地板.mp3 -volume=40;
+:身后响起一阵急促的脚步
+playEffect:1_效果音/01_常用效果音/衣擦れ1.mp3 -volume=40;
+:接着，手心中传来熟悉的体温
+changeFigure:mygo_avemujica_v5/sakiko/341_casual-2023_rip/model.json -id=saki -next -motion=serious02 -expression=sad01;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+:我错愕地回过头，看到祥子的脸
+:在被分开的人群中，她紧紧抓住了我的手，全场都安静了下来
+素世:怎……怎么了？
+:顿时感到有些慌乱，我想要把手抽回来，没有成功
+祥子:对不起，素世
+changeFigure:mygo_avemujica_v5/sakiko/341_casual-2023_rip/model.json -id=saki -next -motion=nf_left01 -expression=sad01;
+祥子:素世说得很对——我的确只想着自己
+素世:……又想要劝我回来吗？
+素世:我已经说过了吧，我不会回来的
+:是的，我必须尽快脱身
+:我确实不想回到Crychic……而且，我也不能回去
+changeFigure:mygo_avemujica_v5/sakiko/341_casual-2023_rip/model.json -id=saki -next -motion=serious02 -expression=serious01;
+祥子:然而，人不能只想着自己，但也不能完全忘掉自己是谁不是吗？
+祥子:我就是这种固执的人，这一点我自己也无法改变
+祥子:所以也请素世，至少听听我接下来想说的一切吧
+:我如果继续待在这里的话——悲剧会再次发生吗？
+:我不知道，但无所谓了
+:即使悲剧再演……我也已经做好了万全准备
+:事到如今，反而有些释然
+素世:请说吧
+changeFigure:mygo_avemujica_v5/sakiko/341_casual-2023_rip/model.json -id=saki -next -motion=nf05 -expression=sad01;
+祥子:……谢谢
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+:于是……任由着祥子将我拉回舞台前，祥子抓住灯伸出的手，爬上舞台
+:她转身面向我，单膝跪下
+bgm:08. 真っ直ぐな想い.mp3 -volume=40 -enter=0;
+祥子:我一直是个笨拙的人，像月亮一样借走阳光
+祥子:事到如今，我也还是没能完全理解他人的感受
+祥子:但——理解他人，本来就不是单方面就能做到的事吧？为了他人改变自己，根本算不上什么理解
+祥子:所以，只能向彼此勇敢地展露真实的自己，彼此扶持着前进
+祥子:……这样一来，即便还是不能完全互相理解，但至少……可以互相信任
+祥子:我选择……互相信任
+祥子:所以……我已经和大家好好聊过，好好商量过了
+素世:……？
+:我有些疑惑地扫过舞台上全员的脸——她们各自微笑着回望向我
+祥子:素世说过吧，Crychic已经结束了，不要太执着于过去为好
+祥子:虽然大家不能完全理解素世的想法
+祥子:虽然Crychic承载了许多美好，也曾经是我们最重要的家
+祥子:但我……但大家，选择相信素世！
+:也正是此刻——我的目光最终落在祥子的脸上
+:她回望向我，我突然意识到，那双澄黄色的眼眸中，正绽出前所未见的光芒
+:就在我为这种光芒短暂失神之时——
+changeFigure:none -id=saki;
+changeBg:CG/C04S04_Final_01.png -next;
+:——她站起身，抬高右手，推开了麦克风的开关
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+祥子:我代表Crychic全员，向全场宣布——
+祥子:——Crychic，就此解散！
+素世:……诶？
+:解散……？
+:我一下呆住了，观众们的窃窃私语在身周响起
+:祥子的声音继续响彻全场
+祥子:这不是结束，而是我们对过去的告别
+祥子:所以接下来，请容我向大家介绍——一支全新的乐队！
+祥子:其成员为——
+祥子:——主唱，高松灯
+祥子:——鼓手，椎名立希
+祥子:——主音吉他手，要乐奈
+祥子:——节奏吉他手，千早爱音
+祥子:——节奏吉他手，若叶睦
+祥子:——支援贝斯手，八幡海铃
+祥子:——键盘手，丰川祥子
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+祥子:以及——
+changeBg:CG/C04S04_Final_02.png -next;
+:她向我伸出手，舞台灯的光束在她背后展开，如同纯白的发光羽翼
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+祥子:长崎素世，我们永远的贝斯手
+祥子:如果累了，就请好好休息吧
+祥子:无论多久都可以，我们会一直等着你回来
+祥子:你说过吧，家不该是束缚，而是归宿
+祥子:所以——
+全员:——路上小心(いってらっしゃい)！
+setTransform:{"blur":10} -target=bg-main -duration=2000 -next;
+:
+:原来……如此吗
+:看来我错了，我所预想的结局，终究只是我的一厢情愿
+:眼前的这一切……才是大家，给我的最终答案
+changeScene:C04S04/C04S04_Scene18.txt

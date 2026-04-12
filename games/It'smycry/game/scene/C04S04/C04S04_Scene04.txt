@@ -1,0 +1,122 @@
+bgm:24. 孤独な少女.mp3 -volume=60;
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -transform={"position":{"x":0,"y":-600},"scale":{"x":1.4,"y":1.4},"alpha":1,"blur":0} -next -motion=smile03 -expression=serious02;
+changeBg:普通背景/建筑大厅_雨天.png -next -transform={"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2}};
+changeFigure:none.png -id=black -next;
+changeFigure:black.png -id=black -transform={"alpha":1} -next;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1 -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2},"alpha":1} -target=bg-main -duration=1 -next;
+素世:从前，有一对母女
+素世:在女儿很小的时候，母亲和父亲就分开了，母女二人在一间小房子里相依为命
+素世:在母亲的努力下，过了一段时间，母女二人住进了豪华的屋子
+素世:面对这样的母亲，女儿也竭力让自己变得完美
+素世:在家中，守候着工作晚归的母亲，为她呈上热腾腾的饭菜
+素世:在学校中，则维持着完美形象，成为众人口中那个温柔而可靠的同学
+素世:如果不成为这样完美的女儿，就会对不起母亲、对不起这个唯一的家人吧——她是这么想的
+素世:然而有一天，劳累的女儿突然病倒了
+素世:病了的女儿，无法戴上那副完美的面具，变得一点都不像她自己
+素世:然而……母亲温柔地照顾了她，放弃了很多工作，只为了陪在她的身边
+素世:女儿好起来之后，为了避免再次生病，母女二人都不再像以前那样努力
+素世:但家人之间的关系，反倒变得更亲密了
+素世:所以，女儿意识到——可以不用那么努力的
+素世:对于母亲也是，对于女儿也是
+素世:……我是，这么想的
+bgm: -volume=60 -enter=2000;
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -next -motion=serious01 -expression=smile01;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+:我和素世靠在大堂的墙上
+:她轻轻地对我说着这一切，语气温柔而平稳
+:然而，她的眼中似乎有什么在闪动
+祥子:……该不会，素世就是……
+素世:嗯
+素世:我就是那个女儿
+祥子:……为什么，要对我说这些？
+素世:也许是我自作多情吧
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -next -motion=smile03 -expression=smile01;
+素世:我觉得……会不会，小祥也和我一样……和我一样，生了病而不自知
+祥子:我……？
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -next -motion=smile03 -expression=smile03;
+素世:抱歉呢，擅自这样说小祥
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -next -motion=nnf_right01 -expression=smile03;
+:素世移开目光 -fontSize=default;
+:她到底想告诉我什么？
+:为什么偏偏是家人？为什么偏偏和我如此相像？为什么……又偏偏恰好相反？
+:她在关心我……还是在套我的话？不不不，我有必要这么想吗？……
+bgm:22. 幼い日.mp3 -volume=60;
+:……我到底……在害怕什么？
+素世:说来可笑，以前，我总是害怕自己不被需要，一直努力装作很温柔
+:我还在胡思乱想，素世突然又开口了
+祥子:努力……装作温柔？
+素世:嗯，对的
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -next -motion=serious02 -expression=smile01;
+:她一边说着，一边再次看向我
+素世:我太过努力了，以至于那种温柔，变成了黏在脸上扯不掉的面具
+素世:以至于，有时候我会忘记
+素世:忘记……面具之下的真实表情
+素世:忘记……我，也会讨厌小祥
+祥子:讨厌……我？！
+素世:嗯
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -next -motion=serious01 -expression=smile01;
+素世:从刚认识小祥开始，就觉得……小祥真的很温柔
+素世:将我的心照亮，给我带来了温暖的Crychic，带来了一个家，简直……就和太阳一样
+setTransform:{"position":{"x":-300,"y":-650},"scale":{"x":1.5,"y":1.5},"alpha":1,"blur":0} -target=soyo -duration=1000 -next;
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -next -motion=serious02 -expression=serious03;
+素世:……简直，就和那个虚假的我，一模一样
+祥子:诶？！
+:素世渐渐逼近我，微笑从她脸上褪去
+素世:我猜，即便到刚才为止
+素世:小祥也从来没有注意过大家的感受，还是在考虑你自己的事情吧？
+素世:真是高高在上呢
+祥子:我……我没有……我不是…… -fontSize=default;
+setTransform:{"position":{"x":-600,"y":-800},"scale":{"x":1.7,"y":1.7},"alpha":1,"blur":0} -target=soyo -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.15,"y":1.15},"alpha":1,"blur":10} -target=bg-main -duration=1000 -next;
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -next -motion=serious02 -expression=angry01;
+素世:撒谎
+:那双曾经满是温柔的眼眸，如今隐含着锐利，那种锐利若隐若现，像是靛蓝柔雾后的长矛 -fontSize=default;
+素世:小祥
+素世:你是太阳吗？
+素世:还是说……只是假扮太阳，借走阳光的月亮？ -fontSize=default;
+setTransform:{"position":{"x":-800,"y":-900},"scale":{"x":1.8,"y":1.8},"alpha":1,"blur":0,"rgbFilm":1} -target=soyo -duration=3000 -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1,"y":1},"alpha":1,"blur":10,"rgbFilm":1} -target=bg-main -duration=3000 -next;
+:长矛从群青中猛然刺出，洞穿我脆弱不堪的外壳，刺入我一丝不挂的身躯
+:疼痛涌上喉咙，令我几乎要喘不过气来
+:我只想要逃跑
+setTransform:{"position":{"x":1200,"y":-700},"scale":{"x":1.6,"y":1.6},"alpha":1,"blur":0,"rgbFilm":0} -target=soyo -duration=500 -next;
+setTransform:{"position":{"x":400,"y":-200},"scale":{"x":1.4,"y":1.4},"alpha":1,"blur":0,"rgbFilm":0}  -target=bg-main -duration=500 -next;
+setTransform:{"alpha":0.6,"blur":0} -target=black -duration=500 -next;
+:立即从墙壁上起身，低头躲开素世的目光……甚至不敢和她说再见
+素世:等一下
+playEffect:1_效果音/01_常用效果音/衣擦れ2.mp3 -volume=100;
+:她又抓住了我的手
+祥子:……放开我！
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -next -motion=smile01 -expression=smile01;
+:我如触电般颤抖起来，反射性地想要甩开她
+:然而——手中突然传来某种干燥微暖的触感
+setTransform:{"position":{"x":200,"y":-1100},"scale":{"x":1.6,"y":1.6},"alpha":1,"blur":0,"rgbFilm":0} -target=soyo -duration=500 -next;
+setTransform:{"position":{"x":100,"y":-100},"scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=500 -next;
+setTransform:{"alpha":0.6,"blur":0} -target=black -duration=500 -next;
+:转头一看，是一把折叠伞
+setTransform:{"position":{"x":0,"y":-700},"scale":{"x":1.6,"y":1.6},"alpha":1,"blur":0,"rgbFilm":0} -target=soyo -duration=500 -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=500 -next;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=500 -next;
+祥子:……诶？
+素世:啊，这个吗，我一般习惯带两把伞
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -next -motion=nf_left01 -expression=smile01;
+素世:是……以前一个很重要的人，教会我的
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -next -motion=smile01 -expression=smile01;
+素世:毕竟，无论是太阳、还是月亮
+素世:小祥……都曾经照亮过我
+素世:小祥说过，乐队是命运共同体吧？
+素世:一开始，脑中还没有很明确的概念，后来我想明白了——大概，和家很像吧
+素世:如果乐队是另一个家，乐队的成员们就是家人
+素世:那么，家不该是束缚，而是归宿
+素世:所以——
+playEffect:1_效果音/01_常用效果音/衣擦れ1.mp3 -volume=100;
+setTransform:{"position":{"x":-400,"y":-500},"scale":{"x":1.4,"y":1.4},"alpha":1,"blur":0} -target=soyo -duration=3000 -next;
+:她轻轻放开了我
+素世:[路上小心](いってらっしゃい)
+bgm:none -volume=60 -enter=4000;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=500 -next;
+:
+changeFigure: -id=soyo;
+:
+changeScene:C04S04/C04S04_Scene05.txt

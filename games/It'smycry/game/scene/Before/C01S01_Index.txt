@@ -1,0 +1,1 @@
+choose:1:Before/C01S01_Openning.txt|2:Before/C01S01_Scene02.txt|3:Before/C01S01_Scene03.txt|4:Before/C01S01_Scene04.txt|5:Before/C01S01_Scene05.txt|6:Before/C01S01_Scene06.txt;

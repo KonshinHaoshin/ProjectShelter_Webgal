@@ -1,0 +1,176 @@
+英语老师:……那么，本周的课外阅读作业是《猴爪》，请大家在下周准时提交阅读笔记…… -fontSize=default;
+数学老师:……对平行线如何相交的问题，将涉及到非欧几里得几何知识，故先不作展开…… -fontSize=default;
+物理老师:……当我们谈论到牛顿的科学成果时，往往绕不过“光的散射”这个著名实验……
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_winter-2023_rip/model.json -id=muts -transform={"position":{"x":300,"y":-300},"alpha":0} -next -motion=idle01 -expression=default;
+changeFigure:mygo_avemujica_v5/sakiko/341_jh_school_winter-2023_rip/model.json -id=saki -transform={"position":{"x":-300,"y":-300},"alpha":0} -next -motion=idle01 -expression=sad01;
+changeFigure:black.png -id=dark -transform={"alpha":0} -next;
+playEffect:1_效果音/02_环境音/シーンと静まり返る教室.mp3 -volume=20 -id=env;
+changeBg:月教室.png -next -transform={"scale":{"x":1.1,"y":1.1}};
+: -fontSize=default;
+:最终妈妈还是同意我来上学了
+:她还说放学要来接我什么的，明明没有这个必要
+:午休时间，我打开妈妈早上给我的便当
+:便利店买的
+:平时，应该都是我准备自己的便当，不过昨天太晚了，并没有时间去准备食材
+:不过也无所谓，吃饭并不是什么很重要的事
+:说起来，到底什么是重要的事？
+:我思考过好几次这个问题，但每次都会觉得，自己又从黏着的位置脱落了几分
+:我不太喜欢这种失衡感，所以这次，我很快就把这个问题抛到一边去
+同班同学:……素世同学？ -fontSize=default;
+同班同学:啊！——抱歉，那个……
+同班同学:……外面有人找你——
+同班同学:——十分抱歉！
+:传话的同学逃开了
+playEffect:1_效果音/01_常用效果音/椅子に座る3.mp3 -volume=100;
+:我盖上便当盒，站起身来
+:是谁呢——然后看到了门口处露出的淡蓝色发梢
+playEffect:1_效果音/01_常用效果音/普通走路过场.mp3 -volume=40;
+changeBg:月森走廊.png -next -transform={"scale":{"x":1.1,"y":1.1}};
+setTransform:{"position":{"x":300,"y":-300}, "alpha":1} -target=muts -duration=1000 -next;
+setTransform:{"position":{"x":-300,"y":-300}, "alpha":1} -target=saki -duration=1000 -next;
+:
+素世:贵安，丰川祥子
+祥子:……贵安，长崎同学
+祥子:请问……你感觉好些了吗？
+素世:是指什么？
+素世:啊，妈妈给我找过医生了
+素世:应该没事了吧
+changeFigure:mygo_avemujica_v5/sakiko/341_jh_school_winter-2023_rip/model.json -id=saki -next -motion=sad01 -expression=sad01;
+祥子:……这样吗，那就好……
+:嘴上虽然这么说着，但她的眼神有些闪躲，大概是在犹豫着什么
+祥子:……那个
+祥子:前几天……我和长崎同学应该是第一次见面吧？
+changeFigure:mygo_avemujica_v5/sakiko/341_jh_school_winter-2023_rip/model.json -id=saki -next -motion=serious01 -expression=sad01;
+祥子:但是为什么，你会叫我“小祥”呢？
+素世:……小祥？
+素世:啊，小祥吗
+素世:说起来，丰川同学的名字里也有祥字呢
+素世:……而且，和小祥也长得很像
+素世:但是……小祥是谁呢？
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_winter-2023_rip/model.json -id=muts -next -motion=nnf_left01 -expression=default;
+changeFigure:mygo_avemujica_v5/sakiko/341_jh_school_winter-2023_rip/model.json -id=saki -next -motion=nf_right01 -expression=sad02;
+setTransform:{"position":{"x":300,"y":-500},"scale":{"x":1,"y":1}, "blur":10} -target=muts -duration=1000 -next;
+setTransform:{"position":{"x":-300,"y":-500},"scale":{"x":1,"y":1}, "blur":10} -target=saki -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":-200},"scale":{"x":1.1,"y":1.1},"blur":20} -target=bg-main -duration=1000 -next;
+setTransform:{"alpha":0.4} -target=dark -duration=1000 -next;
+:小祥是谁呢
+setTransform:{"alpha":0.5} -target=dark -duration=1000 -next;
+:是面前的丰川祥子吗？大概不是吧
+:我悬在半空，俯瞰着漆黑的渊面。渊面之下的一切，是名为长崎素世的事物 -fontSize=default;
+setTransform:{"alpha":0.6} -target=dark -duration=1000 -next;
+:小祥应该也在那一切之中
+setTransform:{"alpha":0.7} -target=dark -duration=1000 -next;
+:又或许……小祥从来都在渊面之上
+:渊面之下只是幻影，如同圆月倒映在湖中。随着波澜泛起，它又碎作模糊的一片
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_winter-2023_rip/model.json -id=muts -next -motion=nf_left01 -expression=default;
+changeFigure:mygo_avemujica_v5/sakiko/341_jh_school_winter-2023_rip/model.json -id=saki -next -motion=sad02 -expression=sad01;
+祥子:那个……
+setTransform:{"position":{"x":300,"y":-300},"scale":{"x":1,"y":1},"blur":0} -target=muts -duration=1000 -next;
+setTransform:{"position":{"x":-300,"y":-300},"scale":{"x":1,"y":1},"blur":0} -target=saki -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.1,"y":1.1},"blur":0} -target=bg-main -duration=1000 -next;
+setTransform:{"alpha":0} -target=dark -duration=1000 -next;
+:丰川祥子好像还想说些什么
+playEffect:1_效果音/01_常用效果音/衣擦れ1.mp3 -volume=40;
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_winter-2023_rip/model.json -id=muts -next -motion=nnf_left01 -expression=default;
+changeFigure:mygo_avemujica_v5/sakiko/341_jh_school_winter-2023_rip/model.json -id=saki -next -motion=nf_right01 -expression=sad02;
+setTransform:{"position":{"x":200,"y":-300},"scale":{"x":1,"y":1},"blur":0} -target=muts -duration=1000 -next;
+:但一旁的若叶睦伸手搭在她肩膀上。两人对视，若叶睦微微摇了摇头 -fontSize=default;
+changeFigure:mygo_avemujica_v5/sakiko/341_jh_school_winter-2023_rip/model.json -id=saki -next -motion=bye01 -expression=sad01;
+:于是，丰川祥子咬了咬下唇，重新转向我
+祥子:很抱歉，打扰你了……那么，贵安
+素世:嗯，贵安
+changeFigure: -id=muts -next;
+changeFigure: -id=saki -next;
+changeBg: -next;
+:两人转身离去，我看着她们逐渐缩小的背影，脑海中的疑惑随之放大
+playEffect:none -volume=20 -id=env;
+素世:……小祥，究竟是谁呢？ -fontSize=default;
+:
+changeBg:月之森内.png -next;
+:很快放学了，我收拾好书包离开教室 -fontSize=default;
+changeBg:电车内.png -next;
+playEffect:1_效果音/04_非常用音效暂存/電車走行中1_short.mp3 -volume=40;
+:小祥是谁呢？思考着这个问题，走出校门，搭上电车 -fontSize=default;
+playEffect:1_效果音/04_非常用音效暂存/電車停車_01_short.mp3 -volume=40;
+:过了好几个站，下车，放任双腿走着
+changeBg:商店街.png -next;
+:经过商店街，来到一家超市面前，双腿停下了
+素世:——啊，原来如此！
+playEffect:1_效果音/02_环境音/スーパーマーケット2.mp3 -volume=10 -id=env;
+changeBg:超市.png -next;
+:转身走进超市里
+:总之，先要买晚饭的食材
+:因为——
+素世:洋葱……胡萝卜……土豆和鸡肉…… -fontSize=default;
+素世:绞肉也要买一点吧，放到汤汁里会更香一些……
+素世:说起来，小祥一向都吃得很干净
+:——因为我还要回去给小祥做饭
+:原来如此，小祥是和我住在一起的人
+素世:苹果也买一点吧
+素世:等下先削好，泡进淡盐水，放保鲜盒在冰箱里稍微冰着，等晚饭后再拿出来吃 -fontSize=default;
+素世:如果不削好，小祥会笨笨地连核也吃下去呢……
+:原来如此，小祥是个笨拙的人
+素世:那个，麻烦您帮我包一下……
+店员:好嘞——小姑娘看起来很开心啊，买了那么多食材，要给家里人做饭吗？
+素世:——啊！是的~谢谢你，叔叔！
+店员:您客气了——欢迎再来！
+playEffect:none -volume=10 -id=env;
+changeBg:none.png -next;
+:
+:原来如此，小祥是我的家人
+:借着长崎素世的话语，替长崎素世想清楚了这个问题，我一下感到豁然开朗
+playEffect:1_效果音/02_环境音/街の道路.mp3 -volume=10 -id=env;
+changeBg:公园.png -next;
+:踏着明艳的阳光，提着沉甸甸的袋子，我快步向公寓的方向走去 -fontSize=default;
+:拐过街角，便望见了熟悉的二层结构公寓楼 -fontSize=default;
+:楼体低矮、外墙斑驳，显然是一栋很有年头的建筑
+:但我丝毫不会觉得不满意
+:因为，这里是小祥和我的家
+playEffect:1_效果音/01_常用效果音/普通走路过场.mp3 -volume=40;
+changeBg:廉价公寓_门口.png -next;
+:我在嘴里哼着随手拈来的音符，一路向上，停在门前 -fontSize=default;
+:……钥匙在哪里？
+:是我忘记带了吗？
+playEffect:1_效果音/01_常用效果音/古びたドアを開ける.mp3 -volume=40;
+playEffect:none -volume=10 -id=env;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.6,"y":1.6},"alpha":0} -target=bg-main -duration=1000 -next;
+:然而，下意识地试着一推，门便开了，于是我走进去 -fontSize=default;
+changeBg:廉价公寓_残破.png -next -transform={"alpha":0};
+:是我忘记锁门了吗？
+setTransform:{"alpha":1} -target=bg-main -duration=5000 -next;
+:
+:……
+bgm:ギュ、ギュ.mp3 -volume=20 -enter=0;
+:……是我，记错了吗？
+:没有冰箱，没有被褥，没有记忆中熟悉的一切 -fontSize=default;
+:只有一股霉味，试图从厚厚的灰尘中逃离，结果又被墙角密密麻麻的蛛网黏住
+playEffect:1_效果音/04_非常用音效暂存/杂物落地.mp3 -volume=40;
+:我听到一阵杂乱的声音——手中装满食材的袋子落在地上
+:紫色的洋葱、橙色的胡萝卜、褐色的土豆、粉白色的包装鸡肉与绞肉……散落一地 -fontSize=default;
+:一颗苹果滚到脚边，那抹红色烙在眼底
+:……不对 -fontSize=default;
+:一定有那里不对 -fontSize=default;
+:但长崎素世不知道，所以我也没有办法知道 -fontSize=default;
+:她一直没动，只是呆站着，我有些无聊，只好替她数着她的呼吸声
+playEffect:1_效果音/01_常用效果音/普通走路过场.mp3 -volume=40;
+:
+？？？:哎呀……我果然忘记锁门了
+？？？:人老了，记不住事儿咯！——咦？小姑娘，你在这里做什么？
+素世:诶？
+:有人在我背后说话，我数得很专心，不免吓了一跳
+:这导致我又朝渊面滑动了几分
+:属于长崎素世的一切，微微浸湿了我的脚踝
+素世:……很抱歉，管理员先生
+管理员:没事没事~小姑娘啊，你走错房间了吗？
+素世:……我走错房间了吗？
+管理员:哎呀，应该走错了吧
+管理员:毕竟这间房子，空着都大半年了……
+素世:……失礼了
+管理员:……小姑娘？
+管理员:小姑娘，你要走了吗？……
+playEffect:1_效果音/01_常用效果音/急促脚步跑远_硬地板.mp3 -volume=20;
+changeBg:none -next;
+bgm:none -volume=30 -enter=2000;
+管理员:——喂！小姑娘！这些食材—— -fontSize=small;
+:
+changeScene:C03S01_Scene05.txt

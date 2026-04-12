@@ -1,0 +1,89 @@
+:
+changeFigure:mygo_avemujica_v5/umiri/339_casual-2023_rip/model.json -id=umiri -transform={"position":{"x":200,"y":-300},"alpha":0} -next -motion=idle01 -expression=idle01;
+changeFigure:black.png -id=black -transform={"alpha":0} -next;
+:人们常说，时间总会抚平一切
+:我很难对此下一个判断
+:虽然，我或许拥有无限的时间
+:然而在经历了如此多次的回溯之后，唯一能确认的事情是——
+playEffect:1_效果音/02_环境音/シーンと静まり返る教室.mp3 -volume=20 -id=env;
+changeBg:普通背景/月之森黄昏.png -next -transform={"scale":{"x":1.1,"y":1.1}};
+:
+同校同学:若叶同学，贵安
+睦:……贵安
+同校同学:那个，请问丰川同学呢？记得初中的时候，你们经常一起上学吧？
+睦:……
+同校同学:……不好意思，打扰了
+:——脆弱的部分，在时间之风的吹拂下，一定会先被剥离掉
+:由此，那些坚韧的本质，反倒愈发暴露出来
+:搭话的人对睦微微鞠躬，便走开了
+:夕阳已经笼罩了整个校园，我坐在不远处的亭子里，默默看着这一切
+:睦又开始摆弄她的那些黄瓜。当然，水早就浇过了，她只是蹲在那里，与小果尾端的黄花对视，不时伸手抚摸着叶子
+:对于没有了祥子，也没有了我的睦，这便是她放学生活的绝大部分内容 -fontSize=default;
+:老实说有点看不下去了，所以我拿出手机，确认了一下时间，便起身走出校门
+playEffect:1_效果音/01_常用效果音/普通走路过场.mp3 -volume=40;
+playEffect:none -volume=20 -id=env;
+changeBg: -next -transform={"scale":{"x":1.1,"y":1.1}};
+:毫不意外地，升上高中之后，祥子从月之森、从睦的身边离开了
+:想必立希也转校到了花咲川，这个世界的Crychic也同样支离破碎
+:也就是说——
+playEffect:1_效果音/02_环境音/街の道路.mp3 -volume=20 -id=env;
+:再次来到那个熟悉的路口，面前不远处便是RiNG的大门
+:站在附近，静静等待——很快，我曾错过大半的那出小剧场，便在眼前完整上演
+changeBg:过场/RiNG吵架.png -next -transform={"scale":{"x":1.1,"y":1.1}};
+:
+:最后，身着工作服的立希，臭着脸甩下一句“差劲”，便头也不回地走回了店内
+:粉色长发女孩被撇在原地，气鼓鼓但又摸不着头脑，只能对着立希的背影干瞪眼
+:——千早爱音，如过去一般在此时登场了
+:爱慕虚荣的女人，可有可无的女人
+:我曾经是这么认为的
+:然而，当我决定要休息，并有足够长的时间去回忆和复盘这一切时
+:无论是邀请灯组队，还是促成了新乐队的第一次Live……我渐渐意识到，她比我曾认为的要重要得多
+:那么或许——
+？？？:抱歉，请问，那是你认识的人吗？
+素世:诶？
+changeBg:none -next -transform={"scale":{"x":1.1,"y":1.1}};
+:——思绪被突如其来的搭讪打断了，我转向声音发出的方向
+changeBg:过场/RiNG街边.png -next -transform={"scale":{"x":1.1,"y":1.1}};
+setTransform:{"position":{"x":200,"y":-300},"alpha":1} -target=umiri -duration=300 -next;
+:
+:虽然头发留长到了肩部，并且换上了相当朋克的私服，然而我不可能会忘记那双碧绿的双瞳
+:八幡海铃
+:替代我进入了Crychic的贝斯手
+:虽然衣品很酷，遣词造句却又很有礼貌，给人一种奇妙的违和感。
+素世:那个，请问是在对我说话吗？
+海铃:嗯嗯，不好意思，刚才那两个人是在吵架吧？请问你认识粉色头发的那位吗？
+素世:……不认识
+海铃:那，请问你知道她们为什么吵起来了吗？
+素世:……不太清楚呢
+changeFigure:mygo_avemujica_v5/umiri/339_casual-2023_rip/model.json -id=umiri -next -motion=sigh01 -expression=idle01;
+海铃:这样吗……那么打扰你了——
+changeFigure:mygo_avemujica_v5/umiri/339_casual-2023_rip/model.json -id=umiri -next -motion=nf_left01 -expression=idle01;
+setTransform:{"position":{"y":-80},"scale":{"x":1.1,"y":1.1}} -target=bg-main -duration=500 -next;
+setTransform:{"position":{"x":200,"y":-400},"alpha":1} -target=umiri -duration=500 -next;
+setTransform:{"alpha":0.7} -target=black -duration=500 -next;
+:难以抑制的冲动突然从内心涌出
+:如果现在的我，这样做的话——
+setTransform:{"position":{"y":0},"scale":{"x":1.1,"y":1.1}} -target=bg-main -duration=500 -next;
+setTransform:{"position":{"x":200,"y":-300},"alpha":1} -target=umiri -duration=500 -next;
+setTransform:{"alpha":0} -target=black -duration=500 -next;
+素世:不过……
+changeFigure:mygo_avemujica_v5/umiri/339_casual-2023_rip/model.json -id=umiri -next -motion=nf03 -expression=idle01;
+海铃:嗯？你请说……
+素世:不过……之前那个粉色长发的女生，追着一个短发女生跑到这里
+素世:然后那个黑长发女生就大叫着“ともり”什么的，跑过来拦在两人中间了……
+海铃:诶——“ともり”吗……
+changeFigure:mygo_avemujica_v5/umiri/339_casual-2023_rip/model.json -id=umiri -next -motion=thinking01 -expression=idle01;
+海铃:真有意思……
+changeFigure:mygo_avemujica_v5/umiri/339_casual-2023_rip/model.json -id=umiri -next -motion=smile01 -expression=smile01;
+海铃:总之，很感谢你告诉我这些……再见 -fontSize=default;
+playEffect:1_效果音/01_常用效果音/普通走路过场.mp3 -volume=40;
+changeBg:none -next;
+changeFigure:none -id=umiri -next;
+:
+:再看向街对面，千早爱音已经不知去向
+:与我别过的八幡海铃背着贝斯，走进了RiNG的大门，我便也转身离开
+:随着刚才的那一幕在脑海里不断打转，我愈发感到躁动难安
+:因为我意识到，刚刚自己或许—— -fontSize=default;
+playEffect:none -volume=20 -id=env;
+:——在命运之轮上，推出了十分关键的一把;
+changeScene:C03S02/C03S02_Scene04.txt

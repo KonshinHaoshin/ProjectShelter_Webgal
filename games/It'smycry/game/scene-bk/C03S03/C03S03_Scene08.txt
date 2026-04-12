@@ -1,0 +1,82 @@
+: -fontSize=default;
+changeBg:普通背景/电车内夜晚.png -next -transform={"scale":{"x":1.2,"y":1.2},"alpha":1};
+changeFigure:mygo_avemujica_v5/sakiko/341_casual-2023_rip/model.json -id=saki -transform={"position":{"y":-600},"scale":{"x":1.6,"y":1.6}} -next -motion=nf01 -expression=sad01;
+changeFigure:black.png -id=black -transform={"alpha":1} -next;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=100 -next;
+:在这之后，爱音对乐队的态度显然积极了不少
+:本来，我并没有期待在这一趟轮回就能完全解决她的问题
+:毕竟这家伙在原来的世界里，姑且不论能力和态度，首先她就总和立希合不来
+:正因如此，她在这个世界中的表现令人有些意外，可以说得上惊喜
+:有意无意地，我在水族馆当晚向她透露了关于立希的一些个人情况
+:于是——她第二天就行动起来，主动找到立希与之和好。之后的合练中，每次的水平进步也很明显
+:或许也是因为，我拿出的谱子直接就是终稿，从而避免了立希反复修改过程中，这两人产生的摩擦
+:就在刚刚的合练中，立希还破天荒地夸了她
+:或许……
+:这真的是一条……幸福之路
+祥子:素世？有什么心事吗？
+playEffect:1_效果音/04_非常用音效暂存/電車走行中1_short.mp3 -volume=40;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+: -fontSize=default;
+:祥子的声音将我从思绪中拉了回来
+:我正和她手牵着手，肩并着肩，坐在从星象馆回家的电车上
+:偌大的车厢内只有我与她两人，以及电车平稳安定的行驶声
+素世:啊，没有——就是，在想Live的事
+祥子:嗯……
+changeFigure:mygo_avemujica_v5/sakiko/341_casual-2023_rip/model.json -id=saki -transform={"position":{"y":-600},"scale":{"x":1.6,"y":1.6}} -next -motion=nf01 -expression=smile05;
+祥子:说起来，素世一直都是这样呢~
+素世:诶，我一直是怎样？
+changeFigure:mygo_avemujica_v5/sakiko/341_casual-2023_rip/model.json -id=saki -transform={"position":{"y":-600},"scale":{"x":1.6,"y":1.6}} -next -motion=nf01 -expression=smile03;
+祥子:还记得最开始吗？最初在飞鸟山公园的那次
+素世:当然记得啦，我和小祥成为朋友的那次
+祥子:是的
+playEffect:1_效果音/01_常用效果音/衣擦れ3.mp3;
+setTransform:{"position":{"x":-300,"y":-700},"scale":{"x":1.7,"y":1.7}} -target=saki -duration=1000 -next;
+:她将肩头向我挨了挨
+祥子:我当时就说过，总觉得，素世一直有什么心事的样子
+素世:啊~
+素世:当时小祥还说：素世更像是淹溺在自己的世界里的感觉
+changeFigure:mygo_avemujica_v5/sakiko/341_casual-2023_rip/model.json -id=saki -transform={"position":{"y":-600},"scale":{"x":1.6,"y":1.6}} -next -motion=smile06 -expression=smile06;
+:我故意学着祥子的声音说话，因而肩膀上被轻轻打了一下
+祥子:不要取笑我啦
+祥子:现在想来，我肯定是误会了
+祥子:素世……一直都在考虑着大家的事情呢 -fontSize=large;
+bgm:ギュ、ギュ.mp3 -volume=60;
+setTransform:{"position":{"x":-1000,"y":-800},"scale":{"x":1.8,"y":1.8},"blur":5} -target=saki -duration=5000 -next;
+setTransform:{"position":{"x":0,"y":0},"alpha":1,"blur":30} -target=bg-main -duration=5000 -next;
+setTransform:{"alpha":0.2,"blur":0} -target=black -duration=5000 -next;
+: -fontSize=default;
+:她接下来好像还说了几句什么 -fontSize=medium;
+:我听不清
+:我只感到喉头一阵哽咽
+:泪水难以抑制地从眼眶中涌出，滴落在胸前
+changeFigure:mygo_avemujica_v5/sakiko/341_casual-2023_rip/model.json -id=saki -transform={"position":{"y":-600},"scale":{"x":1.6,"y":1.6}} -next -motion=surprised02 -expression=sad01;
+祥子:诶？怎么了怎么了？
+:她被吓了一跳，先是慌乱地以手掌擦着我的眼角，接着才想起掏出随身的手帕
+素世:不……没什么……
+祥子:抱歉啊素世，是勾起什么伤心回忆了吧
+素世:小祥……小祥！
+setTransform:{"position":{"x":-1000,"y":-800},"scale":{"x":1.8,"y":1.8},"blur":0} -target=saki -duration=1000 -next;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+changeFigure:mygo_avemujica_v5/sakiko/341_casual-2023_rip/model.json -id=saki -transform={"position":{"y":-600},"scale":{"x":1.6,"y":1.6}} -next -motion=idle01 -expression=sad01;
+: -fontSize=default;
+:我再也压抑不住，抓住她的手臂，望向她的双眼
+素世:你是……真的吗？
+祥子:……什么？
+素世:拜托了，回答我，给我一个答案
+changeFigure:mygo_avemujica_v5/sakiko/341_casual-2023_rip/model.json -id=saki -transform={"position":{"y":-600},"scale":{"x":1.6,"y":1.6}} -next -motion=sigh01 -expression=cry01;
+: -fontSize=default;
+changeFigure:mygo_avemujica_v5/sakiko/341_casual-2023_rip/model.json -id=saki -transform={"position":{"y":-600},"scale":{"x":1.6,"y":1.6}} -next -motion=serious02 -expression=cry01;
+祥子:…………是！
+playEffect:1_效果音/01_常用效果音/衣擦れ2.mp3;
+setTransform:{"position":{"x":-3000,"y":-2000},"scale":{"x":3,"y":3},"alpha":1,"blur":30} -target=saki -duration=3000 -next;
+setTransform:{"alpha":0.4,"blur":0} -target=black -duration=3000 -next;
+:丰川祥子——小祥
+:她轻轻抱紧了我
+bgm:none -volume=60 -enter=2000;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=2000 -next;
+祥子:放心吧，素世
+changeBg:none -next;
+changeFigure:none -id=saki -next;
+祥子:我，是真的
+changeFigure:none -id=black -next;
+changeScene:C03S03/C03S03_Scene09.txt

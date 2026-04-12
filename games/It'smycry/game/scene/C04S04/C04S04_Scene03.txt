@@ -1,0 +1,181 @@
+changeFigure:mygo_avemujica_v5/tomoli/036_school_jc/model.json -id=tmr -transform={"position":{"x":600,"y":-100},"scale":{"x":1,"y":1},"alpha":1} -next -motion=surprised01 -expression=surprised01;
+changeFigure:mygo_avemujica_v5/taki_haneoka_jc/040_school_winter-2023_rip/model.json -id=taki -transform={"position":{"x":100,"y":-200},"scale":{"x":1,"y":1},"alpha":1} -next -motion=angry02 -expression=serious01;
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_C_winter-2023_rip/model.json -id=muts -transform={"position":{"x":1200,"y":-200},"scale":{"x":1,"y":1},"alpha":1} -next -motion=nnf_left01 -expression=sad01;
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -transform={"position":{"x":-1600,"y":-600},"scale":{"x":1.4,"y":1.4},"alpha":1, "blur":10} -next -motion=nf_right01 -expression=serious02;
+changeBg:特殊意义场景/Crychic练习室_无人.png -next -transform={"scale":{"x":1.2,"y":1.2}};
+changeFigure:none.png -id=black -next;
+changeFigure:black.png -id=black -transform={"alpha":1} -next;
+setTransform:{"alpha":1} -target=black -duration=1 -next;
+playEffect:1_效果音/02_环境音/雨が降る1.mp3 -volume=10 -id=env;
+:
+素世:祥子来了
+bgm:広がる不安-前奏部分.mp3 -volume=60;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+:门一开，室内的三人全部往这边看过来
+:灯坐在地上，立希在架子鼓后看着手机，睦在窗前，膝上放着她那把粉色的七弦吉他
+:我珍视的一切，我留恋的一切
+:我……必须斩断的一切
+:没关系，不用花太长时间——
+:——我低下头，深吸一口气，准备宣布自己要退出Crychic的消息
+素世:——小祥她，好像有事情要对我们坦白
+changeFigure:mygo_avemujica_v5/taki_haneoka_jc/040_school_winter-2023_rip/model.json -id=taki -next -motion=angry02 -expression=serious01;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_jc/model.json -id=tmr -next -motion=surprised01 -expression=surprised01;
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_C_winter-2023_rip/model.json -id=muts -next -motion=nnf_left01 -expression=sad01;
+:然而，素世却突然先对众人说道
+changeFigure:mygo_avemujica_v5/taki_haneoka_jc/040_school_winter-2023_rip/model.json -id=taki -next -motion=angry01 -expression=angry01;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_jc/model.json -id=tmr -next -motion=nf_left01 -expression=sad01;
+立希:……坦白？
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_C_winter-2023_rip/model.json -id=muts -next -motion=nnf02 -expression=sad01;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_jc/model.json -id=tmr -next -motion=sad04 -expression=sad01;
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -next -motion=odoodo01 -expression=serious02;
+灯:小祥，怎么了吗……？
+祥子:我……
+:结果，我一下反倒不知道要怎么开口了
+setTransform:{"position":{"x":-1600,"y":-600},"scale":{"x":1.4,"y":1.4},"alpha":1,"blur":0} -target=soyo -duration=500 -next;
+setTransform:{"position":{"x":600,"y":-100},"scale":{"x":1,"y":1},"alpha":1,"blur":10} -target=tmr -duration=500 -next;
+setTransform:{"position":{"x":100,"y":-200},"scale":{"x":1,"y":1},"alpha":1,"blur":10} -target=taki -duration=500 -next;
+setTransform:{"position":{"x":1200,"y":-200},"scale":{"x":1,"y":1},"alpha":1,"blur":10} -target=muts -duration=500 -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2},"blur":10} -target=bg-main -duration=500 -next;
+:瞥向素世，发现她也在看着我
+:那种目光……令我想要逃走
+:不……我已经决定好了，我已经决定好了
+祥子:我……因为一些原因，要退出Crychic
+setTransform:{"position":{"x":-1600,"y":-600},"scale":{"x":1.4,"y":1.4},"alpha":1,"blur":10} -target=soyo -duration=500 -next;
+setTransform:{"position":{"x":600,"y":-100},"scale":{"x":1,"y":1},"alpha":1,"blur":0} -target=tmr -duration=500 -next;
+setTransform:{"position":{"x":100,"y":-200},"scale":{"x":1,"y":1},"alpha":1,"blur":0} -target=taki -duration=500 -next;
+setTransform:{"position":{"x":1200,"y":-200},"scale":{"x":1,"y":1},"alpha":1,"blur":0} -target=muts -duration=500 -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2},"blur":0} -target=bg-main -duration=500 -next;
+changeFigure:mygo_avemujica_v5/taki_haneoka_jc/040_school_winter-2023_rip/model.json -id=taki -next -motion=angry02 -expression=angry02;
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_C_winter-2023_rip/model.json -id=muts -next -motion=nf_left01 -expression=sad01;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_jc/model.json -id=tmr -next -motion=sad03 -expression=sad02;
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -next -motion=odoodo01 -expression=serious03;
+:心一横，还是说了出来。握住我掌心的那只手，微微地收紧了一下
+:室内陷入了短暂的沉默
+灯:真的……要退出吗？
+立希:……灯在问你呢——还有这样也太不负责任了吧？
+立希:为什么不说话？
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -next -motion=nf_right01 -expression=serious03;
+素世:别这样，小立希
+changeFigure:mygo_avemujica_v5/taki_haneoka_jc/040_school_winter-2023_rip/model.json -id=taki -next -motion=angry04 -expression=angry02;
+setTransform:{"position":{"x":-1600,"y":-600},"scale":{"x":1.4,"y":1.4},"alpha":1,"blur":0} -target=soyo -duration=500 -next;
+setTransform:{"position":{"x":600,"y":-100},"scale":{"x":1,"y":1},"alpha":1,"blur":10} -target=tmr -duration=500 -next;
+setTransform:{"position":{"x":1200,"y":-200},"scale":{"x":1,"y":1},"alpha":1,"blur":10} -target=muts -duration=500 -next;
+setTransform:{"position":{"x":-400,"y":-550},"scale":{"x":1.3,"y":1.3},"alpha":1,"blur":0} -target=taki -duration=2000 -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2},"blur":10} -target=bg-main -duration=500 -next;
+立希:那就不要用这种给人添麻烦的方式退团啊？今天大家也一直在等祥子——
+setTransform:{"position":{"x":-1400,"y":-600},"scale":{"x":1.4,"y":1.4},"alpha":1,"blur":0} -target=soyo -duration=500 -next;
+changeFigure:mygo_avemujica_v5/taki_haneoka_jc/040_school_winter-2023_rip/model.json -id=taki -next -motion=nf_left01 -expression=angry02;
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -next -motion=nf_right01 -expression=serious03;
+素世:好了，小立希，先冷静一下吧
+素世:刚刚小祥也说了吧，是因为一些原因才要退出——
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -next -motion=odoodo01 -expression=serious03;
+素世:——所以，小祥，为什么要退出呢？
+changeFigure:mygo_avemujica_v5/taki_haneoka_jc/040_school_winter-2023_rip/model.json -id=taki -next -motion=angry02 -expression=angry02;
+setTransform:{"position":{"x":-1400,"y":-600},"scale":{"x":1.4,"y":1.4},"alpha":1,"blur":0} -target=soyo -duration=500 -next;
+setTransform:{"position":{"x":600,"y":-100},"scale":{"x":1,"y":1},"alpha":1,"blur":0} -target=tmr -duration=500 -next;
+setTransform:{"position":{"x":-400,"y":-550},"scale":{"x":1.3,"y":1.3},"alpha":1,"blur":0} -target=taki -duration=500 -next;
+setTransform:{"position":{"x":1200,"y":-200},"scale":{"x":1,"y":1},"alpha":1,"blur":0} -target=muts -duration=500 -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2},"blur":0} -target=bg-main -duration=500 -next;
+:短暂的沉默，显然所有人都在等我回答
+祥子:我……
+祥子:是……我自己的原因
+changeFigure:mygo_avemujica_v5/taki_haneoka_jc/040_school_winter-2023_rip/model.json -id=taki -next -motion=angry03 -expression=angry02;
+立希:……这算什么？
+立希:大家都有各种各样的事情，因为自己的原因，算什么理由？
+:立希的话刺得我双颊发烫，一阵酸热从心口涌上喉咙
+:在能够思考之前，喉咙就替我作出了回应
+祥子:就算我不在……
+祥子:就算我不在，大家也可以——
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -next -motion=nf_right01 -expression=serious03;
+changeFigure:mygo_avemujica_v5/taki_haneoka_jc/040_school_winter-2023_rip/model.json -id=taki -next -motion=nf_left01 -expression=angry02;
+setTransform:{"position":{"x":-1200,"y":-600},"scale":{"x":1.4,"y":1.4},"alpha":1,"blur":0} -target=soyo -duration=500 -next;
+素世:好了，小立希
+:素世突然挡在我和立希中间，她提高声音，盖过了我的话语
+素世:老实说，小祥这样，我也有些不满
+素世:但正如小立希你所说，大家都有各种各样的事，那自然也有不想说的事
+立希:不是，不想说也就罢了，但为什么要玩失踪？
+立希:最起码要给大家一个交代才——
+素世:小立希，喜欢Crychic吗？
+changeFigure:mygo_avemujica_v5/taki_haneoka_jc/040_school_winter-2023_rip/model.json -id=taki -next -motion=nf_left01 -expression=surprised01;
+立希:……为什么突然问这个？
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -next -motion=nf_right01 -expression=angry01;
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_C_winter-2023_rip/model.json -id=muts -next -motion=nnf_left01 -expression=sad01;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_jc/model.json -id=tmr -next -motion=nnf_left01 -expression=sad02;
+setTransform:{"position":{"x":-1100,"y":-600},"scale":{"x":1.4,"y":1.4},"alpha":1,"blur":0} -target=soyo -duration=500 -next;
+setTransform:{"position":{"x":-300,"y":-550},"scale":{"x":1.3,"y":1.3},"alpha":1,"blur":0} -target=taki -duration=800 -next;
+素世:因为……如果小立希喜欢Crychic的话，小祥至少也和你一样喜欢这个乐队
+素世:不如说，正因为小祥亲手创办了这个乐队
+素世:我才完全有理由相信，她比我们中的任何一个人，都要更重视Crychic
+changeFigure:mygo_avemujica_v5/taki_haneoka_jc/040_school_winter-2023_rip/model.json -id=taki -next -motion=nf_left01 -expression=angry01;
+立希:不，所以才说——
+素世:所以，我也完全有理由相信
+素世:如果那个理由，能让小祥无暇顾及大家的感受、能让小祥决定要退出如此重要的乐队
+素世:那么，那个理由，对她来说——
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -next -motion=serious02 -expression=serious03;
+素世:——一定是……至少和Crychic同样重要的事物
+setTransform:{"position":{"x":-100,"y":-400},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=taki -duration=800 -next;
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -next -motion=nnf_right01 -expression=serious03;
+changeFigure:mygo_avemujica_v5/taki_haneoka_jc/040_school_winter-2023_rip/model.json -id=taki -next -motion=nnf_left01 -expression=sad01;
+立希:……
+素世:总之，请大家给小祥一点时间
+素世:我……相信小祥
+playEffect:none -volume=10 -id=env;
+bgm:none -enter=2000 -volume=60;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+:
+:在那之后，立希没再说什么，我也没了一开始的气势
+:我从来没有见过素世如此强硬的一面，况且，她都已经把话说到这个份上了
+:抱歉，请大家给我一些时间，时机成熟之后，就会向大家好好说明——
+:——最终……我以这样含混的说辞结尾，匆匆逃离了练习室
+changeBg:普通背景/建筑大厅_雨天.png -next -transform={"position":{"x":400,"y":-200},"scale":{"x":1.4,"y":1.4}};
+setTransform:{"position":{"x":800,"y":-600},"scale":{"x":1.4,"y":1.4},"alpha":0,"blur":0} -target=soyo -duration=1 -next;
+changeFigure:none -id=taki -next;
+changeFigure:none -id=muts;
+changeFigure:none -id=tmr;
+:我……这样算是……退出了Crychic吗？
+playEffect:1_效果音/02_环境音/雨が降る1.mp3 -volume=10 -id=env;
+setTransform:{"alpha":0.6,"blur":0} -target=black -duration=1000 -next;
+:楼外的雨越下越大，我走出电梯，来到大堂内
+:发烫的脸部，终于稍稍凉快了一些
+:至少，成功从那种氛围中逃离了——不，这又算得上是哪门子的成功呢……
+:刚刚素世说“相信我”的时候，心中莫名地揪了一下
+:相信……吗……
+:直到现在，这种悸动还是没能平息
+:原本以为，素世会尽一切可能挽留我，然而意想不到的是，她居然在尽力帮我退出
+:我应该感谢她吗？
+:不，说到底……我到底是更希望她挽留我，还是更希望她帮我退出？
+:我想要她温柔，还是想要她冷漠？
+:我想要的……究竟是什么？
+playEffect:1_效果音/01_常用效果音/普通走路过场.mp3 -volume=50;
+:有人轻轻来到身边，打断了思绪
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -next -motion=smile03 -expression=serious02;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":-600},"scale":{"x":1.4,"y":1.4},"alpha":1,"blur":0} -target=soyo -duration=1000 -next;
+setTransform:{"position":{"x":-100,"y":0},"scale":{"x":1.2,"y":1.2},"blur":10} -target=bg-main -duration=1000 -next;
+:本来以为是睦，转头一看——是素世
+祥子:素世……？
+祥子:睦……还没下来吗？
+素世:嗯
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -next -motion=smile03 -expression=smile01;
+素世:因为我和她说，想和小祥稍微聊聊
+祥子:……
+setTransform:{"position":{"x":100,"y":-650},"scale":{"x":1.4,"y":1.4},"alpha":1,"blur":10} -target=soyo -duration=1000 -next;
+setTransform:{"position":{"x":100,"y":-50},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":10} -target=bg-main -duration=1000 -next;
+setTransform:{"alpha":0.6,"blur":0} -target=black -duration=1000 -next;
+祥子:如果是……想要挽留的话，请不必——
+changeFigure:mygo_avemujica_v5/soyo/039_school_JC/model.json -id=soyo -next -motion=smile03 -expression=smile03;
+素世:——不用那么努力也可以
+setTransform:{"position":{"x":0,"y":-600},"scale":{"x":1.4,"y":1.4},"alpha":1,"blur":0} -target=soyo -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":10} -target=bg-main -duration=1000 -next;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+祥子:诶？
+:我有些讶异，更多的是不解，于是抬头看向她
+祥子:什么……意思？
+素世:小祥……
+素世:……可以，听我讲一个故事吗？
+playEffect:none -volume=10 -id=env;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+:
+changeFigure:none -id=soyo -next;
+:
+changeScene:C04S04/C04S04_Scene04.txt

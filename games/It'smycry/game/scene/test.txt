@@ -1,0 +1,2 @@
+bgm:午後の陽だまり.mp3;
+changeFigure:mygo_avemujica_v5/rana/038_casual-2023_rip/model.json -id=tmr -transform={"position":{"x":0,"y":-900},"scale":{"x":1,"y":1},"alpha":1} -next -motion=nf_left01 -expression=kandou01;

@@ -1,0 +1,130 @@
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -transform={"position":{"y":-300},"alpha":0} -next -motion=idle01 -expression=idle;
+changeFigure:mygo_avemujica_v5/soyoW/039_hnok_school_winter-2023_rip/model.json -id=soyo -transform={"position":{"x":-2100,"y":-500}, "scale":{"x":1.2, "y":1.2}} -next -motion=idle01 -expression=smile01;
+changeFigure:black.png -id=black -transform={"alpha":0} -next;
+香澄:小——立——希！——|救——救——我！—— -fontSize=default;
+立希:诶诶诶诶？怎么了户山前辈！
+香澄:饮料机它……它……它邦邦了个邦了！
+立希:……啊？
+立希:那个，灯，还有……千早，我先出去一会儿
+立希:……千早，你别偷懒啊！
+爱音:好好~
+playEffect:1_效果音/01_常用效果音/ドアを開ける1.mp3 -volume=40;
+: -fontSize=default;
+playEffect:1_效果音/01_常用效果音/普通走路过场.mp3 -volume=40;
+:
+bgm:午后.mp3 -volume=40;
+changeBg:ring录音室.png -next -transform={"scale":{"x":1.2,"y":1.2}};
+setTransform:{"position":{"x":0,"y":-300},"alpha":1} -target=tomori -duration=300 -next;
+:头上有两个粽子的女人突然把立希带走了，练习室里只剩下我和灯
+setTransform:{"position":{"x":0,"y":-500}} -target=tomori -duration=1000 -next;
+setTransform:{"alpha":0.7} -target=black -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":-200}, "scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=1000 -next;
+:对于这个乐队时常不满人这件事，我已经习惯了，于是继续低头练着指法
+灯:那个……小爱音？
+setTransform:{"position":{"x":-200,"y":-500}, "scale":{"x":1.2,"y":1.2}} -target=tomori -duration=2000 -next;
+setTransform:{"alpha":0} -target=black -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":0}, "scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=1000 -next;
+:抬起头，灯抱着她的笔记本向我挪过来
+爱音:怎么了吗，小灯？
+灯:……你和小立希，和好了吧？
+爱音:嗯，已经和好了~
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -next -motion=idle01 -expression=smile01;
+灯:这样啊……太好了
+:她如释重负地出了口气，捏着笔记本的手指也放松了，不过似乎并没有中断谈话的意思
+灯:以及……那个……我想更多地了解一些小爱音的事
+爱音:诶？我的事……是指？
+灯:就是，比如说……小爱音的爱好？喜欢吃的东西，平时的兴趣……之类的？
+爱音:呃，喜欢吃的是水果三明治，兴趣……喜欢流行的东西？美妆、视频、服装设计之类……
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -next -motion=nf04 -expression=smile01;
+灯:嗯！嗯！
+:灯一边听，一边在本子上记录着
+爱音:……那个，小灯问这些是因为……？
+灯:其实……是关于新曲的事
+灯:作词需要一些灵感，所以感觉是不是……更多地了解小爱音会比较好
+爱音:原来是这样啊~诶……让我想想……
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -next -motion=nf04 -expression=serious01;
+:把初中的一些事情挑挑拣拣，和灯说了
+爱音:——所以那时候真的很紧张呢！不过最后还是成功买到了——
+爱音:——后来卡拉OK优惠券都快过期了，我就赶紧——
+爱音:——没想到爸爸居然抢我的熏三文鱼吃——
+灯:嗯……熏三文鱼……
+:看着灯手下的一页都快记满了，我便停下来歇歇气
+爱音:……总觉得，好像只是在说一些琐事而已呢……
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -next -motion=nf04 -expression=smile01;
+灯:不会哦
+灯:能了解小爱音更多的事，我很高兴
+:话虽如此
+:回头想想，好像这些相互间八竿子打不着的事，要被当成歌词的素材，确实还挺困难的
+爱音:说起来，小灯，之前的《春日影》，又是怎么写出来的呢？ -fontSize=default;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -next -motion=smile02 -expression=smile02;
+灯:……《春日影》，是关于Crychic的大家的歌……
+爱音:咦，这样吗…… -fontSize=default;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -next -motion=nf03 -expression=sad01;
+灯:从很久之前……就觉得自己，仿佛有些偏离正轨……
+灯:明明交到了朋友……明明和大家在一起，却总觉得还是孤身一人
+灯:就好像，自己不是人类似的
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -next -motion=smile04 -expression=smile04;
+灯:但是有一天，小祥和大家出现了。和大家一起组成了Crychic，第一次写了歌，第一次Live，第一次从内心深处呐喊出来……
+灯:小祥和大家一起，拉着我的手，把我带回了世界的正轨
+灯:让我……成为了人类
+灯:所以，能一直和Crychic的大家在一起，真的太好了
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -next -motion=kandou01 -expression=kandou01;
+灯:想和大家一起，组一辈子的乐队
+爱音:……诶……
+:总觉得
+setTransform:{"position":{"x":0,"y":-400},"scale":{"x":1.2,"y":1.2}} -target=tomori -duration=500 -next;
+setTransform:{"alpha":0.4} -target=black -duration=500 -next;
+setTransform:{"position":{"x":200,"y":100},"scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=500 -next;
+:好沉重！
+:可怕，呃，也不是说灯可怕，灯很可爱……就……单纯地从理性上感到可怕…… -fontSize=default;
+:硬要形容就像是……面对着脆弱又贵重的瓷器，心中自然地生出敬畏，有些害怕自己把它打破了
+:……
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -next -motion=idle01 -expression=idle;
+:这下就更觉得，相比之下，我那些水果三明治、熏三文鱼和卡拉OK优惠券算得上什么鬼东西……
+:难道要写“果酱沾湿了我的面庞”、“为什么熏三文鱼如此温暖，原来刚出炉”、“呐拜托你，请一直一直在过期前使用”……吗？
+灯:那个……小爱音？
+setTransform:{"position":{"x":-200,"y":-500}, "scale":{"x":1.2,"y":1.2}} -target=tomori -duration=500 -next;
+setTransform:{"alpha":0} -target=black -duration=500 -next;
+setTransform:{"position":{"x":0,"y":0}, "scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=500 -next;
+爱音:呃啊！
+灯:没事吧？感觉你好像在出神……
+爱音:没有……啊对了，所以为什么当初，灯会想要拉我进乐队呢？
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -next -motion=thinking02 -expression=thinking02;
+灯:……为什么呢？
+:她一下陷入了思考，我和她的状态互换了
+灯:……是因为玩乐队很开心，想要更多的人一起……？
+灯:或者也是因为……小爱音很有吸引力吗……
+灯:还是说，是因为我单纯喜欢收集新的种类……
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -next -motion=surprised01 -expression=surprised01;
+爱音:好啦打住打住
+:不能让她思考下去，总觉得在这个过程中可能会冒出我无法掌控的东西
+playEffect:1_效果音/01_常用效果音/ドアを開ける1.mp3 -volume=40;
+:对话短暂地卡了在这里，不过就在我想出下一个话题之前，门响了
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -next -motion=nf_left01 -expression=surprised01;
+setTransform:{"position":{"x":300,"y":-500},"scale":{"x":1.2,"y":1.2}} -target=tomori -duration=1000 -next;
+setTransform:{"position":{"x":200},"scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=2000 -next;
+爱音:啊~小立希，你回——
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -next -motion=nf_left01 -expression=smile01;
+setTransform:{"position":{"x":-600,"y":-500},"scale":{"x":1.2,"y":1.2}} -target=soyo -duration=2000 -next;
+素世:是我哟~
+changeFigure:mygo_avemujica_v5/soyoW/039_hnok_school_winter-2023_rip/model.json -id=soyo -next -motion=smile02 -expression=smile02;
+素世:小爱音，猜猜我带来了什么？
+爱音:什么什么？好吃的东西，还是……
+changeFigure:mygo_avemujica_v5/soyoW/039_hnok_school_winter-2023_rip/model.json -id=soyo -next -motion=nf01 -expression=smile01;
+setTransform:{"position":{"x":-600,"y":-200},"scale":{"x":1.2,"y":1.2}} -target=soyo -duration=1000 -next;
+playEffect:1_效果音/01_常用效果音/布料_开始.mp3 -volume=20;
+:素世摇摇头，她将书包放在琴凳上
+setTransform:{"position":{"x":-600,"y":-500},"scale":{"x":1.2,"y":1.2}} -target=soyo -duration=1000 -next;
+changeFigure:mygo_avemujica_v5/soyoW/039_hnok_school_winter-2023_rip/model.json -id=soyo -next -motion=smile02 -expression=smile02;
+playEffect:1_效果音/01_常用效果音/布料_结束.mp3 -volume=20;
+:从里面掏出一个水蓝色的本子，笑眯眯地向我们晃了晃
+素世:锵锵~
+素世:是——新曲哟~
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -next -motion=nnf_left01 -expression=surprised01;
+bgm: -volume=40 -enter=3000;
+爱音、灯:诶？？？！！！
+changeFigure:none -id=tomori -next
+changeFigure:none -id=soyo -next
+changeBg:  -next;
+:
+choose:一个多星期后，羽丘教室内:C02S03_Scene03.txt;

@@ -1,0 +1,242 @@
+playEffect:1_效果音/02_音乐切片/碧天伴走-尾.mp3 -volume=10;\
+:
+立希:……
+立希:算是……合格了
+祥子:真稀奇~ -fontSize=default;
+祥子:小立希，在夸小爱音呢 -fontSize=default;
+爱音:这样吗！
+爱音:那~再来夸夸我吧，rikki~
+立希:哈？ -立希/はあ！？（哈？）.mp3 -volume=20 -fontSize=default;
+立希:不是，那个，凭什么要我……
+素世:就再夸夸她吧~ -fontSize=default;
+立希:……
+立希:…………算是……不错……的情况吧？
+爱音:好耶~小立希又夸我了~ -爱音/yada.mp3 -volume=20 -fontSize=default;
+立希:……怎样都好啦！赶紧该结束就结束吧 -立希/もういいから（怎样都好啦）.mp3 -volume=20 -fontSize=default;
+立希:还有，别叫我rikki行吗？ -fontSize=default;
+爱音:诶——
+睦:小乐奈，快把巧克力吃光了……
+:
+bgm:冬日.mp3 -volume=40;
+changeBg:ring录音室.png -next -transform={"position":{"y":-300},"scale":{"x":1.2,"y":1.2}};
+:随着最后一个音符的结束，我抹了抹额头上的汗水。从练习室的镜中，看到了大家共同努力后之后，洋溢着收获喜悦的面庞
+:今晚的Crychic，人特别齐。毕竟下周的周末，就是第二次Live了
+changeFigure:mygo_avemujica_v5/soyoW/039_casual-2023_rip/model.json -id=soyo -transform={"position":{"x":-600,"y":-300}} -next -motion=nf_left01 -expression=sad02;
+changeFigure:mygo_avemujica_v5/sakiko/341_casual-2023_rip/model.json -id=saki -transform={"position":{"x":0, "y":-300}} -next -motion=smile04 -expression=smile01;
+祥子:今天的练习到此结束~大家辛苦了~
+changeFigure:mygo_avemujica_v5/sakiko/341_casual-2023_rip/model.json -id=saki -next -motion=smile01 -expression=smile01;
+祥子:我和素世还有点事，就先走一步，大家请自便哦
+changeFigure:mygo_avemujica_v5/soyoW/039_casual-2023_rip/model.json -id=soyo -next -motion=nf_right01 -expression=smile05;
+changeFigure:mygo_avemujica_v5/sakiko/341_casual-2023_rip/model.json -id=saki -next -motion=nf_left01 -expression=smile03;
+大家:再见，辛苦了~ -fontSize=default;
+playEffect:1_效果音/01_常用效果音/普通走路过场.mp3 -volume=40;
+setTransform:{"position":{"x":-2600,"y":-300}} -target=soyo -duration=2000 -next;
+setTransform:{"position":{"x":-2000,"y":-300}} -target=saki -duration=2000 -next;
+:大家一边收拾器材，一边互相道别。我拿起琴盒上，被我特地留到最后的一颗巧克力
+:剥开包装纸，将巧克力丢入口中，先苦后甜的风味在嘴中融化，最终留下的是浓郁幸福的香气
+爱音:真不愧是小睦，带来的巧克力都好高级啊~ -fontSize=default;
+changeFigure:mygo_avemujica_v5/tomoli/036_casual-2023_rip/model.json -id=tomori -transform={"position":{"x":-2000,"y":-300}} -next -motion=idle01 -expression=smile01;
+changeFigure:mygo_avemujica_v5/taki/040_arbeit_rip/model.json -id=taki -transform={"position":{"x":2000,"y":-300}} -next -motion=shame01 -expression=sad03;
+爱音:那个，有谁要一起回家吗~
+setTransform:{"position":{"x":-400,"y":-300}} -target=tomori -duration=2000 -next;
+setTransform:{"position":{"x":1000,"y":-300}} -target=taki -duration=2000 -next;
+灯:嗯，一起回家吧
+changeFigure:mygo_avemujica_v5/tomoli/036_casual-2023_rip/model.json -id=tomori -transform={"position":{"x":-2000,"y":-300}} -next -motion=nf_right01 -expression=smile01;
+灯:小立希也一起走吧？
+setTransform:{"position":{"x":400,"y":-300}} -target=taki -duration=3000 -next;
+:不知为何，立希走过来的姿势有些扭扭捏捏
+立希:……灯，你要先回去吗？
+changeFigure:mygo_avemujica_v5/tomoli/036_casual-2023_rip/model.json -id=tomori -transform={"position":{"x":-2000,"y":-300}} -next -motion=nf_right01 -expression=idle;
+灯:诶？那个……
+changeFigure:mygo_avemujica_v5/taki/040_arbeit_rip/model.json -id=taki -transform={"position":{"x":2000,"y":-300}} -next -motion=nf_left01 -expression=sad03;
+立希:又或者，你在咖啡厅稍微等等我们……？
+:这家伙……虽然从头到尾都没正脸看我，但很明显又是想要对我说话
+changeFigure:mygo_avemujica_v5/taki/040_arbeit_rip/model.json -id=taki -transform={"position":{"x":2000,"y":-300}} -next -motion=nf_left01 -expression=sad01;
+立希:先说好，绝对不是什么坏事啦
+立希:我找千早……有点事情，想单独聊一下
+爱音:咦……
+setTransform:{"position":{"x":-400,"y":-300}, "alpha":0} -target=tomori -duration=300 -next;
+setTransform:{"position":{"x":400,"y":-300}, "alpha":0} -target=taki -duration=300 -next;
+changeBg:none -next;
+bgm:none -volume=40 -enter=2000;
+:
+playEffect:1_效果音/01_常用效果音/普通走路过场.mp3 -volume=40;
+setTransform:{"position":{"x":-200,"y":-300}, "alpha":0} -target=taki -duration=300 -next;
+:立希带我一路向上，来到了RiNG的天台
+bgm:01. Here, the world!-室外混响.mp3 -volume=50;
+playEffect:1_效果音/02_环境音/街の道路.mp3 -volume=20 -id=street;
+changeBg:特殊意义场景/RiNG天台.png -next;
+:晚风吹拂着我们，旁边的巨幅广告牌上播放着Sumimi的单曲，城市的声音从远处响起，偶尔又近在耳边，如同某种隐约的喘息
+:立希倚在铁栏杆上，似乎在酝酿着什么
+:过了好一会儿，她下定决心似的，转身面向我 -fontSize=default;
+setTransform:{"position":{"x":-200,"y":-300},"alpha":1} -target=taki -duration=500 -next;
+立希:那个……你这次的练习……表现得很好……
+立希:我……呃……
+changeFigure:mygo_avemujica_v5/taki/040_arbeit_rip/model.json -id=taki -next -motion=shame01 -expression=sad03;
+:没救了……这家伙还是抓耳挠腮起来
+爱音:好啦，Rikki想说什么，我大概也知道了哟~
+爱音:不过，应该还有别的事情吧？
+立希:……嗯
+changeFigure:mygo_avemujica_v5/taki/040_arbeit_rip/model.json -id=taki -next -motion=serious01 -expression=sad01;
+立希:继续之前的话题吧
+爱音:之前的……？
+立希:就……很久之前的，教学楼底下那次，关于这次Live
+立希:Crychic的……第二场Live……
+bgm:none -volume=50 -enter=1000;
+playEffect:none -volume=20 -id=street;
+changeBg:none -next;
+setTransform:{"position":{"x":-200,"y":-300},"alpha":0} -target=taki -duration=300 -next;
+:于是，在这喧闹城市的僻静一隅
+:立希将Crychic的过去，向我娓娓道来——
+changeBg:特殊意义场景/立希回忆C团建立/1.png -transform={"position":{"x":-100},"scale":{"x":1.1,"y":1.1},"alpha":0};
+:
+bgm:完蛋.mp3 -volume=20;
+setTransform:{"position":{"x":0},"alpha":1} -target=bg-main -duration=4000 -next;
+:就在去年的晚春，大家还是初三学生的时候，Crychic，便由祥子牵头建立了 -fontSize=default;
+changeBg:特殊意义场景/立希回忆C团建立/2.png -transform={"position":{"x":100},"scale":{"x":1.1,"y":1.1},"alpha":0};
+setTransform:{"position":{"x":0},"alpha":1} -target=bg-main -duration=4000 -next;
+:最初的成员有五名：祥子、灯、素世、睦、立希
+changeBg:特殊意义场景/立希回忆C团建立/3.png -transform={"scale":{"x":1.1,"y":1.1},"alpha":0};
+setTransform:{"position":{"x":0},"alpha":1} -target=bg-main -duration=4000 -next;;
+:作为发起人，所有的成员都是祥子找来的，加上祥子本身杰出的作曲和键盘水平，使她成为了乐队当之无愧的核心
+changeBg:特殊意义场景/立希回忆C团建立/4.png -transform={"position":{"y":50},"scale":{"x":1.1,"y":1.1},"alpha":0};
+setTransform:{"position":{"x":0,"y":0},"alpha":1} -target=bg-main -duration=4000 -next;
+changeFigure:回忆春日影.png -id=haru -transform={"alpha":0} -next;
+:经过一段时间的磨合，乐队成功进行了第一次Live，并大获成功
+setTransform:{"position":{"x":0,"y":0},"alpha":0.3} -target=bg-main -duration=4000 -next;
+setTransform:{"position":{"x":0,"y":0},"alpha":1} -target=haru -duration=4000 -next;
+:那场Live上演奏的曲子，便是《春日影》——由灯作词、祥子作曲编曲的，属于Crychic的第一首原创曲
+setTransform:{"position":{"x":0,"y":0},"alpha":0} -target=bg-main -duration=4000 -next;
+setTransform:{"position":{"x":0,"y":0},"alpha":0} -target=haru -duration=4000 -next;
+:
+立希:——那也是我第一次懂得，原来一个人的歌声，真的能如此震撼人心……
+爱音:啊~也就是说，你迷上小灯了？
+立希:你很烦啊
+爱音:抱歉抱歉~然后呢？
+立希:真是的……在那之后，祥子消失了很长一段时间
+爱音:……消失了？
+立希:就是一直没来活动
+爱音:为什么？
+立希:不知道
+:立希提起一只脚，在地板上漫不经心地踢着
+:水泥地面与鞋底摩擦着，发出轻微的响声
+changeBg:特殊意义场景/立希回忆C团建立/5.png -transform={"position":{"y":50},"scale":{"x":1.1,"y":1.1},"alpha":0};
+setTransform:{"position":{"x":0,"y":0},"alpha":1} -target=bg-main -duration=4000 -next;
+:在那段时间内，众人一直都照常到位，等在练习室内，期待着祥子可能会推门而入
+:然而并没有。没有任何理由，也没和任何人联系。那时的祥子，仿佛人间蒸发了一般
+:转机出现在一个雨天
+changeBg:特殊意义场景/立希回忆C团建立/6.png;
+:那天，不仅祥子照常没有来，连一直很准时的素世都没在
+:立希憋着一肚子火，一边安慰消沉的灯，一边不断尝试联系素世
+playEffect:1_效果音/携帯バイブレーション.mp3 -volume=20;
+setTransform:{"position":{"x":0,"y":0},"alpha":0} -target=bg-main -duration=4000 -next;
+:在立希的耐心几乎耗尽之时，手机突然响了，素世发来了出乎意料的信息：
+intro:“我找到祥子了”||“相信我，我会把祥子带回来的” -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=2000 -hold;
+: -fontSize=default;
+爱音:诶——
+立希:很惊人是吧，当时小睦眼珠子都快瞪出来了。我那时才知道小睦不仅会笑，还会惊讶
+爱音:……呃，好像确实能懂……
+:我立即回想起小睦那种古井无波的样子
+立希:素世她……挽救了Crychic。也是她……为Crychic操了最多的心 -fontSize=default;
+立希:一开始没什么感觉
+立希:然而回过头来一想……多亏了那时，素世没有放弃…… -fontSize=default;
+立希:否则……大家根本没法走到今天，没法……像刚才那样在一起吧 -fontSize=default;
+爱音:……确实是这样呢
+爱音:我逃掉的时候，也是素世把我追回来的…… -fontSize=default;
+:总之——立希继续说道——第二天，素世请大家到练习室集合
+:立希一进门，就看到祥子已经抱着灯在安慰她。睦和素世则倚在窗边，小声地说着话
+:然后祥子面向众人，对自己这段时间的消失道歉，并表明她之后可能无法有足够时间参与Crychic的活动，询问众人的打算
+changeFigure:mygo_avemujica_v5/taki/040_arbeit_rip/model.json -id=taki -next -motion=smile04 -expression=sad03;
+:很显然，最后大家决定还是要在一起，即使半休眠，也要维持Crychic的存在 -fontSize=default;
+changeBg:特殊意义场景/RiNG天台.png -next;
+setTransform:{"position":{"x":-200,"y":-300},"alpha":1} -target=taki -duration=300 -next;
+爱音:等一下等一下，所以说，Crychic从那时起，直到今天为止——
+爱音:——也就是，接近一年的时间，都没有再进行一场Live？
+changeFigure:mygo_avemujica_v5/taki/040_arbeit_rip/model.json -id=taki -next -motion=smile01 -expression=sad03;
+立希:是的。不如说，直到初中毕业，大家甚至都没有再聚在一起练习过，只是联系没有断而已
+立希:后来准备升高中的时候，我先是从灯那里，得知她也准备上羽丘
+立希:那我当然选择直升嘛，结果后来得知素世和祥子，居然也准备转到羽丘来——
+爱音:转到？那她们初中是在……
+立希:月之森
+爱音:诶——
+:从那种大小姐学校，转到羽丘吗……
+:我之前从祥子身上感受到的，那种大小姐般的仪态，其实就是她的本色吗……
+爱音:——那也就是说，月之森本来有三名成员，但现在变得只有小睦一个人了？
+changeFigure:mygo_avemujica_v5/taki/040_arbeit_rip/model.json -id=taki -next -motion=thinking01 -expression=sad03;
+立希:嗯……且不说有没有必要一起转校，小睦她大概也没有什么选择吧
+立希:虽然平时和我们一起活动的时间也不算少，但只要她家里有什么安排，都绝对是第一优先级的
+爱音:……大小姐们，也不容易呀……
+爱音:诶，那这样说的话，祥子和素世，初中的时候……也是大小姐……？
+changeFigure:mygo_avemujica_v5/taki/040_arbeit_rip/model.json -id=taki -next -motion=nf04 -expression=idle01;
+立希:……这就是问题的关键了。Crychic真正算得上恢复活动，其实也就是前不久，大家都升高一之后
+立希:大家有了更多聚在一起的机会，加上在没活动的这段时间里，祥子和灯也偶尔会聊一些新曲的想法……总之，Crychic又慢慢恢复了活动
+:说到这里，立希一直在踢着地面的那只脚，突然停下了
+changeFigure:mygo_avemujica_v5/taki/040_arbeit_rip/model.json -id=taki -next -motion=serious01 -expression=serious02;
+:她的脸上，浮现出十分郑重的神情
+立希:能看得出来，灯非常重视Crychic。尤其恢复活动后，大家经常能聚在一起，她真的非常开心，整个人都开朗了很多 -fontSize=default;
+立希:所以，如果有任何人做了让灯难过、让灯受伤的事——比如，让Crychic蒙羞，又或者是破坏了Crychic——我是绝对不会原谅那种人的 -fontSize=default;
+立希:这当然会包括之前的祥子，也包括之前的我自己，所以我要向你道歉|但也会包括你 -fontSize=default;
+立希:所以，千早……答应我，不要这么做 -fontSize=default;
+爱音:呃，我当然不会做那种事……安啦安啦……
+立希:……哼，你最好别
+changeFigure:mygo_avemujica_v5/taki/040_arbeit_rip/model.json -id=taki -next -motion=smile04 -expression=idle01;
+:她终于移开眼神，回到那种相对放松的姿态——我在心里松了口气
+:怎么说呢……
+:总觉得，立希对灯的这份感情……也太沉重了点……
+:单纯从沉重这个层面来说……这两人还真的相当一致……
+爱音:……那立希你呢？
+changeFigure:mygo_avemujica_v5/taki/040_arbeit_rip/model.json -id=taki -next -motion=nf03 -expression=idle01;
+立希:什么？
+爱音:如果不考虑灯的因素，你对Crychic……是怎么想的……
+changeFigure:mygo_avemujica_v5/taki/040_arbeit_rip/model.json -id=taki -next -motion=sad03 -expression=sad03;
+立希:这……
+立希:我……
+立希:……我不知道
+立希:不以考虑灯为前提，看待Crychic……
+立希:我还真的想都没想过……
+changeFigure:mygo_avemujica_v5/taki/040_arbeit_rip/model.json -id=taki -next -motion=sad02 -expression=smile04;
+立希:……这么一想……Crychic确实也是我的第一个乐队 -fontSize=default;
+立希:是我第一次能真正……暂时抛开一切，尽情地和大家一起演奏的…… -fontSize=default;
+changeFigure:mygo_avemujica_v5/taki/040_arbeit_rip/model.json -id=taki -next -motion=smile04 -expression=sad03;
+:立希最后依旧没有说完
+:但似乎她的脸上……某些一直郁结的东西，渐渐松动了
+爱音:所以……你之前说的，问题的关键是？
+changeFigure:mygo_avemujica_v5/taki/040_arbeit_rip/model.json -id=taki -next -motion=idle01 -expression=sad03;
+立希:啊 -fontSize=default;
+立希:问题的关键就是：素世和祥子，她们两个人的……状况吧 -fontSize=default;
+爱音:状况？
+立希:我之前不是说，一直不知道祥子消失的原因吗
+立希:其实，当时素世在找到祥子，叫大家回来集合之前，就单独和我发信息聊过
+立希:虽然她也没有说太多，但总之，她希望我不要过多追究这件事，最好提都不要提
+立希:不过这么长时间相处下来，我多少也能猜到一点就是了
+立希:整个初三几乎无活动，升高中之后依旧活动时间很少，加上从月之森转校到羽丘——素世与祥子两人都是
+立希:总之……肯定不会是什么好事
+爱音:越说越让人好奇了呢……
+立希:我警告你啊，千万别去问
+爱音:好好，我又不是笨蛋……
+立希:即使是这样，素世和祥子也还是坚持着把Crychic维持下来了，让大家能聚到一起，一直努力到现在
+立希:所以理由什么的都无所谓，她们不想说就不说吧。无论如何，我都会尊敬她们……相信她们
+爱音:看不出来，Rikki还是很会为他人着想的嘛
+changeFigure:mygo_avemujica_v5/taki/040_arbeit_rip/model.json -id=taki -next -motion=shame02 -expression=angry04;
+立希:你再说我真的要把你丢下去了啊
+爱音:诶~好可怕~
+立希:总之，就是这些……
+立希:灯、素世、祥子……Crychic的大家，对我来说都很重要 -fontSize=default;
+立希:所以……希望千早……你能在一周后的Live上…… -fontSize=default;
+changeFigure:mygo_avemujica_v5/taki/040_arbeit_rip/model.json -id=taki -next -motion=shame01 -expression=shame01;
+立希:能证明……你对我也……很……重要
+爱音:诶嘿嘿
+爱音:Rikki这是在……祝我Live顺利吧？
+立希:随你怎么想
+爱音:一定会顺利的哟
+立希:……嗯
+changeFigure:mygo_avemujica_v5/taki/040_arbeit_rip/model.json -id=taki -next -motion=shame01 -expression=smile01;
+立希:姑且，就相信你好了
+changeBg:none -next;
+changeFigure:none -id=taki;
+:在下楼与灯会合之前，我与立希都没再说话，短暂地享受着这份宁静
+:虽然城市的光芒之上，几乎没有办法能看到星空
+bgm:none -volume=20 -enter=4000;
+:但想必此时……也会有抱着同样期待的他人，正与我们一起仰望吧
+:
+choose:Live当天，RiNG内:C02S03_Scene05.txt;

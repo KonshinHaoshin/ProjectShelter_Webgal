@@ -1,0 +1,253 @@
+祥子:那个，小爱音……我有点累，想先在这里躺一下……
+爱音:好的没事，有什么问题我来处理就好了——soyorin呢？
+祥子:应该还在舞台上调试设备吧？
+爱音:这样啊……那，小祥你先休息，我去找她啦
+playEffect:1_效果音/01_常用效果音/普通走路过场.mp3 -volume=40;
+:
+爱音:咦，舞台上也不在吗……
+香澄:素世的话，刚刚出去了哦？
+爱音:诶？她出去做什么？…… -fontSize=default;
+香澄:不知道呢……不过小爱音现在出去，应该很快就能找到她吧
+爱音:这样吗……谢谢你，户山前辈！ -fontSize=default;
+:……真奇怪呢
+:明明临近演出，有很多事情要处理，素世却不见了。这一点都不像她
+playEffect:1_效果音/02_环境音/ビリヤード場.mp3 -volume=10 -id=env;
+playEffect:1_效果音/01_常用效果音/普通走路过场.mp3 -volume=40;
+changeBg:RING楼梯.png -transform={"scale":{"x":1.2,"y":1.2}} -next;
+:
+:我小跑着从演出厅中离开，来到RiNG的大堂内
+:很快，就发现了素世熟悉的身影。但另一个我不认识的人站在她身边，她似乎正和那个人焦急地谈论着什么 -fontSize=default;
+:靠近一看，与素世交谈的人，是一名商务风格的干练女性
+素世:……所以，现在真的不太方便……
+女人:诶~难得我跑过来一趟……
+爱音:那边的……那个！在对我家素世纠缠什么呢！
+:不知怎么的，我几步冲过去，脑子一热就喊了出来
+changeFigure:mygo_avemujica_v5/soyoW/039_casual-2023_rip/model.json -id=soyo -transform={"position":{"x":400,"y":-300}} -next -motion=surprised01 -expression=surprised01;
+changeFigure:MyExtra/SoyoMama_FromLayer/model.json -id=soyoma -transform={"position":{"x":-400,"y":-300}} -next -motion=smile02 -expression=smile02;
+:听到这话的两人立即回过头，素世难以置信地望向我，那位女性倒是突然喜笑颜开
+女人:啊啦~你好你好~是我家素世的队友吗？
+女人:等一下~让我猜猜~
+女人:是……小立希！
+changeFigure:mygo_avemujica_v5/soyoW/039_casual-2023_rip/model.json -id=soyo -next -motion=nnf_left01 -expression=smile03;
+changeFigure:MyExtra/SoyoMama_FromLayer/model.json -id=soyoma -next -motion=nnf_right01 -expression=smile02;
+素世:猜错了啦……妈妈……
+:……妈妈？
+:我僵在原地，感到尴尬从我的耳根，一路下降到十根脚趾的末端
+changeFigure:MyExtra/SoyoMama_FromLayer/model.json -id=soyoma -next -motion=nf03 -expression=smile03;
+素世妈妈:诶——
+素世妈妈:那是……小灯？也不太对呢……
+素世:……是小爱音啦
+changeFigure:MyExtra/SoyoMama_FromLayer/model.json -id=soyoma -next -motion=sing01 -expression=smile02;
+素世妈妈:啊~原来是新来的，弹贝斯的小爱音吗？
+changeFigure:mygo_avemujica_v5/soyoW/039_casual-2023_rip/model.json -id=soyo -next -motion=smile05 -expression=smile03;
+素世:……
+:感觉素世已经懒得纠正了
+:不对不对，首先得道歉——
+爱音:那个这个……我的名字是，千早爱音！刚才叫您“那边的那个”，真的万分抱歉！
+爱音:一直承蒙你家素世的照顾，真的真的十分感谢……
+changeFigure:MyExtra/SoyoMama_FromLayer/model.json -id=soyoma -next -motion=nnf01 -expression=smile02;
+素世妈妈:没关系没关系，啊~小爱音真是率直可爱又有礼貌呢|看到有这样的孩子陪在素世身边，阿姨放心多了~ -fontSize=default;
+changeFigure:mygo_avemujica_v5/soyoW/039_casual-2023_rip/model.json -id=soyo -next -motion=nf_left01 -expression=smile02;
+素世:嗯嗯，小爱音是个很好的人——那个，妈妈，稍微等一下哦
+changeFigure:mygo_avemujica_v5/soyoW/039_casual-2023_rip/model.json -id=soyo -next -motion=serious01 -expression=sad01;
+setTransform:{"position":{"x":-1200,"y":-300}, "alpha":"0"} -target=soyoma -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":-600}, "scale":{"x":1.3,"y":1.3}} -target=soyo -duration=1000 -next;
+setTransform:{"position":{"x":-200}, "scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=1000 -next;
+:说着，素世走过来将我扯到一边，压低声音急切地说道
+素世:小祥呢？
+爱音:……诶？
+素世:她没和你一起出来吧？
+爱音:呃，没有，她在休息室里数绵羊来着……
+changeFigure:mygo_avemujica_v5/soyoW/039_casual-2023_rip/model.json -id=soyo -next -motion=ando01 -expression=sad02;
+素世:这样吗……
+:很明显素世松了一口气。我还在纳闷儿，她又立即对我继续说道
+素世:妈妈说想去休息室和大家见面
+素世:但无论如何都不行，所以小爱音你能不能……
+爱音:诶？为什么——
+changeFigure:mygo_avemujica_v5/soyoW/039_casual-2023_rip/model.json -id=soyo -next -motion=smile04 -expression=sad02;
+素世:拜托了
+:她的语气已经几近于恳求了
+爱音:嗯，我明白了
+changeFigure:mygo_avemujica_v5/soyoW/039_casual-2023_rip/model.json -id=soyo -next -motion=nnf_left01 -expression=smile01;
+setTransform:{"position":{"x":-400,"y":-300},"alpha":1} -target=soyoma -duration=1000 -next;
+setTransform:{"position":{"x":400,"y":-300}} -target=soyo -duration=1000 -next;
+setTransform:{"position":{"x":0}, "scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=1000 -next;
+:话已至此，感觉也没必要再多问——社交小爱音，堂堂登场
+爱音:那个……伯母是来看我们的演出的嘛？
+changeFigure:MyExtra/SoyoMama_FromLayer/model.json -id=soyoma -next -motion=sad01 -expression=smile01;
+素世妈妈:唉，阿姨也很想啦~但是等一会儿其实阿姨还有点事……所以想趁现在还有空，去休息室稍微坐一会儿就好了，顺便也能见见素世的队友们呢~ -fontSize=default;
+changeFigure:mygo_avemujica_v5/soyoW/039_casual-2023_rip/model.json -id=soyo -next -motion=nnf_left01 -expression=smile03;
+changeFigure:MyExtra/SoyoMama_FromLayer/model.json -id=soyoma -next -motion=nnf_right01 -expression=sad01;
+素世妈妈:但是，不知道为什么素世总想拦着我……这孩子，总感觉藏着很多小秘密呢~
+爱音:这样吗，那个，虽然我这么说确实有点失礼……但现在进去可能不太方便……
+素世妈妈:诶？这样吗……总觉得有点可惜呢……
+爱音:嗯，真的很抱歉。其实是因为其中一位队友，在演出前稍微有点累，现在正在休息室里躺着……
+changeFigure:MyExtra/SoyoMama_FromLayer/model.json -id=soyoma -next -motion=smile01 -expression=smile02;
+素世妈妈:原来是这样吗……好吧，那阿姨就不打扰你们了吧 -fontSize=default;
+changeFigure:mygo_avemujica_v5/soyoW/039_casual-2023_rip/model.json -id=soyo -next -motion=nnf_left01 -expression=smile01;
+素世:难得来一趟，大家一起去二楼的咖啡厅坐一下吧？ -fontSize=default;
+changeFigure:MyExtra/SoyoMama_FromLayer/model.json -id=soyoma -next -motion=sing01 -expression=smile01;
+素世妈妈:诶~这边二楼还有咖啡厅的吗，设施好齐全呢~
+changeFigure:MyExtra/SoyoMama_FromLayer/model.json -id=soyoma -next -motion=nf01 -expression=smile01;
+素世妈妈:不过也不用啦，毕竟本来就只是想给素世一个惊喜，顺便见一见素世的队友 -fontSize=default;
+changeFigure:MyExtra/SoyoMama_FromLayer/model.json -id=soyoma -next -motion=nnf_right01 -expression=smile02;
+素世妈妈:不过，既然已经见到小爱音了，就也算是见到了吧~
+playEffect:1_效果音/01_常用效果音/布料_结束.mp3 -volume=20;
+changeFigure:mygo_avemujica_v5/soyoW/039_casual-2023_rip/model.json -id=soyo -next -motion=nnf_left01 -expression=smile02;
+setTransform:{"position":{"x":-200,"y":-300},"alpha":1} -target=soyoma -duration=1000 -next;
+素世妈妈:那么，素世，给~ -fontSize=default;
+:她把提着的纸袋递进素世的手中，便转身准备离开
+changeFigure:MyExtra/SoyoMama_FromLayer/model.json -id=soyoma -next -motion=nnf_right01 -expression=smile02;
+setTransform:{"position":{"x":-2200,"y":-300},"alpha":1} -target=soyoma -duration=3000 -next;
+setTransform:{"position":{"x":-200,"y":-300},"alpha":1} -target=soyo -duration=3000 -next;
+素世妈妈:那，拜拜啦，素世要好好的哟~大家也要好好的哦~ -fontSize=default;
+素世妈妈:Live的录像，一定要给我发哟~
+素世:……嗯嗯，妈妈也要保重哦
+changeFigure:mygo_avemujica_v5/soyoW/039_casual-2023_rip/model.json -id=soyo -next -motion=angry02 -expression=sad02;
+:目送着素世妈妈一步三回头地走出RiNG，我终于可以收起过分灿烂的笑容
+爱音:这就是，soyorin的妈妈呀……
+changeFigure:mygo_avemujica_v5/soyoW/039_casual-2023_rip/model.json -id=soyo -next -motion=sad02 -expression=sad02;
+爱音:总感觉甚至……比soyorin还要年轻呢~
+爱音:啊哈哈，并不是说soyorin老啦——呃，素……世？
+:接着立即注意到，素世的脸色不太好
+:不，与其说是不太好，不如说有点像是……像是大病初愈的那种虚弱感
+:是……Live前太紧张了吗？
+爱音:素世……没事吧？
+playEffect:1_效果音/01_常用效果音/布料_结束.mp3 -volume=20;
+changeFigure:mygo_avemujica_v5/soyoW/039_casual-2023_rip/model.json -id=soyo -next -motion=serious02 -expression=sad02;
+setTransform:{"position":{"x":-400,"y":-600},"scale":{"x":1.4,"y":1.4}} -target=soyo -duration=1000 -next;
+:我牵起素世的手，才发现她的手心里也都是汗
+素世:没事，我……我稍微缓缓……就可以了
+爱音:才不像是没事吧……
+playEffect:1_效果音/01_常用效果音/普通走路过场.mp3 -volume=40;
+setTransform:{"position":{"x":100,"y":-600},"scale":{"x":1.4,"y":1.4}} -target=soyo -duration=2000 -next;
+setTransform:{"position":{"x":-200},"scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=2000 -next;
+:
+playEffect:1_效果音/01_常用效果音/布料_结束.mp3 -volume=40;
+setTransform:{"position":{"x":100,"y":-300},"scale":{"x":1.4,"y":1.4}} -target=soyo -duration=1000 -next;
+setTransform:{"position":{"x":-200,"y":-100},"scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=1000 -next;
+:
+:我干脆扶着她，到一旁的台阶上坐下了
+changeFigure:mygo_avemujica_v5/soyoW/039_casual-2023_rip/model.json -id=soyo -next -motion=sad02 -expression=angry02;
+:她紧握着我的手，闭上眼深深呼吸了几次，终于显得稍微缓过来了一些
+素世:……
+changeFigure:mygo_avemujica_v5/soyoW/039_casual-2023_rip/model.json -id=soyo -next -motion=sad02 -expression=sad02;
+素世:谢谢你，小爱音……
+素世:真的……十分感谢……
+爱音:只是小事啦……怎么说得那么郑重的样子……
+爱音:素世……是太紧张了吗？
+素世:算是吧……
+爱音:啊~我也能懂
+爱音:毕竟是很重要的第二次Live，虽然大家都练习了很久……
+爱音:但接下来又会发生什么，谁也不知道呢~这种既紧张又期待的心情……真的很微妙不是吗
+素世:嗯……
+素世:我有点……
+changeFigure:mygo_avemujica_v5/soyoW/039_casual-2023_rip/model.json -id=soyo -next -motion=shame01 -expression=sad02;
+素世:……有点害怕……
+爱音:诶—— -fontSize=default;
+爱音:居然是害怕吗……原来，soyorin也有这样脆弱的一面呢~ -fontSize=default;
+changeFigure:mygo_avemujica_v5/soyoW/039_casual-2023_rip/model.json -id=soyo -next -motion=surprised01 -expression=sad01;
+爱音:要不，我现在去给你买药或者冰枕吧？或者来膝枕，我唱一首儿歌怎么样？
+爱音:不要硬撑着，偶尔也可以来依靠我哟~
+changeFigure:mygo_avemujica_v5/soyoW/039_casual-2023_rip/model.json -id=soyo -next -motion=angry01 -expression=sad02;
+素世:……请不要这样……我会更想吐的……
+爱音:呃
+changeFigure:mygo_avemujica_v5/soyoW/039_casual-2023_rip/model.json -id=soyo -next -motion=smile03 -expression=smile03;
+素世:……噗
+素世:刚刚小爱音那套妈妈风味说辞，说不定有成为名段子的潜力呢 -fontSize=default;
+素世:以后有机会的话，拜托睦的爸爸，发掘你做搞笑艺人好了
+爱音:好过分！ -fontSize=default;
+changeFigure:mygo_avemujica_v5/soyoW/039_casual-2023_rip/model.json -id=soyo -next -motion=smile01 -expression=smile05;
+素世:开玩笑的
+playEffect:1_效果音/01_常用效果音/布料_开始.mp3 -volume=20;
+
+setTransform:{"position":{"x":100,"y":-600},"scale":{"x":1.4,"y":1.4}} -target=soyo -duration=2000 -next;
+:她长长地吐出一口气，站起身来 -fontSize=default;
+素世:可不能让小爱音去做搞笑呀。毕竟……灯也说过，大家要组一辈子乐队的…… -fontSize=default;
+素世:…………一辈子吗…… -fontSize=default;
+changeFigure:mygo_avemujica_v5/soyoW/039_casual-2023_rip/model.json -id=soyo -next -motion=nf04 -expression=sad02;
+素世:如果……真的有办法的话……我也…… -fontSize=default;
+:素世沉默了好一会儿，最后下定了决心似的，回身牵起我的手 -fontSize=default;
+changeFigure:mygo_avemujica_v5/soyoW/039_casual-2023_rip/model.json -id=soyo -next -motion=nf_left01 -expression=sad02;
+:不知怎么的，她有些发抖，但还是在脸上露出一个温柔的笑容 -fontSize=default;
+changeFigure:mygo_avemujica_v5/soyoW/039_casual-2023_rip/model.json -id=soyo -next -motion=smile01 -expression=smile01;
+素世:……无论如何，就从……这次Live开始吧……
+changeFigure: -id=soyo -next;
+changeBg: -next;
+playEffect:none -volume=10 -id=env;
+:
+:首先是……《春日影》
+:恢复了精神的祥子，发挥出一如既往的高水准。Crychic的最初五人，献上了堪称完美的一曲 -fontSize=default;
+:祥子和睦谢幕，换上我和乐奈
+:接着，是……《碧天伴走》
+:说来丢脸，我一开始直接就弹错了。不过立希马上叫停，素世紧接着进行了一小段MC，我趁着这个间隙，努力习惯着聚光灯带来的眩晕感
+:然后……固然谈不上完美|但，还是成功献上了这青涩稚嫩，又充满着新生力量的一曲 -fontSize=default;
+playEffect:1_效果音/01_常用效果音/演出结束欢呼.mp3 -volume=60;
+changeBg:过场/演出结束欢呼.png -next -transform={"alpha":1};
+:于是，终于来到了最后的MC阶段，祥子与睦重新上台，正在我面前与灯一同作最后的谢幕 -fontSize=default;
+setTransform:{"blur":20} -target=bg-main -duration=2000 -next;
+bgm:希望.mp3 -volume=40;
+:Live，成功了……
+:这三周多的时间里经历的一切，宛若一场华美的梦。但头顶聚光灯热量炙烤出的汗水，正真实地流淌在我的脸上，滴落在舞台表面
+:如果没有素世……
+:如果没有素世的话……我一定无法同大家在一起，享受这闪闪发光的一刻——
+setTransform:{"alpha":0,"blur":20} -target=bg-main -duration=1000 -next;
+:——抱着这样感激的心情，我看向她
+:立即注意到，那种大病初愈般的虚弱，又出现在了素世脸上
+:不由得担心她会站不稳，于是我过去将她挽入臂弯
+爱音:……没事吧，素世？
+changeBg:CG/素舞台_表情差分_0000.png -next -transform={"alpha":0};
+setTransform:{"alpha":1} -target=bg-main -duration=2000 -next;
+素世:……
+素世:……成功了 -自制剧本台词/C02S03_成功了.mp3 -volume=40 -fontSize=small;
+素世:……没有发生……原本那些……都没有发生…… -自制剧本台词/C02S03_什么都没发生.mp3 -volume=40 -fontSize=small;
+素世:……终于，终于成功了 -自制剧本台词/C02S03_终于成功了.mp3 -volume=40 -fontSize=small;
+:她似乎有些慌乱，嘴里小声说着什么，略显陌生地打量着面前的一切，仿佛新生的婴儿一般 -fontSize=medium;
+changeBg:CG/素舞台_表情差分_0001.png -next;
+:然后她望向我
+:点点光芒，正在她的双眸中汇聚 -fontSize=default;
+:如同深海的发光水母们聚在一起，冲破了头顶的一切阻碍—— -fontSize=default;
+:——终于……共同到达了辽阔的海面，沐浴在白色的月光之下—— -fontSize=default;
+素世:对不起…… -自制剧本台词/C02S03_对不起.mp3 -volume=50 -fontSize=default;
+素世:对不起……小爱音…… -自制剧本台词/C02S03_对不起小爱音.mp3 -volume=60 -fontSize=default;
+changeBg:CG/素舞台_表情差分_0002.png -next;
+素世:谢谢你，谢谢你谢谢你谢谢你…… -自制剧本台词/C02S03_谢谢.mp3 -volume=60 -fontSize=default;
+爱音:那个……不用客气啦
+:很明显不是能随意说出“好像我也能懂”的程度
+:不知为何，素世对我展现出的那份感谢……仿佛远比她现在凭依于我臂弯的身体，要沉重千万倍之多
+:虽然多少有些不解，但面对这样的心情，当然是要郑重回应的
+bgm:none -volume=40 -enter=1000;
+爱音:能被素世这样感谢，我——
+
+playEffect:1_效果音/02_环境音/地震.mp3 -volume=40;
+changeBg:CG/素舞台_表情差分_0003.png -transform={"scale":{"x":1.2,"y":1.2}} -next;
+setAnimation:earthquake -target=bg-main -next;
+:
+:发生了什么？ -fontSize=default;
+changeBg:CG/爱头顶-01.png -next -transform={"position":{"x":200,"y":-1700},"scale":{"x":1.2,"y":1.2},"alpha":0};
+:在刚刚的震动中，我把素世拉得更近，得以维持着两人站立的平衡
+:环顾四周，在场的所有人都有些慌乱。演出场内的广播适时响起 -fontSize=default;
+工作人员:只是一场短暂的突发小地震，请大家不要惊慌 -fontSize=default;
+工作人员:以防万一，本次Live将暂时中止，请大家有序退出会场，前往预定的避难场所稍作等候——
+爱音:呼——
+setTransform:{"position":{"x":0,"y":-1500},"scale":{"x":1.2,"y":1.2},"alpha":1} -target=bg-main -duration=1000 -next;
+:我看向素世，她似乎有些惊魂未定
+爱音:没关系的soyorin~你看，幸好是我们的演出刚结束才地震了，要不然的话—— -fontSize=default;
+playEffect:1_效果音/03_重要剧情音效/金属-不妙应力.mp3 -volume=60;
+: -fontSize=default;
+爱音:……？ -fontSize=default;
+:……怪异的声音，从头顶上传来 -fontSize=default;
+playEffect:1_效果音/03_重要剧情音效/金属-不妙应力-2.mp3 -volume=40;
+setTransform:{"position":{"y":1800},"scale":{"x":1.6,"y":1.6},"alpha":1} -target=bg-main -duration=2000 -next;
+:
+playEffect:1_效果音/03_重要剧情音效/即将断裂.mp3 -volume=40;
+changeBg:CG/爱头顶-02.png -next -transform={"position":{"y":1500},"scale":{"x":1.6,"y":1.6},"alpha":1};
+setAnimation:C3_shock -target=bg-main;
+:
+setTransform:{"position":{"x":0,"y":-1500},"scale":{"x":1.2,"y":1.2},"alpha":1} -target=bg-main -duration=300 -next;
+:
+playEffect:1_效果音/03_重要剧情音效/推开.mp3 -volume=40;
+changeBg:CG/推素.png -next -transform={"scale":{"x":2,"y":2}};
+setAnimation:C3_push -target=bg-main;
+playEffect:1_效果音/03_重要剧情音效/金属砸下.mp3 -volume=40;
+setTransform:{"position":{"y":0},"scale":{"x":1,"y":1},"alpha":0} -target=bg-main -duration=100 -next;

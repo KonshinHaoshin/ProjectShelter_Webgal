@@ -1,0 +1,240 @@
+changeFigure:MyExtra/SoyoMama_FromLayer/model.json -id=mama -transform={"position":{"x":0,"y":-300},"scale":{"x":1,"y":1},"alpha":0} -next -motion=sing01 -expression=smile02;
+changeFigure:mygo_avemujica_v5/mutsumi/338_casual-2023_rip/model.json -id=mtsu -transform={"position":{"x":1800,"y":-300},"scale":{"x":1,"y":1},"alpha":1} -next -motion=nnf_left01 -expression=idle01;
+changeFigure:mygo_avemujica_v5/sakiko/341_casual-2023_rip/model.json -id=saki -transform={"position":{"x":1800,"y":-300},"scale":{"x":1,"y":1},"alpha":1} -next -motion=nf_left01 -expression=surprised01;
+changeFigure:mygo_avemujica_v5/tomoli/036_casual-2023_rip/model.json -id=tmr -transform={"position":{"x":1800,"y":-300},"scale":{"x":1,"y":1},"alpha":1} -next -motion=nf_left01 -expression=kandou01;
+changeFigure:mygo_avemujica_v5/rana/038_casual-2023_rip/model.json -id=rana -transform={"position":{"x":1800,"y":-300},"scale":{"x":1,"y":1},"alpha":1} -next -motion=nf_left01 -expression=smile02;
+changeFigure:mygo_avemujica_v5/umiri/339_casual-2023_rip/model.json -id=umiri -transform={"position":{"x":1800,"y":-300},"scale":{"x":1,"y":1},"alpha":1} -next -motion=nf_left01 -expression=idle01;
+changeFigure:mygo_avemujica_v5/taki/040_casual-2023_rip/model.json -id=taki -transform={"position":{"x":1800,"y":-300},"scale":{"x":1,"y":1},"alpha":1} -next -motion=nf_left01 -expression=serious01;
+changeFigure:mygo_avemujica_v5/anon/037_casual-2023_rip/model.json -id=anon -transform={"position":{"x":1800,"y":-300},"scale":{"x":1,"y":1},"alpha":1} -next -motion=nf_left01 -expression=surprised01;
+;head
+changeFigure:none.png -id=black -next;
+changeFigure:black.png -id=black -transform={"alpha":1} -next;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1 -next;
+:
+:我再度闭上双眼
+:穿过花与叶的间隙、斑驳日影洒落在地
+:漫长的春日，落下了帷幕
+setTransform:{"blur":0} -target=bg-main -duration=1000 -next;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+:睁开双眼，众人眼中的光照进我的心底
+素世:我明白了……
+素世:……那，我出门了（いってきます）
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+:转过身，享受着众人的目送，准备回到观众中去
+:雀跃着迈了几步，突然心中一动，于是再度回头
+素世:——对了，名字？
+祥子:名字……？
+素世:新乐队的名字……是什么？
+祥子:说得是呢……
+祥子:……大家都曾经迷失过，即便是未来……也总会有无法看清前路的时刻吧
+祥子:然而……即便迷失了方向，即便遍体鳞伤，即便优雅（Chic）不再……
+:祥子与灯对视一眼，后者点了点头
+:于是，她再度面向我
+祥子:在此，我向乐队全员许下约定 -fontSize=default;
+祥子:即便迷茫，大家也要在一起！即便迷茫也要前进，即便迷茫……也要发出内心的呐喊！
+changeBg:CG/C04S04_Final_03.png -next;
+:声嘶力竭地——她向我呐喊道
+bgm:01. 迷星叫(Anime ver.).mp3 -volume=60 -enter=0;
+祥子:是的……那么，这就是，一直迷茫着的我们内心的呐喊！我们的新乐队，它的名字是—— -fontSize=default;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+祥子:It's——My Cry!!!!!!!!
+setTransform:{"alpha":1,"blur":0} -target=black -duration=5000 -next;
+:
+changeBg:普通背景/素世宅_晚.png -next -transform={"scale":{"x":1.2,"y":1.2}};
+setTransform:{"position":{"x":0,"y":-300}} -target=mama -duration=1 -next;
+众人:打扰了！
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+素世妈妈:呜哇！欢迎大家！
+素世妈妈:素世还是第一次叫那么多朋友来家里呢，妈妈好开心啊！
+素世妈妈:好啦好啦——大家随便坐吧，我去泡点茶过来
+changeFigure:MyExtra/SoyoMama_FromLayer/model.json -id=mama -next -motion=nf_left01 -expression=smile02;
+setTransform:{"position":{"x":-2000,"y":-300}} -target=mama -duration=2000 -next;
+素世:……别愣着啦，大家快进来吧
+setTransform:{"position":{"x":500,"y":-300}} -target=anon -duration=2000 -next;
+:
+爱音:呜哇，好大的房子——
+爱音:诶，楼梯？这是有两层吗？两层的大公寓？
+setTransform:{"position":{"x":1000,"y":-300}} -target=taki -duration=1000 -next;
+立希:别大惊小怪了，赶紧进去呀，你把大家都堵在这里了
+changeFigure:mygo_avemujica_v5/anon/037_casual-2023_rip/model.json -id=anon -next -motion=nf_right01 -expression=smile02;
+爱音:抱歉抱歉~
+changeFigure:mygo_avemujica_v5/anon/037_casual-2023_rip/model.json -id=anon -next -motion=nf_left01 -expression=smile01;
+;抱歉，全员进入
+setTransform:{"position":{"x":-2000,"y":-300}} -target=anon -duration=2000 -next;
+setTransform:{"position":{"x":-2000,"y":-300}} -target=taki -duration=3000 -next;
+setTransform:{"position":{"x":-2000,"y":-300}} -target=umiri -duration=4000 -next;
+setTransform:{"position":{"x":-2000,"y":-300}} -target=rana -duration=3000 -next;
+setTransform:{"position":{"x":-2000,"y":-300}} -target=tmr -duration=3500 -next;
+setTransform:{"position":{"x":300,"y":-300}} -target=saki -duration=3000 -next;
+setTransform:{"position":{"x":800,"y":-300}} -target=mtsu -duration=3000 -next;
+:
+祥子:……确实很豪华呢
+祥子:我也吓了一跳
+祥子:大家都是第一次来素世家吧……
+setTransform:{"position":{"x":-2000,"y":-300}} -target=saki -duration=2000 -next;
+setTransform:{"position":{"x":-2000,"y":-300}} -target=mtsu -duration=2500 -next;
+setTransform:{"position":{"x":-2000,"y":0}} -target=rana -duration=1 -next;
+changeFigure:mygo_avemujica_v5/anon/037_casual-2023_rip/model.json -id=anon -next -motion=nf_right01 -expression=kandou01;
+changeFigure:mygo_avemujica_v5/rana/038_casual-2023_rip/model.json -id=rana -next -motion=idle01 -expression=thinking01;
+:
+setTransform:{"position":{"x":100},"scale":{"x":1.2,"y":1.2},"blur":0} -target=bg-main -duration=1000 -next;
+setTransform:{"position":{"x":-500,"y":0}} -target=rana -duration=2000 -next;
+setTransform:{"position":{"x":500,"y":-300}} -target=anon -duration=2000 -next;
+:
+乐奈:沙发好软
+乐奈:吸溜~
+changeFigure:mygo_avemujica_v5/anon/037_casual-2023_rip/model.json -id=anon -next -motion=nf_left01 -expression=surprised01;
+爱音:咦，小乐奈在吃什么？
+乐奈:荞麦面
+爱音:诶？什么时候……
+乐奈:刚才经过便利店的时候
+setTransform:{"position":{"x":-3000,"y":-300}} -target=taki -duration=1 -next;
+changeFigure:mygo_avemujica_v5/anon/037_casual-2023_rip/model.json -id=anon -next -motion=thinking01 -expression=surprised01;
+changeFigure:mygo_avemujica_v5/umiri/339_casual-2023_rip/model.json -id=umiri -next -motion=nnf_right01 -expression=surprised01;
+changeFigure:mygo_avemujica_v5/taki/040_casual-2023_rip/model.json -id=taki -next -motion=nf_right01 -expression=sigh01;
+
+爱音:……那不是才十几秒吗？好快！
+setTransform:{"position":{"x":200},"scale":{"x":1.2,"y":1.2},"blur":0} -target=bg-main -duration=2000 -next;
+setTransform:{"position":{"x":2000,"y":0}} -target=rana -duration=2000 -next;
+setTransform:{"position":{"x":3000,"y":-300}} -target=anon -duration=2000 -next;
+setTransform:{"position":{"x":-500,"y":-300}} -target=taki -duration=2000 -next;
+setTransform:{"position":{"x":500,"y":-300}} -target=umiri -duration=2000 -next;
+:
+海铃:真大的房子呢……
+海铃:你们的贝斯手真是深藏不露啊…… -fontSize=default;
+立希:你这家伙，也有事情瞒着我吧？ -fontSize=default;
+changeFigure:mygo_avemujica_v5/umiri/339_casual-2023_rip/model.json -id=umiri -next -motion=nnf_left01 -expression=sigh01;
+海铃:什么？
+changeFigure:mygo_avemujica_v5/taki/040_casual-2023_rip/model.json -id=taki -next -motion=nf_right01 -expression=sigh02;
+立希:我听别人说了，你做支援乐手还是会收费的，怎么没和我提？
+立希:最近的这些一共要多少？像占了你便宜似的，感觉不太好
+changeFigure:mygo_avemujica_v5/umiri/339_casual-2023_rip/model.json -id=umiri -next -motion=nf_left01 -expression=smile03;
+海铃:这样吗，那在剩下的日子里，请多多珍惜我
+changeFigure:mygo_avemujica_v5/taki/040_casual-2023_rip/model.json -id=taki -next -motion=nf_right01 -expression=thinking01;
+立希:……哈？
+海铃:毕竟，大概不会长久了
+changeFigure:mygo_avemujica_v5/taki/040_casual-2023_rip/model.json -id=taki -next -motion=nf_right01 -expression=surprised01;
+立希:哈？？？
+海铃:别误会，我是说——你们的贝斯手，大概很快就会回来了吧
+海铃:这个乐队还挺有意思的
+changeFigure:mygo_avemujica_v5/umiri/339_casual-2023_rip/model.json -id=umiri -next -motion=nnf_right01 -expression=smile05;
+海铃:不收钱的话，我会有种自己也是其中一员的感觉
+changeFigure:mygo_avemujica_v5/taki/040_casual-2023_rip/model.json -id=taki -next -motion=nf_right01 -expression=sigh02;
+立希:……你这家伙，想法真麻烦啊……
+立希:而且……
+changeFigure:mygo_avemujica_v5/umiri/339_casual-2023_rip/model.json -id=umiri -next -motion=nnf_left01 -expression=serious01;
+海铃:而且……？
+changeFigure:mygo_avemujica_v5/taki/040_casual-2023_rip/model.json -id=taki -next -motion=nf_right01 -expression=smile03;
+立希:而且，你想加入的话……大家应该也不会拒绝吧
+changeFigure:mygo_avemujica_v5/umiri/339_casual-2023_rip/model.json -id=umiri -next -motion=nnf_left01 -expression=sad01;
+海铃:……两个贝斯手？
+changeFigure:mygo_avemujica_v5/taki/040_casual-2023_rip/model.json -id=taki -next -motion=nf_right01 -expression=sigh02;
+立希:呃……总会有办法的
+changeFigure:mygo_avemujica_v5/umiri/339_casual-2023_rip/model.json -id=umiri -next -motion=sigh01 -expression=sigh01;
+海铃:真是随便的乐队啊……
+changeFigure:mygo_avemujica_v5/umiri/339_casual-2023_rip/model.json -id=umiri -next -motion=nnf_left01 -expression=smile01;
+
+setTransform:{"position":{"x":3000,"y":-300}} -target=rana -duration=1 -next;
+setTransform:{"position":{"x":2000,"y":-300}} -target=mtsu -duration=1 -next;
+海铃:不过，还不赖
+setTransform:{"position":{"x":100},"scale":{"x":1.2,"y":1.2},"blur":0} -target=bg-main -duration=2000 -next;
+changeFigure:mygo_avemujica_v5/rana/038_casual-2023_rip/model.json -id=rana -next -motion=nf_left01 -expression=smile01;
+setTransform:{"position":{"x":500,"y":-300}} -target=rana -duration=2000 -next;
+setTransform:{"position":{"x":-500,"y":-300}} -target=mtsu -duration=2000 -next;
+setTransform:{"position":{"x":-3000,"y":-300}} -target=taki -duration=2000 -next;
+setTransform:{"position":{"x":-2000,"y":-300}} -target=umiri -duration=2000 -next;
+:
+乐奈:睦，有巧克力吗？
+changeFigure:mygo_avemujica_v5/mutsumi/338_casual-2023_rip/model.json -id=mtsu -next -motion=nnf_right01 -expression=idle01;
+睦:……有
+changeFigure:mygo_avemujica_v5/rana/038_casual-2023_rip/model.json -id=rana -next -motion=nf_left01 -expression=smile02;
+setTransform:{"position":{"x":0,"y":-300}} -target=rana -duration=1000 -next;
+乐奈:给我
+changeFigure:mygo_avemujica_v5/mutsumi/338_casual-2023_rip/model.json -id=mtsu -next -motion=nf_right01 -expression=angry01;
+睦:要大家一起吃
+setTransform:{"position":{"x":-500,"y":-300}} -target=rana -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":-300}} -target=mtsu -duration=1000 -next;
+changeFigure:mygo_avemujica_v5/mutsumi/338_casual-2023_rip/model.json -id=mtsu -next -motion=nnf_left01 -expression=angry01;
+changeFigure:mygo_avemujica_v5/rana/038_casual-2023_rip/model.json -id=rana -next -motion=nf_right01 -expression=smile02;
+乐奈:给我
+changeFigure:mygo_avemujica_v5/mutsumi/338_casual-2023_rip/model.json -id=mtsu -next -motion=nf_left01 -expression=angry01;
+睦:……先给你一个
+changeFigure:mygo_avemujica_v5/mutsumi/338_casual-2023_rip/model.json -id=mtsu -next -motion=nnf_left01 -expression=surprised01;
+changeFigure:mygo_avemujica_v5/rana/038_casual-2023_rip/model.json -id=rana -next -motion=nf_right01 -expression=niya01;
+setTransform:{"position":{"x":-400,"y":-300}} -target=rana -duration=1000 -next;
+setTransform:{"position":{"x":100,"y":-300}} -target=mtsu -duration=1000 -next;
+乐奈:啊——
+睦:……
+changeFigure:mygo_avemujica_v5/mutsumi/338_casual-2023_rip/model.json -id=mtsu -next -motion=nnf_left01 -expression=idle01;
+setTransform:{"position":{"x":0,"y":-300}} -target=mtsu -duration=1000 -next;
+changeFigure:mygo_avemujica_v5/rana/038_casual-2023_rip/model.json -id=rana -next -motion=nnf_right01 -expression=thinking01;
+;ready
+changeFigure:MyExtra/SoyoMama_FromLayer/model.json -id=mama -next -motion=nf_right01 -expression=smile02;
+changeFigure:mygo_avemujica_v5/sakiko/341_casual-2023_rip/model.json -id=saki -next -motion=nf_left01 -expression=smile01;
+changeFigure:mygo_avemujica_v5/tomoli/036_casual-2023_rip/model.json -id=tmr -next -motion=nf_left01 -expression=smile01;
+changeFigure:mygo_avemujica_v5/taki/040_casual-2023_rip/model.json -id=taki -next -motion=nf_left01 -expression=shame02;
+setTransform:{"position":{"x":2000,"y":-300}} -target=saki -duration=1 -next;
+setTransform:{"position":{"x":2000,"y":-300}} -target=tmr -duration=1 -next;
+setTransform:{"position":{"x":2000,"y":-300}} -target=taki -duration=1 -next;
+乐奈:嗯唔
+乐奈:小睦，喜欢
+setTransform:{"position":{"x":200},"scale":{"x":1.2,"y":1.2},"blur":0} -target=bg-main -duration=2000 -next;
+setTransform:{"position":{"x":2000,"y":-300}} -target=rana -duration=2000 -next;
+setTransform:{"position":{"x":2500,"y":-300}} -target=mtsu -duration=2000 -next;
+setTransform:{"position":{"x":-800,"y":-300}} -target=mama -duration=2000 -next;
+:
+素世妈妈:请稍微坐一会儿哟，阿姨给大家准备了烤曲奇~
+素世妈妈:如果有谁想的话，也可以一起来做哟
+setTransform:{"position":{"x":0,"y":-300}} -target=saki -duration=3000 -next;
+祥子:诶~那，麻烦您指导了~
+祥子:很早之前就想试试了呢
+setTransform:{"position":{"x":500,"y":-300}} -target=tmr -duration=2000 -next;
+灯:……我也想
+setTransform:{"position":{"x":1000,"y":-300}} -target=taki -duration=1500 -next;
+立希:诶……？那我——
+素世妈妈:都可以来哟~阿姨一定会把你们都教会的！
+素世:妈妈……家里的围裙也没那么多副啦……
+爱音:别急别急，在这之前，大家先来拍个照吧？
+changeFigure:MyExtra/SoyoMama_FromLayer/model.json -id=mama -next -motion=surprised01 -expression=smile01;
+changeFigure:mygo_avemujica_v5/sakiko/341_casual-2023_rip/model.json -id=saki -next -motion=surprised01 -expression=surprised01;
+changeFigure:mygo_avemujica_v5/tomoli/036_casual-2023_rip/model.json -id=tmr -next -motion=surprised01 -expression=surprised01;
+changeFigure:mygo_avemujica_v5/taki/040_casual-2023_rip/model.json -id=taki -next -motion=surprised01 -expression=surprised01;
+爱音:好不容易集齐了全员呢~怎么能不拍一张大合照呢？
+changeFigure:mygo_avemujica_v5/tomoli/036_casual-2023_rip/model.json -id=tmr -next -motion=smile01 -expression=surprised01;
+changeFigure:mygo_avemujica_v5/sakiko/341_casual-2023_rip/model.json -id=saki -next -motion=smile02 -expression=smile02;
+祥子:说得是呢~
+changeFigure:MyExtra/SoyoMama_FromLayer/model.json -id=mama -next -motion=sing01 -expression=smile02;
+素世妈妈:那，就让阿姨来为你们拍照吧！
+爱音:谢谢您！
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+:
+爱音:首先，素世同学作为主人，应该站中间——
+素世:……叫小素世……也可以啦
+爱音:诶？！好耶！~那小素世站中间，小祥和小睦站旁边，我就站另一边~
+立希:……这家伙，擅自就站到中间去了
+海铃:不喜欢吗，和我一起站到边边角角
+立希:你在说啥啊……和这个无关吧？
+灯:……小立希，来站这里吧？
+立希:啊……好！
+海铃:感觉画面会不平衡呢……我和乐奈站到那边去好了
+素世妈妈:好了吗？要拍了哟~茄子~
+乐奈:啊，飞蛾
+灯:飞蛾？
+;
+changeFigure: -id=mama -transform={"position":{"x":0,"y":-300},"scale":{"x":1,"y":1},"alpha":0} -next -motion=sing01 -expression=smile02;
+changeFigure:none -id=mtsu -transform={"position":{"x":1800,"y":-300},"scale":{"x":1,"y":1},"alpha":1} -next -motion=nnf_left01 -expression=idle01;
+changeFigure:none -id=saki -transform={"position":{"x":1800,"y":-300},"scale":{"x":1,"y":1},"alpha":1} -next -motion=nf_left01 -expression=surprised01;
+changeFigure:none -id=tmr -transform={"position":{"x":1800,"y":-300},"scale":{"x":1,"y":1},"alpha":1} -next -motion=nf_left01 -expression=kandou01;
+changeFigure:none -id=rana -transform={"position":{"x":1800,"y":-300},"scale":{"x":1,"y":1},"alpha":1} -next -motion=nf_left01 -expression=smile02;
+changeFigure:none -id=umiri -transform={"position":{"x":1800,"y":-300},"scale":{"x":1,"y":1},"alpha":1} -next -motion=nf_left01 -expression=idle01;
+changeFigure:none -id=taki -transform={"position":{"x":1800,"y":-300},"scale":{"x":1,"y":1},"alpha":1} -next -motion=nf_left01 -expression=serious01;
+changeFigure:none -id=anon -transform={"position":{"x":1800,"y":-300},"scale":{"x":1,"y":1},"alpha":1} -next -motion=nf_left01 -expression=surprised01;
+
+changeBg:CG/C04S04_大合照.png -next;
+立希:等下，灯，要拍了——
+爱音:耶~
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1 -next;
+:
+setTransform:{"alpha":1,"blur":0} -target=black -duration=5000 -next;
+:
+changeScene:C04S04/C04S04_Scene19.txt

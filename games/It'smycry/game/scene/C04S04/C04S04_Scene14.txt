@@ -1,0 +1,178 @@
+bgm:09. 可哀想なお人形(Toy Piano ver.)_02.mp3 -volume=60;
+changeBg:C04S04_Tale/C04S04_童话_15.png -next;
+changeFigure:mygo_avemujica_v5/anonW/037_casual-2023_rip/model.json -id=anon -transform={"position":{"x":2000,"y":-600},"scale":{"x":1.4,"y":1.4},"alpha":0} -next -motion=idle01 -expression=thinking03;
+changeFigure:none.png -id=black -next;
+changeFigure:虹色.png -id=rainbow -transform={"scale":{"x":3.5,"y":3.5},"alpha":0} -next;
+changeFigure:black.png -id=black -transform={"alpha":1} -next;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1 -next;
+:狐狸小姐像疯了一样在森林里横冲直撞着
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+:虹色的道路出现又消失，消失又出现，编织成一道错综复杂的迷宫
+:跑呀跑呀——狐狸小姐，不知道跑了多久
+changeBg:C04S04_Tale/C04S04_童话_16.png -next;
+:相同的伙伴们不断出现，又不断被黑暗的森林吞噬
+:这让狐狸小姐越来越绝望
+:在这种绝望中，她又想起了之前的狗狗小姐
+:她想起，遇到狗狗小姐的那一次，伙伴们虽然都跑掉了，但并没有被森林吞没
+:“或许是我不够努力吧，只要我再次找到狗狗小姐，再努力一些的话？”
+:于是，狐狸小姐再次找到了狗狗小姐
+changeBg:C04S04_Tale/C04S04_童话_17.png -next;
+:“来一起玩吧！”，她对狗狗小姐说，狗狗小姐答应了，开心地摇着尾巴
+:一切都如同计划中的那样，大家一起渡过了同样快乐的时光
+:在又一次开心的玩耍后，狐狸小姐几乎以为自己要成功了
+:以至于，她没有注意到，头顶上黑色的树影正摇摇欲坠
+:“小心！”，突然间，狗狗小姐大叫道
+:被狗狗小姐推开的瞬间——黑色的树影从天而降
+changeBg:C04S04_Tale/C04S04_童话_18.png -next;
+:狐狸小姐得救了，然而，好心的狗狗小姐……却消失在了树影之中
+bgm:none -volume=60 -enter=2000;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=5000 -next;
+: -fontSize=default;
+playEffect:1_效果音/碎玻璃.mp3 -volume=40;
+setTransform:{"alpha":1,"blur":0} -target=rainbow -duration=1000 -next;
+:
+playEffect:1_效果音/01_常用效果音/画面崩坏并消失音效.mp3 -volume=40;
+changeBg:普通背景/街道晚.png -next -transform={"scale":{"x":1.2,"y":1.2},"oldFilm":1};
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+setTransform:{"scale":{"x":4,"y":4},"alpha":1,"rotation":2,"blur":0} -target=rainbow -duration=4000 -next;
+:随着那颗珠子被打碎，从中汹涌而出的虹色，刹那间占据了整片视野——
+setTransform:{"scale":{"x":4,"y":4},"alpha":0,"rotation":3,"blur":0} -target=rainbow -duration=1000 -next;
+:——下一秒，视野中的虹色无影无踪
+素世:……诶？
+:发生了什么？
+bgm:緊張-cut.mp3 -volume=40;
+setTransform:{"position":{"x":0,"y":-100},"scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=500 -next;
+:我错愕地望向巷子的地面——那里干干净净，一丁点珠子的碎片都见不到
+:然而抬起右手，指尖又仿佛还残留着珠子坚硬冰凉的触感
+素世:……难道是，我太伤心了吗
+素世:以至于……出现了幻觉？
+:再次捏捏指尖，那里似乎又只剩下自己淡淡的体温
+素世:……
+素世:真荒唐啊……
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=500 -next;
+:实现愿望的珠子——这世界上怎么可能会有这种东西
+:还是……回家去吧
+:深吸一口气，转过身来
+setTransform:{"position":{"x":-500,"y":-600},"scale":{"x":1.4,"y":1.4},"alpha":1} -target=anon -duration=1000 -next;
+setTransform:{"position":{"x":-200,"y":0},"scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=1000 -next;
+:
+:爱音的脸——突然出现在面前
+setTransform:{"position":{"x":-250,"y":-450},"scale":{"x":1.2,"y":1.2},"alpha":1, "blur":10} -target=anon -duration=500 -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1,"y":1}, "blur":10} -target=bg-main -duration=500 -next;
+playEffect:素世/素食_痛苦_01.mp3 -volume=50;
+素世:嘎啊！？
+setTransform:{"position":{"x":-250,"y":-450},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=anon -duration=500 -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1,"y":1},"blur":0} -target=bg-main -duration=500 -next;
+素世:……小爱音？不要吓我啊！
+素世:……不，为什么你在这里？
+:我一边抚着被吓得咚咚直跳的胸口，一边向她发问道
+:这个巷子很窄，刚才也明明没有任何脚步声
+:而她背着手，站在离我只有几步的身后，像是突然出现，又仿佛是一直等在那里似的
+爱音:……
+素世:……什么嘛……
+:冷静下来后——一下不知道该以什么态度面对她
+:毕竟，自从她们擅自演奏春日影之后，我就一直对她们避而不见
+:从理性的立场出发，我大概没有资格讨厌她们，但要当做什么都没发生过，又显然不可能
+素世:你们……是在找我吗？
+爱音:……找你？为什么？
+素世:……事到如今……就不要装傻了吧……
+素世:我把话说明白好了……
+素世:……我利用了你，为了重组Crychic -fontSize=default;
+素世:本来……本来打算重组成功之后，就把你和乐奈想办法踢走的，只是……现在…… -fontSize=default;
+setTransform:{"position":{"x":250,"y":-550},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=anon -duration=1000 -next;
+setTransform:{"position":{"x":200,"y":-100},"scale":{"x":1,"y":1},"blur":0} -target=bg-main -duration=1000 -next;
+setTransform:{"alpha":0.6,"blur":0} -target=black -duration=200 -next;
+:然而说着说着，我只觉得喉咙发紧，一阵燥热涌上脸颊，不由得挪开了眼神 -fontSize=default;
+:果然……我还是不习惯当这种恶人
+:然而，刚刚才被祥子拒绝了……被她，说了那种话
+:……大概是……有些自暴自弃了吧
+素世:……
+:但……爱音……为什么不说话？
+素世:……算了，从今往后，请不要再和我扯上关系了 -fontSize=default;
+素世:想怎么组乐队都随便你们，但……
+素世:但我……要退出这个乐队
+bgm: -enter=2000;
+爱音:啊……确实如此
+setTransform:{"position":{"x":-250,"y":-450},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=anon -duration=500 -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1,"y":1},"blur":0} -target=bg-main -duration=500 -next;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=200 -next;
+素世:……诶？
+changeFigure:mygo_avemujica_v5/anonW/037_casual-2023_rip/model.json -id=anon -next -motion=thinking03 -expression=thinking03;
+:爱音的反应完全在我预料之外
+:我觉得她虽然不至于说什么狠话，但至少会显得有些惊讶或是失落才对
+:然而她却十分冷静，不如说，这种冷静甚至让我有点不自在
+爱音:我唯独……看不到最初的这一次呢
+素世:最初……的一次？
+素世:什么意思？
+爱音:唉
+:她没来由地叹了口气
+changeFigure:mygo_avemujica_v5/anonW/037_casual-2023_rip/model.json -id=anon -next -motion=nnf02 -expression=thinking03;
+爱音:不过……最后的几次时间都很短，真是帮大忙了
+素世:……这都什么跟什么？
+素世:没事的话，请让开吧，我要回家了——
+changeFigure:mygo_avemujica_v5/anonW/037_casual-2023_rip/model.json -id=anon -next -motion=kime02 -expression=thinking03;
+playEffect:1_效果音/01_常用效果音/平手打ち1.mp3 -volume=80;
+setTransform:{"position":{"x":-1350,"y":-800},"scale":{"x":1.6,"y":1.6},"alpha":1,"blur":0} -target=anon -duration=200 -next;
+setTransform:{"position":{"x":-200,"y":0},"scale":{"x":1,"y":1},"blur":10} -target=bg-main -duration=200 -next;
+setTransform:{"alpha":0.6,"blur":0} -target=black -duration=200 -next;
+:
+:视野一晃，左脸颊火辣辣地痛起来
+:……我这是，被抽了一耳光？
+:然而下一秒——
+setTransform:{"position":{"x":-1350,"y":-800},"scale":{"x":1.6,"y":1.6},"alpha":0,"blur":0} -target=anon -duration=200 -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":0.5,"y":0.5},"alpha":0, "blur":30} -target=bg-main -duration=200 -next;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=200 -next;
+playEffect:1_效果音/03_重要剧情音效/溺水_缩混.mp3 -volume=80;
+:我坠入深渊
+bgm:06. 壁の先.mp3 -volume=40;
+:
+:咸苦的海水灌入喉咙与鼻腔，它们从我体内生出黑色的浪，每片浪花上，都是相同的面孔
+:她们黏稠地哭泣，唱出无数字句，这些字句从骨髓中渗出，穿过层层血肉，冒出皮肤表面
+:我穿着她，又或是她穿着我，名为“长崎素世”的漆黑礼服，与我难舍难分地缠绕在了一起
+playEffect:1_效果音/03_重要剧情音效/溺水_露头_缩混.mp3 -volume=80;
+setTransform:{"position":{"x":-250,"y":-450},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=anon -duration=500 -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1,"y":1},"blur":0} -target=bg-main -duration=500 -next;
+:伴随着生长带来的痛楚，我们沉沉浮浮，渐渐上升——最终，一同缓缓苏醒了在无光的海面
+bgm:none -volume=40 -enter=2000;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=500 -next;
+:
+素世:…… -fontSize=default;
+素世:小……爱音？
+爱音:嗯
+爱音:我回来了(ただいまー)
+bgm:24. 孤独な少女.mp3 -volume=40 -enter=0;
+:——不，在无边的黑暗中，的确有一丝星光
+:这丝星光若隐若现，指引着我，穿过无数雨夜
+:一步一步、直至此刻——它依旧陪在我身边
+changeFigure:mygo_avemujica_v5/anonW/037_casual-2023_rip/model.json -id=anon -next -motion=kime02 -expression=angry01;
+爱音:抱歉呢……但这个耳光，我很早之前就想打了
+爱音:从最开始的十几次之后，就觉得，果然是被实现愿望的那家伙骗了吗？ -fontSize=default;
+爱音:不……应该说是被そよりん骗了呢。最开始明明以为，只要走到终点一次就好 -fontSize=default;
+爱音:结果没想到，そよりん居然重来了那么多次
+changeFigure:mygo_avemujica_v5/anonW/037_casual-2023_rip/model.json -id=anon -next -motion=nf03 -expression=angry02;
+爱音:怪不得第一次回去见到そよりん时，你那张脸啊……我都……呃，我都忘记那张脸什么样子了……
+爱音:唉，那又怎样，不还是得一直走，一直好好地哄着你，一直带你回去，所以我就想着，等到了终点
+爱音:——等到你知道一切之后，一定要狠狠地给你来这么一下 -fontSize=default;
+changeFigure:mygo_avemujica_v5/anonW/037_casual-2023_rip/model.json -id=anon -next -motion=serious02 -expression=angry02;
+爱音:唉，你这家伙真是个大骗子，又是个笨蛋，不知道应该夸你很有恒心，还是该骂你死不悔改，真是的……我……
+:她喋喋不休地说着，就像是在呕吐出之前吞下的一切沉默
+:我不知如何是好
+playEffect:1_效果音/01_常用效果音/衣擦れ1.mp3 -volume=60;
+changeFigure:mygo_avemujica_v5/anonW/037_casual-2023_rip/model.json -id=anon -next -motion=surprised01 -expression=surprised01;
+setTransform:{"position":{"x":-1800,"y":-1500},"scale":{"x":3,"y":3},"alpha":1,"blur":20} -target=anon -duration=500 -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2},"blur":0} -target=bg-main -duration=500 -next;
+setTransform:{"alpha":0.4,"blur":0} -target=black -duration=500 -next;
+:只能……轻轻将她拥入怀中
+changeFigure:mygo_avemujica_v5/anonW/037_casual-2023_rip/model.json -id=anon -next -motion=surprised01 -expression=cry01;
+setTransform:{"alpha":0.8,"blur":0} -target=black -duration=500 -next;
+:于是，那些聒噪在一瞬间都消失了，取而代之的是——
+setTransform:{"alpha":1,"blur":0} -target=black -duration=500 -next;
+:——许多温热的泪，滑落在我的脖颈上，交融在一起
+素世:[欢迎……回来](おかえりー)
+:
+:过去的长崎素世
+:未来的千早爱音
+:现在……终于相遇了
+bgm:none -volume=40 -enter=0;
+:
+changeScene:C04S04/C04S04_Scene15.txt

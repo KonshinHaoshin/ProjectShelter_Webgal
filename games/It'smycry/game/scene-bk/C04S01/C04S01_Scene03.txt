@@ -1,0 +1,99 @@
+changeFigure:mygo_avemujica_v5/soyo/039_hnok_school_winter-2023_rip_normal/model.json -id=soyo -transform={"position":{"x":0,"y":-500},"scale":{"x":1.4,"y":1.4},"alpha":0} -next -motion=smile01 -expression=idle01;
+changeFigure:black.png -id=black -transform={"alpha":1} -next;
+: -fontSize=default;
+changeBg:普通背景/廉价公寓_温暖.png -next -transform={"scale":{"x":1.2,"y":1.2}};
+素世:说起来，小祥
+setTransform:{"position":{"x":-300,"y":-500},"scale":{"x":1.4,"y":1.4},"alpha":1} -target=soyo -duration=1 -next;
+素世:灯，今天带了一个人来参观乐队呢
+bgm:优雅.mp3 -volume=60;
+changeFigure:mygo_avemujica_v5/soyo/039_hnok_school_winter-2023_rip_normal/model.json -id=soyo -transform={"position":{"x":0,"y":-500},"scale":{"x":1.4,"y":1.4},"alpha":0} -next -motion=serious02 -expression=smile01;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=2000 -next;
+:晚饭时间，素世一边为我盛上咖喱，一边说道
+祥子:诶？这样吗……
+:与灯的初次相遇是在一年前，当时她小半个身子探向桥栏杆之外，弄得我以为她是要自寻短见
+:虽然事后发现不过是个误会，但灯身上独特的异质感，却令我印象深刻
+:是孤独吗——不，这个词有些过于笼统了
+:灯……就像是一颗春夜中的星星
+:她仿佛始终……始终在追寻着自己究竟身处夜空何方
+:因为这次邂逅，她成为了继素世之后，我邀请进入乐队的第二人
+祥子:说起来，灯变得越来越开朗了呢
+changeFigure:mygo_avemujica_v5/soyo/039_hnok_school_winter-2023_rip_normal/model.json -id=soyo -transform={"position":{"x":0,"y":-500},"scale":{"x":1.4,"y":1.4},"alpha":0} -next -motion=nf04 -expression=smile01;
+素世:是呀，不过好像因为这样，立希有点吃醋的样子
+祥子:诶——
+素世:因为，灯好像很喜欢自己带来的那孩子呢——所以，我就试着邀请那孩子加入Crychic了
+祥子:诶？新成员吗？这种状况下……？
+素世:果然有些突然呢
+素世:不过，就着当时的氛围，她也一下子就答应了
+祥子:嘛……也不是说不欢迎新成员加入……那孩子的名字是？
+素世:千早爱音，就是昨天中午我们在吹奏部教室碰到的，粉色长发的那个
+祥子:诶——真巧啊……
+祥子:那，她擅长的乐器是？
+素世:是吉他。考虑到大家活动时间不统一，多一个人也会多一分把握呢
+祥子:确实是这样……应该说，我反而担心会不会因为我们现在这种情况，而耽搁了别人
+祥子:那么，明天中午我也去和她正式见一面吧
+素世:嗯嗯——先吃晚饭吧，咖喱凉了就不好了
+祥子:那，我开动了~
+bgm:none -volume=60 -enter=2000;
+playEffect:1_效果音/01_常用效果音/ガムを噛む.mp3 -volume=40;
+setTransform:{"position":{"x":0,"y":-100},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":5} -target=bg-main -duration=500 -next;
+setTransform:{"position":{"x":-300,"y":-600},"scale":{"x":1.4,"y":1.4},"alpha":1,"blur":5} -target=soyo -duration=500 -next;
+setTransform:{"alpha":0.6,"blur":0} -target=black -duration=500 -next;
+:
+changeFigure:mygo_avemujica_v5/soyo/039_hnok_school_winter-2023_rip_normal/model.json -id=soyo -transform={"position":{"x":0,"y":-500},"scale":{"x":1.4,"y":1.4},"alpha":0} -next -motion=angry01 -expression=ando01;
+:舀起一勺混合着咖喱的米饭，放进嘴里，饿瘪的肚子立即感受到了慰藉
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=500 -next;
+setTransform:{"position":{"x":-300,"y":-500},"scale":{"x":1.4,"y":1.4},"alpha":1,"blur":0} -target=soyo -duration=500 -next;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=500 -next;
+:无论何时，素世做的料理总是那么美味——抱着这种想法，我不经意地看向素世
+:她没在看我，这倒没什么——然而，她也并没有在吃饭
+:她只是侧着头，漫不经心地将目光搁在一旁
+:不像是若有所思，不像是单纯在出神
+:就如同……那并不是她自己的目光，而是她指间随意捏住的勺子一般
+:如同外物一般
+setTransform:{"position":{"x":190,"y":-100},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":5} -target=bg-main -duration=500 -next;
+setTransform:{"position":{"x":-100,"y":-600},"scale":{"x":1.4,"y":1.4},"alpha":1,"blur":5} -target=soyo -duration=500 -next;
+setTransform:{"alpha":0.6,"blur":0} -target=black -duration=500 -next;
+祥子:……
+:我咽下口中的米饭
+bgm:思考.mp3 -volume=60;
+:最近素世有些奇怪
+:不，应该这么说，最近才意识到到……素世一直有些奇怪
+:最初在飞鸟山公园，素世找我谈心的那个时候，我就已经注意到过
+:素世……仿佛是被自己的世界淹溺了一般
+:我本来以为，她本身就是细腻敏感的人，加上遭遇家庭变故，因而变得有些令人怜爱
+:但在我自己也遭遇了同样的事情，与素世越走越近之后
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.1,"y":1.1},"alpha":1,"blur":10} -target=bg-main -duration=3000 -next;
+setTransform:{"position":{"x":-600,"y":-550},"scale":{"x":1.5,"y":1.5},"alpha":1,"blur":0} -target=soyo -duration=3000 -next;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=3000 -next;
+:我渐渐越来越熟悉素世身上那些与我相似的部分
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1,"y":1},"alpha":1,"blur":20} -target=bg-main -duration=3000 -next;
+setTransform:{"position":{"x":-750,"y":-600},"scale":{"x":1.6,"y":1.6},"alpha":1,"blur":0} -target=soyo -duration=3000 -next;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=3000 -next;
+:也因此……越来越清晰地意识到那些——她身上与我截然不同的部分
+:我一直无法熟悉、无法触碰的那些——异质的部分
+bgm:none -volume=60 -enter=2000;
+changeFigure:mygo_avemujica_v5/soyo/039_hnok_school_winter-2023_rip_normal/model.json -id=soyo -transform={"position":{"x":0,"y":-500},"scale":{"x":1.4,"y":1.4},"alpha":0} -next -motion=idle01 -expression=ando01;
+素世:咦……今天的饭菜……不合胃口吗？
+:应该是注意到了我的目光，素世转过头来，立即微笑着看向我 -fontSize=default;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":10} -target=bg-main -duration=500 -next;
+setTransform:{"position":{"x":-300,"y":-500},"scale":{"x":1.4,"y":1.4},"alpha":1,"blur":0} -target=soyo -duration=500 -next;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=500 -next;
+祥子:……啊！没什么，就是突然想到一些其他事情……
+setTransform:{"position":{"x":0,"y":-100},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":5} -target=bg-main -duration=500 -next;
+setTransform:{"position":{"x":-300,"y":-600},"scale":{"x":1.4,"y":1.4},"alpha":1,"blur":5} -target=soyo -duration=500 -next;
+setTransform:{"alpha":0.6,"blur":0} -target=black -duration=500 -next;
+:我低下头继续吃着咖喱 -fontSize=default;
+:不知为何，我突然感到，素世变得与灯有些相像了
+:不，不是像现在的灯
+:现在的灯越来越开朗，越来越爱笑
+:即便偶尔我会觉得，这似乎让灯身上那种独特有所磨损，但——与她真心的笑容比起来，这磨损又算得上什么呢？
+:所以，不
+:不是像现在的灯，而是像过去的灯
+:或许应该这么说——
+setTransform:{"alpha":1,"blur":0} -target=black -duration=2000 -next;
+:
+changeFigure:none -id=soyo -next;
+changeBg:none -next;
+:——素世她……越来越不爱笑了
+changeFigure:none -id=black -next;
+changeScene:C04S01/C04S01_Scene04.txt

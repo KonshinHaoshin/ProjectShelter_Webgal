@@ -1,0 +1,62 @@
+playEffect:1_效果音/03_重要剧情音效/月之森礼堂欢呼_加长.mp3 -volume=40;
+playEffect:1_效果音/02_环境音/シーンと静まり返る教室.mp3 -volume=10 -id=env;
+: -fontSize=medium;
+changeBg:CG/C03S01_素世舞台恍惚.png -next -transform={"position":{"x":1400},"scale":{"x":1.2,"y":1.2},"alpha":0,"blur":40};
+changeFigure:black.png -id=dark -transform={"alpha":0} -next;
+:指尖仿佛还残留着丝丝暖意 -fontSize=default;
+素世:小祥……
+setTransform:{"position":{"x":1200,"y":0},"scale":{"x":1,"y":1},"alpha":1,"blur":0} -target=bg-main -duration=200 -next;
+素世:小祥！ -fontSize=default;
+playEffect:1_效果音/01_人物音效/「えー…」.mp3 -volume=5;
+周围的学生A:诶？
+setTransform:{"position":{"x":0,"y":0}} -target=bg-main -duration=300 -next;
+周围的学生B:素世同学？……现在还在谢幕中呀！
+setTransform:{"position":{"x":1200,"y":0}} -target=bg-main -duration=300 -next;
+素世:小祥，小祥在哪里？
+playEffect:none -volume=10 -id=env;
+playEffect:1_效果音/04_非常用音效暂存/重物落地.mp3 -volume=40;
+:低音贝斯重重摔在地上，整个会场都安静了下来
+playEffect:1_效果音/04_非常用音效暂存/C03S01_素世舞台行走_缩混.mp3 -volume=40;
+setAnimation:C03S01_WalkOnStage -target=bg-main -next;
+:
+:声音与身体仿佛都不是我自己的——名为长崎素世的少女叫喊着，移动她的身体，跌下舞台，落在暗红色的华贵地毯上 -fontSize=default;
+:我只是黏在她体内，悬在半空，脚下是无光的漆黑渊面
+:疼痛感仿佛一把又锈又钝的长矛，在湿重的雾后若隐若现
+素世:小祥？小祥！……
+:长崎素世爬起身，一步步走着，身边的人们让出一条路。每叫一声“小祥”，就会有更多的脑袋转向某个方向 -fontSize=default;
+:以此为指引，穿过座椅和人群，最终走到丰川祥子的面前 -fontSize=default;
+素世:小祥……？
+changeFigure:mygo_avemujica_v5/sakiko/341_casual-2023_rip/model.json -id=saki -transform={"position":{"y":-300},"blur":30} -next -motion=surprised01 -expression=surprised02;
+祥子:……是？
+祥子:那个，失礼了，你是……长崎素世同学吧？
+素世:你不生气了吗？小祥？
+祥子:生气……是指……？
+祥子:……不好意思，总之……我们之前好像没有见过面吧？
+素世:对不起，对不起
+素世:我不会再说谎了，所以，和我一起回去吧？
+素世:和我回去好吗？因为我们待会儿还要——
+changeFigure:mygo_avemujica_v5/sakiko/341_jh_school_winter-2023_rip/model.json -transform={"position":{"y":-300},"blur":30} -id=saki -next -motion=surprised01 -expression=surprised02;
+素世:——不对
+setTransform:{"position":{"x":0,"y":-300},"blur":0} -target=saki -duration=3000 -next;
+: -fontSize=default;
+素世:你……不是小祥——
+setTransform:{"position":{"x":0,"y":-500},"blur":30,"rgbFilm":1} -target=saki -duration=300 -next;
+:突然，胃仿佛被狠狠攥了一把般绞痛着，喉咙中被挤出一股浓稠灼热的甜味 -素世/素食_痛苦_01.mp3 -fontSize=default;
+playEffect:1_效果音/跪地.mp3 -volume=40;
+setTransform:{"position":{"x":0,"y":-800},"alpha":0,"blur":30} -target=saki -duration=500 -next;
+:我不由得跪伏在地，手心又一次传来地毯的触感 -fontSize=default;
+:柔软、细腻、令人安心 -fontSize=default;
+:与此同时，作为对这种触感的回礼，那股甜味从我的口中喷涌而出
+playEffect:1_效果音/01_人物音效/黄色い悲鳴.mp3 -volume=40;
+周围的学生C:啊啊啊啊！
+周围的学生D:素世同学？不要紧吧？
+周围的学生E:吐了？她居然吐了……？
+:我甚至也想和周围的人一起发出惊叫
+:至于这些惊叫中有几分同情、几分嘲弄和戏谑，倒是来不及感受了
+:强烈的眩晕感已经铺天盖地，视野急剧缩小着。长崎素世在倒下之前，所见的最后影像——
+:——不……根本……什么都看不见 -fontSize=default;
+playEffect:none -volume=10 -id=env;
+changeBg: -next;
+changeFigure: -id=saki -next;
+:
+changeScene:Before/C03S01_Scene02.txt

@@ -1,0 +1,194 @@
+changeBg:C04S04_Tale/C04S04_童话_01.png -next;
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -transform={"position":{"x":-300,"y":-300},"scale":{"x":1.2,"y":1.2},"alpha":0} -next -motion=smile01 -expression=smile01;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tmr -transform={"position":{"x":-1200,"y":-500},"scale":{"x":1.4,"y":1.4},"alpha":0} -next -motion=idle01 -expression=smile01;
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_winter-2023_rip/model.json -id=muts -transform={"alpha":0} -next -motion=nf_left01 -expression=idle01;
+changeFigure:芒果汁.png -id=juice -transform={"position":{"x":200,"y":1000},"scale":{"x":0.5,"y":0.5},"alpha":1} -next;
+changeFigure:none -id=black -next;
+changeFigure:black.png -id=black -transform={"alpha":1} -next;
+: -fontSize=default;
+bgm:09. 可哀想なお人形(Toy Piano ver.).mp3 -volume=60;
+setTransform:{"alpha":0} -target=black -duration=500 -next;
+:
+:很久很久以前，有一只生活在大森林中的狐狸小姐
+:狐狸小姐的爸爸，很早就离开了她
+:虽然身边有很多同伴，但她一直都不觉得开心
+changeBg:C04S04_Tale/C04S04_童话_02.png -next;
+:有一天，一只兔子小姐，突然出现在狐狸小姐的身边
+:“来和我一起玩吧！”，兔子小姐如是说到
+changeBg:C04S04_Tale/C04S04_童话_03.png -next;
+:狐狸小姐觉得这不是坏事，就和兔子小姐一起走了。于是，她遇见了豚鼠小姐、企鹅小姐和熊猫小姐
+:让狐狸小姐没有想到的是，大家在一起玩得非常高兴
+:就像在一个温暖的大家庭中一样——她从来没有那么开心过
+:不知不觉，游玩结束，大家要分开回家了
+:兔子小姐对她说：“改天再一起玩吧！”，的时候，狐狸小姐立即答应了下来
+changeBg:C04S04_Tale/C04S04_童话_04.png -next;
+:第二天，大家都早早地聚在了一起，只有兔子小姐还没有来
+:大家等呀等呀……终于等到了兔子小姐，但她却说——
+:——“我们不能一起玩了”
+:熊猫小姐很生气，大家闹了别扭，于是兔子小姐伤心地跑掉了
+:在那之后——企鹅小姐、熊猫小姐、豚鼠小姐，一个个都跑掉了
+:狐狸小姐，又变得孤独了
+bgm:none -volume=60 -enter=5000;
+setTransform:{"alpha":1} -target=black -duration=5000 -next;
+:
+changeBg:普通背景/羽丘无人教室.png;
+同学A:那个
+同学A:椎名同学和小灯在后门哦
+setTransform:{"alpha":1} -target=black -duration=500 -next;
+changeBg: -next;
+:谢过传话的同学，我收拾好文具，提起便当，小跑着与后门的两人会和
+setTransform:{"position":{"x":-300,"y":-300},"scale":{"x":1.2,"y":1.2},"alpha":1} -target=taki -duration=1000 -next;
+setTransform:{"position":{"x":-1200,"y":-500},"scale":{"x":1.4,"y":1.4},"alpha":1} -target=tmr -duration=1000 -next;
+changeBg:普通背景/羽丘内.png -next -transform={"scale":{"x":1.2,"y":1.2}};
+bgm:午后.mp3 -volume=60;
+setTransform:{"alpha":0} -target=black -duration=500 -next;
+:
+:来到中庭的树荫下，一起打开了便当
+:灯的便当盒里，果然是惯例的熊猫饭团
+灯:小立希很喜欢这个
+灯:我和妈妈一起……做了很多
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=nnf_left01 -expression=surprised01;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tmr -next -motion=nf_right01 -expression=smile01;
+灯:给，小立希的份……
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=nnf_left01 -expression=smile03;
+立希:谢谢！
+立希:……也来尝尝这边的烧蛋卷吧
+立希:是……呃，是我自己做的
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tmr -next -motion=nf_right01 -expression=smile02;
+灯:嗯
+灯:很好吃，谢谢立希
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=shame02 -expression=shame02;
+:立希的脸又红到了耳根，真受不了，已经一起吃过那么多次午饭，差不多也该习惯了吧
+:不，说不定，该习惯的人反而是我才对
+:我捂嘴笑着，看向身旁的两人
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=nnf_left01 -expression=shame02;
+立希:……喜欢的话，我的这一份也给灯吃吧？ -fontSize=default;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tmr -next -motion=nf_right01 -expression=idle;
+灯:诶，这……
+; head down
+setTransform:{"position":{"x":-300,"y":-400},"scale":{"x":1.2,"y":1.2},"alpha":1} -target=taki -duration=1000 -next;
+setTransform:{"position":{"x":-1200,"y":-600},"scale":{"x":1.4,"y":1.4},"alpha":1} -target=tmr -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":-100},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=1000 -next;
+setTransform:{"alpha":0.6,"blur":0} -target=black -duration=1000 -next;
+:自从升入羽丘后，我们三个人就经常一起活动
+:虽然小睦还在月之森，但偶尔放学后，大家会聚在RiNG咖啡厅里一起聊天
+:我则和立希一起，在RiNG的咖啡厅打工，分担一部分家里的经济开支
+:Crychic恢复活动一事，似乎还没有合适的契机
+:但……仅仅只是大家聚在一起，我就很满足了
+playEffect:1_效果音/01_常用效果音/携帯バイブレーション.mp3;
+:
+; head right
+setTransform:{"position":{"x":-800,"y":-300},"scale":{"x":1.2,"y":1.2},"alpha":1} -target=taki -duration=1000 -next;
+setTransform:{"position":{"x":-1700,"y":-500},"scale":{"x":1.4,"y":1.4},"alpha":1} -target=tmr -duration=1000 -next;
+setTransform:{"position":{"x":-200,"y":0},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=1000 -next;
+setTransform:{"alpha":0.2,"blur":0} -target=black -duration=1000 -next;
+:
+:手机响了一下，拿出一看，只是简单的天气推送
+:准备划掉它，不小心切到了Line的界面，置顶的聊天里是Crychic的群聊
+:聊天的最后一条记录，停留在最后的那句“我不来”上
+bgm:none -enter=3000 -volume=60;
+; head right down
+setTransform:{"position":{"x":-800,"y":-400},"scale":{"x":1.2,"y":1.2},"alpha":1} -target=taki -duration=1000 -next;
+setTransform:{"position":{"x":-1700,"y":-600},"scale":{"x":1.4,"y":1.4},"alpha":1} -target=tmr -duration=1000 -next;
+setTransform:{"position":{"x":-200,"y":-100},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=1000 -next;
+setTransform:{"alpha":0.8,"blur":0} -target=black -duration=1000 -next;
+:……
+:是的，这便是……笼罩在Crychic上空的最后一朵乌云
+:每次看到这句话，心头总是会隐隐地刺痛
+:也总是会不由得……再次点开置顶的私聊
+祥子(Line):实在非常抱歉，今天我恐怕去不了
+素世(Line):没事吧？大家都很担心你哟？
+祥子(Line):请转告大家不用担心
+素世(Line):今天能来吗？
+祥子(Line):素世，最近好吗？
+祥子(Line):十分感谢你那天的开导
+祥子(Line):最近我这边的情况好了很多，想要约个时间对大家好好说明之前的事情
+祥子(Line):请问周六有空嘛？
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=idle01 -expression=idle01;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tmr -next -motion=idle01 -expression=idle;
+祥子(Line):素世，最近还好吗……
+祥子(Line):我转学到羽丘了，灯和立希也在呢
+灯:小……祥？
+:灯的声音在耳边响起，我一下惊醒过来
+;head reset
+setTransform:{"position":{"x":-300,"y":-300},"scale":{"x":1.2,"y":1.2},"alpha":1} -target=taki -duration=1000 -next;
+setTransform:{"position":{"x":-1200,"y":-500},"scale":{"x":1.4,"y":1.4},"alpha":1} -target=tmr -duration=1000 -next;
+setTransform:{"position":{"x":-0,"y":-0},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=1000 -next;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+:这才意识到，自己已经对着手机发呆了很久
+祥子:啊，没什么……
+祥子:刚才有点分神，你们聊了些什么？
+changeFigure:mygo_avemujica_v5/taki_haneoka/040_school_winter-2023_rip/model.json -id=taki -next -motion=idle01 -expression=smile01;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tmr -next -motion=idle01 -expression=idle;
+立希:灯刚才说，班上来了个转校生 -fontSize=default;
+祥子:诶，这种时候吗……
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tmr -next -motion=idle01 -expression=smile01;
+:大家继续有一搭没一搭地聊着，但我的思绪……已经渐渐远离了当前
+;head reset blur
+setTransform:{"position":{"x":-300,"y":-300},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":20} -target=taki -duration=1000 -next;
+setTransform:{"position":{"x":-1200,"y":-500},"scale":{"x":1.4,"y":1.4},"alpha":1,"blur":20} -target=tmr -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":20} -target=bg-main -duration=1000 -next;
+setTransform:{"alpha":0.4,"blur":0} -target=black -duration=1000 -next;
+:因为……就在今天，我下定了决心，要试着开始恢复Crychic的活动 -fontSize=default;
+:那么，首先要做的便是——
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+:
+changeFigure:none -id=taki -next -motion=idle01 -expression=idle01;
+changeFigure:none -id=tmr -next -motion=idle01 -expression=idle;
+changeBg:普通背景/咖啡馆.png -next -transform={"scale":{"x":1.2,"y":1.2}};
+setTransform:{"position":{"x":0,"y":-100},"scale":{"x":1,"y":1},"alpha":1} -target=muts -duration=1 -next;
+:放学后，我走向校门，看到睦已经在那里等我了
+:周围的人议论纷纷，我一边暗自感慨着睦没有作为名人儿女的自觉，一边加快脚步向她走去
+playEffect:1_效果音/02_环境音/シーンと静まり返る教室.mp3 -volume=50 -id=env;
+playEffect:1_效果音/01_常用效果音/衣擦れ1.mp3 -volume=80;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+:来到常去的羽泽咖啡店内坐定，点了红茶和芒果汁
+:桌子那头的睦和往常一样没什么表情，然而此时此刻我面对着她，却莫名地有些紧张
+祥子:那个……睦
+祥子:素世……怎么说？
+setTransform:{"position":{"x":200,"y":350},"scale":{"x":0.5,"y":0.5},"alpha":1} -target=juice -duration=1000 -next;
+:从坐下开始，睦就一直垂着眼睛，听到这话，她吸了一口芒果汁
+:我忐忑地等着她咽下去
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_winter-2023_rip/model.json -id=muts -transform={"alpha":0} -next -motion=nf_right01 -expression=idle01;
+setTransform:{"position":{"x":200,"y":600},"scale":{"x":0.5,"y":0.5},"alpha":1} -target=juice -duration=1000 -next;
+:
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_winter-2023_rip/model.json -id=muts -transform={"alpha":0} -next -motion=nf_right01 -expression=sad01;
+睦:……素世说，她最近很好
+祥子:……这、这样吗……
+:我们沉默了好几秒钟
+:没有其他的了吗？我强烈地想这样问出口
+:然而从睦的那副神情来看，我能得到的答案，大概和我心中所猜的也八九不离十吧
+祥子:……那，睦的想法怎么样呢？
+睦:……
+睦:我……可以来
+:微妙的答案
+:回想起来，组建Crychic的时候，我也没有特别问过睦的意见
+:我想要组乐队，她会弹吉他，于是便来当了吉他手
+祥子:嗯……也不是很紧迫呢……
+祥子:能再一起组乐队我当然很高兴……但……
+祥子:总之，还没有决定好，我再问问其他人吧
+祥子:睦有什么想法也可以告诉我
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_winter-2023_rip/model.json -id=muts -transform={"alpha":0} -next -motion=nf02 -expression=idle01;
+睦:……我知道了
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+:
+changeFigure:none -id=muts -transform={"alpha":0} -next -motion=nf02 -expression=idle01;
+changeBg:普通背景/电车黄昏.png -next -transform={"scale":{"x":1.2,"y":1.2}};
+:天色渐晚，和睦在车站道别后，我绕到商店街买了晚饭的食材
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+playEffect:1_效果音/04_非常用音效暂存/電車走行中1_short.mp3 -volume=40;
+:坐上回家的电车，只觉得思绪万千
+:不仅仅是因为素世，也是因为睦
+setTransform:{"position":{"x":0,"y":-100},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=1000 -next;
+setTransform:{"alpha":0.6,"blur":0} -target=black -duration=1000 -next;
+:睦从来不会说谎
+:她如果沉默，大概率是知道什么而不想说
+:而且……有了这将近一年的经历和反思，我始终还是意识到了一件事
+:无论过去，我有多么自认为很了解睦的想法，又有多少次为睦说出她的想法
+:但……睦亲口说出想法的次数，确实少之又少
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+:窗外的夕阳昏黄而令人倦怠，我的思绪渐渐飘回了一年前
+:一年前的……那个雨天
+changeFigure:none -id=juice -next;
+:
+changeScene:C04S04/C04S04_Scene02.txt

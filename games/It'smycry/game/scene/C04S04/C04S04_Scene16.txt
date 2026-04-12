@@ -1,0 +1,179 @@
+bgm:06. 壁の先.mp3 -volume=40 -enter=0;
+changeBg:过场/C04S04_Moon_01.png -next;
+changeFigure:mygo_avemujica_v5/anonW/037_casual-2023_rip/model.json -id=anon -transform={"alpha":0} -next -motion=idle01 -expression=smile04;
+changeFigure:none.png -id=black -next;
+changeFigure:black.png -id=black -transform={"alpha":1} -next;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1 -next;
+:首先……想象一片无尽的黑暗
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+:在这片虚无中，有一道光
+:这道光不知从何而来，也不知要到何处去，它只是在黑暗中一直延伸着——
+:直到……它遇见了一枚透镜
+素世:……透镜？
+爱音:就是物理课上说的……透镜散射实验那个三棱透镜
+素世:啊，我记起来了
+爱音:然后，那道光便四散开来
+changeBg:过场/C04S04_Moon_02.png -next;
+:四散开来——化作细微的虹色
+爱音:然而，在我们这里……扩散的方向是相反的 -fontSize=default;
+爱音:所以光线，从原本无限向一个方向延伸的一道——
+changeBg:过场/C04S04_Moon_03.png -next;
+素世:——变成了……变成了反方向四散的无数道？……
+素世:……啊！时间回溯！？
+爱音:嗯
+爱音:不过，这只是我想到的一种比喻而已
+爱音:世界……在そよりん许下愿望的那一瞬间，或许就分裂成了无数相反的碎片 -fontSize=default;
+爱音:所以，そよりん经历的一切回溯，都只是从相同的过去时刻，走向此时此刻……走向这个分裂的终点
+bgm:none -volume=40 -enter=2000;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+素世:……也就是，走向了……最后的悲剧……
+changeBg:普通背景/街道晚.png -next -transform={"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2},"oldFilm":1};
+setTransform:{"position":{"x":-200,"y":-400},"scale":{"x":1.2,"y":1.2},"alpha":1} -target=anon -duration=1 -next;;
+:
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+:
+:心中微微地痛起来，我咬住下唇
+素世:听上去……就像是死局呢……
+素世:这么说来，等于是小爱音通过倒流时间
+素世:把我惹出来的这一堆麻烦，全部抹消掉了吗……
+爱音:……
+changeFigure:mygo_avemujica_v5/anonW/037_casual-2023_rip/model.json -id=anon -next -motion=sad01 -expression=smile04;
+playEffect:1_效果音/01_常用效果音/衣擦れ1.mp3 -volume=80;
+setTransform:{"position":{"x":-400,"y":-600},"scale":{"x":1.4,"y":1.4},"alpha":1} -target=anon -duration=1000 -next;
+:爱音没有回应，而是轻轻握住了我的手
+:令我有些奇怪的是……她虽然微笑着，手却似乎在微微发抖
+素世:……怎么了吗？
+爱音:そよりん，觉得因为什么，自己会在这里？
+爱音:又是因为什么……我会在这里？
+素世:什么意思？
+bgm:24. 孤独な少女.mp3 -volume=40 -enter=0;
+爱音:我说过吧……并不是倒流时间，而是逆流而上
+爱音:最初我也以为，被我甩在身后的一切都消失了
+爱音:然而仔细一想，如果那些过去消失了，现在的我又从何而来呢
+爱音:そよりん说现在很幸福……那些幸福，又从何而来呢？
+素世:……也就是说，未来……没有消失……？
+爱音:嗯
+爱音:未来、过去，都没有消失，它们都切实地发生过
+爱音:我只是……从所有的过去中逆流而上，从终点走向起点
+爱音:所以或许，刚刚摔碎了珠子的そよりん，也确实踏入了那漫长的过去
+素世:……诶？那现在的我……？
+爱音:是我从终点带回来的……现在的你
+爱音:过去的一切无法抹除，造就了现在
+素世:……从来……没有什么赝品……
+素世:大家……大家都是……真品……
+爱音:或许应该这么说……我相信，大家都是真品
+素世:相信？
+爱音:毕竟……以上所说的一切，全部都是猜测呢
+爱音:只是……在反复的回溯中不断观察，得出的某种结论
+爱音:面对自我之外的无限时，一个人……实在太无力了
+爱音:そよりん也有同样的感觉吧
+爱音:即便是睡醒之后睁开眼……现在的我还是过去的我吗？——像这样的问题，思考起来就会没完没了
+changeFigure:mygo_avemujica_v5/anonW/037_casual-2023_rip/model.json -id=anon -next -motion=sad01 -expression=smile01;
+爱音:尤其是，过去所谓的真实，甚至连自我……在一次又一次的回溯中，都渐渐消解殆尽了
+爱音:所以……相信彼此的真实、相信大家的真实……
+爱音:或许已经是……最好的选择了吧
+素世:……原来如此，我好像明白了
+爱音:嗯
+爱音:总而言之，そよりん“改变过去”的愿望，确实实现了
+changeFigure:mygo_avemujica_v5/anonW/037_casual-2023_rip/model.json -id=anon -next -motion=serious02 -expression=smile04;
+爱音:事到如今，你会后悔许下了那个愿望吗？
+素世:我……
+爱音:犹豫了呢
+素世:不，我只是……需要一点时间来确认
+setTransform:{"position":{"x":0,"y":100},"scale":{"x":1.2,"y":1.2},"oldFilm":1} -target=bg-main -duration=2000 -next;
+setTransform:{"position":{"x":-400,"y":-200},"scale":{"x":1.4,"y":1.4},"alpha":1} -target=anon -duration=2000 -next;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=2000 -next;
+:
+:我只是需要一点时间……去回忆那些存在于无数过去，又或是无数未来的点点滴滴
+:每一份在平常日子中付出的爱与恨
+:每一份微不足道的收获与错付
+:每一份同伴们的笑容与泪水
+:以及……由这漫长时光中的一切酸甜苦辣结成的果实——那个没能吃到嘴里的、无比珍贵的蛋糕
+素世:——现在，我确认了
+changeFigure:mygo_avemujica_v5/anonW/037_casual-2023_rip/model.json -id=anon -next -motion=sad01 -expression=surprised01;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2},"oldFilm":1} -target=bg-main -duration=2000 -next;
+setTransform:{"position":{"x":-400,"y":-600},"scale":{"x":1.4,"y":1.4},"alpha":1} -target=anon -duration=2000 -next;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=2000 -next;
+:牵起爱音的手按在胸口，我们的脉搏碰撞在一起
+changeFigure:mygo_avemujica_v5/anonW/037_casual-2023_rip/model.json -id=anon -next -motion=nnf04 -expression=surprised01;
+:我望向她的眼睛
+素世:我……不后悔
+changeFigure:mygo_avemujica_v5/anonW/037_casual-2023_rip/model.json -id=anon -next -motion=nnf04 -expression=sad01;
+:爱音狠狠颤抖了一下
+changeFigure:mygo_avemujica_v5/anonW/037_casual-2023_rip/model.json -id=anon -next -motion=nnf_left01 -expression=smile04;
+:她将手抽回去，避开了我的目光
+素世:……小……爱音？
+爱音:そよりん——
+爱音:——觉得现在这样，幸福吗？
+:她突然这么问我
+:就好像——最后那次在天台，我突然这么问她一样
+:丝丝不安立即从心底涌出
+素世:什么……意思？
+changeFigure:mygo_avemujica_v5/anonW/037_casual-2023_rip/model.json -id=anon -next -motion=nnf_left01 -expression=smile02;
+爱音:刚刚真的有那么一会儿，想要反悔
+changeFigure:mygo_avemujica_v5/anonW/037_casual-2023_rip/model.json -id=anon -next -motion=cry01 -expression=smile04;
+素世:诶？
+:什么叫……想要反悔？
+setTransform:{"position":{"x":-500,"y":-700},"scale":{"x":1.5,"y":1.5},"alpha":1} -target=anon -duration=500 -next;
+changeFigure:mygo_avemujica_v5/anonW/037_casual-2023_rip/model.json -id=anon -next -motion=smile01 -expression=kandou02;
+:我再次拽过爱音的手，紧紧握住
+素世:为什么这么说？
+素世:难道说……你还能往回走吗？你还要往回走吗？
+爱音:不……大概已经不行了
+素世:那……我们一起再想想办法吧？
+素世:即便是这个静止的世界，我们也可以一起去看很多地方，可以一起做很多事情——
+素世:可以一起想想还有什么办法，能让我们一起回去——
+changeFigure:mygo_avemujica_v5/anonW/037_casual-2023_rip/model.json -id=anon -next -motion=cry01 -expression=smile04;
+爱音:我说过吧，希望大家……都能平等地一起前进
+爱音:大家……都还在等着我们呢……
+素世:……这……
+素世:……但这是也没办法的吧？
+playEffect:1_效果音/FINGER_SNAP.mp3 -volume=40;
+:我一边急切地说着，一边伸手打响响指
+素世:你看，我也已经不能再重启时间了
+素世:所以——
+changeFigure:mygo_avemujica_v5/anonW/037_casual-2023_rip/model.json -id=anon -next -motion=smile02 -expression=cry02;
+爱音:——我很早之前就一直在考虑
+爱音:如果说，我回溯至今，是“报答和前进”的部分的话……
+爱音:那么，“让素世能如愿以偿”的部分，又在哪里呢？
+爱音:想明白的瞬间，就忍不住笑了出来
+素世:所以，究竟是——
+爱音:——答案就在你面前哟
+素世:……就在……我眼前？
+爱音:Bingbong~答案是——珠子
+爱音:珠子……可以实现愿望
+素世:珠子……？
+素世:珠子不是……不是已经被过去的我摔碎了吗？……
+爱音:过去的珠子确实已经碎了
+changeFigure:mygo_avemujica_v5/anonW/037_casual-2023_rip/model.json -id=anon -next -motion=nf05 -expression=cry02;
+爱音:但现在的珠子……就在这里
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+素世:……诶？
+changeFigure: -id=anon -next;
+playEffect:1_效果音/01_常用效果音/衣擦れ2.mp3 -volume=80;
+changeBg:CG/C04S04_爱音变珠子.png -next;
+:
+:这次——轮到她握住我颤抖的手，按在她自己的心口
+:我一下僵住了
+:丝丝不安刹那间化作了恐惧
+素世:你在……说什么傻话？
+:我在慌乱中想要把手抽开，却被她紧紧攥住
+:与此同时——她的身上渐渐泛起一层隐隐的虹色
+setTransform:{"alpha":0,"blur":0} -target=black -duration=2000 -next;
+:
+:那层虹色——缓慢而不可阻挡地流向她的心口，流向我的手心
+素世:小爱音？！
+素世:你在做什么？
+爱音:我在……实现自己的愿望
+:随着那股虹色的汇聚，爱音的身躯正在我眼前渐渐变得透明
+:绝望攥住了我的心脏，挤出源源不断的悲伤，它们夺眶而出
+素世:快停下，快放开我！
+爱音:再等下去，我一定会后悔的
+爱音:所以……就交给そよりん了，再一次……许下新的愿望吧
+:爱音的笑脸，渐渐融化在我的泪水中
+爱音:不要……忘了我哟
+爱音:呐，そよりん？……
+bgm:none -volume=40 -enter=5000;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=5000 -next;
+:
+changeScene:C04S04/C04S04_Scene17.txt

@@ -1,0 +1,147 @@
+: -fontSize=default;
+changeBg:普通背景/商场扶梯.png -next -transform={"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0};
+changeFigure:mygo_avemujica_v5/soyoWW/039_casual-2023_rip/model.json -id=soyo -transform={"position":{"x":-2000,"y":-400},"scale":{"x":1.2,"y":1.2},"alpha":0} -next -motion=smile01 -expression=smile01;
+changeFigure:none -id=black -transform={"alpha":1} -next;
+changeFigure:black.png -id=black -transform={"alpha":1} -next;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1 -next;
+: -fontSize=default;
+爱音(Line):抱歉！小立希，和同学有点聊太久了，我马上到！
+立希(Line):搞什么啊，明明是你说要见面的
+立希(Line):结果都快迟到十分钟了
+立希(Line):过来得多久？
+爱音(Line):再给我十分钟，真的十分抱歉！
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+playEffect:1_效果音/02_环境音/スーパーマーケット1.mp3 -volume=20 -id=env;
+:在挤满人的商场扶梯上，我抱着歉意的笑向立希发去信息
+:当然，她肯定没法隔着屏幕看到我的笑脸就是了……
+:与此同时，扶梯与人群自然毫不理会我的这份焦急，正慢吞吞移动着
+:之前在中央公园碰上初中同学，并且被素世救了那次之后
+:我因为放不下乐队而放弃伦敦留学一事，就在一部分初中同学之间传开了
+setTransform:{"position":{"x":0,"y":-100},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=500 -next;
+setTransform:{"alpha":0.6,"blur":0} -target=black -duration=1000 -next;
+:
+:结果，和初中同学的见面，根本就是叙旧大会而已
+:关于“一之濑素世”的话题，只是得到了“是个安静柔弱的孩子，好像很好欺负”，“父母小学的时候就离婚了”这两个聊胜于无的情报
+初中同学C:听说千早现在也在做吉他主唱吗！——诶，是节奏吉他呀，听起来好像也很厉害
+初中同学C:还记得以前的佐佐木吗？对，就是老喜欢跟在小杏菜后面那个——
+初中同学C:千早知道最近比较流行的那个布丁吗——
+:除此之外，绝大多数时候，根本就是在聊这些有的没的
+:不——
+:——关键是，千早爱音！你怎么还乐在其中啊！
+:聊得忘乎所以，结果想起来一看手机，才发现已经完美错过了和立希约好的见面时间
+:等下见面的时候，一定会被立希狠狠地说教吧……
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=500 -next;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+:
+:我垂头丧气，任凭眼神飘来飘去
+:然后——偶然间，便穿过中庭，落在了对面走廊的一对行人身上
+:走在外面的一位，是黑色短发、商务装扮、满面笑容的成年女性
+:在她身旁，是一名提着购物袋，身着素雅长裙的少女
+:亚麻色的、卷曲的长发——
+爱音:等下？！那不是素世吗？！
+:扶梯上的几人纷纷向我侧目，我意识到自己的失态，赶紧捂住嘴巴
+:所幸声音不大，对面二人显然听不见
+:然而她们很快就要走进拐角，消失在我的视野中了
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+:眼看面前已经没剩几人，我顾不得那么多，索性一边道歉，一边从人缝中挤到了扶梯的终点
+changeBg:普通背景/商场.png -next -transform={"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0};
+playEffect:1_效果音/01_常用效果音/急促脚步跑远_硬地板.mp3 -volume=40;
+:从随身包中，拿出眼镜和口罩戴好，一路小跑，跟上二人
+playEffect:none -volume=20 -enter=2000 -id=env;
+bgm:重悬疑.mp3 -volume=60 -enter=0;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+:
+:二人看上去相当亲密，一直在聊着什么
+:然而为了不被发现，我保持着一定的距离，因而听不到谈话内容
+:经过再次确认之后，那一定是素世无疑了
+:那么，她身旁的那个成年女性又是谁呢？
+:是……素世的妈妈吗？
+:我躲在不远处的拐角，看着二人走进一家高级香薰店
+:对于一般情况，这大概是最合理的猜想吧
+setTransform:{"position":{"x":0,"y":-100},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=500 -next;
+setTransform:{"alpha":0.6,"blur":0} -target=black -duration=1000 -next;
+:但是……素世家里的经济条件，不是不好吗？
+:即便之前她有说过债务问题已经减轻，但无论怎么看，这都不像是素世一家能消费得起的地方
+:还是说，这是素世的亲戚，比如小姨什么的？
+:如果解释为，富亲戚偶尔带家族中的穷小孩出来改善生活……也勉强说得过去？
+:然而这里一套香薰的价格，或许就能给素世和祥子的公寓续租一个星期
+:这种大手大脚的消费，已经远超接济亲人的范畴了
+:又或者说——
+:——是……百合○○交际？
+:……千早爱音啊千早爱音，你多少有点脱线了
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=500 -next;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+:在我大脑乱飞的空档，视野余光中的两人走出了香薰店
+:我一下回过神来，正准备跟上去
+:没想到，素世却突然回过头来
+playEffect:1_效果音/01_常用效果音/衣擦れ2.mp3 -volume=40;
+setTransform:{"position":{"x":-300,"y":0},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=200 -next;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=200 -next;
+:我吓得一机灵，缩回了墙角内
+:被发现了吗？……
+:紧张得不敢出声，但又担心丢掉二人的行踪
+setTransform:{"position":{"x":-100,"y":0},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=2000 -next;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=2000 -next;
+:
+:纠结了一会儿，鼓起勇气慢慢探出头去
+:两人正谈笑着走远，素世的手中多了一个小袋子
+:还好，似乎并没有暴露
+:我调匀呼吸，推推从鼻梁上滑落的眼镜，继续跟了上去
+bgm:none -volume=60 -enter=3000;
+playEffect:1_效果音/01_常用效果音/普通走路过场.mp3 -volume=40;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=2000 -next;
+:
+:可能是已经逛够了，二人没有再进到其他店内，而是一路向下，走出了商场大门。
+playEffect:1_效果音/02_环境音/街の道路.mp3 -volume=20 -id=env;
+changeBg:普通背景/素家大楼外.png -next;
+:就这样二前一后，我一路跟着她们
+:走过人行道，走过喧闹的大街
+setTransform:{"alpha":0,"blur":0} -target=black -duration=2000 -next;
+:最后，来到附近的一幢塔楼前
+:恰好被过街的信号灯拦住了，我只能眼睁睁地看着二人消失在塔楼外层庭院的入口
+playEffect:1_效果音/01_常用效果音/急促脚步跑远_硬地板.mp3 -volume=40;
+changeBg:普通背景/素家大楼内大堂.png -next -transform={"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0};
+:
+:等到我小跑着赶到塔楼的大堂时，已经丢失了二人的踪迹
+:略一思索，我来到电梯面前
+:只有一台在运作，正一路往上 -fontSize=default;
+:最后，数字停在了45层
+:追到这里大概也差不多了？……还是说，要一鼓作气再跟上去吗……
+:这才感到有些透不过气，于是我拉下口罩
+:皮革味、香薰味、绿植味，混合着微微的大堂地板蜡味，飘入我的鼻中
+:调匀呼吸，环顾四周
+:显然是一栋十分奢华的中心地带公寓楼，大堂中很安静，整个街道的喧闹都被自动门挡在室外
+:因而，稍稍冷静下来之后——
+setTransform:{"position":{"x":0,"y":-100},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=500 -next;
+setTransform:{"alpha":0.6,"blur":0} -target=black -duration=1000 -next;
+:——我到底在做什么呀……
+:这种行为，简直就是跟踪狂嘛
+:事到如今，终于有点回过味来了，紧接着我突然意识到，自己又给立希狠狠放了一顿鸽子
+:赶紧掏出手机——果不其然，整个屏幕上都是立希的消息轰炸
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=500 -next;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+立希(Line):快点过来吧，我给你点了水果芭菲
+立希(Line):又十分钟了
+立希(Line):你在干嘛啊你？幸好留了个心眼让店员待会儿再上
+立希(Line):搞什么啊？二十分钟了
+立希(Line):喂，怎么你也玩失踪啊？
+立希(Line):爱音？
+立希(Line):你没事吧？
+爱音(Line):真的真的十分抱歉！让你担心了！
+爱音(Line):其实，我在路上看到素世了
+爱音(Line):所以忍不住跟了上去
+立希(Line):哈？？？
+:她好一会儿没回我，我纠结地等待着下一条讯息弹出来
+playEffect:1_效果音/01_常用效果音/ドアを開ける1.mp3 -volume=40;
+playEffect: -volume=20 -id=env;
+setTransform:{"position":{"x":-2400,"y":-400},"scale":{"x":1.4,"y":1.4},"alpha":1} -target=soyo -duration=1 -next;
+:
+素世:小爱音 -自制剧本台词/C04S02_Soyo_01.mp3 -fontSize=default;
+setTransform:{"position":{"x":-500,"y":-400},"scale":{"x":1.4,"y":1.4},"alpha":1} -target=soyo -duration=500 -next;
+爱音:嘎啊？！ -自制剧本台词/C04S02_Anon_01.mp3 -fontSize=default;
+素世:你在这里……做什么呢？ -自制剧本台词/C04S02_Soyo_02.mp3 -fontSize=default;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+:
+changeBg:none -next;
+changeFigure:none -id=soyo -next;
+changeScene:C04S02/C04S02_Scene05.txt

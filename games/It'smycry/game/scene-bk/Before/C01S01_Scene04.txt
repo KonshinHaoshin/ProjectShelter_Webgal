@@ -1,0 +1,33 @@
+changeBg:素世卧室关灯_2.png;
+bgm:重悬疑.mp3 -volume=20 -enter=2000;
+:已经是深夜了了，我端坐在卧室大床上。身下熟悉的触感令人安心，但我却无法入睡 -fontSize=default;
+setTextbox:on;
+:窗外，是变幻莫测的夜景  -fontSize=default;
+:无暇顾及这种“舞台背景”，我现在的注意力完全集中在“演出内容”本身 -fontSize=default;
+:咖啡厅会面之后，大家一起去录音室时，灯当然没有唱出声来 -fontSize=default;
+:解散之后，祥子和灯两人一起离开 -fontSize=default;
+:那么，应该在数天之后——会由我提出一起去卡拉OK。一起唱完歌后，大家的关系拉近了许多 -fontSize=default;
+素世:……不过，仔细回想起来，虽然大家在一起的时候很开心。但具体到祥子个人，我和她的关系并没有那么亲密呢
+素世:在之后的——还是说，应该叫“之前”的世界里，想要联系上祥子，我都只能靠睦去转达
+素世:……
+素世:睦会是关键吗
+素世:毕竟……毕竟之前的一切，全部都是睦的错…… -fontSize=default;
+素世:……算了，怎样都好。如果这一次，想要让Crychic避免于毁灭的话
+素世:不能让祥子提出退出
+素世:至少，不能让睦说出那句话
+素世:我应该更多、更多地了解祥子，还有睦。更多更多地关心她们的事情……
+素世:……毕竟 -fontSize=default;
+setTransform:{"position":{"y":-300},"alpha":0.3} -target=bg-main -duration=1000 -next;
+素世:我……绝对不是那种只想到自己的人 -fontSize=default;
+素世:…… -fontSize=default;
+素世:虽然还是没有困意，但夜已经深了 -fontSize=default;
+素世:在这之后，还有很多事情要做 -fontSize=default;
+素世:必须要……休息好…… -fontSize=default;
+setTransform:{"alpha":1} -target=bg-main -duration=1000 -next;
+:在躺下之前，从肺的底部揪出一口长气，接着看向窗外 -fontSize=default;
+:窗外的夜景依旧在变化，但……其实又和半年后能看到的，并没有什么本质的区别 -fontSize=default;
+:所以是否……也可以说是一成不变呢……
+bgm: -volume=20 -enter=2000;
+changeBg: -next;
+setTextbox:hide;
+choose:卡拉OK:chapter_01_section _05.txt;

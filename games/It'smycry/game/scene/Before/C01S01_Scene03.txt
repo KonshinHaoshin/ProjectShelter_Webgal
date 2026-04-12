@@ -1,0 +1,67 @@
+changeBg:咖啡馆.png -next;
+bgm:午后.mp3 -volume=20 -enter=2000;
+祥子:感谢大家今天拨冗受邀前来——
+setTextbox:on;
+祥子:——今后我们就是乐队了，是一同演奏音乐的——
+changeFigure:mygo_avemujica_v5/sakiko/341_jh_school_winter-2023_rip/model.json -id=sakiko -transform={"position":{"y":-300}} -next -motion=smile03 -expression=smile01;
+changeFigure:mygo_avemujica_v5/taki/040_school_winter-2023_rip/model.json -id=taki -transform={"position":{"x":-2000,"y":-300}} -next -motion=idle01 -expression=idle01;
+changeFigure:mygo_avemujica_v5/mutsumi/338_school_winter-2023_rip/model.json -id=mutsumi -transform={"position":{"x":2000,"y":-300}} -next -motion=idle01 -expression=idle01;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -transform={"position":{"x":-2000,"y":-200},"scale":{"x":0.8,"y":0.8}} -next -motion=nf_left01 -expression=idle01;
+祥子:——命运共同体！ -fontSize=default;
+素世:命运啊——
+素世:（能回到过去太过于兴奋了，都差点忘记了）
+素世:（我……并不是为了回味而来的）
+素世:（我许下的愿望是，改变过去）
+素世:（改变过去……要怎么做呢）
+setTransform:{"position":{"x":2000,"y":-300}} -target=sakiko -duration=1000 -next;
+:我环顾四周——说是过去，也不过是半年多以前罢了
+setTransform:{"position":{"x":0,"y":-300}} -target=taki -duration=1000 -next;
+:椎名立希，虽然一副冷淡的样子，其实脸上藏不住事情 -fontSize=default;
+:之后她会十分迷恋于灯，总的来说就是，很好懂的一个人
+setTransform:{"position":{"x":-2000,"y":-300}} -target=taki -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":-300}} -target=mutsumi -duration=1000 -next;
+:若叶睦，如精致玩偶般的女生，很确定她不善于表达 -fontSize=default;
+:所谓“不善于”，并不仅仅是不表达
+:表达的方式、时机不恰当，也包括在内
+setTransform:{"position":{"x":-100,"y":-100},"scale":{"x":0.8,"y":0.8}} -target=tomori -duration=1000 -next;
+setTransform:{"position":{"x":2000,"y":-300}} -target=mutsumi -duration=1000 -next;
+:高松灯，总是像小动物一样令人怜爱 -fontSize=default;
+:等一下就要接过她的歌词本了吧。一开始并没有什么特别的感觉
+:但在那场live之后，一下就明白了为什么立希会对她如此迷恋
+:最后是——
+:——丰川祥子
+setTransform:{"position":{"x":-2000,"y":-100}, "scale":{"x":0.8,"y":0.8}} -target=tomori -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":-300}} -target=sakiko -duration=1000 -next;
+祥子:——然后，我期待着有一天，也能一起合奏属于我们的歌曲 -祥/总有一天原创曲.mp3 -volume=10 -fontSize=default;
+素世:原创歌曲吗……真的很棒呢 -fontSize=default;
+:已经不知道自己口中的究竟还算期待，还是说已经是感想了
+:要说她是一切的开始，也并不过分
+setTransform:{"position":{"x":2000,"y":-300}} -target=sakiko -duration=1000 -next;
+setTransform:{"position":{"y":-300},"alpha":0.3} -target=bg-main -duration=1000 -next;
+:自己究竟是为了祥子，还是为了Crychic回到这一刻……
+:不，不如说，这两者几乎是一致的
+;灯准备
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -transform={"position":{"x":-2000,"y":-200},"scale":{"x":0.8,"y":0.8}} -next -motion=serious02 -expression=shame01;
+灯:……歌词……
+素世:……？
+setTransform:{"position":{"x":-100,"y":-100},"scale":{"x":0.8,"y":0.8}} -target=tomori -duration=1000 -next;
+setTransform:{"alpha":1} -target=bg-main -duration=1000 -next;
+:回过神来，才发现灯正将歌词本递往这边
+:然而由于“这一次”，自己正在思考，其他人又并没有第一时间接过歌词本
+:其结果是短暂而尴尬的沉默
+setTransform:{"position":{"x":700,"y":-100},"scale":{"x":0.8,"y":0.8}} -target=tomori -duration=1000 -next;
+setTransform:{"position":{"x":-800,"y":-300}} -target=taki -duration=1000;
+立希:……啊……谢谢
+changeFigure:mygo_avemujica_v5/taki/040_school_winter-2023_rip/model.json -id=taki -transform={"position":{"x":-2000,"y":-300}} -next -motion=surprised02 -expression=surprised01;
+setTransform:{"position":{"x":-400,"y":-300}} -target=taki -duration=1000 -next;
+:结果“这一次”，是由立希略带迟疑地接过歌词本
+素世:……
+素世:（过去……真的正在改变……）
+changeFigure: -id=taki -next;
+changeFigure: -id=sakiko -next;
+changeFigure: -id=tomori -next;
+changeFigure: -id=mutsumi -next;
+changeBg: -next;
+bgm: -volume=20 -enter=2000;
+setTextbox:hide;
+choose:素世宅:Before/C01S01_Scene04.txt.txt;

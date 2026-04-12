@@ -1,0 +1,186 @@
+playEffect:1_效果音/02_环境音/シーンと静まり返る教室.mp3 -volume=20 -id=env;
+changeBg:普通背景/RING休息室.png -next -transform={"scale":{"x":1.2,"y":1.2}};
+changeFigure:mygo_avemujica_v5/sakiko/341_casual-2023_rip/model.json -id=saki -transform={"position":{"x":0,"y":-300}} -next -motion=idle01 -expression=smile01;
+changeFigure:MyExtra/SoyoMama_FromLayer_Noblush/model.json -id=mama -transform={"position":{"x":0,"y":-300},"alpha":0} -next -motion=idle01 -expression=surprised01;
+changeFigure:mygo_avemujica_v5/anon/037_casual-2023_rip/model.json -id=anon -transform={"position":{"x":0,"y":-300},"alpha":0} -next -motion=sad01 -expression=surprised01;
+changeFigure:black.png -id=black -transform={"alpha":0} -next;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=100 -next;
+: -fontSize=default;
+千早:嘎啊——好累好累~
+素世:还没开始呢，怎么就喊累了？
+千早:诶——就不多关心一下我为什么觉得累嘛？
+素世:小爱音的话，无非就是什么“挤电车好累”，“走路好累”之类的无聊理由吧
+千早:呜呜！そよりん好冷漠！
+playEffect:1_效果音/01_常用效果音/ドアを開ける1.mp3 -volume=40;
+: -fontSize=default;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+: -fontSize=default;
+:这人假哭着出去了，大概是去找Staff诉苦，顺势大吃那边的零食甜品什么的
+changeFigure:mygo_avemujica_v5/sakiko/341_casual-2023_rip/model.json -id=saki -transform={"position":{"x":0,"y":-300}} -next -motion=smile05 -expression=smile05;
+祥子:噗，感情真好
+素世:……是这样吗
+祥子:有小爱音在，就很难冷场呢
+changeFigure:mygo_avemujica_v5/sakiko/341_casual-2023_rip/model.json -id=saki -transform={"position":{"x":0,"y":-300}} -next -motion=smile01 -expression=smile06;
+祥子:说起来，好像大家过来还要一阵子
+祥子:我感觉有点累，想稍稍躺一会儿
+素世:毕竟工作了一下午呢
+素世:那小祥先躺一会儿吧，我去舞台上调调设备什么的
+祥子:嗯，晚安素世
+素世:晚安~
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+: -fontSize=default;
+changeFigure:none -id=saki -transform={"position":{"x":0,"y":-300}} -next -motion=smile01 -expression=smile06;
+changeBg:普通背景/ring后台.png -next -transform={"scale":{"x":1.2,"y":1.2}};
+:指针再次指向了今晚
+:一切的起点，一切的终点
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+:我走向舞台，逐项检查着心中那份长长的清单，确保一切都万无一失
+:是的，不能再有被无妄之灾带走的睦
+:不能再有被最心爱的舞台杀死的乐奈
+:不能再有晚来一步而被袭击的立希和灯
+:也不能再有——
+:——等一下
+playEffect:none -volume=20 -id=env;
+bgm:広がる不安-前奏部分.mp3 -volume=60;
+setTransform:{"position":{"x":0,"y":0},"alpha":1,"blur":0,"rgbFilm":1} -target=bg-main -duration=1000 -next;
+:我突然感到心中一空，接着是难以抑制的恐惧
+:这次，我有好好通知妈妈吗？
+:妈妈平时，有来探望我们吗？
+:我做过了？我没有做？
+:天啊
+:我居然记不清了
+:刹那间冷汗直冒
+:无数次轮回的记忆一拥而上，在脑海中乱作一团
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+: -fontSize=default;
+:冷静，素世，冷静
+playEffect:1_效果音/01_常用效果音/急促脚步跑远_硬地板.mp3;
+changeBg:普通背景/RING楼梯.png -next -transform={"scale":{"x":1.2,"y":1.2}};
+setTransform:{"position":{"x":0,"y":-300},"alpha":1,"blur":0} -target=mama -duration=100 -next;
+:我紧咬着右手拇指的指甲，一边尽量将注意力集中到那份疼痛上，一边加快脚步，一把推开演出室的门
+:走下那段长长的阶梯，踏上大厅地板
+:我望向大门外
+:妈妈正提着蛋糕，轻快地从那儿走进来
+:冷静，千万要冷静
+:一不留神，我从右手拇指的指甲上啃下一小块
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+: -fontSize=default;
+素世妈妈:……咦，素世？
+素世:妈……妈妈？
+:不不不，还有机会，还有弥补的余地
+:只要赶紧和妈妈解释清楚就好——
+:——口干舌燥，舌头在打结
+:我有好好解释清楚吗？
+setTransform:{"position":{"x":-300,"y":-500},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=mama -duration=5000 -next;
+setTransform:{"position":{"x":0,"y":-300},"alpha":1,"blur":0} -target=bg-main -duration=5000 -next;
+setTransform:{"alpha":0.7,"blur":0} -target=black -duration=5000 -next;
+:妈妈疑惑地望着我，不知道她听懂了没有，我渐渐头昏脑涨，身体似乎正轻飘飘地浮向空中
+:然而——
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+bgm:none -volume=60;
+爱音:那边的……那个！在对我家素世纠缠什么呢！
+changeFigure:none -id=mama -transform={"position":{"x":0,"y":-300}} -next -motion=smile01 -expression=smile06;
+changeFigure:mygo_avemujica_v5/anon/037_casual-2023_rip/model.json -id=anon -transform={"position":{"x":0,"y":-300},"alpha":0} -next -motion=sad01 -expression=sad01;
+setTransform:{"position":{"x":0,"y":-600},"alpha":1,"blur":0} -target=anon -duration=100 -next;
+setTransform:{"position":{"x":0,"y":-150},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=100 -next;
+: -fontSize=default;
+setTransform:{"alpha":0.2,"blur":0} -target=black -duration=1000 -next;
+:我跌坐在台阶上，硬质表面的冰凉触感从手心传来
+:接着，贪婪地深呼吸，让每个肺泡充满凉爽的空气
+changeFigure:mygo_avemujica_v5/anon/037_casual-2023_rip/model.json -id=anon -transform={"position":{"x":0,"y":-300},"alpha":0} -next -motion=nf05 -expression=smile01;
+setTransform:{"position":{"x":0,"y":-400},"alpha":1,"blur":0} -target=anon -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":-100},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=1000 -next;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+: -fontSize=default;
+素世:……
+素世:谢谢你，小爱音……
+素世:真的……十分感谢……
+爱音:只是小事啦……怎么说得那么郑重的样子……
+爱音:素世……是太紧张了吗？
+素世:算是吧……
+爱音:啊~我也能懂
+爱音:毕竟是很重要的第二次Live，虽然大家都练习了很久……
+changeFigure:mygo_avemujica_v5/anon/037_casual-2023_rip/model.json -id=anon -transform={"position":{"x":0,"y":-300},"alpha":0} -next -motion=nf03 -expression=smile02;
+爱音:但接下来又会发生什么，谁也不知道呢~这种既紧张又期待的心情……真的很微妙不是吗
+setTransform:{"position":{"x":0,"y":-600},"alpha":1,"blur":0} -target=anon -duration=2000 -next;
+setTransform:{"position":{"x":0,"y":-150},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=2000 -next;
+setTransform:{"alpha":0.6,"blur":0} -target=black -duration=2000 -next;
+: -fontSize=default;
+:接下来又会发生什么呢？
+:我不知道
+:我终于不知道了
+:我已经有多久……没有直面过未知了呢？
+:这种陌生而久违的感觉，让我——
+setTransform:{"position":{"x":0,"y":-400},"alpha":1,"blur":0} -target=anon -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":-100},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=1000 -next;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+: -fontSize=default;
+素世:我有点……有点害怕……
+changeFigure:mygo_avemujica_v5/anon/037_casual-2023_rip/model.json -id=anon -transform={"position":{"x":0,"y":-300},"alpha":0} -next -motion=surprised01 -expression=surprised01;
+爱音:诶——
+changeFigure:mygo_avemujica_v5/anon/037_casual-2023_rip/model.json -id=anon -transform={"position":{"x":0,"y":-300},"alpha":0} -next -motion=smile03 -expression=smile03;
+爱音:居然是害怕吗……原来，そよりん也有这样脆弱的一面呢~
+changeFigure:mygo_avemujica_v5/anon/037_casual-2023_rip/model.json -id=anon -transform={"position":{"x":0,"y":-300},"alpha":0} -next -motion=smile04 -expression=smile02;
+bgm:希望.mp3 -volume=60 -enter=1000;
+爱音:要不，我现在去给你买药或者冰枕吧？或者来膝枕，我唱一首儿歌怎么样？
+爱音:不要硬撑着，偶尔也可以来依靠我哟~
+setTransform:{"position":{"x":0,"y":-400},"alpha":1,"blur":10} -target=anon -duration=500 -next;
+setTransform:{"position":{"x":0,"y":-100},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":10} -target=bg-main -duration=500 -next;
+: -fontSize=default;
+:有点被她逗笑了，然而那种笑意到了嘴边，却反倒令我一阵恶心
+素世:……请不要这样……我会更想吐的……
+setTransform:{"position":{"x":0,"y":-400},"alpha":1,"blur":0} -target=anon -duration=500 -next;
+setTransform:{"position":{"x":0,"y":-100},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=500 -next;
+changeFigure:mygo_avemujica_v5/anon/037_casual-2023_rip/model.json -id=anon -transform={"position":{"x":0,"y":-300},"alpha":0} -next -motion=surprised01 -expression=sad01;
+爱音:呃
+素世:……噗
+素世:刚刚小爱音那套妈妈风味说辞，说不定有成为名段子的潜力呢 -fontSize=default;
+素世:以后有机会的话，拜托睦的爸爸，发掘你做搞笑艺人好了
+changeFigure:mygo_avemujica_v5/anon/037_casual-2023_rip/model.json -id=anon -transform={"position":{"x":0,"y":-300},"alpha":0} -next -motion=sad02 -expression=serious02;
+爱音:好过分！
+素世:开玩笑的
+:谢谢你，爱音，还有，抱歉……
+:我其实早该笑出来的
+素世:可不能让小爱音去做搞笑呀。毕竟……灯也说过，大家要组一辈子乐队的…… 
+changeFigure:mygo_avemujica_v5/anon/037_casual-2023_rip/model.json -id=anon -transform={"position":{"x":0,"y":-300},"alpha":0} -next -motion=smile04 -expression=smile01;
+素世:…………一辈子吗……
+setTransform:{"position":{"x":0,"y":-600},"alpha":1,"blur":0} -target=anon -duration=2000 -next;
+setTransform:{"position":{"x":0,"y":-150},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=2000 -next;
+setTransform:{"alpha":0.6,"blur":0} -target=black -duration=2000 -next;
+: -fontSize=default;
+素世:如果……真的有办法的话……我也……
+setTransform:{"position":{"x":0,"y":-300},"alpha":1,"blur":0} -target=anon -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":-100},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg-main -duration=1000 -next;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=1000 -next;
+素世:无论如何，就从……这次Live开始吧……
+爱音:好啦好啦~
+bgm:none -volume=60 -enter=1000;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+: -fontSize=default;
+:我总觉得自己还有什么没能说完
+changeBg:CG/C03S03_RiNG爱音_A.png -next -transform={"scale":{"x":1,"y":1}};
+changeFigure:none -id=anon -transform={"position":{"x":0,"y":-300},"alpha":0} -next -motion=smile04 -expression=smile01;
+:但爱音已经轻轻跳过我身边，抢在面前踏上了阶梯
+爱音:先一起回去吧，祥子还在等我们呢
+爱音:以及，上次的伞，你也留得太久了吧？
+爱音:所以，周一要记得带来还我哟，约好了哟——
+setTransform:{"alpha":0,"blur":0} -target=black -duration=5000 -next;
+: -fontSize=default;
+:她回过头，向我露出微笑
+爱音:——呐，そよりん~ -fontSize=default;
+: -fontSize=default;
+changeBg:CG/C03S03_RiNG爱音_B.png -next -transform={"scale":{"x":1,"y":1}};
+: -fontSize=default;
+changeBg:none -next -transform={"scale":{"x":1,"y":1}};
+: -fontSize=default;
+祥子:素世？素世！没事吧？ -fontSize=default;
+祥子:……！ -fontSize=default;
+祥子:……过分…… -fontSize=default;
+睦:……骗人……的吧？
+乐奈:……爱音？爱音？爱音？！
+立希:不要……是我的错，都是我的错……
+立希:我明明就在身边，明明就在身边！
+:灯没有说话
+:她只是呆站在原地，手中话筒落在地上，落在她沾染了几星红斑的鞋边
+: -fontSize=default;
+changeScene:C03S03/C03S03_Scene10.txt

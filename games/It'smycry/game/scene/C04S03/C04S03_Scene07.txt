@@ -1,0 +1,84 @@
+changeBg:普通背景/月之森礼堂后台走廊.png -next -transform={"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0,"oldFilm":1};
+changeFigure:mygo_avemujica_v5/anonW/037_casual-2023_rip/model.json -id=anon -transform={"position":{"x":0,"y":-300},"alpha":1} -next -motion=nf02 -expression=smile04;
+changeFigure:none -id=black -next;
+changeFigure:black.png -id=black -transform={"alpha":1} -next;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1 -next;
+bgm:銀色都市の秘密.mp3 -volume=40;
+:
+setTransform:{"alpha":0,"blur":0} -target=black -duration=2000 -next;
+:
+:我呆站在原地
+:就在方才——千早爱音，出现在我面前
+:但此时此刻，她应该还在读初中才对
+changeFigure:mygo_avemujica_v5/anonW/037_casual-2023_rip/model.json -id=anon -next -motion=angry01 -expression=smile04;
+setTransform:{"position":{"x":-300,"y":-400},"scale":{"x":1.2,"y":1.2},"alpha":1} -target=anon -duration=1000 -next;
+:然而，我还没来得及说话，她便几步跳到我身边 -fontSize=default;
+changeFigure:mygo_avemujica_v5/anonW/037_casual-2023_rip/model.json -id=anon -next -motion=nf03 -expression=smile04;
+爱音:其实……そよりん……已经死了哟？
+素世:我……死了？
+爱音:是呀
+changeFigure:mygo_avemujica_v5/anonW/037_casual-2023_rip/model.json -id=anon -next -motion=smile01 -expression=smile02;
+爱音:但是，そよりん不用担心，因为，那是很久很久以前的事情
+changeFigure:mygo_avemujica_v5/anonW/037_casual-2023_rip/model.json -id=anon -next -motion=smile01 -expression=smile03;
+爱音:啊，不对——应该说，是很久很久以后的事情？
+changeFigure:mygo_avemujica_v5/anonW/037_casual-2023_rip/model.json -id=anon -next -motion=smile03 -expression=smile02;
+爱音:抱歉呢，这两个说法，我从来都不知道哪个更好~
+:她朝我笑道
+:简直和爱音一模一样
+:但绝对绝对……不是我认识的爱音 -fontSize=default;
+setTransform:{"position":{"x":0,"y":9},"scale":{"x":1,"y":1},"alpha":1} -target=bg-main -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":-300},"scale":{"x":1,"y":1},"alpha":1} -target=anon -duration=1000 -next;
+:
+:我顿时有些害怕，向后退了几步
+素世:……你，是谁？
+changeFigure:mygo_avemujica_v5/anonW/037_casual-2023_rip/model.json -id=anon -next -motion=sad01 -expression=sad01;
+爱音:果然吗……
+changeFigure:mygo_avemujica_v5/anonW/037_casual-2023_rip/model.json -id=anon -next -motion=sad01 -expression=smile04;
+爱音:果然，そよりん每次都会这样呢~
+素世:诶？
+changeFigure:mygo_avemujica_v5/anonW/037_casual-2023_rip/model.json -id=anon -next -motion=smile03 -expression=smile01;
+爱音:但是没关系
+爱音:反正，我也每次都会解释给你听就是了——
+bgm: -volume=40 -enter=2000;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+:
+changeFigure:none -id=anon -next;
+changeBg:CG/C04S03_素死_05.png -next -transform={"rgbFilm":1};
+:
+bgm:20. 真実.mp3 -volume=40;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=5000 -next;
+:
+:素世的体温染上我的膝盖，浸湿了我的裙摆 -fontSize=default;
+:素世的体温……在我的指间流淌 -fontSize=default;
+:耳边的喧嚣消失了 -fontSize=default;
+:时间……仿佛凝固在了这一刻 -fontSize=default;
+:恍惚间，眼角余光中，立希正握着手机向我奔来 -fontSize=default;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=1000 -next;
+:我下意识地看向她 -fontSize=default;
+:看到——她停在了那里
+:不……并不是在那里停下脚步，而是—— -fontSize=default;
+:——保持着那种奔跑的姿势，如同雕塑般，固定在了那里 -fontSize=default;
+:我有些难以置信，转向更远处的众人
+:祥子似乎依旧没有恢复意识，倒在睦的怀中，灯呆站在那边，一旁的乐奈正扯着她的衣袖
+:再然后是——后台入口的户山前辈、提着急救箱的凛凛子小姐、台下的观众
+:她们全部……一动不动
+:就连她们的发梢，也与舞台灯下被照亮的尘埃一起——凝固在了空中
+爱音:发生……什么了？
+changeBg:CG/C04S03_素死_06.png -next;
+:我呆呆地望着眼前的一切，好一会儿，才想到要去确认素世的情况
+bgm: -volume=40 -enter=2000;
+playEffect:1_效果音/03_重要剧情音效/黏稠怪异音效.mp3 -volume=10 -id=wired;
+setTransform:{"alpha":0,"blur":0} -target=black -duration=2000 -next;
+:
+:…………这是，什么？
+:彩虹？
+:紧接着——更多、更多的虹色
+:它们不安地涌动着，从素世的嘴角、从素世的伤口、从素世的体内汩汩而出——
+playEffect: -volume=10 -id=wired;
+setTransform:{"alpha":1,"blur":0} -target=black -duration=4000 -next;
+playEffect:1_效果音/01_常用效果音/画面崩坏并消失音效.mp3 -volume=40;
+setTransform:{"scale":{"x":2,"y":2},"alpha":0,"glitchFilm":1,"rgbFilm":1} -target=bg-main -duration=4000 -next;
+:
+:——刹那间，便吞没了我
+:
+changeScene:C04S03/C04S03_Scene08.txt

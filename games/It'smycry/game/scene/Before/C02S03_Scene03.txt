@@ -1,0 +1,209 @@
+playEffect:1_效果音/02_环境音/雨が降る1.mp3 -volume=10 -id=rain;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -next -transform={"position":{"x":300,"y":-500},"scale":{"x":1.2,"y":1.2}, "alpha":0} -motion=nnf_left01 -expression=surprised01;
+changeFigure:mygo_avemujica_v5/soyoW/039_hnok_school_winter-2023_rip/model.json -id=soyo -transform={"position":{"x":-600,"y":-500},"scale":{"x":1.2,"y":1.2}, "alpha":0} -next -motion=smile02 -expression=smile02;
+changeBg:羽丘教室_阴.png -transform={"scale":{"x":1.2,"y":1.2},"alpha":0};
+setTransform:{"scale":{"x":1.2,"y":1.2},"alpha":1} -target=bg-main -duration=2000 -next;
+:
+:放学时分，窗外的雨不算小，我坐在教室里出神
+setTransform:{"scale":{"x":1.2,"y":1.2},"alpha":0.3} -target=bg-main -duration=1000 -next;
+:一个多星期前的那天下午，素世掏出那个笔记本的时候，我和灯都吃了一惊
+:在那之后，只要能预约到练习室，我每天都会去
+:祥子、睦以及乐奈的出现基本随机，其中，名义上并不属于队员的乐奈，处于一种游离的微妙状态
+:每次她出现一般是问“小睦在嘛？”，如果不在，就会自顾自地弹吉他，人数够可能会合奏一下，然后自顾自地离开
+:其他人里，立希和灯是基本都会在的，其次是素世。不过，素世一般也会更早离开
+爱音:说起来……soyorin真的很厉害呢……
+爱音:那首新曲，《碧天伴走》……
+爱音:居然，是她一个人完成的吗…… -fontSize=default;
+:我回忆起当时的场景——
+setTransform:{"scale":{"x":1.2,"y":1.2},"alpha":0} -target=bg-main -duration=1000 -next;
+:
+bgm:午后.mp3 -volume=40;
+setTransform:{"position":{"x":300,"y":-500},"scale":{"x":1.2,"y":1.2}, "alpha":1} -target=tomori -duration=300 -next;
+setTransform:{"position":{"x":-600,"y":-500},"scale":{"x":1.2,"y":1.2}, "alpha":1} -target=soyo -duration=300 -next;
+changeBg:ring录音室.png -next -transform={"scale":{"x":1.2,"y":1.2}};
+playEffect:none -volume=10 -id=rain;
+changeFigure:mygo_avemujica_v5/soyoW/039_hnok_school_winter-2023_rip/model.json -id=soyo -next -motion=nf_right01 -expression=ando01;
+:
+灯:……好厉害
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -next -motion=nf_left01 -expression=smile04;
+setTransform:{"position":{"x":300,"y":-600},"scale":{"x":1.2,"y":1.2}, "blur":5} -target=tomori -duration=1000 -next;
+setTransform:{"position":{"x":-600,"y":-600},"scale":{"x":1.2,"y":1.2},"blur":5} -target=soyo -duration=1000 -next;
+setTransform:{"position":{"y":-100}, "scale":{"x":1.2,"y":1.2},"blur":5} -target=bg-main -duration=1000 -next;
+灯:素世写的歌词，真的很棒 -fontSize=default;
+灯:如果我也能写出这样的歌词就好了…… -fontSize=default;
+setTransform:{"position":{"x":300,"y":-600},"scale":{"x":1.2,"y":1.2}, "blur":10} -target=tomori -duration=1000 -next;
+setTransform:{"position":{"x":-600,"y":-600},"scale":{"x":1.2,"y":1.2},"blur":10} -target=soyo -duration=1000 -next;
+setTransform:{{"y":-100}, "scale":{"x":1.2,"y":1.2},"blur":10} -target=bg-main -duration=1000 -next;
+changeFigure:mygo_avemujica_v5/soyoW/039_hnok_school_winter-2023_rip/model.json -id=soyo -motion=nf_left01 -expression=sad02;
+changeFigure:mygo_avemujica_v5/soyoW/039_hnok_school_winter-2023_rip/model.json -id=soyo -next -motion=nf_right01 -expression=smile02;
+素世:……谢谢，那么，这里还有乐谱和小样—— -fontSize=default;
+changeFigure:mygo_avemujica_v5/soyoW/039_hnok_school_winter-2023_rip/model.json -id=soyo -next -motion=surprised01 -expression=sad01;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -next -motion=surprised01 -expression=sad01;
+素世:——小……爱音？没事吧？
+setTransform:{"position":{"x":300,"y":-500},"scale":{"x":1.2,"y":1.2}, "blur":10} -target=tomori -duration=300 -next;
+setTransform:{"position":{"x":-600,"y":-500},"scale":{"x":1.2,"y":1.2}, "blur":10} -target=soyo -duration=300 -next;
+setTransform:{"scale":{"x":1.2,"y":1.2},"blur":10} -target=bg-main -duration=300 -next;
+爱音:诶？我……
+:回过神来，才发现自己的眼角渗出了泪水 -fontSize=default;
+setTransform:{"position":{"x":-600,"y":-700},"scale":{"x":1.4,"y":1.4}, "blur":10} -target=soyo -duration=1000 -next;
+playEffect:1_效果音/01_常用效果音/布料_结束.mp3 -volume=10;
+:素世递来了手帕
+setTransform:{"position":{"x":300,"y":-500},"scale":{"x":1.2,"y":1.2}, "blur":0} -target=tomori -duration=1000 -next;
+setTransform:{"position":{"x":-600,"y":-500},"scale":{"x":1.2,"y":1.2}, "blur":0} -target=soyo -duration=1000 -next;
+setTransform:{"scale":{"x":1.2,"y":1.2},"blur":0} -target=bg-main -duration=1000 -next;
+爱音:……谢谢，我没事
+爱音:这些……难道是soyorin一天之内完成的吗？
+changeFigure:mygo_avemujica_v5/soyoW/039_hnok_school_winter-2023_rip/model.json -id=soyo -next -motion=nf01 -expression=smile02;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -next -motion=nf_left01 -expression=idle;
+素世:哪会有那么夸张 -fontSize=default;
+changeFigure:mygo_avemujica_v5/soyoW/039_hnok_school_winter-2023_rip/model.json -id=soyo -next -motion=nf01 -expression=smile03;
+素世:还有，我不叫soyorin啦……
+changeFigure:mygo_avemujica_v5/soyoW/039_hnok_school_winter-2023_rip/model.json -id=soyo -next -motion=thinking01 -expression=smile02;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -next -motion=nf_left01 -expression=smile01;
+素世:其实也算得上是……之前一直在练习作曲时的积累，不过歌词部分，确实是……呃，刚刚改好的 -fontSize=default;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -next -motion=idle -expression=smile01;
+setTransform:{"position":{"x":300,"y":-600},"scale":{"x":1.2,"y":1.2}} -target=tomori -duration=1000 -next;
+setTransform:{"position":{"x":-600,"y":-600},"scale":{"x":1.2,"y":1.2}} -target=soyo -duration=1000 -next;
+setTransform:{"position":{"y":-100}, "scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=1000 -next;
+爱音:《碧天伴走》…… -fontSize=default;
+setTransform:{"position":{"x":300,"y":-500},"scale":{"x":1.2,"y":1.2}} -target=tomori -duration=1000 -next;
+setTransform:{"position":{"x":-600,"y":-500},"scale":{"x":1.2,"y":1.2}} -target=soyo -duration=1000 -next;
+setTransform:{"scale":{"x":1.2,"y":1.2}} -target=bg-main -duration=1000 -next;
+爱音:……难道是……为我写的歌吗……？ -fontSize=default;
+changeFigure:mygo_avemujica_v5/soyoW/039_hnok_school_winter-2023_rip/model.json -id=soyo -next -motion=smile01 -expression=smile01;
+素世:……嗯
+changeFigure:mygo_avemujica_v5/soyoW/039_hnok_school_winter-2023_rip/model.json -id=soyo -next -motion=nf02 -expression=smile01;
+素世:同时也是，为重新起步的大家，而写的歌
+bgm: -volume=40 -enter=3000;
+setTransform:{"position":{"x":300,"y":-500},"scale":{"x":1.2,"y":1.2}, "alpha":0} -target=tomori -duration=300 -next;
+setTransform:{"position":{"x":-600,"y":-500},"scale":{"x":1.2,"y":1.2}, "alpha":0} -target=soyo -duration=300 -next;
+changeBg: -next -transform={"scale":{"x":1.2,"y":1.2}};
+:
+:之后立希也回来了，顺便抓来一只乐奈，大家一起交流了一下新曲的内容
+:这首曲子没有键盘声部，素世说是因为祥子的精力不足，不要让她再练习一首新曲为好
+:取而代之的是，双吉他的声部，其中节奏吉他的部分由我负责。主音则看情况，可以由睦或乐奈负责
+:事到如今，我当然也不会没皮没脸，还要去占什么吉他主唱的位置了
+:不如说，节奏吉他这部分的编排，相当照顾我这种半新手，如果努力练习三个星期，还是很有希望能直接上Live的
+:虽然还是有些好奇，为什么那么希望我能参与到Live里……不过在那种气氛之下，我也没有什么机会单独去问素世
+:……
+爱音:说到这个……
+爱音:今天，大家都休息吗……
+playEffect:1_效果音/02_环境音/雨が降る1.mp3 -volume=10 -id=rain;
+changeBg:羽丘教室_阴.png -next -transform={"scale":{"x":1.2,"y":1.2}};
+:从回忆中返回现实，我抬头看了看灰蒙蒙的窗外 -fontSize=default;
+:今天的天气，从中午开始就不太好。现在临近放学时分，更是下起了雨，真是不巧
+:不过，今天众人也刚好各自有安排，所以久违地决定休息一天
+:虽说如此，但习惯了乐队生活之后，突然不能和大家聚在一起，心里未免有些空落落的
+playEffect:1_效果音/01_常用效果音/椅子に座る3.mp3 -volume=100;
+changeBg: -next -transform={"scale":{"x":1.2,"y":1.2}};
+:脑子里盘着这些有的没的，我收拾好书包离开教室
+playEffect:1_效果音/01_常用效果音/普通走路过场.mp3 -volume=40;
+:走下楼梯，来到大堂鞋柜的位置
+setTransform:{"position":{"x":300,"y":-300},"scale":{"x":1,"y":1}, "alpha":0} -target=soyo -duration=1 -next;
+changeBg:CG/素仰天空.png -next -transform={"alpha":0};
+:外面淅淅沥沥地下着雨，而在门框的一侧——
+setTransform:{"alpha":1} -target=bg-main -duration=2000 -next;
+: -fontSize=default;
+:——素世背对着我站在那里，独自一人望向铅灰色的天空 -fontSize=default;
+素世:……雨天，真讨厌呐
+素世:还要下多久呢……
+:本来想上去吓她一跳，在偷偷靠近时，却突然听到她嘟囔出这么一句
+:话的内容倒没有什么，那种语气却如同水汲汲的乌云一般，即使只是传入耳中，仿佛都能将听者的心情一并打湿
+爱音:那个，素世？
+:我不由得将恶作剧的心情放在一边，只是普通地向她打了招呼
+changeBg:羽丘鞋柜区.png -next;
+setTransform:{"position":{"x":200,"y":-300},"scale":{"x":1,"y":1}, "alpha":1} -target=soyo -duration=300 -next;
+changeFigure:mygo_avemujica_v5/soyoW/039_hnok_school_winter-2023_rip/model.json -id=soyo -next -motion=surprised01 -expression=surprised01;
+素世:啊！小爱音？
+changeFigure:mygo_avemujica_v5/soyoW/039_hnok_school_winter-2023_rip/model.json -id=soyo -next -motion=smile01 -expression=smile01;
+素世:你也还没回去吗？虽说今天没有练习……小灯和小立希呢？以往你们不是都一起回的吗？ -fontSize=default;
+爱音:小灯要去提交天文部的活动报告，我会在这里等她一会儿。小立希的话好像是……
+素世:啊，我想起来了——小立希是被花咲川那边的另一个乐队，邀请去交流了吧
+爱音:啊对的对的~
+爱音:没想到，小立希的名气那么大
+changeFigure:mygo_avemujica_v5/soyoW/039_hnok_school_winter-2023_rip/model.json -id=soyo -next -motion=nf04 -expression=smile01;
+素世:毕竟，小立希是个很有责任心，鼓技也很厉害的人呢~
+爱音:而且也很严厉……
+爱音:不过，也多亏她不断鞭策，我才能进步得那么快
+爱音:说起来，素世，我想问一个问题很久了……
+changeFigure:mygo_avemujica_v5/soyoW/039_hnok_school_winter-2023_rip/model.json -id=soyo -next -motion=smile02 -expression=smile02;
+素世:嗯嗯，请问吧~
+爱音:最开始，素世是怎么看中我的呢？而且为什么那么希望我参加这次Live？
+爱音:毕竟立希之前也告诉我，这次Live十分重要，是Crychic久违的第二次Live……
+changeFigure:mygo_avemujica_v5/soyoW/039_hnok_school_winter-2023_rip/model.json -id=soyo -next -motion=smile02 -expression=smile01;
+素世:……这是两个问题了呢~
+爱音:啊哈哈，确实……
+changeFigure:mygo_avemujica_v5/soyoW/039_hnok_school_winter-2023_rip/model.json -id=soyo -next -motion=smile03 -expression=smile01;
+素世:不瞒你说，第一个问题……首先是因为，小灯看上去很中意你
+素世:毕竟，虽然学校里的大家，都或多或少对乐队有兴趣 -fontSize=default;
+素世:但能让灯主动拉过来参观乐队的人，你是第一个| 所以我想，你对她来说应该很特别吧？ -fontSize=default;
+爱音:诶——这样吗……
+素世:当然，从另一层考虑，我之前拉你入队的时候也说过了——
+爱音:啊对哦，我记得当时是说……你、小睦还有小祥，能参与乐队的活动时间都不多？
+爱音:所以，大家是为什么不能——
+changeFigure:mygo_avemujica_v5/soyoW/039_hnok_school_winter-2023_rip/model.json -id=soyo -next -motion=nnf_left01 -expression=smile03;
+:素世的脸上一下浮现出为难的神色
+素世:这个……大家都有各种各样的原因啦……
+爱音:啊没事~别在意别在意——下一个问题吧
+changeFigure:mygo_avemujica_v5/soyoW/039_hnok_school_winter-2023_rip/model.json -id=soyo -next -motion=thinking02 -expression=smile01;
+素世:至于为什么要小爱音上Live……这个嘛~大概是一时兴起？又或者说……是想要快速培养爱音和大家的羁绊……之类的？
+爱音:啊？
+:好勉强的理由……有种被搪塞了的感觉
+素世:开玩笑的~其实就还是之前说的那样，小祥的精力确实不太够。本来如果你不在，大家是考虑上一首其他的新曲，以及《春日影》的
+素世:但是，这样对于小祥来说，就太过于辛苦了，所以就——
+changeFigure:mygo_avemujica_v5/soyoW/039_hnok_school_winter-2023_rip/model.json -id=soyo -next -motion=smile04 -expression=smile03;
+素世:——总觉得抱歉呢~会不会太勉强小爱音了，这种理由，还是有点自私吧
+爱音:不会哟~
+爱音:不如说能被这样需要和信任，我甚至有点开心呢……
+:虽然这样一来……话题似乎就又绕回到了“为什么祥子的精力不够”上面来了
+setTransform:{"position":{"x":-2000,"y":-300},"scale":{"x":1,"y":1}, "alpha":1} -target=tomori -duration=1 -next;
+:不过看刚刚素世那种表现，我也不太好继续追问
+playEffect:1_效果音/01_常用效果音/普通走路过场.mp3 -volume=60;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -next -motion=smile02 -expression=smile01;
+setTransform:{"position":{"x":-700,"y":-300},"scale":{"x":1,"y":1},"alpha":1} -target=tomori -duration=2000 -next;
+灯:小爱音，久等了……啊，素世也在呢 -fontSize=default;
+changeFigure:mygo_avemujica_v5/soyoW/039_hnok_school_winter-2023_rip/model.json -id=soyo -next -motion=nnf_left01 -expression=smile01;
+素世:啊，小灯~天文部那边已经好了吗？
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -next -motion=nnf_right01 -expression=smile01;
+灯:嗯嗯
+爱音:好耶~大家一起回去吧！
+changeFigure:mygo_avemujica_v5/soyoW/039_hnok_school_winter-2023_rip/model.json -id=soyo -next -motion=idle01 -expression=smile03;
+素世:那个……
+changeFigure:mygo_avemujica_v5/soyoW/039_hnok_school_winter-2023_rip/model.json -id=soyo -next -motion=smile02 -expression=smile03;
+素世:要不，你们先走吧？
+爱音:诶？素世不回去吗？
+素世:其实，我忘记带伞了……稍微再等一会儿吧，说不定雨会小一点呢……
+爱音:诶——冒雨回去会感冒的哦，要等雨停也太晚了吧？
+爱音:素世顺路吗？要不要一起撑一把伞——
+changeFigure:mygo_avemujica_v5/soyoW/039_hnok_school_winter-2023_rip/model.json -id=soyo -next -motion=serious04 -expression=smile03;
+:没想到素世的脸上，浮现出比之前还要为难的神色
+爱音:这样啊……那……
+:并没有多想，我将手中的伞递到素世面前
+爱音:给~
+changeFigure:mygo_avemujica_v5/soyoW/039_hnok_school_winter-2023_rip/model.json -id=soyo -next -motion=serious02 -expression=surprised01;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -next -motion=thinking01 -expression=surprised01;
+素世:诶？
+素世:那，小爱音怎么办？虽然灯也有伞，但你和灯应该住得也不近——
+爱音:没事的啦，因为~
+:我故意以一种戏剧性的腔调，从书包里缓缓将另一把伞抽出
+爱音:锵锵~我有两把伞哟~
+changeFigure:mygo_avemujica_v5/soyoW/039_hnok_school_winter-2023_rip/model.json -id=soyo -next -motion=surprised01 -expression=surprised01;
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -next -motion=surprised01 -expression=surprised01;
+素世、灯:诶？
+爱音:当然不会做那种舍己为人的事啦~因为有句话不是这么说的嘛——
+爱音:“首先要爱自己，才会有余力去好好爱他人”
+爱音:——所以，这两把伞，就是我的余力
+爱音:明天记得要带来还我哦，soyorin~
+changeFigure:mygo_avemujica_v5/tomoli/036_school_winter-2023_rip/model.json -id=tomori -next -motion=nnf_right01 -expression=smile01;
+changeFigure:mygo_avemujica_v5/soyoW/039_hnok_school_winter-2023_rip/model.json -id=soyo -next -motion=nf_right01 -expression=sad02;
+素世:……这样吗
+changeFigure:mygo_avemujica_v5/soyoW/039_hnok_school_winter-2023_rip/model.json -id=soyo -next -motion=nf05 -expression=smile05;
+;立绘靠近，接伞
+setTransform:{"position":{"x":-300,"y":-500},"scale":{"x":1.2,"y":1.2}} -target=soyo -duration=1000 -next;
+素世:谢谢你……小爱音……
+playEffect:none -volume=10 -id=rain -enter=1000;
+changeFigure: -id=tomori -next;
+changeFigure: -id=soyo -next;
+changeBg: -next;
+:
+choose:数日后，Crychic练习室:C02S03_Scene04.txt;

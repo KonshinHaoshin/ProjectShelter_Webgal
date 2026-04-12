@@ -1,0 +1,133 @@
+changeFigure:血手校服_R1.png -id=R -transform={"position":{"x":500,"y":1000},"scale":{"x":0.6,"y":0.6}} -next;
+changeFigure:血手校服_L1.png -id=L -transform={"position":{"x":-500,"y":1000},"scale":{"x":0.6,"y":0.6}} -next;
+changeFigure:black.png -id=dark -transform={"alpha":0} -next;
+changeFigure:white.png -id=white -transform={"alpha":0} -next;
+:渊面正在翻腾，水花不断打湿着我 -fontSize=medium;
+:上楼之前，我抬头向天边望了一眼，焦红色的晚霞，正向地平线之下缓缓流淌着
+playEffect:1_效果音/04_非常用音效暂存/素世密码门_缩混.mp3 -volume=40;
+:走出电梯，打开门锁，回身带上门 -fontSize=default;
+changeBg:C03S01_素世傍晚回家.png -next -transform={"position":{"y":750},"scale":{"x":1.2,"y":1.2}};
+:刚走进客厅，便看到妈妈正站在餐桌旁打电话。她马上抬起头，与我四目相对 -fontSize=default;
+素世妈妈:……素世？
+素世妈妈:素世，素世！
+素世妈妈:老天啊……你去哪了？！不是说好，要等妈妈去接你吗！——
+:她的声音很大，但又不是在对我发火，只是在宣泄
+playEffect:1_效果音/04_非常用音效暂存/踢倒_重.mp3 -volume=40;
+:与此同时，她向我奔来。大概是太着急了，这个过程中，她一下撞倒了身旁的餐椅 -fontSize=default;
+playEffect:素世/素食_痛苦_01.mp3 -volume=20;
+changeFigure:C03S01_素世傍晚回家.png -id=shock -transform={"position":{"y":550},"scale":{"x":1.8,"y":1.8},"alpha":1.5} -next;
+setAnimation:shock -target=shock -next;
+素世:……？！
+bgm:04. 引き裂かれる心.mp3 -volume=40;
+playEffect:1_效果音/04_非常用音效暂存/跪地.mp3 -volume=40;
+setAnimation:kneel -target=bg-main -next;
+setAnimation:kneel_handR -target=R -next;
+setAnimation:kneel_handL -target=L -next;
+setTransform:{"alpha":0.7} -target=dark -duration=2000 -next;
+:
+setTransform:{"position":{"y":-500},"scale":{"x":1.15,"y":1.15},"alpha":2,"rgbFilm":1} -target=bg-main -duration=3000 -next;
+setTransform:{"position":{"x":500,"y":200},"scale":{"x":0.825,"y":0.825},"blur":3,"rgbFilm":1} -target=R -duration=3000 -next;
+setTransform:{"position":{"x":-500,"y":200},"scale":{"x":0.825,"y":0.825},"blur":3,"rgbFilm":1} -target=L -duration=3000 -next;
+:不再是雾后钝矛 -fontSize=default;
+setTransform:{"position":{"y":-500},"scale":{"x":1.1,"y":1.1},"alpha":2,"rgbFilm":1} -target=bg-main -duration=3000 -next;
+setTransform:{"position":{"x":500,"y":200},"scale":{"x":0.85,"y":0.85},"blur":6,"rgbFilm":1} -target=R -duration=3000 -next;
+setTransform:{"position":{"x":-500,"y":200},"scale":{"x":0.85,"y":0.85},"blur":6,"rgbFilm":1} -target=L -duration=3000 -next;
+:或是水中幻月 -fontSize=default;
+setTransform:{"position":{"y":-500},"scale":{"x":1,"y":1},"alpha":2,"rgbFilm":1} -target=bg-main -duration=4000 -next;
+setTransform:{"position":{"x":500,"y":200},"scale":{"x":0.9,"y":0.9},"blur":10,"rgbFilm":1} -target=R -duration=4000 -next;
+setTransform:{"position":{"x":-500,"y":200},"scale":{"x":0.9,"y":0.9},"blur":10,"rgbFilm":1} -target=L -duration=4000 -next;
+:金属架的落地声，如手术刀般精准刺向我的头顶，把将我悬吊在半空的丝线一根根挑断
+:随着最后一根丝线断开，我便立即深深坠入长崎素世之中
+playEffect:1_效果音/04_非常用音效暂存/素-深呼吸.mp3;
+setTransform:{"position":{"y":-500},"scale":{"x":0.7,"y":0.7},"alpha":0,"rgbFilm":1} -target=bg-main -duration=300 -next;
+setTransform:{"position":{"x":600,"y":200},"scale":{"x":1.2,"y":1.2},"alpha":0,"blur":10,"rgbFilm":1} -target=R -duration=300 -next;
+setTransform:{"position":{"x":-600,"y":200},"scale":{"x":1.2,"y":1.2},"alpha":0,"blur":10,"rgbFilm":1} -target=L -duration=300 -next;
+
+:
+setTransform:{"alpha":0} -target=dark -duration=1 -next;
+:长崎素世没过我的头顶，涌入我的每个肺泡，浸润着、融化着我干瘪的身躯
+:待到她将我完全淹溺之时——
+:我便重新……成为了名为长崎素世的人类
+:我也……重新取回了属于长崎素世的一切
+changeBg:特殊意义场景/素祥初见.png -next -transform={"alpha":1,"oldFilm":1};
+:
+:长崎素世的骨肉 -fontSize=default;
+setTransform:{"alpha":10} -target=bg-main -duration=2000 -next;
+setTransform:{"alpha":1} -target=white -duration=2000 -next;
+:
+changeBg:特殊意义场景/C合照.png -next -transform={"alpha":1,"oldFilm":1};
+setTransform:{"alpha":0} -target=white -duration=300 -next;
+:
+:长崎素世的记忆 -fontSize=default;
+setTransform:{"alpha":10} -target=bg-main -duration=2000 -next;
+setTransform:{"alpha":1} -target=white -duration=2000 -next;
+:
+changeBg:特殊意义场景/祥大脸.png -next -transform={"alpha":1,"oldFilm":1};
+setTransform:{"alpha":0} -target=white -duration=300 -next;
+:
+:长崎素世的灵魂 -fontSize=default;
+setTransform:{"alpha":10} -target=bg-main -duration=2000 -next;
+setTransform:{"alpha":1} -target=white -duration=2000 -next;
+:
+changeBg:CG/舞台祥.png -transform={"alpha":0,"oldFilm":1} -next;
+:以及——
+setTransform:{"alpha":0} -target=white -duration=3000 -next;
+setTransform:{"alpha":1,"oldFilm":1} -target=bg-main -duration=3000 -next;
+:
+:长崎素世的……痛苦
+setTransform:{"alpha":10} -target=bg-main -duration=5000 -next;
+setTransform:{"alpha":1} -target=white -duration=5000 -next;
+:
+素世:……小祥……
+素世:小祥！
+changeBg:C03S01_素世傍晚回家.png -next -transform={"position":{"y":750},"scale":{"x":1.2,"y":1.2}};
+setTransform:{"position":{"y":-500},"scale":{"x":1.2,"y":1.2},"alpha":2,"rgbFilm":1} -target=bg-main -duration=1 -next;
+setTransform:{"position":{"x":700,"y":200},"scale":{"x":1.4,"y":1.4},"blur":5,"rgbFilm":1} -target=R -duration=1 -next;
+setTransform:{"position":{"x":-700,"y":200},"scale":{"x":1.4,"y":1.4},"blur":5,"rgbFilm":1} -target=L -duration=1 -next;
+setTransform:{"alpha":0.7} -target=dark -duration=1 -next;
+bgm: -volume=40 -enter=4000;
+素世:……小祥？
+setTransform:{"alpha":0} -target=white -duration=1000 -next;
+:
+playEffect:1_效果音/02_音乐切片/輪符雨-cut2.mp3 -volume=1 -id=ed;
+:指尖的暖意早已不知所踪，现在它们却开始灼伤我 -fontSize=default;
+setTransform:{"alpha":0} -target=dark -duration=2000 -next;
+:我这才无比清晰地意识到
+:未来曾属于我的时光
+:未来曾属于我的乐队
+:未来曾属于我的祥子
+:它们消失了
+:消失得无影无踪
+playEffect:1_效果音/FINGER_SNAP.mp3 -volume=100;
+setTransform:{"alpha":1} -target=white -duration=300 -next;
+:随着一声响指 -fontSize=default;
+changeFigure:血手校服_R2.png -id=R -transform={"position":{"x":700,"y":200},"scale":{"x":1.4,"y":1.4}} -next;
+changeFigure:血手校服_L2.png -id=L -transform={"position":{"x":-700,"y":200},"scale":{"x":1.4,"y":1.4}} -next;
+setTransform:{"alpha":0} -target=white -duration=1000 -next;
+:
+:我亲手……将它们埋入了过去
+playEffect:1_效果音/01_常用效果音/布料_结束.mp3 -volume=40;
+setTransform:{"position":{"y":-500},"scale":{"x":1.2,"y":1.2},"alpha":0,"rgbFilm":1} -target=bg-main -duration=300 -next;
+setTransform:{"position":{"x":700,"y":200},"scale":{"x":1.4,"y":1.4},"alpha":0,"blur":5,"rgbFilm":1} -target=R -duration=300 -next;
+setTransform:{"position":{"x":-700,"y":200},"scale":{"x":1.4,"y":1.4},"alpha":0,"blur":5,"rgbFilm":1} -target=L -duration=300 -next;
+:
+changeBg:CG/素妈拥抱.png -next -transform={"alpha":0.5,"blur":50};
+？？？:……素……素世……对不起……对不起……
+？？？:妈妈已经……什么都弄不明白了……
+？？？:拜托了……妈妈……妈妈要怎么办才好……
+素世:……
+素世:……妈……
+素世:……妈？
+setTransform:{"alpha":1,"blur":0} -target=bg-main -duration=1000 -next;
+:
+:我是长崎素世
+:正将我紧紧拥入怀中，放声痛哭的，是我最重要的人
+:……我的妈妈
+:我为什么……
+:会需要那么长的时间来确认这一点？
+setTransform:{"alpha":10} -target=bg-main -duration=1000 -next;
+setTransform:{"alpha":1} -target=white -duration=1000 -next;
+:
+changeFigure: -id=white -next;
+changeBg: -next;
+choose:NEXT:C03S02/C03S02_Scene01.txt;
