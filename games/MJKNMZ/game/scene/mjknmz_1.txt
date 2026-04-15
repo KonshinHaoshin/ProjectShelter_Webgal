@@ -12,7 +12,7 @@ intro:无人区|7天前;
 changeBg:Z/Z1/Z101.webp -next;
 playEffect:SE_CarDriving.wav -volume=20;
 :在小镇外十几公里处，一辆风尘仆仆地从国境线驶来的SUV正在疾驰。;
-changeFigure:SKKPP.png -right -transform={"position":{"y":200},"scale":{"x":-1}} -next;
+changeFigure:SKKPP.webp -right -transform={"position":{"y":200},"scale":{"x":-1}} -next;
 :一个面容憔悴的中年男人正在驾驶座上，时不时轻点下油门。;
 :除他以外，车内空无一人，只在他身边的副驾驶位上有一个小小的铁盒子。;
 :这盒子说大也不大，就算是往里灌白面也只能装几斤；;
@@ -191,7 +191,7 @@ changeFigure:anon/lawyer/model.json -left -transform={"position":{"x":1000,"y":-
 :对于{AN}来说，这个女学生只是人生中微不足道的一个小插曲，根本没必要在意她的感受。;
 changeFigure:anon/lawyer/model.json -left -transform={"position":{"x":1000,"y":-100},"scale":{"x":0.7,"y":0.7}} -next -motion=sakiko_smile01 -expression=rana_smile02;
 {AN}:开始可能有点痛，但是过一会就会舒服了。你先忍一忍，好吗？;
-changeBg:O（特定地点）/O17.jpg -next;
+changeBg:O（特定地点）/O17.webp -next;
 :{AN}许诺的欢愉并没有到来，女学生只能一直忍耐下去。直到天微微亮，东方既白，爱音才松开了对方。;
 changeFigure:anon/lawyer/model.json -left -transform={"position":{"x":1000,"y":-100},"scale":{"x":0.7,"y":0.7}} -next -motion=anon_bye01 -expression=anon_smile01;
 setTransform:{"position":{"x":0,"y":-200},"scale":{"x":0.8,"y":0.8}} -target=fig-left -duration=1000 -next;

@@ -5,11 +5,11 @@ changeFigure:anon/lawyer/model.json -left -transform={"position":{"x":-200,"y":-
 changeFigure:nyamu/bandit_nyamu/model.json -transform={"position":{"x":200,"y":-200},"scale":{"x":0.8,"y":0.8}} -next -motion=nyamu_smile01 -expression=nyamu_smile02;
 :“灯红酒绿”中华料理馆里的一张破木桌子边上，五名男女正在高声宴饮。桌上摆了半桌面的大菜，早已杯盘狼藉。;
 playEffect:SE_Cheers.wav -volume=30;
-changeFigure:misc/Random_Man2_Profile.png -right -next;
+changeFigure:misc/Random_Man2_Profile.webp -right -next;
 岸本检察官:这一杯，嗝，敬{AN}律师！正是因为有她这么负责敬业的法律从业者，我们日本才能不断地向法治社会进步！;
-changeFigure:misc/Random_Man3_Profile.png -right -next;
+changeFigure:misc/Random_Man3_Profile.webp -right -next;
 山口检察官:在千早律师到来之前，我们镇的司法系统权威正在悬崖边上岌岌可危。如今，随着这场案件的判决结束，我们终于向前迈出了一大步！;
-changeFigure:misc/Random_Man4_Profile.png -right -next;
+changeFigure:misc/Random_Man4_Profile.webp -right -next;
 松田检察官:可喜可贺！可喜可贺！;
 changeFigure: -right -next;
 changeFigure:anon/lawyer/model.json -left -next -motion=anon_shame01 -expression=anon_shame01;
@@ -18,9 +18,9 @@ changeFigure:anon/lawyer/model.json -left -next -motion=anon_shame01 -expression
 changeFigure:anon/lawyer/model.json -left -next -motion=anon_smile02 -expression=anon_smile01;
 {AN}:像椎名治安官这样集警检大权于一身的落后制度，已经不适合当下的法治社会建设，多半很快就要被扫进历史的垃圾堆里去了。;
 {AN}:相信在不久远的未来，各位检察官们中的某一位就能接过边陲小镇检察长的职责。敬将来的检察长！;
-changeFigure:misc/Random_Man2_Profile.png -right -id=a -transform={"position":{"x":0,"y":-200},"scale":{"x":0.8,"y":0.8}} -next;
-changeFigure:misc/Random_Man3_Profile.png -right -id=b -transform={"position":{"x":-300}} -next;
-changeFigure:misc/Random_Man4_Profile.png -right -id=c -transform={"position":{"x":200}} -next;
+changeFigure:misc/Random_Man2_Profile.webp -right -id=a -transform={"position":{"x":0,"y":-200},"scale":{"x":0.8,"y":0.8}} -next;
+changeFigure:misc/Random_Man3_Profile.webp -right -id=b -transform={"position":{"x":-300}} -next;
+changeFigure:misc/Random_Man4_Profile.webp -right -id=c -transform={"position":{"x":200}} -next;
 playEffect:SE_Cheers.wav -volume=30;
 岸本/山口/松田检察官:干杯！;
 changeFigure: -right -id=a -next;

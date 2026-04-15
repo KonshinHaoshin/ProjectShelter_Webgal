@@ -81,6 +81,26 @@
         },
         "tags": ["webgal", "visual-novel", "mygo", "爱祥","千早爱音","丰川祥子"],
         "author": "奈良良柴犬,呃吩咐的沟通呢"
+      },
+      {
+        "id":"盐碱地里的茉莉花",
+        "name": "盐碱地里的茉莉花",
+        "display_name": "盐碱地里的茉莉花",
+        "engine": "webgal",
+        "engine_version": "mygo",
+        "description": "在Crychic解散的废墟上，一群迷路的少女用眼泪、谎言与真诚，搭起通往彼此的桥梁。",
+        "release_date": "2026-04-15",
+        "status": "completed",
+        "entry": {
+          "type": "url",
+          "value": "https://game.shelter.net.cn/盐碱地里的茉莉花/"
+        },
+        "assets": {
+          "cover": "/game/background/ai封面.webp",
+          "icon": "/icons/icon-512.webp"
+        },
+        "tags": ["webgal", "visual-novel", "mygo", "假如素世重组乐队"],
+        "author": "无节操の锁长"
       }
     ]
   }

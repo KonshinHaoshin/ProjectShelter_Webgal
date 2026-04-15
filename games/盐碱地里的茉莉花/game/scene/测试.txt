@@ -1,0 +1,61 @@
+changeBg:角色生活地点/mygo/素世的房间（晚上）.webp -transform={"brightness":0.5,"contrast":1.3,"saturation":0.7,"gamma":0.6,"colorRed":180,"colorGreen":180,"colorBlue":220,"blur":2};
+changeFigure:soyo/school_winter-2023/model.json -id=soyo -transform={"brightness":0.6,"contrast":1.2,"saturation":0.8,"gamma":0.7,"colorRed":200,"colorGreen":200,"colorBlue":230} -motion=soyo/sad01 -expression=soyo/sad01 -next;
+:指尖传来细微却尖锐的刺痛，将长崎素世从又一个支离破碎的梦境中拽出。;
+changeFigure:soyo/school_winter-2023/model.json -id=soyo -transform={"brightness":0.6,"contrast":1.2,"saturation":0.8,"gamma":0.7,"colorRed":200,"colorGreen":200,"colorBlue":230} -motion=soyo/serious01 -expression=soyo/serious01 -next;
+:凌晨的寒意渗入肌肤，她却浑然不觉，只是就着窗外都市永不熄灭的流光，怔怔地凝视着自己的右手食指。
+指甲边缘已被啃噬得参差不齐，露出底下柔嫩的、脆弱的甲床，像她此刻的状态，不堪一击，却偏生长出伤人的尖刺。 ;
+:一个疯狂的念头幽灵般浮现：若用这残破的指甲狠狠刺下去，刺破皮肤，刺穿眼球，是否就能终结这无休止的、啃噬内心的痛苦？
+是否就能……不必再想起那张决绝的脸，和那句斩断一切的话语？;
+changeFigure:soyo/school_winter-2023/model.json -id=soyo -transform={"brightness":0.6,"contrast":1.2,"saturation":0.8,"gamma":0.7,"colorRed":200,"colorGreen":200,"colorBlue":230} -motion=soyo/sad02 -expression=soyo/sad02 -next;
+长崎素世:怎么可能忘记……怎么可能会结束…… -id -figureId=soyo;
+changeBg:角色生活地点/mygo/素世的房间（晚上）.webp -transform={"brightness":0.4,"contrast":1.4,"saturation":0.6,"gamma":0.5,"colorRed":150,"colorGreen":150,"colorBlue":200,"blur":3} ;
+changeFigure:soyo/school_winter-2023/model.json -id=soyo -transform={"brightness":0.6,"contrast":1.2,"saturation":0.8,"gamma":0.7,"colorRed":200,"colorGreen":200,"colorBlue":230} -motion=soyo/thinking01 -expression=soyo/thinking01 -next;
+:她用余光瞥到了自己的手机屏幕，还亮着。手机的界面停留在自己的SNS上，而这个SNS账号，就是Crychic。
+曾经的五个人的合照还停留在账号的第一条动态上。如果现在的她们能像照片里的她们一样，露出最纯粹的笑容，那该是多么美好呀……
+可素世知道，这一切都不存在了，因为在那天晚上，她拼劲全力都无法挽留的人，亲自为这场幻梦敲响了丧钟。 ;
+setTempAnimation:[{"duration":0,"brightness":0.4},{"duration":100,"brightness":2,"blur":10},{"duration":300,"brightness":0.4,"blur":3}] -target=bg-main ;
+changeFigure:soyo/school_winter-2023/model.json -id=soyo -transform={"brightness":0.6,"contrast":1.2,"saturation":0.8,"gamma":0.7,"colorRed":200,"colorGreen":200,"colorBlue":230} -motion=soyo/angry01 -expression=soyo/angry01 -next;
+:Crychic已经结束了。 ;
+changeFigure:soyo/school_winter-2023/model.json -id=soyo -transform={"brightness":0.6,"contrast":1.2,"saturation":0.8,"gamma":0.7,"colorRed":200,"colorGreen":200,"colorBlue":230} -motion=soyo/angry06 -expression=soyo/angry06 -next;
+长崎素世:没有结束！ -id -figureId=soyo;
+setTempAnimation:[{"duration":0,"position":{"x":0,"y":0}},{"duration":100,"position":{"x":15,"y":-10}},{"duration":100,"position":{"x":-15,"y":10}},{"duration":100,"position":{"x":10,"y":-5}},{"duration":100,"position":{"x":-10,"y":5}},{"duration":100,"position":{"x":0,"y":0}}] -target=soyo ;
+:素世的大脑又回想起了那天的对话，一阵剧烈的疼痛散发到了她的每一条神经，记忆的碎片化作冰锥，狠狠凿入太阳穴。
+素世猛地蜷缩起来，试图抵御那几乎要撕裂神经的剧痛。慌乱中，她的额头不慎撞上坚硬的床头板。 ;
+changeFigure:soyo/school_winter-2023/model.json -id=soyo -transform={"brightness":0.6,"contrast":1.2,"saturation":0.8,"gamma":0.7,"colorRed":200,"colorGreen":200,"colorBlue":230} -motion=soyo/cry01 -expression=soyo/cry01 -next;
+:咚！ ;
+:一声闷响，素世的大脑和神经被突如其来的刺激转移了注意力，让素世混乱的大脑无暇思考，痛楚短暂地压过了内心的风暴，身体有了些许喘息的空间。
+但剧烈的疼痛让素世眼中的泪水再也无法控制住，一点一点的，无声地滚落，浸湿了昂贵的真丝床单。
+素世努力控制着自己的情绪，不让自己崩溃痛哭，只是低声的抽泣。
+像是一个受伤的狐狸，为了躲避追杀它的猎人，只能屏住呼吸，尽快舔舐伤口，在猎人的阴影下竭力隐藏自己的脆弱与哀鸣。 ;
+changeFigure:soyo/school_winter-2023/model.json -id=soyo -transform={"brightness":0.6,"contrast":1.2,"saturation":0.8,"gamma":0.7,"colorRed":200,"colorGreen":200,"colorBlue":230} -motion=soyo/cry02 -expression=soyo/cry02 -next;
+素世妈妈:素世，还没睡吗？明天还要上课呢。 ;
+:门外传来了熟悉的温柔而略带困意的声音， ;
+:是妈妈。 ;
+changeFigure:soyo/school_winter-2023/model.json -id=soyo -transform={"brightness":0.6,"contrast":1.2,"saturation":0.8,"gamma":0.7,"colorRed":200,"colorGreen":200,"colorBlue":230} -motion=soyo/surprised01 -expression=soyo/surprised01 -next;
+:素世突然被惊吓到了，猛地一颤，努力稳定住气息，对着门外的母亲喊道： ;
+changeFigure:soyo/school_winter-2023/model.json -id=soyo -transform={"brightness":0.6,"contrast":1.2,"saturation":0.8,"gamma":0.7,"colorRed":200,"colorGreen":200,"colorBlue":230} -motion=soyo/smile01 -expression=soyo/smile01 -next;
+长崎素世:没事的妈妈，有蚊子，我刚刚解决了。吵到妈妈休息了吗？ -id -figureId=soyo;
+素世妈妈:没事的，妈妈明天不用去上班，好不容易换来的休假呢，但是素世你还要上课呢，早点休息吧！ ;
+长崎素世:好的！妈妈晚安！ -id -figureId=soyo;
+changeFigure:soyo/school_winter-2023/model.json -id=soyo -transform={"brightness":0.6,"contrast":1.2,"saturation":0.8,"gamma":0.7,"colorRed":200,"colorGreen":200,"colorBlue":230} -motion=soyo/sad03 -expression=soyo/sad03 -next;
+:听着门外脚步声远去，房门轻合，确定了妈妈回到了自己房间并且关上了房门，素世也放松了下来，还好妈妈没有怀疑自己的反常。
+但自己却没有办法再骗自己，后背已被冷汗浸湿，她书桌上的咖啡粉和红茶包已经所剩无几，比以往消耗的速度快上几倍。
+她知道自己的身体和精神已经快到极限了，所有的不安、恐惧、愤怒……所有情绪堆积发酵，几乎要将她撑裂。
+她无法再假装无事发生，却不知该何去何从，甚至不确定自己是否还有行动的资格。 ;
+changeFigure:soyo/school_winter-2023/model.json -id=soyo -transform={"brightness":0.6,"contrast":1.2,"saturation":0.8,"gamma":0.7,"colorRed":200,"colorGreen":200,"colorBlue":230} -motion=soyo/thinking02 -expression=soyo/thinking02 -next;
+长崎素世:明天，再去问一下睦吧…… -id -figureId=soyo;
+changeFigure:soyo/school_winter-2023/model.json -id=soyo -transform={"brightness":0.6,"contrast":1.2,"saturation":0.8,"gamma":0.7,"colorRed":200,"colorGreen":200,"colorBlue":230} -motion=soyo/sad01 -expression=soyo/sad01 -next;
+长崎素世:可是她……还愿意帮助我吗……我和祥子，已经对她说过这样的话，做过这样的事情…… -id -figureId=soyo;
+:素世还是不能肯定，但她又找不到其他人去解决。抱着孤注一掷的心态，即使希望渺茫，素世带着未干的泪痕和残存的奢望，终于坠入不安的浅眠。 ;
+changeBg:自然风光/天空（晚上）.webp -transform={"brightness":0.3,"contrast":1.5,"saturation":0.4,"gamma":0.4,"colorRed":80,"colorGreen":80,"colorBlue":120} ;
+changeFigure:none -id=soyo ;
+pixiPerform:snow;
+setTempAnimation:[{"duration":0,"brightness":0.3},{"duration":5000,"brightness":0.7},{"duration":2000,"brightness":1}] -target=bg-main;
+:今夜，无云，无雨，窗外，都市霓虹闪烁，勾勒出冰冷的天际线。四十五层的高度足以俯瞰众生，却看不清任何一个人的表情，更窥不透人心。 ;
+changeBg:自然风光/天空（白天).webp -transform={"brightness":1,"contrast":1,"saturation":1,"gamma":1,"colorRed":255,"colorGreen":255,"colorBlue":255} ;
+pixiInit;
+:当闹铃划破清晨的寂静，长崎素世再次起身，熟练地穿上月之森精致的校服，拿起手提包，将所有的崩溃与挣扎仔细掩藏，变回那个优雅得体、无懈可击的“月之森学园的长崎素世”。
+只是眼底深处，那片群青色的海，早已波涛暗涌，濒临决堤。 ;
+changeBg:学校、工作/月之森/月之森校门（白天）.webp -transform={"brightness":1,"contrast":1,"saturation":1,"gamma":1,"colorRed":255,"colorGreen":255,"colorBlue":255} ;
+changeFigure:soyo/school_winter-2023/model.json -id=soyo -transform={"brightness":1,"contrast":1,"saturation":1,"gamma":1,"colorRed":255,"colorGreen":255,"colorBlue":255} -motion=soyo/nf01 -expression=soyo/smile01 -next;
+长崎素世:…… -id -figureId=soyo;

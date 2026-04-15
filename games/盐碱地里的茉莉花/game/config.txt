@@ -1,0 +1,12 @@
+Game_name:盐碱地里的茉莉花;
+Game_key:MyGO;
+Title_img:ai封面.webp;
+Title_bgm:青窈《ハナミズキ》伴奏(Av517774893,P1).mp3;
+Game_Logo:ai封面.webp;
+Default_Language:zh_CN;
+Show_panic:true;
+Enable_Appreciation:true;
+Legacy_Expression_Blend_Mode:true;
+Positioning_Type:M_3_1_0;
+Stage_Width:2560;
+Stage_Height:1440;

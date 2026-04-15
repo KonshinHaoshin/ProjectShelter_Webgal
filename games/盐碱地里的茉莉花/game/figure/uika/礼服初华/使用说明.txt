@@ -1,0 +1,17 @@
+按照 头发-身体-脸-手臂_头饰 的顺序加载l2d的json文件
+代码示例：
+导入透明l2d
+changeFigure:mygo_avemujica_v6/uika/礼服初华/头发/model.json -left -id=uika1 -transform={"position":{"x":200,"y":-200},"scale":{"x":0.8,"y":0.8},"alpha":0} -next -motion=idle01 -expression=idle01;
+changeFigure:mygo_avemujica_v6/uika/礼服初华/身体/018_live_event_289_urmodel.json -left -id=uika2 -transform={"position":{"x":200,"y":-200},"scale":{"x":0.8,"y":0.8},"alpha":0} -next -motion=idle01 -expression=idle01;
+changeFigure:mygo_avemujica_v6/uika/礼服初华/脸/model.json -left -id=uika3 -transform={"position":{"x":200,"y":-200},"scale":{"x":0.8,"y":0.8},"alpha":0} -next -motion=idle01 -expression=idle01;
+changeFigure:mygo_avemujica_v6/uika/礼服初华/手臂_头饰/018_live_event_289_urmodel.json -left -id=uika4 -transform={"position":{"x":200,"y":-200},"scale":{"x":0.8,"y":0.8},"alpha":0} -motion=idle01 -expression=idle01;
+显示l2d
+setTransform:{"position":{"x":200,"y":-200},"scale":{"x":0.8,"y":0.8},"alpha":1} -target=uika1 -duration=0 -next;
+setTransform:{"position":{"x":200,"y":-200},"scale":{"x":0.8,"y":0.8},"alpha":1} -target=uika2 -duration=0 -next;
+setTransform:{"position":{"x":200,"y":-200},"scale":{"x":0.8,"y":0.8},"alpha":1} -target=uika3 -duration=0 -next;
+setTransform:{"position":{"x":200,"y":-200},"scale":{"x":0.8,"y":0.8},"alpha":1} -target=uika4 -duration=0 -next;
+调整动作表情
+changeFigure:mygo_avemujica_v6/uika/礼服初华/头发/model.json -left -id=uika1 -transform={"position":{"x":200,"y":-200},"scale":{"x":0.8,"y":0.8}} -next -motion=cst_smile01_ingameV2 -expression=cst_chisato_smile01;
+changeFigure:mygo_avemujica_v6/uika/礼服初华/身体/018_live_event_289_urmodel.json -left -id=uika2 -transform={"position":{"x":200,"y":-200},"scale":{"x":0.8,"y":0.8}} -next -motion=cst_smile01_ingameV2 -expression=cst_chisato_smile01;
+changeFigure:mygo_avemujica_v6/uika/礼服初华/脸/model.json -left -id=uika3 -transform={"position":{"x":200,"y":-200},"scale":{"x":0.8,"y":0.8}} -next -motion=cst_smile01_ingameV2 -expression=cst_chisato_smile01;
+changeFigure:mygo_avemujica_v6/uika/礼服初华/手臂_头饰/018_live_event_289_urmodel.json -left -id=uika4 -transform={"position":{"x":200,"y":-200},"scale":{"x":0.8,"y":0.8}}  -motion=cst_smile01_ingameV2 -expression=cst_chisato_smile01;

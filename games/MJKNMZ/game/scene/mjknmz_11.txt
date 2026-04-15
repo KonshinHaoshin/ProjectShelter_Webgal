@@ -376,7 +376,7 @@ playEffect:SE_BladeHitFlesh.mp3 -volume=100;
 女学生:您说，为什么您能够用那么冠冕堂皇的口气说出那么正义凌然的话，又能对我做出这种事情呢？;
 changeBg:Z/Z11/Z1128.webp -next;
 changeFigure:anon/lawyerA/model.json -id=anon -next -motion=mutsumi_sad01 -expression=anon_sad01 -transform={"position":{"x":-708.484,"y":1060.956 },"scale":{"x":0.800,"y":0.800 },"rotation":-0.611 };
-changeFigure:misc/eri/eri_cry.png -id=eri -next -transform={"position":{"x":1600,"y":0.000 },"scale":{"x":1,"y":1 },"rotation":0.000 };
+changeFigure:misc/eri/eri_cry.webp -id=eri -next -transform={"position":{"x":1600,"y":0.000 },"scale":{"x":1,"y":1 },"rotation":0.000 };
 :赶到的保安连忙将咲季子和小雪控制起来，然而此时的爱音已经瘫倒在血泊中，气若游丝。;
 setTransform:{"position":{"x":-400,"y":200 },"scale":{"x":1,"y":1 },"rotation":0.000 } -target=eri -duration=1250 -next;
 :绘里也终于发现了不对劲，跑过来哭着跪在爱音的身旁。她将耳朵凑到爱音的嘴边，去聆听她的遗言，听到的却是一串意义不明的话语。;
@@ -408,7 +408,7 @@ changeFigure:misc/eri/eri_later.webp -id=eri -next -transform={"position":{"x":6
 :除她以外，车内空无一人，只在她身边的副驾驶位上有一个造型浮夸的木质骨灰盒。;
 绘里:爱总……我们马上就要到了。;
 changeBg:Z/Z3/Z301.webp -next;
-changeFigure:misc/misaki.png -id=misaki -next -transform={"position":{"x":-400,"y":0.000 },"scale":{"x":-1,"y":1 },"rotation":0.000 };
+changeFigure:misc/misaki.webp -id=misaki -next -transform={"position":{"x":-400,"y":0.000 },"scale":{"x":-1,"y":1 },"rotation":0.000 };
 :路上没出什么幺蛾子——在新任警长奥泽的努力下，无人区内已经两年没出过恶性犯罪案件了。很快，绘里就抵达了边陲小镇的边检站。;
 奥泽美咲:出示一下护照——好的，通过吧。;
 :绘里向奥泽敬了个礼，奥泽也敬礼回应。随后，绘里驾驶车辆缓缓驶入小镇，停在了“灯红酒绿”中华料理馆门口。;
