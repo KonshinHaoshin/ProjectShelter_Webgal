@@ -1,4 +1,4 @@
-changeBg:角色生活地点/ave mujica/睦家餐厅.png -next;
+changeBg:角色生活地点/ave mujica/睦家餐厅.webp -next;
 :……;
 bgm:In the Doldrums（shi san ji bing）.mp3;
 : 海铃不紧不慢地走到客厅中央，目光平静地扫过神色各异的四人，最终落在沙发区域。;

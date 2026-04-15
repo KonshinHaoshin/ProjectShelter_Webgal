@@ -1,6 +1,6 @@
 changeBg:自然风光/天空（烈日）.webp -next;
 :……;
-changeBg:角色生活地点/ave mujica/祥子大宅外（下午）.png -next;
+changeBg:角色生活地点/ave mujica/祥子大宅外（下午）.webp -next;
 bgm:夜的钢琴曲 9(Av630338906,P1).mp3;
 : 没有人质疑“三角初华”这个名字的正当性。;
 在丰川家这座庞大的机器里，我只是一枚刚刚被嵌入的、无关紧要的齿轮。;
@@ -105,12 +105,12 @@ changeFigure:none -id=uika -next;
 changeBg:演出、排练/其他排练场地/偶像排练室（白天）.webp -next;
 :每一次老师的点头，每一次光崎透在监控室竖起的拇指，每一次老师笑着说“初华今天进步了”。;
 : 这些微小的认可，都像光斑，照亮了我原本灰暗的日常。;
-changeBg:角色生活地点/ave mujica/祥子大宅外（下午）.png -next;
+changeBg:角色生活地点/ave mujica/祥子大宅外（下午）.webp -next;
 :更重要的是，这让我名正言顺地远离了丰川家那些“杂活”。;
 changeBg:ai/初华4/冷库.webp -next;
 : 管家依然会吩咐我去市场验货，但频率明显降低了。;
 : “偶像练习”成了无可指摘的理由。
-changeBg:演出、排练/其他live house/偶像事务所入口.png -next;
+changeBg:演出、排练/其他live house/偶像事务所入口.webp -next;
 : 当我被光崎先生介绍为“正在接受偶像训练的初华小姐”时。;
 : 那些曾经漠然的眼神里，第一次出现了别的东西——好奇，审视，或许还有一丝隐晦的评估。;
 : 我像一件被重新贴上标签的商品。;

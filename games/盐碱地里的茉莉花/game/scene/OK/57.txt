@@ -46,7 +46,7 @@ changeFigure:umiri/event_297_story_01/model.json -id=umiri -transform={"position
 丰川定治: 她比那个贪婪的鼓手更难以捉摸，像一阵偶然吹来的风，却偏偏在关键时刻，成了填补最后一块拼图的“绝杀”。;
 changeFigure: -id=umiri -next;
 石川键: 这正是音乐的魅力所在，不是吗？
-changeBg:角色生活地点/ave mujica/睦家餐厅.png -transform={"blur":10} -next;
+changeBg:角色生活地点/ave mujica/睦家餐厅.webp -transform={"blur":10} -next;
 changeFigure:umiri/casual-2023/model.json -id=umiri -transform={"position":{"x":0,"y":0},"scale":{"x":0.8,"y":0.8},"blur":10} -motion=umiri/nf03 -expression=umiri/default -next;
 changeFigure:nyamu/casual-2023/model.json -id=nyamu -transform={"position":{"x":1000,"y":0},"scale":{"x":0.8,"y":0.8},"blur":10} -motion=nyamu/nf02 -expression=nyamu/smile01 -next;
 changeFigure:uika/casual-2023/model.json -id=uika -transform={"position":{"x":500,"y":0},"scale":{"x":0.8,"y":0.8},"blur":10} -motion=uika/smile01 -expression=uika/smile01 -next;
@@ -60,7 +60,7 @@ changeFigure: -id=uika -next;
 changeFigure: -id=nyamu -next;
 changeFigure: -id=mutsumi -next;
 changeFigure: -id=umiri -next;
-changeBg:演出、排练/Mujica相关/Mujica老登休息室.png;
+changeBg:演出、排练/Mujica相关/Mujica老登休息室.webp;
 丰川定治: 动人的偶然？
 : 定治冷嗤，作为家主，他的话锋猛然一转，变得锐利无比。;
 changeBg:ai/53/10.webp -transform={"blur":10} -next;
@@ -71,7 +71,7 @@ changeBg:演出、排练/Mujica相关/经纪公司外日.webp -transform={"blur"
 changeFigure:uika/sumimi/model.json -id=uika -transform={"position":{"x":500,"y":0},"scale":{"x":0.8,"y":0.8},"blur":10} -motion=uika/smile01 -expression=uika/smile01 -next;
 丰川定治: 乃至初华能“恰好”调动Sumimi的资源……这些，难道也都是“动人的偶然”吗？;
 changeFigure: -id=uika -next;
-changeBg:演出、排练/Mujica相关/Mujica老登休息室.png;
+changeBg:演出、排练/Mujica相关/Mujica老登休息室.webp;
 : 面对这预料之中的连珠质询，石川不慌不忙地走到茶桌前，安然坐下，开始冲泡侍者早已备好的抹茶。;
 : 他的动作流畅如呼吸，带着一种仪式般的宁静。;
 石川键: 定治，这些问题的答案，您与我，心知肚明。;
@@ -92,20 +92,20 @@ bgm:58.67_atmospheric(Av112965072194981,P58).mp3;
 石川键: 您此刻坐在这里，与我谈论这些“缝隙”的初衷，还是为了证明她的“无力”与“天真”吗？
 石川键: 您手握的这些“筹码”，在今晚这无可辩驳的“结果”面前，还具备您所期望的份量吗？;
 : 他在这里稍作停顿，眼神中流露出真实的赞赏，也转入真正的核心议题。;
-changeBg:角色生活地点/ave mujica/睦家外景（黄昏）.png -transform={"blur":10} -next;
+changeBg:角色生活地点/ave mujica/睦家外景（黄昏）.webp -transform={"blur":10} -next;
 石川键: 你我都知道，一切的开始，源于若叶家那场沙龙。;
-changeBg:角色生活地点/hello happy world/快乐国城堡内（夜晚）.png -transform={"blur":10} -next;
+changeBg:角色生活地点/hello happy world/快乐国城堡内（夜晚）.webp -transform={"blur":10} -next;
 changeFigure:sakiko/casual-2023/model.json -next -transform={"position":{"x":0},"scale":{"x":0.8,"y":0.8},"blur":10} -id=sakiko -motion=sakiko/bye01 -expression=sakiko/default;
 石川键: 祥子小姐在即兴演奏中展现的，是被规训的优雅下，压抑不住的、野火般的生命力。;
 石川键: 所以，当您委托我“引导”她时，我接受了。;
 changeFigure: -id=sakiko -next;
-changeBg:演出、排练/Mujica相关/Mujica老登休息室.png;
+changeBg:演出、排练/Mujica相关/Mujica老登休息室.webp;
 : 他放下茶杯，目光平静地看向对方。;
 changeBg:其他背景/钢琴房.webp -transform={"blur":10} -next;
 changeFigure:sakiko/casual-2023/model.json -next -transform={"position":{"x":0},"scale":{"x":0.8,"y":0.8},"blur":10} -id=sakiko -motion=sakiko/nf_left01 -expression=sakiko/default;
 石川键: 但我理解的“引导”，是为她铺设这条“反抗”的道路，一个在您默许边界内，最大限度的自由试炼场。;
 changeFigure: -id=sakiko -next;
-changeBg:演出、排练/Mujica相关/Mujica老登休息室.png;
+changeBg:演出、排练/Mujica相关/Mujica老登休息室.webp;
 丰川定治: 比如，她找来那个叫若麦的网络鼓手。;
 : 家主冷哼，指尖不耐地在桌面敲击。;
 changeBg:ai/82/6.webp -next;
@@ -141,7 +141,7 @@ changeFigure:mutsumi/event_297_story_01/model.json -id=mutsumi -transform={"posi
 石川键: 但在我，以及许多冷眼旁观的人看来，这几乎是……一种悲壮的骑士精神。;
 changeFigure: -id=mutsumi -next;
 石川键: 您知道在旁人眼里，她们像什么吗？;
-changeBg:演出、排练/Mujica相关/Mujica老登休息室.png;
+changeBg:演出、排练/Mujica相关/Mujica老登休息室.webp;
 bgm:mu tou ren（piano）.mp3;
 : 石川的嘴角泛起一丝复杂的笑意。;
 丰川定治: 像一场注定亏损的投资。;
@@ -157,10 +157,10 @@ changeBg:ai/82/9.webp -next;
 changeBg:ai/82/10.webp -next;
 石川键: 但是，当那座雕塑，在某一天，因为骑士长久以来的、笨拙的叩问，终于自己决定走下基座，甚至不惜让体内另一个尖锐的“自己”破壳而出，也要站到骑士身边时——
 石川键: 这份曾经可笑的执着，就变成了一个关于“唤醒”与“救赎”的传说。;
-changeBg:演出、排练/Mujica相关/Mujica老登休息室.png;
+changeBg:演出、排练/Mujica相关/Mujica老登休息室.webp;
 : 他向前微微倾身，目光灼灼地看向家主。;
 石川键: 祥子小姐的乐队组建不顺，她反复邀请睦小姐，在您看来是逼迫。;
-changeBg:角色生活地点/ave mujica/睦家客厅.jpg -transform={"blur":10} -next;
+changeBg:角色生活地点/ave mujica/睦家客厅.webp -transform={"blur":10} -next;
 changeFigure:sakiko/casual-2023/model.json -next -id=sakiko -motion=sakiko/nf_right01 -expression=soyo/serious01 -transform={"position":{"x":-400,"y":0},"scale":{"x":0.8,"y":0.8},"blur":10};
 changeFigure:mutsumi/casual-2023/model.json -next -id=mutsumi -motion=mutsumi/nf01 -expression=mutsumi/sad01 -transform={"position":{"x":400,"y":0},"scale":{"x":0.8,"y":0.8},"blur":10};
 石川键: 但您是否想过，那或许是她一种扭曲的求救和确认？;
@@ -169,7 +169,7 @@ changeFigure:sakiko/casual-2023/model.json -id=sakiko -transform={"position":{"x
 changeFigure: -id=sakiko -next;
 changeFigure: -id=mutsumi;
 石川键: 而睦小姐，她并非没有回应。;
-changeBg:角色生活地点/ave mujica/睦家餐厅.png -transform={"blur":10} -next;
+changeBg:角色生活地点/ave mujica/睦家餐厅.webp -transform={"blur":10} -next;
 changeFigure:sakiko/casual-2023/model.json -id=sakiko -transform={"position":{"x":-500,"y":0},"scale":{"x":0.8,"y":0.8},"blur":10} -motion=sakiko/kime01 -expression=sakiko/surprised01 -next;
 changeFigure:mutsumi/casual-2023/model.json -id=mutsumi -transform={"position":{"x":500,"y":0},"scale":{"x":0.8,"y":0.8},"blur":10} -motion=soyo/nf05 -expression=mutsumi/smile01 -next;
 石川键: 她的沉默、她的纠结、她最终在她的家中做出了自己的选择……
@@ -181,7 +181,7 @@ changeFigure:mutsumi/casual-2023/model.json -id=mutsumi -transform={"position":{
 石川键: 祥子小姐从睦身上看到了被家族束缚的另一个自己，而睦小姐则从祥子那里，获得了打破枷锁的最初勇气。;
 changeFigure: -id=sakiko -next;
 changeFigure: -id=mutsumi -next;
-changeBg:演出、排练/Mujica相关/Mujica老登休息室.png;
+changeBg:演出、排练/Mujica相关/Mujica老登休息室.webp;
 : 他略微停顿，目光变得悠远，仿佛在回忆某个古老的箴言。;
 石川键: 这让我想起一个古老的寓言。;
 changeBg:ai/82/11.webp -next;
@@ -193,7 +193,7 @@ changeBg:ai/82/12.webp -next;
 石川键: 它带来的不是修复，而是决绝的破碎与重构。它会用最尖锐的声音说话，会撕裂所有精心维持的假象。;
 changeBg:ai/82/13.webp -next;
 石川键: 在旁观者看来，这无疑是毁灭；但对瓷器自身而言，这或许是它唯一能发出的、属于自己的声音。;
-changeBg:演出、排练/Mujica相关/Mujica老登休息室.png;
+changeBg:演出、排练/Mujica相关/Mujica老登休息室.webp;
 : 他的目光回到家主身上，带着洞察的清明。;
 石川键: 在我看来，祥子小姐持续的“需要”，就是那最后的、过重的敲击。;
 石川键: 而睦小姐最终的回应，便像是那道“古老智慧”的显现——那不是她平日的沉默。;
@@ -214,7 +214,7 @@ changeBg:ai/81/5.webp -transform={"blur":10} -next;
 石川键: 而睦小姐能走出那一步，也正是因为这份“相信”终究没有落空。;
 石川键: 这份在算计与背叛的泥沼中，依然顽强开出的扭曲之花，或许不够美好，但其生命力本身，就足以撼动所有旁观者的心。;
 石川键: 这，就是她们独一无二的魅力所在。;
-changeBg:演出、排练/Mujica相关/Mujica老登休息室.png;
+changeBg:演出、排练/Mujica相关/Mujica老登休息室.webp;
 : 石川的话音在休息室里回荡。;
 : 家主沉默着，脸上惯常的冰冷表情出现了一丝细微的裂痕。;
 : 他或许依旧无法理解，但石川的话语，至少让他看到了水面下那复杂而汹涌的暗流。;
@@ -280,7 +280,7 @@ changeBg:演出、排练/Mujica相关/G：wave大厅.webp -next;
 : 散场时，场馆后台的混乱通道中，石川先生在无人角落停下。;
 拿出手机，屏幕的光映亮他平静的脸庞。;
 : 他点开那个熟悉的联系方式，输入了一段话：
-changeFigure:liao tian dui hua/82-83/1.png;
+changeFigure:liao tian dui hua/82-83/1.webp;
 :“演出终会散场，但凭实力赢得的舞台，永不落幕。你已毕业，未来的乐章，由你亲自谱写。”;
 changeFigure:none;
 : 他没有等待回复，便将手机收起，身影悄无声息地汇入离场的人流，如同一个完成了最终演出的乐手，从容退场。;

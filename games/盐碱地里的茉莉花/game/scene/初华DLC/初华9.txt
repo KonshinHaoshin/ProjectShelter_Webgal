@@ -1,6 +1,6 @@
 changeBg:自然风光/天空（放晴）.webp -next;
 :……;
-changeBg:角色生活地点/ave mujica/初华家外（白天）.png -next;
+changeBg:角色生活地点/ave mujica/初华家外（白天）.webp -next;
 bgm:42.45_serious_3(Av112965072194981,P42).mp3;
 : 我得到了“姓名”。;
 : “三角初华”——这个名字，如今不再是借来的外壳，不再是悬在头顶的达摩克利斯之剑。;
@@ -9,7 +9,7 @@ bgm:42.45_serious_3(Av112965072194981,P42).mp3;
 : 我感谢那些在阴差阳错中推动这一切的人，无论是出于善意、算计，还是某种我无法完全理解的复杂情感。;
 : 至少，我终于可以不再像阴影里的窃贼，终日惶惶于身份被戳穿的瞬间。;
 : 我可以挺直脊背，以“三角初华”之名，站在阳光之下，站在舞台之上。;
-changeBg:角色生活地点/ave mujica/初华岛家外（阴天）.jpg -next;
+changeBg:角色生活地点/ave mujica/初华岛家外（阴天）.webp -next;
 : 可是内心那座关于“故乡”的牢笼，却越发清晰地显露出它冰冷的栅栏。;
 : 那个遥远的海岛，那个真正的“初华”，还有那个我几乎快要遗忘的、属于渔村女孩“初音”的过去……我该如何面对？;
 : 回去吗？以何种面目？说些什么？;
@@ -200,7 +200,7 @@ changeBg:ai/初华9/齿轮.webp -next;
 changeBg:未分类/bg00441.webp -next;
 三角初华: 我…… -id -figureId=uika;
 : 我脑海中瞬间闪过无数画面。
-changeBg:演出、排练/其他演出场地/公园舞台-大（晚上）.png -next;
+changeBg:演出、排练/其他演出场地/公园舞台-大（晚上）.webp -next;
 changeFigure:uika/sumimi/model.json -id=uika -transform={"position":{"x":-400,"y":0},"scale":{"x":0.8,"y":0.8}} -motion=uika/nf05 -expression=uika/smile01 -next;
 changeFigure:mana/sumimi/model.json -id=mana -transform={"position":{"x":400,"y":0},"scale":{"x":0.8,"y":0.8}} -motion=mana/smile01 -expression=mana/smile02 -next;
 sumimi的舞台上，真奈主唱时，我在一旁的和声与吉他伴奏。;
@@ -317,7 +317,7 @@ changeBg:ai/初华9/释然.webp -next;
 : 一种模糊的、关于“方向”的感知，以及一份沉重的、却开始被理解的“接纳”。;
 changeBg:自然风光/星空.webp -next;
 :……;
-changeBg:角色生活地点/ave mujica/祥子大宅外（下午）.png;
+changeBg:角色生活地点/ave mujica/祥子大宅外（下午）.webp;
 changeBg:ai/初华9/书房.webp -next;
 bgm:56.63_longing(Av112965072194981,P56).mp3;
 三角初华: 我知道这个请求或许有些强人所难，甚至可能带来不愉快的结果。
@@ -390,7 +390,7 @@ changeFigure:uika/casual-2023/model.json -id=uika -transform={"position":{"x":0,
 changeFigure:uika/casual-2023/model.json -id=uika -transform={"position":{"x":0,"y":0},"scale":{"x":0.8,"y":0.8}} -motion=uika/nf02 -expression=uika/smile01 -next;
 三角初华: 我该出发了，去赴约。 -id -figureId=uika;
 changeFigure:none -id=uika -next;
-changeBg:角色生活地点/ave mujica/祥子大宅外（黄昏）.jpg -next;
+changeBg:角色生活地点/ave mujica/祥子大宅外（黄昏）.webp -next;
 :……;
 changeBg:ai/初华9/车内夜景.webp -next;
 : 车窗外的城市霓虹流淌成河，我望着街景，思绪有些飘散。;

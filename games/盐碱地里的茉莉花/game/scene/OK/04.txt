@@ -360,9 +360,9 @@ changeFigure:soyo/school_summer-2023/model.json -next -id=soyo -motion=soyo/nnf_
 长崎素世: 那……小祥，你……能解除对我的屏蔽吗？这样，我们才能方便沟通吧！ -id -figureId=soyo;
 changeFigure:sakiko/school_summer-2023/model.json -next -id=sakiko -motion=sakiko/nf_left01 -expression=sakiko/default;
 丰川祥子: 嗯。 -id -figureId=sakiko;
-changeFigure:liao tian dui hua/8/1.png -next;
+changeFigure:liao tian dui hua/8/1.webp -next;
 : 祥子拿出了手机，在屏幕上操作了几下后，给素世发出了一条意义不明的短信：重归于好。;
-changeFigure:liao tian dui hua/8/2.png -next;
+changeFigure:liao tian dui hua/8/2.webp -next;
 : 素世也掏出了手机，发出了一条信息给祥子：谢谢你！;
 changeFigure:none;
 changeFigure:sakiko/school_summer-2023/model.json -next -id=sakiko -motion=sakiko/thinking01 -expression=sakiko/thinking01;
@@ -388,7 +388,7 @@ changeFigure:none -id=sakiko -motion=sakiko/nf_right01 -expression=sakiko/defaul
 : 她也忽略了，桌上那两杯摩卡，一杯被她加了过多糖而甜腻地喝完。;
 : 另一杯，从始至终，祥子连碰都没有碰一下。;
 changeFigure:none -id=soyo;
-changeBg:路边/街道5（黄昏）.png;
+changeBg:路边/街道5（黄昏）.webp;
 changeFigure:sakiko/school_summer-2023/model.json -id=sakiko -transform={"position":{"x":600,"y":0},"scale":{"x":0.8,"y":0.8}} -motion=sakiko/thinking01 -expression=sakiko/smile01 -next;
 : 祥子结完账，走出咖啡馆，傍晚的风吹起她的发丝。;
 : 她拿出手机，看着那个刚刚重新加回来的联系人，嘴角勾起一抹冷笑。;
@@ -426,7 +426,7 @@ changeFigure:anon/school_summer-2023/model.json -id=anon -transform={"position":
 : 爱音快速站起身，三步并作两步，走到了自己的橡皮面前，她几乎是逃离般地抓起橡皮。;
 : 手忙脚乱地放回到自己的课桌上后，迅速躲进卫生间。;
 setTransform:{"position":{"x":0,"y":0},"scale":{"x":0.8,"y":0.8},"alpha":0} -target=anon -duration=1000 -next;
-changeBg:学校、工作/羽丘/羽丘走廊（白天）.png;
+changeBg:学校、工作/羽丘/羽丘走廊（白天）.webp;
 : 步伐有些紧张无序，她刻意的回避自己的前桌，像是保护自己，也像是在逃避自己的问题。;
 : 冰冷的水拍在脸上，稍稍压下了翻涌的情绪。镜子里那张强颜欢笑的脸让她感到陌生。;
 setTransform:{"position":{"x":-600,"y":0},"scale":{"x":0.8,"y":0.8},"alpha":1} -duration=1000 -target=anon;

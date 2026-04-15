@@ -366,7 +366,7 @@ changeFigure:soyo/casual-2023/model.json -next -id=soyo -motion=taki/thinking01 
 长崎素世: 她来这里干嘛？ -id -figureId=soyo;
 changeFigure: -next -id=soyo;
 changeFigure:none -next -id=anon;
-changeBg:ai/53/4.png;
+changeBg:ai/53/4.webp;
 : 素世刚刚说出口，就看到出租车开走后，露出了被出租车挡住的管家。;
 changeBg:ai/49/6.webp -next;
 changeFigure:soyo/casual-2023/model.json -next -id=soyo -motion=soyo/surprised01 -expression=soyo/surprised01 -transform={"position":{"x":-500},"scale":{"x":0.8,"y":0.8}};

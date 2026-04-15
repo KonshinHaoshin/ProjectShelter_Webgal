@@ -263,7 +263,7 @@ changeFigure:uika/school_summer-2023/model.json -next -id=uika -motion=uika/nf02
 :初华还没反应过来，凭着本能回答道，跟着海铃走出了教室去往了操场。 -notend;
 changeFigure: -next -id=umiri;
 changeFigure: -next -id=uika;
-changeBg:学校、工作/花咲川/花咲川校门（白天）.png;
+changeBg:学校、工作/花咲川/花咲川校门（白天）.webp;
 bgm:41.44_evening(Av112965072194981,P41).mp3;
 playEffect:shou huo ji1.mp3 -id=shouhuoji;
 changeFigure:umiri/school_summer-2023/model.json -next -id=umiri -motion=umiri/nf_right01 -expression=umiri/default -transform={"position":{"x":-600,"y":0},"scale":{"x":0.8,"y":0.8}};
@@ -301,7 +301,7 @@ changeFigure:uika/school_summer-2023/model.json -next -id=uika -motion=umiri/thi
 三角初华: 我不觉得祥子在骗我，但是我担心祥子会走她们这个乐队曾经的路…… -id -figureId=uika;
 changeFigure:umiri/school_summer-2023/model.json -next -id=umiri -motion=umiri/nf03 -expression=umiri/default -transform={"position":{"x":-600,"y":0},"scale":{"x":0.8,"y":0.8}};
 八幡海铃: 这个问题我确实不会回答。 -id -figureId=umiri;
-changeBg:学校、工作/花咲川/花咲川校门（白天）.png;
+changeBg:学校、工作/花咲川/花咲川校门（白天）.webp;
 : 海铃喝光了手上饮料的最后一口，把罐子丢向了垃圾箱，精准命中。;
 changeFigure:umiri/school_summer-2023/model.json -next -id=umiri -motion=umiri/nf01 -expression=umiri/default -transform={"position":{"x":-600,"y":0},"scale":{"x":0.8,"y":0.8}};
 八幡海铃: 我能提供给你的经验就是：在我这么多乐队里，能走下去的乐队千奇百怪，但走不下去的乐队却殊途同归。 -id -figureId=umiri;
@@ -332,7 +332,7 @@ changeFigure:uika/school_summer-2023/model.json -next -id=uika -motion=uika/nf01
 三角初华: 月之森的摊位吗……不知道能不能见到她们，也希望祥子能告诉我，她到底有什么想法吧…… -id -figureId=uika;
 :微风徐来，操场上的树叶稀稀拉拉的响起，如同一场即兴表演的手风琴演奏，风吹到脸上，让人放松。 -notend;
 changeFigure:none -id=uika;
-changeBg:角色生活地点/ave mujica/初华家客厅（夜晚）.png -next;
+changeBg:角色生活地点/ave mujica/初华家客厅（夜晚）.webp -next;
 bgm:71.afterglow_08(True Color)(Av112965072194981,P71).mp3;
 :……;
 changeFigure:uika/casual-2023_nocap/model.json -next -id=uika -motion=uika/sad01 -expression=uika/sad01 -transform={"position":{"x":600,"y":0},"scale":{"x":0.8,"y":0.8}};

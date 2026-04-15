@@ -13,7 +13,7 @@ changeFigure:sakiko/casual-2023/model.json -id=sakiko -transform={"position":{"x
 : 她的手指下意识地绞紧了衣角——这是她紧张时的小动作，但在外人面前她从来都会克制。;
 : 此刻的失态显露出内心的剧烈动摇。;
 墨提斯: 你如果觉得不是，大可以问问她们。 -id -figureId=mortis;
-changeBg:角色生活地点/ave mujica/睦家餐厅.png -next;
+changeBg:角色生活地点/ave mujica/睦家餐厅.webp -next;
 changeFigure:none -id=nyamu -next;
 changeFigure:none -id=sakiko -next;
 :墨提斯笑了笑，打开了灯。;
@@ -44,7 +44,7 @@ changeBg:ai/66/16.webp -transform={"blur":10} -next;
 : 这一刻，祥子恍惚间回到了Crychic解散后那段混乱的日子。;
 changeBg:ai/67/0.webp -next;
 : 她记得自己一次次找到睦，用近乎哀求却又带着命令的语气：
-changeBg:角色生活地点/ave mujica/睦家外景（黄昏）.png -transform={"blur":10} -next;
+changeBg:角色生活地点/ave mujica/睦家外景（黄昏）.webp -transform={"blur":10} -next;
 changeFigure:mutsumi/casual-2023/model.json -id=mutsumi -transform={"position":{"x":500},"scale":{"x":0.8,"y":0.8},"blur":10} -motion=mutsumi/nf02 -expression=mutsumi/sad01 -zIndex=2 -next;
 changeFigure:sakiko/casual-2023/model.json -id=sakiko -transform={"position":{"x":-500},"scale":{"x":0.8,"y":0.8},"blur":10} -motion=sakiko/cry04 -expression=sakiko/cry04 -next;
 丰川祥子: 只有你能理解我，睦……帮帮我，别让其他人知道真相…… -id -figureId=sakiko;
@@ -52,7 +52,7 @@ changeFigure:sakiko/casual-2023/model.json -id=sakiko -transform={"position":{"x
 : 那些精心编排的台词，如今想来何其讽刺。;
 changeFigure:none -id=mutsumi -next;
 changeFigure:none -id=sakiko -next;
-changeBg:角色生活地点/ave mujica/睦家餐厅.png;
+changeBg:角色生活地点/ave mujica/睦家餐厅.webp;
 bgm:Comptine d'un autre été, l'après-midi.MP3;
 changeFigure: mortis/casual-2023/model.json -id=mortis -transform={"position":{"x":500,"y":0},"scale":{"x":0.8,"y":0.8}} -motion=anon/smile03 -expression=mana/smile02 -next;
 墨提斯: 哦？包括这份合同吗？ -id -figureId=mortis;
@@ -282,7 +282,7 @@ changeBg:ai/67/1.webp -next;
 bgm:none;
 changeBg:ai/67/2.webp -next;
 “姐姐杀死了我的鸟，我却不敢问为什么。”;
-changeBg:角色生活地点/ave mujica/睦家餐厅.png -next;
+changeBg:角色生活地点/ave mujica/睦家餐厅.webp -next;
 bgm:yue guang zou ming qu ( di san yue zhang）.MP3;
 : 客厅里瞬间死寂。;
 changeFigure:uika/casual-2023/model.json -id=uika -transform={"position":{"x":-500,"y":0},"scale":{"x":0.8,"y":0.8}} -motion=uika/surprised01 -expression=uika/surprised01 -next;
@@ -346,13 +346,13 @@ changeFigure:sakiko/casual-2023/model.json -id=sakiko -transform={"position":{"x
 : 脑海中，那些她刻意忽略的画面不受控制地翻涌上来——
 changeFigure: -id=mortis -next;
 changeFigure: -id=sakiko -next;
-changeBg:角色生活地点/ave mujica/睦家客厅.jpg -transform={"blur":10};
+changeBg:角色生活地点/ave mujica/睦家客厅.webp -transform={"blur":10};
 changeFigure:sakiko/casual-2023/model.json -id=sakiko -transform={"position":{"x":-400,"y":0},"scale":{"x":0.8,"y":0.8},"blur":10} -motion=sakiko/nf_right01 -expression=soyo/serious01 -next;
 changeFigure:mutsumi/casual-2023/model.json -id=mutsumi -transform={"position":{"x":400,"y":0},"scale":{"x":0.8,"y":0.8},"blur":10} -motion=mutsumi/nf01 -expression=mutsumi/sad01 -next;
 : 她对睦沉默的默许与利用。;
 changeFigure: -id=mutsumi -next;
 changeFigure: -id=sakiko;
-changeBg:ai/28/xi liu.png -transform={"blur":10} -next;
+changeBg:ai/28/xi liu.webp -transform={"blur":10} -next;
 changeFigure:sakiko/casual-2023/model.json -id=sakiko -transform={"position":{"x":-400,"y":0},"scale":{"x":0.8,"y":0.8},"blur":10} -motion=tomori/c_d3/thinking01 -expression=sakiko/serious01 -next;
 changeFigure:uika/casual-2023/model.json -id=uika -transform={"position":{"x":400,"y":0},"scale":{"x":0.8,"y":0.8},"blur":10} -motion=uika/sad01 -expression=uika/sad01 -next;
 : 对初华近乎偏执的依赖与索取。;
@@ -370,7 +370,7 @@ changeFigure:sakiko/casual-2023/model.json -id=sakiko -transform={"position":{"x
 : 对素世那近乎刻毒的“审判”……
 changeFigure:none -id=soyo -next;
 changeFigure: -id=sakiko -next;
-changeBg:角色生活地点/ave mujica/睦家餐厅.png;
+changeBg:角色生活地点/ave mujica/睦家餐厅.webp;
 : 每一幕，此刻都被墨提斯的话语赋予了全新的、令人不寒而栗的注解。;
 changeFigure:sakiko/casual-2023/model.json -id=sakiko -transform={"position":{"x":0,"y":0},"scale":{"x":0.8,"y":0.8}} -motion=sakiko/nf01 -expression=sakiko/surprised02 -next;
 丰川祥子: 我不是……我不是他们…… -id -figureId=sakiko;
@@ -418,7 +418,7 @@ changeFigure:sakiko/casual-2023/model.json -id=sakiko -transform={"position":{"x
 : 她的理想，她的坚持，她所有的挣扎与努力，在这一刻都被彻底否定。;
 : 她不仅没能逃离那个世界的规则，反而成为了它最可悲的复制品。;
 changeFigure:none -id=sakiko -next;
-changeBg:角色生活地点/ave mujica/睦家餐厅.png;
+changeBg:角色生活地点/ave mujica/睦家餐厅.webp;
 : 在场的所有人都屏住了呼吸。;
 changeFigure:nyamu/casual-2023/model.json -id=nyamu -transform={"position":{"x":500,"y":0},"scale":{"x":0.8,"y":0.8}} -motion=nyamu/nf01 -expression=nyamu/surprised01 -next;
 : 若麦收起了玩味的表情。;
@@ -465,7 +465,7 @@ changeBg:演出、排练/CiRCLE/CiRCLE休息室.webp -transform={"blur":10} -nex
 changeFigure:mana/sumimi/model.json -id=mana -transform={"position":{"x":0},"scale":{"x":0.8,"y":0.8},"blur":10} -motion=sakiko/serious02 -expression=mana/default -next;
 : 初华想起了真奈的提示，要追随自己真实的想法……;
 changeFigure: -id=mana -next;
-changeBg:角色生活地点/ave mujica/睦家餐厅.png;
+changeBg:角色生活地点/ave mujica/睦家餐厅.webp;
 changeFigure:uika/casual-2023/model.json -id=uika -transform={"position":{"x":-500,"y":0},"scale":{"x":0.8,"y":0.8}} -motion=uika/nf_right01 -expression=uika/angry01 -next;
 : 初华看着祥子，好像从不真正认识眼前的这个人。;
 changeFigure:sakiko/casual-2023/model.json -id=sakiko -transform={"position":{"x":0,"y":0},"scale":{"x":0.8,"y":0.8}} -motion=sakiko/cry01 -expression=sakiko/cry04 -next;

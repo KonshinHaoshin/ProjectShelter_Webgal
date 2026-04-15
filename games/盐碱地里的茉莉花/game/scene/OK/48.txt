@@ -3,7 +3,7 @@ changeBg:自然风光/天空（烈日）.webp -next;
 changeBg:演出、排练/CiRCLE/CiRCLE门口（白天）.webp -next;
 bgm:04_Nobiri(Av112965072194981,P11).mp3;
 : 经过数次在CiRCLE排练室的磨合，祥子终于履行承诺，带领重整旗鼓的Mujica再次踏入了总监的录音棚。;
-changeBg:ai/28/pai lian shi.png -next;
+changeBg:ai/28/pai lian shi.webp -next;
 : 这一次，队伍的氛围与以往截然不同。;
 changeFigure:umiri/casual-2023/model.json -id=umiri -transform={"position":{"x":-500,"y":0},"scale":{"x":0.8,"y":0.8}} -motion=umiri/nf05 -expression=umiri/smile01 -next;
 changeFigure:uika/casual-2023/model.json -id=uika -transform={"position":{"x":500,"y":0},"scale":{"x":0.8,"y":0.8}} -motion=uika/nf03 -expression=uika/smile01 -next;
@@ -128,7 +128,7 @@ changeFigure:nyamu/casual-2023/model.json -id=nyamu -transform={"position":{"x":
 祐天寺若麦: 喂！你等等我呀！ -id -figureId=nyamu;
 : 若麦没想到她说走就走，只好快步跟上。;
 changeFigure: -id=nyamu;
-changeBg:公园/公园1（白天）.png;
+changeBg:公园/公园1（白天）.webp;
 : 穿过几条热闹的街道，拐进一个略显僻静的广场角落，一阵充满原始活力的摇滚乐扑面而来。;
 几个年轻人正投入地演奏着，周围零星聚集着一些被音乐吸引、随之轻轻摇摆的路人。;
 吉他手: 呦！海铃，我都以为你不来了呢！
@@ -275,7 +275,7 @@ changeFigure:nyamu/casual-2023/model.json -id=nyamu -transform={"position":{"x":
 : 若麦忍不住笑骂，但心里却无法反驳。;
 changeFigure:none -id=nyamu -next;
 changeFigure:none -id=umiri -next;
-changeBg:路边/街道5（晚上）.png;
+changeBg:路边/街道5（晚上）.webp;
 bgm:ave mujica-(07)xiao xiao de xing fu.mp3;
 : 走到公交站台，海铃停下脚步，看了看站牌。;
 changeFigure:umiri/casual-2023/model.json -id=umiri -transform={"position":{"x":500,"y":0},"scale":{"x":0.8,"y":0.8}} -motion=umiri/nf_left01 -expression=umiri/default -next;

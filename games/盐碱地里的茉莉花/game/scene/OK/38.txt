@@ -1,4 +1,4 @@
-changeBg:角色生活地点/ave mujica/喵梦家内.png -next;
+changeBg:角色生活地点/ave mujica/喵梦家内.webp -next;
 :……;
 bgm:41.44_evening(Av112965072194981,P41).mp3;
 : 若麦最近很烦。;
@@ -186,7 +186,7 @@ changeFigure:nyamu/casual-2023/model.json -next -id=nyamu -motion=rana/nf_left01
 changeFigure:none -next -id=nyamu;
 changeFigure:none -next -id=rana;
 bgm:07_Comedy(Av112965072194981,P14).mp3;
-changeFigure:liao tian dui hua/60/1.png;
+changeFigure:liao tian dui hua/60/1.webp;
 changeFigure: -next;
 changeFigure:rana/casual-2023/model.json -next -id=rana -motion=rana/smile04 -expression=rana/smile01 -transform={"position":{"x":-700},"scale":{"x":0.8,"y":0.8}};
 要乐奈: 给你。 -id -figureId=rana;

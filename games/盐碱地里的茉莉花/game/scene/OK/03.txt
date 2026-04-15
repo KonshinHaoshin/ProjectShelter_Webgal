@@ -3,7 +3,7 @@ changeBg:自然风光/天空（白天）.webp -next;
 bgm:19.13_Shittori(Av112965072194981,P19).mp3;
 :生活和学校的日子还在继续，不会因为一场糟糕的变故而停下。;
 :就像日出不会被下雨打断，河流不会因为几块石头的阻拦而停止流动，时间不会为谁的崩溃而停留。;
-changeBg:学校、工作/花咲川/花咲川校门（白天）.png;
+changeBg:学校、工作/花咲川/花咲川校门（白天）.webp;
 :翌日，花咲川学园。;
 playEffect:shou huo ji1.mp3 -id=shouhuoji;
 changeFigure:umiri/school_summer-2023/model.json -next -id=umiri -transform={"position":{"x":-600,"y":0},"scale":{"x":0.8,"y":0.8}} -motion=umiri/nf_right01 -expression=umiri/default;
@@ -38,7 +38,7 @@ changeFigure:taki/school_summer-2023/model.json -next -id=taki -motion=taki/angr
 :立希一边说着，一边烦躁地将空罐扔进垃圾桶。;
 changeFigure:none -id=taki;
 :烈日当空，初夏的太阳平等的照耀着每一个生物，花咲川门口在春季种植的紫藤花迎来了它的花季，无声的盛开着。;
-changeBg:学校、工作/月之森/月之森花园（白天）.png;
+changeBg:学校、工作/月之森/月之森花园（白天）.webp;
 :另一边，月之森学园，温室里弥漫着泥土和植物的清新气息。;
 playEffect:jiao shui sheng.mp3 -id=jiaoshui;
 月之森学生A:素世同学这两天又请假了呢。;
@@ -53,11 +53,11 @@ changeFigure:mutsumi/school_summer-2023/model.json -next -id=mutsumi -transform=
 :素世再次请假，睦即使再迟钝，也明白一定又发生了什么事。但她无从知晓，也无从问起。;
 :她只是沉默地浇着水，仿佛照料好这些植物就能让外界的一切混乱归于有序。;
 changeFigure:none -id=mutsumi;
-changeBg:学校、工作/羽丘/羽丘走廊（白天）.png;
+changeBg:学校、工作/羽丘/羽丘走廊（白天）.webp;
 :稀疏平常的放学时间，学生稀稀拉拉的往校外和社团的活动场地走去，所有人都有要忙的事情。;
 :羽丘学园天文社，曾经断断续续的吉他声彻底消失。;
 :有些学生会偶然路过那里，只见到一个紫灰色短发女生坐在那里，对着笔记本涂涂改改。;
-changeBg:学校、工作/羽丘/羽丘天文部（白天）.png;
+changeBg:学校、工作/羽丘/羽丘天文部（白天）.webp;
 changeFigure:tomori/school_summer-2023/model.json -next -id=tomori -motion=tomori/nf_right01 -expression=tomori/default -transform={"position":{"x":-600,"y":0},"scale":{"x":0.8,"y":0.8}};
 :阳光将她的身影拉得很长，显得格外孤单。而另一位粉毛长发女生却不知为何，再也没有和她出现在天文社的房间里。;
 changeFigure:none -id=tomori;
@@ -77,7 +77,7 @@ changeFigure:anon/school_summer-2023/model.json -next -id=anon -motion=anon/thin
 :同学走出了教室去呼喊她其他的朋友了，留下爱音在班级门口等待着那位同学回来。;
 changeFigure:anon/school_summer-2023/model.json -next -id=anon -motion=anon/smile03 -expression=anon/sad01;
 千早爱音:群聊，还是不要退出吧…… -id -figureId=anon;
-changeFigure:liao tian dui hua/3/1.png -next;
+changeFigure:liao tian dui hua/3/1.webp -next;
 :爱音看了看聊天信息，乐队群聊的最新消息停留在上次集训前的两个小时，是立希发出的。;
 changeFigure:none -next;
 :之后，这个群聊就再也没有新的消息。爱音无数次想在群聊中询问其他人到底怎么样了。;
@@ -186,8 +186,8 @@ changeFigure:sakiko/school_summer-2023/model.json -next -id=sakiko -motion=sakik
 :她快步离开。叹了口气，祥子快步走向地铁站。;
 changeFigure:none -id=sakiko;
 :……
-changeBg:角色生活地点/mygo/素世家大楼（黄昏）.png;
-changeBg:角色生活地点/mygo/素世的房间（白天）.jpg;
+changeBg:角色生活地点/mygo/素世家大楼（黄昏）.webp;
+changeBg:角色生活地点/mygo/素世的房间（白天）.webp;
 :四十五层高楼，素世的房间。;
 changeFigure:soyo/casual-2023/model.json -next -id=soyo -transform={"position":{"x":600,"y":0},"scale":{"x":0.8,"y":0.8}} -motion=soyo/nf04 -expression=soyo/sad01;
 :两天的请假，素世不再像以往那样沉浸在崩溃或是对祥子的信息轰炸中。;
@@ -206,7 +206,7 @@ changeBg:演出、排练/RiNG/RiNG门口（黄昏）.webp -transform={"position"
 changeFigure:umiri/casual-2023/model.json -next -id=umiri -motion=umiri/nf05 -transform={"position":{"x":-600,"y":0},"scale":{"x":0.8,"y":0.8},"blur":10};
 八幡海铃:这个乐队并不是没有希望了，只要贝斯手能回来或者跟她们沟通好，我还是觉得这个乐队能继续下去的。;
 changeFigure:none -id=umiri;
-changeBg:角色生活地点/mygo/素世的房间（白天）.jpg;
+changeBg:角色生活地点/mygo/素世的房间（白天）.webp;
 :沟通。;
 changeFigure:soyo/casual-2023/model.json -next -id=soyo -transform={"position":{"x":600,"y":0},"scale":{"x":0.8,"y":0.8}} -motion=soyo/thinking01 -expression=soyo/surprised01;
 :这个词像一道闪电，劈开了混沌的迷雾！素世茅塞顿开，她好像终于明白了自己到底做错了什么。;
@@ -233,7 +233,7 @@ changeFigure:none -id=soyo;
 changeBg:路边/街道5（晚上）.webp -next;
 :……
 :窗外的城市华灯初上，霓虹闪烁，却照不亮每个人心底幽深的角落。;
-changeBg:角色生活地点/ave mujica/祥子三叠半（夜晚关灯）.jpg;
+changeBg:角色生活地点/ave mujica/祥子三叠半（夜晚关灯）.webp;
 changeFigure:sakiko/casual-2023/model.json -next -id=sakiko -transform={"position":{"x":600,"y":0},"scale":{"x":0.8,"y":0.8}} -motion=sakiko/serious01;
 :祥子拖着疲惫的身躯回到狭小混乱的出租屋，看着醉醺醺的父亲和满目狼藉还有曾经的家里寄来的钱以及连带门口信箱的一封信。;
 :叹了口气，默默系上围裙开始打扫，现实的沉重压得她几乎喘不过气。;
@@ -242,7 +242,7 @@ changeFigure:sakiko/casual-2023/model.json -id=sakiko -transform={"position":{"x
 :祥子系好了围裙，开始打扫起了卫生，她不知道这样的生活什么时候才能改善。：
 :忙完之后，她只能草草地洗个热水澡，准备好上床睡觉。;
 changeFigure: -id=sakiko -next;
-changeBg:路边/街道1（夏季晚上）.png;
+changeBg:路边/街道1（夏季晚上）.webp;
 changeFigure:anon/school_summer-2023/model.json -next -id=anon -transform={"position":{"x":-600,"y":0},"scale":{"x":0.8,"y":0.8}} -motion=anon/nf01 -expression=anon/smile01;
 :而在城市的另一端，爱音喝着新品奶茶。;
 changeFigure:anon/school_summer-2023/model.json -next -id=anon -transform={"position":{"x":-600,"y":0},"scale":{"x":0.8,"y":0.8}} -motion=anon/nf02 -expression=anon/sad01;
@@ -251,17 +251,17 @@ changeFigure: -id=anon -next;
 :希望的幼苗在素世心中萌发，她却不知道，她所想到的方法，从一开始，就注定是一场新的偏差。;
 changeBg:自然风光/天空（晚上）.webp -next;
 :……
-changeBg:学校、工作/月之森/月之森校门（白天）.png;
+changeBg:学校、工作/月之森/月之森校门（白天）.webp;
 bgm:15.08_Sad(Av112965072194981,P15).mp3;
 :月之森学园的放学铃声，以往总能给长崎素世带来一丝优雅的从容。;
 changeFigure:soyo/school_summer-2023/model.json -next -id=soyo -transform={"position":{"x":-600,"y":0},"scale":{"x":0.8,"y":0.8}} -motion=soyo/nf01 -expression=soyo/sad01;
 :但如今，却只象是一声无力的叹息，宣告着又一天伪装努力的结束。;
 :她随着人流走出校门，步伐却不带方向感，仿佛一具被无形丝线牵引着的人偶，朝着那个称之为家的华丽牢笼走去。;
-changeBg:路边/街道5（白天）.png;
-changeBg:角色生活地点/mygo/素世家一楼大堂（白天）.png;
+changeBg:路边/街道5（白天）.webp;
+changeBg:角色生活地点/mygo/素世家一楼大堂（白天）.webp;
 playEffect:mu meng kai guan3.mp3 -id=kaiguanmen;
 :鞋跟敲击着光滑的走廊地面，发出空洞的回响。她推开家门，习惯性地轻声说道：
-changeBg:角色生活地点/mygo/素世家客厅（白天）.png;
+changeBg:角色生活地点/mygo/素世家客厅（白天）.webp;
 changeFigure:soyo/school_summer-2023/model.json -next -id=soyo -transform={"position":{"x":-600,"y":0},"scale":{"x":0.8,"y":0.8}} -motion=soyo/nf05;
 长崎素世:我回来了。 -id -figureId=soyo;
 playEffect:none -id=kaiguanmen;
@@ -333,7 +333,7 @@ changeFigure:soyo/school_summer-2023/model.json -next -id=soyo -transform={"posi
 playEffect:running mu di ban.mp3 -id=mudiban;
 setTransform:{"position":{"x":0},"scale":{},"alpha":0} -duration=500 -target=soyo;
 :留下欲言又止的母亲站在原地，望着女儿略显仓促的背影，眼中忧虑更深。;
-changeBg:角色生活地点/mygo/素世的房间（白天）.jpg;
+changeBg:角色生活地点/mygo/素世的房间（白天）.webp;
 setTransform:{"position":{"x":-600},"scale":{"x":0.8,"y":0.8},"alpha":1} -next -duration=500 -target=soyo;
 changeFigure:soyo/school_summer-2023/model.json -next -id=soyo -transform={"position":{"x":-600,"y":0},"scale":{"x":0.8,"y":0.8},"alpha":1} -motion=soyo/nf04 -expression=soyo/surprised01;
 playEffect:none -id=mudiban;
@@ -382,7 +382,7 @@ changeFigure:soyo/school_summer-2023/model.json -next -id=soyo -transform={"posi
 :写到这里，她停下了笔，无休止的迷茫和恐惧如同潮水般将她淹没。她不知道答案。;
 :这本应是她唯一熟练掌握的、用来维系关系的方法，此刻却显得如此可笑。她合上日记本，仿佛合上了自己一片混乱的内心。;
 changeFigure:soyo/school_summer-2023/model.json -next -id=soyo -transform={"position":{"x":-600,"y":0},"scale":{"x":0.8,"y":0.8},"alpha":1} -motion=soyo/nf04 -expression=soyo/default;
-changeBg:角色生活地点/mygo/素世的房间（晚上）.png;
+changeBg:角色生活地点/mygo/素世的房间（晚上）.webp;
 :夜更深了。她熄了灯，躺在床上，睁眼看着天花板上模糊的阴影。母亲那句不必这样笑。;
 :如同投入深潭的石子，激起的涟漪远未平息，反而一圈圈荡开。;
 :搅动了她试图压抑的所有不安。;

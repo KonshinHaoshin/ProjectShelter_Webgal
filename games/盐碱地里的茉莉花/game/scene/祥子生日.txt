@@ -1,4 +1,4 @@
-changeBg:background（3.1.0）/演出、排练/Mujica相关/经纪公司大厅.jpg;
+changeBg:background（3.1.0）/演出、排练/Mujica相关/经纪公司大厅.webp;
 bgm:04_Nobiri(Av112965072194981,P11).mp3;
 : 丰川祥子今天难得轻松一下，但感觉只轻松了一半。;
 : 上午，对接完未来的一个演出。;
@@ -140,7 +140,7 @@ changeFigure:sakiko/casual-2023/model.json -id=sakiko -transform={"position":{"x
 丰川祥子: 这真是奇了怪了…… -id -figureId=sakiko;
 changeFigure:none -id=sakiko -next;
 changeFigure: -id=mana;
-changeBg:background（3.1.0）/角色生活地点/ave mujica/祥子大宅外（下午）.png -next;
+changeBg:background（3.1.0）/角色生活地点/ave mujica/祥子大宅外（下午）.webp -next;
 bgm:1.zhu jie mian(Av112965072194981,P1).mp3;
 : 回到家门口。;
 仆人: 小姐，你的朋友有送东西来。;
@@ -155,7 +155,7 @@ changeFigure: sakiko/casual-2023/model.json -id=sakiko -transform={"position":{"
 changeFigure: sakiko/casual-2023/model.json -id=sakiko -transform={"position":{"x":0,"y":0},"scale":{"x":0.8,"y":0.8}} -motion=tomori/thinking02 -expression=anon/thinking02 -next;
 丰川祥子: （爽世……这是要种地？还是……在研制什么新型肥料？） -id -figureId=sakiko;
 changeFigure:none -id=sakiko -next;
-changeBg:background（3.1.0）/角色生活地点/ave mujica/祥子大宅卧室.png;
+changeBg:background（3.1.0）/角色生活地点/ave mujica/祥子大宅卧室.webp;
 playEffect:dian hua ling sheng.mp3;
 : 下午午休，被电话吵醒。;
 changeFigure: sakiko/casual-2023/model.json -id=sakiko -transform={"position":{"x":0,"y":0},"scale":{"x":0.8,"y":0.8}} -motion=anon/thinking03 -expression=anon/thinking01 -next;
@@ -250,11 +250,11 @@ changeFigure:sakiko/casual-2023/model.json -id=sakiko -transform={"position":{"x
 丰川祥子: 看看手机分散一下注意力吧！ -id -figureId=sakiko;
 :打开手机，点开视频软件，看到了若麦的直播间，顺手打开，那个标志性的声音响起，如今却有些让祥子放松。;
 changeFigure:none -id=sakiko -next;
-changeBg:background（3.1.0）/角色生活地点/ave mujica/喵梦直播间.png;
+changeBg:background（3.1.0）/角色生活地点/ave mujica/喵梦直播间.webp;
 changeFigure:nyamu/casual-2023/model.json -id=nyamu -transform={"position":{"x":0,"y":0},"scale":{"x":0.8,"y":0.8}} -motion=nyamu/smile01 -expression=nyamu/smile01 -next;
 祐天寺若麦: 今天的直播快要结束了！今晚喵梦我要去办一件大事哦！不过还是秘密，各位可以期待一下哦！ -id -figureId=nyamu;
 changeFigure:none -id=nyamu -next;
-changeBg:background（3.1.0）/角色生活地点/ave mujica/祥子大宅卧室.png;
+changeBg:background（3.1.0）/角色生活地点/ave mujica/祥子大宅卧室.webp;
 changeFigure:sakiko/casual-2023/model.json -id=sakiko -transform={"position":{"x":0,"y":0},"scale":{"x":0.8,"y":0.8}} -motion=sakiko/thinking01 -expression=anon/surprised01 -next;
 丰川祥子: 办大事？ -id -figureId=sakiko;
 changeFigure:sakiko/casual-2023/model.json -id=sakiko -transform={"position":{"x":0,"y":0},"scale":{"x":0.8,"y":0.8}} -motion=sakiko/nf_right01 -expression=sakiko/default -next;
@@ -283,7 +283,7 @@ changeFigure: sakiko/casual-2023/model.json -id=sakiko -transform={"position":{"
 :海铃不由分说，拉着祥子就走，软糯的祥子招架不住，直接被拉走。
 changeFigure: -id=sakiko -next;
 changeFigure: -id=umiri -next;
-changeBg:background（3.1.0）/路边/街道1（晚上）.png;
+changeBg:background（3.1.0）/路边/街道1（晚上）.webp;
 bgm:21.15_Unrest(Av112965072194981,P21).mp3;
 : 路过一个小巷子的时候，四周阴森森的，路灯忽明忽暗，风一吹，树叶沙沙作响。;
 changeFigure: sakiko/casual-2023/model.json -id=sakiko -transform={"position":{"x":0,"y":0},"scale":{"x":0.8,"y":0.8}} -motion=umiri/thinking01 -expression=sakiko/thinking01 -next;
@@ -304,7 +304,7 @@ changeFigure:sakiko/casual-2023/model.json -id=sakiko -transform={"position":{"x
 丰川祥子:（到底怎么回事……我是不是要被拐走了……） -id -figureId=sakiko;
 changeFigure:none -id=sakiko -next;
 changeFigure:none -id=umiri -next;
-changeBg:background（3.1.0）/路边/街道3（晚上）.png;
+changeBg:background（3.1.0）/路边/街道3（晚上）.webp;
 bgm:29.26_RPG_dungeon(NFO场景)(Av112965072194981,P29).mp3;
 :祥子在路上看到几个人提着大袋子，里面露出绳子的头。;
 changeFigure:sakiko/casual-2023/model.json -id=sakiko -transform={"position":{"x":0,"y":0},"scale":{"x":0.8,"y":0.8}} -motion=sakiko/nf02 -expression=sakiko/default -next;
@@ -359,7 +359,7 @@ changeFigure:sakiko/casual-2023/model.json -id=sakiko -transform={"position":{"x
 丰川祥子:如果她们真的要害我，我就先发制人，大喊一声“我可是丰川家的继承人”……;
 : 她深吸一口气，鼓起勇气，推开了RiNG的门。;
 changeFigure: -id=sakiko -next;
-changeBg:background（3.1.0）/演出、排练/RiNG/RiNG全景.jpg;
+changeBg:background（3.1.0）/演出、排练/RiNG/RiNG全景.webp;
 bgm:5.主界面(生日)(Av112965072194981,P5).mp3;
 众人:生日快乐！！！;
 : 彩带、气球、笑脸、蛋糕、礼物，还有那一大棵闪闪发光的圣诞树，瞬间填满了祥子的视线。;

@@ -1,4 +1,4 @@
-changeBg:J（未知地点）/J4.png;
+changeBg:J（未知地点）/J4.webp;
 changeFigure:sakiko/jh_school_winter-2023/model.json -id=mutsumi -transform={"position":{"x":0,"y":0},"scale":{"x":0.75,"y":0.75}} -motion=sakiko/idle01 -expression=sakiko/default;
 changeFigure:uika/管理员/身体/model.json -id=sakiko -transform={"position":{"x":0,"y":0},"scale":{"x":0.75,"y":0.75}} -motion=uika_nf01 -expression=uika_default;
 changeFigure:uika/管理员/脸/model.json -id=3 -transform={"position":{"x":0,"y":0},"scale":{"x":0.75,"y":0.75}} -motion=uika_nf01 -expression=anon_default;

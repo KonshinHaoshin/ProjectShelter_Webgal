@@ -183,7 +183,7 @@ setTransform:{"position":{"x":1000},"scale":{"x":0.8,"y":0.8}} -target=sakiko -d
 changeFigure:sakiko/event_297_story_01/model.json -id=sakiko -transform={"position":{"x":1000,"y":0},"scale":{"x":0.8,"y":0.8}} -motion=sakiko/nf_right01 -expression=sakiko/surprised01 -next;
 : 她下意识地拿出手机瞥了一眼。;
 :打开手机屏幕，界面还停留在石川先生早些时候发来的那条信息：
-changeFigure:liao tian dui hua/82-83/2.png -next;
+changeFigure:liao tian dui hua/82-83/2.webp -next;
 「演出终会散场，但凭实力赢得的舞台，永不落幕。你已毕业，未来的乐章，由你亲自谱写。」;
 changeFigure:none;
 changeFigure:sakiko/event_297_story_01/model.json -id=sakiko -transform={"position":{"x":1000,"y":0},"scale":{"x":0.8,"y":0.8}} -motion=sakiko/thinking01 -expression=sakiko/surprised01 -next;
@@ -255,9 +255,9 @@ changeFigure:uika/event_297_story_01/model.json -id=uika -transform={"position":
 : 她走向桌子，拿起手机。;
 : 是Sumimi的群聊，真奈发来了一连串的烟花和爱心表情。;
 changeFigure: -id=uika -next;
-changeFigure:liao tian dui hua/82-83/3.png -next;
+changeFigure:liao tian dui hua/82-83/3.webp -next;
 :后面跟着一句：“我们的小初华，今晚是世界第一的主唱‘Doloris’！超闪耀！”;
-changeFigure:liao tian dui hua/82-83/4.png -next;
+changeFigure:liao tian dui hua/82-83/4.webp -next;
 : 后面跟着的，是经纪人和各个工作人员也发来的各式各样的恭喜和祝福。;
 changeFigure:none -next;
 : 一股暖流包裹住初华的心。;
@@ -322,13 +322,13 @@ changeFigure: -id=umiri -next;
 changeFigure: -id=mutsumi -next;
 : 便体贴地退到门外等候，将空间留给了她们。;
 bgm:shi guang jing hao（白色相簿2）(Av115803240337898,P9).mp3;
-changeFigure:liao tian dui hua/82-83/5.png -next;
+changeFigure:liao tian dui hua/82-83/5.webp -next;
 changeFigure:nyamu/event_297_story_01/model.json -id=nyamu -transform={"position":{"x":600,"y":0},"scale":{"x":0.8,"y":0.8}} -motion=nyamu/nf02 -expression=nyamu/default -next;
 : 若麦看着手机屏幕上不断弹出的、来自“母上大人”和“父亲大人”的未读消息和一连串“宝贝太棒了！”、“妈妈哭了！”的语音和文字方阵。;
 changeFigure:nyamu/event_297_story_01/model.json -id=nyamu -transform={"position":{"x":600,"y":0},"scale":{"x":0.8,"y":0.8}} -motion=nyamu/smile01 -expression=nyamu/smile02 -next;
 : 嘴角勾起一个“真拿你们没办法”却真心愉快的笑容。;
 changeFigure: -id=nyamu -next;
-changeFigure:liao tian dui hua/82-83/6.png -next;
+changeFigure:liao tian dui hua/82-83/6.webp -next;
 : 飞快地回了个：搞定！超成功！回去再说！;
 changeFigure:none -next;
 changeFigure:nyamu/event_297_story_01/model.json -id=nyamu -transform={"position":{"x":600,"y":0},"scale":{"x":0.8,"y":0.8}} -motion=nyamu/nf_left01 -expression=nyamu/default -next;
@@ -337,7 +337,7 @@ changeFigure:umiri/event_297_story_01/model.json -id=umiri -transform={"position
 : 话音未落，她的视线恰好捕捉到海铃手机屏幕上那条刚刚亮起的、来自【父亲】的简短信息：
 changeFigure: -id=nyamu -next;
 changeFigure: -id=umiri -next;
-changeFigure:liao tian dui hua/82-83/7.png -next;
+changeFigure:liao tian dui hua/82-83/7.webp -next;
 : 「技术稳定，情感层次有进步。」;
 : 「为你高兴。」;
 changeFigure:none -next;

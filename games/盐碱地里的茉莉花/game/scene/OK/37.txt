@@ -26,7 +26,7 @@ changeFigure:anon/school_winter-2023/model.json -next -id=anon -motion=anon/sad0
 changeFigure:anon/school_winter-2023/model.json -next -id=anon -motion=anon/nf01 -expression=anon/sad01;
 千早爱音: 我看着都觉得……有点不忍心，她又在勉强自己。 -id -figureId=anon;
 changeFigure: -next -id=anon;
-changeBg:演出、排练/CiRCLE/CiRCLE休息室.png;
+changeBg:演出、排练/CiRCLE/CiRCLE休息室.webp;
 changeFigure:uika/sumimi/model.json -next -id=uika -motion=uika/nf01 -expression=uika/serious01 -transform={"position":{"x":600},"scale":{"x":0.8,"y":0.8}};
 三角初华: 爱音……谢谢你。但这是我的选择，也是祥子自己的选择。你的好意我心领了，只是现在…… -id -figureId=uika;
 千早爱音: 我明白的！我不会添乱的！只是……如果，我是说如果，有什么是我这个“前队友”能帮上忙的，请一定要告诉我！ -id -figureId=anon;
@@ -48,12 +48,12 @@ changeFigure: uika/sumimi/model.json -id=uika -motion=uika/serious01 -expression
 changeFigure:uika/sumimi/model.json -next -id=uika -motion=uika/nf01 -expression=uika/smile01;
 三角初华: 先说到这了，我要去排练了，再见。 -id -figureId=uika;
 changeFigure: -next -id=uika;
-changeBg:商店/商店洗手间2.png;
+changeBg:商店/商店洗手间2.webp;
 changeFigure:anon/school_winter-2023/model.json -next -id=anon -motion=anon/nf02 -expression=anon/smile01 -transform={"position":{"x":0},"scale":{"x":0.8,"y":0.8}};
 千早爱音: 嗯，再见。 -id -figureId=anon;
 : 爱音和初华挂断了电话，都走出了封闭的小房间。;
 changeFigure: -next -id=anon;
-changeBg:商店/羽泽咖啡厅（白天）.png;
+changeBg:商店/羽泽咖啡厅（白天）.webp;
 changeFigure:sakiko/school_winter-2023/model.json -next -id=sakiko -motion=sakiko/nf01 -expression=sakiko/sad01 -transform={"position":{"x":-400},"scale":{"x":0.8,"y":0.8}};
 changeFigure:soyo/school_winter-2023/model.json -next -id=soyo -motion=soyo/angry01 -expression=soyo/angry01 -transform={"position":{"x":900},"scale":{"x":0.8,"y":0.8}};
 : 素世看到从洗手间出来的爱音，有些生气。;
@@ -195,7 +195,7 @@ changeFigure:sakiko/school_winter-2023/model.json -next -id=sakiko -motion=sakik
 changeFigure: -next -id=anon;
 changeFigure: -next -id=sakiko;
 changeFigure: -next -id=soyo;
-changeBg:公园/飞鸟山公园（夜晚）.jpg;
+changeBg:公园/飞鸟山公园（夜晚）.webp;
 changeFigure:soyo/school_summer-2023/model.json -next -id=soyo -motion=soyo/smile05 -expression=soyo/cry02 -transfor=true -transform={"position":{"x":-600,"y":0},"scale":{"x":0.8,"y":0.8},"blur":10};
 changeFigure:sakiko/casual-2023/model.json -right -next -id=sakiko -motion=sakiko/nf01 -expression=sakiko/angry01 -transfor=true -transform={"position":{"y":0},"scale":{"x":0.8,"y":0.8},"blur":10};
 : 与上次在公园里的斩钉截铁不同。;
@@ -314,7 +314,7 @@ changeFigure: sakiko/school_winter-2023/model.json -id=sakiko -motion=tomori/sad
 changeFigure:none -next -id=anon;
 changeFigure:none -next -id=sakiko;
 changeFigure: -next -id=soyo;
-changeBg:ai/1-2/7.png -next -transform={"blur":10};
+changeBg:ai/1-2/7.webp -next -transform={"blur":10};
 bgm:qiang de ling yi mian(bi zhi xian)(Av112848168551481,P1).mp3;
 : 素世的脑海闪回到了再自己赌气离开那个还没有名字的乐队后，立希找到自己的时候，也说出了这样类似的话。;
 : 也许，这就是曾经的剧情再次上演，但素世不再是曾经的自己。;
@@ -331,7 +331,7 @@ changeFigure:sakiko/school_winter-2023/model.json  -transform={"position":{"x":-
 changeFigure:none -next -id=anon;
 changeFigure:none -next -id=sakiko;
 changeFigure: -id=soyo;
-changeBg:ai/50-52/51（14）.png -transform={"blur":10} -next;
+changeBg:ai/50-52/51（14）.webp -transform={"blur":10} -next;
 : 爱音想起在机场那个狼狈却执拗的素世，又看看眼前这个主动伸出援手、眼神不再躲闪的素世。;
 changeFigure:none -next -id=anon;
 changeFigure:none -next -id=sakiko;

@@ -210,7 +210,7 @@ changeFigure:nyamu/casual-2023/model.json -next -id=nyamu -motion=nyamu/nf_right
 playEffect:dian ti kai men.mp3 -id=dianti;
 :电梯到达一楼的提示音清脆地响起，打断了这场无声的交锋。;
 playEffect:none -id=dianti;
-changeBg:学校、工作/工作场所/祥子客服楼外（白天）.png;
+changeBg:学校、工作/工作场所/祥子客服楼外（白天）.webp;
 changeFigure: -next -id=nyamu;
 : 门刚一打开，若麦便率先一步跨了出去，没有回头，径直离开。;
 changeFigure:uika/casual-2023/model.json -next -id=uika -motion=uika/nf_left01 -expression=uika/sad01 -transform={"position":{"x":600,"y":0},"scale":{"x":0.8,"y":0.8}};

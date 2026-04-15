@@ -84,14 +84,14 @@ changeFigure:soyo/casual-2023/model.json -next -id=soyo -motion=soyo/nf_right01 
 出租车司机: 好的。;
 : 司机缓缓减速，走到了临时停靠点，素世掏出了手机，支付了费用，打开车门，走出了出租车。;
 : 并向司机表示了感谢后，走进了这个有段时间没有来过的，熟悉的地方：RiNG。;
-changeBg:演出、排练/RiNG/RiNG门口（黄昏）.png;
+changeBg:演出、排练/RiNG/RiNG门口（黄昏）.webp;
 changeFigure:soyo/casual-2023/model.json -next -id=soyo -motion=taki/thinking01 -expression=soyo/default -transform={"position":{"x":-600,"y":0},"scale":{"x":0.8,"y":0.8}};
 长崎素世: （回来放松一下，也挺好。） -id -figureId=soyo;
 : 素世看了看RiNG的大招牌，又望了望RiNG里面的店铺和熙熙攘攘的人流。;
 : 熟悉的环境，还是熟悉的背着大包小包的高中生们在一楼的排练室预约柜台预约自己的乐队排练时间。;
 : 也有一些来散步观光的路人和游客。;
 : 在RiNG里，是最能感受自由轻松的氛围，尤其是这段在学生放学的时间，那更是让人感觉活力四射、精力充沛。;
-changeBg:演出、排练/RiNG/RiNG全景.jpg;
+changeBg:演出、排练/RiNG/RiNG全景.webp;
 新人店员: 你好！请问你需要点什么？;
 : 一个新人店员走到了素世旁边，看着素世望不停地张望着，于是热情地向素世打招呼。;
 changeFigure:soyo/casual-2023/model.json -next -id=soyo -motion=soyo/nf01 -expression=soyo/smile02 -transform={"position":{"x":-600,"y":0},"scale":{"x":0.8,"y":0.8}};

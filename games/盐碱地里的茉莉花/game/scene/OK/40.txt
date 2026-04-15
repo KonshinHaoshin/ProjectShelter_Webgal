@@ -18,7 +18,7 @@ changeFigure:anon/school_winter-2023/model.json -next -transform={"position":{"x
 changeFigure:none -next -id=soyo;
 changeFigure:none -next -id=sakiko;
 changeFigure: -next -id=anon;
-changeBg:路边/街道5（白天）.png;
+changeBg:路边/街道5（白天）.webp;
 changeFigure:sakiko/casual-2023/model.json -next -transform={"position":{"x":0},"scale":{"x":0.8,"y":0.8}} -id=sakiko -motion=mana/surprised01 -expression=sakiko/surprised01;
 : 脚下踉跄，不得不伸手扶住身边冰凉的电线杆才稳住身形。;
 : 心脏在胸腔里失控地狂跳，与耳中血液奔流的嗡鸣交织成令人窒息的噪音。;
@@ -68,7 +68,7 @@ changeFigure:sakiko/casual-2023/model.json -next -transform={"position":{"x":0},
 : 话一出口，连她自己都愣住了，胸腔因为激动而剧烈起伏着。;
 : 她为什么会如此失态地去维护一个已经“没用”的、甚至可能破坏了计划的人？
 changeFigure: -next -id=sakiko;
-changeBg:公园/公园1（白天）.png;
+changeBg:公园/公园1（白天）.webp;
 changeFigure:nyamu/casual-2023/model.json -next -transform={"position":{"x":0},"scale":{"x":0.8,"y":0.8}} -id=nyamu -motion=uika/surprised01 -expression=nyamu/surprised01;
 :电话那头的若麦显然也没料到会引来这么激烈的反应，沉默了两秒，才冷冷地道。;
 changeFigure:nyamu/casual-2023/model.json -id=nyamu -transform={"position":{"x":0},"scale":{"x":0.8,"y":0.8}} -motion=taki/nf01 -expression=nyamu/surprised01 -next;
@@ -76,7 +76,7 @@ changeFigure:nyamu/casual-2023/model.json -id=nyamu -transform={"position":{"x":
 changeFigure:nyamu/casual-2023/model.json -id=nyamu -transform={"position":{"x":0},"scale":{"x":0.8,"y":0.8}} -motion=nyamu/nf02 -expression=nyamu/serious01 -next;
 祐天寺若麦: 我说过的，我只是想达到我的目标…… -id -figureId=nyamu;
 changeFigure: -next -id=nyamu;
-changeBg:路边/街道5（白天）.png;
+changeBg:路边/街道5（白天）.webp;
 changeFigure:sakiko/casual-2023/model.json -next -transform={"position":{"x":0},"scale":{"x":0.8,"y":0.8}} -id=sakiko -motion=nyamu/sad01 -expression=sakiko/sad02;
 : 祥子的呼吸骤然停止了一瞬，若麦的每一个字都像针一样扎进她的耳朵。;
 : 她想接着反驳，但喉咙像是被什么东西死死堵住。;
@@ -85,7 +85,7 @@ changeFigure:sakiko/casual-2023/model.json -next -transform={"position":{"x":0},
 changeFigure:sakiko/casual-2023/model.json -next -transform={"position":{"x":0},"scale":{"x":0.8,"y":0.8}} -id=sakiko -motion=uika/sad01 -expression=sakiko/sad01;
 丰川祥子: ……你没有资格……评判她。 -id -figureId=sakiko;
 changeFigure: -next -id=sakiko;
-changeBg:公园/公园1（白天）.png;
+changeBg:公园/公园1（白天）.webp;
 changeFigure: nyamu/casual-2023/model.json -transform={"position":{"x":0},"scale":{"x":0.8,"y":0.8}} -id=nyamu -motion=mutsumi/smile02 -expression=nyamu/smile03 -next;
 祐天寺若麦: 刚才还咄咄逼人，现在居然在求饶？真是滑稽呀，祥子。 -id -figureId=nyamu;
 : 若麦的语气里带着一丝嘲笑和凌驾于上的意味。;
@@ -100,7 +100,7 @@ changeFigure:nyamu/casual-2023/model.json -next -transform={"position":{"x":0},"
 祐天寺若麦: 不然为什么能这么久了，没有人找你的麻烦？除了我这个“烦人精”。 -id -figureId=nyamu;
 : 若麦像是想知道点什么，问出了一个有些奇怪的问题。;
 changeFigure: -next -id=nyamu;
-changeBg:路边/街道5（白天）.png;
+changeBg:路边/街道5（白天）.webp;
 changeFigure:sakiko/casual-2023/model.json -next -transform={"position":{"x":0},"scale":{"x":0.8,"y":0.8}} -id=sakiko -motion=sakiko/nf01 -expression=sakiko/surprised02;
 丰川祥子:没有！没有！若麦小姐，请相信我！ -id -figureId=sakiko;
 : 慌乱的祥子在电话那头紧张地应承道。;
@@ -126,7 +126,7 @@ bgm:ave mujica-(20)ying cang de zhen xiang.mp3;
 : 一个被精心修饰过的、充满诱惑力的声音在她脑海响起，那是她在无数次碰壁后，如同抓住救命稻草般的最后可能性。;
 changeFigure:none -next -id=sakiko;
 : 那是通过若叶家牵线，一位“赏识”她的前辈的寄语。;
-changeBg:角色生活地点/hello happy world/快乐国城堡内（夜晚）.png -transform={"blur":10} -next;
+changeBg:角色生活地点/hello happy world/快乐国城堡内（夜晚）.webp -transform={"blur":10} -next;
 changeFigure:sakiko/casual-2023/model.json -next -transform={"position":{"x":0},"scale":{"x":0.8,"y":0.8},"blur":10} -id=sakiko -motion=sakiko/bye01 -expression=sakiko/default;
 ？？？: （丰川祥子小姐，历史的窗口期很短。在明年樱花散尽前，你必须交出一份足够有说服力的答卷——）
 ？？？: （一个成功的、具有商业价值的乐队项目。） ;
@@ -140,7 +140,7 @@ changeFigure:sakiko/casual-2023/model.json -next -transform={"position":{"x":0},
 ？？？: （但请记住，我们需要的是能被更广泛市场接纳的“成功的反抗”，而非孤芳自赏的“落魄的叛逆”。）;
 ？？？: （我相信，以你的聪慧，能把握好其中的分寸。）;
 changeFigure: -id=sakiko;
-changeBg:角色生活地点/ave mujica/祥子大宅外（白天）.jpg -transform={"blur":10} -next;
+changeBg:角色生活地点/ave mujica/祥子大宅外（白天）.webp -transform={"blur":10} -next;
 : 母亲离世时，她感到的不仅是悲伤，更是一种前路被斩断的茫然。;
 : 而就在她最无助时，那个声音适时地再次响起，带着循循善诱的意味：;
 changeFigure:sakiko/jh_school_winter-2023/model.json -next -transform={"position":{"x":0},"scale":{"x":0.8,"y":0.8},"blur":10} -id=sakiko -motion=sakiko/cry01 -expression=sakiko/cry02;
@@ -150,7 +150,7 @@ changeFigure:sakiko/jh_school_winter-2023/model.json -next -transform={"position
 changeFigure: -id=sakiko;
 changeBg:学校、工作/月之森/月之森礼堂（熄灯）.webp -transform={"blur":10} -next;
 : 后来，她在校园内仓促组起的乐队，那份微弱的光芒和同学们的认可，曾让她误以为找到了一条属于自己的路。;
-changeBg:角色生活地点/ave mujica/祥子大宅大门（夜晚）.jpg -next;
+changeBg:角色生活地点/ave mujica/祥子大宅大门（夜晚）.webp -next;
 changeFigure:sakiko/jh_school_winter-2023/model.json -next -transform={"position":{"x":0},"scale":{"x":0.8,"y":0.8},"blur":10} -id=sakiko -motion=sakiko/cry02 -expression=sakiko/cry02;
 : 当一切看似走上正轨时，父亲的颓然离去与家族冷酷的“切割”命令，让她首次体会到个人意志在冰冷家族利益前的渺小。;
 changeFigure: -id=sakiko;
@@ -169,7 +169,7 @@ changeFigure:sakiko/casual-2023/model.json -next -transform={"position":{"x":0},
 ？？？: （记住，不要让你的队友们，知道我们的存在。）;
 ？？？: （过早的暴露，会引起不必要的误会和依赖，对吧？这对你建立领导威信并无益处。）;
 changeFigure:none -next -id=sakiko;
-changeBg:路边/街道5（白天）.png;
+changeBg:路边/街道5（白天）.webp;
 changeFigure:sakiko/casual-2023/model.json -next -transform={"position":{"x":0},"scale":{"x":0.8,"y":0.8}} -id=sakiko -motion=sakiko/nf01 -expression=sakiko/default;
 playEffect:dian hua ling sheng.mp3;
 : 手机的铃声再一次响起，祥子这次不再马上接起，而是看了看手机电话，确认一下到底是谁打来的。;
@@ -213,7 +213,7 @@ changeFigure:uika/sumimi/model.json -id=uika -transform={"position":{"x":800},"s
 changeFigure:uika/sumimi/model.json -id=uika -transform={"position":{"x":800},"scale":{"x":0.8,"y":0.8}} -motion=uika/nf_right01 -expression=uika/smile01 -next;
 三角初华:如果不着急我回头打给你。 -id -figureId=uika;
 changeFigure: -next -id=uika;
-changeBg:路边/街道5（白天）.png;
+changeBg:路边/街道5（白天）.webp;
 changeFigure:sakiko/casual-2023/model.json -next -transform={"position":{"x":0},"scale":{"x":0.8,"y":0.8}} -id=sakiko -motion=sakiko/nf01 -expression=sakiko/default;
 丰川祥子: 初华，来羽泽咖啡店。然后……一起去个地方。 -id -figureId=sakiko;
 : 她的声音异常平静，甚至有些空洞，仿佛在背诵一段与自己无关的台词。;
@@ -249,7 +249,7 @@ bgm:33.30_Serious_2(Av112965072194981,P33).mp3;
 changeFigure: -next -id=uika;
 changeFigure: -next -id=mana;
 : 真奈叫住了她，快步走到她面前，没有多问，只是温柔而坚定地将一颗包装清凉的薄荷糖放入她掌心。;
-changeBg:ai/62-63/1.png -next;
+changeBg:ai/62-63/1.webp -next;
 纯田真奈: 看你急得，脸色都不对了。 -id -figureId=mana;
 : 初华一愣，下意识地握紧了那颗糖。;
 三角初华: 真奈…… -id -figureId=uika;
@@ -287,11 +287,11 @@ changeFigure:mana/sumimi/model.json -next -transform={"position":{"x":0},"scale"
 纯田真奈: 快去吧！ -id -figureId=mana;
 changeFigure: -next -id=uika;
 changeFigure: -next -id=mana;
-changeBg:ai/62-63/2.png -next;
+changeBg:ai/62-63/2.webp -next;
 : 真奈笑着将她轻轻往门口推了一把。;
 纯田真奈:别让朋友等急了，这边就交给我啦！ -id -figureId=mana;
 三角初华: 嗯！ -id -figureId=uika;
-changeBg:学校、工作/大学/走廊.png;
+changeBg:学校、工作/大学/走廊.webp;
 changeFigure:uika/casual-2023/model.json -next -transform={"position":{"x":800},"scale":{"x":0.8,"y":0.8}} -id=uika -motion=uika/kime01 -expression=uika/kime01;
 : 初华用力点了点头，将那颗糖紧紧攥在手心，像是握住了一份无形的、关于“自我”的力量。;
 playEffect:running shui ni di.mp3 -id=shuinidi;
@@ -313,7 +313,7 @@ changeFigure:sakiko/casual-2023/model.json -next -transform={"position":{"x":0},
 changeFigure:sakiko/casual-2023/model.json -next -transform={"position":{"x":0},"scale":{"x":0.8,"y":0.8}} -id=sakiko -motion=mutsumi/sad04 -expression=sakiko/sad02;
 changeFigure:none -next -id=uika;
 changeFigure: -id=sakiko -next;
-changeFigure:liao tian dui hua/62/1.png;
+changeFigure:liao tian dui hua/62/1.webp;
 丰川祥子: 我已经通知若麦一起去睦的家中聊事情了。 -id -figureId=sakiko;
 changeFigure:none;
 changeFigure:sakiko/casual-2023/model.json -next -transform={"position":{"x":0},"scale":{"x":0.8,"y":0.8}} -id=sakiko -motion=mutsumi/sad04 -expression=sakiko/sad02;
@@ -388,11 +388,11 @@ changeFigure:nyamu/casual-2023/model.json -id=nyamu -transform={"position":{"x":
 : 但这就像染上毒瘾，只要能换取片刻的舒缓，事后的痛苦似乎也不在意了……;
 changeFigure:none -next -id=nyamu;
 : ……;
-changeBg:自然风光/天空（白天）.png;
-changeBg:角色生活地点/ave mujica/睦家外景（白天）.png;
+changeBg:自然风光/天空（白天）.webp;
+changeBg:角色生活地点/ave mujica/睦家外景（白天）.webp;
 bgm:ave mujica-(03)shi le yuan.mp3;
 : 若叶家的宅邸，在午后苍白的光线中静默如冢。;
-changeBg:角色生活地点/ave mujica/睦卧室（白天）.png;
+changeBg:角色生活地点/ave mujica/睦卧室（白天）.webp;
 : 睦的房间空旷而奢华，每一件摆设都纤尘不染，却冰冷得嗅不到一丝活人的气息。;
 :这里不像居所，更像一个恒温恒湿的精密展柜。;
 changeFigure:mutsumi/casual-2023/model.json -id=mutsumi -transform={"position":{"x":-500},"scale":{"x":0.8,"y":0.8}} -motion=mutsumi/nf01 -expression=taki/default -next;
@@ -406,7 +406,7 @@ changeFigure:sakiko/casual-2023/model.json -id=sakiko -transform={"position":{"x
 : 祥子急切的眼神、父亲在机场电话里过于饱满的“喜悦”、母亲森美奈美在她试图询问时那漫不经心的“你自己决定”……
 changeFigure:none -next -id=mutsumi;
 changeFigure: -id=sakiko -next;
-changeBg:角色生活地点/ave mujica/睦卧室（白天）.png;
+changeBg:角色生活地点/ave mujica/睦卧室（白天）.webp;
 changeFigure:mutsumi/casual-2023/model.json -id=mutsumi -transform={"position":{"x":-500},"scale":{"x":0.8,"y":0.8}} -motion=mutsumi/sad01 -expression=mutsumi/sad01 -next;
 : 所有这些画面，在她脑中盘旋，最终化作沉重的压力，几乎要将她纤细的脊梁压断。;
 : 她坐在那里，已经很久了，姿势都没有变过。指尖冰凉。;
@@ -445,11 +445,11 @@ changeFigure:mutsumi/casual-2023/model.json -id=mutsumi -transform={"position":{
 : 是母亲森美奈美，她似乎刚结束一场应酬，脸上带着一丝倦意，却依旧维持着无懈可击的优雅。;
 changeFigure:none -next -id=mutsumi;
 changeFigure:none -next -id=mortis;
-changeBg:ai/62-63/3.png;
+changeBg:ai/62-63/3.webp;
 森美奈美（睦妈妈）: 小睦，在忙什么？;
 : 她的目光扫过房间，掠过书桌，在合同上停留了不到半秒，便移开了，仿佛那只是一件无关紧要的摆设。;
 森美奈美（睦妈妈）: 下周你父亲要举办一次活动，在家里办晚宴，记得空出时间。衣服我会让人准备好。;
-changeBg:角色生活地点/ave mujica/睦卧室（白天）.png -next;
+changeBg:角色生活地点/ave mujica/睦卧室（白天）.webp -next;
 : 她说完，甚至没有等待睦的回应，只是像完成了一项日常通知，便转身离开。;
 playEffect:mu men（guan men）.MP3;
 changeFigure:mutsumi/casual-2023/model.json -id=mutsumi -transform={"position":{"x":-500},"scale":{"x":0.8,"y":0.8}} -motion=mutsumi/nf01 -expression=mutsumi/sad01 -next;
@@ -497,24 +497,24 @@ changeFigure:mortis/casual-2023/model.json -id=mortis -transform={"position":{"x
 changeFigure: mortis/casual-2023/model.json -transform={"position":{"x":500},"scale":{"x":0.8,"y":0.8},"alpha":0.6} -id=mortis -motion=mutsumi/mts/angry03 -expression=tomori/angry01 -next;
 墨提斯: （你甚至连面对你那个“喜剧演员”父亲的勇气都没有！你的一切，都是我在替你支撑！） -id -figureId=mortis;
 changeFigure:mutsumi/casual-2023/model.json -id=mutsumi -transform={"position":{"x":-500},"scale":{"x":0.8,"y":0.8}} -motion=mutsumi/surprised01 -expression=mutsumi/surprised01 -next;
-changeBg:ai/62-63/4.png -next;
+changeBg:ai/62-63/4.webp -next;
 bgm:ave mujica-(09)mao rong wan ju ju chang(Radio Ver.).mp3;
 : 仿佛是为了给这指控提供最残酷的证物，睦的脑海深处，空间被猛地撕裂。;
 playEffect:xiao sheng.MP3 -volume=50 -id=xiaosheng;
 : 几台老式电视机突兀地浮现，屏幕的雪花噪点中，刺耳的笑声和华丽乐章率先涌出。;
 changeFigure:none -next -id=mutsumi;
 changeFigure:none -next -id=mortis;
-changeBg:ai/62-63/5.png -next;
+changeBg:ai/62-63/5.webp -next;
 : 一台电视里，是她那位“喜剧演员”父亲若叶隆文，在综艺节目里做着夸张滑稽的鬼脸，刻意摔倒在地，引来全场哄堂大笑。;
-changeBg:ai/62-63/6.png -next;
+changeBg:ai/62-63/6.webp -next;
 : 另一台里，是她的母亲森美奈美，身着华服，在访谈中仪态万方，谈论着艺术，言辞优雅，光芒四射。;
 : 然而，在两个屏幕冰冷光芒都照不到的、相同的阴暗角落里，都有一个被刻意缩小、模糊的身影——
-changeBg:ai/62-63/7.png -next;
+changeBg:ai/62-63/7.webp -next;
 : 是睦，她环抱着双膝，将自己蜷成一团，默默地坐在那里。;
 : 电视里的世界喧嚣、华丽、完美。而角落里的她，寂静、灰暗、仿佛一个不被需要的幽灵。;
 playEffect:none -id=xiaosheng;
 : 巨大的欢声笑语像浪潮般涌来，却只让她感觉更加冰冷和孤独。;
-changeBg:ai/62-63/4.png -next;
+changeBg:ai/62-63/4.webp -next;
 changeFigure:mortis/casual-2023/model.json -id=mortis -transform={"position":{"x":500},"scale":{"x":0.8,"y":0.8},"alpha":0.6} -motion=mutsumi/mts/angry01 -expression=mutsumi/mts/angry02 -next;
 : 墨提斯狠狠指着那些屏幕，她的咆哮与电视里的笑声、掌声扭曲地混合在一起，形成一种令人窒息的交响。;
 changeFigure:mortis/casual-2023/model.json -id=mortis -transform={"position":{"x":500},"scale":{"x":0.8,"y":0.8},"alpha":0.6} -motion=mutsumi/mts/angry03 -expression=mutsumi/mts/angry02 -next;
@@ -524,7 +524,7 @@ changeFigure:mortis/casual-2023/model.json -id=mortis -transform={"position":{"x
 changeFigure:mutsumi/casual-2023/model.json -id=mutsumi -transform={"position":{"x":-500},"scale":{"x":0.8,"y":0.8}} -motion=mutsumi/surprised02 -expression=mutsumi/surprised01 -next;
 : 睦被这连珠炮似的斥责和眼前残酷的画面打得节节败退，思绪一片空白，所有都被搅成了一团乱麻。;
 : 现实的房间与脑海中的景象重叠，她感觉自己仿佛又一次被扔回了那些冰冷的角落。;
-changeBg:角色生活地点/ave mujica/睦卧室（白天）.png -next;
+changeBg:角色生活地点/ave mujica/睦卧室（白天）.webp -next;
 bgm:ave mujica-(16)bu wen ding de zao yin.mp3;
 changeFigure:mutsumi/casual-2023/model.json -id=mutsumi -transform={"position":{"x":-500},"scale":{"x":0.8,"y":0.8}} -motion=mutsumi/sad02 -expression=mutsumi/sad04 -next;
 : 她又一次只能无助地在椅子上蜷缩起来，仿佛这样就能躲避脑海中的风暴与那些刺眼的光芒。;

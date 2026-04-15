@@ -1,6 +1,6 @@
 changeBg:自然风光/天空（晴天）.webp -next;
 :……;
-changeBg:角色生活地点/ave mujica/祥子大宅外（下午）.png -next;
+changeBg:角色生活地点/ave mujica/祥子大宅外（下午）.webp -next;
 bgm:夜的钢琴曲 22(Av973854780,P1).mp3;
 : 东京的日子像一套按部就班的齿轮，而我成了一枚被无声嵌入其中的新齿。;
 : 丰川家没有给我喘息的时间。
@@ -43,7 +43,7 @@ changeBg:ai/初华2/柳叶鱼.webp -transform={"oldFilm":1} -next;
 : 切换到腐烂的柳叶鱼。;
 changeBg:ai/初华3/葬礼.webp -transform={"oldFilm":1} -next;
 切换到葬礼上那些刀割般的低语。;
-changeBg:角色生活地点/ave mujica/祥子大宅外（下午）.png -next;
+changeBg:角色生活地点/ave mujica/祥子大宅外（下午）.webp -next;
 changeFigure:uika/管理员/后发/model.json -id=uika后发 -transform={"position":{"x":0,"y":0},"scale":{"x":0.8,"y":0.8}} -motion=uika_nf01 -expression=uika_sad01 -next;
 changeFigure:uika/管理员/身体/model.json -id=uika身 -transform={"position":{"x":0,"y":0},"scale":{"x":0.8,"y":0.8}} -motion=uika_nf01 -expression=uika_sad01 -next;
 changeFigure:uika/管理员/脸/model.json -id=uika脸 -transform={"position":{"x":0,"y":0},"scale":{"x":0.8,"y":0.8}} -motion=uika_nf01 -expression=uika_sad01 -next;
@@ -51,7 +51,7 @@ changeFigure:uika/管理员/脸/model.json -id=uika脸 -transform={"position":{"
 changeFigure:none -id=uika脸 -next;
 changeFigure:none -id=uika后发 -next;
 changeFigure:none -id=uika身 -next;
-changeBg:角色生活地点/ave mujica/祥子大宅外（夜晚）.jpg -next;
+changeBg:角色生活地点/ave mujica/祥子大宅外（夜晚）.webp -next;
 : 两周后的一个傍晚，管家递来两个信封。;
 丰川家管家: 明天不必去仓库。;
 丰川家管家: 先去学校办理入学登记。;
@@ -89,12 +89,12 @@ changeFigure:none -id=uika身 -next;
 changeBg:ai/初华4/房间沉思.webp -next;
 : 一个不大不小的卧室，里面有我的一些行李，还有我送给爸爸的玩具怀表。
 : 我默默地收拾好了那些东西，换下了工作的衣服，准备睡去……;
-changeBg:自然风光/天空（晚上）.png;
+changeBg:自然风光/天空（晚上）.webp;
 changeBg:其他背景/庄园（白天）.webp -next;
 bgm:夜的钢琴曲 24(Av759109082,P1).mp3;
 : 石川府位于港区一片安静的住宅区。
 : 与其说是宅邸，不如说是一座将日式庭院与现代设计精巧融合的别庄。
-changeBg:角色生活地点/hello happy world/弦卷心家侧门（白天）.png -next;
+changeBg:角色生活地点/hello happy world/弦卷心家侧门（白天）.webp -next;
 playEffect:men lin.MP3;
 : 我按响门铃，报上丰川家的名号，很快被一位穿着淡青色和服的中年女性引入玄关。;
 石川家女佣: 石川先生临时有约，正在回程路上。;
@@ -494,12 +494,12 @@ changeFigure:none -id=uika脸 -next;
 changeFigure:none -id=uika后发 -next;
 changeFigure:none -id=uika身 -next;
 : 他们都没有再看我。;
-changeBg:角色生活地点/hello happy world/弦卷心家侧门（白天）.png -next;
+changeBg:角色生活地点/hello happy world/弦卷心家侧门（白天）.webp -next;
 : 仿佛刚才那场关于歌声、关于天赋、关于未来的短暂对话，只是一阵偶然吹过会客厅的风。;
 : 风停了，便了无痕迹。;
 changeBg:ai/初华4/公交站.webp -next;
 : 我慌忙离开了石川家，快步跑向前往花咲川的公交车站，等待起了公交车。;
-changeBg:自然风光/天空（烈日）.png;
+changeBg:自然风光/天空（烈日）.webp;
 changeBg:学校、工作/花咲川/花咲川校门（白天）.webp -next;
 bgm:夜的钢琴曲 26(Av249311501,P1).mp3;
 : 公交车缓缓停靠在花咲川学园附近的站台。;

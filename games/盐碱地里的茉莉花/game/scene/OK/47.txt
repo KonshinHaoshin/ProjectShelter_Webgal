@@ -51,7 +51,7 @@ changeBg:路边/街道5（白天）.webp -next;
 changeFigure:tomori/casual-2023/model.json -id=tomori -transform={"position":{"x":0,"y":0},"scale":{"x":0.8,"y":0.8}} -motion=tomori/surprised01 -expression=tomori/surprised01 -next;
 : 在前往RiNG的路上，她又收到了素世的信息，也是希望她来RiNG。;
 changeFigure:none -id=tomori -next;
-changeBg:演出、排练/RiNG/RiNG茶水区（白天）.png;
+changeBg:演出、排练/RiNG/RiNG茶水区（白天）.webp;
 changeFigure:tomori/casual-2023/model.json -id=tomori -transform={"position":{"x":-1000,"y":0},"scale":{"x":0.8,"y":0.8}} -motion=tomori/nf01 -expression=tomori/sad01 -next;
 : 她站在门口，像是误入陌生领地的小动物，手指紧张地揪着笔记本。;
 changeFigure:tomori/casual-2023/model.json -id=tomori -transform={"position":{"x":-1000,"y":0},"scale":{"x":0.8,"y":0.8}} -motion=tomori/nf_right01 -expression=tomori/sad01 -next;
@@ -104,7 +104,7 @@ changeBg:ai/70/2.webp -transform={"blur":10} -next;
 changeBg:ai/70/3.webp -transform={"blur":10} -next;
 : 以及最终一切分崩离析的痛苦回忆……
 : 无数画面碎片般冲击着她。;
-changeBg:演出、排练/RiNG/RiNG茶水区（白天）.png;
+changeBg:演出、排练/RiNG/RiNG茶水区（白天）.webp;
 changeFigure:tomori/casual-2023/model.json -id=tomori -transform={"position":{"x":-500,"y":0},"scale":{"x":0.8,"y":0.8}} -motion=tomori/nf01 -expression=tomori/sad02 -next;
 : 她嘴唇翕动，却发不出声音，最后只是将身体缩得更紧，摇了摇头，眼眶微微泛红。;
 changeFigure:tomori/casual-2023/model.json -id=tomori -transform={"position":{"x":-1000,"y":0},"scale":{"x":0.8,"y":0.8}} -motion=tomori/sad03 -expression=tomori/sad03 -next;

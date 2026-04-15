@@ -135,7 +135,10 @@ def update_scene_references(game_dir: Path) -> dict:
         original = content
 
         for cmd in SCENE_COMMANDS:
-            pattern = rf'({re.escape(cmd)})\s*([^\s\-\;]+?)(\.png|\.jpg|\.jpeg)(?=[\s\)\]"\']|$)'
+            # 匹配命令后面跟的图片文件，替换扩展名为 webp
+            # [^\r\n]+? 匹配一行中除换行外的所有字符（非贪婪）
+            pattern = rf'({re.escape(cmd)})\s*([^\r\n]+?)(\.png|\.jpg|\.jpeg)\b'
+            content = re.sub(pattern, lambda m: f"{m.group(1)}{m.group(2)}.webp", content)
             content = re.sub(pattern, lambda m: f"{m.group(1)}{m.group(2)}.webp", content)
 
         if content != original:

@@ -128,17 +128,10 @@ python optimize_resources.py
 
 转换后会自动更新场景文件中的引用，只处理 `changeBg:` 和 `changeFigure:` 命令。
 
-例如场景文件中的：
-```
-changeBg:bg_001.png
-changeFigure:eri_normal
-```
-
-会自动更新为：
-```
-changeBg:bg_001.webp
-changeFigure:eri_normal.webp
-```
+**支持的路径格式：**
+- 中文路径：`changeBg:background（3.1.0）/角色生活地点/ave mujica/祥子大宅卧室.png;`
+- 带 `-next` 后缀：`changeBg:background（3.1.0）/角色生活地点/ave mujica/祥子大宅外（下午）.png -next;`
+- 标准格式：`changeBg:bg_001.png`
 
 ## 完整示例
 

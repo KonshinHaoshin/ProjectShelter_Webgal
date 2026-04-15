@@ -1,11 +1,11 @@
-changeBg:J（未知地点）/J3.jpg;
+changeBg:J（未知地点）/J3.webp;
 intro:观前提示：|本人发癫二创，全是OOC和神人设定剧情，纯乐子向|背景和设定就是随便想的，没有任何逻辑！|请配合镜像观看！（来回搏斗沈核不下十次）|如有不适，只能说效果如此，感谢收看！|（其实是给自己的正文二创引流用的作品……）|（求求你们去看我的正文吧！我什么都会做的） -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
-changeBg:J（未知地点）/J6.png;
+changeBg:J（未知地点）/J6.webp;
 :……;
 bgm:free bird(Av113599754276360,P1).mp3;
 : 爱音和素世又吵架了，不过这次好像比以往更夸张，闹到三个学校的人都知道了。;
 : 据线人传报，故事是这样的：;
-changeBg:B（soyo家）/B20.jpg;
+changeBg:B（soyo家）/B20.webp;
 changeFigure:soyo/casual-2023/model.json -next -id=soyo -motion=sakiko/angry07 -expression=soyo/angry01 -transform={"position":{"x":600},"scale":{"x":0.8,"y":0.8}};
 长崎素世: 千早爱音！我都说了！你非要打什么轮符雨，你一晚上都没打过去！ -id -figureId=soyo;
 changeFigure:anon/casual-2023/model.json -next -id=anon -motion=anon/angry02 -expression=anon/angry01 -transform={"position":{"x":-600},"scale":{"x":0.8,"y":0.8}};
@@ -21,7 +21,7 @@ changeFigure: anon/casual-2023/model.json -id=anon -next -motion=soyo/angry03 -e
 千早爱音: 爬就爬！有本事下次别求我！我看谁还带你上榜！！！ -id -figureId=anon;
 changeFigure:none -next -id=soyo;
 changeFigure:none -id=anon;
-changeBg:H（花咲川）/H6.png;
+changeBg:H（花咲川）/H6.webp;
 bgm:rana(Av112711434242549,P1).mp3;
 changeFigure:taki/school_winter-2023/model.json -next -id=taki -motion=uika/maskon/serious01 -expression=taki/default -transform={"position":{"x":600},"scale":{"x":0.8,"y":0.8}};
 椎名立希: 我就知道这么多了……后面又说什么"工具"，回什么"都是你的问题！"……在之后太吵我没听清。 -id -figureId=taki;
@@ -39,7 +39,7 @@ changeFigure:umiri/school_winter-2023/model.json -next -id=umiri -motion=umiri/t
 changeFigure:none -next -id=uika;
 changeFigure:none -next -id=umiri;
 changeFigure:none -next -id=taki;
-changeBg:G（月之森）/G6.png;
+changeBg:G（月之森）/G6.webp;
 changeFigure:mutsumi/school_winter-2023/model.json -next -id=mutsumi -motion=anon/surprised01 -expression=rana/surprised01 -transform={"position":{"x":0},"scale":{"x":0.8,"y":0.8}};
 若叶睦: 我的冠军候选黄瓜怎么全被摘了？ -id -figureId=mutsumi;
 changeFigure:mutsumi/school_winter-2023/model.json -next -id=mutsumi -motion=mutsumi/mts/angry02 -expression=mutsumi/mts/angry02;
@@ -54,7 +54,7 @@ changeFigure:tomori/school_winter-2023/model.json -next -id=tomori -motion=tomor
 高松灯:好……爱音酱你小心…… -id -figureId=tomori;
 changeFigure:none -next -id=tomori;
 changeFigure: -id=anon;
-changeBg:R（未知的人家中）/R1.png;
+changeBg:R（未知的人家中）/R1.webp;
 changeFigure:nyamu/casual-2023/model.json -next -id=nyamu -motion=nyamu/nf01 -expression=nyamu/sad01 -transform={"position":{"x":600},"scale":{"x":0.8,"y":0.8}};
 祐天寺若麦:我说老大……你问我这个东西干嘛？我这玩意不可能多备的，怎么你…… -id -figureId=nyamu;
 changeFigure:sakiko/casual-2023/model.json -next -id=sakiko -motion=sakiko/angry03 -expression=sakiko/angry07 -transform={"position":{"x":-600},"scale":{"x":0.8,"y":0.8}};
@@ -73,7 +73,7 @@ changeFigure:nyamu/casual-2023/model.json -next -id=nyamu -motion=nyamu/nf01 -ex
 祐天寺若麦: 行吧……我去问问有没有吧，但是好不好用我可不敢保证哈…… -id -figureId=nyamu;
 changeFigure:none -next -id=nyamu;
 changeFigure: -id=sakiko;
-changeBg:E（live house）/E8.jpg;
+changeBg:E（live house）/E8.webp;
 changeFigure: rana/casual-2023/model.json -id=rana -next -motion=mutsumi/surprised02 -expression=taki/surprised01 -transform={"position":{"x":0},"scale":{"x":0.8,"y":0.8}};
 要乐奈:这个是什么？好上头！ -id -figureId=rana;
 changeFigure: ririko/037_casual-2023_rip/model.json -id=ririko -next -motion=nf04 -expression=smile04 -transform={"position":{"x":600},"scale":{"x":0.8,"y":0.8}};
@@ -82,7 +82,7 @@ changeFigure: rana/casual-2023/model.json -id=rana -next -motion=rana/surprised0
 要乐奈:爽！太爽！我还要！ -id -figureId=rana;
 changeFigure:none -next -id=rana;
 changeFigure: -id=ririko;
-changeBg:P（未知聚集地）/P4.png;
+changeBg:P（未知聚集地）/P4.webp;
 changeFigure:uika/sumimi/model.json -next -id=uika -motion=uika/nf_right01 -expression=uika/serious01 -transform={"position":{"x":0},"scale":{"x":0.8,"y":0.8}};
 三角初华:真奈，你有那个不一样的香水吗？ -id -figureId=uika;
 changeFigure:mana/sumimi/model.json -next -id=mana -motion=sakiko/surprised01 -expression=taki/surprised01 -transform={"position":{"x":600},"scale":{"x":0.8,"y":0.8}};
@@ -93,7 +93,7 @@ changeFigure: mana/sumimi/model.json -next -id=mana -next -motion=anon/thinking0
 纯田真奈:我去问问……这不好拿货呀…… -id -figureId=mana;
 changeFigure:none -next -id=mana;
 changeFigure: -id=uika;
-changeBg:J（未知地点）/J6.png;
+changeBg:J（未知地点）/J6.webp;
 : 由于连锁事件，三个乐队及其关联学校的日常运营都受到波及，演出日程暂停。;
 : 各校甚至发布了行为规范建议：希望学生注意社会影响评估。;
 : 以至于所有相关方开始互相进行根本原因分析……;
@@ -112,7 +112,7 @@ changeFigure:tomori/casual-2023/model.json -next -id=tomori -motion=tomori/nf_ri
 高松灯: 我在街上遇到爱音了，她有点奇怪！立希，我怎么办？ -id -figureId=tomori;
 changeFigure:none -next -id=tomori;
 changeFigure: -id=anon;
-changeBg:E（live house）/E8.jpg;
+changeBg:E（live house）/E8.webp;
 : 椎名立希放在柜台上的手机的消息，刚好被乐奈看到。
 changeFigure:rana/casual-2023/model.json -next -id=rana -motion=rana/nf02 -expression=rana/default -transform={"position":{"x":-600},"scale":{"x":0.8,"y":0.8}};
 要乐奈: 老大，有消息了喵，我先去找灯了喵。 -id -figureId=rana;
@@ -132,7 +132,7 @@ changeFigure: umiri/casual-2023/model.json -id=umiri -next -motion=sakiko/maskon
 椎名立希: 就现在！快！ -id -figureId=taki;
 changeFigure:none -next -id=umiri;
 : 八幡海铃于是立马狂奔去RiNG找立希汇合。;
-changeBg:E（live house）/E13.jpg;
+changeBg:E（live house）/E13.webp;
 bgm:ha ji mi qichuang(Av114973925709264,P1).mp3;
 changeFigure:nyamu/casual-2023/model.json -next -id=nyamu -motion=tomori/thinking02 -expression=nyamu/surprised01 -transform={"position":{"x":-700},"scale":{"x":0.8,"y":0.8}};
 祐天寺若麦:老大……你为什么要来这里…… -id -figureId=nyamu;
@@ -142,7 +142,7 @@ changeFigure:nyamu/casual-2023/model.json -next -id=nyamu -motion=nyamu/nf_right
 祐天寺若麦:我不知道就这玩意你为什么要藏着人……给你……老大…… -id -figureId=nyamu;
 changeFigure:none -next -id=nyamu;
 changeFigure: -id=sakiko;
-changeBg:K（生活地点）/K27.png;
+changeBg:K（生活地点）/K27.webp;
 changeFigure: uika/casual-2023/model.json -id=uika -next -motion=taki/smile02 -expression=umiri/smile03 -transform={"position":{"x":0},"scale":{"x":0.8,"y":0.8}};
 三角初华: 谢谢真奈，我先走了！晚点联系你！ -id -figureId=uika;
 changeFigure:mana/casual-2025/model.json -next -id=mana -motion=soyo/thinking01 -expression=umiri/default -transform={"position":{"x":600},"scale":{"x":0.8,"y":0.8}};
@@ -153,7 +153,7 @@ changeFigure:mana/casual-2025/model.json -next -id=mana -motion=anon/surprised01
 纯田真奈:啊？？！！ -id -figureId=mana;
 changeFigure:none -next -id=mana;
 changeFigure: -id=uika;
-changeBg:E（live house）/E13.jpg;
+changeBg:E（live house）/E13.webp;
 bgm:JackeyLove(Av359986091,P1).mp3;
 changeFigure:sakiko/casual-2023/model.json -next -id=sakiko -motion=nyamu/maskon/surprised02 -expression=sakiko/smile02 -transform={"position":{"x":-500},"scale":{"x":0.8,"y":0.8}};
 丰川祥子:对的！对的！就是这个味道！她们说的没错，确实能让自己的脑子清醒！  -id -figureId=sakiko;
@@ -334,9 +334,9 @@ changeFigure:none -next -id=rana;
 changeFigure:none -next -id=mana;
 changeFigure:none -next -id=umiri;
 : 于是，在场所有人都有些晕过去了……;
-changeBg:J（未知地点）/J6.png;
+changeBg:J（未知地点）/J6.webp;
 : 次日，工作人员和警察找到了众人，sumimi立马声明此事和真奈无关。;
-changeBg:ai/chou xiang yong/1.png;
+changeBg:ai/chou xiang yong/1.webp;
 changeFigure:mana/sumimi/model.json -next -id=mana -motion=anon/surprised01 -expression=anon/surprised01 -transform={"position":{"x":0},"scale":{"x":0.8,"y":0.8}};
 纯田真奈: 她们只是在KTV里集体冲榜打邦邦而已呀！我昨天也冲榜了呀！你周末不冲榜难道上班冲榜呀？！ -id -figureId=mana;
 记者/媒体:你说这个谁懂呀？！;

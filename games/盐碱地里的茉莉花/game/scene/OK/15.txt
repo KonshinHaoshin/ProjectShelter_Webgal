@@ -16,7 +16,7 @@ changeFigure:anon/school_summer-2023/model.json -next -id=anon -motion=umiri/smi
 changeFigure:anon/school_summer-2023/model.json -next -id=anon -motion=anon/nf_left01 -expression=anon/sad01 -transform={"position":{"x":700,"y":0},"scale":{"x":0.8,"y":0.8}};
 : 爱音拿出了手机，看了看祥子拉起的新群聊，名字暂定为：排练交流群。;
 changeFigure: -next -id=anon;
-changeFigure:liao tian dui hua/27/1.png -next;
+changeFigure:liao tian dui hua/27/1.webp -next;
 : 祥子在昨晚十点钟时发来消息：“明天暂停训练，后天照常训练，请勿跑空CiRCLE。”
 下方整齐的“收到”像无形的壁垒。;
 changeFigure: -next;
@@ -28,13 +28,13 @@ changeFigure:anon/school_summer-2023/model.json -next -id=anon -motion=soyo/nf02
 changeFigure:anon/school_summer-2023/model.json -next -id=anon -motion=anon/nf01 -expression=anon/sad01 -transform={"position":{"x":700,"y":0},"scale":{"x":0.8,"y":0.8}};
 千早爱音: 还是回家的时候去便利店买点创可贴吧。 -id -figureId=anon;
 : 说完，起身前往了洗手间。;
-changeBg:学校、工作/羽丘/羽丘走廊（白天）.png;
-changeBg:学校、工作/羽丘/羽丘教室（白天）.png;
+changeBg:学校、工作/羽丘/羽丘走廊（白天）.webp;
+changeBg:学校、工作/羽丘/羽丘教室（白天）.webp;
 : 洗完了手回到了教室，爱音看到了桌上多了几张印着企鹅图案的创可贴，样式可爱却陌生。;
 changeFigure:anon/school_summer-2023/model.json -next -id=anon -motion=soyo/nf01 -expression=anon/sad01 -transform={"position":{"x":700,"y":0},"scale":{"x":0.8,"y":0.8}};
 : 她看向前座空着的座位，默默将这份无声的关怀收进口袋。;
 changeFigure:none -id=anon;
-changeBg:学校、工作/羽丘/羽丘走廊（白天）.png;
+changeBg:学校、工作/羽丘/羽丘走廊（白天）.webp;
 羽丘学生: 不好意思爱音！刚好我家里人叫我回家一起吃饭！说是有重要的客人，我要先回家帮忙了！实在对不起爱音！;
 changeFigure:anon/school_summer-2023/model.json -next -id=anon -motion=anon/smile02 -expression=anon/smile01 -transform={"position":{"x":700,"y":0},"scale":{"x":0.8,"y":0.8}};
 千早爱音: 没事的没事的，家里人既然叫了就赶紧回去吧！水果茶什么时候都能喝的！别让家里人担心你！ -id -figureId=anon;
@@ -47,7 +47,7 @@ changeFigure:anon/school_summer-2023/model.json -next -id=anon -motion=anon/nf02
 changeFigure:anon/school_summer-2023/model.json -next -id=anon -motion=anon/nf04 -expression=anon/smile01 -transform={"position":{"x":700,"y":0},"scale":{"x":0.8,"y":0.8}};
 千早爱音: 好的，谢谢！ -id -figureId=anon;
 : 爱音感谢了值日的同学，接过了那张笔记本纸，打开看了看纸上有什么东西。;
-changeBg:ai/27/简笔画.png;
+changeBg:ai/27/简笔画.webp;
 : 纸上画着一只蜷缩在草堆里、神态疲惫的小动物，旁边树上停着一只小鸟，正怯生生地望向下方。;
 : 角落有一行小字：「我不知道如何开口，也不知道如何面对。」;
 changeFigure:anon/school_summer-2023/model.json -next -id=anon -motion=anon/nf01 -expression=anon/sad01 -transform={"position":{"x":700,"y":0},"scale":{"x":0.8,"y":0.8}};
@@ -105,12 +105,12 @@ changeFigure:anon/school_summer-2023/model.json -next -id=anon -motion=umiri/thi
 changeFigure:anon/school_summer-2023/model.json -next -id=anon -motion=anon/nf01 -expression=anon/sad01 -transform={"position":{"x":700,"y":0},"scale":{"x":0.8,"y":0.8}};
 : 她深吸一口气，拿出手机。;
 :向初华发送了短信。;
-changeFigure:liao tian dui hua/27/2.png -next;
+changeFigure:liao tian dui hua/27/2.webp -next;
 千早爱音:（初华，现在有空吗？我想见你一面。）;
 :初华很快回复了消息：
-changeFigure:liao tian dui hua/27/3.png -next;
+changeFigure:liao tian dui hua/27/3.webp -next;
 三角初华:（今天下午没什么事情，可以见一面，在哪碰头？）;
-changeFigure:liao tian dui hua/27/4.png -next;
+changeFigure:liao tian dui hua/27/4.webp -next;
 changeFigure:anon/school_summer-2023/model.json -next -id=anon -motion=anon/nf_left01 -expression=anon/smile01 -transform={"position":{"x":700,"y":0},"scale":{"x":0.8,"y":0.8}};
 千早爱音: (就在羽泽咖啡店吧！ );
 changeFigure:none -next -id=anon;
