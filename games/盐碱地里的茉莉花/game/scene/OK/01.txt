@@ -510,7 +510,7 @@ changeBg:ai/1-2/7.webp -next;
 : 立希不再纠缠素世，恶狠狠地“啧”了一下。;
 她知道了素世的答案，虽然不是她想要的，但她知道了素世的态度。;
 椎名立希: 希望你不要后悔你说的话。 -id -figureId=taki;
-changeBg:G（月之森）/G2.webp -next;
+changeBg:学校、工作/月之森/月之森走廊（白天）.webp -next;
 : 说完，立希离开了场馆。;
 changeFigure:soyo/school_winter-2023/model.json -next -id=soyo -motion=soyo/nf01 -expression=soyo/cry01 -transform={"position":{"x":800},"scale":{"x":0.8,"y":0.8}};
 : 素世依旧低着头，沉重的关门声像最终判决。;
