@@ -14,6 +14,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Prepare deploy bundle
+        run: |
+          mkdir -p .deploy
+          rsync -av --delete \
+            --exclude '.git/' \
+            --exclude '.github/' \
+            --exclude '.claude/' \
+            --exclude '.deploy/' \
+            --exclude 'webgal_resource_analyzer/' \
+            ./ .deploy/
+
       - name: Upload to COS
         uses: TencentCloud/cos-action@v1
         with:
@@ -21,16 +32,14 @@ jobs:
           secret_key: ${{ secrets.TENCENT_SECRET_KEY }}
           cos_bucket: shelter-1386441538
           cos_region: ap-chengdu
-          local_path: ./
+          local_path: .deploy
           remote_path: /webgal/
           clean: true
 
       - name: Refresh CDN Cache
-        run: |
-          curl -X POST \
-            -H "Content-Type: application/json" \
-            -H "Authorization: ${{ secrets.TENCENT_SECRET_KEY }}" \
-            -d '{
-              "urls": ["https://webgal.shelter.net.cn/webgal/"]
-            }' \
-            "https://cdn.tencentcloudapi.com/?Action=RefreshCdnUrl&Region=ap-chengdu&Sign=&Nonce=1&Timestamp=&SecretId=${{ secrets.TENCENT_SECRET_ID }}&UrlList.0=https://webgal.shelter.net.cn/webgal/"
+        uses: TencentCloud/cdn-refresh-action@v1
+        with:
+          secret_id: ${{ secrets.TENCENT_SECRET_ID }}
+          secret_key: ${{ secrets.TENCENT_SECRET_KEY }}
+          urls: |
+            https://webgal.shelter.net.cn/webgal/
