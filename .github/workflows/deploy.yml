@@ -9,10 +9,17 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    env:
+      COSCMD_CONFIG: ${{ runner.temp }}/cos.conf
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
 
       - name: Prepare deploy bundle
         run: |
@@ -25,14 +32,58 @@ jobs:
             --exclude 'webgal_resource_analyzer/' \
             ./ .deploy/
 
-      - name: Upload to COS and Refresh CDN
-        uses: sylingd/tencent-cos-and-cdn-action@v1.5.1
-        with:
-          secret_id: ${{ secrets.TENCENT_SECRET_ID }}
-          secret_key: ${{ secrets.TENCENT_SECRET_KEY }}
-          cos_bucket: shelter-1386441538
-          cos_region: ap-chengdu
-          local_path: .deploy
-          remote_path: webgal
-          cdn_prefix: https://webgal.shelter.net.cn/webgal/
-          clean: true
+      - name: Install deployment tools
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install coscmd tencentcloud-sdk-python-common tencentcloud-sdk-python-cdn
+
+      - name: Configure COSCMD
+        env:
+          SECRET_ID: ${{ secrets.TENCENT_SECRET_ID }}
+          SECRET_KEY: ${{ secrets.TENCENT_SECRET_KEY }}
+        run: |
+          coscmd -c "$COSCMD_CONFIG" config \
+            -a "$SECRET_ID" \
+            -s "$SECRET_KEY" \
+            -b "shelter-1386441538" \
+            -r "ap-chengdu" \
+            -m 2
+
+      - name: Upload to COS
+        run: |
+          coscmd -c "$COSCMD_CONFIG" upload -rs --delete .deploy webgal
+
+      - name: Refresh CDN Cache
+        env:
+          SECRET_ID: ${{ secrets.TENCENT_SECRET_ID }}
+          SECRET_KEY: ${{ secrets.TENCENT_SECRET_KEY }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+
+          from tencentcloud.cdn.v20180606 import cdn_client, models
+          from tencentcloud.common import credential
+          from tencentcloud.common.profile.client_profile import ClientProfile
+          from tencentcloud.common.profile.http_profile import HttpProfile
+
+          cred = credential.Credential(os.environ["SECRET_ID"], os.environ["SECRET_KEY"])
+          http_profile = HttpProfile()
+          http_profile.endpoint = "cdn.tencentcloudapi.com"
+          client_profile = ClientProfile()
+          client_profile.httpProfile = http_profile
+
+          client = cdn_client.CdnClient(cred, "", client_profile)
+          request = models.PurgePathCacheRequest()
+          request.from_json_string(
+              json.dumps(
+                  {
+                      "Paths": ["https://webgal.shelter.net.cn/webgal/"],
+                      "FlushType": "flush",
+                  }
+              )
+          )
+
+          response = client.PurgePathCache(request)
+          print(response.to_json_string())
+          PY
