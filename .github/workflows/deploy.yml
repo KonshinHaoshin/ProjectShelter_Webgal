@@ -10,7 +10,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     env:
-      COSCMD_CONFIG: ${{ runner.temp }}/cos.conf
+      COSCMD_CONFIG: .cos.conf
 
     steps:
       - name: Checkout
