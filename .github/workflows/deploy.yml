@@ -25,21 +25,14 @@ jobs:
             --exclude 'webgal_resource_analyzer/' \
             ./ .deploy/
 
-      - name: Upload to COS
-        uses: TencentCloud/cos-action@v1
+      - name: Upload to COS and Refresh CDN
+        uses: sylingd/tencent-cos-and-cdn-action@v1.5.1
         with:
           secret_id: ${{ secrets.TENCENT_SECRET_ID }}
           secret_key: ${{ secrets.TENCENT_SECRET_KEY }}
           cos_bucket: shelter-1386441538
           cos_region: ap-chengdu
           local_path: .deploy
-          remote_path: /webgal/
+          remote_path: webgal
+          cdn_prefix: https://webgal.shelter.net.cn/webgal/
           clean: true
-
-      - name: Refresh CDN Cache
-        uses: TencentCloud/cdn-refresh-action@v1
-        with:
-          secret_id: ${{ secrets.TENCENT_SECRET_ID }}
-          secret_key: ${{ secrets.TENCENT_SECRET_KEY }}
-          urls: |
-            https://webgal.shelter.net.cn/webgal/
